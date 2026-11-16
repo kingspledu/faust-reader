@@ -1,0 +1,32 @@
+[
+  {
+    "path": "C:\\Users\\고보민\\Downloads\\codex\\listening test\\faust-reader\\chapter-01.html",
+    "paired_scenes": 16,
+    "source_and_translation_preserved": true
+  },
+  {
+    "path": "C:\\Users\\고보민\\Downloads\\codex\\listening test\\faust-reader\\chapter-02.html",
+    "paired_scenes": 23,
+    "source_and_translation_preserved": true
+  },
+  {
+    "path": "C:\\Users\\고보민\\Downloads\\codex\\listening test\\faust-reader\\chapter-03.html",
+    "paired_scenes": 14,
+    "source_and_translation_preserved": true
+  },
+  {
+    "path": "C:\\Users\\고보민\\Downloads\\codex\\listening test\\faust-reader\\dist\\chapter-01.html",
+    "paired_scenes": 16,
+    "source_and_translation_preserved": true
+  },
+  {
+    "path": "C:\\Users\\고보민\\Downloads\\codex\\listening test\\faust-reader\\dist\\chapter-02.html",
+    "paired_scenes": 23,
+    "source_and_translation_preserved": true
+  },
+  {
+    "path": "C:\\Users\\고보민\\Downloads\\codex\\listening test\\faust-reader\\dist\\chapter-03.html",
+    "paired_scenes": 14,
+    "source_and_translation_preserved": true
+  }
+]
