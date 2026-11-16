@@ -1,0 +1,16 @@
+﻿from pathlib import Path
+p=Path('faust-reader/build_art_bible.py');s=p.read_text(encoding='utf-8-sig')
+insert='''
+translations = {
+'DIREKTOR':'극장 지배인','DICHTER':'극작가 / 시인','LUSTIGE PERSON':'희극 배우','RAPHAEL':'대천사 라파엘','GABRIEL':'대천사 가브리엘','MICHAEL':'대천사 미카엘','DER HERR':'주 / 하느님','GEIST':'지령 · 대지의 정령','CHOR DER ENGEL':'천사들의 합창','CHOR DER WEIBER':'여인들의 합창','CHOR DER JÜNGER':'제자들의 합창','EINIGE HANDWERKSBURSCHE':'직공 청년들','ANDRE':'다른 이 / 다른 무리 · 문맥별 상이','DIE ERSTEN':'첫 번째 무리','EIN HANDWERKSBURSCH':'첫 직공 청년','ZWEITER':'두 번째 직공 청년','DIE ZWEITEN':'두 번째 무리','EIN DRITTER':'세 번째 직공 청년','VIERTER':'네 번째 직공 청년','FÜNFTER':'다섯 번째 직공 청년','DIENSTMÄDCHEN':'하녀','ERSTE':'첫 번째 하녀','SCHÜLER':'학생','BÜRGERMÄDCHEN':'시민 집안의 처녀','ZWEITER SCHÜLER':'두 번째 학생','ERSTER':'첫 번째 학생','BÜRGER':'첫 번째 시민','BETTLER':'거지','ANDRER BÜRGER':'두 번째 시민','DRITTER BÜRGER':'세 번째 시민','ALTE':'늙은 여자','DIE ANDRE':'또 다른 시민 처녀 · 아가테로 불림','SOLDATEN':'군인들','ALTER BAUER':'늙은 농부','GEISTER':'정령들','GEISTERCHOR':'정령들의 합창','FROSCH':'프로슈','BRANDER':'브란더','SIEBEL':'지벨','ALTMAYER':'알트마이어','DIE TIERE':'마녀 부엌의 동물들','DER KATER':'수컷 원숭이 · Kater 표기','KATER UND KÄTZIN':'수컷·암컷 원숭이 공동 발화','DIE HEXE':'마녀','BÖSER GEIST':'악령','IRRLICHT':'도깨비불 · 산길 안내자','HEXEN':'마녀들','STIMME':'목소리','CHOR':'합창','HEXEN, CHOR':'마녀 합창','HEXENMEISTER, HALBER CHOR':'마법사들 · 반쪽 합창','ANDERE HÄLFTE':'나머지 반쪽 합창','STIMMEN':'여러 목소리','BEIDE CHÖRE':'두 합창단 함께','HALBHEXE':'반쪽 마녀','CHOR DER HEXEN':'마녀들의 합창','GENERAL':'장군','MINISTER':'대신','PARVENÜ':'벼락출세자','AUTOR':'작가','TRÖDELHEXE':'잡동사니 파는 마녀','DIE SCHÖNE':'젊고 아름다운 춤 상대','DIE ALTE':'늙은 춤 상대','PROKTOPHANTASMIST':'프로크토판타스미스트 · 유령 비판자','SERVIBILIS':'세르비빌리스 · 공연 안내자','THEATERMEISTER':'극장 감독','HEROLD':'전령','OBERON':'오베론','PUCK':'퍽','ARIEL':'아리엘','TITANIA':'티타니아','ORCHESTER TUTTI':'오케스트라 총주','SOLO':'독주 / 독창','GEIST, DER SICH ERST BILDET':'형성되고 있는 정령','EIN PÄRCHEN':'한 쌍의 연인','NEUGIERIGER REISENDER':'호기심 많은 여행자','ORTHODOX':'정통주의자','NORDISCHER KÜNSTLER':'북방 예술가','PURIST':'순수주의자','JUNGE HEXE':'젊은 마녀','MATRONE':'나이 든 부인','KAPELLMEISTER':'악장','WINDFAHNE':'풍향계 · 변덕의 의인화','XENIEN':'크세니엔 · 풍자시들의 의인화','HENNINGS':'헤닝스 · 풍자극 배역','MUSAGET':'무사게트 · 뮤즈의 인도자','CI-DEVANT GENIUS DER ZEIT':'한때 시대의 천재였던 자','KRANICH':'두루미','WELTKIND':'세속의 자식','TÄNZER':'무용수','TANZMEISTER':'무용 교사','FIEDLER':'바이올린 연주자','DOGMATIKER':'독단주의자','IDEALIST':'관념론자','REALIST':'실재론자','SUPERNATURALIST':'초자연주의자','SKEPTIKER':'회의론자','DIE GEWANDTEN':'재주 좋은 무리','DIE UNBEHILFLICHEN':'서투른 무리','IRRLICHTER':'도깨비불들','STERNSCHNUPPE':'별똥별','DIE MASSIVEN':'육중한 무리','ORCHESTER':'오케스트라','VOLK':'민중 / 군중','ZU DREI':'세 대천사의 공동 발화','ALLE':'모두 함께','CHORUS':'술집 손님들의 합창','FAUST, MEPHISTOPHELES, IRRLICHT':'파우스트·메피스토펠레스·도깨비불 공동 발화'
+}
+for name,ko in translations.items():
+ labels.setdefault(name,(ko,'환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.' if any(r['name']==name and 24 in r['scenes'] for r in roles.values()) else '원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.',''))
+# These speech cues designate groups or speakers already listed; they are not new individuals.
+for r in roles.values():
+ if r['name'] in ['ALLE','ZU DREI','FAUST, MEPHISTOPHELES, IRRLICHT','BEIDE CHÖRE','ANDERE HÄLFTE','CHORUS','KATER UND KÄTZIN']:
+  r['type']='공동 발화 · 독립 인물 아님'
+ if r['name']=='STIMME' and r['scenes']==[27]:r['type']='위에서 들리는 구원의 목소리'
+'''
+s=s.replace('cards=[]',insert+'\ncards=[]')
+p.write_text(s,encoding='utf-8')

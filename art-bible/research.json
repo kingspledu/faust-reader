@@ -1,0 +1,1183 @@
+{
+  "scope": "Faust Part I, Gutenberg 2229",
+  "roles": [
+    {
+      "name": "DIREKTOR",
+      "scenes": [
+        1
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "DICHTER",
+      "scenes": [
+        1
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "LUSTIGE PERSON",
+      "scenes": [
+        1
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "RAPHAEL",
+      "scenes": [
+        2
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "GABRIEL",
+      "scenes": [
+        2
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "MICHAEL",
+      "scenes": [
+        2
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ZU DREI",
+      "scenes": [
+        2
+      ],
+      "type": "공동 발화 · 독립 인물 아님"
+    },
+    {
+      "name": "MEPHISTOPHELES",
+      "scenes": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        21,
+        23,
+        25,
+        26,
+        27
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "DER HERR",
+      "scenes": [
+        2
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "FAUST",
+      "scenes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        18,
+        21,
+        23,
+        25,
+        26,
+        27
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "GEIST",
+      "scenes": [
+        3
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "WAGNER",
+      "scenes": [
+        3,
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "CHOR DER ENGEL",
+      "scenes": [
+        3
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "CHOR DER WEIBER",
+      "scenes": [
+        3
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "CHOR DER JÜNGER",
+      "scenes": [
+        3
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "EINIGE HANDWERKSBURSCHE",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ANDRE",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "DIE ERSTEN",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "EIN HANDWERKSBURSCH",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ZWEITER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "DIE ZWEITEN",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "EIN DRITTER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "VIERTER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "FÜNFTER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "DIENSTMÄDCHEN",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ERSTE",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "SCHÜLER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "BÜRGERMÄDCHEN",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ZWEITER SCHÜLER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ERSTER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "BÜRGER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "BETTLER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ANDRER BÜRGER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "DRITTER BÜRGER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ALTE",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "DIE ANDRE",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "SOLDATEN",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ALTER BAUER",
+      "scenes": [
+        4
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ALLE",
+      "scenes": [
+        4
+      ],
+      "type": "공동 발화 · 독립 인물 아님"
+    },
+    {
+      "name": "GEISTER",
+      "scenes": [
+        5
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "GEISTERCHOR",
+      "scenes": [
+        6
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "SCHÜLER",
+      "scenes": [
+        6
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "FROSCH",
+      "scenes": [
+        7
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "BRANDER",
+      "scenes": [
+        7
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "SIEBEL",
+      "scenes": [
+        7
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ALTMAYER",
+      "scenes": [
+        7
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "CHORUS",
+      "scenes": [
+        7
+      ],
+      "type": "공동 발화 · 독립 인물 아님"
+    },
+    {
+      "name": "ALLE",
+      "scenes": [
+        7
+      ],
+      "type": "공동 발화 · 독립 인물 아님"
+    },
+    {
+      "name": "DIE TIERE",
+      "scenes": [
+        8
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "DER KATER",
+      "scenes": [
+        8
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "KATER UND KÄTZIN",
+      "scenes": [
+        8
+      ],
+      "type": "공동 발화 · 독립 인물 아님"
+    },
+    {
+      "name": "DIE HEXE",
+      "scenes": [
+        8
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "MARGARETE / GRETCHEN",
+      "scenes": [
+        9,
+        10,
+        12,
+        14,
+        15,
+        17,
+        18,
+        19,
+        21,
+        22,
+        27
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "MARTHE",
+      "scenes": [
+        12,
+        14,
+        15,
+        21
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "LIESCHEN",
+      "scenes": [
+        19
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "VALENTIN",
+      "scenes": [
+        21
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "VOLK",
+      "scenes": [
+        21
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "BÖSER GEIST",
+      "scenes": [
+        22
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "CHOR",
+      "scenes": [
+        22
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "IRRLICHT",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "FAUST, MEPHISTOPHELES, IRRLICHT",
+      "scenes": [
+        23
+      ],
+      "type": "공동 발화 · 독립 인물 아님"
+    },
+    {
+      "name": "HEXEN",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "STIMME",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "CHOR",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "HEXEN, CHOR",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "HEXENMEISTER, HALBER CHOR",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "ANDERE HÄLFTE",
+      "scenes": [
+        23
+      ],
+      "type": "공동 발화 · 독립 인물 아님"
+    },
+    {
+      "name": "STIMMEN",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "BEIDE CHÖRE",
+      "scenes": [
+        23
+      ],
+      "type": "공동 발화 · 독립 인물 아님"
+    },
+    {
+      "name": "HALBHEXE",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "CHOR DER HEXEN",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "GENERAL",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "MINISTER",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "PARVENÜ",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "AUTOR",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "TRÖDELHEXE",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "DIE SCHÖNE",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "DIE ALTE",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "PROKTOPHANTASMIST",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "SERVIBILIS",
+      "scenes": [
+        23
+      ],
+      "type": "대사 배역 / 집단"
+    },
+    {
+      "name": "THEATERMEISTER",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "HEROLD",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "OBERON",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "PUCK",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "ARIEL",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "TITANIA",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "ORCHESTER TUTTI",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "SOLO",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "GEIST, DER SICH ERST BILDET",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "EIN PÄRCHEN",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "NEUGIERIGER REISENDER",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "ORTHODOX",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "NORDISCHER KÜNSTLER",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "PURIST",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "JUNGE HEXE",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "MATRONE",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "KAPELLMEISTER",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "WINDFAHNE",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "XENIEN",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "HENNINGS",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "MUSAGET",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "CI-DEVANT GENIUS DER ZEIT",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "KRANICH",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "WELTKIND",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "TÄNZER",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "TANZMEISTER",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "FIEDLER",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "DOGMATIKER",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "IDEALIST",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "REALIST",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "SUPERNATURALIST",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "SKEPTIKER",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "DIE GEWANDTEN",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "DIE UNBEHILFLICHEN",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "IRRLICHTER",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "STERNSCHNUPPE",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "DIE MASSIVEN",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "ORCHESTER",
+      "scenes": [
+        24
+      ],
+      "type": "환상극 배역"
+    },
+    {
+      "name": "STIMME",
+      "scenes": [
+        27
+      ],
+      "type": "위에서 들리는 구원의 목소리"
+    },
+    {
+      "name": "릴리트 · Lilith",
+      "scenes": [
+        23
+      ],
+      "type": "무대에 보이는 인물 · 대사 없음"
+    },
+    {
+      "name": "그레트헨의 환영",
+      "scenes": [
+        23
+      ],
+      "type": "마법의 환영 · 실제 그레트헨과 구분"
+    },
+    {
+      "name": "검은 푸들",
+      "scenes": [
+        4
+      ],
+      "type": "메피스토펠레스의 변신 형태 · 별도 인물 아님"
+    },
+    {
+      "name": "암컷 원숭이와 새끼들 · Kätzin / Junge",
+      "scenes": [
+        8
+      ],
+      "type": "무대지시의 동물 무리"
+    },
+    {
+      "name": "천상의 군대 · himmlische Heerscharen",
+      "scenes": [
+        2
+      ],
+      "type": "무대지시의 집단"
+    },
+    {
+      "name": "성문 밖 농민들과 춤추는 사람들",
+      "scenes": [
+        4
+      ],
+      "type": "무대지시의 군중"
+    },
+    {
+      "name": "대성당의 회중",
+      "scenes": [
+        22
+      ],
+      "type": "무대지시의 집단"
+    },
+    {
+      "name": "검은 말 두 마리",
+      "scenes": [
+        26
+      ],
+      "type": "무대지시의 동물"
+    },
+    {
+      "name": "처형장 주변 마녀 무리",
+      "scenes": [
+        26
+      ],
+      "type": "관찰되는 집단"
+    }
+  ],
+  "places": [
+    {
+      "name": "극장",
+      "description": "서막의 대화 공간",
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "name": "천상",
+      "description": "주와 천사들, 메피스토펠레스의 대화",
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "name": "파우스트의 서재",
+      "description": "높은 궁륭의 좁은 고딕 방. 연구·소환·계약 공간",
+      "scenes": [
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "성문 밖과 마을 들판",
+      "description": "부활절 산책, 강과 언덕, 보리수 아래 농민들의 춤",
+      "scenes": [
+        4
+      ]
+    },
+    {
+      "name": "아우어바흐 지하 술집 · 라이프치히",
+      "description": "술자리와 마술 장면",
+      "scenes": [
+        7
+      ]
+    },
+    {
+      "name": "마녀의 부엌",
+      "description": "화덕·솥·거울·기묘한 동물의 공간",
+      "scenes": [
+        8
+      ]
+    },
+    {
+      "name": "도시의 거리",
+      "description": "첫 만남 및 두 번째 거리. 정확히 같은 지점인지는 미확정",
+      "scenes": [
+        9,
+        13
+      ]
+    },
+    {
+      "name": "그레트헨의 방",
+      "description": "작은 정돈된 방과 물레. 재등장 공간으로 통합",
+      "scenes": [
+        10,
+        17
+      ]
+    },
+    {
+      "name": "산책길",
+      "description": "별도 장면 제목만 제시. 세부 지형은 미정",
+      "scenes": [
+        11
+      ]
+    },
+    {
+      "name": "마르테의 집",
+      "description": "이웃의 집",
+      "scenes": [
+        12
+      ]
+    },
+    {
+      "name": "정원",
+      "description": "Garten의 정원. 마르테의 정원과 동일 공간으로 연출할 수 있으나 제목만으로 확정하지 않음",
+      "scenes": [
+        14
+      ]
+    },
+    {
+      "name": "정원의 작은 정자",
+      "description": "정원 내부의 작은 공간",
+      "scenes": [
+        15
+      ]
+    },
+    {
+      "name": "숲과 동굴",
+      "description": "자연 속 독백 공간",
+      "scenes": [
+        16
+      ]
+    },
+    {
+      "name": "마르테의 정원",
+      "description": "종교와 사랑에 관한 대화",
+      "scenes": [
+        18
+      ]
+    },
+    {
+      "name": "공동 우물",
+      "description": "리스헨과 그레트헨의 대화",
+      "scenes": [
+        19
+      ]
+    },
+    {
+      "name": "성벽 안쪽 통로와 성모상 감실 · Zwinger",
+      "description": "꽃으로 장식된 성모상 앞 기도",
+      "scenes": [
+        20
+      ]
+    },
+    {
+      "name": "그레트헨 집 앞 밤거리",
+      "description": "발렌틴과 충돌하는 외부 공간",
+      "scenes": [
+        21
+      ]
+    },
+    {
+      "name": "대성당",
+      "description": "예배·회중·성가와 악령의 목소리",
+      "scenes": [
+        22
+      ]
+    },
+    {
+      "name": "하르츠 산맥의 브로켄 접근로와 축제터",
+      "description": "원문은 Schierke와 Elend 일대도 지정. 산길·불·춤·장터·극장 구역",
+      "scenes": [
+        23
+      ]
+    },
+    {
+      "name": "산 위 환상극 무대",
+      "description": "극중극. 산과 축축한 계곡이 무대 배경",
+      "scenes": [
+        24
+      ]
+    },
+    {
+      "name": "흐린 날의 들판",
+      "description": "그레트헨의 투옥을 두고 벌어지는 대화",
+      "scenes": [
+        25
+      ]
+    },
+    {
+      "name": "밤의 탁 트인 들판과 처형장 부근",
+      "description": "Rabenstein 주변 마녀 무리를 지나감",
+      "scenes": [
+        26
+      ]
+    },
+    {
+      "name": "감옥",
+      "description": "철문·축축한 벽·짚·사슬·등불",
+      "scenes": [
+        27
+      ]
+    }
+  ],
+  "offstage": [
+    [
+      "그레트헨의 어머니",
+      "직접 무대에 등장하지 않음. 약과 죽음에 관한 대사"
+    ],
+    [
+      "그레트헨의 어린 여동생",
+      "이미 죽은 가족. 양육에 관한 회상"
+    ],
+    [
+      "파우스트와 그레트헨의 아기",
+      "감옥 장면에서 죽음과 물에 관한 언급"
+    ],
+    [
+      "파우스트의 아버지",
+      "성문 밖에서 의술·연금술을 회상"
+    ],
+    [
+      "마르테의 남편",
+      "메피스토펠레스의 사망 소식과 증언 이야기"
+    ],
+    [
+      "베르벨헨 · Bärbelchen",
+      "우물가 소문의 대상"
+    ],
+    [
+      "한스 립 · Hans Lipp",
+      "술집에서 언급되는 사람"
+    ],
+    [
+      "지벨의 연인",
+      "술자리 대사 속 인물"
+    ],
+    [
+      "그레트헨 어머니에게 보석을 받은 성직자",
+      "무대 밖 사건으로 보고됨"
+    ],
+    [
+      "감옥의 간수와 사형집행인",
+      "구출 계획 및 그레트헨의 공포 속 언급"
+    ],
+    [
+      "툴레의 왕과 연인",
+      "그레트헨의 노래 속 인물"
+    ],
+    [
+      "브란더 노래의 쥐 / 메피스토펠레스 노래의 왕과 벼룩",
+      "노래 속 존재. 본편의 실재 배역과 구분"
+    ],
+    [
+      "그리스도·마리아·아담·메두사·페르세우스·오르페우스 등",
+      "성가·기도·신화적 비유 속 존재. 독립 등장인물로 합산하지 않음"
+    ]
+  ],
+  "mentioned_places": [
+    "Jägerhaus(사냥꾼의 집), Mühle(물레방앗간), Wasserhof, Burgdorf — 성문 밖 행선지 대사",
+    "이탈리아·Neapel(나폴리) — 마르테 남편 이야기",
+    "Türkei(튀르키예) — 시민의 전쟁 이야기",
+    "Tegel — 유령 논쟁 풍자 대사",
+    "Prater — 축제 공간의 비교",
+    "Parnaß, Rosenhügel, Sanssouci — 환상극의 비유·명명·행선지 표현",
+    "Thule, 바다와 성 — 노래 속 공간",
+    "Hölle, Paradies, 연옥 등 — 종교·비유적 공간",
+    "그레트헨이 떠올리는 연못·무덤·집 — 기억과 환각의 공간; 현장 무대와 구분"
+  ]
+}
