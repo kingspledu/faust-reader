@@ -1,0 +1,75 @@
+{
+  "chapter": 3,
+  "status": "draft_translation",
+  "note": "독일어 원문에서 새로 작성한 구간별 한국어 번역 초안. 기존 번역 전재 아님.",
+  "segments": [
+    {
+      "source": "",
+      "ko": ""
+    },
+    {
+      "source": "Der Herr. Die himmlischen Heerscharen. Nachher Mephistopheles.\nDie drei Erzengel treten vor.\n\nRAPHAEL.\n",
+      "ko": "주. 천상의 군대. 뒤이어 메피스토펠레스.\n세 대천사가 앞으로 나선다.\n\n라파엘"
+    },
+    {
+      "source": "Die Sonne tönt, nach alter Weise,\nIn Brudersphären Wettgesang,\nUnd ihre vorgeschriebne Reise\nVollendet sie mit Donnergang.\nIhr Anblick gibt den Engeln Stärke,\nWenn keiner sie ergründen mag;\ndie unbegreiflich hohen Werke\nSind herrlich wie am ersten Tag.\n\nGABRIEL.\n",
+      "ko": "태양은 예부터 그러했듯 형제 천체들과 노래를 겨루며 울리고,\n정해진 길을 천둥 같은 걸음으로 완주합니다.\n그 모습을 바라보면 천사들은 힘을 얻습니다.\n아무도 그 깊은 이치를 헤아릴 수 없으나,\n헤아릴 수 없이 높은 창조의 업적은 첫날처럼 찬란합니다.\n\n가브리엘"
+    },
+    {
+      "source": "Und schnell und unbegreiflich schnelle\nDreht sich umher der Erde Pracht;\nEs wechselt Paradieseshelle\nMit tiefer, schauervoller Nacht.\nEs schäumt das Meer in breiten Flüssen\nAm tiefen Grund der Felsen auf,\nUnd Fels und Meer wird fortgerissen\nIm ewig schnellem Sphärenlauf.\n\nMICHAEL.\n",
+      "ko": "지상의 찬란함은 빠르게, 이루 헤아릴 수 없이 빠르게 회전합니다.\n낙원의 밝음과 깊고도 소름 끼치는 밤이 번갈아 찾아옵니다.\n바다는 바위 밑 깊은 곳에서 드넓게 물결치며 거품을 일으키고,\n바위와 바다는 영원히 빠른 천체의 운행에 휩쓸려 갑니다.\n\n미카엘"
+    },
+    {
+      "source": "Und Stürme brausen um die Wette\nVom Meer aufs Land, vom Land aufs Meer,\nund bilden wütend eine Kette\nDer tiefsten Wirkung rings umher.\nDa flammt ein blitzendes Verheeren\nDem Pfade vor des Donnerschlags.\nDoch deine Boten, Herr, verehren\nDas sanfte Wandeln deines Tags.\n\nZU DREI.\n",
+      "ko": "폭풍은 바다에서 육지로, 육지에서 바다로 서로 다투어 휘몰아치며,\n맹렬하게 사슬을 이루어 사방에 깊은 힘을 미칩니다.\n천둥이 지나갈 길 앞에서는 파괴의 번갯불이 타오릅니다.\n그러나 주여, 당신의 사자들은 당신 낮의 온화한 흐름을 경배합니다.\n\n세 대천사 함께"
+    },
+    {
+      "source": "Der Anblick gibt den Engeln Stärke,\nDa keiner dich ergründen mag,\nUnd alle deine hohen Werke\nSind herrlich wie am ersten Tag.\n\nMEPHISTOPHELES.\n",
+      "ko": "아무도 당신을 헤아릴 수 없으나, 그 모습을 바라보며 천사들은 힘을 얻습니다.\n당신의 모든 높은 창조물은 첫날처럼 찬란합니다.\n\n메피스토펠레스"
+    },
+    {
+      "source": "Da du, o Herr, dich einmal wieder nahst\nUnd fragst, wie alles sich bei uns befinde,\nUnd du mich sonst gewöhnlich gerne sahst,\nSo siehst du mich auch unter dem Gesinde.\nVerzeih, ich kann nicht hohe Worte machen,\nUnd wenn mich auch der ganze Kreis verhöhnt;\nMein Pathos brächte dich gewiß zum Lachen,\nHättst du dir nicht das Lachen abgewöhnt.\n",
+      "ko": "주여, 다시 한번 가까이 오셔서 우리 형편이 어떤지 물으시는군요.\n평소에도 저를 보시면 반기셨으니, 저 역시 하인들 틈에 모습을 드러냈습니다.\n용서하십시오. 모두가 저를 비웃는다 해도 저는 거창한 말을 할 줄 모릅니다.\n당신이 웃음을 끊지 않으셨다면, 제 비장한 말투에 틀림없이 웃으셨을 텐데요."
+    },
+    {
+      "source": "Von Sonn’ und Welten weiß ich nichts zu sagen,\nIch sehe nur, wie sich die Menschen plagen.\nDer kleine Gott der Welt bleibt stets von gleichem Schlag,\nUnd ist so wunderlich als wie am ersten Tag.\nEin wenig besser würd er leben,\nHättst du ihm nicht den Schein des Himmelslichts gegeben;\nEr nennt’s Vernunft und braucht’s allein,\nNur tierischer als jedes Tier zu sein.\nEr scheint mir, mit Verlaub von euer Gnaden,\nWie eine der langbeinigen Zikaden,\nDie immer fliegt und fliegend springt\nUnd gleich im Gras ihr altes Liedchen singt;\nUnd läg er nur noch immer in dem Grase!\nIn jeden Quark begräbt er seine Nase.\n\nDER HERR.\n",
+      "ko": "태양과 세계에 관해서는 드릴 말씀이 없습니다.\n제 눈에는 인간들이 괴로워하는 모습만 보입니다.\n세상의 작은 신인 인간은 늘 한결같이, 첫날과 마찬가지로 기묘하지요.\n당신이 그에게 하늘빛의 어렴풋한 반짝임을 주지 않으셨다면 좀 더 잘 살았을 겁니다.\n그는 그것을 이성이라 부르지만, 어느 짐승보다 더 짐승답게 구는 데만 쓰지요.\n황공하오나, 제게는 다리 긴 매미 같아 보입니다.\n날고 뛰다가도 풀밭에 내려앉아 늘 같은 노래를 부르니까요.\n차라리 풀밭에만 누워 있으면 좋으련만!\n온갖 시시한 일에 코를 들이미니 말입니다.\n\n주"
+    },
+    {
+      "source": "Hast du mir weiter nichts zu sagen?\nKommst du nur immer anzuklagen?\nIst auf der Erde ewig dir nichts recht?\n\nMEPHISTOPHELES.\n",
+      "ko": "그밖에는 내게 할 말이 없느냐?\n너는 언제나 고발만 하러 오는 것이냐?\n지상의 일은 영원히 네 마음에 들지 않는 것이냐?\n\n메피스토펠레스"
+    },
+    {
+      "source": "Nein Herr! ich find es dort, wie immer, herzlich schlecht.\nDie Menschen dauern mich in ihren Jammertagen,\nIch mag sogar die Armen selbst nicht plagen.\n\nDER HERR.\n",
+      "ko": "그렇습니다, 주여! 여전히 지상은 형편없다고 생각합니다.\n그 비참한 나날을 보내는 인간들이 가엾어,\n저조차 그 불쌍한 자들을 괴롭히고 싶지 않을 지경입니다.\n\n주"
+    },
+    {
+      "source": "Kennst du den Faust?\n\nMEPHISTOPHELES.\nDen Doktor?\n\nDER HERR.\nMeinen Knecht!\n\nMEPHISTOPHELES.\n",
+      "ko": "파우스트를 아느냐?\n\n메피스토펠레스\n그 박사 말입니까?\n\n주\n나의 종 말이다!\n\n메피스토펠레스"
+    },
+    {
+      "source": "Fürwahr! er dient Euch auf besondre Weise.\nNicht irdisch ist des Toren Trank noch Speise.\nIhn treibt die Gärung in die Ferne,\nEr ist sich seiner Tollheit halb bewußt;\nVom Himmel fordert er die schönsten Sterne\nUnd von der Erde jede höchste Lust,\nUnd alle Näh und alle Ferne\nBefriedigt nicht die tiefbewegte Brust.\n\nDER HERR.\n",
+      "ko": "참으로 별난 방식으로 당신을 섬기더군요.\n그 어리석은 자가 먹고 마시는 것은 세상의 양식이 아닙니다.\n들끓는 마음이 그를 멀리 몰아가며, 자신이 미쳤음을 반쯤은 알고 있지요.\n하늘에서는 가장 아름다운 별들을, 땅에서는 가장 높은 쾌락을 요구합니다.\n가까운 것도 먼 것도, 그 깊이 동요하는 가슴을 만족시키지 못합니다.\n\n주"
+    },
+    {
+      "source": "Wenn er mir auch nur verworren dient,\nSo werd ich ihn bald in die Klarheit führen.\nWeiß doch der Gärtner, wenn das Bäumchen grünt,\nDas Blüt und Frucht die künft’gen Jahre zieren.\n\nMEPHISTOPHELES.\n",
+      "ko": "지금은 어지러운 마음으로 나를 섬기더라도, 나는 곧 그를 밝은 깨달음으로 이끌 것이다.\n정원사는 어린 나무가 푸르러지면 훗날 꽃과 열매가 맺힐 줄 아는 법이다.\n\n메피스토펠레스"
+    },
+    {
+      "source": "Was wettet Ihr? den sollt Ihr noch verlieren!\nWenn Ihr mir die Erlaubnis gebt,\nIhn meine Straße sacht zu führen.\n\nDER HERR.\n",
+      "ko": "무엇을 거시겠습니까? 그를 끝내 잃으실 텐데요!\n제가 살살 제 길로 이끌어 가도록 허락만 해 주신다면 말입니다.\n\n주"
+    },
+    {
+      "source": "Solang er auf der Erde lebt,\nSo lange sei dir’s nicht verboten,\nEs irrt der Mensch so lang er strebt.\n\nMEPHISTOPHELES.\nDa dank ich Euch; denn mit den Toten\nHab ich mich niemals gern befangen.\nAm meisten lieb ich mir die vollen, frischen Wangen.\nFür einen Leichnam bin ich nicht zu Haus;\nMir geht es wie der Katze mit der Maus.\n\nDER HERR.\nNun gut, es sei dir überlassen!\nZieh diesen Geist von seinem Urquell ab,\nUnd führ ihn, kannst du ihn erfassen,\nAuf deinem Wege mit herab,\nUnd steh beschämt, wenn du bekennen mußt.\nEin guter Mensch, in seinem dunklen Drange,\nIst sich des rechten Weges wohl bewußt.\n\nMEPHISTOPHELES.\nSchon gut! nur dauert es nicht lange.\nMir ist für meine Wette gar nicht bange.\nWenn ich zu meinem Zweck gelange,\nErlaubt Ihr mir Triumph aus voller Brust.\nStaub soll er fressen, und mit Lust,\nWie meine Muhme, die berühmte Schlange.\n\nDER HERR.\nDu darfst auch da nur frei erscheinen;\nIch habe deinesgleichen nie gehaßt.\nVon allen Geistern, die verneinen,\nist mir der Schalk am wenigsten zur Last.\nDes Menschen Tätigkeit kann allzu leicht erschlaffen,\ner liebt sich bald die unbedingte Ruh;\nDrum geb ich gern ihm den Gesellen zu,\nDer reizt und wirkt und muß als Teufel schaffen.\nDoch ihr, die echten Göttersöhne,\nErfreut euch der lebendig reichen Schöne!\nDas Werdende, das ewig wirkt und lebt,\nUmfass euch mit der Liebe holden Schranken,\nUnd was in schwankender Erscheinung schwebt,\nBefestigt mit dauernden Gedanken!\n",
+      "ko": "그가 지상에서 살아 있는 동안에는 네게 그것을 금하지 않겠다.\n인간은 노력하는 한 방황하는 법이다.\n\n메피스토펠레스\n감사합니다. 죽은 자들을 상대하는 일은 늘 내키지 않았거든요.\n저는 싱싱하고 통통한 뺨을 가장 좋아합니다.\n시체라면 제 성미에 맞지 않지요. 고양이가 쥐를 대하는 것과 같습니다.\n\n주\n좋다, 네게 맡기마!\n그 정신을 근원에서 떼어 내어, 붙잡을 수 있다면 네 길로 끌고 내려가 보아라.\n그러나 마침내 이 사실을 인정해야 할 때 부끄러워하게 되리라.\n선한 인간은 어두운 충동 속에서도 올바른 길을 알고 있다는 것을.\n\n메피스토펠레스\n좋습니다! 오래 걸리지는 않을 겁니다.\n이 내기가 조금도 걱정되지 않는군요.\n제가 목적을 이루거든 가슴껏 승리의 환호를 지르게 해 주십시오.\n그는 제 친척인 그 유명한 뱀처럼, 기꺼이 흙먼지를 먹게 될 겁니다.\n\n주\n그때에도 너는 자유롭게 모습을 드러내도 좋다.\n나는 너 같은 자들을 미워한 적이 없다.\n부정하는 온갖 영 가운데서도 익살꾼이 가장 덜 성가시다.\n인간의 활동은 너무도 쉽게 느슨해지고, 이내 아무 조건 없는 휴식을 좋아하게 된다.\n그러므로 자극하고 움직이며 악마로서 일해야 하는 동료를 기꺼이 붙여 주는 것이다.\n그러나 참된 신의 아들들인 너희는 생생하고 풍요로운 아름다움을 즐겨라!\n영원히 움직이며 살아 생성되는 것이 사랑의 부드러운 울타리로 너희를 감싸게 하라.\n흔들리는 현상 속에 떠도는 것을 오래 남을 생각으로 굳게 붙들어라!"
+    },
+    {
+      "source": "(Der Himmel schließt, die Erzengel verteilen sich.)\n\nMEPHISTOPHELES (allein).\n",
+      "ko": "(하늘이 닫히고, 대천사들이 흩어진다.)\n\n메피스토펠레스, 혼자"
+    },
+    {
+      "source": "Von Zeit zu Zeit seh ich den Alten gern,\nUnd hüte mich, mit ihm zu brechen.\nEs ist gar hübsch von einem großen Herrn,\nSo menschlich mit dem Teufel selbst zu sprechen.\n\n\n\n\nFAUST: Der Tragödie erster Teil",
+      "ko": "가끔은 저 어른을 뵙는 것도 즐겁지.\n그분과 사이가 틀어지지 않도록 조심해야겠어.\n그토록 높은 분께서 악마에게조차 이렇게 인간적으로 말씀하시니,\n참으로 점잖으신 일이란 말이야.\n\n파우스트: 비극 제1부"
+    }
+  ]
+}
