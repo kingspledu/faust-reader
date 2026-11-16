@@ -4,8 +4,408 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 2 and 3 storyboarded in 16-panel batches; remaining chapters pending.",
+  "scope": "Chapters 1–3 illustrated/storyboarded; other chapters pending.",
   "scenes": [
+    {
+      "id": "c01-s001",
+      "chapter": 1,
+      "title": "안개 속 흔들리는 형상",
+      "anchor": "Ihr naht euch wieder, schwankende Gestalten,",
+      "char_offset": 0,
+      "batch": "batch-003",
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c01-s001.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        3,
+        3,
+        312,
+        309
+      ]
+    },
+    {
+      "id": "c01-s002",
+      "chapter": 1,
+      "title": "붙잡으려는 손",
+      "anchor": "Versuch ich wohl, euch diesmal festzuhalten?",
+      "char_offset": 91,
+      "batch": "batch-003",
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c01-s002.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        318,
+        3,
+        627,
+        309
+      ]
+    },
+    {
+      "id": "c01-s003",
+      "chapter": 1,
+      "title": "다가오는 기억",
+      "anchor": "Ihr drängt euch zu! nun gut, so mögt ihr walten,",
+      "char_offset": 180,
+      "batch": "batch-003",
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c01-s003.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        633,
+        3,
+        943,
+        309
+      ]
+    },
+    {
+      "id": "c01-s004",
+      "chapter": 1,
+      "title": "젊은 마음을 흔드는 숨결",
+      "anchor": "Mein Busen fühlt sich jugendlich erschüttert",
+      "char_offset": 273,
+      "batch": "batch-003",
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c01-s004.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        949,
+        3,
+        1258,
+        309
+      ]
+    },
+    {
+      "id": "c01-s005",
+      "chapter": 1,
+      "title": "행복했던 날들",
+      "anchor": "Ihr bringt mit euch die Bilder froher Tage,",
+      "char_offset": 361,
+      "batch": "batch-003",
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c01-s005.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        3,
+        315,
+        312,
+        621
+      ]
+    },
+    {
+      "id": "c01-s006",
+      "chapter": 1,
+      "title": "첫사랑과 우정의 그림자",
+      "anchor": "Gleich einer alten, halbverklungnen Sage",
+      "char_offset": 444,
+      "batch": "batch-003",
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c01-s006.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        318,
+        315,
+        627,
+        621
+      ]
+    },
+    {
+      "id": "c01-s007",
+      "chapter": 1,
+      "title": "미로 같은 삶의 길",
+      "anchor": "Der Schmerz wird neu, es wiederholt die Klage",
+      "char_offset": 531,
+      "batch": "batch-003",
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c01-s007.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        633,
+        315,
+        943,
+        621
+      ]
+    },
+    {
+      "id": "c01-s008",
+      "chapter": 1,
+      "title": "떠나간 이들의 빈자리",
+      "anchor": "Und nennt die Guten, die, um schöne Stunden",
+      "char_offset": 614,
+      "batch": "batch-003",
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c01-s008.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        949,
+        315,
+        1258,
+        621
+      ]
+    },
+    {
+      "id": "c01-s009",
+      "chapter": 1,
+      "title": "사라진 첫 청중",
+      "anchor": "Sie hören nicht die folgenden Gesänge,",
+      "char_offset": 707,
+      "batch": "batch-003",
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c01-s009.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        3,
+        627,
+        312,
+        932
+      ]
+    },
+    {
+      "id": "c01-s010",
+      "chapter": 1,
+      "title": "희미해진 메아리",
+      "anchor": "Zerstoben ist das freundliche Gedränge,",
+      "char_offset": 785,
+      "batch": "batch-003",
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c01-s010.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        318,
+        627,
+        627,
+        932
+      ]
+    },
+    {
+      "id": "c01-s011",
+      "chapter": 1,
+      "title": "낯선 군중 앞의 노래",
+      "anchor": "Mein Lied ertönt der unbekannten Menge,",
+      "char_offset": 864,
+      "batch": "batch-003",
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c01-s011.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        633,
+        627,
+        943,
+        932
+      ]
+    },
+    {
+      "id": "c01-s012",
+      "chapter": 1,
+      "title": "세상에 흩어진 벗들",
+      "anchor": "Und was sich sonst an meinem Lied erfreuet,",
+      "char_offset": 949,
+      "batch": "batch-003",
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c01-s012.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        949,
+        627,
+        1258,
+        932
+      ]
+    },
+    {
+      "id": "c01-s013",
+      "chapter": 1,
+      "title": "고요한 영혼의 세계를 향한 그리움",
+      "anchor": "Und mich ergreift ein längst entwöhntes Sehnen",
+      "char_offset": 1042,
+      "batch": "batch-003",
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c01-s013.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        3,
+        938,
+        312,
+        1244
+      ]
+    },
+    {
+      "id": "c01-s014",
+      "chapter": 1,
+      "title": "바람에 울리는 하프",
+      "anchor": "Es schwebet nun in unbestimmten Tönen",
+      "char_offset": 1131,
+      "batch": "batch-003",
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c01-s014.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        318,
+        938,
+        627,
+        1244
+      ]
+    },
+    {
+      "id": "c01-s015",
+      "chapter": 1,
+      "title": "눈물과 부드러워진 마음",
+      "anchor": "Ein Schauer faßt mich, Träne folgt den Tränen,",
+      "char_offset": 1211,
+      "batch": "batch-003",
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c01-s015.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        633,
+        938,
+        943,
+        1244
+      ]
+    },
+    {
+      "id": "c01-s016",
+      "chapter": 1,
+      "title": "잃어버린 것이 현실이 되다",
+      "anchor": "Was ich besitze, seh ich wie im Weiten,",
+      "char_offset": 1306,
+      "batch": "batch-003",
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c01-s016.webp",
+      "status": "published",
+      "interpretation": "헌시의 상징적 시각화. 본편 등장인물의 실제 사건 아님.",
+      "density_note": "32행의 짧은 헌시를 2행씩 16컷으로 구성한 예외",
+      "source_grid": "source_images/batch-003.png",
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "crop_box": [
+        949,
+        938,
+        1258,
+        1244
+      ]
+    },
     {
       "id": "c02-s001",
       "chapter": 2,

@@ -1,0 +1,2 @@
+﻿from pathlib import Path
+p=Path('faust-reader/add_batch002.py');s=p.read_text(encoding='utf-8-sig').replace('exec-23a140ae-f00e-4fe7-b70c-a8c1ba75d036.png','exec-371ef814-98b1-4fd4-82c3-c15c6f4b6b5a.png').replace('batch-002.png','batch-003.png').replace("x['chapter']==3","x['chapter']==1").replace('chapter-03.html','chapter-01.html');Path('faust-reader/add_batch003.py').write_text(s,encoding='utf-8')
