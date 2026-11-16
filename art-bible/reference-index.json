@@ -327,14 +327,12 @@
         "https://kingspledu.github.io/faust-reader/chapter-04.html",
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-wagner.png",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "파우스트의 학문적 조수.",
       "variants_note": "",
-      "unresolved": [
-        "외형·팔레트·소품 미확정"
-      ]
+      "unresolved": []
     },
     {
       "id": "character-013",
@@ -1208,14 +1206,12 @@
         "https://kingspledu.github.io/faust-reader/chapter-23.html",
         "https://kingspledu.github.io/faust-reader/chapter-28.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-gretchen.png",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "동일 인물의 본명과 애칭. 별도 인물로 세지 않음.",
       "variants_note": "",
-      "unresolved": [
-        "외형·팔레트·소품 미확정"
-      ]
+      "unresolved": []
     },
     {
       "id": "character-054",
@@ -1235,14 +1231,12 @@
         "https://kingspledu.github.io/faust-reader/chapter-16.html",
         "https://kingspledu.github.io/faust-reader/chapter-22.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-marthe.png",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "그레트헨의 이웃.",
       "variants_note": "",
-      "unresolved": [
-        "외형·팔레트·소품 미확정"
-      ]
+      "unresolved": []
     },
     {
       "id": "character-055",
@@ -1277,14 +1271,12 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-22.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-valentin.png",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "그레트헨의 오빠인 군인.",
       "variants_note": "",
-      "unresolved": [
-        "외형·팔레트·소품 미확정"
-      ]
+      "unresolved": []
     },
     {
       "id": "character-057",
@@ -2890,8 +2882,8 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-08.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "location-tavern.png",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "술자리와 마술 장면",
       "unresolved": [
@@ -2909,8 +2901,8 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-09.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "location-witch-kitchen.png",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "화덕·솥·거울·기묘한 동물의 공간",
       "unresolved": [
@@ -2951,8 +2943,8 @@
         "https://kingspledu.github.io/faust-reader/chapter-11.html",
         "https://kingspledu.github.io/faust-reader/chapter-18.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "location-gretchen-room.png",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "작은 정돈된 방과 물레. 재등장 공간으로 통합",
       "unresolved": [

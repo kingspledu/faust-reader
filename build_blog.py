@@ -1,14 +1,21 @@
-﻿from pathlib import Path
+from pathlib import Path
 import re,json,html
 root=Path(__file__).parent;out=root/'art-bible'
 exec((root/'build_art_bible.py').read_text(encoding='utf-8-sig'))
 entries=[];sections=[]
+for name,img in {'MARGARETE / GRETCHEN':'character-gretchen.png','WAGNER':'character-wagner.png','MARTHE':'character-marthe.png','VALENTIN':'character-valentin.png'}.items():
+ a,b,_=labels[name];labels[name]=(a,b,img)
+
 locks={'FAUST':['갈색 흐트러진 머리','얇은 둥근 안경','아이보리 셔츠','검정 로브·버건디 안감·금색 자수'],'MEPHISTOPHELES':['검은 흐트러진 머리','붉은 눈·작은 뿔(시각화 설정)','검정 장갑','버건디·금색 자수·붉은 보석']}
 for j,(key,r) in enumerate(roles.items()):
  uid='character-'+str(j+1).zfill(3);ko,note,img=labels.get(r['name'],(r['name'],'원문 대조 항목',''))
  entries.append({'id':uid,'kind':'character','name':ko,'source_name':r['name'],'category':r['type'],'chapter_numbers':[i+1 for i in r['scenes']],'source_urls':[f'https://kingspledu.github.io/faust-reader/chapter-{i+1:02}.html' for i in r['scenes']],'image':img or None,'status':'draft_visual' if img else 'research_only','visual_locks':locks.get(r['name'],[]),'canonical_note':note,'variants_note':'노학자/회춘 이후는 별도 변형 필요' if r['name']=='FAUST' else '', 'unresolved':[] if img else ['외형·팔레트·소품 미확정']})
 for j,(n,d,ids) in enumerate(places):
  entries.append({'id':f'location-{j+1:03}','kind':'place','name':n,'source_name':n,'chapter_numbers':[i+1 for i in ids],'source_urls':[f'https://kingspledu.github.io/faust-reader/chapter-{i+1:02}.html' for i in ids],'image':'location-study.png' if j==2 else None,'status':'draft_visual' if j==2 else 'research_only','visual_locks':[],'canonical_note':d,'unresolved':['지도는 가상 배치도이며 축척 없음','원근 컷과 평면도의 출입구·창 위치 대조 필요'] if j==2 else ['공간 배치·조명·팔레트 미확정']})
+location_images={'그레트헨의 방':'location-gretchen-room.png','아우어바흐 지하 술집 · 라이프치히':'location-tavern.png','마녀의 부엌':'location-witch-kitchen.png'}
+for e in entries:
+ if e['name'] in location_images:
+  e['image']=location_images[e['name']];e['status']='draft_visual'
 # Preserve entry IDs on subsequent rebuilds through identity matching.
 oldpath=out/'reference-index.json'
 if oldpath.exists():
@@ -20,6 +27,7 @@ for e in ordered:
  image=f'<figure><a href="{e["image"]}" target="_blank" rel="noopener"><img loading="lazy" src="{e["image"]}" alt="{H(e["name"])} 설정 시트"></a><figcaption>이미지를 누르면 원본 크기로 볼 수 있습니다.</figcaption></figure>' if e['image'] else ''
  rules='<ul>'+''.join('<li>'+H(x)+'</li>' for x in e['visual_locks'])+'</ul>' if e['visual_locks'] else '<p class="muted">외형 고정 규칙은 아직 확정되지 않았습니다.</p>'
  sections.append(f'<article class="post" id="{e["id"]}" data-kind="{e["kind"]}"><p class="meta">{"캐릭터" if e["kind"]=="character" else "배경 공간"} / {e["id"]} / {"시각 초안" if e["image"] else "조사 기록"}</p><h2><a href="#{e["id"]}">{H(e["name"])}</a></h2><p class="de">{H(e["source_name"])}</p>{image}<p>{H(e["canonical_note"])}</p><details><summary>일관성 규칙과 원문 근거</summary>{rules}<p>{H(e.get("variants_note",""))}</p><p>{H(" · ".join(e["unresolved"]))}</p><p>'+ ' · '.join(f'<a href="{url}">장면 {num:02}</a>' for num,url in zip(e['chapter_numbers'],e['source_urls']))+f'</p><a href="reference-index.json">구조화된 참조 데이터</a> · <a href="#{e["id"]}">고정 링크</a></details></article>')
+page=page.replace('이미지 시트 3장','이미지 시트 10장').replace('이미지 3장은','이미지 10장은')
 start=page.index('<h2>인물·배경 조사 카드</h2>');end=page.index('</main>',start)
 page=page[:start]+page[start:end].split('<div class="grid">')[0].replace('인물·배경 조사 카드','설정 기록').replace('class="controls"','class="controls"')+'<div class="journal">'+''.join(sections)+'</div>'+page[end:]
 page=page.replace("document.querySelectorAll('.card')","document.querySelectorAll('.post')")
