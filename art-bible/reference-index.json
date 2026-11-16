@@ -23,7 +23,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "scholars"
     },
     {
       "id": "character-002",
@@ -44,7 +45,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "scholars"
     },
     {
       "id": "character-003",
@@ -65,7 +67,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "scholars"
     },
     {
       "id": "character-004",
@@ -86,7 +89,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-005",
@@ -107,7 +111,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-006",
@@ -128,7 +133,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-007",
@@ -149,7 +155,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-008",
@@ -209,7 +216,8 @@
       ],
       "canonical_note": "악마. 푸들·유랑학생 복식 등 변형을 동일 인물에 연결. 뿔·적안은 첨부 이미지의 창작 설정.",
       "variants_note": "",
-      "unresolved": []
+      "unresolved": [],
+      "menu_group": "main"
     },
     {
       "id": "character-009",
@@ -230,7 +238,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-010",
@@ -290,7 +299,8 @@
       ],
       "canonical_note": "학자. 노학자 시기와 회춘 이후 외형을 구분하되 동일 인물로 관리.",
       "variants_note": "노학자/회춘 이후는 별도 변형 필요",
-      "unresolved": []
+      "unresolved": [],
+      "menu_group": "main"
     },
     {
       "id": "character-011",
@@ -311,7 +321,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-012",
@@ -332,7 +343,8 @@
       "visual_locks": [],
       "canonical_note": "파우스트의 학문적 조수.",
       "variants_note": "",
-      "unresolved": []
+      "unresolved": [],
+      "menu_group": "scholars"
     },
     {
       "id": "character-013",
@@ -353,7 +365,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-014",
@@ -374,7 +387,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-015",
@@ -395,7 +409,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-016",
@@ -416,7 +431,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-017",
@@ -437,7 +453,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-018",
@@ -458,7 +475,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-019",
@@ -479,7 +497,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-020",
@@ -500,7 +519,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-021",
@@ -521,7 +541,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-022",
@@ -542,7 +563,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-023",
@@ -563,7 +585,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-024",
@@ -584,7 +607,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-025",
@@ -605,7 +629,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-026",
@@ -626,7 +651,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-027",
@@ -647,7 +673,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-028",
@@ -668,7 +695,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-029",
@@ -689,7 +717,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-030",
@@ -710,7 +739,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-031",
@@ -731,7 +761,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-032",
@@ -752,7 +783,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-033",
@@ -773,7 +805,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-034",
@@ -794,7 +827,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-035",
@@ -815,7 +849,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-036",
@@ -836,7 +871,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-037",
@@ -857,7 +893,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-038",
@@ -878,7 +915,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-039",
@@ -899,7 +937,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-040",
@@ -920,7 +959,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-041",
@@ -941,7 +981,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "scholars"
     },
     {
       "id": "character-042",
@@ -962,7 +1003,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "scholars"
     },
     {
       "id": "character-043",
@@ -983,7 +1025,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "tavern"
     },
     {
       "id": "character-044",
@@ -1004,7 +1047,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "tavern"
     },
     {
       "id": "character-045",
@@ -1025,7 +1069,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "tavern"
     },
     {
       "id": "character-046",
@@ -1046,7 +1091,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "tavern"
     },
     {
       "id": "character-047",
@@ -1067,7 +1113,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "tavern"
     },
     {
       "id": "character-048",
@@ -1088,7 +1135,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "tavern"
     },
     {
       "id": "character-049",
@@ -1109,7 +1157,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-050",
@@ -1130,7 +1179,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-051",
@@ -1151,7 +1201,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-052",
@@ -1172,7 +1223,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-053",
@@ -1211,7 +1263,8 @@
       "visual_locks": [],
       "canonical_note": "동일 인물의 본명과 애칭. 별도 인물로 세지 않음.",
       "variants_note": "",
-      "unresolved": []
+      "unresolved": [],
+      "menu_group": "main"
     },
     {
       "id": "character-054",
@@ -1236,7 +1289,8 @@
       "visual_locks": [],
       "canonical_note": "그레트헨의 이웃.",
       "variants_note": "",
-      "unresolved": []
+      "unresolved": [],
+      "menu_group": "neighbors"
     },
     {
       "id": "character-055",
@@ -1257,7 +1311,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "neighbors"
     },
     {
       "id": "character-056",
@@ -1276,7 +1331,8 @@
       "visual_locks": [],
       "canonical_note": "그레트헨의 오빠인 군인.",
       "variants_note": "",
-      "unresolved": []
+      "unresolved": [],
+      "menu_group": "neighbors"
     },
     {
       "id": "character-057",
@@ -1297,7 +1353,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "forms"
     },
     {
       "id": "character-058",
@@ -1318,7 +1375,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-059",
@@ -1339,7 +1397,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "forms"
     },
     {
       "id": "character-060",
@@ -1360,7 +1419,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-061",
@@ -1381,7 +1441,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-062",
@@ -1402,7 +1463,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-063",
@@ -1423,7 +1485,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-064",
@@ -1444,7 +1507,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-065",
@@ -1465,7 +1529,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-066",
@@ -1486,7 +1551,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-067",
@@ -1507,7 +1573,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-068",
@@ -1528,7 +1595,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-069",
@@ -1549,7 +1617,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-070",
@@ -1570,7 +1639,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-071",
@@ -1591,7 +1661,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-072",
@@ -1612,7 +1683,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-073",
@@ -1633,7 +1705,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-074",
@@ -1654,7 +1727,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-075",
@@ -1675,7 +1749,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-076",
@@ -1696,7 +1771,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-077",
@@ -1717,7 +1793,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-078",
@@ -1738,7 +1815,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-079",
@@ -1759,7 +1837,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-080",
@@ -1780,7 +1859,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-081",
@@ -1801,7 +1881,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-082",
@@ -1822,7 +1903,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-083",
@@ -1843,7 +1925,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-084",
@@ -1864,7 +1947,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-085",
@@ -1885,7 +1969,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-086",
@@ -1906,7 +1991,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-087",
@@ -1927,7 +2013,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-088",
@@ -1948,7 +2035,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-089",
@@ -1969,7 +2057,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-090",
@@ -1990,7 +2079,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-091",
@@ -2011,7 +2101,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-092",
@@ -2032,7 +2123,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-093",
@@ -2053,7 +2145,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-094",
@@ -2074,7 +2167,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-095",
@@ -2095,7 +2189,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-096",
@@ -2116,7 +2211,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-097",
@@ -2137,7 +2233,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-098",
@@ -2158,7 +2255,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-099",
@@ -2179,7 +2277,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-100",
@@ -2200,7 +2299,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-101",
@@ -2221,7 +2321,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-102",
@@ -2242,7 +2343,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-103",
@@ -2263,7 +2365,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-104",
@@ -2284,7 +2387,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-105",
@@ -2305,7 +2409,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-106",
@@ -2326,7 +2431,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-107",
@@ -2347,7 +2453,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-108",
@@ -2368,7 +2475,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-109",
@@ -2389,7 +2497,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-110",
@@ -2410,7 +2519,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-111",
@@ -2431,7 +2541,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-112",
@@ -2452,7 +2563,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-113",
@@ -2473,7 +2585,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-114",
@@ -2494,7 +2607,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-115",
@@ -2515,7 +2629,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-116",
@@ -2536,7 +2651,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-117",
@@ -2557,7 +2673,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-118",
@@ -2578,7 +2695,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "dream"
     },
     {
       "id": "character-119",
@@ -2599,7 +2717,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "forms"
     },
     {
       "id": "character-120",
@@ -2620,7 +2739,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-121",
@@ -2641,7 +2761,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-122",
@@ -2662,7 +2783,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-123",
@@ -2683,7 +2805,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-124",
@@ -2704,7 +2827,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "heaven"
     },
     {
       "id": "character-125",
@@ -2725,7 +2849,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "town"
     },
     {
       "id": "character-126",
@@ -2746,7 +2871,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "forms"
     },
     {
       "id": "character-127",
@@ -2767,7 +2893,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "character-128",
@@ -2788,7 +2915,8 @@
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
-      ]
+      ],
+      "menu_group": "witches"
     },
     {
       "id": "location-001",
@@ -2807,7 +2935,8 @@
       "canonical_note": "서막의 대화 공간",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-002",
@@ -2826,7 +2955,8 @@
       "canonical_note": "주와 천사들, 메피스토펠레스의 대화",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-003",
@@ -2850,7 +2980,8 @@
       "unresolved": [
         "지도는 가상 배치도이며 축척 없음",
         "원근 컷과 평면도의 출입구·창 위치 대조 필요"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-004",
@@ -2869,7 +3000,8 @@
       "canonical_note": "부활절 산책, 강과 언덕, 보리수 아래 농민들의 춤",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-005",
@@ -2888,7 +3020,8 @@
       "canonical_note": "술자리와 마술 장면",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-006",
@@ -2907,7 +3040,8 @@
       "canonical_note": "화덕·솥·거울·기묘한 동물의 공간",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-007",
@@ -2928,7 +3062,8 @@
       "canonical_note": "첫 만남 및 두 번째 거리. 정확히 같은 지점인지는 미확정",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-008",
@@ -2949,7 +3084,8 @@
       "canonical_note": "작은 정돈된 방과 물레. 재등장 공간으로 통합",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-009",
@@ -2968,7 +3104,8 @@
       "canonical_note": "별도 장면 제목만 제시. 세부 지형은 미정",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-010",
@@ -2987,7 +3124,8 @@
       "canonical_note": "이웃의 집",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-011",
@@ -3006,7 +3144,8 @@
       "canonical_note": "Garten의 정원. 마르테의 정원과 동일 공간으로 연출할 수 있으나 제목만으로 확정하지 않음",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-012",
@@ -3025,7 +3164,8 @@
       "canonical_note": "정원 내부의 작은 공간",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-013",
@@ -3044,7 +3184,8 @@
       "canonical_note": "자연 속 독백 공간",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-014",
@@ -3063,7 +3204,8 @@
       "canonical_note": "종교와 사랑에 관한 대화",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-015",
@@ -3082,7 +3224,8 @@
       "canonical_note": "리스헨과 그레트헨의 대화",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-016",
@@ -3101,7 +3244,8 @@
       "canonical_note": "꽃으로 장식된 성모상 앞 기도",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-017",
@@ -3120,7 +3264,8 @@
       "canonical_note": "발렌틴과 충돌하는 외부 공간",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-018",
@@ -3139,7 +3284,8 @@
       "canonical_note": "예배·회중·성가와 악령의 목소리",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-019",
@@ -3158,7 +3304,8 @@
       "canonical_note": "원문은 Schierke와 Elend 일대도 지정. 산길·불·춤·장터·극장 구역",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-020",
@@ -3177,7 +3324,8 @@
       "canonical_note": "극중극. 산과 축축한 계곡이 무대 배경",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-021",
@@ -3196,7 +3344,8 @@
       "canonical_note": "그레트헨의 투옥을 두고 벌어지는 대화",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-022",
@@ -3215,7 +3364,8 @@
       "canonical_note": "Rabenstein 주변 마녀 무리를 지나감",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     },
     {
       "id": "location-023",
@@ -3234,7 +3384,8 @@
       "canonical_note": "철문·축축한 벽·짚·사슬·등불",
       "unresolved": [
         "공간 배치·조명·팔레트 미확정"
-      ]
+      ],
+      "menu_group": "places"
     }
   ]
 }
