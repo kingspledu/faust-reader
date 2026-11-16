@@ -1018,13 +1018,18 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-08.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-frosch.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "둥근 얼굴·붉은 볼",
+        "모래빛 곱슬머리·짧은 콧수염",
+        "적갈색 더블릿",
+        "큼직한 술잔"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 세부 글자와 시점별 배치 대조 필요"
       ],
       "menu_group": "tavern"
     },
@@ -1216,13 +1221,18 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-09.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-witch.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "구부정한 실루엣·매부리코",
+        "은빛 헝클어진 머리·검은 두건",
+        "이끼 갈색 겹옷·낡은 앞치마",
+        "철제 국자·약병"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 세부 글자와 시점별 배치 대조 필요"
       ],
       "menu_group": "witches"
     },
@@ -1304,13 +1314,18 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-20.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-lieschen.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "둘러 땋은 진한 금발",
+        "회녹색 눈",
+        "오커색 몸통옷·네이비 치마",
+        "나무 물통"
+      ],
       "canonical_note": "우물가에서 소문을 전하는 여성.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 세부 글자와 시점별 배치 대조 필요"
       ],
       "menu_group": "neighbors"
     },
@@ -3118,12 +3133,16 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-13.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-marthe-house.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "가상 배치도 기준: 남쪽 출입문·중앙 식탁",
+        "북서쪽 화덕·동쪽 찬장·북쪽 창"
+      ],
       "canonical_note": "이웃의 집",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 세부 글자와 시점별 배치 대조 필요",
+        "하단 인물 예시는 외형 불일치로 참조 제외. 개별 캐릭터 시트를 우선할 것."
       ],
       "menu_group": "places"
     },
@@ -3198,12 +3217,16 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-19.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-marthe-garden.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "가상 배치도 기준: 북쪽 집 뒷문·남쪽 정원문",
+        "서쪽 과일나무·동쪽 벤치·남동쪽 정자"
+      ],
       "canonical_note": "종교와 사랑에 관한 대화",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 세부 글자와 시점별 배치 대조 필요",
+        "하단 인물 예시는 외형 불일치로 참조 제외. 개별 캐릭터 시트를 우선할 것."
       ],
       "menu_group": "places"
     },
@@ -3378,12 +3401,16 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-28.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-prison.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "철문·짚 침구·높은 쇠창살 창·벽 사슬",
+        "차가운 달빛과 따뜻한 등불 대비"
+      ],
       "canonical_note": "철문·축축한 벽·짚·사슬·등불",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 세부 글자와 시점별 배치 대조 필요",
+        "그림의 창 방향 이동 화살표는 탈옥 경로로 사용하지 않음. 원문 구출 시도는 출입문 기준."
       ],
       "menu_group": "places"
     }

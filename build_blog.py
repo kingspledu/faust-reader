@@ -6,6 +6,8 @@ entries=[];sections=[]
 for name,img in {'MARGARETE / GRETCHEN':'character-gretchen.png','WAGNER':'character-wagner.png','MARTHE':'character-marthe.png','VALENTIN':'character-valentin.png'}.items():
  a,b,_=labels[name];labels[name]=(a,b,img)
 
+for name,img in {'LIESCHEN':'character-lieschen.png','DIE HEXE':'character-witch.png','FROSCH':'character-frosch.png'}.items():
+ a,b,_=labels[name];labels[name]=(a,b,img)
 locks={'FAUST':['갈색 흐트러진 머리','얇은 둥근 안경','아이보리 셔츠','검정 로브·버건디 안감·금색 자수'],'MEPHISTOPHELES':['검은 흐트러진 머리','붉은 눈·작은 뿔(시각화 설정)','검정 장갑','버건디·금색 자수·붉은 보석']}
 for j,(key,r) in enumerate(roles.items()):
  uid='character-'+str(j+1).zfill(3);ko,note,img=labels.get(r['name'],(r['name'],'원문 대조 항목',''))
@@ -16,6 +18,27 @@ location_images={'그레트헨의 방':'location-gretchen-room.png','아우어�
 for e in entries:
  if e['name'] in location_images:
   e['image']=location_images[e['name']];e['status']='draft_visual'
+location_images.update({'마르테의 집':'location-marthe-house.png','마르테의 정원':'location-marthe-garden.png','감옥':'location-prison.png'})
+for e in entries:
+ if e['name'] in location_images:
+  e['image']=location_images[e['name']];e['status']='draft_visual'
+
+extra_locks={
+'LIESCHEN':['둘러 땋은 진한 금발','회녹색 눈','오커색 몸통옷·네이비 치마','나무 물통'],
+'DIE HEXE':['구부정한 실루엣·매부리코','은빛 헝클어진 머리·검은 두건','이끼 갈색 겹옷·낡은 앞치마','철제 국자·약병'],
+'FROSCH':['둥근 얼굴·붉은 볼','모래빛 곱슬머리·짧은 콧수염','적갈색 더블릿','큼직한 술잔'],
+'마르테의 집':['가상 배치도 기준: 남쪽 출입문·중앙 식탁','북서쪽 화덕·동쪽 찬장·북쪽 창'],
+'마르테의 정원':['가상 배치도 기준: 북쪽 집 뒷문·남쪽 정원문','서쪽 과일나무·동쪽 벤치·남동쪽 정자'],
+'감옥':['철문·짚 침구·높은 쇠창살 창·벽 사슬','차가운 달빛과 따뜻한 등불 대비']}
+for e in entries:
+ if e['source_name'] in extra_locks:
+  e['visual_locks']=extra_locks[e['source_name']]
+  e['unresolved']=['시각 초안 · 세부 글자와 시점별 배치 대조 필요']
+ if e['name'] in ['마르테의 집','마르테의 정원']:
+  e['unresolved'].append('하단 인물 예시는 외형 불일치로 참조 제외. 개별 캐릭터 시트를 우선할 것.')
+ if e['name']=='감옥':
+  e['unresolved'].append('그림의 창 방향 이동 화살표는 탈옥 경로로 사용하지 않음. 원문 구출 시도는 출입문 기준.')
+
 # Preserve entry IDs on subsequent rebuilds through identity matching.
 oldpath=out/'reference-index.json'
 if oldpath.exists():
@@ -27,7 +50,8 @@ for e in ordered:
  image=f'<figure><a href="{e["image"]}" target="_blank" rel="noopener"><img loading="lazy" src="{e["image"]}" alt="{H(e["name"])} 설정 시트"></a><figcaption>이미지를 누르면 원본 크기로 볼 수 있습니다.</figcaption></figure>' if e['image'] else ''
  rules='<ul>'+''.join('<li>'+H(x)+'</li>' for x in e['visual_locks'])+'</ul>' if e['visual_locks'] else '<p class="muted">외형 고정 규칙은 아직 확정되지 않았습니다.</p>'
  sections.append(f'<article class="post" id="{e["id"]}" data-kind="{e["kind"]}"><p class="meta">{"캐릭터" if e["kind"]=="character" else "배경 공간"} / {e["id"]} / {"시각 초안" if e["image"] else "조사 기록"}</p><h2><a href="#{e["id"]}">{H(e["name"])}</a></h2><p class="de">{H(e["source_name"])}</p>{image}<p>{H(e["canonical_note"])}</p><details><summary>일관성 규칙과 원문 근거</summary>{rules}<p>{H(e.get("variants_note",""))}</p><p>{H(" · ".join(e["unresolved"]))}</p><p>'+ ' · '.join(f'<a href="{url}">장면 {num:02}</a>' for num,url in zip(e['chapter_numbers'],e['source_urls']))+f'</p><a href="reference-index.json">구조화된 참조 데이터</a> · <a href="#{e["id"]}">고정 링크</a></details></article>')
-page=page.replace('이미지 시트 3장','이미지 시트 10장').replace('이미지 3장은','이미지 10장은')
+count=sum(bool(e['image']) for e in entries)
+page=page.replace('이미지 시트 3장',f'이미지 시트 {count}장').replace('이미지 3장은',f'이미지 {count}장은')
 start=page.index('<h2>인물·배경 조사 카드</h2>');end=page.index('</main>',start)
 page=page[:start]+page[start:end].split('<div class="grid">')[0].replace('인물·배경 조사 카드','설정 기록').replace('class="controls"','class="controls"')+'<div class="journal">'+''.join(sections)+'</div>'+page[end:]
 page=page.replace("document.querySelectorAll('.card')","document.querySelectorAll('.post')")
