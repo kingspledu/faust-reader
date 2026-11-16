@@ -1478,12 +1478,14 @@
       "existing_images": [
         "c03-s014"
       ],
-      "status": "covered_review",
+      "status": "published",
       "batch": "dense-batch-003",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c03-s014.webp",
+      "placement_note": "기존 고유 삽화를 대응 원문 시작점으로 재배치. 새 생성 아님."
     },
     {
       "id": "c03-dense-011",
@@ -1503,12 +1505,14 @@
         "location-002"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-003",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c03-s012.webp",
+      "placement_note": "기존 고유 삽화를 대응 원문 시작점으로 재배치. 새 생성 아님."
     },
     {
       "id": "c03-dense-012",
@@ -1529,12 +1533,14 @@
         "location-002"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-003",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c03-s013.webp",
+      "placement_note": "기존 고유 삽화를 대응 원문 시작점으로 재배치. 새 생성 아님."
     },
     {
       "id": "c03-dense-013",
@@ -1554,12 +1560,14 @@
         "location-002"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-003",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c03-s016.webp",
+      "placement_note": "기존 고유 삽화를 대응 원문 시작점으로 재배치. 새 생성 아님."
     },
     {
       "id": "c03-dense-014",
@@ -1583,12 +1591,14 @@
         "c03-s015",
         "c03-s016"
       ],
-      "status": "covered_review",
+      "status": "published",
       "batch": "dense-batch-003",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c03-s015.webp",
+      "placement_note": "기존 고유 삽화를 대응 원문 시작점으로 재배치. 새 생성 아님."
     },
     {
       "id": "c04-dense-001",

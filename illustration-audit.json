@@ -1,0 +1,26 @@
+[
+  {
+    "chapter": 1,
+    "figures": 16,
+    "original_german_preserved": true,
+    "missing_images": 0,
+    "policy": "2행마다 1컷 · 헌시 예외",
+    "verified_dense_segments": null
+  },
+  {
+    "chapter": 2,
+    "figures": 23,
+    "original_german_preserved": true,
+    "missing_images": 0,
+    "policy": "3~4문장 구간마다 1컷",
+    "verified_dense_segments": 23
+  },
+  {
+    "chapter": 3,
+    "figures": 14,
+    "original_german_preserved": true,
+    "missing_images": 0,
+    "policy": "3~4문장 구간마다 1컷",
+    "verified_dense_segments": 14
+  }
+]
