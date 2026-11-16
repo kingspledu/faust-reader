@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "First batch: chapter 2 prologue. Other chapters pending detailed storyboarding. Dedication is lyric, not a literal narrative scene.",
+  "scope": "Chapters 2 and 3 storyboarded in 16-panel batches; remaining chapters pending.",
   "scenes": [
     {
       "id": "c02-s001",
@@ -363,6 +363,486 @@
       "image": "illustrations/c02-s016.webp",
       "status": "published",
       "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ]
+    },
+    {
+      "id": "c03-s001",
+      "chapter": 3,
+      "title": "천상의 세 대천사",
+      "anchor": "Der Herr. Die himmlischen Heerscharen. Nachher Mephistopheles.",
+      "char_offset": 0,
+      "batch": "batch-002",
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c03-s001.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ]
+    },
+    {
+      "id": "c03-s002",
+      "chapter": 3,
+      "title": "라파엘의 태양 찬가",
+      "anchor": "Die Sonne tönt, nach alter Weise,",
+      "char_offset": 103,
+      "batch": "batch-002",
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c03-s002.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ]
+    },
+    {
+      "id": "c03-s003",
+      "chapter": 3,
+      "title": "가브리엘의 세계 찬가",
+      "anchor": "Und schnell und unbegreiflich schnelle",
+      "char_offset": 366,
+      "batch": "batch-002",
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c03-s003.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ]
+    },
+    {
+      "id": "c03-s004",
+      "chapter": 3,
+      "title": "미카엘의 폭풍 찬가",
+      "anchor": "Und Stürme brausen um die Wette",
+      "char_offset": 648,
+      "batch": "batch-002",
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c03-s004.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ]
+    },
+    {
+      "id": "c03-s005",
+      "chapter": 3,
+      "title": "세 대천사의 합창",
+      "anchor": "Der Anblick gibt den Engeln Stärke,",
+      "char_offset": 926,
+      "batch": "batch-002",
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c03-s005.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ]
+    },
+    {
+      "id": "c03-s006",
+      "chapter": 3,
+      "title": "메피스토펠레스의 등장",
+      "anchor": "Da du, o Herr, dich einmal wieder nahst",
+      "char_offset": 1069,
+      "batch": "batch-002",
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c03-s006.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ]
+    },
+    {
+      "id": "c03-s007",
+      "chapter": 3,
+      "title": "인간에 대한 조롱",
+      "anchor": "Von Sonn’ und Welten weiß ich nichts zu sagen,",
+      "char_offset": 1410,
+      "batch": "batch-002",
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c03-s007.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ]
+    },
+    {
+      "id": "c03-s008",
+      "chapter": 3,
+      "title": "빛의 응답",
+      "anchor": "Hast du mir weiter nichts zu sagen?",
+      "char_offset": 2028,
+      "batch": "batch-002",
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c03-s008.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ]
+    },
+    {
+      "id": "c03-s009",
+      "chapter": 3,
+      "title": "인간의 고통을 말하다",
+      "anchor": "Nein Herr! ich find es dort, wie immer, herzlich schlecht.",
+      "char_offset": 2153,
+      "batch": "batch-002",
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c03-s009.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ]
+    },
+    {
+      "id": "c03-s010",
+      "chapter": 3,
+      "title": "파우스트를 아느냐",
+      "anchor": "Kennst du den Faust?",
+      "char_offset": 2315,
+      "batch": "batch-002",
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c03-s010.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ]
+    },
+    {
+      "id": "c03-s011",
+      "chapter": 3,
+      "title": "끝없는 갈망을 논하다",
+      "anchor": "Fürwahr! er dient Euch auf besondre Weise.",
+      "char_offset": 2408,
+      "batch": "batch-002",
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c03-s011.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ]
+    },
+    {
+      "id": "c03-s012",
+      "chapter": 3,
+      "title": "길을 찾으리라는 신뢰",
+      "anchor": "Wenn er mir auch nur verworren dient,",
+      "char_offset": 2733,
+      "batch": "batch-002",
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c03-s012.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ]
+    },
+    {
+      "id": "c03-s013",
+      "chapter": 3,
+      "title": "내기의 제안",
+      "anchor": "Was wettet Ihr? den sollt Ihr noch verlieren!",
+      "char_offset": 2929,
+      "batch": "batch-002",
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c03-s013.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ]
+    },
+    {
+      "id": "c03-s014",
+      "chapter": 3,
+      "title": "유혹을 허락하다",
+      "anchor": "Solang er auf der Erde lebt,",
+      "char_offset": 3053,
+      "batch": "batch-002",
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c03-s014.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ]
+    },
+    {
+      "id": "c03-s015",
+      "chapter": 3,
+      "title": "천상이 닫히다",
+      "anchor": "(Der Himmel schließt, die Erzengel verteilen sich.)",
+      "char_offset": 4486,
+      "batch": "batch-002",
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c03-s015.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ]
+    },
+    {
+      "id": "c03-s016",
+      "chapter": 3,
+      "title": "홀로 남은 악마",
+      "anchor": "Von Zeit zu Zeit seh ich den Alten gern,",
+      "char_offset": 4564,
+      "batch": "batch-002",
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c03-s016.webp",
+      "references": [
+        "art-bible/character-raphael.png",
+        "art-bible/character-gabriel.png",
+        "art-bible/character-michael.png",
+        "art-bible/character-mephistopheles.png",
+        "art-bible/location-heaven.png"
+      ],
+      "status": "published",
+      "source_grid": "source_images/batch-002.png",
       "native_grid_size": [
         1536,
         1024
