@@ -3156,12 +3156,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-12.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-walk.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "가상 배치: 굽은 산책로·왼쪽 생울타리·오른쪽 돌 경계",
+        "정확한 지형은 원문 미명시"
+      ],
       "canonical_note": "별도 장면 제목만 제시. 세부 지형은 미정",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 가상 배치도이며 실제 지리·축척 아님. 원근도와 지도 대조 필요."
       ],
       "menu_group": "places"
     },
@@ -3200,12 +3203,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-15.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-garden.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "가상 배치: 교차 산책로·화단·서쪽 과일나무·북쪽 벤치",
+        "마르테의 정원과 동일 장소인지는 미확정"
+      ],
       "canonical_note": "Garten의 정원. 마르테의 정원과 동일 공간으로 연출할 수 있으나 제목만으로 확정하지 않음",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 가상 배치도이며 실제 지리·축척 아님. 원근도와 지도 대조 필요."
       ],
       "menu_group": "places"
     },
@@ -3336,12 +3342,16 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-22.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-gretchen-night-street.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "그레트헨 집 출입문·상부 창·돌 포장 밤거리",
+        "차가운 달빛과 출입문 등불의 대비"
+      ],
       "canonical_note": "발렌틴과 충돌하는 외부 공간",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "가상 배치도 · 원근도와 문·창 위치 대조 필요",
+        "이전 거리 장면과 동일한 위치로 단정하지 않음"
       ],
       "menu_group": "places"
     },
@@ -3379,12 +3389,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-24.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-brocken.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "남쪽 접근로·북쪽 축제터·중앙 춤터",
+        "서쪽 장터·동쪽 임시 극장·모닥불은 가상 연출 배치"
+      ],
       "canonical_note": "원문은 Schierke와 Elend 일대도 지정. 산길·불·춤·장터·극장 구역",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 가상 배치도이며 실제 지리·축척 아님. 원근도와 지도 대조 필요."
       ],
       "menu_group": "places"
     },
@@ -3399,12 +3412,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-25.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-dream-stage.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "극중극을 위한 산 위 임시 무대",
+        "배경 산과 계곡·무대·음악 구역의 관계를 유지"
+      ],
       "canonical_note": "극중극. 산과 축축한 계곡이 무대 배경",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 가상 배치도이며 실제 지리·축척 아님. 원근도와 지도 대조 필요."
       ],
       "menu_group": "places"
     },
@@ -3419,12 +3435,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-26.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-overcast-field.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "어두운 구름·진흙 길·드문 나무와 울타리",
+        "구체적 지형과 도시 위치는 창작 설정"
+      ],
       "canonical_note": "그레트헨의 투옥을 두고 벌어지는 대화",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 가상 배치도이며 실제 지리·축척 아님. 원근도와 지도 대조 필요."
       ],
       "menu_group": "places"
     },
@@ -3439,12 +3458,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-27.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-night-field.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "밤 들판을 가로지르는 이동 경로·멀리 떨어진 처형장",
+        "Rabenstein은 처형장 관련 시설. 성이나 산봉우리로 해석하지 않음"
+      ],
       "canonical_note": "Rabenstein 주변 마녀 무리를 지나감",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 가상 배치도이며 실제 지리·축척 아님. 원근도와 지도 대조 필요."
       ],
       "menu_group": "places"
     },
