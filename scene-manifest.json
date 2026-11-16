@@ -1253,6 +1253,278 @@
         1533,
         1021
       ]
+    },
+    {
+      "id": "c04-s001",
+      "chapter": 4,
+      "title": "닫힌 서재의 노학자",
+      "anchor": "In einem hochgewölbten, engen gotischen Zimmer Faust,",
+      "char_offset": 0,
+      "batch": "batch-004",
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c04-s001.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s002",
+      "chapter": 4,
+      "title": "학문의 허무",
+      "anchor": "Da steh ich nun, ich armer Tor!",
+      "char_offset": 214,
+      "batch": "batch-004",
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c04-s002.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s003",
+      "chapter": 4,
+      "title": "불타는 회의",
+      "anchor": "Das will mir schier das Herz verbrennen.",
+      "char_offset": 450,
+      "batch": "batch-004",
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c04-s003.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s004",
+      "chapter": 4,
+      "title": "세속적 결핍",
+      "anchor": "Auch hab ich weder Gut noch Geld,",
+      "char_offset": 829,
+      "batch": "batch-004",
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c04-s004.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s005",
+      "chapter": 4,
+      "title": "마술로 향하는 탐구",
+      "anchor": "Drum hab ich mich der Magie ergeben,",
+      "char_offset": 936,
+      "batch": "batch-004",
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c04-s005.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s006",
+      "chapter": 4,
+      "title": "달빛을 향한 탄식",
+      "anchor": "O sähst du, voller Mondenschein,",
+      "char_offset": 1248,
+      "batch": "batch-004",
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c04-s006.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s007",
+      "chapter": 4,
+      "title": "자유로운 자연을 그리다",
+      "anchor": "Ach! könnt ich doch auf Bergeshöhn",
+      "char_offset": 1440,
+      "batch": "batch-004",
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c04-s007.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s008",
+      "chapter": 4,
+      "title": "감옥 같은 서재",
+      "anchor": "Weh! steck ich in dem Kerker noch?",
+      "char_offset": 1645,
+      "batch": "batch-004",
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c04-s008.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s009",
+      "chapter": 4,
+      "title": "생기를 막는 고통",
+      "anchor": "Und fragst du noch, warum dein Herz",
+      "char_offset": 2052,
+      "batch": "batch-004",
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c04-s009.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s010",
+      "chapter": 4,
+      "title": "신비한 책을 펼치다",
+      "anchor": "Flieh! auf! hinaus ins weite Land!",
+      "char_offset": 2306,
+      "batch": "batch-004",
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c04-s010.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s011",
+      "chapter": 4,
+      "title": "대우주의 표식 앞에서",
+      "anchor": "Ha! welche Wonne fließt in diesem Blick",
+      "char_offset": 2780,
+      "batch": "batch-004",
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c04-s011.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s012",
+      "chapter": 4,
+      "title": "자연의 작용을 바라보다",
+      "anchor": "Bin ich ein Gott? Mir wird so licht!",
+      "char_offset": 3134,
+      "batch": "batch-004",
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c04-s012.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s013",
+      "chapter": 4,
+      "title": "서로 이어진 우주",
+      "anchor": "Wie alles sich zum Ganzen webt,",
+      "char_offset": 3467,
+      "batch": "batch-004",
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c04-s013.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s014",
+      "chapter": 4,
+      "title": "형상에 그친 깨달음",
+      "anchor": "Welch Schauspiel! Aber ach! ein Schauspiel nur!",
+      "char_offset": 3713,
+      "batch": "batch-004",
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c04-s014.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s015",
+      "chapter": 4,
+      "title": "지령의 표식",
+      "anchor": "Wie anders wirkt dies Zeichen auf mich ein!",
+      "char_offset": 4038,
+      "batch": "batch-004",
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c04-s015.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+    },
+    {
+      "id": "c04-s016",
+      "chapter": 4,
+      "title": "달빛이 숨고 불길이 다가오다",
+      "anchor": "Es wölkt sich über mir—",
+      "char_offset": 4353,
+      "batch": "batch-004",
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c04-s016.webp",
+      "status": "planned",
+      "references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png"
+      ],
+      "state": "Faust before rejuvenation. Earth spirit not yet shown."
     }
   ]
 }
