@@ -16,13 +16,16 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-02.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-director.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "중후하고 둥근 체형·회색 관자놀이·단정한 콧수염",
+        "버건디 짧은 코트·갈색 조끼·장부·열쇠"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선."
       ],
       "menu_group": "scholars"
     },
@@ -38,13 +41,17 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-02.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "image": "character-poet.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "마른 체형·물결치는 회갈색 어깨 머리·수염 없음",
+        "인디고 코트·원고·깃펜·안경 없음"
+      ],
+      "canonical_note": "극장 서막에서 지배인·희극 배우와 예술과 공연에 관해 대화하는 시인.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선.",
+        "이미지의 파우스트와 교유한다는 소개는 근거 없는 생성 문구이므로 참조 제외."
       ],
       "menu_group": "scholars"
     },
@@ -60,13 +67,16 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-02.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-comic.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "짧은 구리빛 곱슬머리·활발한 얼굴·녹색 눈",
+        "오커와 숲색 의상·부드러운 부츠·광대 분장 없음"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선."
       ],
       "menu_group": "scholars"
     },
@@ -2953,12 +2963,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-02.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-theater.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "가상 배치 기준: 북쪽 무대·남쪽 관객 벤치",
+        "동쪽 출입구·무대 뒤 소품대·커튼"
+      ],
       "canonical_note": "서막의 대화 공간",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선."
       ],
       "menu_group": "places"
     },
@@ -3018,12 +3031,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-town-gate.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "가상 배치 기준: 서쪽 성문·동쪽 들판 길",
+        "남쪽 강·북동쪽 보리수 광장·언덕 쉼터"
+      ],
       "canonical_note": "부활절 산책, 강과 언덕, 보리수 아래 농민들의 춤",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선."
       ],
       "menu_group": "places"
     },
@@ -3206,12 +3222,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-17.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-forest-cave.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "가상 배치 기준: 북쪽 동굴 입구·중앙 바위턱",
+        "서쪽 고목·남동쪽 개울"
+      ],
       "canonical_note": "자연 속 독백 공간",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선."
       ],
       "menu_group": "places"
     },

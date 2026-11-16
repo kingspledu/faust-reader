@@ -10,6 +10,8 @@ for name,img in {'LIESCHEN':'character-lieschen.png','DIE HEXE':'character-witch
  a,b,_=labels[name];labels[name]=(a,b,img)
 for name,img in {'BRANDER':'character-brander.png','SIEBEL':'character-siebel.png','ALTMAYER':'character-altmayer.png'}.items():
  a,b,_=labels[name];labels[name]=(a,b,img)
+for name,img in {'DIREKTOR':'character-director.png','DICHTER':'character-poet.png','LUSTIGE PERSON':'character-comic.png'}.items():
+ a,b,_=labels[name];labels[name]=(a,b,img)
 locks={'FAUST':['갈색 흐트러진 머리','얇은 둥근 안경','아이보리 셔츠','검정 로브·버건디 안감·금색 자수'],'MEPHISTOPHELES':['검은 흐트러진 머리','붉은 눈·작은 뿔(시각화 설정)','검정 장갑','버건디·금색 자수·붉은 보석']}
 for j,(key,r) in enumerate(roles.items()):
  uid='character-'+str(j+1).zfill(3);ko,note,img=labels.get(r['name'],(r['name'],'원문 대조 항목',''))
@@ -54,6 +56,23 @@ for e in entries:
   e['image']=location_images[e['name']];e['status']='draft_visual'
  if e['source_name'] in new_locks:
   e['visual_locks']=new_locks[e['source_name']];e['unresolved']=['시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것']
+location_images.update({'극장':'location-theater.png','성문 밖과 마을 들판':'location-town-gate.png','숲과 동굴':'location-forest-cave.png'})
+new_batch_locks={
+'DIREKTOR':['중후하고 둥근 체형·회색 관자놀이·단정한 콧수염','버건디 짧은 코트·갈색 조끼·장부·열쇠'],
+'DICHTER':['마른 체형·물결치는 회갈색 어깨 머리·수염 없음','인디고 코트·원고·깃펜·안경 없음'],
+'LUSTIGE PERSON':['짧은 구리빛 곱슬머리·활발한 얼굴·녹색 눈','오커와 숲색 의상·부드러운 부츠·광대 분장 없음'],
+'극장':['가상 배치 기준: 북쪽 무대·남쪽 관객 벤치','동쪽 출입구·무대 뒤 소품대·커튼'],
+'성문 밖과 마을 들판':['가상 배치 기준: 서쪽 성문·동쪽 들판 길','남쪽 강·북동쪽 보리수 광장·언덕 쉼터'],
+'숲과 동굴':['가상 배치 기준: 북쪽 동굴 입구·중앙 바위턱','서쪽 고목·남동쪽 개울']}
+for e in entries:
+ if e['name'] in location_images:
+  e['image']=location_images[e['name']];e['status']='draft_visual'
+ if e['source_name'] in new_batch_locks:
+  e['visual_locks']=new_batch_locks[e['source_name']];e['unresolved']=['시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선.']
+for e in entries:
+ if e['source_name']=='DICHTER':
+  e['canonical_note']='극장 서막에서 지배인·희극 배우와 예술과 공연에 관해 대화하는 시인.'
+  e['unresolved'].append('이미지의 파우스트와 교유한다는 소개는 근거 없는 생성 문구이므로 참조 제외.')
 # Preserve entry IDs on subsequent rebuilds through identity matching.
 oldpath=out/'reference-index.json'
 if oldpath.exists():
