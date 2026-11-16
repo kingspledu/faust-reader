@@ -1,0 +1,53 @@
+﻿from pathlib import Path
+import re,html,json
+root=Path(__file__).parent
+passages=[
+'''처음에는 안개가 움직이는 줄 알았다. 그러나 시인은 곧 그 안에서 사람의 윤곽을 알아보았다. 오래전 그의 마음에 머물렀다가 사라진 이들이었다.
+그는 창가에 선 채 움직이지 않았다. 잊었다고 여긴 얼굴들이 돌아올 때, 사람은 반가움보다 두려움을 먼저 느끼기도 한다. 시인도 그랬다.''',
+'''그가 천천히 손을 내밀었다. 손끝에 닿은 것은 차가운 공기뿐이었다.
+이번에는 붙잡을 수 있을까. 그 질문에는 오래전처럼 다시 믿고 싶다는 마음과, 다시 잃고 싶지 않다는 마음이 함께 들어 있었다. 그는 아직 어느 쪽이 더 간절한지 알지 못했다.''',
+'''희미했던 형상들이 하나둘 가까워졌다. 시인은 물러서는 대신 손을 내렸다.
+그들을 붙잡으려 애쓸수록 기억은 얼굴보다 빈자리부터 보여 주었다. 이제 그는 자신이 원하는 대로 그들을 되살릴 수 없다는 것을 받아들이려 했다. 돌아오는 모습 그대로, 잠시 곁에 두기로 했다.''',
+'''바람이 옷자락을 건드렸다. 아주 작은 움직임이었지만, 시인의 가슴에는 젊은 날의 떨림이 되살아났다.
+세월은 몸에 피로를 남겼어도, 어떤 목소리를 기다리던 습관까지 지우지는 못했다. 그는 그 사실이 기쁘면서도 서글펐다. 아직 흔들릴 수 있다는 것은, 아직 아플 수 있다는 뜻이기도 했다.''',
+'''안개 너머로 햇빛이 번졌다. 시인의 기억 속 길은 늘 그랬던 것처럼 나무 그늘과 밝은 흙빛 사이로 이어졌다.
+그 길을 걷던 날에는 자신이 행복한지 오래 생각할 필요가 없었다. 곁에 누군가 있었고, 다음에 나눌 말이 남아 있었다. 지금의 그가 그리워하는 것은 그런 날들의 대단하지 않은 넉넉함이었다.''',
+'''나란히 선 두 그림자가 보였다. 한쪽에는 처음 사랑했던 마음이, 다른 쪽에는 오래 믿었던 우정이 겹쳐 있었다.
+시인은 얼굴을 분명히 보려고 눈을 가늘게 떴다. 하지만 기억은 그들이 했던 말보다, 그 말에 안심했던 자신의 마음을 더 선명하게 돌려주었다. 그는 잃어버린 사람들뿐 아니라 그들과 함께 있을 때의 자신도 그리워하고 있었다.''',
+'''그가 지나온 세월은 멀리서 보면 길 하나로 이어지는 듯했다. 그러나 그 안에는 되돌아간 자리와 끝내 돌아가지 못한 자리가 있었다.
+시인은 한때 모든 선택에 이유가 있다고 믿었다. 세월이 흐른 뒤에도 설명되지 않는 이별은 남았다. 기억 속 길들이 미로처럼 갈라지는 까닭을, 그는 이제 자신의 지혜가 부족한 탓으로만 돌리지 않았다.''',
+'''빈 벤치 앞에서 기억이 멈췄다. 누군가 조금만 늦게 도착하는 것처럼 보였으나, 시인은 그 자리에 끝내 아무도 앉지 않으리라는 것을 알았다.
+그 역시 그들과 아름다운 시간을 더 누릴 수 있으리라 믿었었다. 그래서 미뤄 둔 말이 있었고, 당연하게 여긴 만남이 있었다. 그때의 믿음이 잘못이었다고 할 수는 없었지만, 남은 사람은 그 믿음 때문에 다시 아팠다.''',
+'''이제 그의 노래를 처음 들어 주었던 이들은 여기 없었다. 시인은 비어 있는 자리들을 바라보며, 새 노래를 누구에게 들려주려 했는지 생각했다.
+그가 더 좋은 말을 찾고 더 나은 문장을 쓰는 동안에도 시간은 그들을 기다려 주지 않았다. 작품이 완성되었다고 해서 청중까지 돌아오는 것은 아니었다. 그는 그 단순한 사실 앞에서 오래 침묵했다.''',
+'''물 위의 작은 물결이 퍼졌다가 잦아들었다. 시인은 처음 자신의 노래가 되돌아오던 순간을 떠올렸다.
+그때의 대답은 크지 않았어도 충분했다. 지금은 그 소리의 높낮이조차 정확히 기억할 수 없었다. 그래도 자신이 그 대답을 듣고 얼마나 용기를 얻었는지는 잊지 않았다.''',
+'''앞으로 그의 노래를 듣게 될 사람들은 낯선 이들이었다. 그들 가운데는 진심으로 기뻐할 사람도 있을 터였다.
+시인도 그 사실을 알았다. 그런데도 박수를 떠올리면 마음이 편하지 않았다. 새 청중은 그의 작품을 만나겠지만, 이 노래가 누구를 잃은 뒤에 쓰였는지까지 알 수는 없었기 때문이다.''',
+'''옛 벗들이 모두 죽은 것은 아니었다. 누군가는 아직 먼 곳에서 살아가고 있을지도 몰랐다.
+그러나 살아 있다는 사실만으로 다시 만날 수 있는 것은 아니었다. 서로의 소식을 모른 채 다른 길을 걷는 동안, 한때 가까웠던 사람들도 돌아갈 곳을 잃었다. 시인은 그들의 삶을 함부로 상상하지 않고, 잠시 잘 지내기를 바랐다.''',
+'''그리움은 그를 더 고요한 곳으로 데려갔다. 그곳에서는 누구도 재능을 증명하라고 재촉하지 않았고, 끝난 일을 서둘러 잊으라고 말하지도 않았다.
+시인은 그 침묵이 두렵지 않았다. 오랫동안 외면했던 슬픔을 인정하자, 더는 그것을 이기기 위해 애쓸 필요가 없어졌다. 그가 바란 것은 잃어버린 이들을 지배하는 힘이 아니라, 그들을 떠올려도 무너지지 않을 잠깐의 평온이었다.''',
+'''열린 창으로 바람이 들었다. 하프의 가느다란 현이 누군가의 손길 없이 떨렸다.
+소리는 일정하지 않았고 곧 끊어질 듯했다. 시인은 그 불완전한 울림에 귀를 기울였다. 지금 자신의 노래도 저처럼, 다 붙잡지 못한 기억 사이를 지나며 겨우 소리를 얻고 있었다.''',
+'''눈물이 뺨을 타고 흘렀다. 그는 닦으려다 손을 멈췄다.
+울지 않는 일이 견디는 일과 같지는 않았다. 오래 굳혀 온 마음이 조금 느슨해졌을 때, 그 안에 남은 애정도 함께 드러났다. 시인은 누구에게 보일 필요도 없는 눈물을 잠시 그대로 두었다.''',
+'''방 안의 가구와 창틀은 여전히 제자리에 있었다. 그러나 그가 지금 가진 것들은 아득해지고, 사라진 사람들과 나누었던 순간들이 가까워졌다.
+그들이 실제로 돌아온 것은 아니었다. 시인은 그 차이를 알면서도, 기억이 남은 사람의 오늘을 바꿀 수 있다는 사실까지 부정하지는 않았다.
+그는 빈자리를 바라보던 눈을 거두었다. 그리고 돌아오지 않을 이들에게도 닿기를 바라며, 다시 노래를 시작했다.''']
+source=root/'chapter-01.html';s=source.read_text(encoding='utf-8');original_de=re.findall(r'<pre lang="de">(.*?)</pre>',s,re.S);original_ko=re.findall(r'<div class="ko-translation" lang="ko">(.*?)</div>',s,re.S)
+# Pair each existing illustration with its original text and translation, preserving all content.
+pattern=r'(<figure\b.*?</figure>)(<pre lang="de">.*?</pre>)(<div class="ko-translation" lang="ko">.*?</div>)'
+items=list(re.finditer(pattern,s,re.S));assert len(items)==16,len(items)
+idx=[0]
+def render(m):
+ i=idx[0];idx[0]+=1
+ prose=''.join('<p>'+html.escape(p)+'</p>' for p in passages[i].split('\n'))
+ return m[1]+'<section class="adaptation-prose" lang="ko">'+prose+'</section><details class="source-fold"><summary>독일어 원문 · 한국어 번역 펼치기</summary>'+m[2]+m[3]+'</details>'
+s=re.sub(pattern,render,s,flags=re.S)
+s=s.replace('<h1 lang="de">Zueignung','<h1 lang="de">Zueignung',1)
+s=s.replace('한국어는 원문을 바탕으로 새로 작성한 번역 초안입니다. / Korean translation draft.','「돌아오지 않는 이들에게」 — 헌시의 원문과 삽화를 바탕으로 재서술한 3인칭 각색입니다. 이름 없는 시인은 파우스트와 별개입니다. 원문·번역은 각 삽화 아래에서 펼쳐 볼 수 있습니다.')
+css='.adaptation-prose{font:var(--size,20px)/1.95 system-ui,sans-serif;word-break:keep-all}.adaptation-prose p{margin:0 0 1.2em}.source-fold{margin:20px 0 42px;border:1px solid #cfc3b4;padding:12px 16px}.source-fold summary{cursor:pointer;font:14px/1.7 system-ui;color:#75604d}.source-fold pre{font-size:17px}.source-fold .ko-translation{font-size:17px}'
+s=s.replace('</style>',css+'</style>');assert re.findall(r'<pre lang="de">(.*?)</pre>',s,re.S)==original_de;assert re.findall(r'<div class="ko-translation" lang="ko">(.*?)</div>',s,re.S)==original_ko;assert s.count('class="source-fold"')==16;assert '<details class="source-fold" open' not in s
+source.write_text(s,encoding='utf-8');(root/'dist/chapter-01.html').write_text(s.replace('href="illustrations/','href="../illustrations/').replace('src="illustrations/','src="../illustrations/'),encoding='utf-8')
+(root/'adaptations').mkdir(exist_ok=True);(root/'adaptations/chapter-01.json').write_text(json.dumps({'title':'돌아오지 않는 이들에게','viewpoint':'3인칭 전지적 작가 시점','persona':'K-FAUST_META_PERSONA_v1.0.md','source':'Zueignung','note':'원문의 서정적 화자를 이름 없는 시인으로 인물화한 각색. 본편 사건이 아님.','passages':passages},ensure_ascii=False,indent=2),encoding='utf-8');print('Chapter 1: 16 prose sections, 16 closed source folds; German and Korean unchanged.')
