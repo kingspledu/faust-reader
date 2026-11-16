@@ -1,0 +1,13 @@
+{
+  "chapter": 4,
+  "illustrations": 52,
+  "narration": 52,
+  "monologues": 52,
+  "closed_aligned_source_units": 17,
+  "source_chars": 17646,
+  "source_sha256": "d09ad6682473e436f7868aec4c449935d7f502b71470a35b0e627cf4c910f0ee",
+  "tts_segments": 104,
+  "source_and_translation_preserved": true,
+  "mobile_dom_width_check": "passed at 390px; viewport screenshot timed out",
+  "audio_listening": "not performed"
+}

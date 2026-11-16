@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1–3 illustrated/storyboarded; other chapters pending.",
+  "scope": "Chapters 1–4 illustrated and adapted; later chapters pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -1255,276 +1255,2066 @@
       ]
     },
     {
-      "id": "c04-s001",
+      "id": "c04-dense-001",
       "chapter": 4,
-      "title": "닫힌 서재의 노학자",
-      "anchor": "In einem hochgewölbten, engen gotischen Zimmer Faust,",
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 245,
+      "source_text": "In einem hochgewölbten, engen gotischen Zimmer Faust,\nunruhig auf seinem Sessel am Pulte.\n\nFAUST.\nHabe nun, ach! Philosophie,\nJuristerei und Medizin,\nUnd leider auch Theologie\nDurchaus studiert, mit heißem Bemühn.\nDa steh ich nun, ich armer Tor!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-003",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-001-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "previous_image": "illustrations/c04-dense-001.webp",
+      "adaptation": "adaptations/chapter-04.json",
       "char_offset": 0,
-      "batch": "batch-004",
-      "tile_row": 0,
-      "tile_column": 0,
-      "image": "illustrations/c04-s001.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
-      ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+      "anchor": "In einem hochgewölbten, engen gotischen Zimmer Faust,\nunruhig auf seinem Sessel am Pulte.\n\nFAUST.\nHa"
     },
     {
-      "id": "c04-s002",
+      "id": "c04-dense-002",
       "chapter": 4,
-      "title": "학문의 허무",
-      "anchor": "Da steh ich nun, ich armer Tor!",
-      "char_offset": 214,
-      "batch": "batch-004",
-      "tile_row": 0,
-      "tile_column": 1,
-      "image": "illustrations/c04-s002.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 245,
+      "source_end": 935,
+      "source_text": "\nUnd bin so klug als wie zuvor;\nHeiße Magister, heiße Doktor gar\nUnd ziehe schon an die zehen Jahr\nHerauf, herab und quer und krumm\nMeine Schüler an der Nase herum—\nUnd sehe, daß wir nichts wissen können!\nDas will mir schier das Herz verbrennen.\nZwar bin ich gescheiter als all die Laffen,\nDoktoren, Magister, Schreiber und Pfaffen;\nMich plagen keine Skrupel noch Zweifel,\nFürchte mich weder vor Hölle noch Teufel—\nDafür ist mir auch alle Freud entrissen,\nBilde mir nicht ein, was Rechts zu wissen,\nBilde mir nicht ein, ich könnte was lehren,\nDie Menschen zu bessern und zu bekehren.\nAuch hab ich weder Gut noch Geld,\nNoch Ehr und Herrlichkeit der Welt;\nEs möchte kein Hund so länger leben!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
       ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
-    },
-    {
-      "id": "c04-s003",
-      "chapter": 4,
-      "title": "불타는 회의",
-      "anchor": "Das will mir schier das Herz verbrennen.",
-      "char_offset": 450,
-      "batch": "batch-004",
-      "tile_row": 0,
-      "tile_column": 2,
-      "image": "illustrations/c04-s003.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
-      ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
-    },
-    {
-      "id": "c04-s004",
-      "chapter": 4,
-      "title": "세속적 결핍",
-      "anchor": "Auch hab ich weder Gut noch Geld,",
-      "char_offset": 829,
-      "batch": "batch-004",
-      "tile_row": 0,
-      "tile_column": 3,
-      "image": "illustrations/c04-s004.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
-      ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
-    },
-    {
-      "id": "c04-s005",
-      "chapter": 4,
-      "title": "마술로 향하는 탐구",
-      "anchor": "Drum hab ich mich der Magie ergeben,",
-      "char_offset": 936,
-      "batch": "batch-004",
-      "tile_row": 1,
-      "tile_column": 0,
-      "image": "illustrations/c04-s005.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
-      ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
-    },
-    {
-      "id": "c04-s006",
-      "chapter": 4,
-      "title": "달빛을 향한 탄식",
-      "anchor": "O sähst du, voller Mondenschein,",
-      "char_offset": 1248,
-      "batch": "batch-004",
-      "tile_row": 1,
-      "tile_column": 1,
-      "image": "illustrations/c04-s006.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
-      ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
-    },
-    {
-      "id": "c04-s007",
-      "chapter": 4,
-      "title": "자유로운 자연을 그리다",
-      "anchor": "Ach! könnt ich doch auf Bergeshöhn",
-      "char_offset": 1440,
-      "batch": "batch-004",
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-003",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
       "tile_row": 1,
       "tile_column": 2,
-      "image": "illustrations/c04-s007.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
+      "image": "illustrations/c04-dense-002-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
       ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "previous_image": "illustrations/c04-dense-002.webp",
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 245,
+      "anchor": "Und bin so klug als wie zuvor;\nHeiße Magister, heiße Doktor gar\nUnd ziehe schon an die zehen Jahr\nHe"
     },
     {
-      "id": "c04-s008",
+      "id": "c04-dense-003",
       "chapter": 4,
-      "title": "감옥 같은 서재",
-      "anchor": "Weh! steck ich in dem Kerker noch?",
-      "char_offset": 1645,
-      "batch": "batch-004",
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 935,
+      "source_end": 1444,
+      "source_text": "\nDrum hab ich mich der Magie ergeben,\nOb mir durch Geistes Kraft und Mund\nNicht manch Geheimnis würde kund;\nDaß ich nicht mehr mit saurem Schweiß\nZu sagen brauche, was ich nicht weiß;\nDaß ich erkenne, was die Welt\nIm Innersten zusammenhält,\nSchau alle Wirkenskraft und Samen,\nUnd tu nicht mehr in Worten kramen.\n\nO sähst du, voller Mondenschein,\nZum letztenmal auf meine Pein,\nDen ich so manche Mitternacht\nAn diesem Pult herangewacht.\nDann über Büchern und Papier,\nTrübsel’ger Freund, erschienst du mir!\nAch!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-003",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
       "tile_row": 1,
       "tile_column": 3,
-      "image": "illustrations/c04-s008.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
+      "image": "illustrations/c04-dense-003-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
       ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "previous_image": "illustrations/c04-dense-003.webp",
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 935,
+      "anchor": "Drum hab ich mich der Magie ergeben,\nOb mir durch Geistes Kraft und Mund\nNicht manch Geheimnis würde"
     },
     {
-      "id": "c04-s009",
+      "id": "c04-dense-004",
       "chapter": 4,
-      "title": "생기를 막는 고통",
-      "anchor": "Und fragst du noch, warum dein Herz",
-      "char_offset": 2052,
-      "batch": "batch-004",
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 1444,
+      "source_end": 1779,
+      "source_text": " könnt ich doch auf Bergeshöhn\nIn deinem lieben Lichte gehn,\nUm Bergeshöhle mit Geistern schweben,\nAuf Wiesen in deinem Dämmer weben,\nVon allem Wissensqualm entladen,\nIn deinem Tau gesund mich baden!\n\nWeh! steck ich in dem Kerker noch?\nVerfluchtes dumpfes Mauerloch,\nWo selbst das liebe Himmelslicht\nTrüb durch gemalte Scheiben bricht!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-003",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
       "tile_row": 2,
       "tile_column": 0,
-      "image": "illustrations/c04-s009.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
+      "image": "illustrations/c04-dense-004-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
       ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "previous_image": "illustrations/c04-dense-004.webp",
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 1444,
+      "anchor": "könnt ich doch auf Bergeshöhn\nIn deinem lieben Lichte gehn,\nUm Bergeshöhle mit Geistern schweben,\nAu"
     },
     {
-      "id": "c04-s010",
+      "id": "c04-dense-005",
       "chapter": 4,
-      "title": "신비한 책을 펼치다",
-      "anchor": "Flieh! auf! hinaus ins weite Land!",
-      "char_offset": 2306,
-      "batch": "batch-004",
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 1779,
+      "source_end": 2180,
+      "source_text": "\nBeschränkt mit diesem Bücherhauf,\nden Würme nagen, Staub bedeckt,\nDen bis ans hohe Gewölb hinauf\nEin angeraucht Papier umsteckt;\nMit Gläsern, Büchsen rings umstellt,\nMit Instrumenten vollgepfropft,\nUrväter Hausrat drein gestopft—\nDas ist deine Welt! das heißt eine Welt!\n\nUnd fragst du noch, warum dein Herz\nSich bang in deinem Busen klemmt?\nWarum ein unerklärter Schmerz\nDir alle Lebensregung hemmt?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-003",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
       "tile_row": 2,
       "tile_column": 1,
-      "image": "illustrations/c04-s010.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
+      "image": "illustrations/c04-dense-005-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
       ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "previous_image": "illustrations/c04-dense-005.webp",
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 1779,
+      "anchor": "Beschränkt mit diesem Bücherhauf,\nden Würme nagen, Staub bedeckt,\nDen bis ans hohe Gewölb hinauf\nEin"
     },
     {
-      "id": "c04-s011",
+      "id": "c04-dense-006",
       "chapter": 4,
-      "title": "대우주의 표식 앞에서",
-      "anchor": "Ha! welche Wonne fließt in diesem Blick",
-      "char_offset": 2780,
-      "batch": "batch-004",
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 2180,
+      "source_end": 2340,
+      "source_text": "\nStatt der lebendigen Natur,\nDa Gott die Menschen schuf hinein,\nUmgibt in Rauch und Moder nur\nDich Tiergeripp und Totenbein.\n\nFlieh! auf! hinaus ins weite Land!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-003",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
       "tile_row": 2,
       "tile_column": 2,
-      "image": "illustrations/c04-s011.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
+      "image": "illustrations/c04-dense-006-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
       ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "previous_image": "illustrations/c04-dense-006.webp",
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 2180,
+      "anchor": "Statt der lebendigen Natur,\nDa Gott die Menschen schuf hinein,\nUmgibt in Rauch und Moder nur\nDich Ti"
     },
     {
-      "id": "c04-s012",
+      "id": "c04-dense-007",
       "chapter": 4,
-      "title": "자연의 작용을 바라보다",
-      "anchor": "Bin ich ein Gott? Mir wird so licht!",
-      "char_offset": 3134,
-      "batch": "batch-004",
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 2340,
+      "source_end": 2710,
+      "source_text": "\nUnd dies geheimnisvolle Buch,\nVon Nostradamus’ eigner Hand,\nIst dir es nicht Geleit genug?\nErkennest dann der Sterne Lauf,\nUnd wenn Natur dich Unterweist,\nDann geht die Seelenkraft dir auf,\nWie spricht ein Geist zum andren Geist.\nUmsonst, daß trocknes Sinnen hier\nDie heil’gen Zeichen dir erklärt.\nIhr schwebt, ihr Geister, neben mir;\nAntwortet mir, wenn ihr mich hört!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-003",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
       "tile_row": 2,
       "tile_column": 3,
-      "image": "illustrations/c04-s012.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
+      "image": "illustrations/c04-dense-007-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
       ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "previous_image": "illustrations/c04-dense-007.webp",
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 2340,
+      "anchor": "Und dies geheimnisvolle Buch,\nVon Nostradamus’ eigner Hand,\nIst dir es nicht Geleit genug?\nErkennest"
     },
     {
-      "id": "c04-s013",
+      "id": "c04-dense-008",
       "chapter": 4,
-      "title": "서로 이어진 우주",
-      "anchor": "Wie alles sich zum Ganzen webt,",
-      "char_offset": 3467,
-      "batch": "batch-004",
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 2710,
+      "source_end": 3133,
+      "source_text": "\n(Er schlägt das Buch auf und erblickt das Zeichen des Makrokosmus.)\n\nHa! welche Wonne fließt in diesem Blick\nAuf einmal mir durch alle meine Sinnen!\nIch fühle junges, heil’ges Lebensglück\nNeuglühend mir durch Nerv’ und Adern rinnen.\nWar es ein Gott, der diese Zeichen schrieb,\nDie mir das innre Toben stillen,\nDas arme Herz mit Freude füllen,\nUnd mit geheimnisvollem Trieb\nDie Kräfte der Natur rings um mich her enthüllen?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-003",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
       "tile_row": 3,
       "tile_column": 0,
-      "image": "illustrations/c04-s013.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
+      "image": "illustrations/c04-dense-008-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
       ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "previous_image": "illustrations/c04-dense-008.webp",
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 2710,
+      "anchor": "(Er schlägt das Buch auf und erblickt das Zeichen des Makrokosmus.)\n\nHa! welche Wonne fließt in dies"
     },
     {
-      "id": "c04-s014",
+      "id": "c04-dense-009",
       "chapter": 4,
-      "title": "형상에 그친 깨달음",
-      "anchor": "Welch Schauspiel! Aber ach! ein Schauspiel nur!",
-      "char_offset": 3713,
-      "batch": "batch-004",
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 3133,
+      "source_end": 3293,
+      "source_text": "\nBin ich ein Gott? Mir wird so licht!\nIch schau in diesen reinen Zügen\nDie wirkende Natur vor meiner Seele liegen.\nJetzt erst erkenn ich, was der Weise spricht.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-003",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
       "tile_row": 3,
       "tile_column": 1,
-      "image": "illustrations/c04-s014.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
+      "image": "illustrations/c04-dense-009-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
       ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "previous_image": "illustrations/c04-dense-009.webp",
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 3133,
+      "anchor": "Bin ich ein Gott? Mir wird so licht!\nIch schau in diesen reinen Zügen\nDie wirkende Natur vor meiner "
     },
     {
-      "id": "c04-s015",
+      "id": "c04-dense-010",
       "chapter": 4,
-      "title": "지령의 표식",
-      "anchor": "Wie anders wirkt dies Zeichen auf mich ein!",
-      "char_offset": 4038,
-      "batch": "batch-004",
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 3293,
+      "source_end": 3610,
+      "source_text": "\n“Die Geisterwelt ist nicht verschlossen;\nDein Sinn ist zu, dein Herz ist tot!\nAuf, bade, Schüler, unverdrossen\nDie ird’sche Brust im Morgenrot!”\n(er beschaut das Zeichen.)\n\nWie alles sich zum Ganzen webt,\nEins in dem andern wirkt und lebt!\nWie Himmelskräfte auf und nieder steigen\nUnd sich die goldnen Eimer reichen!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-003",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
       "tile_row": 3,
       "tile_column": 2,
-      "image": "illustrations/c04-s015.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
+      "image": "illustrations/c04-dense-010-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
       ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "previous_image": "illustrations/c04-dense-010.webp",
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 3293,
+      "anchor": "“Die Geisterwelt ist nicht verschlossen;\nDein Sinn ist zu, dein Herz ist tot!\nAuf, bade, Schüler, un"
     },
     {
-      "id": "c04-s016",
+      "id": "c04-dense-011",
       "chapter": 4,
-      "title": "달빛이 숨고 불길이 다가오다",
-      "anchor": "Es wölkt sich über mir—",
-      "char_offset": 4353,
-      "batch": "batch-004",
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 3610,
+      "source_end": 3760,
+      "source_text": "\nMit segenduftenden Schwingen\nVom Himmel durch die Erde dringen,\nHarmonisch all das All durchklingen!\n\nWelch Schauspiel! Aber ach! ein Schauspiel nur!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-003",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
       "tile_row": 3,
       "tile_column": 3,
-      "image": "illustrations/c04-s016.webp",
-      "status": "planned",
-      "references": [
-        "art-bible/character-faust-old.png",
-        "art-bible/location-study.png"
+      "image": "illustrations/c04-dense-011-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
       ],
-      "state": "Faust before rejuvenation. Earth spirit not yet shown."
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "previous_image": "illustrations/c04-dense-011.webp",
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 3610,
+      "anchor": "Mit segenduftenden Schwingen\nVom Himmel durch die Erde dringen,\nHarmonisch all das All durchklingen!"
+    },
+    {
+      "id": "c04-dense-012",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 3760,
+      "source_end": 4081,
+      "source_text": "\nWo fass ich dich, unendliche Natur?\nEuch Brüste, wo? Ihr Quellen alles Lebens,\nAn denen Himmel und Erde hängt,\nDahin die welke Brust sich drängt—\nIhr quellt, ihr tränkt, und schmacht ich so vergebens?\n(er schlägt unwillig das Buch um und erblickt das Zeichen des\nErdgeistes.)\n\nWie anders wirkt dies Zeichen auf mich ein!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-012-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "previous_image": "illustrations/c04-dense-012.webp",
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 3760,
+      "anchor": "Wo fass ich dich, unendliche Natur?\nEuch Brüste, wo? Ihr Quellen alles Lebens,\nAn denen Himmel und E"
+    },
+    {
+      "id": "c04-dense-013",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 4081,
+      "source_end": 4438,
+      "source_text": "\nDu, Geist der Erde, bist mir näher;\nSchon fühl ich meine Kräfte höher,\nSchon glüh ich wie von neuem Wein.\nIch fühle Mut, mich in die Welt zu wagen,\nDer Erde Weh, der Erde Glück zu tragen,\nMit Stürmen mich herumzuschlagen\nUnd in des Schiffbruchs Knirschen nicht zu zagen.\nEs wölkt sich über mir—\nDer Mond verbirgt sein Licht—\nDie Lampe schwindet!\nEs dampft!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "画像 visually reviewed: old Faust and study; panel 2 books-only instead of hand; no chapter publication yet.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-013.webp",
+      "source_grid": "source_images/chapter04-dense-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 4081,
+      "anchor": "Du, Geist der Erde, bist mir näher;\nSchon fühl ich meine Kräfte höher,\nSchon glüh ich wie von neuem "
+    },
+    {
+      "id": "c04-dense-014",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 4438,
+      "source_end": 4632,
+      "source_text": " Es zucken rote Strahlen\nMir um das Haupt—Es weht\nEin Schauer vom Gewölb herab\nUnd faßt mich an!\nIch fühl’s, du schwebst um mich, erflehter Geist\nEnthülle dich!\nHa! wie’s in meinem Herzen reißt!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "画像 visually reviewed: old Faust and study; panel 2 books-only instead of hand; no chapter publication yet.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-014.webp",
+      "source_grid": "source_images/chapter04-dense-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 4438,
+      "anchor": "Es zucken rote Strahlen\nMir um das Haupt—Es weht\nEin Schauer vom Gewölb herab\nUnd faßt mich an!\nIch "
+    },
+    {
+      "id": "c04-dense-015",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 4632,
+      "source_end": 4741,
+      "source_text": "\nZu neuen Gefühlen\nAll meine Sinnen sich erwühlen!\nIch fühle ganz mein Herz dir hingegeben!\nDu mußt! du mußt!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "画像 visually reviewed: old Faust and study; panel 2 books-only instead of hand; no chapter publication yet.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-015.webp",
+      "source_grid": "source_images/chapter04-dense-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 4632,
+      "anchor": "Zu neuen Gefühlen\nAll meine Sinnen sich erwühlen!\nIch fühle ganz mein Herz dir hingegeben!\nDu mußt! "
+    },
+    {
+      "id": "c04-dense-016",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 4741,
+      "source_end": 5066,
+      "source_text": " und kostet es mein Leben!\n(Er faßt das Buch und spricht das Zeichen des Geistes geheimnisvoll\naus.\nEs zuckt eine rötliche Flamme, der Geist erscheint in der Flamme.)\n\nGEIST.\nWer ruft mir?\n\nFAUST (abgewendet).\nSchreckliches Gesicht!\n\nGEIST.\nDu hast mich mächtig angezogen,\nAn meiner Sphäre lang gesogen,\nUnd nun—\n\nFAUST.\nWeh!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "GEIST",
+        "FAUST ",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "画像 visually reviewed: old Faust and study; panel 2 books-only instead of hand; no chapter publication yet.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-016.webp",
+      "source_grid": "source_images/chapter04-dense-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 4741,
+      "anchor": "und kostet es mein Leben!\n(Er faßt das Buch und spricht das Zeichen des Geistes geheimnisvoll\naus.\nE"
+    },
+    {
+      "id": "c04-dense-017",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 5066,
+      "source_end": 5438,
+      "source_text": " ich ertrag dich nicht!\n\nGEIST.\nDu flehst, eratmend mich zu schauen,\nMeine Stimme zu hören, mein Antlitz zu sehn;\nMich neigt dein mächtig Seelenflehn,\nDa bin ich!—Welch erbärmlich Grauen\nFaßt Übermenschen dich! Wo ist der Seele Ruf?\nWo ist die Brust, die eine Welt in sich erschuf\nUnd trug und hegte, die mit Freudebeben\nErschwoll, sich uns, den Geistern, gleich zu heben?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "GEIST"
+      ],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-017.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 5066,
+      "anchor": "ich ertrag dich nicht!\n\nGEIST.\nDu flehst, eratmend mich zu schauen,\nMeine Stimme zu hören, mein Antl"
+    },
+    {
+      "id": "c04-dense-018",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 5438,
+      "source_end": 5721,
+      "source_text": "\nWo bist du, Faust, des Stimme mir erklang,\nDer sich an mich mit allen Kräften drang?\nBist du es, der, von meinem Hauch umwittert,\nIn allen Lebenslagen zittert,\nEin furchtsam weggekrümmter Wurm?\n\nFAUST.\nSoll ich dir, Flammenbildung, weichen?\nIch bin’s, bin Faust, bin deinesgleichen!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-018.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 5438,
+      "anchor": "Wo bist du, Faust, des Stimme mir erklang,\nDer sich an mich mit allen Kräften drang?\nBist du es, der"
+    },
+    {
+      "id": "c04-dense-019",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 5721,
+      "source_end": 6111,
+      "source_text": "\n\nGEIST.\nIn Lebensfluten, im Tatensturm\nWall ich auf und ab,\nWehe hin und her!\nGeburt und Grab,\nEin ewiges Meer,\nEin wechselndes Wehen,\nEin glühend Leben,\nSo schaff ich am laufenden Webstuhl der Zeit\nUnd wirke der Gottheit lebendiges Kleid.\n\nFAUST.\nDer du die weite Welt umschweifst,\nGeschäftiger Geist, wie nah fühl ich mich dir!\n\nGEIST.\nDu gleichst dem Geist, den du begreifst,\nNicht mir!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "GEIST",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-019.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 5721,
+      "anchor": "GEIST.\nIn Lebensfluten, im Tatensturm\nWall ich auf und ab,\nWehe hin und her!\nGeburt und Grab,\nEin ew"
+    },
+    {
+      "id": "c04-dense-020",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 6111,
+      "source_end": 6223,
+      "source_text": "\n(verschwindet)\n\nFAUST (zusammenstürzend).\nNicht dir?\nWem denn?\nIch Ebenbild der Gottheit!\nUnd nicht einmal dir!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST "
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-020.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 6111,
+      "anchor": "(verschwindet)\n\nFAUST (zusammenstürzend).\nNicht dir?\nWem denn?\nIch Ebenbild der Gottheit!\nUnd nicht "
+    },
+    {
+      "id": "c04-dense-021",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 6223,
+      "source_end": 6493,
+      "source_text": "\n(es klopft)\n\nO Tod! ich kenn’s—das ist mein Famulus—\nEs wird mein schönstes Glück zunichte!\nDaß diese Fülle der Gesichte\nDer trockne Schleicher stören muß!\n(Wagner im Schlafrock und der Nachtmütze, eine Lampe in der Hand.\nFaust wendet sich unwillig.)\n\nWAGNER.\nVerzeiht!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "character-012",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-021.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 6223,
+      "anchor": "(es klopft)\n\nO Tod! ich kenn’s—das ist mein Famulus—\nEs wird mein schönstes Glück zunichte!\nDaß dies"
+    },
+    {
+      "id": "c04-dense-022",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 6493,
+      "source_end": 6798,
+      "source_text": " ich hör euch deklamieren;\nIhr last gewiß ein griechisch Trauerspiel?\nIn dieser Kunst möcht ich was profitieren,\nDenn heutzutage wirkt das viel.\nIch hab es öfters rühmen hören,\nEin Komödiant könnt einen Pfarrer lehren.\n\nFAUST.\nJa, wenn der Pfarrer ein Komödiant ist;\nWie das denn wohl zuzeiten kommen mag.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-022.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 6493,
+      "anchor": "ich hör euch deklamieren;\nIhr last gewiß ein griechisch Trauerspiel?\nIn dieser Kunst möcht ich was p"
+    },
+    {
+      "id": "c04-dense-023",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 6798,
+      "source_end": 7150,
+      "source_text": "\n\nWAGNER.\nAch! wenn man so in sein Museum gebannt ist,\nUnd sieht die Welt kaum einen Feiertag,\nKaum durch ein Fernglas, nur von weitem,\nWie soll man sie durch Überredung leiten?\n\nFAUST.\nWenn ihr’s nicht fühlt, ihr werdet’s nicht erjagen,\nWenn es nicht aus der Seele dringt\nUnd mit urkräftigem Behagen\nDie Herzen aller Hörer zwingt.\nSitzt ihr nur immer!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "WAGNER",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-012",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-023.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 6798,
+      "anchor": "WAGNER.\nAch! wenn man so in sein Museum gebannt ist,\nUnd sieht die Welt kaum einen Feiertag,\nKaum du"
+    },
+    {
+      "id": "c04-dense-024",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 7150,
+      "source_end": 7555,
+      "source_text": " leimt zusammen,\nBraut ein Ragout von andrer Schmaus\nUnd blast die kümmerlichen Flammen\nAus eurem Aschenhäufchen ’raus!\nBewundrung von Kindern und Affen,\nWenn euch darnach der Gaumen steht;\nDoch werdet ihr nie Herz zu Herzen schaffen,\nWenn es euch nicht von Herzen geht.\n\nWAGNER.\nAllein der Vortrag macht des Redners Glück;\nIch fühl es wohl, noch bin ich weit zurück.\n\nFAUST.\nSuch Er den redlichen Gewinn!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "WAGNER",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-012",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-024.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 7150,
+      "anchor": "leimt zusammen,\nBraut ein Ragout von andrer Schmaus\nUnd blast die kümmerlichen Flammen\nAus eurem Asc"
+    },
+    {
+      "id": "c04-dense-025",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 7555,
+      "source_end": 7902,
+      "source_text": "\nSei Er kein schellenlauter Tor!\nEs trägt Verstand und rechter Sinn\nMit wenig Kunst sich selber vor!\nUnd wenn’s euch Ernst ist, was zu sagen,\nIst’s nötig, Worten nachzujagen?\nJa, eure Reden, die so blinkend sind,\nIn denen ihr der Menschheit Schnitzel kräuselt,\nSind unerquicklich wie der Nebelwind,\nDer herbstlich durch die dürren Blätter säuselt!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-025.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 7555,
+      "anchor": "Sei Er kein schellenlauter Tor!\nEs trägt Verstand und rechter Sinn\nMit wenig Kunst sich selber vor!\n"
+    },
+    {
+      "id": "c04-dense-026",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 7902,
+      "source_end": 8126,
+      "source_text": "\n\nWAGNER.\nAch Gott! die Kunst ist lang;\nUnd kurz ist unser Leben.\nMir wird, bei meinem kritischen Bestreben,\nDoch oft um Kopf und Busen bang.\nWie schwer sind nicht die Mittel zu erwerben,\nDurch die man zu den Quellen steigt!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "character-012",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-026.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 7902,
+      "anchor": "WAGNER.\nAch Gott! die Kunst ist lang;\nUnd kurz ist unser Leben.\nMir wird, bei meinem kritischen Best"
+    },
+    {
+      "id": "c04-dense-027",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 8126,
+      "source_end": 8395,
+      "source_text": "\nUnd eh man nur den halben Weg erreicht,\nMuß wohl ein armer Teufel sterben.\n\nFAUST.\nDas Pergament, ist das der heil’ge Bronnen,\nWoraus ein Trunk den Durst auf ewig stillt?\nErquickung hast du nicht gewonnen,\nWenn sie dir nicht aus eigner Seele quillt.\n\nWAGNER.\nVerzeiht!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-012",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-004",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-027.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 8126,
+      "anchor": "Und eh man nur den halben Weg erreicht,\nMuß wohl ein armer Teufel sterben.\n\nFAUST.\nDas Pergament, is"
+    },
+    {
+      "id": "c04-dense-028",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 8395,
+      "source_end": 8798,
+      "source_text": " es ist ein groß Ergetzen,\nSich in den Geist der Zeiten zu versetzen;\nZu schauen, wie vor uns ein weiser Mann gedacht,\nUnd wie wir’s dann zuletzt so herrlich weit gebracht.\n\nFAUST.\nO ja, bis an die Sterne weit!\nMein Freund, die Zeiten der Vergangenheit\nSind uns ein Buch mit sieben Siegeln.\nWas ihr den Geist der Zeiten heißt,\nDas ist im Grund der Herren eigner Geist,\nIn dem die Zeiten sich bespiegeln.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-028.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 8395,
+      "anchor": "es ist ein groß Ergetzen,\nSich in den Geist der Zeiten zu versetzen;\nZu schauen, wie vor uns ein wei"
+    },
+    {
+      "id": "c04-dense-029",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 8798,
+      "source_end": 9067,
+      "source_text": "\nDa ist’s denn wahrlich oft ein Jammer!\nMan läuft euch bei dem ersten Blick davon.\nEin Kehrichtfaß und eine Rumpelkammer\nUnd höchstens eine Haupt- und Staatsaktion\nMit trefflichen pragmatischen Maximen,\nWie sie den Puppen wohl im Munde ziemen!\n\nWAGNER.\nAllein die Welt!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "character-012",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-029.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 8798,
+      "anchor": "Da ist’s denn wahrlich oft ein Jammer!\nMan läuft euch bei dem ersten Blick davon.\nEin Kehrichtfaß un"
+    },
+    {
+      "id": "c04-dense-030",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 9067,
+      "source_end": 9213,
+      "source_text": " des Menschen Herz und Geist!\nMöcht jeglicher doch was davon erkennen.\n\nFAUST.\nJa, was man so erkennen heißt!\nWer darf das Kind beim Namen nennen?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-030.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 9067,
+      "anchor": "des Menschen Herz und Geist!\nMöcht jeglicher doch was davon erkennen.\n\nFAUST.\nJa, was man so erkenne"
+    },
+    {
+      "id": "c04-dense-031",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 9213,
+      "source_end": 9632,
+      "source_text": "\nDie wenigen, die was davon erkannt,\nDie töricht g’nug ihr volles Herz nicht wahrten,\nDem Pöbel ihr Gefühl, ihr Schauen offenbarten,\nHat man von je gekreuzigt und verbrannt.\nIch bitt Euch, Freund, es ist tief in der Nacht,\nWir müssen’s diesmal unterbrechen.\n\nWAGNER.\nIch hätte gern nur immer fortgewacht,\nUm so gelehrt mit Euch mich zu besprechen.\nDoch morgen, als am ersten Ostertage,\nErlaubt mir ein’ und andre Frage.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "character-012",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-031.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 9213,
+      "anchor": "Die wenigen, die was davon erkannt,\nDie töricht g’nug ihr volles Herz nicht wahrten,\nDem Pöbel ihr G"
+    },
+    {
+      "id": "c04-dense-032",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 9632,
+      "source_end": 10005,
+      "source_text": "\nMit Eifer hab’ ich mich der Studien beflissen;\nZwar weiß ich viel, doch möcht’ ich alles wissen.\n(Ab.)\n\nFAUST (allein).\nWie nur dem Kopf nicht alle Hoffnung schwindet,\nDer immerfort an schalem Zeuge klebt,\nMit gier’ger Hand nach Schätzen gräbt,\nUnd froh ist, wenn er Regenwürmer findet!\n\nDarf eine solche Menschenstimme hier,\nWo Geisterfülle mich umgab, ertönen?\nDoch ach!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST "
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-032.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 9632,
+      "anchor": "Mit Eifer hab’ ich mich der Studien beflissen;\nZwar weiß ich viel, doch möcht’ ich alles wissen.\n(Ab"
+    },
+    {
+      "id": "c04-dense-033",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 10005,
+      "source_end": 10241,
+      "source_text": " für diesmal dank ich dir,\nDem ärmlichsten von allen Erdensöhnen.\nDu rissest mich von der Verzweiflung los,\nDie mir die Sinne schon zerstören wollte.\nAch! die Erscheinung war so riesengroß,\nDaß ich mich recht als Zwerg empfinden sollte.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-033.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 10005,
+      "anchor": "für diesmal dank ich dir,\nDem ärmlichsten von allen Erdensöhnen.\nDu rissest mich von der Verzweiflun"
+    },
+    {
+      "id": "c04-dense-034",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 10241,
+      "source_end": 10875,
+      "source_text": "\n\nIch, Ebenbild der Gottheit, das sich schon\nGanz nah gedünkt dem Spiegel ew’ger Wahrheit,\nSein selbst genoß in Himmelsglanz und Klarheit,\nUnd abgestreift den Erdensohn;\nIch, mehr als Cherub, dessen freie Kraft\nSchon durch die Adern der Natur zu fließen\nUnd, schaffend, Götterleben zu genießen\nSich ahnungsvoll vermaß, wie muß ich’s büßen!\nEin Donnerwort hat mich hinweggerafft.\n\nNicht darf ich dir zu gleichen mich vermessen;\nHab ich die Kraft dich anzuziehn besessen,\nSo hatt ich dich zu halten keine Kraft.\nIn jenem sel’gen Augenblicke\nIch fühlte mich so klein, so groß;\nDu stießest grausam mich zurücke,\nIns ungewisse Menschenlos.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-034.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 10241,
+      "anchor": "Ich, Ebenbild der Gottheit, das sich schon\nGanz nah gedünkt dem Spiegel ew’ger Wahrheit,\nSein selbst"
+    },
+    {
+      "id": "c04-dense-035",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 10875,
+      "source_end": 10950,
+      "source_text": "\nWer lehret mich? was soll ich meiden?\nSoll ich gehorchen jenem Drang?\nAch!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-035.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 10875,
+      "anchor": "Wer lehret mich? was soll ich meiden?\nSoll ich gehorchen jenem Drang?\nAch!"
+    },
+    {
+      "id": "c04-dense-036",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 10950,
+      "source_end": 11448,
+      "source_text": " unsre Taten selbst, so gut als unsre Leiden,\nSie hemmen unsres Lebens Gang.\n\nDem Herrlichsten, was auch der Geist empfangen,\nDrängt immer fremd und fremder Stoff sich an;\nWenn wir zum Guten dieser Welt gelangen,\nDann heißt das Beßre Trug und Wahn.\nDie uns das Leben gaben, herrliche Gefühle\nErstarren in dem irdischen Gewühle.\n\nWenn Phantasie sich sonst mit kühnem Flug\nUnd hoffnungsvoll zum Ewigen erweitert,\nSo ist ein kleiner Raum ihr nun genug,\nWenn Glück auf Glück im Zeitenstrudel scheitert.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-036.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 10950,
+      "anchor": "unsre Taten selbst, so gut als unsre Leiden,\nSie hemmen unsres Lebens Gang.\n\nDem Herrlichsten, was a"
+    },
+    {
+      "id": "c04-dense-037",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 11448,
+      "source_end": 12060,
+      "source_text": "\nDie Sorge nistet gleich im tiefen Herzen,\nDort wirket sie geheime Schmerzen,\nUnruhig wiegt sie sich und störet Lust und Ruh;\nSie deckt sich stets mit neuen Masken zu,\nSie mag als Haus und Hof, als Weib und Kind erscheinen,\nAls Feuer, Wasser, Dolch und Gift;\nDu bebst vor allem, was nicht trifft,\nUnd was du nie verlierst, das mußt du stets beweinen.\n\nDen Göttern gleich ich nicht! zu tief ist es gefühlt;\nDem Wurme gleich ich, der den Staub durchwühlt,\nDen, wie er sich im Staube nährend lebt,\nDes Wandrers Tritt vernichtet und begräbt.\n\nIst es nicht Staub, was diese hohe Wand\nAus hundert Fächern mit verenget?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-037.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 11448,
+      "anchor": "Die Sorge nistet gleich im tiefen Herzen,\nDort wirket sie geheime Schmerzen,\nUnruhig wiegt sie sich "
+    },
+    {
+      "id": "c04-dense-038",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 12060,
+      "source_end": 12483,
+      "source_text": "\nDer Trödel, der mit tausendfachem Tand\nIn dieser Mottenwelt mich dränget?\nHier soll ich finden, was mir fehlt?\nSoll ich vielleicht in tausend Büchern lesen,\nDaß überall die Menschen sich gequält,\nDaß hie und da ein Glücklicher gewesen?—\nWas grinsest du mir, hohler Schädel, her?\nAls daß dein Hirn, wie meines, einst verwirret\nDen leichten Tag gesucht und in der Dämmrung schwer,\nMit Lust nach Wahrheit, jämmerlich geirret.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-038.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 12060,
+      "anchor": "Der Trödel, der mit tausendfachem Tand\nIn dieser Mottenwelt mich dränget?\nHier soll ich finden, was "
+    },
+    {
+      "id": "c04-dense-039",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 12483,
+      "source_end": 12933,
+      "source_text": "\nIhr Instrumente freilich spottet mein,\nMit Rad und Kämmen, Walz und Bügel.\nIch stand am Tor, ihr solltet Schlüssel sein;\nZwar euer Bart ist kraus, doch hebt ihr nicht die Riegel.\nGeheimnisvoll am lichten Tag\nLäßt sich Natur des Schleiers nicht berauben,\nUnd was sie deinem Geist nicht offenbaren mag,\nDas zwingst du ihr nicht ab mit Hebeln und mit Schrauben.\nDu alt Geräte, das ich nicht gebraucht,\nDu stehst nur hier, weil dich mein Vater brauchte.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-039.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 12483,
+      "anchor": "Ihr Instrumente freilich spottet mein,\nMit Rad und Kämmen, Walz und Bügel.\nIch stand am Tor, ihr sol"
+    },
+    {
+      "id": "c04-dense-040",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 12933,
+      "source_end": 13282,
+      "source_text": "\nDu alte Rolle, du wirst angeraucht,\nSolang an diesem Pult die trübe Lampe schmauchte.\nWeit besser hätt ich doch mein Weniges verpraßt,\nAls mit dem Wenigen belastet hier zu schwitzen!\nWas du ererbt von deinen Vätern hast,\nErwirb es, um es zu besitzen.\nWas man nicht nützt, ist eine schwere Last,\nNur was der Augenblick erschafft, das kann er nützen.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-040.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 12933,
+      "anchor": "Du alte Rolle, du wirst angeraucht,\nSolang an diesem Pult die trübe Lampe schmauchte.\nWeit besser hä"
+    },
+    {
+      "id": "c04-dense-041",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 13282,
+      "source_end": 13549,
+      "source_text": "\n\nDoch warum heftet sich mein Blick auf jene Stelle?\nIst jenes Fläschchen dort den Augen ein Magnet?\nWarum wird mir auf einmal lieblich helle,\nAls wenn im nächt’gen Wald uns Mondenglanz umweht?\n\nIch grüße dich, du einzige Phiole,\nDie ich mit Andacht nun herunterhole!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-041.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 13282,
+      "anchor": "Doch warum heftet sich mein Blick auf jene Stelle?\nIst jenes Fläschchen dort den Augen ein Magnet?\nW"
+    },
+    {
+      "id": "c04-dense-042",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 13549,
+      "source_end": 13956,
+      "source_text": "\nIn dir verehr ich Menschenwitz und Kunst.\nDu Inbegriff der holden Schlummersäfte,\nDu Auszug aller tödlich feinen Kräfte,\nErweise deinem Meister deine Gunst!\nIch sehe dich, es wird der Schmerz gelindert,\nIch fasse dich, das Streben wird gemindert,\nDes Geistes Flutstrom ebbet nach und nach.\nIns hohe Meer werd ich hinausgewiesen,\nDie Spiegelflut erglänzt zu meinen Füßen,\nZu neuen Ufern lockt ein neuer Tag.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-042.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 13549,
+      "anchor": "In dir verehr ich Menschenwitz und Kunst.\nDu Inbegriff der holden Schlummersäfte,\nDu Auszug aller tö"
+    },
+    {
+      "id": "c04-dense-043",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 13956,
+      "source_end": 14199,
+      "source_text": "\n\nEin Feuerwagen schwebt, auf leichten Schwingen,\nAn mich heran! Ich fühle mich bereit,\nAuf neuer Bahn den Äther zu durchdringen,\nZu neuen Sphären reiner Tätigkeit.\nDies hohe Leben, diese Götterwonne!\nDu, erst noch Wurm, und die verdienest du?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-005",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-043.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 13956,
+      "anchor": "Ein Feuerwagen schwebt, auf leichten Schwingen,\nAn mich heran! Ich fühle mich bereit,\nAuf neuer Bahn"
+    },
+    {
+      "id": "c04-dense-044",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 14199,
+      "source_end": 14741,
+      "source_text": "\nJa, kehre nur der holden Erdensonne\nEntschlossen deinen Rücken zu!\nVermesse dich, die Pforten aufzureißen,\nVor denen jeder gern vorüberschleicht!\nHier ist es Zeit, durch Taten zu beweisen,\nDas Manneswürde nicht der Götterhöhe weicht,\nVor jener dunkeln Höhle nicht zu beben,\nIn der sich Phantasie zu eigner Qual verdammt,\nNach jenem Durchgang hinzustreben,\nUm dessen engen Mund die ganze Hölle flammt;\nZu diesem Schritt sich heiter zu entschließen,\nUnd wär es mit Gefahr, ins Nichts dahin zu fließen.\n\nNun komm herab, kristallne reine Schale!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-044.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 14199,
+      "anchor": "Ja, kehre nur der holden Erdensonne\nEntschlossen deinen Rücken zu!\nVermesse dich, die Pforten aufzur"
+    },
+    {
+      "id": "c04-dense-045",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 14741,
+      "source_end": 15190,
+      "source_text": "\nHervor aus deinem alten Futterale,\nAn die ich viele Jahre nicht gedacht!\nDu glänzetst bei der Väter Freudenfeste,\nErheitertest die ernsten Gäste,\nWenn einer dich dem andern zugebracht.\nDer vielen Bilder künstlich reiche Pracht,\nDes Trinkers Pflicht, sie reimweis zu erklären,\nAuf einen Zug die Höhlung auszuleeren,\nErinnert mich an manche Jugendnacht.\nIch werde jetzt dich keinem Nachbar reichen,\nIch werde meinen Witz an deiner Kunst nicht zeigen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-045.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 14741,
+      "anchor": "Hervor aus deinem alten Futterale,\nAn die ich viele Jahre nicht gedacht!\nDu glänzetst bei der Väter "
+    },
+    {
+      "id": "c04-dense-046",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 15190,
+      "source_end": 15501,
+      "source_text": "\nHier ist ein Saft, der eilig trunken macht;\nMit brauner Flut erfüllt er deine Höhle.\nDen ich bereit, den ich wähle,\nDer letzte Trunk sei nun, mit ganzer Seele,\nAls festlich hoher Gruß, dem Morgen zugebracht!\n(Er setzt die Schale an den Mund.)\nGlockenklang und Chorgesang.\n\nCHOR DER ENGEL.\nChrist ist erstanden!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "CHOR DER ENGEL"
+      ],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-046.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 15190,
+      "anchor": "Hier ist ein Saft, der eilig trunken macht;\nMit brauner Flut erfüllt er deine Höhle.\nDen ich bereit,"
+    },
+    {
+      "id": "c04-dense-047",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 15501,
+      "source_end": 15884,
+      "source_text": "\nFreude dem Sterblichen,\nDen die verderblichen,\nSchleichenden, erblichen\nMängel umwanden.\n\nFAUST.\nWelch tiefes Summen, welch heller Ton\nZieht mit Gewalt das Glas von meinem Munde?\nVerkündigt ihr dumpfen Glocken schon\nDes Osterfestes erste Feierstunde?\nIhr Chöre, singt ihr schon den tröstlichen Gesang,\nDer einst, um Grabes Nacht, von Engelslippen klang,\nGewißheit einem neuen Bunde?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-047.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 15501,
+      "anchor": "Freude dem Sterblichen,\nDen die verderblichen,\nSchleichenden, erblichen\nMängel umwanden.\n\nFAUST.\nWel"
+    },
+    {
+      "id": "c04-dense-048",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 15884,
+      "source_end": 16183,
+      "source_text": "\n\nCHOR DER WEIBER.\nMit Spezereien\nHatten wir ihn gepflegt,\nWir seine Treuen\nHatten ihn hingelegt;\nTücher und Binden\nReinlich umwanden wir,\nAch! und wir finden\nChrist nicht mehr hier.\n\nCHOR DER ENGEL.\nChrist ist erstanden!\nSelig der Liebende,\nDer die betrübende,\nHeilsam und übende\nPrüfung bestanden.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "CHOR DER WEIBER",
+        "CHOR DER ENGEL"
+      ],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-048.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 15884,
+      "anchor": "CHOR DER WEIBER.\nMit Spezereien\nHatten wir ihn gepflegt,\nWir seine Treuen\nHatten ihn hingelegt;\nTüch"
+    },
+    {
+      "id": "c04-dense-049",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 16183,
+      "source_end": 16573,
+      "source_text": "\n\nFAUST.\nWas sucht ihr, mächtig und gelind,\nIhr Himmelstöne, mich am Staube?\nKlingt dort umher, wo weiche Menschen sind.\nDie Botschaft hör ich wohl, allein mir fehlt der Glaube;\nDas Wunder ist des Glaubens liebstes Kind.\nZu jenen Sphären wag ich nicht zu streben,\nWoher die holde Nachricht tönt;\nUnd doch, an diesen Klang von Jugend auf gewöhnt,\nRuft er auch jetzt zurück mich in das Leben.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-049.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 16183,
+      "anchor": "FAUST.\nWas sucht ihr, mächtig und gelind,\nIhr Himmelstöne, mich am Staube?\nKlingt dort umher, wo wei"
+    },
+    {
+      "id": "c04-dense-050",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 16573,
+      "source_end": 17129,
+      "source_text": "\nSonst stürzte sich der Himmelsliebe Kuß\nAuf mich herab in ernster Sabbatstille;\nDa klang so ahnungsvoll des Glockentones Fülle,\nUnd ein Gebet war brünstiger Genuß;\nEin unbegreiflich holdes Sehnen\nTrieb mich, durch Wald und Wiesen hinzugehn,\nUnd unter tausend heißen Tränen\nFühlt ich mir eine Welt entstehn.\nDies Lied verkündete der Jugend muntre Spiele,\nDer Frühlingsfeier freies Glück;\nErinnrung hält mich nun, mit kindlichem Gefühle,\nVom letzten, ernsten Schritt zurück.\nO tönet fort, ihr süßen Himmelslieder!\nDie Träne quillt, die Erde hat mich wieder!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-050.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 16573,
+      "anchor": "Sonst stürzte sich der Himmelsliebe Kuß\nAuf mich herab in ernster Sabbatstille;\nDa klang so ahnungsv"
+    },
+    {
+      "id": "c04-dense-051",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 17129,
+      "source_end": 17365,
+      "source_text": "\n\nCHOR DER JÜNGER.\nHat der Begrabene\nSchon sich nach oben,\nLebend Erhabene,\nHerrlich erhoben;\nIst er in Werdeluft\nSchaffender Freude nah.\nAch! an der Erde Brust\nSind wir zum Leide da.\nLieß er die Seinen\nSchmachtend uns hier zurück;\nAch!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "CHOR DER JÜNGER"
+      ],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-051.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 17129,
+      "anchor": "CHOR DER JÜNGER.\nHat der Begrabene\nSchon sich nach oben,\nLebend Erhabene,\nHerrlich erhoben;\nIst er i"
+    },
+    {
+      "id": "c04-dense-052",
+      "chapter": 4,
+      "chapter_title": "Nacht",
+      "sentence_count": 4,
+      "source_start": 17365,
+      "source_end": 17646,
+      "source_text": " wir beweinen,\nMeister, dein Glück!\n\nCHOR DER ENGEL.\nChrist ist erstanden,\nAus der Verwesung Schoß.\nReißet von Banden\nFreudig euch los!\nTätig ihn preisenden,\nLiebe beweisenden,\nBrüderlich speisenden,\nPredigend reisenden,\nWonne verheißenden\nEuch ist der Meister nah,\nEuch ist er da!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "CHOR DER ENGEL"
+      ],
+      "reference_ids": [
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-052.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json",
+      "char_offset": 17365,
+      "anchor": "wir beweinen,\nMeister, dein Glück!\n\nCHOR DER ENGEL.\nChrist ist erstanden,\nAus der Verwesung Schoß.\nR"
     }
   ]
 }

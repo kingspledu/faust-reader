@@ -1,0 +1,49 @@
+{
+  "automated_dsp": "passed",
+  "presets": [
+    {
+      "preset": "dry",
+      "samples": 44100,
+      "tail_seconds": 0,
+      "wav_bytes": 88244
+    },
+    {
+      "preset": "intimate",
+      "samples": 44100,
+      "tail_seconds": 0,
+      "wav_bytes": 88244
+    },
+    {
+      "preset": "room",
+      "samples": 88200,
+      "tail_seconds": 1,
+      "wav_bytes": 176444
+    },
+    {
+      "preset": "inner",
+      "samples": 121937,
+      "tail_seconds": 1.7650113378684806,
+      "wav_bytes": 243918
+    },
+    {
+      "preset": "echo",
+      "samples": 81806,
+      "tail_seconds": 0.8550113378684807,
+      "wav_bytes": 163656
+    },
+    {
+      "preset": "dream",
+      "samples": 165596,
+      "tail_seconds": 2.755011337868481,
+      "wav_bytes": 331236
+    }
+  ],
+  "chapters": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "listening_test": "not performed",
+  "canvas_download": "not performed"
+}

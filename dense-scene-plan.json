@@ -1619,12 +1619,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-003",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-001-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "previous_image": "illustrations/c04-dense-001.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-002",
@@ -1642,12 +1656,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-003",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-002-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "previous_image": "illustrations/c04-dense-002.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-003",
@@ -1665,12 +1693,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-003",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-003-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "previous_image": "illustrations/c04-dense-003.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-004",
@@ -1688,12 +1730,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-003",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-004-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "previous_image": "illustrations/c04-dense-004.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-005",
@@ -1711,12 +1767,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-003",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-005-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "previous_image": "illustrations/c04-dense-005.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-006",
@@ -1734,12 +1804,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-003",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-006-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "previous_image": "illustrations/c04-dense-006.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-007",
@@ -1757,12 +1841,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-003",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-007-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "previous_image": "illustrations/c04-dense-007.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-008",
@@ -1780,12 +1878,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-003",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-008-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "previous_image": "illustrations/c04-dense-008.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-009",
@@ -1803,12 +1915,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-003",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-009-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "previous_image": "illustrations/c04-dense-009.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-010",
@@ -1826,12 +1952,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-003",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-010-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "previous_image": "illustrations/c04-dense-010.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-011",
@@ -1849,12 +1989,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-003",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-011-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "previous_image": "illustrations/c04-dense-011.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-012",
@@ -1872,12 +2026,26 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-012-v2.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "previous_image": "illustrations/c04-dense-012.webp",
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-013",
@@ -1895,12 +2063,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "画像 visually reviewed: old Faust and study; panel 2 books-only instead of hand; no chapter publication yet.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-013.webp",
+      "source_grid": "source_images/chapter04-dense-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-014",
@@ -1918,12 +2099,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "画像 visually reviewed: old Faust and study; panel 2 books-only instead of hand; no chapter publication yet.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-014.webp",
+      "source_grid": "source_images/chapter04-dense-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-015",
@@ -1941,12 +2135,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "画像 visually reviewed: old Faust and study; panel 2 books-only instead of hand; no chapter publication yet.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-015.webp",
+      "source_grid": "source_images/chapter04-dense-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-016",
@@ -1969,12 +2176,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "画像 visually reviewed: old Faust and study; panel 2 books-only instead of hand; no chapter publication yet.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-016.webp",
+      "source_grid": "source_images/chapter04-dense-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-017",
@@ -1994,12 +2214,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-017.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-018",
@@ -2020,12 +2253,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-018.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-019",
@@ -2047,12 +2293,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-019.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-020",
@@ -2073,12 +2332,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-020.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-021",
@@ -2099,12 +2371,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-021.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-022",
@@ -2125,12 +2410,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-022.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-023",
@@ -2153,12 +2451,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-023.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-024",
@@ -2181,12 +2492,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-024.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-025",
@@ -2204,12 +2528,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-025.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-026",
@@ -2230,12 +2567,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-026.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-027",
@@ -2258,12 +2608,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-004",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-027.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-028",
@@ -2284,12 +2647,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-028.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-029",
@@ -2310,12 +2686,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-029.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-030",
@@ -2336,12 +2725,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-030.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-031",
@@ -2362,12 +2764,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-031.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-032",
@@ -2388,12 +2803,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "생성 그림 확인: 노학자·불꽃 지령·밤옷 바그너. 요청한 일부 앵글은 정면에 가까워 추후 검토.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-032.webp",
+      "source_grid": "source_images/chapter04-dense-002.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-033",
@@ -2411,12 +2839,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-033.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-034",
@@ -2434,12 +2875,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-034.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-035",
@@ -2457,12 +2911,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-035.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-036",
@@ -2480,12 +2947,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-036.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-037",
@@ -2503,12 +2983,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-037.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-038",
@@ -2526,12 +3019,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-038.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-039",
@@ -2549,12 +3055,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-039.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-040",
@@ -2572,12 +3091,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-040.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-041",
@@ -2595,12 +3127,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-041.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-042",
@@ -2618,12 +3163,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-042.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-043",
@@ -2641,12 +3199,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-005",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-043.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-044",
@@ -2664,12 +3235,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-006",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-044.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-045",
@@ -2687,12 +3271,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-006",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-045.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-046",
@@ -2712,12 +3309,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-006",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-046.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-047",
@@ -2738,12 +3348,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-006",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-047.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-048",
@@ -2764,12 +3387,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-006",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 정체성·서재·행 우선 16컷 확인. 최종 그림-각색 대응 검수 전 초안; 일부 소품 동작과 앵글은 최종 검토 필요.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-048.webp",
+      "source_grid": "source_images/chapter04-dense-003.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-049",
@@ -2790,12 +3426,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-006",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c04-dense-049.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-050",
@@ -2813,12 +3462,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-006",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c04-dense-050.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-051",
@@ -2838,12 +3500,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-006",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c04-dense-051.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c04-dense-052",
@@ -2863,12 +3538,25 @@
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-006",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "4×4行優先。노학자·서재·장면 의미 확인. 빛나는 도형은 인물의 이해를 표현한 연출이며 물리적 새 사건으로 서술하지 않음.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c04-dense-052.webp",
+      "source_grid": "source_images/chapter04-dense-004.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-04.json"
     },
     {
       "id": "c05-dense-001",

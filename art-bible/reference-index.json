@@ -322,7 +322,12 @@
       "canonical_note": "학자. 노학자 시기와 회춘 이후 외형을 구분하되 동일 인물로 관리.",
       "variants_note": "노학자/회춘 이후는 별도 변형 필요",
       "unresolved": [],
-      "menu_group": "main"
+      "menu_group": "main",
+      "chapter04_reference": {
+        "image": "character-faust-old.png",
+        "note": "회춘 전 노학자: 마른 얼굴·주름·회갈색 머리. 기존 로브 색과 자수 유지.",
+        "status": "draft_visual"
+      }
     },
     {
       "id": "character-011",
@@ -336,15 +341,24 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-04.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "reference-earthspirit-wagner-night.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "움직이는 붉은 불꽃·금빛 중심",
+        "거대한 정령의 위압감",
+        "인간 의복·메피스토펠레스 뿔 없음"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "chapter04_reference": {
+        "image": "reference-earthspirit-wagner-night.png",
+        "note": "지령: 불꽃 속 유동적 존재. 시트 왼쪽을 참조한다. 구체적 불꽃 얼굴은 시각적 해석이다.",
+        "status": "draft_visual"
+      }
     },
     {
       "id": "character-012",
@@ -366,7 +380,12 @@
       "canonical_note": "파우스트의 학문적 조수.",
       "variants_note": "",
       "unresolved": [],
-      "menu_group": "scholars"
+      "menu_group": "scholars",
+      "chapter04_reference": {
+        "image": "reference-earthspirit-wagner-night.png",
+        "note": "밤옷 바그너: 시트 오른쪽 참조. 기존 인물의 안경·갈색 머리, 소박한 밤옷·잠모자·등불.",
+        "status": "draft_visual"
+      }
     },
     {
       "id": "character-013",
