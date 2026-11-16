@@ -1,0 +1,3248 @@
+{
+  "schema_version": 1,
+  "scope": "Goethe Faust Part I only",
+  "source": "https://www.gutenberg.org/ebooks/2229",
+  "authority": "Source text for canonical facts; attached references for visual adaptation. Generated sheets are draft visuals, not user-approved canon.",
+  "entries": [
+    {
+      "id": "character-001",
+      "kind": "character",
+      "name": "극장 지배인",
+      "source_name": "DIREKTOR",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        2
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-02.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-002",
+      "kind": "character",
+      "name": "극작가 / 시인",
+      "source_name": "DICHTER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        2
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-02.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-003",
+      "kind": "character",
+      "name": "희극 배우",
+      "source_name": "LUSTIGE PERSON",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        2
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-02.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-004",
+      "kind": "character",
+      "name": "대천사 라파엘",
+      "source_name": "RAPHAEL",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        3
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-03.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-005",
+      "kind": "character",
+      "name": "대천사 가브리엘",
+      "source_name": "GABRIEL",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        3
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-03.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-006",
+      "kind": "character",
+      "name": "대천사 미카엘",
+      "source_name": "MICHAEL",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        3
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-03.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-007",
+      "kind": "character",
+      "name": "세 대천사의 공동 발화",
+      "source_name": "ZU DREI",
+      "category": "공동 발화 · 독립 인물 아님",
+      "chapter_numbers": [
+        3
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-03.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-008",
+      "kind": "character",
+      "name": "메피스토펠레스",
+      "source_name": "MEPHISTOPHELES",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        22,
+        24,
+        26,
+        27,
+        28
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-03.html",
+        "https://kingspledu.github.io/faust-reader/chapter-06.html",
+        "https://kingspledu.github.io/faust-reader/chapter-07.html",
+        "https://kingspledu.github.io/faust-reader/chapter-08.html",
+        "https://kingspledu.github.io/faust-reader/chapter-09.html",
+        "https://kingspledu.github.io/faust-reader/chapter-10.html",
+        "https://kingspledu.github.io/faust-reader/chapter-11.html",
+        "https://kingspledu.github.io/faust-reader/chapter-12.html",
+        "https://kingspledu.github.io/faust-reader/chapter-13.html",
+        "https://kingspledu.github.io/faust-reader/chapter-14.html",
+        "https://kingspledu.github.io/faust-reader/chapter-15.html",
+        "https://kingspledu.github.io/faust-reader/chapter-16.html",
+        "https://kingspledu.github.io/faust-reader/chapter-17.html",
+        "https://kingspledu.github.io/faust-reader/chapter-19.html",
+        "https://kingspledu.github.io/faust-reader/chapter-22.html",
+        "https://kingspledu.github.io/faust-reader/chapter-24.html",
+        "https://kingspledu.github.io/faust-reader/chapter-26.html",
+        "https://kingspledu.github.io/faust-reader/chapter-27.html",
+        "https://kingspledu.github.io/faust-reader/chapter-28.html"
+      ],
+      "image": "character-mephistopheles.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "검은 흐트러진 머리",
+        "붉은 눈·작은 뿔(시각화 설정)",
+        "검정 장갑",
+        "버건디·금색 자수·붉은 보석"
+      ],
+      "canonical_note": "악마. 푸들·유랑학생 복식 등 변형을 동일 인물에 연결. 뿔·적안은 첨부 이미지의 창작 설정.",
+      "variants_note": "",
+      "unresolved": []
+    },
+    {
+      "id": "character-009",
+      "kind": "character",
+      "name": "주 / 하느님",
+      "source_name": "DER HERR",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        3
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-03.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-010",
+      "kind": "character",
+      "name": "파우스트",
+      "source_name": "FAUST",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19,
+        22,
+        24,
+        26,
+        27,
+        28
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-04.html",
+        "https://kingspledu.github.io/faust-reader/chapter-05.html",
+        "https://kingspledu.github.io/faust-reader/chapter-06.html",
+        "https://kingspledu.github.io/faust-reader/chapter-07.html",
+        "https://kingspledu.github.io/faust-reader/chapter-08.html",
+        "https://kingspledu.github.io/faust-reader/chapter-09.html",
+        "https://kingspledu.github.io/faust-reader/chapter-10.html",
+        "https://kingspledu.github.io/faust-reader/chapter-11.html",
+        "https://kingspledu.github.io/faust-reader/chapter-12.html",
+        "https://kingspledu.github.io/faust-reader/chapter-14.html",
+        "https://kingspledu.github.io/faust-reader/chapter-15.html",
+        "https://kingspledu.github.io/faust-reader/chapter-16.html",
+        "https://kingspledu.github.io/faust-reader/chapter-17.html",
+        "https://kingspledu.github.io/faust-reader/chapter-19.html",
+        "https://kingspledu.github.io/faust-reader/chapter-22.html",
+        "https://kingspledu.github.io/faust-reader/chapter-24.html",
+        "https://kingspledu.github.io/faust-reader/chapter-26.html",
+        "https://kingspledu.github.io/faust-reader/chapter-27.html",
+        "https://kingspledu.github.io/faust-reader/chapter-28.html"
+      ],
+      "image": "character-faust.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "갈색 흐트러진 머리",
+        "얇은 둥근 안경",
+        "아이보리 셔츠",
+        "검정 로브·버건디 안감·금색 자수"
+      ],
+      "canonical_note": "학자. 노학자 시기와 회춘 이후 외형을 구분하되 동일 인물로 관리.",
+      "variants_note": "노학자/회춘 이후는 별도 변형 필요",
+      "unresolved": []
+    },
+    {
+      "id": "character-011",
+      "kind": "character",
+      "name": "지령 · 대지의 정령",
+      "source_name": "GEIST",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        4
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-04.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-012",
+      "kind": "character",
+      "name": "바그너",
+      "source_name": "WAGNER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        4,
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-04.html",
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "파우스트의 학문적 조수.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-013",
+      "kind": "character",
+      "name": "천사들의 합창",
+      "source_name": "CHOR DER ENGEL",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        4
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-04.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-014",
+      "kind": "character",
+      "name": "여인들의 합창",
+      "source_name": "CHOR DER WEIBER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        4
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-04.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-015",
+      "kind": "character",
+      "name": "제자들의 합창",
+      "source_name": "CHOR DER JÜNGER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        4
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-04.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-016",
+      "kind": "character",
+      "name": "직공 청년들",
+      "source_name": "EINIGE HANDWERKSBURSCHE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-017",
+      "kind": "character",
+      "name": "다른 이 / 다른 무리 · 문맥별 상이",
+      "source_name": "ANDRE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-018",
+      "kind": "character",
+      "name": "첫 번째 무리",
+      "source_name": "DIE ERSTEN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-019",
+      "kind": "character",
+      "name": "첫 직공 청년",
+      "source_name": "EIN HANDWERKSBURSCH",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-020",
+      "kind": "character",
+      "name": "두 번째 직공 청년",
+      "source_name": "ZWEITER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-021",
+      "kind": "character",
+      "name": "두 번째 무리",
+      "source_name": "DIE ZWEITEN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-022",
+      "kind": "character",
+      "name": "세 번째 직공 청년",
+      "source_name": "EIN DRITTER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-023",
+      "kind": "character",
+      "name": "네 번째 직공 청년",
+      "source_name": "VIERTER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-024",
+      "kind": "character",
+      "name": "다섯 번째 직공 청년",
+      "source_name": "FÜNFTER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-025",
+      "kind": "character",
+      "name": "하녀",
+      "source_name": "DIENSTMÄDCHEN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-026",
+      "kind": "character",
+      "name": "첫 번째 하녀",
+      "source_name": "ERSTE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-027",
+      "kind": "character",
+      "name": "학생",
+      "source_name": "SCHÜLER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-028",
+      "kind": "character",
+      "name": "시민 집안의 처녀",
+      "source_name": "BÜRGERMÄDCHEN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-029",
+      "kind": "character",
+      "name": "두 번째 학생",
+      "source_name": "ZWEITER SCHÜLER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-030",
+      "kind": "character",
+      "name": "첫 번째 학생",
+      "source_name": "ERSTER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-031",
+      "kind": "character",
+      "name": "첫 번째 시민",
+      "source_name": "BÜRGER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-032",
+      "kind": "character",
+      "name": "거지",
+      "source_name": "BETTLER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-033",
+      "kind": "character",
+      "name": "두 번째 시민",
+      "source_name": "ANDRER BÜRGER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-034",
+      "kind": "character",
+      "name": "세 번째 시민",
+      "source_name": "DRITTER BÜRGER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-035",
+      "kind": "character",
+      "name": "늙은 여자",
+      "source_name": "ALTE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-036",
+      "kind": "character",
+      "name": "또 다른 시민 처녀 · 아가테로 불림",
+      "source_name": "DIE ANDRE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-037",
+      "kind": "character",
+      "name": "군인들",
+      "source_name": "SOLDATEN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-038",
+      "kind": "character",
+      "name": "늙은 농부",
+      "source_name": "ALTER BAUER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-039",
+      "kind": "character",
+      "name": "모두 함께",
+      "source_name": "ALLE",
+      "category": "공동 발화 · 독립 인물 아님",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-040",
+      "kind": "character",
+      "name": "정령들",
+      "source_name": "GEISTER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        6
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-06.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-041",
+      "kind": "character",
+      "name": "정령들의 합창",
+      "source_name": "GEISTERCHOR",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        7
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-07.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-042",
+      "kind": "character",
+      "name": "학생",
+      "source_name": "SCHÜLER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        7
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-07.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-043",
+      "kind": "character",
+      "name": "프로슈",
+      "source_name": "FROSCH",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        8
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-08.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-044",
+      "kind": "character",
+      "name": "브란더",
+      "source_name": "BRANDER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        8
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-08.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-045",
+      "kind": "character",
+      "name": "지벨",
+      "source_name": "SIEBEL",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        8
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-08.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-046",
+      "kind": "character",
+      "name": "알트마이어",
+      "source_name": "ALTMAYER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        8
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-08.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-047",
+      "kind": "character",
+      "name": "술집 손님들의 합창",
+      "source_name": "CHORUS",
+      "category": "공동 발화 · 독립 인물 아님",
+      "chapter_numbers": [
+        8
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-08.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-048",
+      "kind": "character",
+      "name": "모두 함께",
+      "source_name": "ALLE",
+      "category": "공동 발화 · 독립 인물 아님",
+      "chapter_numbers": [
+        8
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-08.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-049",
+      "kind": "character",
+      "name": "마녀 부엌의 동물들",
+      "source_name": "DIE TIERE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        9
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-09.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-050",
+      "kind": "character",
+      "name": "수컷 원숭이 · Kater 표기",
+      "source_name": "DER KATER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        9
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-09.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-051",
+      "kind": "character",
+      "name": "수컷·암컷 원숭이 공동 발화",
+      "source_name": "KATER UND KÄTZIN",
+      "category": "공동 발화 · 독립 인물 아님",
+      "chapter_numbers": [
+        9
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-09.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-052",
+      "kind": "character",
+      "name": "마녀",
+      "source_name": "DIE HEXE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        9
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-09.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-053",
+      "kind": "character",
+      "name": "마르가레테 / 그레트헨",
+      "source_name": "MARGARETE / GRETCHEN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        19,
+        20,
+        22,
+        23,
+        28
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-10.html",
+        "https://kingspledu.github.io/faust-reader/chapter-11.html",
+        "https://kingspledu.github.io/faust-reader/chapter-13.html",
+        "https://kingspledu.github.io/faust-reader/chapter-15.html",
+        "https://kingspledu.github.io/faust-reader/chapter-16.html",
+        "https://kingspledu.github.io/faust-reader/chapter-18.html",
+        "https://kingspledu.github.io/faust-reader/chapter-19.html",
+        "https://kingspledu.github.io/faust-reader/chapter-20.html",
+        "https://kingspledu.github.io/faust-reader/chapter-22.html",
+        "https://kingspledu.github.io/faust-reader/chapter-23.html",
+        "https://kingspledu.github.io/faust-reader/chapter-28.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "동일 인물의 본명과 애칭. 별도 인물로 세지 않음.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-054",
+      "kind": "character",
+      "name": "마르테 슈베르트라인",
+      "source_name": "MARTHE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        13,
+        15,
+        16,
+        22
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-13.html",
+        "https://kingspledu.github.io/faust-reader/chapter-15.html",
+        "https://kingspledu.github.io/faust-reader/chapter-16.html",
+        "https://kingspledu.github.io/faust-reader/chapter-22.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "그레트헨의 이웃.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-055",
+      "kind": "character",
+      "name": "리스헨",
+      "source_name": "LIESCHEN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        20
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-20.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "우물가에서 소문을 전하는 여성.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-056",
+      "kind": "character",
+      "name": "발렌틴",
+      "source_name": "VALENTIN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        22
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-22.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "그레트헨의 오빠인 군인.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-057",
+      "kind": "character",
+      "name": "민중 / 군중",
+      "source_name": "VOLK",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        22
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-22.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-058",
+      "kind": "character",
+      "name": "악령",
+      "source_name": "BÖSER GEIST",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        23
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-23.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-059",
+      "kind": "character",
+      "name": "합창",
+      "source_name": "CHOR",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        23
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-23.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-060",
+      "kind": "character",
+      "name": "도깨비불 · 산길 안내자",
+      "source_name": "IRRLICHT",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-061",
+      "kind": "character",
+      "name": "파우스트·메피스토펠레스·도깨비불 공동 발화",
+      "source_name": "FAUST, MEPHISTOPHELES, IRRLICHT",
+      "category": "공동 발화 · 독립 인물 아님",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-062",
+      "kind": "character",
+      "name": "마녀들",
+      "source_name": "HEXEN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-063",
+      "kind": "character",
+      "name": "목소리",
+      "source_name": "STIMME",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-064",
+      "kind": "character",
+      "name": "합창",
+      "source_name": "CHOR",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-065",
+      "kind": "character",
+      "name": "마녀 합창",
+      "source_name": "HEXEN, CHOR",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-066",
+      "kind": "character",
+      "name": "마법사들 · 반쪽 합창",
+      "source_name": "HEXENMEISTER, HALBER CHOR",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-067",
+      "kind": "character",
+      "name": "나머지 반쪽 합창",
+      "source_name": "ANDERE HÄLFTE",
+      "category": "공동 발화 · 독립 인물 아님",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-068",
+      "kind": "character",
+      "name": "여러 목소리",
+      "source_name": "STIMMEN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-069",
+      "kind": "character",
+      "name": "두 합창단 함께",
+      "source_name": "BEIDE CHÖRE",
+      "category": "공동 발화 · 독립 인물 아님",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-070",
+      "kind": "character",
+      "name": "반쪽 마녀",
+      "source_name": "HALBHEXE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-071",
+      "kind": "character",
+      "name": "마녀들의 합창",
+      "source_name": "CHOR DER HEXEN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-072",
+      "kind": "character",
+      "name": "장군",
+      "source_name": "GENERAL",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-073",
+      "kind": "character",
+      "name": "대신",
+      "source_name": "MINISTER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-074",
+      "kind": "character",
+      "name": "벼락출세자",
+      "source_name": "PARVENÜ",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-075",
+      "kind": "character",
+      "name": "작가",
+      "source_name": "AUTOR",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-076",
+      "kind": "character",
+      "name": "잡동사니 파는 마녀",
+      "source_name": "TRÖDELHEXE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-077",
+      "kind": "character",
+      "name": "젊고 아름다운 춤 상대",
+      "source_name": "DIE SCHÖNE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-078",
+      "kind": "character",
+      "name": "늙은 춤 상대",
+      "source_name": "DIE ALTE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-079",
+      "kind": "character",
+      "name": "프로크토판타스미스트 · 유령 비판자",
+      "source_name": "PROKTOPHANTASMIST",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-080",
+      "kind": "character",
+      "name": "세르비빌리스 · 공연 안내자",
+      "source_name": "SERVIBILIS",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-081",
+      "kind": "character",
+      "name": "극장 감독",
+      "source_name": "THEATERMEISTER",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-082",
+      "kind": "character",
+      "name": "전령",
+      "source_name": "HEROLD",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-083",
+      "kind": "character",
+      "name": "오베론",
+      "source_name": "OBERON",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-084",
+      "kind": "character",
+      "name": "퍽",
+      "source_name": "PUCK",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-085",
+      "kind": "character",
+      "name": "아리엘",
+      "source_name": "ARIEL",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-086",
+      "kind": "character",
+      "name": "티타니아",
+      "source_name": "TITANIA",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-087",
+      "kind": "character",
+      "name": "오케스트라 총주",
+      "source_name": "ORCHESTER TUTTI",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-088",
+      "kind": "character",
+      "name": "독주 / 독창",
+      "source_name": "SOLO",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-089",
+      "kind": "character",
+      "name": "형성되고 있는 정령",
+      "source_name": "GEIST, DER SICH ERST BILDET",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-090",
+      "kind": "character",
+      "name": "한 쌍의 연인",
+      "source_name": "EIN PÄRCHEN",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-091",
+      "kind": "character",
+      "name": "호기심 많은 여행자",
+      "source_name": "NEUGIERIGER REISENDER",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-092",
+      "kind": "character",
+      "name": "정통주의자",
+      "source_name": "ORTHODOX",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-093",
+      "kind": "character",
+      "name": "북방 예술가",
+      "source_name": "NORDISCHER KÜNSTLER",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-094",
+      "kind": "character",
+      "name": "순수주의자",
+      "source_name": "PURIST",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-095",
+      "kind": "character",
+      "name": "젊은 마녀",
+      "source_name": "JUNGE HEXE",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-096",
+      "kind": "character",
+      "name": "나이 든 부인",
+      "source_name": "MATRONE",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-097",
+      "kind": "character",
+      "name": "악장",
+      "source_name": "KAPELLMEISTER",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-098",
+      "kind": "character",
+      "name": "풍향계 · 변덕의 의인화",
+      "source_name": "WINDFAHNE",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-099",
+      "kind": "character",
+      "name": "크세니엔 · 풍자시들의 의인화",
+      "source_name": "XENIEN",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-100",
+      "kind": "character",
+      "name": "헤닝스 · 풍자극 배역",
+      "source_name": "HENNINGS",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-101",
+      "kind": "character",
+      "name": "무사게트 · 뮤즈의 인도자",
+      "source_name": "MUSAGET",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-102",
+      "kind": "character",
+      "name": "한때 시대의 천재였던 자",
+      "source_name": "CI-DEVANT GENIUS DER ZEIT",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-103",
+      "kind": "character",
+      "name": "두루미",
+      "source_name": "KRANICH",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-104",
+      "kind": "character",
+      "name": "세속의 자식",
+      "source_name": "WELTKIND",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-105",
+      "kind": "character",
+      "name": "무용수",
+      "source_name": "TÄNZER",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-106",
+      "kind": "character",
+      "name": "무용 교사",
+      "source_name": "TANZMEISTER",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-107",
+      "kind": "character",
+      "name": "바이올린 연주자",
+      "source_name": "FIEDLER",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-108",
+      "kind": "character",
+      "name": "독단주의자",
+      "source_name": "DOGMATIKER",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-109",
+      "kind": "character",
+      "name": "관념론자",
+      "source_name": "IDEALIST",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-110",
+      "kind": "character",
+      "name": "실재론자",
+      "source_name": "REALIST",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-111",
+      "kind": "character",
+      "name": "초자연주의자",
+      "source_name": "SUPERNATURALIST",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-112",
+      "kind": "character",
+      "name": "회의론자",
+      "source_name": "SKEPTIKER",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-113",
+      "kind": "character",
+      "name": "재주 좋은 무리",
+      "source_name": "DIE GEWANDTEN",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-114",
+      "kind": "character",
+      "name": "서투른 무리",
+      "source_name": "DIE UNBEHILFLICHEN",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-115",
+      "kind": "character",
+      "name": "도깨비불들",
+      "source_name": "IRRLICHTER",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-116",
+      "kind": "character",
+      "name": "별똥별",
+      "source_name": "STERNSCHNUPPE",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-117",
+      "kind": "character",
+      "name": "육중한 무리",
+      "source_name": "DIE MASSIVEN",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-118",
+      "kind": "character",
+      "name": "오케스트라",
+      "source_name": "ORCHESTER",
+      "category": "환상극 배역",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "환상극의 의인화·풍자 배역 또는 원문 발화 단위. 원문 장면에서 역할과 대사를 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-119",
+      "kind": "character",
+      "name": "목소리",
+      "source_name": "STIMME",
+      "category": "위에서 들리는 구원의 목소리",
+      "chapter_numbers": [
+        28
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-28.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-120",
+      "kind": "character",
+      "name": "릴리트 · Lilith",
+      "source_name": "릴리트 · Lilith",
+      "category": "무대에 보이는 인물 · 대사 없음",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 대조 항목",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-121",
+      "kind": "character",
+      "name": "그레트헨의 환영",
+      "source_name": "그레트헨의 환영",
+      "category": "마법의 환영 · 실제 그레트헨과 구분",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 대조 항목",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-122",
+      "kind": "character",
+      "name": "검은 푸들",
+      "source_name": "검은 푸들",
+      "category": "메피스토펠레스의 변신 형태 · 별도 인물 아님",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 대조 항목",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-123",
+      "kind": "character",
+      "name": "암컷 원숭이와 새끼들 · Kätzin / Junge",
+      "source_name": "암컷 원숭이와 새끼들 · Kätzin / Junge",
+      "category": "무대지시의 동물 무리",
+      "chapter_numbers": [
+        9
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-09.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 대조 항목",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-124",
+      "kind": "character",
+      "name": "천상의 군대 · himmlische Heerscharen",
+      "source_name": "천상의 군대 · himmlische Heerscharen",
+      "category": "무대지시의 집단",
+      "chapter_numbers": [
+        3
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-03.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 대조 항목",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-125",
+      "kind": "character",
+      "name": "성문 밖 농민들과 춤추는 사람들",
+      "source_name": "성문 밖 농민들과 춤추는 사람들",
+      "category": "무대지시의 군중",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 대조 항목",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-126",
+      "kind": "character",
+      "name": "대성당의 회중",
+      "source_name": "대성당의 회중",
+      "category": "무대지시의 집단",
+      "chapter_numbers": [
+        23
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-23.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 대조 항목",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-127",
+      "kind": "character",
+      "name": "검은 말 두 마리",
+      "source_name": "검은 말 두 마리",
+      "category": "무대지시의 동물",
+      "chapter_numbers": [
+        27
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-27.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 대조 항목",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "character-128",
+      "kind": "character",
+      "name": "처형장 주변 마녀 무리",
+      "source_name": "처형장 주변 마녀 무리",
+      "category": "관찰되는 집단",
+      "chapter_numbers": [
+        27
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-27.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문 대조 항목",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ]
+    },
+    {
+      "id": "location-001",
+      "kind": "place",
+      "name": "극장",
+      "source_name": "극장",
+      "chapter_numbers": [
+        2
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-02.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "서막의 대화 공간",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-002",
+      "kind": "place",
+      "name": "천상",
+      "source_name": "천상",
+      "chapter_numbers": [
+        3
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-03.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "주와 천사들, 메피스토펠레스의 대화",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-003",
+      "kind": "place",
+      "name": "파우스트의 서재",
+      "source_name": "파우스트의 서재",
+      "chapter_numbers": [
+        4,
+        6,
+        7
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-04.html",
+        "https://kingspledu.github.io/faust-reader/chapter-06.html",
+        "https://kingspledu.github.io/faust-reader/chapter-07.html"
+      ],
+      "image": "location-study.png",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "높은 궁륭의 좁은 고딕 방. 연구·소환·계약 공간",
+      "unresolved": [
+        "지도는 가상 배치도이며 축척 없음",
+        "원근 컷과 평면도의 출입구·창 위치 대조 필요"
+      ]
+    },
+    {
+      "id": "location-004",
+      "kind": "place",
+      "name": "성문 밖과 마을 들판",
+      "source_name": "성문 밖과 마을 들판",
+      "chapter_numbers": [
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "부활절 산책, 강과 언덕, 보리수 아래 농민들의 춤",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-005",
+      "kind": "place",
+      "name": "아우어바흐 지하 술집 · 라이프치히",
+      "source_name": "아우어바흐 지하 술집 · 라이프치히",
+      "chapter_numbers": [
+        8
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-08.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "술자리와 마술 장면",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-006",
+      "kind": "place",
+      "name": "마녀의 부엌",
+      "source_name": "마녀의 부엌",
+      "chapter_numbers": [
+        9
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-09.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "화덕·솥·거울·기묘한 동물의 공간",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-007",
+      "kind": "place",
+      "name": "도시의 거리",
+      "source_name": "도시의 거리",
+      "chapter_numbers": [
+        10,
+        14
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-10.html",
+        "https://kingspledu.github.io/faust-reader/chapter-14.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "첫 만남 및 두 번째 거리. 정확히 같은 지점인지는 미확정",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-008",
+      "kind": "place",
+      "name": "그레트헨의 방",
+      "source_name": "그레트헨의 방",
+      "chapter_numbers": [
+        11,
+        18
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-11.html",
+        "https://kingspledu.github.io/faust-reader/chapter-18.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "작은 정돈된 방과 물레. 재등장 공간으로 통합",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-009",
+      "kind": "place",
+      "name": "산책길",
+      "source_name": "산책길",
+      "chapter_numbers": [
+        12
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-12.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "별도 장면 제목만 제시. 세부 지형은 미정",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-010",
+      "kind": "place",
+      "name": "마르테의 집",
+      "source_name": "마르테의 집",
+      "chapter_numbers": [
+        13
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-13.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "이웃의 집",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-011",
+      "kind": "place",
+      "name": "정원",
+      "source_name": "정원",
+      "chapter_numbers": [
+        15
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-15.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "Garten의 정원. 마르테의 정원과 동일 공간으로 연출할 수 있으나 제목만으로 확정하지 않음",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-012",
+      "kind": "place",
+      "name": "정원의 작은 정자",
+      "source_name": "정원의 작은 정자",
+      "chapter_numbers": [
+        16
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-16.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "정원 내부의 작은 공간",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-013",
+      "kind": "place",
+      "name": "숲과 동굴",
+      "source_name": "숲과 동굴",
+      "chapter_numbers": [
+        17
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-17.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "자연 속 독백 공간",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-014",
+      "kind": "place",
+      "name": "마르테의 정원",
+      "source_name": "마르테의 정원",
+      "chapter_numbers": [
+        19
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-19.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "종교와 사랑에 관한 대화",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-015",
+      "kind": "place",
+      "name": "공동 우물",
+      "source_name": "공동 우물",
+      "chapter_numbers": [
+        20
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-20.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "리스헨과 그레트헨의 대화",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-016",
+      "kind": "place",
+      "name": "성벽 안쪽 통로와 성모상 감실 · Zwinger",
+      "source_name": "성벽 안쪽 통로와 성모상 감실 · Zwinger",
+      "chapter_numbers": [
+        21
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-21.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "꽃으로 장식된 성모상 앞 기도",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-017",
+      "kind": "place",
+      "name": "그레트헨 집 앞 밤거리",
+      "source_name": "그레트헨 집 앞 밤거리",
+      "chapter_numbers": [
+        22
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-22.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "발렌틴과 충돌하는 외부 공간",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-018",
+      "kind": "place",
+      "name": "대성당",
+      "source_name": "대성당",
+      "chapter_numbers": [
+        23
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-23.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "예배·회중·성가와 악령의 목소리",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-019",
+      "kind": "place",
+      "name": "하르츠 산맥의 브로켄 접근로와 축제터",
+      "source_name": "하르츠 산맥의 브로켄 접근로와 축제터",
+      "chapter_numbers": [
+        24
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-24.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "원문은 Schierke와 Elend 일대도 지정. 산길·불·춤·장터·극장 구역",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-020",
+      "kind": "place",
+      "name": "산 위 환상극 무대",
+      "source_name": "산 위 환상극 무대",
+      "chapter_numbers": [
+        25
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-25.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "극중극. 산과 축축한 계곡이 무대 배경",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-021",
+      "kind": "place",
+      "name": "흐린 날의 들판",
+      "source_name": "흐린 날의 들판",
+      "chapter_numbers": [
+        26
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-26.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "그레트헨의 투옥을 두고 벌어지는 대화",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-022",
+      "kind": "place",
+      "name": "밤의 탁 트인 들판과 처형장 부근",
+      "source_name": "밤의 탁 트인 들판과 처형장 부근",
+      "chapter_numbers": [
+        27
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-27.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "Rabenstein 주변 마녀 무리를 지나감",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    },
+    {
+      "id": "location-023",
+      "kind": "place",
+      "name": "감옥",
+      "source_name": "감옥",
+      "chapter_numbers": [
+        28
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-28.html"
+      ],
+      "image": null,
+      "status": "research_only",
+      "visual_locks": [],
+      "canonical_note": "철문·축축한 벽·짚·사슬·등불",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ]
+    }
+  ]
+}
