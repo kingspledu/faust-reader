@@ -249,12 +249,24 @@
         "c02-s002",
         "c02-s003"
       ],
-      "status": "covered_review",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c02-dense-001.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ]
     },
     {
       "id": "c02-dense-002",
@@ -272,12 +284,24 @@
         "location-001"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c02-dense-002.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ]
     },
     {
       "id": "c02-dense-003",
@@ -300,12 +324,24 @@
       "existing_images": [
         "c02-s004"
       ],
-      "status": "covered_review",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c02-dense-003.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ]
     },
     {
       "id": "c02-dense-004",
@@ -323,12 +359,24 @@
         "location-001"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c02-dense-004.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ]
     },
     {
       "id": "c02-dense-005",
@@ -352,12 +400,24 @@
         "c02-s005",
         "c02-s006"
       ],
-      "status": "covered_review",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c02-dense-005.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ]
     },
     {
       "id": "c02-dense-006",
@@ -375,12 +435,24 @@
         "location-001"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c02-dense-006.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ]
     },
     {
       "id": "c02-dense-007",
@@ -403,12 +475,24 @@
       "existing_images": [
         "c02-s007"
       ],
-      "status": "covered_review",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c02-dense-007.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ]
     },
     {
       "id": "c02-dense-008",
@@ -426,12 +510,24 @@
         "location-001"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c02-dense-008.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ]
     },
     {
       "id": "c02-dense-009",
@@ -454,12 +550,24 @@
       "existing_images": [
         "c02-s008"
       ],
-      "status": "covered_review",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c02-dense-009.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ]
     },
     {
       "id": "c02-dense-010",
@@ -482,12 +590,24 @@
       "existing_images": [
         "c02-s009"
       ],
-      "status": "covered_review",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c02-dense-010.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ]
     },
     {
       "id": "c02-dense-011",
@@ -505,12 +625,24 @@
         "location-001"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c02-dense-011.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ]
     },
     {
       "id": "c02-dense-012",
@@ -528,12 +660,24 @@
         "location-001"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c02-dense-012.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ]
     },
     {
       "id": "c02-dense-013",
@@ -554,12 +698,24 @@
         "location-001"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c02-dense-013.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ]
     },
     {
       "id": "c02-dense-014",
@@ -579,12 +735,24 @@
       "existing_images": [
         "c02-s010"
       ],
-      "status": "covered_review",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c02-dense-014.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ]
     },
     {
       "id": "c02-dense-015",
@@ -602,12 +770,24 @@
         "location-001"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c02-dense-015.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ]
     },
     {
       "id": "c02-dense-016",
@@ -625,12 +805,24 @@
         "location-001"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "published",
       "batch": "dense-batch-001",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c02-dense-016.webp",
+      "source_grid": "source_images/dense-batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ]
     },
     {
       "id": "c02-dense-017",
