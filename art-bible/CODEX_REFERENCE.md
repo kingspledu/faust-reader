@@ -10,3 +10,7 @@
 
 Human site: https://kingspledu.github.io/faust-reader/art-bible/
 Machine index: https://kingspledu.github.io/faust-reader/art-bible/reference-index.json
+
+## On-demand generation policy
+
+User decision: stop bulk sheet generation at the current 41 visual drafts. Do not proactively complete all remaining research entries. During future scene production, first search the reference index and inspect an existing matching sheet. Generate a new individual character or location sheet only when that scene needs a reference that is missing. Preserve existing identities and style, save a new asset without overwriting prior sheets, update the index and human page, and keep canonical facts separate from adaptation choices. An existing draft needing a new state or costume should receive an explicitly named variant, not a new identity.
