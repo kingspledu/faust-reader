@@ -1,0 +1,378 @@
+{
+  "grid": [
+    4,
+    4
+  ],
+  "reading_order": "row-major",
+  "scope": "First batch: chapter 2 prologue. Other chapters pending detailed storyboarding. Dedication is lyric, not a literal narrative scene.",
+  "scenes": [
+    {
+      "id": "c02-s001",
+      "chapter": 2,
+      "title": "극장 전경",
+      "anchor": "Direktor. Theatherdichter. Lustige Person:",
+      "char_offset": 0,
+      "batch": "batch-001",
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c02-s001.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ]
+    },
+    {
+      "id": "c02-s002",
+      "chapter": 2,
+      "title": "공연에 대한 질문",
+      "anchor": "Ihr beiden, die ihr mir so oft,",
+      "char_offset": 54,
+      "batch": "batch-001",
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c02-s002.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ]
+    },
+    {
+      "id": "c02-s003",
+      "chapter": 2,
+      "title": "관객과 흥행",
+      "anchor": "Ich wünschte sehr der Menge zu behagen,",
+      "char_offset": 190,
+      "batch": "batch-001",
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c02-s003.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ]
+    },
+    {
+      "id": "c02-s004",
+      "chapter": 2,
+      "title": "군중을 거부하는 시인",
+      "anchor": "O sprich mir nicht von jener bunten Menge,",
+      "char_offset": 1111,
+      "batch": "batch-001",
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c02-s004.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ]
+    },
+    {
+      "id": "c02-s005",
+      "chapter": 2,
+      "title": "지속되는 예술",
+      "anchor": "Was glänzt, ist für den Augenblick geboren,",
+      "char_offset": 1700,
+      "batch": "batch-001",
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c02-s005.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ]
+    },
+    {
+      "id": "c02-s006",
+      "chapter": 2,
+      "title": "현재의 관객",
+      "anchor": "Wenn ich nur nichts von Nachwelt hören sollte.",
+      "char_offset": 1803,
+      "batch": "batch-001",
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c02-s006.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ]
+    },
+    {
+      "id": "c02-s007",
+      "chapter": 2,
+      "title": "풍부한 사건을 요구",
+      "anchor": "Besonders aber laßt genug geschehn!",
+      "char_offset": 2383,
+      "batch": "batch-001",
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c02-s007.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ]
+    },
+    {
+      "id": "c02-s008",
+      "chapter": 2,
+      "title": "예술가의 항의",
+      "anchor": "Ihr fühlet nicht, wie schlecht ein solches Handwerk sei!",
+      "char_offset": 3037,
+      "batch": "batch-001",
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c02-s008.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ]
+    },
+    {
+      "id": "c02-s009",
+      "chapter": 2,
+      "title": "실무자의 반박",
+      "anchor": "Ein solcher Vorwurf läßt mich ungekränkt.",
+      "char_offset": 3214,
+      "batch": "batch-001",
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c02-s009.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ]
+    },
+    {
+      "id": "c02-s010",
+      "chapter": 2,
+      "title": "상상력과 시의 힘",
+      "anchor": "Wodurch bewegt er alle Herzen?",
+      "char_offset": 4422,
+      "batch": "batch-001",
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c02-s010.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ]
+    },
+    {
+      "id": "c02-s011",
+      "chapter": 2,
+      "title": "사랑과 삶의 연극",
+      "anchor": "So braucht sie denn, die schönen Kräfte",
+      "char_offset": 5241,
+      "batch": "batch-001",
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c02-s011.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ]
+    },
+    {
+      "id": "c02-s012",
+      "chapter": 2,
+      "title": "젊음에 대한 회상",
+      "anchor": "So gib mir auch die Zeiten wieder,",
+      "char_offset": 6353,
+      "batch": "batch-001",
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c02-s012.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ]
+    },
+    {
+      "id": "c02-s013",
+      "chapter": 2,
+      "title": "성숙한 창작의 힘",
+      "anchor": "Der Jugend, guter Freund, bedarfst du allenfalls,",
+      "char_offset": 6845,
+      "batch": "batch-001",
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c02-s013.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ]
+    },
+    {
+      "id": "c02-s014",
+      "chapter": 2,
+      "title": "말에서 행동으로",
+      "anchor": "Der Worte sind genug gewechselt,",
+      "char_offset": 7451,
+      "batch": "batch-001",
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c02-s014.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ]
+    },
+    {
+      "id": "c02-s015",
+      "chapter": 2,
+      "title": "공연 준비의 촉구",
+      "anchor": "Euch ist bekannt, was wir bedürfen,",
+      "char_offset": 7717,
+      "batch": "batch-001",
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c02-s015.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ]
+    },
+    {
+      "id": "c02-s016",
+      "chapter": 2,
+      "title": "무대 위의 세계",
+      "anchor": "So schreitet in dem engen Bretterhaus",
+      "char_offset": 8334,
+      "batch": "batch-001",
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c02-s016.webp",
+      "status": "published",
+      "source_grid": "source_images/batch-001.png",
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ]
+    }
+  ]
+}
