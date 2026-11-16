@@ -92,13 +92,17 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-03.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-raphael.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "긴 은회색 생머리·청회색 눈·차분한 타원형 얼굴",
+        "아이보리 로브·사파이어색 숄·금색 테두리"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선.",
+        "머리·눈 색, 날개, 의상과 소품은 창작 설정. 서곡의 우주 질서를 찬양하는 역할을 기준으로 사용."
       ],
       "menu_group": "heaven"
     },
@@ -114,13 +118,17 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-03.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-gabriel.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "짧은 꿀빛 금발·녹색 눈·생기 있는 눈썹",
+        "아이보리 로브·비취색 망토·금색 테두리"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선.",
+        "머리·눈 색, 날개, 의상과 소품은 창작 설정. 서곡의 우주 질서를 찬양하는 역할을 기준으로 사용."
       ],
       "menu_group": "heaven"
     },
@@ -136,13 +144,17 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-03.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-michael.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "어깨 길이 짙은 머리·호박색 눈·각진 얼굴·넓은 어깨",
+        "아이보리 로브·슬레이트색 망토·청동 장식"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선.",
+        "머리·눈 색, 날개, 의상과 소품은 창작 설정. 서곡의 우주 질서를 찬양하는 역할을 기준으로 사용."
       ],
       "menu_group": "heaven"
     },
@@ -2986,12 +2998,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-03.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-heaven.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "구름 단과 별이 보이는 우주 궁륭·중앙의 빛",
+        "천사 3인의 자리와 주변부 메피스토펠레스 위치는 상징적 연출"
+      ],
       "canonical_note": "주와 천사들, 메피스토펠레스의 대화",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선."
       ],
       "menu_group": "places"
     },
@@ -3096,12 +3111,15 @@
         "https://kingspledu.github.io/faust-reader/chapter-10.html",
         "https://kingspledu.github.io/faust-reader/chapter-14.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-city-street.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "돌 포장 골목·목골조 집·분기점·주택 출입문",
+        "두 거리 장면의 동일 장소 여부는 미확정"
+      ],
       "canonical_note": "첫 만남 및 두 번째 거리. 정확히 같은 지점인지는 미확정",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선."
       ],
       "menu_group": "places"
     },
@@ -3202,12 +3220,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-16.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-garden-pavilion.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "작은 목조 정원 집·소박한 내부 벤치",
+        "남쪽 출입문·서쪽 창·북쪽 벤치는 가상 배치"
+      ],
       "canonical_note": "정원 내부의 작은 공간",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선."
       ],
       "menu_group": "places"
     },
