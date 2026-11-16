@@ -1045,13 +1045,16 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-08.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-brander.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "긴 얼굴·검은 단발·뾰족한 턱수염",
+        "마른 체형·짙은 청록 더블릿"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
       ],
       "menu_group": "tavern"
     },
@@ -1067,13 +1070,16 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-08.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-siebel.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "사각 얼굴·짧은 짙은 적갈색 머리·수염 없음",
+        "튼튼한 체형·머스터드 갈색 가죽옷"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
       ],
       "menu_group": "tavern"
     },
@@ -1089,13 +1095,16 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-08.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-altmayer.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "뒤로 묶은 회갈색 머리·작은 회색 콧수염",
+        "가늘고 나이 든 얼굴·짙은 자주색 조끼"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
       ],
       "menu_group": "tavern"
     },
@@ -3241,12 +3250,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-20.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-well.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "석조 우물·목재 지붕·도르래·물통",
+        "주변 목골조 집과 돌 포장 광장"
+      ],
       "canonical_note": "리스헨과 그레트헨의 대화",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
       ],
       "menu_group": "places"
     },
@@ -3261,12 +3273,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-21.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-zwinger.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "성벽 통로의 움푹 들어간 성모상 감실",
+        "꽃 봉헌대·좁은 석조 통로"
+      ],
       "canonical_note": "꽃으로 장식된 성모상 앞 기도",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
       ],
       "menu_group": "places"
     },
@@ -3301,12 +3316,15 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-23.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "location-cathedral.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "서쪽 출입문·동쪽 제단·중앙 회랑",
+        "기둥·측랑·성가대 구역·회중 구역"
+      ],
       "canonical_note": "예배·회중·성가와 악령의 목소리",
       "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
+        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
       ],
       "menu_group": "places"
     },
