@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-10 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1-10 complete; chapter11 first 16/21 scenes illustrated and adapted; later work pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -16007,6 +16007,679 @@
       "adaptation": "adaptations/chapter-10.json",
       "char_offset": 2806,
       "anchor": "Das ist brav! Da wird er reüssieren!\nIch kenne manchen schönen Platz\nUnd manchen altvergrabnen Schat"
+    },
+    {
+      "id": "c11-dense-001",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 413,
+      "source_text": "Ein kleines reinliches Zimmer\n\nMARGARETE (ihre Zöpfe flechtend und aufbindend.)\nIch gäb was drum, wenn ich nur wüßt,\nWer heut der Herr gewesen ist!\nEr sah gewiß recht wacker aus\nUnd ist aus einem edlen Haus;\nDas konnt ich ihm an der Stirne lesen—\nEr wär auch sonst nicht so keck gewesen.\n(Ab.)\n\nMEPHISTOPHELES.\nHerein, ganz leise, nur herein!\n\nFAUST (nach einigem Stillschweigen).\nIch bitte dich, laß mich allein!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MARGARETE ",
+        "MEPHISTOPHELES",
+        "FAUST "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c11-dense-001.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 0,
+      "anchor": "Ein kleines reinliches Zimmer\n\nMARGARETE (ihre Zöpfe flechtend und aufbindend.)\nIch gäb was drum, we"
+    },
+    {
+      "id": "c11-dense-002",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 413,
+      "source_end": 732,
+      "source_text": "\n\nMEPHISTOPHELES (herumspürend).\nNicht jedes Mädchen hält so rein.\n(Ab.)\n\nFAUST (rings aufschauend).\nWillkommen, süßer Dämmerschein,\nDer du dies Heiligtum durchwebst!\nErgreif mein Herz, du süße Liebespein,\nDie du vom Tau der Hoffnung schmachtend lebst!\nWie atmet rings Gefühl der Stille,\nDer Ordnung, der Zufriedenheit!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "FAUST "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c11-dense-002.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 413,
+      "anchor": "MEPHISTOPHELES (herumspürend).\nNicht jedes Mädchen hält so rein.\n(Ab.)\n\nFAUST (rings aufschauend).\nW"
+    },
+    {
+      "id": "c11-dense-003",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 732,
+      "source_end": 951,
+      "source_text": "\nIn dieser Armut welche Fülle!\nIn diesem Kerker welche Seligkeit!\n(Er wirft sich auf den ledernen Sessel am Bette.)\n\nO nimm mich auf, der du die Vorwelt schon\nBei Freud und Schmerz im offnen Arm empfangen!\nWie oft, ach!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c11-dense-003.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 732,
+      "anchor": "In dieser Armut welche Fülle!\nIn diesem Kerker welche Seligkeit!\n(Er wirft sich auf den ledernen Ses"
+    },
+    {
+      "id": "c11-dense-004",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 951,
+      "source_end": 1376,
+      "source_text": " hat an diesem Väterthron\nSchon eine Schar von Kindern rings gehangen!\nVielleicht hat, dankbar für den heil’gen Christ\nMein Liebchen hier, mit vollen Kinderwangen,\nDem Ahnherrn fromm die welke Hand geküßt.\nIch fühl o Mädchen, deinen Geist\nDer Füll und Ordnung um mich säuseln,\nDer mütterlich dich täglich unterweist\nDen Teppich auf den Tisch dich reinlich breiten heißt,\nSogar den Sand zu deinen Füßen kräuseln.\nO liebe Hand!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c11-dense-004.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 951,
+      "anchor": "hat an diesem Väterthron\nSchon eine Schar von Kindern rings gehangen!\nVielleicht hat, dankbar für de"
+    },
+    {
+      "id": "c11-dense-005",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 1376,
+      "source_end": 1514,
+      "source_text": " so göttergleich!\nDie Hütte wird durch dich ein Himmelreich.\nUnd hier!\n(Er hebt einen Bettvorhang auf.)\n\nWas faßt mich für ein Wonnegraus!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c11-dense-005.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 1376,
+      "anchor": "so göttergleich!\nDie Hütte wird durch dich ein Himmelreich.\nUnd hier!\n(Er hebt einen Bettvorhang auf"
+    },
+    {
+      "id": "c11-dense-006",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 1514,
+      "source_end": 1748,
+      "source_text": "\nHier möcht ich volle Stunden säumen.\nNatur, hier bildetest in leichten Träumen\nDen eingebornen Engel aus!\nHier lag das Kind! mit warmem Leben\nDen zarten Busen angefüllt,\nUnd hier mit heilig reinem Weben\nEntwirkte sich das Götterbild!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c11-dense-006.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 1514,
+      "anchor": "Hier möcht ich volle Stunden säumen.\nNatur, hier bildetest in leichten Träumen\nDen eingebornen Engel"
+    },
+    {
+      "id": "c11-dense-007",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 1748,
+      "source_end": 1835,
+      "source_text": "\n\nUnd du! Was hat dich hergeführt?\nWie innig fühl ich mich gerührt!\nWas willst du hier?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c11-dense-007.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 1748,
+      "anchor": "Und du! Was hat dich hergeführt?\nWie innig fühl ich mich gerührt!\nWas willst du hier?"
+    },
+    {
+      "id": "c11-dense-008",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 1835,
+      "source_end": 1944,
+      "source_text": " Was wird das Herz dir schwer?\nArmsel’ger Faust! ich kenne dich nicht mehr.\n\nUmgibt mich hier ein Zauberduft?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c11-dense-008.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 1835,
+      "anchor": "Was wird das Herz dir schwer?\nArmsel’ger Faust! ich kenne dich nicht mehr.\n\nUmgibt mich hier ein Zau"
+    },
+    {
+      "id": "c11-dense-009",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 1944,
+      "source_end": 2179,
+      "source_text": "\nMich drang’s, so grade zu genießen,\nUnd fühle mich in Liebestraum zerfließen!\nSind wir ein Spiel von jedem Druck der Luft?\n\nUnd träte sie den Augenblick herein,\nWie würdest du für deinen Frevel büßen!\nDer große Hans, ach wie so klein!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c11-dense-009.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 1944,
+      "anchor": "Mich drang’s, so grade zu genießen,\nUnd fühle mich in Liebestraum zerfließen!\nSind wir ein Spiel von"
+    },
+    {
+      "id": "c11-dense-010",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 2179,
+      "source_end": 2290,
+      "source_text": "\nLäg, hingeschmolzen, ihr zu Füßen.\n\nMEPHISTOPHELES (kommt).\nGeschwind! ich seh sie unten kommen.\n\nFAUST.\nFort!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c11-dense-010.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 2179,
+      "anchor": "Läg, hingeschmolzen, ihr zu Füßen.\n\nMEPHISTOPHELES (kommt).\nGeschwind! ich seh sie unten kommen.\n\nFA"
+    },
+    {
+      "id": "c11-dense-011",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 2290,
+      "source_end": 2547,
+      "source_text": " Fort! Ich kehre nimmermehr!\n\nMEPHISTOPHELES.\nHier ist ein Kästchen leidlich schwer,\nIch hab’s wo anders hergenommen.\nStellt’s hier nur immer in den Schrein,\nIch schwör Euch, ihr vergehn die Sinnen;\nIch tat Euch Sächelchen hinein,\nUm eine andre zu gewinnen.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c11-dense-011.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 2290,
+      "anchor": "Fort! Ich kehre nimmermehr!\n\nMEPHISTOPHELES.\nHier ist ein Kästchen leidlich schwer,\nIch hab’s wo and"
+    },
+    {
+      "id": "c11-dense-012",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 2547,
+      "source_end": 2698,
+      "source_text": "\nZwar Kind ist Kind, und Spiel ist Spiel.\n\nFAUST.\nIch weiß nicht, soll ich?\n\nMEPHISTOPHELES.\nFragt Ihr viel?\nMeint Ihr vielleicht den Schatz zu wahren?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c11-dense-012.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 2547,
+      "anchor": "Zwar Kind ist Kind, und Spiel ist Spiel.\n\nFAUST.\nIch weiß nicht, soll ich?\n\nMEPHISTOPHELES.\nFragt Ih"
+    },
+    {
+      "id": "c11-dense-013",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 2698,
+      "source_end": 2962,
+      "source_text": "\nDann rat ich Eurer Lüsternheit,\nDie liebe schöne Tageszeit\nUnd mir die weitre Müh zu sparen.\nIch hoff nicht, daß Ihr geizig seid!\nIch kratz den Kopf, reib an den Händen—\n(Er stellt das Kästchen in den Schrein und drückt das Schloß wieder\nzu.)\nNur fort! geschwind!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c11-dense-013.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 2698,
+      "anchor": "Dann rat ich Eurer Lüsternheit,\nDie liebe schöne Tageszeit\nUnd mir die weitre Müh zu sparen.\nIch hof"
+    },
+    {
+      "id": "c11-dense-014",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 2962,
+      "source_end": 3371,
+      "source_text": "\nUm Euch das süße junge Kind\nNach Herzens Wunsch und Will zu wenden;\nUnd Ihr seht drein\nAls solltet Ihr in den Hörsaal hinein,\nAls stünden grau leibhaftig vor Euch da\nPhysik und Metaphysika!\nNur fort!\n(Ab.)\n\nMARGARETE (mit einer Lampe.)\nEs ist so schwül, so dumpfig hie\n(sie macht das Fenster auf)\nUnd ist doch eben so warm nicht drauß.\nEs wird mir so, ich weiß nicht wie—\nIch wollt, die Mutter käm nach Haus.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MARGARETE "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c11-dense-014.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 2962,
+      "anchor": "Um Euch das süße junge Kind\nNach Herzens Wunsch und Will zu wenden;\nUnd Ihr seht drein\nAls solltet I"
+    },
+    {
+      "id": "c11-dense-015",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 3371,
+      "source_end": 3823,
+      "source_text": "\nMir läuft ein Schauer übern ganzen Leib—\nBin doch ein töricht furchtsam Weib!\n(sie fängt an zu singen, indem sie sich auszieht.)\n\nEs war ein König in Thule\nGar treu bis an das Grab,\nDem sterbend seine Buhle\nEinen goldnen Becher gab.\n\nEs ging ihm nichts darüber,\nEr leert ihn jeden Schmaus;\nDie Augen gingen ihm über,\nSooft er trank daraus.\n\nUnd als er kam zu sterben,\nZählt er seine Städt im Reich,\nGönnt alles seinem Erben,\nDen Becher nicht zugleich.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c11-dense-015.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 3371,
+      "anchor": "Mir läuft ein Schauer übern ganzen Leib—\nBin doch ein töricht furchtsam Weib!\n(sie fängt an zu singe"
+    },
+    {
+      "id": "c11-dense-016",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 3823,
+      "source_end": 4273,
+      "source_text": "\n\nEr saß beim Königsmahle,\nDie Ritter um ihn her,\nAuf hohem Vätersaale,\nDort auf dem Schloß am Meer.\n\nDort stand der alte Zecher,\nTrank letzte Lebensglut\nUnd warf den heiligen Becher\nHinunter in die Flut.\n\nEr sah ihn stürzen, trinken\nUnd sinken tief ins Meer,\nDie Augen täten ihm sinken,\nTrank nie einen Tropfen mehr.\n\n(Sie eröffnet den Schrein, ihre Kleider einzuräumen, und erblickt das\nSchmuckkästchen.)\n\nWie kommt das schöne Kästchen hier herein?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c11-dense-016.webp",
+      "source_grid": "source_images/chapter11-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 3823,
+      "anchor": "Er saß beim Königsmahle,\nDie Ritter um ihn her,\nAuf hohem Vätersaale,\nDort auf dem Schloß am Meer.\n\n"
     }
   ]
 }
