@@ -1,0 +1,13 @@
+{
+  "chapter": 8,
+  "status": "partial",
+  "illustrations": 32,
+  "planned": 55,
+  "narration": 32,
+  "monologues": 32,
+  "closed_bilingual_units": 11,
+  "source_chars": 12279,
+  "independent_gutenberg_match": true,
+  "source_sha256": "b3fa978ee3328f5a1b91fc8399e98e684e6ece57d1f3ae53b38cd5e166287fac",
+  "tts_generated": false
+}

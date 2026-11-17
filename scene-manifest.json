@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1–7 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1–7 complete; chapter8 first 32/55 scenes illustrated and adapted; later work pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -10582,6 +10582,1496 @@
       ],
       "char_offset": 20674,
       "anchor": "Du nimmst bei diesem kühnen Schritt\nNur keinen großen Bündel mit.\nEin bißchen Feuerluft, die ich ber"
+    },
+    {
+      "id": "c08-dense-001",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 108,
+      "source_text": "Zeche lustiger Gesellen.\n\nFROSCH.\nWill keiner trinken? keiner lachen?\nIch will euch lehren Gesichter machen!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FROSCH"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-001.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 0,
+      "anchor": "Zeche lustiger Gesellen.\n\nFROSCH.\nWill keiner trinken? keiner lachen?\nIch will euch lehren Gesichter"
+    },
+    {
+      "id": "c08-dense-002",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 108,
+      "source_end": 367,
+      "source_text": "\nIhr seid ja heut wie nasses Stroh,\nUnd brennt sonst immer lichterloh.\n\nBRANDER.\nDas liegt an dir; du bringst ja nichts herbei,\nNicht eine Dummheit, keine Sauerei.\n\nFROSCH (giesst ihm ein Glas Wein über den Kopf).\nDa hast du beides!\n\nBRANDER.\nDoppelt Schwein!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "BRANDER",
+        "FROSCH "
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-002.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 108,
+      "anchor": "Ihr seid ja heut wie nasses Stroh,\nUnd brennt sonst immer lichterloh.\n\nBRANDER.\nDas liegt an dir; du"
+    },
+    {
+      "id": "c08-dense-003",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 367,
+      "source_end": 508,
+      "source_text": "\n\nFROSCH.\nIhr wollt es ja, man soll es sein!\n\nSIEBEL.\nZur Tür hinaus, er sich entzweit!\nMit offner Brust singt Runda, sauft und schreit!\nAuf!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FROSCH",
+        "SIEBEL"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-003.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 367,
+      "anchor": "FROSCH.\nIhr wollt es ja, man soll es sein!\n\nSIEBEL.\nZur Tür hinaus, er sich entzweit!\nMit offner Bru"
+    },
+    {
+      "id": "c08-dense-004",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 508,
+      "source_end": 572,
+      "source_text": " Holla! Ho!\n\nALTMAYER.\nWeh mir, ich bin verloren!\nBaumwolle her!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "ALTMAYER"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-004.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 508,
+      "anchor": "Holla! Ho!\n\nALTMAYER.\nWeh mir, ich bin verloren!\nBaumwolle her!"
+    },
+    {
+      "id": "c08-dense-005",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 572,
+      "source_end": 749,
+      "source_text": " der Kerl sprengt mir die Ohren.\n\nSIEBEL.\nWenn das Gewölbe widerschallt,\nFühlt man erst recht des Basses Grundgewalt.\n\nFROSCH.\nSo recht, hinaus mit dem, der etwas übel nimmt!\nA!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "SIEBEL",
+        "FROSCH"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-005.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 572,
+      "anchor": "der Kerl sprengt mir die Ohren.\n\nSIEBEL.\nWenn das Gewölbe widerschallt,\nFühlt man erst recht des Bas"
+    },
+    {
+      "id": "c08-dense-006",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 749,
+      "source_end": 826,
+      "source_text": " tara lara da!\n\nALTMAYER.\nA! tara lara da!\n\nFROSCH.\nDie Kehlen sind gestimmt.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "ALTMAYER",
+        "FROSCH"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-006.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 749,
+      "anchor": "tara lara da!\n\nALTMAYER.\nA! tara lara da!\n\nFROSCH.\nDie Kehlen sind gestimmt."
+    },
+    {
+      "id": "c08-dense-007",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 826,
+      "source_end": 953,
+      "source_text": "\n(Singt.)\nDas liebe Heil’ge Röm’sche Reich,\nWie hält’s nur noch zusammen?\n\nBRANDER.\nEin garstig Lied! Pfui! ein politisch Lied!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-007.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 826,
+      "anchor": "(Singt.)\nDas liebe Heil’ge Röm’sche Reich,\nWie hält’s nur noch zusammen?\n\nBRANDER.\nEin garstig Lied!"
+    },
+    {
+      "id": "c08-dense-008",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 953,
+      "source_end": 1217,
+      "source_text": "\nEin leidig Lied! Dankt Gott mit jedem Morgen,\nDaß ihr nicht braucht fürs Röm’sche Reich zu sorgen!\nIch halt es wenigstens für reichlichen Gewinn,\nDaß ich nicht Kaiser oder Kanzler bin.\nDoch muß auch uns ein Oberhaupt nicht fehlen;\nWir wollen einen Papst erwählen.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-008.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 953,
+      "anchor": "Ein leidig Lied! Dankt Gott mit jedem Morgen,\nDaß ihr nicht braucht fürs Röm’sche Reich zu sorgen!\nI"
+    },
+    {
+      "id": "c08-dense-009",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 1217,
+      "source_end": 1440,
+      "source_text": "\nIhr wißt, welch eine Qualität\nDen Ausschlag gibt, den Mann erhöht.\n\nFROSCH (singt).\nSchwing dich auf, Frau Nachtigall,\nGrüß mir mein Liebchen zehentausendmal.\n\nSIEBEL.\nDem Liebchen keinen Gruß! ich will davon nichts hören!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FROSCH ",
+        "SIEBEL"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-009.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 1217,
+      "anchor": "Ihr wißt, welch eine Qualität\nDen Ausschlag gibt, den Mann erhöht.\n\nFROSCH (singt).\nSchwing dich auf"
+    },
+    {
+      "id": "c08-dense-010",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 1440,
+      "source_end": 1548,
+      "source_text": "\n\nFROSCH.\nDem Liebchen Gruß und Kuß! du wirst mir’s nicht verwehren!\n\n(Singt.)\nRiegel auf! in stiller Nacht.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FROSCH"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-010.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 1440,
+      "anchor": "FROSCH.\nDem Liebchen Gruß und Kuß! du wirst mir’s nicht verwehren!\n\n(Singt.)\nRiegel auf! in stiller "
+    },
+    {
+      "id": "c08-dense-011",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 1548,
+      "source_end": 1608,
+      "source_text": "\nRiegel auf! der Liebste wacht.\nRiegel zu! des Morgens früh.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-011.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 1548,
+      "anchor": "Riegel auf! der Liebste wacht.\nRiegel zu! des Morgens früh."
+    },
+    {
+      "id": "c08-dense-012",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 1608,
+      "source_end": 1796,
+      "source_text": "\n\nSIEBEL.\nJa, singe, singe nur und lob und rühme sie!\nIch will zu meiner Zeit schon lachen.\nSie hat mich angeführt, dir wird sie’s auch so machen.\nZum Liebsten sei ein Kobold ihr beschert!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "SIEBEL"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-012.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 1608,
+      "anchor": "SIEBEL.\nJa, singe, singe nur und lob und rühme sie!\nIch will zu meiner Zeit schon lachen.\nSie hat mi"
+    },
+    {
+      "id": "c08-dense-013",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 1796,
+      "source_end": 2130,
+      "source_text": "\nDer mag mit ihr auf einem Kreuzweg schäkern;\nEin alter Bock, wenn er vom Blocksberg kehrt,\nMag im Galopp noch gute Nacht ihr meckern!\nEin braver Kerl von echtem Fleisch und Blut\nIst für die Dirne viel zu gut.\nIch will von keinem Gruße wissen,\nAls ihr die Fenster eingeschmissen\n\nBRANDER (auf den Tisch schlagend).\nPaßt auf! paßt auf!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "BRANDER "
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-013.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 1796,
+      "anchor": "Der mag mit ihr auf einem Kreuzweg schäkern;\nEin alter Bock, wenn er vom Blocksberg kehrt,\nMag im Ga"
+    },
+    {
+      "id": "c08-dense-014",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 2130,
+      "source_end": 2330,
+      "source_text": " Gehorchet mir!\nIhr Herrn, gesteht, ich weiß zu leben\nVerliebte Leute sitzen hier,\nUnd diesen muß, nach Standsgebühr,\nZur guten Nacht ich was zum besten geben.\nGebt acht! Ein Lied vom neusten Schnitt!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-014.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 2130,
+      "anchor": "Gehorchet mir!\nIhr Herrn, gesteht, ich weiß zu leben\nVerliebte Leute sitzen hier,\nUnd diesen muß, na"
+    },
+    {
+      "id": "c08-dense-015",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 2330,
+      "source_end": 2652,
+      "source_text": "\nUnd singt den Rundreim kräftig mit!\n(Er singt.)\nEs war eine Ratt im Kellernest,\nLebte nur von Fett und Butter,\nHatte sich ein Ränzlein angemäst’t,\nAls wie der Doktor Luther.\nDie Köchin hatt ihr Gift gestellt;\nDa ward’s so eng ihr in der Welt,\nAls hätte sie Lieb im Leibe.\n\nCHORUS (jauchzend).\nAls hätte sie Lieb im Leibe.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "CHORUS "
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-015.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 2330,
+      "anchor": "Und singt den Rundreim kräftig mit!\n(Er singt.)\nEs war eine Ratt im Kellernest,\nLebte nur von Fett u"
+    },
+    {
+      "id": "c08-dense-016",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 2652,
+      "source_end": 3085,
+      "source_text": "\n\nBRANDER.\nSie fuhr herum, sie fuhr heraus,\nUnd soff aus allen Pfützen,\nZernagt’, zerkratzt, das ganze Haus,\nWollte nichts ihr Wüten nützen;\nSie tät gar manchen Ängstesprung,\nBald hatte das arme Tier genung,\nAls hätt es Lieb im Leibe.\n\nCHORUS.\nAls hätt es Lieb im Leibe.\n\nBRANDER.\nSie kam vor Angst am hellen Tag\nDer Küche zugelaufen,\nFiel an den Herd und zuckt, und lag,\nUnd tät erbärmlich schnaufen.\nDa lachte die Vergifterin noch.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "BRANDER",
+        "CHORUS"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-016.webp",
+      "source_grid": "source_images/chapter08-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 2652,
+      "anchor": "BRANDER.\nSie fuhr herum, sie fuhr heraus,\nUnd soff aus allen Pfützen,\nZernagt’, zerkratzt, das ganze"
+    },
+    {
+      "id": "c08-dense-017",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 3085,
+      "source_end": 3235,
+      "source_text": "\nHa! sie pfeift auf dem letzten Loch,\nAls hätte sie Lieb im Leibe.\n\nCHORUS.\nAls hätte sie Lieb im Leibe.\n\nSIEBEL.\nWie sich die platten Bursche freuen!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "CHORUS",
+        "SIEBEL"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-017.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 3085,
+      "anchor": "Ha! sie pfeift auf dem letzten Loch,\nAls hätte sie Lieb im Leibe.\n\nCHORUS.\nAls hätte sie Lieb im Lei"
+    },
+    {
+      "id": "c08-dense-018",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 3235,
+      "source_end": 3498,
+      "source_text": "\nEs ist mir eine rechte Kunst,\nDen armen Ratten Gift zu streuen!\n\nBRANDER.\nSie stehn wohl sehr in deiner Gunst?\n\nALTMAYER.\nDer Schmerbauch mit der kahlen Platte!\nDas Unglück macht ihn zahm und mild;\nEr sieht in der geschwollnen Ratte\nSein ganz natürlich Ebenbild.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "BRANDER",
+        "ALTMAYER"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-018.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 3235,
+      "anchor": "Es ist mir eine rechte Kunst,\nDen armen Ratten Gift zu streuen!\n\nBRANDER.\nSie stehn wohl sehr in dei"
+    },
+    {
+      "id": "c08-dense-019",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 3498,
+      "source_end": 3916,
+      "source_text": "\n(Faust und Mephistopheles treten auf.)\n\nMEPHISTOPHELES.\nIch muß dich nun vor allen Dingen\nIn lustige Gesellschaft bringen,\nDamit du siehst, wie leicht sich’s leben läßt.\nDem Volke hier wird jeder Tag ein Fest.\nMit wenig Witz und viel Behagen\nDreht jeder sich im engen Zirkeltanz,\nWie junge Katzen mit dem Schwanz.\nWenn sie nicht über Kopfweh klagen,\nSo lang der Wirt nur weiter borgt,\nSind sie vergnügt und unbesorgt.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-019.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 3498,
+      "anchor": "(Faust und Mephistopheles treten auf.)\n\nMEPHISTOPHELES.\nIch muß dich nun vor allen Dingen\nIn lustige"
+    },
+    {
+      "id": "c08-dense-020",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 3916,
+      "source_end": 4141,
+      "source_text": "\n\nBRANDER.\nDie kommen eben von der Reise,\nMan sieht’s an ihrer wunderlichen Weise;\nSie sind nicht eine Stunde hier.\n\nFROSCH.\nWahrhaftig, du hast recht! Mein Leipzig lob ich mir!\nEs ist ein klein Paris, und bildet seine Leute.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "BRANDER",
+        "FROSCH"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-020.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 3916,
+      "anchor": "BRANDER.\nDie kommen eben von der Reise,\nMan sieht’s an ihrer wunderlichen Weise;\nSie sind nicht eine"
+    },
+    {
+      "id": "c08-dense-021",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 4141,
+      "source_end": 4388,
+      "source_text": "\n\nSIEBEL.\nFür was siehst du die Fremden an?\n\nFROSCH.\nLaß mich nur gehn! Bei einem vollen Glase\nZieh ich, wie einen Kinderzahn,\nDen Burschen leicht die Würmer aus der Nase.\nSie scheinen mir aus einem edlen Haus,\nSie sehen stolz und unzufrieden aus.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "SIEBEL",
+        "FROSCH"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-021.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 4141,
+      "anchor": "SIEBEL.\nFür was siehst du die Fremden an?\n\nFROSCH.\nLaß mich nur gehn! Bei einem vollen Glase\nZieh ic"
+    },
+    {
+      "id": "c08-dense-022",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 4388,
+      "source_end": 4595,
+      "source_text": "\n\nBRANDER.\nMarktschreier sind’s gewiß, ich wette!\n\nALTMAYER.\nVielleicht.\n\nFROSCH.\nGib acht, ich schraube sie!\n\nMEPHISTOPHELES (zu Faust).\nDen Teufel spürt das Völkchen nie,\nUnd wenn er sie beim Kragen hätte.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "BRANDER",
+        "ALTMAYER",
+        "FROSCH",
+        "MEPHISTOPHELES "
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-022.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 4388,
+      "anchor": "BRANDER.\nMarktschreier sind’s gewiß, ich wette!\n\nALTMAYER.\nVielleicht.\n\nFROSCH.\nGib acht, ich schrau"
+    },
+    {
+      "id": "c08-dense-023",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 4595,
+      "source_end": 4809,
+      "source_text": "\n\nFAUST.\nSeid uns gegrüßt, ihr Herrn!\n\nSIEBEL.\nViel Dank zum Gegengruß.\n(Leise, Mephistopheles von der Seite ansehend.)\nWas hinkt der Kerl auf einem Fuß?\n\nMEPHISTOPHELES.\nIst es erlaubt, uns auch zu euch zu setzen?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST",
+        "SIEBEL",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-023.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 4595,
+      "anchor": "FAUST.\nSeid uns gegrüßt, ihr Herrn!\n\nSIEBEL.\nViel Dank zum Gegengruß.\n(Leise, Mephistopheles von der"
+    },
+    {
+      "id": "c08-dense-024",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 4809,
+      "source_end": 5053,
+      "source_text": "\nStatt eines guten Trunks, den man nicht haben kann\nSoll die Gesellschaft uns ergetzen.\n\nALTMAYER.\nIhr scheint ein sehr verwöhnter Mann.\n\nFROSCH.\nIhr seid wohl spät von Rippach aufgebrochen?\nHabt ihr mit Herren Hans noch erst zu Nacht gespeist?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "ALTMAYER",
+        "FROSCH"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-024.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 4809,
+      "anchor": "Statt eines guten Trunks, den man nicht haben kann\nSoll die Gesellschaft uns ergetzen.\n\nALTMAYER.\nIh"
+    },
+    {
+      "id": "c08-dense-025",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 5053,
+      "source_end": 5292,
+      "source_text": "\n\nMEPHISTOPHELES.\nHeut sind wir ihn vorbeigereist!\nWir haben ihn das letztemal gesprochen.\nVon seinen Vettern wußt er viel zu sagen,\nViel Grüße hat er uns an jeden aufgetragen.\n(Er neigt sich gegen Frosch.)\n\nALTMAYER (leise).\nDa hast du’s!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "ALTMAYER "
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-025.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 5053,
+      "anchor": "MEPHISTOPHELES.\nHeut sind wir ihn vorbeigereist!\nWir haben ihn das letztemal gesprochen.\nVon seinen "
+    },
+    {
+      "id": "c08-dense-026",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 5292,
+      "source_end": 5465,
+      "source_text": " der versteht’s!\n\nSIEBEL.\nEin pfiffiger Patron!\n\nFROSCH.\nNun, warte nur, ich krieg ihn schon!\n\nMEPHISTOPHELES.\nWenn ich nicht irrte, hörten wir\nGeübte Stimmen Chorus singen?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "SIEBEL",
+        "FROSCH",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-026.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 5292,
+      "anchor": "der versteht’s!\n\nSIEBEL.\nEin pfiffiger Patron!\n\nFROSCH.\nNun, warte nur, ich krieg ihn schon!\n\nMEPHIS"
+    },
+    {
+      "id": "c08-dense-027",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 5465,
+      "source_end": 5645,
+      "source_text": "\nGewiß, Gesang muß trefflich hier\nVon dieser Wölbung widerklingen!\n\nFROSCH.\nSeid Ihr wohl gar ein Virtuos?\n\nMEPHISTOPHELES.\nO nein! die Kraft ist schwach, allein die Lust ist groß.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FROSCH",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-027.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 5465,
+      "anchor": "Gewiß, Gesang muß trefflich hier\nVon dieser Wölbung widerklingen!\n\nFROSCH.\nSeid Ihr wohl gar ein Vir"
+    },
+    {
+      "id": "c08-dense-028",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 5645,
+      "source_end": 5858,
+      "source_text": "\n\nALTMAYER.\nGebt uns ein Lied!\n\nMEPHISTOPHELES.\nWenn ihr begehrt, die Menge.\n\nSIEBEL.\nNur auch ein nagelneues Stück!\n\nMEPHISTOPHELES.\nWir kommen erst aus Spanien zurück,\nDem schönen Land des Weins und der Gesänge.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "ALTMAYER",
+        "MEPHISTOPHELES",
+        "SIEBEL"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-028.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 5645,
+      "anchor": "ALTMAYER.\nGebt uns ein Lied!\n\nMEPHISTOPHELES.\nWenn ihr begehrt, die Menge.\n\nSIEBEL.\nNur auch ein nag"
+    },
+    {
+      "id": "c08-dense-029",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 5858,
+      "source_end": 5975,
+      "source_text": "\n(Singt).\nEs war einmal ein König,\nDer hatt einen großen Floh—\n\nFROSCH.\nHorcht! Einen Floh! Habt ihr das wohl gefaßt?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FROSCH"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-029.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 5858,
+      "anchor": "(Singt).\nEs war einmal ein König,\nDer hatt einen großen Floh—\n\nFROSCH.\nHorcht! Einen Floh! Habt ihr "
+    },
+    {
+      "id": "c08-dense-030",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 5975,
+      "source_end": 6249,
+      "source_text": "\nEin Floh ist mir ein saubrer Gast.\n\nMEPHISTOPHELES (singt).\nEs war einmal ein König\nDer hatt einen großen Floh,\nDen liebt’ er gar nicht wenig,\nAls wie seinen eignen Sohn.\nDa rief er seinen Schneider,\nDer Schneider kam heran.\nDa, miß dem Junker Kleider\nUnd miß ihm Hosen an!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES "
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-017",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-030.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 5975,
+      "anchor": "Ein Floh ist mir ein saubrer Gast.\n\nMEPHISTOPHELES (singt).\nEs war einmal ein König\nDer hatt einen g"
+    },
+    {
+      "id": "c08-dense-031",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 6249,
+      "source_end": 6787,
+      "source_text": "\n\nBRANDER.\nVergeßt nur nicht, dem Schneider einzuschärfen,\nDaß er mir aufs genauste mißt,\nUnd daß, so lieb sein Kopf ihm ist,\nDie Hosen keine Falten werfen!\n\nMEPHISTOPHELES.\nIn Sammet und in Seide\nWar er nun angetan\nHatte Bänder auf dem Kleide,\nHatt auch ein Kreuz daran\nUnd war sogleich Minister,\nUnd hatt einen großen Stern.\nDa wurden seine Geschwister\nBei Hof auch große Herrn.\n\nUnd Herrn und Fraun am Hofe,\nDie waren sehr geplagt,\nDie Königin und die Zofe\nGestochen und genagt,\nUnd durften sie nicht knicken,\nUnd weg sie jucken nicht.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "BRANDER",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-018",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-031.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 6249,
+      "anchor": "BRANDER.\nVergeßt nur nicht, dem Schneider einzuschärfen,\nDaß er mir aufs genauste mißt,\nUnd daß, so "
+    },
+    {
+      "id": "c08-dense-032",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 6787,
+      "source_end": 6947,
+      "source_text": "\nWir knicken und ersticken\nDoch gleich, wenn einer sticht.\n\nCHORUS (jauchzend).\nWir knicken und ersticken\nDoch gleich, wenn einer sticht.\n\nFROSCH.\nBravo! Bravo!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "CHORUS ",
+        "FROSCH"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-018",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-032.webp",
+      "source_grid": "source_images/chapter08-dense-002.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 6787,
+      "anchor": "Wir knicken und ersticken\nDoch gleich, wenn einer sticht.\n\nCHORUS (jauchzend).\nWir knicken und ersti"
     }
   ]
 }
