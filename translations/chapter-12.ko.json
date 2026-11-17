@@ -1,0 +1,48 @@
+{
+  "chapter": 12,
+  "status": "complete_draft_translation",
+  "source_total_chars": 2482,
+  "covered_end": 2482,
+  "segments": [
+    {
+      "id": "C12-T001",
+      "source_start": 0,
+      "source_end": 467,
+      "source": "Faust in Gedanken auf und ab gehend. Zu ihm Mephistopheles.\n\nMEPHISTOPHELES.\nBei aller verschmähten Liebe! Beim höllischen Elemente!\nIch wollt, ich wüßte was Ärgers, daß ich’s fluchen könnte!\n\nFAUST.\nWas hast? was kneipt dich denn so sehr?\nSo kein Gesicht sah ich in meinem Leben!\n\nMEPHISTOPHELES.\nIch möcht mich gleich dem Teufel übergeben,\nWenn ich nur selbst kein Teufel wär!\n\nFAUST.\nHat sich dir was im Kopf verschoben?\nDich kleidet’s wie ein Rasender zu toben!\n\n",
+      "ko": "파우스트가 생각에 잠겨 이리저리 걷는다. 메피스토펠레스가 그에게 다가온다.\n\n메피스토펠레스\n거절당한 모든 사랑에 걸고! 지옥의 원소에 걸고!\n더 지독하게 저주할 말을 안다면 좋겠군!\n\n파우스트\n무슨 일인가? 무엇이 자네를 그렇게 괴롭히나?\n그런 얼굴은 평생 처음 보는군!\n\n메피스토펠레스\n내가 악마만 아니라면 당장 악마에게 나를 넘겨 버리고 싶습니다!\n\n파우스트\n머리가 어떻게 된 건가?\n미친 사람처럼 날뛰니 참 자네답군!"
+    },
+    {
+      "id": "C12-T002",
+      "source_start": 467,
+      "source_end": 1504,
+      "source": "MEPHISTOPHELES.\nDenkt nur, den Schmuck, für Gretchen angeschafft,\nDen hat ein Pfaff hinweggerafft!\nDie Mutter kriegt das Ding zu schauen\nGleich fängt’s ihr heimlich an zu grauen,\nDie Frau hat gar einen feinen Geruch,\nSchnuffelt immer im Gebetbuch\nUnd riecht’s einem jeden Möbel an,\nOb das Ding heilig ist oder profan;\nUnd an dem Schmuck da spürt sie’s klar,\nDaß dabei nicht viel Segen war.\n“Mein Kind”, rief sie, “ungerechtes Gut\nBefängt die Seele, zehrt auf das Blut.\nWollen’s der Mutter Gottes weihen,\nWird uns mit Himmelsmanna erfreuen!”\nMargretlein zog ein schiefes Maul,\nIst halt, dacht sie, ein geschenkter Gaul,\nUnd wahrlich! gottlos ist nicht der,\nDer ihn so fein gebracht hierher.\nDie Mutter ließ einen Pfaffen kommen;\nDer hatte kaum den Spaß vernommen,\nLieß sich den Anblick wohl behagen.\nEr sprach: “So ist man recht gesinnt!\nWer überwindet, der gewinnt.\nDie Kirche hat einen guten Magen,\nHat ganze Länder aufgefressen\nUnd doch noch nie sich übergessen;\nDie Kirch allein, meine lieben Frauen,\nKann ungerechtes Gut verdauen.”\n\n",
+      "ko": "메피스토펠레스\n생각해 보십시오. 그레트헨을 위해 마련한 보석을 신부가 가져가 버렸습니다!\n어머니는 그것을 보자 곧 두려운 생각이 들었지요.\n그 여자는 냄새를 잘 맡습니다. 늘 기도서를 들여다보며 물건마다 거룩한지 세속적인지 냄새로 알아내지요.\n그 보석에는 축복이 별로 없다는 것도 분명히 느낀 겁니다.\n“얘야”, 하고 외쳤답니다. “부정한 재물은 영혼을 붙들고 피를 말린단다.\n성모님께 바치자꾸나. 그러면 하늘의 양식으로 우리를 기쁘게 해 주실 거야!”\n그레트헨은 못마땅한 표정을 지었습니다.\n그녀는 선물 받은 말인데 무엇이 문제냐고 생각했지요.\n이렇게 좋은 것을 가져다준 사람이 정말 불경한 사람은 아닐 거라고요.\n어머니가 신부를 불렀습니다.\n신부는 사정을 듣자 보석을 흐뭇하게 바라보더군요.\n그는 말했습니다. “참으로 바른 마음입니다! 욕심을 이기는 사람이 승리하지요.\n교회는 위장이 튼튼해서 나라들을 통째로 삼키고도 배탈이 난 적이 없습니다.\n사랑하는 여인들이여, 부정한 재물을 소화할 수 있는 것은 오직 교회뿐입니다.”"
+    },
+    {
+      "id": "C12-T003",
+      "source_start": 1504,
+      "source_end": 1831,
+      "source": "FAUST.\nDas ist ein allgemeiner Brauch,\nEin Jud und König kann es auch.\n\nMEPHISTOPHELES.\nStrich drauf ein Spange, Kett und Ring’,\nAls wären’s eben Pfifferling’,\nDankt’ nicht weniger und nicht mehr,\nAls ob’s ein Korb voll Nüsse wär,\nVersprach ihnen allen himmlischen Lohn—\nUnd sie waren sehr erbaut davon.\n\nFAUST.\nUnd Gretchen?\n\n",
+      "ko": "파우스트\n흔히들 하는 일이지. 유대인도 왕도 할 수 있네.\n\n메피스토펠레스\n그러고는 브로치와 목걸이, 반지를 버섯이라도 되는 듯 쓸어 담았지요.\n감사 인사도 호두 한 바구니를 받은 정도였고요.\n그들 모두에게 하늘의 보상을 약속하자 두 사람은 크게 감동했답니다.\n\n파우스트\n그레트헨은?"
+    },
+    {
+      "id": "C12-T004",
+      "source_start": 1831,
+      "source_end": 2150,
+      "source": "MEPHISTOPHELES.\nSitzt nun unruhvoll,\nWeiß weder, was sie will noch soll,\nDenkt ans Geschmeide Tag und Nacht,\nNoch mehr an den, der’s ihr gebracht.\n\nFAUST.\nDes Liebchens Kummer tut mir leid.\nSchaff du ihr gleich ein neu Geschmeid!\nAm ersten war ja so nicht viel.\n\nMEPHISTOPHELES.\nO ja, dem Herrn ist alles Kinderspiel!\n\n",
+      "ko": "메피스토펠레스\n지금은 불안하게 앉아서 자기가 무엇을 바라며 어떻게 해야 할지도 모르지요.\n밤낮 보석을 생각하고, 그것을 가져온 사람은 더 많이 생각합니다.\n\n파우스트\n그녀가 괴롭다니 마음이 아프군.\n곧바로 새 보석을 마련해 주게!\n첫 번째 것은 그리 대단한 것도 아니었잖나.\n\n메피스토펠레스\n아, 물론이지요. 나리께는 모든 것이 아이들 장난이지요!"
+    },
+    {
+      "id": "C12-T005",
+      "source_start": 2150,
+      "source_end": 2482,
+      "source": "FAUST.\nUnd mach, und richt’s nach meinem Sinn,\nHäng dich an ihre Nachbarin!\nSei, Teufel, doch nur nicht wie Brei,\nUnd schaff einen neuen Schmuck herbei!\n\nMEPHISTOPHELES.\nJa, gnäd’ger Herr, von Herzen gerne.\n(Faust ab.)\n\nSo ein verliebter Tor verpufft\nEuch Sonne, Mond und alle Sterne\nZum Zeitvertreib dem Liebchen in die Luft.\n(Ab.)",
+      "ko": "파우스트\n어서 내 뜻대로 일을 꾸미게. 그 이웃 여인에게 접근해!\n악마면서 그렇게 물러터지게 굴지 말고 새 보석을 가져오게!\n\n메피스토펠레스\n예, 높으신 나리. 진심으로 기꺼이 하겠습니다.\n(파우스트 퇴장.)\n\n이렇게 사랑에 빠진 바보는 연인을 잠깐 즐겁게 하려고 해와 달과 모든 별도 공중에 터뜨려 버리겠군.\n(퇴장.)"
+    }
+  ],
+  "notes": [
+    "어머니·신부·그레트헨의 일은 메피스토펠레스의 보고로 구분.",
+    "원문의 유대인 언급은 시대적 편견을 포함한 파우스트 발언으로 보존. 각색은 집단에 대한 사실로 일반화하지 않음.",
+    "신부의 탐욕과 교회 풍자는 인물 발언이며 신자 전체의 성격으로 확정하지 않음."
+  ]
+}
