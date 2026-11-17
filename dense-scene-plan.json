@@ -7687,15 +7687,34 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-001.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        415,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-002",
@@ -7713,17 +7732,35 @@
         "FAUST"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-002.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        421,
+        3,
+        833,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-003",
@@ -7741,17 +7778,35 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-003.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        839,
+        3,
+        1251,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-004",
@@ -7766,15 +7821,35 @@
       "composition": "장소 전체와 인물의 상대 위치",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-004.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        1257,
+        3,
+        1669,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-005",
@@ -7789,15 +7864,35 @@
       "composition": "인물과 주변 공간을 위에서 관찰",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-005.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        3,
+        238,
+        415,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-006",
@@ -7815,17 +7910,35 @@
         "FAUST"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-006.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        421,
+        238,
+        833,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-007",
@@ -7843,17 +7956,35 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-007.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        839,
+        238,
+        1251,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-008",
@@ -7868,15 +7999,35 @@
       "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-008.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        1257,
+        238,
+        1669,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-009",
@@ -7891,15 +8042,35 @@
       "composition": "대화 상대와 몸짓의 관계",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-009.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        3,
+        473,
+        415,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-010",
@@ -7916,15 +8087,35 @@
         "GEISTERCHOR "
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-010.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        421,
+        473,
+        833,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-011",
@@ -7941,16 +8132,35 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-011.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        839,
+        473,
+        1251,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-012",
@@ -7965,15 +8175,35 @@
       "composition": "낮은 시점에서 인물·건축의 긴장감",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-012",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-012.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        1257,
+        473,
+        1669,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-013",
@@ -7991,17 +8221,35 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-013.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        3,
+        709,
+        415,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-014",
@@ -8019,17 +8267,35 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-014.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        421,
+        709,
+        833,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-015",
@@ -8047,17 +8313,35 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-015.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        839,
+        709,
+        1251,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-016",
@@ -8075,15 +8359,34 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-016.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        1257,
+        709,
+        1669,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-017",
@@ -8101,17 +8404,35 @@
         "FAUST"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-017.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        415,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-018",
@@ -8129,17 +8450,35 @@
         "FAUST"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-018.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        421,
+        3,
+        833,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-019",
@@ -8154,15 +8493,35 @@
       "composition": "표정과 시선의 변화를 포착",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-019.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        839,
+        3,
+        1251,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-020",
@@ -8180,17 +8539,35 @@
         "FAUST"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-020.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        1257,
+        3,
+        1669,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-021",
@@ -8208,15 +8585,34 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-021.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        3,
+        238,
+        415,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-022",
@@ -8231,15 +8627,35 @@
       "composition": "장소 전체와 인물의 상대 위치",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-022.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        421,
+        238,
+        833,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-023",
@@ -8254,15 +8670,35 @@
       "composition": "인물과 주변 공간을 위에서 관찰",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-023.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        839,
+        238,
+        1251,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-024",
@@ -8279,16 +8715,35 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-024.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        1257,
+        238,
+        1669,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-025",
@@ -8306,17 +8761,35 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-025.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        3,
+        473,
+        415,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-026",
@@ -8331,15 +8804,35 @@
       "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-026.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        421,
+        473,
+        833,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-027",
@@ -8356,16 +8849,35 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-027.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        839,
+        473,
+        1251,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-028",
@@ -8383,15 +8895,34 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-013",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-028.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        1257,
+        473,
+        1669,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-029",
@@ -8409,17 +8940,35 @@
         "FAUST"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-029.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        3,
+        709,
+        415,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-030",
@@ -8436,16 +8985,35 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-030.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        421,
+        709,
+        833,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-031",
@@ -8463,15 +9031,34 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-031.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        839,
+        709,
+        1251,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-032",
@@ -8489,17 +9076,35 @@
         "FAUST"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-032.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        1257,
+        709,
+        1669,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-033",
@@ -8514,15 +9119,51 @@
       "composition": "대화 상대와 몸짓의 관계",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-033.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        3,
+        3,
+        393,
+        245
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "alternative_images": [
+        {
+          "image": "illustrations/c07-dense-033-v2.webp",
+          "source_grid": "source_images/chapter07-dense-004.png",
+          "crop_box": [
+            771,
+            771,
+            1149,
+            1021
+          ],
+          "native_grid_size": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-034",
@@ -8540,15 +9181,34 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-034.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        399,
+        3,
+        790,
+        245
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-035",
@@ -8565,16 +9225,35 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-035.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        796,
+        3,
+        1187,
+        245
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-036",
@@ -8592,15 +9271,34 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-036.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        1193,
+        3,
+        1583,
+        245
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ]
     },
     {
       "id": "c07-dense-037",
@@ -8617,16 +9315,36 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-037.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        3,
+        251,
+        393,
+        493
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-038",
@@ -8645,16 +9363,36 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-038.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        399,
+        251,
+        790,
+        493
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-039",
@@ -8671,15 +9409,36 @@
         "SCHÜLER"
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-039.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        796,
+        251,
+        1187,
+        493
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-040",
@@ -8697,16 +9456,36 @@
         "SCHÜLER"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-040.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        1193,
+        251,
+        1583,
+        493
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-041",
@@ -8724,16 +9503,36 @@
         "SCHÜLER"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-041.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        3,
+        499,
+        393,
+        741
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-042",
@@ -8751,16 +9550,36 @@
         "SCHÜLER"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-042.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        399,
+        499,
+        790,
+        741
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-043",
@@ -8777,16 +9596,36 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-043.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        796,
+        499,
+        1187,
+        741
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-044",
@@ -8801,15 +9640,36 @@
       "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-014",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-044.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        1193,
+        499,
+        1583,
+        741
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-045",
@@ -8824,15 +9684,36 @@
       "composition": "대화 상대와 몸짓의 관계",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-045.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        3,
+        747,
+        393,
+        989
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-046",
@@ -8850,16 +9731,36 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-046.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        399,
+        747,
+        790,
+        989
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-047",
@@ -8877,16 +9778,36 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-047.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        796,
+        747,
+        1187,
+        989
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-048",
@@ -8903,15 +9824,36 @@
         "SCHÜLER"
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-048.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        1193,
+        747,
+        1583,
+        989
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-049",
@@ -8929,16 +9871,36 @@
         "SCHÜLER"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-049.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-050",
@@ -8955,15 +9917,36 @@
         "SCHÜLER"
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-050.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-051",
@@ -8980,16 +9963,36 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-051.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-052",
@@ -9006,15 +10009,36 @@
         "SCHÜLER"
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-052.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-053",
@@ -9032,16 +10056,36 @@
         "SCHÜLER"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-053.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-054",
@@ -9056,15 +10100,36 @@
       "composition": "낮은 시점에서 인물·건축의 긴장감",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-054.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-055",
@@ -9081,16 +10146,36 @@
         "MEPHISTOPHELES "
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-055.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-056",
@@ -9107,15 +10192,36 @@
         "SCHÜLER"
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-056.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-057",
@@ -9133,16 +10239,36 @@
         "SCHÜLER"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-057.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-058",
@@ -9161,16 +10287,52 @@
         "SCHÜLER "
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-058.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "alternative_images": [
+        {
+          "image": "illustrations/c07-dense-058-v2.webp",
+          "source_grid": "source_images/chapter07-dense-004.png",
+          "crop_box": [
+            771,
+            515,
+            1149,
+            765
+          ],
+          "native_grid_size": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-059",
@@ -9188,17 +10350,36 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-059.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-060",
@@ -9216,17 +10397,36 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-015",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-060.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-061",
@@ -9244,17 +10444,36 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-016",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-061.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c07-dense-062",
@@ -9269,15 +10488,36 @@
       "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-003"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-016",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-062.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ]
     },
     {
       "id": "c08-dense-001",

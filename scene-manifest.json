@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1–6 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1–7 illustrated and adapted; later chapters pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -7610,6 +7610,2978 @@
       ],
       "char_offset": 11604,
       "anchor": "Noch einen Biß, so ist’s geschehn.—\nNun, Fauste, träume fort, bis wir uns wiedersehn.\n\nFAUST (erwach"
+    },
+    {
+      "id": "c07-dense-001",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 49,
+      "source_text": "Faust. Mephistopheles.\n\nFAUST.\nEs klopft? Herein!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-001.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        415,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 0,
+      "anchor": "Faust. Mephistopheles.\n\nFAUST.\nEs klopft? Herein!"
+    },
+    {
+      "id": "c07-dense-002",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 49,
+      "source_end": 165,
+      "source_text": " Wer will mich wieder plagen?\n\nMEPHISTOPHELES.\nIch bin’s.\n\nFAUST.\nHerein!\n\nMEPHISTOPHELES.\nDu mußt es dreimal sagen.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-002.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        421,
+        3,
+        833,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 49,
+      "anchor": "Wer will mich wieder plagen?\n\nMEPHISTOPHELES.\nIch bin’s.\n\nFAUST.\nHerein!\n\nMEPHISTOPHELES.\nDu mußt es"
+    },
+    {
+      "id": "c07-dense-003",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 165,
+      "source_end": 656,
+      "source_text": "\n\nFAUST.\nHerein denn!\n\nMEPHISTOPHELES.\nSo gefällst du mir.\nWir werden, hoff ich, uns vertragen;\nDenn dir die Grillen zu verjagen,\nBin ich als edler Junker hier,\nIn rotem, goldverbrämtem Kleide,\nDas Mäntelchen von starrer Seide,\nDie Hahnenfeder auf dem Hut,\nMit einem langen, spitzen Degen,\nUnd rate nun dir, kurz und gut,\nDergleichen gleichfalls anzulegen;\nDamit du, losgebunden, frei,\nErfahrest, was das Leben sei.\n\nFAUST.\nIn jedem Kleide werd ich wohl die Pein\nDes engen Erdelebens fühlen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-003.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        839,
+        3,
+        1251,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 165,
+      "anchor": "FAUST.\nHerein denn!\n\nMEPHISTOPHELES.\nSo gefällst du mir.\nWir werden, hoff ich, uns vertragen;\nDenn d"
+    },
+    {
+      "id": "c07-dense-004",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 656,
+      "source_end": 800,
+      "source_text": "\nIch bin zu alt, um nur zu spielen,\nZu jung, um ohne Wunsch zu sein.\nWas kann die Welt mir wohl gewähren?\nEntbehren sollst du! sollst entbehren!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-004.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        1257,
+        3,
+        1669,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 656,
+      "anchor": "Ich bin zu alt, um nur zu spielen,\nZu jung, um ohne Wunsch zu sein.\nWas kann die Welt mir wohl gewäh"
+    },
+    {
+      "id": "c07-dense-005",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 800,
+      "source_end": 1590,
+      "source_text": "\nDas ist der ewige Gesang,\nDer jedem an die Ohren klingt,\nDen, unser ganzes Leben lang,\nUns heiser jede Stunde singt.\nNur mit Entsetzen wach ich morgens auf,\nIch möchte bittre Tränen weinen,\nDen Tag zu sehn, der mir in seinem Lauf\nNicht einen Wunsch erfüllen wird, nicht einen,\nDer selbst die Ahnung jeder Lust\nMit eigensinnigem Krittel mindert,\nDie Schöpfung meiner regen Brust\nMit tausend Lebensfratzen hindert.\nAuch muß ich, wenn die Nacht sich niedersenkt,\nMich ängstlich auf das Lager strecken;\nAuch da wird keine Rast geschenkt,\nMich werden wilde Träume schrecken.\nDer Gott, der mir im Busen wohnt,\nKann tief mein Innerstes erregen;\nDer über allen meinen Kräften thront,\nEr kann nach außen nichts bewegen;\nUnd so ist mir das Dasein eine Last,\nDer Tod erwünscht, das Leben mir verhaßt.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-005.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        3,
+        238,
+        415,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 800,
+      "anchor": "Das ist der ewige Gesang,\nDer jedem an die Ohren klingt,\nDen, unser ganzes Leben lang,\nUns heiser je"
+    },
+    {
+      "id": "c07-dense-006",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 1590,
+      "source_end": 1984,
+      "source_text": "\n\nMEPHISTOPHELES.\nUnd doch ist nie der Tod ein ganz willkommner Gast.\n\nFAUST.\nO selig der, dem er im Siegesglanze\nDie blut’gen Lorbeern um die Schläfe windet,\nDen er, nach rasch durchrastem Tanze,\nIn eines Mädchens Armen findet!\nO wär ich vor des hohen Geistes Kraft\nEntzückt, entseelt dahin gesunken!\n\nMEPHISTOPHELES.\nUnd doch hat jemand einen braunen Saft,\nIn jener Nacht, nicht ausgetrunken.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-006.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        421,
+        238,
+        833,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 1590,
+      "anchor": "MEPHISTOPHELES.\nUnd doch ist nie der Tod ein ganz willkommner Gast.\n\nFAUST.\nO selig der, dem er im S"
+    },
+    {
+      "id": "c07-dense-007",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 1984,
+      "source_end": 2452,
+      "source_text": "\n\nFAUST.\nDas Spionieren, scheint’s, ist deine Lust.\n\nMEPHISTOPHELES.\nAllwissend bin ich nicht; doch viel ist mir bewußt.\n\nFAUST.\nWenn aus dem schrecklichen Gewühle\nEin süß bekannter Ton mich zog,\nDen Rest von kindlichem Gefühle\nMit Anklang froher Zeit betrog,\nSo fluch ich allem, was die Seele\nMit Lock- und Gaukelwerk umspannt,\nUnd sie in diese Trauerhöhle\nMit Blend- und Schmeichelkräften bannt!\nVerflucht voraus die hohe Meinung\nWomit der Geist sich selbst umfängt!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-007.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        839,
+        238,
+        1251,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 1984,
+      "anchor": "FAUST.\nDas Spionieren, scheint’s, ist deine Lust.\n\nMEPHISTOPHELES.\nAllwissend bin ich nicht; doch vi"
+    },
+    {
+      "id": "c07-dense-008",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 2452,
+      "source_end": 2807,
+      "source_text": "\nVerflucht das Blenden der Erscheinung,\nDie sich an unsre Sinne drängt!\nVerflucht, was uns in Träumen heuchelt\nDes Ruhms, der Namensdauer Trug!\nVerflucht, was als Besitz uns schmeichelt,\nAls Weib und Kind, als Knecht und Pflug!\nVerflucht sei Mammon, wenn mit Schätzen\nEr uns zu kühnen Taten regt,\nWenn er zu müßigem Ergetzen\nDie Polster uns zurechte legt!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-008.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        1257,
+        238,
+        1669,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 2452,
+      "anchor": "Verflucht das Blenden der Erscheinung,\nDie sich an unsre Sinne drängt!\nVerflucht, was uns in Träumen"
+    },
+    {
+      "id": "c07-dense-009",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 2807,
+      "source_end": 2953,
+      "source_text": "\nFluch sei dem Balsamsaft der Trauben!\nFluch jener höchsten Liebeshuld!\nFluch sei der Hoffnung! Fluch dem Glauben,\nUnd Fluch vor allen der Geduld!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-009.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        3,
+        473,
+        415,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 2807,
+      "anchor": "Fluch sei dem Balsamsaft der Trauben!\nFluch jener höchsten Liebeshuld!\nFluch sei der Hoffnung! Fluch"
+    },
+    {
+      "id": "c07-dense-010",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 2953,
+      "source_end": 3109,
+      "source_text": "\n\nGEISTERCHOR (unsichtbar).\nWeh! weh!\nDu hast sie zerstört\nDie schöne Welt,\nMit mächtiger Faust;\nSie stürzt, sie zerfällt!\nEin Halbgott hat sie zerschlagen!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "GEISTERCHOR "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-010.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        421,
+        473,
+        833,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 2953,
+      "anchor": "GEISTERCHOR (unsichtbar).\nWeh! weh!\nDu hast sie zerstört\nDie schöne Welt,\nMit mächtiger Faust;\nSie s"
+    },
+    {
+      "id": "c07-dense-011",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 3109,
+      "source_end": 3403,
+      "source_text": "\nWir tragen\nDie Trümmern ins Nichts hinüber,\nUnd klagen\nÜber die verlorne Schöne.\nMächtiger\nDer Erdensöhne,\nPrächtiger\nBaue sie wieder,\nIn deinem Busen baue sie auf!\nNeuen Lebenslauf\nBeginne,\nMit hellem Sinne,\nUnd neue Lieder\nTönen darauf!\n\nMEPHISTOPHELES.\nDies sind die Kleinen\nVon den Meinen.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-011.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        839,
+        473,
+        1251,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 3109,
+      "anchor": "Wir tragen\nDie Trümmern ins Nichts hinüber,\nUnd klagen\nÜber die verlorne Schöne.\nMächtiger\nDer Erden"
+    },
+    {
+      "id": "c07-dense-012",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 3403,
+      "source_end": 3762,
+      "source_text": "\nHöre, wie zu Lust und Taten\nAltklug sie raten!\nIn die Welt weit,\nAus der Einsamkeit\nWo Sinnen und Säfte stocken,\nWollen sie dich locken.\n\nHör auf, mit deinem Gram zu spielen,\nDer, wie ein Geier, dir am Leben frißt;\nDie schlechteste Gesellschaft läßt dich fühlen,\nDaß du ein Mensch mit Menschen bist.\nDoch so ist’s nicht gemeint\nDich unter das Pack zu stoßen.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-012.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        1257,
+        473,
+        1669,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 3403,
+      "anchor": "Höre, wie zu Lust und Taten\nAltklug sie raten!\nIn die Welt weit,\nAus der Einsamkeit\nWo Sinnen und Sä"
+    },
+    {
+      "id": "c07-dense-013",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 3762,
+      "source_end": 4110,
+      "source_text": "\nIch bin keiner von den Großen;\nDoch willst du, mit mir vereint,\nDeine Schritte durchs Leben nehmen,\nSo will ich mich gern bequemen,\nDein zu sein, auf der Stelle.\nIch bin dein Geselle,\nUnd mach ich dir’s recht,\nBin ich dein Diener, bin dein Knecht!\n\nFAUST.\nUnd was soll ich dagegen dir erfüllen?\n\nMEPHISTOPHELES.\nDazu hast du noch eine lange Frist.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-013.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        3,
+        709,
+        415,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 3762,
+      "anchor": "Ich bin keiner von den Großen;\nDoch willst du, mit mir vereint,\nDeine Schritte durchs Leben nehmen,\n"
+    },
+    {
+      "id": "c07-dense-014",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 4110,
+      "source_end": 4481,
+      "source_text": "\n\nFAUST.\nNein, nein! der Teufel ist ein Egoist\nUnd tut nicht leicht um Gottes willen,\nWas einem andern nützlich ist.\nSprich die Bedingung deutlich aus;\nEin solcher Diener bringt Gefahr ins Haus.\n\nMEPHISTOPHELES.\nIch will mich hier zu deinem Dienst verbinden,\nAuf deinen Wink nicht rasten und nicht ruhn;\nWenn wir uns drüben wiederfinden,\nSo sollst du mir das gleiche tun.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-014.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        421,
+        709,
+        833,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 4110,
+      "anchor": "FAUST.\nNein, nein! der Teufel ist ein Egoist\nUnd tut nicht leicht um Gottes willen,\nWas einem andern"
+    },
+    {
+      "id": "c07-dense-015",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 4481,
+      "source_end": 4937,
+      "source_text": "\n\nFAUST.\nDas Drüben kann mich wenig kümmern;\nSchlägst du erst diese Welt zu Trümmern,\nDie andre mag darnach entstehn.\nAus dieser Erde quillen meine Freuden,\nUnd diese Sonne scheinet meinen Leiden;\nKann ich mich erst von ihnen scheiden,\nDann mag, was will und kann, geschehn.\nDavon will ich nichts weiter hören,\nOb man auch künftig haßt und liebt,\nUnd ob es auch in jenen Sphären\nEin Oben oder Unten gibt.\n\nMEPHISTOPHELES.\nIn diesem Sinne kannst du’s wagen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-015.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        839,
+        709,
+        1251,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 4481,
+      "anchor": "FAUST.\nDas Drüben kann mich wenig kümmern;\nSchlägst du erst diese Welt zu Trümmern,\nDie andre mag da"
+    },
+    {
+      "id": "c07-dense-016",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 4937,
+      "source_end": 5476,
+      "source_text": "\nVerbinde dich; du sollst, in diesen Tagen,\nMit Freuden meine Künste sehn,\nIch gebe dir, was noch kein Mensch gesehn.\n\nFAUST.\nWas willst du armer Teufel geben?\nWard eines Menschen Geist, in seinem hohen Streben,\nVon deinesgleichen je gefaßt?\nDoch hast du Speise, die nicht sättigt, hast\nDu rotes Gold, das ohne Rast,\nQuecksilber gleich, dir in der Hand zerrinnt,\nEin Spiel, bei dem man nie gewinnt,\nEin Mädchen, das an meiner Brust\nMit Äugeln schon dem Nachbar sich verbindet,\nDer Ehre schöne Götterlust,\nDie, wie ein Meteor, verschwindet?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-016.webp",
+      "source_grid": "source_images/chapter07-dense-001.png",
+      "crop_box": [
+        1257,
+        709,
+        1669,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 4937,
+      "anchor": "Verbinde dich; du sollst, in diesen Tagen,\nMit Freuden meine Künste sehn,\nIch gebe dir, was noch kei"
+    },
+    {
+      "id": "c07-dense-017",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 5476,
+      "source_end": 5843,
+      "source_text": "\nZeig mir die Frucht, die fault, eh man sie bricht,\nUnd Bäume, die sich täglich neu begrünen!\n\nMEPHISTOPHELES.\nEin solcher Auftrag schreckt mich nicht,\nMit solchen Schätzen kann ich dienen.\nDoch, guter Freund, die Zeit kommt auch heran,\nWo wir was Guts in Ruhe schmausen mögen.\n\nFAUST.\nWerd ich beruhigt je mich auf ein Faulbett legen,\nSo sei es gleich um mich getan!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-017.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        415,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 5476,
+      "anchor": "Zeig mir die Frucht, die fault, eh man sie bricht,\nUnd Bäume, die sich täglich neu begrünen!\n\nMEPHIS"
+    },
+    {
+      "id": "c07-dense-018",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 5843,
+      "source_end": 6058,
+      "source_text": "\nKannst du mich schmeichelnd je belügen,\nDaß ich mir selbst gefallen mag,\nKannst du mich mit Genuß betrügen:\nDas sei für mich der letzte Tag!\nDie Wette biet ich!\n\nMEPHISTOPHELES.\nTopp!\n\nFAUST.\nUnd Schlag auf Schlag!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-018.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        421,
+        3,
+        833,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 5843,
+      "anchor": "Kannst du mich schmeichelnd je belügen,\nDaß ich mir selbst gefallen mag,\nKannst du mich mit Genuß be"
+    },
+    {
+      "id": "c07-dense-019",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 6058,
+      "source_end": 6339,
+      "source_text": "\nWerd’ ich zum Augenblicke sagen:\nVerweile doch! du bist so schön!\nDann magst du mich in Fesseln schlagen,\nDann will ich gern zugrunde gehn!\nDann mag die Totenglocke schallen,\nDann bist du deines Dienstes frei,\nDie Uhr mag stehn, der Zeiger fallen,\nEs sei die Zeit für mich vorbei!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-019.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        839,
+        3,
+        1251,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 6058,
+      "anchor": "Werd’ ich zum Augenblicke sagen:\nVerweile doch! du bist so schön!\nDann magst du mich in Fesseln schl"
+    },
+    {
+      "id": "c07-dense-020",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 6339,
+      "source_end": 6649,
+      "source_text": "\n\nMEPHISTOPHELES.\nBedenk es wohl, wir werden’s nicht vergessen.\n\nFAUST.\nDazu hast du ein volles Recht;\nIch habe mich nicht freventlich vermessen.\nWie ich beharre, bin ich Knecht,\nOb dein, was frag ich, oder wessen.\n\nMEPHISTOPHELES.\nIch werde heute gleich, beim Doktorschmaus,\nAls Diener meine Pflicht erfüllen.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-020.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        1257,
+        3,
+        1669,
+        232
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 6339,
+      "anchor": "MEPHISTOPHELES.\nBedenk es wohl, wir werden’s nicht vergessen.\n\nFAUST.\nDazu hast du ein volles Recht;"
+    },
+    {
+      "id": "c07-dense-021",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 6649,
+      "source_end": 6912,
+      "source_text": "\nNur eins!—Um Lebens oder Sterbens willen\nBitt ich mir ein paar Zeilen aus.\n\nFAUST.\nAuch was Geschriebnes forderst du Pedant?\nHast du noch keinen Mann, nicht Manneswort gekannt?\nIst’s nicht genug, daß mein gesprochnes Wort\nAuf ewig soll mit meinen Tagen schalten?",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-021.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        3,
+        238,
+        415,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 6649,
+      "anchor": "Nur eins!—Um Lebens oder Sterbens willen\nBitt ich mir ein paar Zeilen aus.\n\nFAUST.\nAuch was Geschrie"
+    },
+    {
+      "id": "c07-dense-022",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 6912,
+      "source_end": 7234,
+      "source_text": "\nRast nicht die Welt in allen Strömen fort,\nUnd mich soll ein Versprechen halten?\nDoch dieser Wahn ist uns ins Herz gelegt,\nWer mag sich gern davon befreien?\nBeglückt, wer Treue rein im Busen trägt,\nKein Opfer wird ihn je gereuen!\nAllein ein Pergament, beschrieben und beprägt,\nIst ein Gespenst, vor dem sich alle scheuen.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-022.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        421,
+        238,
+        833,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 6912,
+      "anchor": "Rast nicht die Welt in allen Strömen fort,\nUnd mich soll ein Versprechen halten?\nDoch dieser Wahn is"
+    },
+    {
+      "id": "c07-dense-023",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 7234,
+      "source_end": 7425,
+      "source_text": "\nDas Wort erstirbt schon in der Feder,\nDie Herrschaft führen Wachs und Leder.\nWas willst du böser Geist von mir?\nErz, Marmor, Pergament, Papier?\nSoll ich mit Griffel, Meißel, Feder schreiben?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-023.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        839,
+        238,
+        1251,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 7234,
+      "anchor": "Das Wort erstirbt schon in der Feder,\nDie Herrschaft führen Wachs und Leder.\nWas willst du böser Gei"
+    },
+    {
+      "id": "c07-dense-024",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 7425,
+      "source_end": 7616,
+      "source_text": "\nIch gebe jede Wahl dir frei.\n\nMEPHISTOPHELES.\nWie magst du deine Rednerei\nNur gleich so hitzig übertreiben?\nIst doch ein jedes Blättchen gut.\nDu unterzeichnest dich mit einem Tröpfchen Blut.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-024.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        1257,
+        238,
+        1669,
+        467
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 7425,
+      "anchor": "Ich gebe jede Wahl dir frei.\n\nMEPHISTOPHELES.\nWie magst du deine Rednerei\nNur gleich so hitzig übert"
+    },
+    {
+      "id": "c07-dense-025",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 7616,
+      "source_end": 7863,
+      "source_text": "\n\nFAUST.\nWenn dies dir völlig Gnüge tut,\nSo mag es bei der Fratze bleiben.\n\nMEPHISTOPHELES.\nBlut ist ein ganz besondrer Saft.\n\nFAUST.\nNur keine Furcht, daß ich dies Bündnis breche!\nDas Streben meiner ganzen Kraft\nIst grade das, was ich verspreche.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-025.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        3,
+        473,
+        415,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 7616,
+      "anchor": "FAUST.\nWenn dies dir völlig Gnüge tut,\nSo mag es bei der Fratze bleiben.\n\nMEPHISTOPHELES.\nBlut ist e"
+    },
+    {
+      "id": "c07-dense-026",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 7863,
+      "source_end": 8198,
+      "source_text": "\nIch habe mich zu hoch gebläht,\nIn deinen Rang gehör ich nur.\nDer große Geist hat mich verschmäht,\nVor mir verschließt sich die Natur\nDes Denkens Faden ist zerrissen\nMir ekelt lange vor allem Wissen.\nLaß in den Tiefen der Sinnlichkeit\nUns glühende Leidenschaften stillen!\nIn undurchdrungnen Zauberhüllen\nSei jedes Wunder gleich bereit!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-026.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        421,
+        473,
+        833,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 7863,
+      "anchor": "Ich habe mich zu hoch gebläht,\nIn deinen Rang gehör ich nur.\nDer große Geist hat mich verschmäht,\nVo"
+    },
+    {
+      "id": "c07-dense-027",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 8198,
+      "source_end": 8547,
+      "source_text": "\nStürzen wir uns in das Rauschen der Zeit,\nIns Rollen der Begebenheit!\nDa mag denn Schmerz und Genuß,\nGelingen und Verdruß\nMiteinander wechseln, wie es kann;\nNur rastlos betätigt sich der Mann.\n\nMEPHISTOPHELES.\nEuch ist kein Maß und Ziel gesetzt.\nBeliebt’s Euch, überall zu naschen,\nIm Fliehen etwas zu erhaschen,\nBekomm Euch wohl, was Euch ergetzt.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-027.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        839,
+        473,
+        1251,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 8198,
+      "anchor": "Stürzen wir uns in das Rauschen der Zeit,\nIns Rollen der Begebenheit!\nDa mag denn Schmerz und Genuß,"
+    },
+    {
+      "id": "c07-dense-028",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 8547,
+      "source_end": 9109,
+      "source_text": "\nNur greift mir zu und seid nicht blöde!\n\nFAUST.\nDu hörest ja, von Freud’ ist nicht die Rede.\nDem Taumel weih ich mich, dem schmerzlichsten Genuß,\nVerliebtem Haß, erquickendem Verdruß.\nMein Busen, der vom Wissensdrang geheilt ist,\nSoll keinen Schmerzen künftig sich verschließen,\nUnd was der ganzen Menschheit zugeteilt ist,\nWill ich in meinem innern Selbst genießen,\nMit meinem Geist das Höchst’ und Tiefste greifen,\nIhr Wohl und Weh auf meinen Busen häufen,\nUnd so mein eigen Selbst zu ihrem Selbst erweitern,\nUnd, wie sie selbst, am End auch ich zerscheitern.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-013",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-028.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        1257,
+        473,
+        1669,
+        703
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 8547,
+      "anchor": "Nur greift mir zu und seid nicht blöde!\n\nFAUST.\nDu hörest ja, von Freud’ ist nicht die Rede.\nDem Tau"
+    },
+    {
+      "id": "c07-dense-029",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 9109,
+      "source_end": 9469,
+      "source_text": "\n\nMEPHISTOPHELES.\nO glaube mir, der manche tausend Jahre\nAn dieser harten Speise kaut\nDaß von der Wiege bis zur Bahre\nKein Mensch den alten Sauerteig verdaut!\nGlaub unsereinem, dieses Ganze\nIst nur für einen Gott gemacht!\nEr findet sich in einem ew’gen Glanze\nUns hat er in die Finsternis gebracht,\nUnd euch taugt einzig Tag und Nacht.\n\nFAUST.\nAllein ich will!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-029.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        3,
+        709,
+        415,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 9109,
+      "anchor": "MEPHISTOPHELES.\nO glaube mir, der manche tausend Jahre\nAn dieser harten Speise kaut\nDaß von der Wieg"
+    },
+    {
+      "id": "c07-dense-030",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 9469,
+      "source_end": 9616,
+      "source_text": "\n\nMEPHISTOPHELES.\nDas läßt sich hören!\nDoch nur vor einem ist mir bang.\nDie Zeit ist kurz, die Kunst ist lang.\nIch dächt, ihr ließet Euch belehren.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-030.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        421,
+        709,
+        833,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 9469,
+      "anchor": "MEPHISTOPHELES.\nDas läßt sich hören!\nDoch nur vor einem ist mir bang.\nDie Zeit ist kurz, die Kunst i"
+    },
+    {
+      "id": "c07-dense-031",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 9616,
+      "source_end": 10177,
+      "source_text": "\nAssoziiert Euch mit einem Poeten,\nLaßt den Herrn in Gedanken schweifen,\nUnd alle edlen Qualitäten\nAuf Euren Ehrenscheitel häufen,\nDes Löwen Mut,\nDes Hirsches Schnelligkeit,\nDes Italieners feurig Blut,\nDes Nordens Dau’rbarkeit.\nLaßt ihn Euch das Geheimnis finden,\nGroßmut und Arglist zu verbinden,\nUnd Euch, mit warmen Jugendtrieben,\nNach einem Plane zu verlieben.\nMöchte selbst solch einen Herren kennen,\nWürd ihn Herrn Mikrokosmus nennen.\n\nFAUST.\nWas bin ich denn, wenn es nicht möglich ist,\nDer Menschheit Krone zu erringen,\nNach der sich alle Sinne dringen?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-031.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        839,
+        709,
+        1251,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 9616,
+      "anchor": "Assoziiert Euch mit einem Poeten,\nLaßt den Herrn in Gedanken schweifen,\nUnd alle edlen Qualitäten\nAu"
+    },
+    {
+      "id": "c07-dense-032",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 10177,
+      "source_end": 10739,
+      "source_text": "\n\nMEPHISTOPHELES.\nDu bist am Ende—was du bist.\nSetz dir Perücken auf von Millionen Locken,\nSetz deinen Fuß auf ellenhohe Socken,\nDu bleibst doch immer, was du bist.\n\nFAUST.\nIch fühl’s, vergebens hab ich alle Schätze\nDes Menschengeists auf mich herbeigerafft,\nUnd wenn ich mich am Ende niedersetze,\nQuillt innerlich doch keine neue Kraft;\nIch bin nicht um ein Haar breit höher,\nBin dem Unendlichen nicht näher.\n\nMEPHISTOPHELES.\nMein guter Herr, Ihr seht die Sachen,\nWie man die Sachen eben sieht;\nWir müssen das gescheiter machen,\nEh uns des Lebens Freude flieht.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-032.webp",
+      "source_grid": "source_images/chapter07-dense-002.png",
+      "crop_box": [
+        1257,
+        709,
+        1669,
+        938
+      ],
+      "native_grid_size": [
+        1672,
+        941
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 10177,
+      "anchor": "MEPHISTOPHELES.\nDu bist am Ende—was du bist.\nSetz dir Perücken auf von Millionen Locken,\nSetz deinen"
+    },
+    {
+      "id": "c07-dense-033",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 10739,
+      "source_end": 11018,
+      "source_text": "\nWas Henker! freilich Händ und Füße\nUnd Kopf und Hintern, die sind dein;\nDoch alles, was ich frisch genieße,\nIst das drum weniger mein?\nWenn ich sechs Hengste zahlen kann,\nSind ihre Kräfte nicht die meine?\nIch renne zu und bin ein rechter Mann,\nAls hätt ich vierundzwanzig Beine.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-033.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        3,
+        3,
+        393,
+        245
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "alternative_images": [
+        {
+          "image": "illustrations/c07-dense-033-v2.webp",
+          "source_grid": "source_images/chapter07-dense-004.png",
+          "crop_box": [
+            771,
+            771,
+            1149,
+            1021
+          ],
+          "native_grid_size": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 10739,
+      "anchor": "Was Henker! freilich Händ und Füße\nUnd Kopf und Hintern, die sind dein;\nDoch alles, was ich frisch g"
+    },
+    {
+      "id": "c07-dense-034",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 11018,
+      "source_end": 11283,
+      "source_text": "\nDrum frisch! Laß alles Sinnen sein,\nUnd grad mit in die Welt hinein!\nIch sag es dir: ein Kerl, der spekuliert,\nIst wie ein Tier, auf dürrer Heide\nVon einem bösen Geist im Kreis herum geführt,\nUnd rings umher liegt schöne grüne Weide.\n\nFAUST.\nWie fangen wir das an?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-034.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        399,
+        3,
+        790,
+        245
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 11018,
+      "anchor": "Drum frisch! Laß alles Sinnen sein,\nUnd grad mit in die Welt hinein!\nIch sag es dir: ein Kerl, der s"
+    },
+    {
+      "id": "c07-dense-035",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 11283,
+      "source_end": 11457,
+      "source_text": "\n\nMEPHISTOPHELES.\nWir gehen eben fort.\nWas ist das für ein Marterort?\nWas heißt das für ein Leben führen,\nSich und die Jungens ennuyieren?\nLaß du das dem Herrn Nachbar Wanst!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-035.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        796,
+        3,
+        1187,
+        245
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 11283,
+      "anchor": "MEPHISTOPHELES.\nWir gehen eben fort.\nWas ist das für ein Marterort?\nWas heißt das für ein Leben führ"
+    },
+    {
+      "id": "c07-dense-036",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 11457,
+      "source_end": 11659,
+      "source_text": "\nWas willst du dich das Stroh zu dreschen plagen?\nDas Beste, was du wissen kannst,\nDarfst du den Buben doch nicht sagen.\nGleich hör ich einen auf dem Gange!\n\nFAUST.\nMir ist’s nicht möglich, ihn zu sehn.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-036.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        1193,
+        3,
+        1583,
+        245
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-noble.png"
+      ],
+      "char_offset": 11457,
+      "anchor": "Was willst du dich das Stroh zu dreschen plagen?\nDas Beste, was du wissen kannst,\nDarfst du den Bube"
+    },
+    {
+      "id": "c07-dense-037",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 11659,
+      "source_end": 11949,
+      "source_text": "\n\nMEPHISTOPHELES.\nDer arme Knabe wartet lange,\nDer darf nicht ungetröstet gehn.\nKomm, gib mir deinen Rock und Mütze;\nDie Maske muß mir köstlich stehn.\n(Er kleidet sich um.)\nNun überlaß es meinem Witze!\nIch brauche nur ein Viertelstündchen Zeit;\nIndessen mache dich zur schönen Fahrt bereit!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-037.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        3,
+        251,
+        393,
+        493
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 11659,
+      "anchor": "MEPHISTOPHELES.\nDer arme Knabe wartet lange,\nDer darf nicht ungetröstet gehn.\nKomm, gib mir deinen R"
+    },
+    {
+      "id": "c07-dense-038",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 11949,
+      "source_end": 12848,
+      "source_text": "\n(Faust ab.)\n\nMEPHISTOPHELES (in Fausts langem Kleide).\nVerachte nur Vernunft und Wissenschaft,\nDes Menschen allerhöchste Kraft,\nLaß nur in Blend- und Zauberwerken\nDich von dem Lügengeist bestärken,\nSo hab ich dich schon unbedingt—\nIhm hat das Schicksal einen Geist gegeben,\nDer ungebändigt immer vorwärts dringt,\nUnd dessen übereiltes Streben\nDer Erde Freuden überspringt.\nDen schlepp ich durch das wilde Leben,\nDurch flache Unbedeutenheit,\nEr soll mir zappeln, starren, kleben,\nUnd seiner Unersättlichkeit\nSoll Speis und Trank vor gier’gen Lippen schweben;\nEr wird Erquickung sich umsonst erflehn,\nUnd hätt er sich auch nicht dem Teufel übergeben,\nEr müßte doch zugrunde gehn!\n(Ein SCHÜLER tritt auf.)\n\nSCHÜLER.\nIch bin allhier erst kurze Zeit,\nUnd komme voll Ergebenheit,\nEinen Mann zu sprechen und zu kennen,\nDen alle mir mit Ehrfucht nennen.\n\nMEPHISTOPHELES.\nEure Höflichkeit erfreut mich sehr!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SCHÜLER",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-038.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        399,
+        251,
+        790,
+        493
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 11949,
+      "anchor": "(Faust ab.)\n\nMEPHISTOPHELES (in Fausts langem Kleide).\nVerachte nur Vernunft und Wissenschaft,\nDes M"
+    },
+    {
+      "id": "c07-dense-039",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 12848,
+      "source_end": 13114,
+      "source_text": "\nIhr seht einen Mann wie andre mehr.\nHabt Ihr Euch sonst schon umgetan?\n\nSCHÜLER.\nIch bitt Euch, nehmt Euch meiner an!\nIch komme mit allem guten Mut,\nLeidlichem Geld und frischem Blut;\nMeine Mutter wollte mich kaum entfernen;\nMöchte gern was Rechts hieraußen lernen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-039.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        796,
+        251,
+        1187,
+        493
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 12848,
+      "anchor": "Ihr seht einen Mann wie andre mehr.\nHabt Ihr Euch sonst schon umgetan?\n\nSCHÜLER.\nIch bitt Euch, nehm"
+    },
+    {
+      "id": "c07-dense-040",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 13114,
+      "source_end": 13417,
+      "source_text": "\n\nMEPHISTOPHELES.\nDa seid Ihr eben recht am Ort.\n\nSCHÜLER.\nAufrichtig, möchte schon wieder fort.\nIn diesen Mauern, diesen Hallen\nWill es mir keineswegs gefallen.\nEs ist ein gar beschränkter Raum,\nMan sieht nichts Grünes, keinen Baum,\nUnd in den Sälen, auf den Bänken,\nVergeht mir Hören, Sehn und Denken.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-040.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        1193,
+        251,
+        1583,
+        493
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 13114,
+      "anchor": "MEPHISTOPHELES.\nDa seid Ihr eben recht am Ort.\n\nSCHÜLER.\nAufrichtig, möchte schon wieder fort.\nIn di"
+    },
+    {
+      "id": "c07-dense-041",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 13417,
+      "source_end": 13739,
+      "source_text": "\n\nMEPHISTOPHELES.\nDas kommt nur auf Gewohnheit an.\nSo nimmt ein Kind der Mutter Brust\nNicht gleich im Anfang willig an,\nDoch bald ernährt es sich mit Lust.\nSo wird’s Euch an der Weisheit Brüsten\nMit jedem Tage mehr gelüsten.\n\nSCHÜLER.\nAn ihrem Hals will ich mit Freuden hangen;\nDoch sagt mir nur, wie kann ich hingelangen?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-041.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        3,
+        499,
+        393,
+        741
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 13417,
+      "anchor": "MEPHISTOPHELES.\nDas kommt nur auf Gewohnheit an.\nSo nimmt ein Kind der Mutter Brust\nNicht gleich im "
+    },
+    {
+      "id": "c07-dense-042",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 13739,
+      "source_end": 14206,
+      "source_text": "\n\nMEPHISTOPHELES.\nErklärt Euch, eh Ihr weiter geht,\nWas wählt Ihr für eine Fakultät?\n\nSCHÜLER.\nIch wünschte recht gelehrt zu werden,\nUnd möchte gern, was auf der Erden\nUnd in dem Himmel ist, erfassen,\nDie Wissenschaft und die Natur.\n\nMEPHISTOPHELES.\nDa seid Ihr auf der rechten Spur;\nDoch müßt Ihr Euch nicht zerstreuen lassen.\n\nSCHÜLER.\nIch bin dabei mit Seel und Leib;\nDoch freilich würde mir behagen\nEin wenig Freiheit und Zeitvertreib\nAn schönen Sommerfeiertagen.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-042.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        399,
+        499,
+        790,
+        741
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 13739,
+      "anchor": "MEPHISTOPHELES.\nErklärt Euch, eh Ihr weiter geht,\nWas wählt Ihr für eine Fakultät?\n\nSCHÜLER.\nIch wün"
+    },
+    {
+      "id": "c07-dense-043",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 14206,
+      "source_end": 14692,
+      "source_text": "\n\nMEPHISTOPHELES.\nGebraucht der Zeit, sie geht so schnell von hinnen,\nDoch Ordnung lehrt Euch Zeit gewinnen.\nMein teurer Freund, ich rat Euch drum\nZuerst Collegium Logicum.\nDa wird der Geist Euch wohl dressiert,\nIn spanische Stiefeln eingeschnürt,\nDaß er bedächtiger so fortan\nHinschleiche die Gedankenbahn,\nUnd nicht etwa, die Kreuz und Quer,\nIrrlichteliere hin und her.\nDann lehret man Euch manchen Tag,\nDaß, was Ihr sonst auf einen Schlag\nGetrieben, wie Essen und Trinken frei,\nEins!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-043.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        796,
+        499,
+        1187,
+        741
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 14206,
+      "anchor": "MEPHISTOPHELES.\nGebraucht der Zeit, sie geht so schnell von hinnen,\nDoch Ordnung lehrt Euch Zeit gew"
+    },
+    {
+      "id": "c07-dense-044",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 14692,
+      "source_end": 14932,
+      "source_text": " Zwei! Drei! dazu nötig sei.\nZwar ist’s mit der Gedankenfabrik\nWie mit einem Weber-Meisterstück,\nWo ein Tritt tausend Fäden regt,\nDie Schifflein herüber hinüber schießen,\nDie Fäden ungesehen fließen,\nEin Schlag tausend Verbindungen schlägt.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-014",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-044.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        1193,
+        499,
+        1583,
+        741
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 14692,
+      "anchor": "Zwei! Drei! dazu nötig sei.\nZwar ist’s mit der Gedankenfabrik\nWie mit einem Weber-Meisterstück,\nWo e"
+    },
+    {
+      "id": "c07-dense-045",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 14932,
+      "source_end": 15350,
+      "source_text": "\nDer Philosoph, der tritt herein\nUnd beweist Euch, es müßt so sein.\nDas Erst wär so, das Zweite so,\nUnd drum das Dritt und Vierte so;\nUnd wenn das Erst und Zweit nicht wär,\nDas Dritt und Viert wär nimmermehr.\nDas preisen die Schüler allerorten,\nSind aber keine Weber geworden.\nWer will was Lebendigs erkennen und beschreiben,\nSucht erst den Geist heraus zu treiben,\nDann hat er die Teile in seiner Hand,\nFehlt, leider!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-045.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        3,
+        747,
+        393,
+        989
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 14932,
+      "anchor": "Der Philosoph, der tritt herein\nUnd beweist Euch, es müßt so sein.\nDas Erst wär so, das Zweite so,\nU"
+    },
+    {
+      "id": "c07-dense-046",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 15350,
+      "source_end": 15617,
+      "source_text": " nur das geistige Band.\nEncheiresin naturae nennt’s die Chemie,\nSpottet ihrer selbst und weiß nicht wie.\n\nSCHÜLER.\nKann Euch nicht eben ganz verstehen.\n\nMEPHISTOPHELES.\nDas wird nächstens schon besser gehen,\nWenn Ihr lernt alles reduzieren\nUnd gehörig klassifizieren.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "SCHÜLER",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-046.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        399,
+        747,
+        790,
+        989
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 15350,
+      "anchor": "nur das geistige Band.\nEncheiresin naturae nennt’s die Chemie,\nSpottet ihrer selbst und weiß nicht w"
+    },
+    {
+      "id": "c07-dense-047",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 15617,
+      "source_end": 16003,
+      "source_text": "\n\nSCHÜLER.\nMir wird von alledem so dumm,\nAls ging, mir ein Mühlrad im Kopf herum.\n\nMEPHISTOPHELES.\nNachher, vor allen andern Sachen,\nMüßt Ihr Euch an die Metaphysik machen!\nDa seht, daß Ihr tiefsinnig faßt,\nWas in des Menschen Hirn nicht paßt;\nFür was drein geht und nicht drein geht,\nEin prächtig Wort zu Diensten steht.\nDoch vorerst dieses halbe Jahr\nNehmt ja der besten Ordnung wahr.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "SCHÜLER",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-047.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        796,
+        747,
+        1187,
+        989
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 15617,
+      "anchor": "SCHÜLER.\nMir wird von alledem so dumm,\nAls ging, mir ein Mühlrad im Kopf herum.\n\nMEPHISTOPHELES.\nNac"
+    },
+    {
+      "id": "c07-dense-048",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 16003,
+      "source_end": 16445,
+      "source_text": "\nFünf Stunden habt Ihr jeden Tag;\nSeid drinnen mit dem Glockenschlag!\nHabt Euch vorher wohl präpariert,\nParagraphos wohl einstudiert,\nDamit Ihr nachher besser seht,\nDaß er nichts sagt, als was im Buche steht;\nDoch Euch des Schreibens ja befleißt,\nAls diktiert, Euch der Heilig Geist!\n\nSCHÜLER.\nDas sollt Ihr mir nicht zweimal sagen!\nIch denke mir, wie viel es nützt;\nDenn, was man schwarz auf weiß besitzt,\nKann man getrost nach Hause tragen.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-048.webp",
+      "source_grid": "source_images/chapter07-dense-003.png",
+      "crop_box": [
+        1193,
+        747,
+        1583,
+        989
+      ],
+      "native_grid_size": [
+        1586,
+        992
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 16003,
+      "anchor": "Fünf Stunden habt Ihr jeden Tag;\nSeid drinnen mit dem Glockenschlag!\nHabt Euch vorher wohl präparier"
+    },
+    {
+      "id": "c07-dense-049",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 16445,
+      "source_end": 16804,
+      "source_text": "\n\nMEPHISTOPHELES.\nDoch wählt mir eine Fakultät!\n\nSCHÜLER.\nZur Rechtsgelehrsamkeit kann ich mich nicht bequemen.\n\nMEPHISTOPHELES.\nIch kann es Euch so sehr nicht übel nehmen,\nIch weiß, wie es um diese Lehre steht.\nEs erben sich Gesetz’ und Rechte\nWie eine ew’ge Krankheit fort;\nSie schleppen von Geschlecht sich zum Geschlechte,\nUnd rücken sacht von Ort zu Ort.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-049.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 16445,
+      "anchor": "MEPHISTOPHELES.\nDoch wählt mir eine Fakultät!\n\nSCHÜLER.\nZur Rechtsgelehrsamkeit kann ich mich nicht "
+    },
+    {
+      "id": "c07-dense-050",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 16804,
+      "source_end": 16995,
+      "source_text": "\nVernunft wird Unsinn, Wohltat Plage;\nWeh dir, daß du ein Enkel bist!\nVom Rechte, das mit uns geboren ist,\nVon dem ist, leider! nie die Frage.\n\nSCHÜLER.\nMein Abscheu wird durch Euch vermehrt.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-050.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 16804,
+      "anchor": "Vernunft wird Unsinn, Wohltat Plage;\nWeh dir, daß du ein Enkel bist!\nVom Rechte, das mit uns geboren"
+    },
+    {
+      "id": "c07-dense-051",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 16995,
+      "source_end": 17296,
+      "source_text": "\nO glücklich der, den Ihr belehrt!\nFast möcht ich nun Theologie studieren.\n\nMEPHISTOPHELES.\nIch wünschte nicht, Euch irre zu führen.\nWas diese Wissenschaft betrifft,\nEs ist so schwer, den falschen Weg zu meiden,\nEs liegt in ihr so viel verborgnes Gift,\nUnd von der Arzenei ist’s kaum zu unterscheiden.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-051.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 16995,
+      "anchor": "O glücklich der, den Ihr belehrt!\nFast möcht ich nun Theologie studieren.\n\nMEPHISTOPHELES.\nIch wünsc"
+    },
+    {
+      "id": "c07-dense-052",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 17296,
+      "source_end": 17535,
+      "source_text": "\nAm besten ist’s auch hier, wenn Ihr nur einen hört,\nUnd auf des Meisters Worte schwört.\nIm ganzen—haltet Euch an Worte!\nDann geht Ihr durch die sichre Pforte\nZum Tempel der Gewißheit ein.\n\nSCHÜLER.\nDoch ein Begriff muß bei dem Worte sein.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-052.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 17296,
+      "anchor": "Am besten ist’s auch hier, wenn Ihr nur einen hört,\nUnd auf des Meisters Worte schwört.\nIm ganzen—ha"
+    },
+    {
+      "id": "c07-dense-053",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 17535,
+      "source_end": 17930,
+      "source_text": "\n\nMEPHISTOPHELES.\nSchon gut! Nur muß man sich nicht allzu ängstlich quälen\nDenn eben wo Begriffe fehlen,\nDa stellt ein Wort zur rechten Zeit sich ein.\nMit Worten läßt sich trefflich streiten,\nMit Worten ein System bereiten,\nAn Worte läßt sich trefflich glauben,\nVon einem Wort läßt sich kein Jota rauben.\n\nSCHÜLER.\nVerzeiht, ich halt’ Euch auf mit vielen Fragen,\nAllein ich muß Euch noch bemühn.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-053.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 17535,
+      "anchor": "MEPHISTOPHELES.\nSchon gut! Nur muß man sich nicht allzu ängstlich quälen\nDenn eben wo Begriffe fehle"
+    },
+    {
+      "id": "c07-dense-054",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 17930,
+      "source_end": 18140,
+      "source_text": "\nWollt Ihr mir von der Medizin\nNicht auch ein kräftig Wörtchen sagen?\nDrei Jahr ist eine kurze Zeit,\nUnd, Gott! das Feld ist gar zu weit.\nWenn man einen Fingerzeig nur hat,\nLäßt sich’s schon eher weiter fühlen.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-054.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 17930,
+      "anchor": "Wollt Ihr mir von der Medizin\nNicht auch ein kräftig Wörtchen sagen?\nDrei Jahr ist eine kurze Zeit,\n"
+    },
+    {
+      "id": "c07-dense-055",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 18140,
+      "source_end": 18694,
+      "source_text": "\n\nMEPHISTOPHELES (für sich).\nIch bin des trocknen Tons nun satt,\nMuß wieder recht den Teufel spielen.\n(Laut.) Der Geist der Medizin ist leicht zu fassen;\nIhr durchstudiert die groß, und kleine Welt,\nUm es am Ende gehn zu lassen,\nWie’s Gott gefällt.\nVergebens, daß Ihr ringsum wissenschaftlich schweift,\nEin jeder lernt nur, was er lernen kann;\nDoch der den Augenblick ergreift,\nDas ist der rechte Mann.\nIhr seid noch ziemlich wohl gebaut,\nAn Kühnheit wird’s Euch auch nicht fehlen,\nUnd wenn Ihr Euch nur selbst vertraut,\nVertrauen Euch die andern Seelen.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-055.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 18140,
+      "anchor": "MEPHISTOPHELES (für sich).\nIch bin des trocknen Tons nun satt,\nMuß wieder recht den Teufel spielen.\n"
+    },
+    {
+      "id": "c07-dense-056",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 18694,
+      "source_end": 19264,
+      "source_text": "\nBesonders lernt die Weiber führen;\nEs ist ihr ewig Weh und Ach\nSo tausendfach\nAus einem Punkte zu kurieren,\nUnd wenn Ihr halbweg ehrbar tut,\nDann habt Ihr sie all unterm Hut.\nEin Titel muß sie erst vertraulich machen,\nDaß Eure Kunst viel Künste übersteigt;\nZum Willkomm tappt Ihr dann nach allen Siebensachen,\nUm die ein andrer viele Jahre streicht,\nVersteht das Pülslein wohl zu drücken,\nUnd fasset sie, mit feurig schlauen Blicken,\nWohl um die schlanke Hüfte frei,\nZu sehn, wie fest geschnürt sie sei.\n\nSCHÜLER.\nDas sieht schon besser aus! Man sieht doch, wo und wie.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-056.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 18694,
+      "anchor": "Besonders lernt die Weiber führen;\nEs ist ihr ewig Weh und Ach\nSo tausendfach\nAus einem Punkte zu ku"
+    },
+    {
+      "id": "c07-dense-057",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 19264,
+      "source_end": 19554,
+      "source_text": "\n\nMEPHISTOPHELES.\nGrau, teurer Freund, ist alle Theorie,\nUnd grün des Lebens goldner Baum.\n\nSCHÜLER.\nIch schwör Euch zu, mir ist’s als wie ein Traum.\nDürft ich Euch wohl ein andermal beschweren,\nVon Eurer Weisheit auf den Grund zu hören?\n\nMEPHISTOPHELES.\nWas ich vermag, soll gern geschehn.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-057.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 19264,
+      "anchor": "MEPHISTOPHELES.\nGrau, teurer Freund, ist alle Theorie,\nUnd grün des Lebens goldner Baum.\n\nSCHÜLER.\nI"
+    },
+    {
+      "id": "c07-dense-058",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 19554,
+      "source_end": 19970,
+      "source_text": "\n\nSCHÜLER.\nIch kann unmöglich wieder gehn,\nIch muß Euch noch mein Stammbuch überreichen,\nGönn Eure Gunst mir dieses Zeichen!\n\nMEPHISTOPHELES.\nSehr wohl.\n(Er schreibt und gibt’s.)\n\nSCHÜLER (liest).\nEritis sicut Deus, scientes bonum et malum.\n(Macht’s ehrerbietig zu und empfiehlt sich.)\n\nMEPHISTOPHELES.\nFolg nur dem alten Spruch und meiner Muhme, der Schlange,\nDir wird gewiß einmal bei deiner Gottähnlichkeit bange!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "SCHÜLER",
+        "MEPHISTOPHELES",
+        "SCHÜLER "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-058.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "alternative_images": [
+        {
+          "image": "illustrations/c07-dense-058-v2.webp",
+          "source_grid": "source_images/chapter07-dense-004.png",
+          "crop_box": [
+            771,
+            515,
+            1149,
+            765
+          ],
+          "native_grid_size": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 19554,
+      "anchor": "SCHÜLER.\nIch kann unmöglich wieder gehn,\nIch muß Euch noch mein Stammbuch überreichen,\nGönn Eure Gun"
+    },
+    {
+      "id": "c07-dense-059",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 19970,
+      "source_end": 20175,
+      "source_text": "\n(Faust tritt auf.)\n\nFAUST.\nWohin soll es nun gehn?\n\nMEPHISTOPHELES.\nWohin es dir gefällt.\nWir sehn die kleine, dann die große Welt.\nMit welcher Freude, welchem Nutzen\nWirst du den Cursum durchschmarutzen!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c07-dense-059.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 19970,
+      "anchor": "(Faust tritt auf.)\n\nFAUST.\nWohin soll es nun gehn?\n\nMEPHISTOPHELES.\nWohin es dir gefällt.\nWir sehn d"
+    },
+    {
+      "id": "c07-dense-060",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 20175,
+      "source_end": 20509,
+      "source_text": "\n\nFAUST.\nAllein bei meinem langen Bart\nFehlt mir die leichte Lebensart.\nEs wird mir der Versuch nicht glücken;\nIch wußte nie mich in die Welt zu schicken.\nVor andern fühl ich mich so klein;\nIch werde stets verlegen sein.\n\nMEPHISTOPHELES.\nMein guter Freund, das wird sich alles geben;\nSobald du dir vertraust, sobald weißt du zu leben.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-015",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c07-dense-060.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 20175,
+      "anchor": "FAUST.\nAllein bei meinem langen Bart\nFehlt mir die leichte Lebensart.\nEs wird mir der Versuch nicht "
+    },
+    {
+      "id": "c07-dense-061",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 3,
+      "source_start": 20509,
+      "source_end": 20674,
+      "source_text": "\n\nFAUST.\nWie kommen wir denn aus dem Haus?\nWo hast du Pferde, Knecht und Wagen?\n\nMEPHISTOPHELES.\nWir breiten nur den Mantel aus,\nDer soll uns durch die Lüfte tragen.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c07-dense-061.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 20509,
+      "anchor": "FAUST.\nWie kommen wir denn aus dem Haus?\nWo hast du Pferde, Knecht und Wagen?\n\nMEPHISTOPHELES.\nWir b"
+    },
+    {
+      "id": "c07-dense-062",
+      "chapter": 7,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 3,
+      "source_start": 20674,
+      "source_end": 20909,
+      "source_text": "\nDu nimmst bei diesem kühnen Schritt\nNur keinen großen Bündel mit.\nEin bißchen Feuerluft, die ich bereiten werde,\nHebt uns behend von dieser Erde.\nUnd sind wir leicht, so geht es schnell hinauf;\nIch gratuliere dir zum neuen Lebenslauf!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-016",
+      "review_note": "노학자·붉은 귀족복·학생 앞에서의 학자 변장 구별. 내기 조건을 만족감 자체로 축약하지 않음. 학생 상대 의학 발언은 악마의 기만으로 서술.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c07-dense-062.webp",
+      "source_grid": "source_images/chapter07-dense-004.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-07.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-faust-disguise.png",
+        "art-bible/character-student07.png"
+      ],
+      "char_offset": 20674,
+      "anchor": "Du nimmst bei diesem kühnen Schritt\nNur keinen großen Bündel mit.\nEin bißchen Feuerluft, die ich ber"
     }
   ]
 }

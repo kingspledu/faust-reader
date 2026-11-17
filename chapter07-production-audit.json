@@ -1,0 +1,12 @@
+{
+  "chapter": 7,
+  "illustrations": 62,
+  "narration": 62,
+  "monologues": 62,
+  "closed_bilingual_units": 13,
+  "source_chars": 20909,
+  "independent_gutenberg_match": true,
+  "source_sha256": "ce2e3126477ec6be3703d2662f426fdd356b6b673c38107ca98137ceb5d5914c",
+  "tts_segments": 124,
+  "audio_generated": false
+}

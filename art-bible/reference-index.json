@@ -249,7 +249,19 @@
           "변장 장면에서는 뿔·화려한 금장·보석 장신구를 드러내지 않음"
         ],
         "canonical_note": "이번 장의 무대지시: fahrender Scholastikus. 구체적 옷의 색·얼굴은 연출용 설정."
-      }
+      },
+      "chapter07_references": [
+        {
+          "image": "character-mephistopheles-noble.png",
+          "note": "7장 귀족복: 붉은 금장 옷·짧은 비단 망토·깃털 모자·칼집 속 긴 칼. 기존 얼굴 유지.",
+          "status": "draft_visual"
+        },
+        {
+          "image": "character-mephistopheles-faust-disguise.png",
+          "note": "7장 학생을 만날 때: 파우스트에게 빌린 긴 학자 옷과 모자. 젊은 악마의 얼굴이며 파우스트로 회춘·변신한 것이 아님.",
+          "status": "draft_visual"
+        }
+      ]
     },
     {
       "id": "character-009",
@@ -1355,15 +1367,25 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-07.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-student07.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "갈색 짧은 머리·안경 없음",
+        "청록빛 긴 학생 옷·갈색 가방·기념 수첩"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "scholars"
+      "menu_group": "scholars",
+      "chapter07_references": [
+        {
+          "image": "character-student07.png",
+          "note": "7장에 처음 온 대학생: 갈색 짧은 머리·청록빛 옷·갈색 가방·기념 수첩. 구체적 외형은 시각적 해석이며 5장의 학생들과 다른 배역.",
+          "status": "draft_visual"
+        }
+      ]
     },
     {
       "id": "character-043",

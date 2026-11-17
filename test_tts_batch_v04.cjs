@@ -1,5 +1,5 @@
 ﻿const fs=require('fs'),vm=require('vm');
-(async()=>{for(let ch=1;ch<=6;ch++){
+(async()=>{for(let ch=1;ch<=7;ch++){
 const js=fs.readFileSync(`tts-canvas/check-v04-0${ch}.js`,'utf8');const start=js.indexOf("batchProcessBtn.addEventListener('click', async () => {");const end=js.indexOf('function currentVoice',start);let body=js.slice(start,end);body=body.slice(0,body.lastIndexOf('});')+3);
 let handler,called=0;const status={textContent:'',classList:{remove(){},add(){}}};const ctx={batchProcessBtn:{addEventListener:(n,f)=>handler=f},batchRunning:false,activeRequests:0,folderChecking:false,turns:[{filename:'FAUST_TEST.wav',speaker:'나레이터',voice:'Charon'}],directoryHandle:null,retrySelection:null,downloadStates:[{requested:false,failed:false,voice:null}],hostVoiceSelect:{value:'Charon'},batchStatus:status,lockControls(){},previewAudio:null,progressBarContainer:status,progressBar:{style:{}},document:{getElementById:()=>({scrollIntoView(){}})},sentenceHandlers:[async()=>{called++;return 'blob:test'}],setTimeout:f=>f(),showMessage:m=>{throw Error(m)}};vm.createContext(ctx);vm.runInContext(body,ctx);await handler();if(called!==1)throw Error('batch did not reach generator');console.log(`Chapter ${ch}: batch handler reached generation/download path without ReferenceError`);
 }})().catch(e=>{console.error(e);process.exit(1)});
