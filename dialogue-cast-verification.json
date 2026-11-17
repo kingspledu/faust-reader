@@ -202,9 +202,33 @@
       "dialogue": 3,
       "monologues": 0,
       "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 26,
+      "scenes": 13,
+      "tts_segments": 24,
+      "dialogue": 11,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 27,
+      "scenes": 2,
+      "tts_segments": 5,
+      "dialogue": 3,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 28,
+      "scenes": 49,
+      "tts_segments": 76,
+      "dialogue": 25,
+      "monologues": 2,
+      "source_translation_images_preserved": true
     }
   ],
-  "tts_segments": 1445,
+  "tts_segments": 1550,
   "audio_generated": false,
   "listening_test": false
 }

@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1–25 illustrated and adapted.",
+  "scope": "Chapters 1–28 illustrated and adapted.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -27702,6 +27702,2611 @@
       "adaptation": "adaptations/chapter-25.json",
       "char_offset": 5676,
       "anchor": "ARIEL.\nGab die liebende Natur,\nGab der Geist euch Flügel,\nFolget meiner leichten Spur,\nAuf zum Rosen"
+    },
+    {
+      "id": "c26-dense-001",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 54,
+      "source_text": "Faust. Mephistopheles.\n\nFAUST.\nIm Elend! Verzweifelnd!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c26-dense-001.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        359,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 0,
+      "anchor": "Faust. Mephistopheles.\n\nFAUST.\nIm Elend! Verzweifelnd!"
+    },
+    {
+      "id": "c26-dense-002",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 54,
+      "source_end": 309,
+      "source_text": " Erbärmlich auf der Erde lange verirrt und nun\ngefangen! Als Missetäterin Im Kerker zu entsetzlichen Qualen\neingesperrt, das holde unselige Geschöpf! Bis dahin!\ndahin!—Verräterischer, nichtswürdiger Geist, und das hast du mir\nverheimlicht!—Steh nur, steh!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c26-dense-002.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        365,
+        3,
+        721,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 54,
+      "anchor": "Erbärmlich auf der Erde lange verirrt und nun\ngefangen! Als Missetäterin Im Kerker zu entsetzlichen "
+    },
+    {
+      "id": "c26-dense-003",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 309,
+      "source_end": 460,
+      "source_text": " wälze die teuflischen Augen ingrimmend im\nKopf herum! Steh und trutze mir durch deine unerträgliche Gegenwart!\nGefangen! Im unwiederbringlichen Elend!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c26-dense-003.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        727,
+        3,
+        1083,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 309,
+      "anchor": "wälze die teuflischen Augen ingrimmend im\nKopf herum! Steh und trutze mir durch deine unerträgliche "
+    },
+    {
+      "id": "c26-dense-004",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 460,
+      "source_end": 715,
+      "source_text": " Bösen Geistern übergeben und\nder richtenden gefühllosen Menschheit! Und mich wiegst du indes in\nabgeschmackten Zerstreuungen, verbirgst mir ihren wachsenden Jammer und\nlässest sie hilflos verderben!\n\nMEPHISTOPHELES.\nSie ist die erste nicht.\n\nFAUST.\nHund!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c26-dense-004.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        1089,
+        3,
+        1445,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 460,
+      "anchor": "Bösen Geistern übergeben und\nder richtenden gefühllosen Menschheit! Und mich wiegst du indes in\nabge"
+    },
+    {
+      "id": "c26-dense-005",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 715,
+      "source_end": 1152,
+      "source_text": " abscheuliches Untier!—Wandle ihn, du unendlicher Geist! wandle\nden Wurm wieder in seine Hundsgestalt, wie er sich oft nächtlicherweile\ngefiel, vor mir herzutrotten, dem harmlosen Wandrer vor die Füße zu\nkollern und sich dem niederstürzenden auf die Schultern zu hängen.\nWandl’ ihn wieder in seine Lieblingsbildung, daß er vor mir im Sand auf\ndem Bauch krieche, ich ihn mit Füßen trete, den Verworfnen!—“Die erste\nnicht!”—Jammer! Jammer!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c26-dense-005.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        3,
+        275,
+        359,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 715,
+      "anchor": "abscheuliches Untier!—Wandle ihn, du unendlicher Geist! wandle\nden Wurm wieder in seine Hundsgestalt"
+    },
+    {
+      "id": "c26-dense-006",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 1152,
+      "source_end": 1687,
+      "source_text": " von keiner Menschenseele zu fassen, daß mehr\nals ein Geschöpf in die Tiefe dieses Elendes versank, daß nicht das\nerste genugtat für die Schuld aller übrigen in seiner windenden\nTodesnot vor den Augen des ewig Verzeihenden! Mir wühlt es Mark und\nLeben durch, das Elend dieser einzigen; du grinsest gelassen über das\nSchicksal von Tausenden hin!\n\nMEPHISTOPHELES.\nNun sind wir schon wieder an der Grenze unsres Witzes, da, wo euch\nMenschen der Sinn überschnappt. Warum machst du Gemeinschaft mit uns\nwenn du sie nicht durchführen kannst?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c26-dense-006.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        365,
+        275,
+        721,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 1152,
+      "anchor": "von keiner Menschenseele zu fassen, daß mehr\nals ein Geschöpf in die Tiefe dieses Elendes versank, d"
+    },
+    {
+      "id": "c26-dense-007",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 1687,
+      "source_end": 2064,
+      "source_text": " Willst fliegen und bist vorm\nSchwindel nicht sicher? Drangen wir uns dir auf, oder du dich uns?\n\nFAUST.\nFletsche deine gefräßigen Zähne mir nicht so entgegen! Mir\nekelt’s!—Großer, herrlicher Geist, der du mir zu erscheinen würdigtest,\nder du mein Herz kennest und meine Seele, warum an den Schandgesellen\nmich schmieden, der sich am Schaden weidet und am Verderben sich letzt?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c26-dense-007.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        727,
+        275,
+        1083,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 1687,
+      "anchor": "Willst fliegen und bist vorm\nSchwindel nicht sicher? Drangen wir uns dir auf, oder du dich uns?\n\nFAU"
+    },
+    {
+      "id": "c26-dense-008",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 2064,
+      "source_end": 2177,
+      "source_text": "\n\nMEPHISTOPHELES.\nEndigst du?\n\nFAUST.\nRette sie! oder weh dir! Den gräßlichsten Fluch über dich auf\nJahrtausende!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c26-dense-008.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        1089,
+        275,
+        1445,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 2064,
+      "anchor": "MEPHISTOPHELES.\nEndigst du?\n\nFAUST.\nRette sie! oder weh dir! Den gräßlichsten Fluch über dich auf\nJa"
+    },
+    {
+      "id": "c26-dense-009",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 2177,
+      "source_end": 2446,
+      "source_text": "\n\nMEPHISTOPHELES.\nIch kann die Bande des Rächers nicht lösen, seine Riegel nicht\nöffnen.—“Rette sie!”—Wer war’s, der sie ins Verderben stürzte? Ich oder\ndu?\n(Faust blickt wild umher.)\nGreifst du nach dem Donner? Wohl, daß er euch elenden Sterblichen nicht\ngegeben ward!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c26-dense-009.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        3,
+        546,
+        359,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 2177,
+      "anchor": "MEPHISTOPHELES.\nIch kann die Bande des Rächers nicht lösen, seine Riegel nicht\nöffnen.—“Rette sie!”—"
+    },
+    {
+      "id": "c26-dense-010",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 2446,
+      "source_end": 2657,
+      "source_text": " Den unschuldig Entgegnenden zu zerschmettern, das ist so\nTyrannenart, sich in Verlegenheiten Luft zu machen.\n\nFAUST.\nBringe mich hin! Sie soll frei sein!\n\nMEPHISTOPHELES.\nUnd die Gefahr, der du dich aussetzest?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c26-dense-010.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        365,
+        546,
+        721,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 2446,
+      "anchor": "Den unschuldig Entgegnenden zu zerschmettern, das ist so\nTyrannenart, sich in Verlegenheiten Luft zu"
+    },
+    {
+      "id": "c26-dense-011",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 2657,
+      "source_end": 2886,
+      "source_text": " Wisse, noch liegt auf der Stadt\nBlutschuld von deiner Hand. Über des Erschlagenen Stätte schweben\nrächende Geister und lauern auf den wiederkehrenden Mörder.\n\nFAUST.\nNoch das von dir? Mord und Tod einer Welt über dich Ungeheuer!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c26-dense-011.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        727,
+        546,
+        1083,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 2657,
+      "anchor": "Wisse, noch liegt auf der Stadt\nBlutschuld von deiner Hand. Über des Erschlagenen Stätte schweben\nrä"
+    },
+    {
+      "id": "c26-dense-012",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 4,
+      "source_start": 2886,
+      "source_end": 3139,
+      "source_text": " Führe\nmich hin, sag ich, und befrei sie.\n\nMEPHISTOPHELES.\nIch führe dich, und was ich tun kann, höre! Habe ich alle Macht im\nHimmel und auf Erden? Des Türners Sinne will ich umnebeln, bemächtige\ndich der Schlüssel und führe sie heraus mit Menschenhand!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c26-dense-012.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        1089,
+        546,
+        1445,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 2886,
+      "anchor": "Führe\nmich hin, sag ich, und befrei sie.\n\nMEPHISTOPHELES.\nIch führe dich, und was ich tun kann, höre"
+    },
+    {
+      "id": "c26-dense-013",
+      "chapter": 26,
+      "chapter_title": "Trüber Tag. Feld",
+      "sentence_count": 3,
+      "source_start": 3139,
+      "source_end": 3238,
+      "source_text": " Ich wache,\ndie Zauberpferde sind bereit, ich entführe euch. Das vermag ich.\n\nFAUST.\nAuf und davon!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-021"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c26-dense-013.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        3,
+        817,
+        359,
+        1083
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json",
+      "char_offset": 3139,
+      "anchor": "Ich wache,\ndie Zauberpferde sind bereit, ich entführe euch. Das vermag ich.\n\nFAUST.\nAuf und davon!"
+    },
+    {
+      "id": "c27-dense-001",
+      "chapter": 27,
+      "chapter_title": "Nacht, offen Feld",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 224,
+      "source_text": "Faust, Mephistopheles, auf schwarzen Pferden daherbrausend.\n\nFAUST.\nWas weben die dort um den Rabenstein?\n\nMEPHISTOPHELES.\nWeiß nicht, was sie kochen und schaffen.\n\nFAUST.\nSchweben auf, schweben ab, neigen sich, beugen sich.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-022"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c27-dense-001.webp",
+      "source_grid": "source_images/chapter27-dense-001.png",
+      "crop_box": [
+        365,
+        817,
+        721,
+        1083
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-27.json",
+      "char_offset": 0,
+      "anchor": "Faust, Mephistopheles, auf schwarzen Pferden daherbrausend.\n\nFAUST.\nWas weben die dort um den Rabens"
+    },
+    {
+      "id": "c27-dense-002",
+      "chapter": 27,
+      "chapter_title": "Nacht, offen Feld",
+      "sentence_count": 4,
+      "source_start": 224,
+      "source_end": 323,
+      "source_text": "\n\nMEPHISTOPHELES.\nEine Hexenzunft.\n\nFAUST.\nSie streuen und weihen.\n\nMEPHISTOPHELES.\nVorbei! Vorbei!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-022"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c27-dense-002.webp",
+      "source_grid": "source_images/chapter27-dense-001.png",
+      "crop_box": [
+        727,
+        817,
+        1083,
+        1083
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-27.json",
+      "char_offset": 224,
+      "anchor": "MEPHISTOPHELES.\nEine Hexenzunft.\n\nFAUST.\nSie streuen und weihen.\n\nMEPHISTOPHELES.\nVorbei! Vorbei!"
+    },
+    {
+      "id": "c28-dense-001",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 310,
+      "source_text": "Faust mit einem Bund Schlüssel und einer Lampe, vor einem eisernen\nTürchen.\n\nMich faßt ein längst entwohnter Schauer,\nDer Menschheit ganzer Jammer faßt mich an\nHier wohnt sie hinter dieser feuchten Mauer\nUnd ihr Verbrechen war ein guter Wahn\nDu zauderst, zu ihr zu gehen!\nDu fürchtest, sie wiederzusehen!\nFort!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-001.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 0,
+      "anchor": "Faust mit einem Bund Schlüssel und einer Lampe, vor einem eisernen\nTürchen.\n\nMich faßt ein längst en"
+    },
+    {
+      "id": "c28-dense-002",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 310,
+      "source_end": 606,
+      "source_text": " dein Zagen zögert den Tod heran.\n(Er ergreift das Schloß. Es singt inwendig.)\nMeine Mutter, die Hur\nDie mich umgebracht hat!\nMein Vater, der Schelm\nDer mich gessen hat!\nMein Schwesterlein klein\nHub auf die Bein\nAn einem kühlen Ort;\nDa ward ich ein schönes Waldvögelein;\nFliege fort, fliege fort!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-002.webp",
+      "source_grid": "source_images/chapter28-dense-005.png",
+      "crop_box": [
+        3,
+        3,
+        359,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 310,
+      "anchor": "dein Zagen zögert den Tod heran.\n(Er ergreift das Schloß. Es singt inwendig.)\nMeine Mutter, die Hur\n"
+    },
+    {
+      "id": "c28-dense-003",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 606,
+      "source_end": 803,
+      "source_text": "\nFAUST (aufschließend).\nSie ahnet nicht, daß der Geliebte lauscht,\nDie Ketten klirren hört, das Stroh, das rauscht.\n(Er tritt ein.)\n\nMARGARETE (sich auf dem Lager verbergend).\nWeh! Weh! Sie kommen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST ",
+        "MARGARETE "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-003.webp",
+      "source_grid": "source_images/chapter28-dense-005.png",
+      "crop_box": [
+        365,
+        3,
+        721,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 606,
+      "anchor": "FAUST (aufschließend).\nSie ahnet nicht, daß der Geliebte lauscht,\nDie Ketten klirren hört, das Stroh"
+    },
+    {
+      "id": "c28-dense-004",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 803,
+      "source_end": 875,
+      "source_text": " Bittrer Tod!\n\nFAUST (leise).\nStill! Still! ich komme, dich zu befreien.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST "
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-004.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 803,
+      "anchor": "Bittrer Tod!\n\nFAUST (leise).\nStill! Still! ich komme, dich zu befreien."
+    },
+    {
+      "id": "c28-dense-005",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 875,
+      "source_end": 1164,
+      "source_text": "\n\nMARGARETE (sich vor ihn hinwälzend).\nBist du ein Mensch, so fühle meine Not.\n\nFAUST.\nDu wirst die Wächter aus dem Schlafe schreien!\n(Er faßt die Ketten, sie aufzuschließen.)\n\nMARGARETE (auf den Knien).\nWer hat dir Henker diese Macht\nÜber mich gegeben!\nDu holst mich schon um Mitternacht.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MARGARETE ",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-005.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 875,
+      "anchor": "MARGARETE (sich vor ihn hinwälzend).\nBist du ein Mensch, so fühle meine Not.\n\nFAUST.\nDu wirst die Wä"
+    },
+    {
+      "id": "c28-dense-006",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 1164,
+      "source_end": 1313,
+      "source_text": "\nErbarme dich und laß mich leben!\nIst’s morgen früh nicht zeitig genung?\n(Sie steht auf.)\nBin ich doch noch so jung, so jung!\nUnd soll schon sterben!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-041",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-006.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 1164,
+      "anchor": "Erbarme dich und laß mich leben!\nIst’s morgen früh nicht zeitig genung?\n(Sie steht auf.)\nBin ich doc"
+    },
+    {
+      "id": "c28-dense-007",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 1313,
+      "source_end": 1494,
+      "source_text": "\nSchön war ich auch, und das war mein Verderben.\nNah war der Freund, nun ist er weit;\nZerrissen liegt der Kranz, die Blumen zerstreut.\nFasse mich nicht so gewaltsam an!\nSchone mich!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-007.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 1313,
+      "anchor": "Schön war ich auch, und das war mein Verderben.\nNah war der Freund, nun ist er weit;\nZerrissen liegt"
+    },
+    {
+      "id": "c28-dense-008",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 1494,
+      "source_end": 1679,
+      "source_text": " Was hab ich dir getan?\nLaß mich nicht vergebens flehen,\nHab ich dich doch mein Tage nicht gesehen!\n\nFAUST.\nWerd ich den Jammer überstehen!\n\nMARGARETE.\nIch bin nun ganz in deiner Macht.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-008.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 1494,
+      "anchor": "Was hab ich dir getan?\nLaß mich nicht vergebens flehen,\nHab ich dich doch mein Tage nicht gesehen!\n\n"
+    },
+    {
+      "id": "c28-dense-009",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 1679,
+      "source_end": 1892,
+      "source_text": "\nLaß mich nur erst das Kind noch tränken.\nIch herzt es diese ganze Nacht;\nSie nahmen mir’s, um mich zu kränken,\nUnd sagen nun, ich hätt es umgebracht.\nUnd niemals werd ich wieder froh..\nSie singen Lieder auf mich!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-009.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 1679,
+      "anchor": "Laß mich nur erst das Kind noch tränken.\nIch herzt es diese ganze Nacht;\nSie nahmen mir’s, um mich z"
+    },
+    {
+      "id": "c28-dense-010",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 1892,
+      "source_end": 2146,
+      "source_text": " Es ist bös von den Leuten!\nEin altes Märchen endigt so,\nWer heißt sie’s deuten?\n\nFAUST (wirft sich nieder).\nEin Liebender liegt dir zu Füßen,\nDie Jammerknechtschaft aufzuschließen.\n\nMARGARETE (wirft sich zu ihm).\nO laß uns knien, die Heil’gen anzurufen!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST ",
+        "MARGARETE "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-010.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 1892,
+      "anchor": "Es ist bös von den Leuten!\nEin altes Märchen endigt so,\nWer heißt sie’s deuten?\n\nFAUST (wirft sich n"
+    },
+    {
+      "id": "c28-dense-011",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 2146,
+      "source_end": 2287,
+      "source_text": "\nSieh! unter diesen Stufen,\nUnter der Schwelle\nSiedet die Hölle!\nDer Böse,\nMit furchtbarem Grimme,\nMacht ein Getöse!\n\nFAUST (laut).\nGretchen!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST "
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-011.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 2146,
+      "anchor": "Sieh! unter diesen Stufen,\nUnter der Schwelle\nSiedet die Hölle!\nDer Böse,\nMit furchtbarem Grimme,\nMa"
+    },
+    {
+      "id": "c28-dense-012",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 2287,
+      "source_end": 2428,
+      "source_text": " Gretchen!\n\nMARGARETE (aufmerksam).\nDas war des Freundes Stimme!\n(Sie springt auf. Die Ketten fallen ab.)\nWo ist er? ich hab ihn rufen hören.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MARGARETE "
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-012.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 2287,
+      "anchor": "Gretchen!\n\nMARGARETE (aufmerksam).\nDas war des Freundes Stimme!\n(Sie springt auf. Die Ketten fallen "
+    },
+    {
+      "id": "c28-dense-013",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 2428,
+      "source_end": 2542,
+      "source_text": "\nIch bin frei! mir soll niemand wehren.\nAn seinen Hals will ich fliegen,\nAn seinem Busen liegen!\nEr rief Gretchen!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-013.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 2428,
+      "anchor": "Ich bin frei! mir soll niemand wehren.\nAn seinen Hals will ich fliegen,\nAn seinem Busen liegen!\nEr r"
+    },
+    {
+      "id": "c28-dense-014",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 2542,
+      "source_end": 2735,
+      "source_text": " Er stand auf der Schwelle.\nMitten durchs Heulen und Klappen der Hölle,\nDurch den grimmigen, teuflischen Hohn\nErkannt ich den süßen, den liebenden Ton.\n\nFAUST.\nIch bin’s!\n\nMARGARETE.\nDu bist’s!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-014.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 2542,
+      "anchor": "Er stand auf der Schwelle.\nMitten durchs Heulen und Klappen der Hölle,\nDurch den grimmigen, teuflisc"
+    },
+    {
+      "id": "c28-dense-015",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 2735,
+      "source_end": 2813,
+      "source_text": " O sag es noch einmal!\n(Ihn fassend.)\nEr ist’s! Er ist’s! Wohin ist alle Qual?",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-015.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 2735,
+      "anchor": "O sag es noch einmal!\n(Ihn fassend.)\nEr ist’s! Er ist’s! Wohin ist alle Qual?"
+    },
+    {
+      "id": "c28-dense-016",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 2813,
+      "source_end": 2889,
+      "source_text": "\nWohin die Angst des Kerkers? der Ketten?\nDu bist’s! Kommst, mich zu retten.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-016.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 2813,
+      "anchor": "Wohin die Angst des Kerkers? der Ketten?\nDu bist’s! Kommst, mich zu retten."
+    },
+    {
+      "id": "c28-dense-017",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 2889,
+      "source_end": 3075,
+      "source_text": "\nIch bin gerettet!\nSchon ist die Straße wieder da\nAuf der ich dich zum ersten Male sah\nUnd der heitere Garten’\nWo ich und Marthe deiner warten.\n\nFAUST (fortstrebend).\nKomm mit! Komm mit!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST "
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-017.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 2889,
+      "anchor": "Ich bin gerettet!\nSchon ist die Straße wieder da\nAuf der ich dich zum ersten Male sah\nUnd der heiter"
+    },
+    {
+      "id": "c28-dense-018",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 3075,
+      "source_end": 3233,
+      "source_text": "\n\nMARGARETE.\nO weile\nWeil’ ich doch so gern, wo du weilest.\n(Liebkosend.)\n\nFAUST.\nEile!\nWenn du nicht eilest\nWerden wir’s teuer büßen müssen.\n\nMARGARETE.\nWie?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-018.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 3075,
+      "anchor": "MARGARETE.\nO weile\nWeil’ ich doch so gern, wo du weilest.\n(Liebkosend.)\n\nFAUST.\nEile!\nWenn du nicht "
+    },
+    {
+      "id": "c28-dense-019",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 3233,
+      "source_end": 3499,
+      "source_text": " du kannst nicht mehr küssen?\nMein Freund, so kurz von mir entfernt\nUnd hast’s Küssen verlernt?\nWarum wird mir an deinem Halse so bang?\nWenn sonst von deinen Worten, deinen Blicken\nEin ganzer Himmel mich überdrang\nUnd du mich küßtest, als wolltest du mich ersticken.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-019.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 3233,
+      "anchor": "du kannst nicht mehr küssen?\nMein Freund, so kurz von mir entfernt\nUnd hast’s Küssen verlernt?\nWarum"
+    },
+    {
+      "id": "c28-dense-020",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 3499,
+      "source_end": 3592,
+      "source_text": "\nKüsse mich!\nSonst küß ich dich!\n(Sie umfaßt ihn.)\nO weh! deine Lippen sind kalt,\nSind stumm.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-020.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 3499,
+      "anchor": "Küsse mich!\nSonst küß ich dich!\n(Sie umfaßt ihn.)\nO weh! deine Lippen sind kalt,\nSind stumm."
+    },
+    {
+      "id": "c28-dense-021",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 3592,
+      "source_end": 3697,
+      "source_text": "\nWo ist dein Lieben\nGeblieben?\nWer brachte mich drum?\n(Sie wendet sich von ihm.)\n\nFAUST.\nKomm! Folge mir!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-021.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 3592,
+      "anchor": "Wo ist dein Lieben\nGeblieben?\nWer brachte mich drum?\n(Sie wendet sich von ihm.)\n\nFAUST.\nKomm! Folge "
+    },
+    {
+      "id": "c28-dense-022",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 3697,
+      "source_end": 3846,
+      "source_text": " Liebchen, fasse Mut!\nIch herze dich mit tausendfacher Glut\nNur folge mir! Ich bitte dich nur dies!\n\nMARGARETE (zu ihm gewendet).\nUnd bist du’s denn?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MARGARETE "
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-042",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-022.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 3697,
+      "anchor": "Liebchen, fasse Mut!\nIch herze dich mit tausendfacher Glut\nNur folge mir! Ich bitte dich nur dies!\n\n"
+    },
+    {
+      "id": "c28-dense-023",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 3846,
+      "source_end": 3976,
+      "source_text": " Und bist du’s auch gewiß?\n\nFAUST.\nIch bin’s! Komm mit!\n\nMARGARETE.\nDu machst die Fesseln los,\nNimmst wieder mich in deinen Schoß.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-023.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 3846,
+      "anchor": "Und bist du’s auch gewiß?\n\nFAUST.\nIch bin’s! Komm mit!\n\nMARGARETE.\nDu machst die Fesseln los,\nNimmst"
+    },
+    {
+      "id": "c28-dense-024",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 3976,
+      "source_end": 4094,
+      "source_text": "\nWie kommt es, daß du dich vor mir nicht scheust?\nUnd weißt du denn, mein Freund, wen du befreist?\n\nFAUST.\nKomm! komm!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-024.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 3976,
+      "anchor": "Wie kommt es, daß du dich vor mir nicht scheust?\nUnd weißt du denn, mein Freund, wen du befreist?\n\nF"
+    },
+    {
+      "id": "c28-dense-025",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 4094,
+      "source_end": 4254,
+      "source_text": " schon weicht die tiefe Nacht.\n\nMARGARETE.\nMeine Mutter hab ich umgebracht,\nMein Kind hab ich ertränkt.\nWar es nicht dir und mir geschenkt?\nDir auch.—Du bist’s!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-025.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 4094,
+      "anchor": "schon weicht die tiefe Nacht.\n\nMARGARETE.\nMeine Mutter hab ich umgebracht,\nMein Kind hab ich ertränk"
+    },
+    {
+      "id": "c28-dense-026",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 4254,
+      "source_end": 4352,
+      "source_text": " ich glaub es kaum.\nGib deine Hand! Es ist kein Traum!\nDeine liebe Hand!—Ach, aber sie ist feucht!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-026.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 4254,
+      "anchor": "ich glaub es kaum.\nGib deine Hand! Es ist kein Traum!\nDeine liebe Hand!—Ach, aber sie ist feucht!"
+    },
+    {
+      "id": "c28-dense-027",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 4352,
+      "source_end": 4428,
+      "source_text": "\nWische sie ab! Wie mich deucht,\nIst Blut dran.\nAch Gott! was hast du getan!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-027.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 4352,
+      "anchor": "Wische sie ab! Wie mich deucht,\nIst Blut dran.\nAch Gott! was hast du getan!"
+    },
+    {
+      "id": "c28-dense-028",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 4428,
+      "source_end": 4763,
+      "source_text": "\nStecke den Degen ein,\nIch bitte dich drum!\nFAUST.\nLaß das Vergangne vergangen sein,\nDu bringst mich um.\n\nMARGARETE.\nNein, du mußt übrigbleiben!\nIch will dir die Gräber beschreiben,\nFür die mußt du sorgen\nGleich morgen;\nDer Mutter den besten Platz geben,\nMeinen Bruder sogleich darneben,\nMich ein wenig beiseit’,\nNur nicht gar zu weit!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-028.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 4428,
+      "anchor": "Stecke den Degen ein,\nIch bitte dich drum!\nFAUST.\nLaß das Vergangne vergangen sein,\nDu bringst mich "
+    },
+    {
+      "id": "c28-dense-029",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 4763,
+      "source_end": 5123,
+      "source_text": "\nUnd das Kleine mir an die rechte Brust.\nNiemand wird sonst bei mir liegen!—\nMich an deine Seite zu schmiegen,\nDas war ein süßes, ein holdes Glück!\nAber es will mir nicht mehr gelingen;\nMir ist’s, als müßt ich mich zu dir zwingen,\nAls stießest du mich von dir zurück;\nUnd doch bist du’s und blickst so gut, so fromm.\n\nFAUST.\nFühlst du, daß ich es bin, so komm!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-029.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 4763,
+      "anchor": "Und das Kleine mir an die rechte Brust.\nNiemand wird sonst bei mir liegen!—\nMich an deine Seite zu s"
+    },
+    {
+      "id": "c28-dense-030",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 5123,
+      "source_end": 5295,
+      "source_text": "\n\nMARGARETE.\nDahinaus?\n\nFAUST.\nIns Freie.\n\nMARGARETE.\nIst das Grab drauß,\nLauert der Tod, so komm!\nVon hier ins ewige Ruhebett\nUnd weiter keinen Schritt—\nDu gehst nun fort?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-030.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 5123,
+      "anchor": "MARGARETE.\nDahinaus?\n\nFAUST.\nIns Freie.\n\nMARGARETE.\nIst das Grab drauß,\nLauert der Tod, so komm!\nVon"
+    },
+    {
+      "id": "c28-dense-031",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 5295,
+      "source_end": 5376,
+      "source_text": " O Heinrich, könnt ich mit!\n\nFAUST.\nDu kannst! So wolle nur! Die Tür steht offen!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-031.webp",
+      "source_grid": "source_images/chapter28-dense-005.png",
+      "crop_box": [
+        727,
+        3,
+        1083,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 5295,
+      "anchor": "O Heinrich, könnt ich mit!\n\nFAUST.\nDu kannst! So wolle nur! Die Tür steht offen!"
+    },
+    {
+      "id": "c28-dense-032",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 5376,
+      "source_end": 5556,
+      "source_text": "\n\nMARGARETE.\nIch darf nicht fort; für mich ist nichts zu hoffen.\nWas hilft es, fliehn? Sie lauern doch mir auf.\nEs ist so elend, betteln zu müssen\nUnd noch dazu mit bösem Gewissen!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-032.webp",
+      "source_grid": "source_images/chapter28-dense-005.png",
+      "crop_box": [
+        1089,
+        3,
+        1445,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 5376,
+      "anchor": "MARGARETE.\nIch darf nicht fort; für mich ist nichts zu hoffen.\nWas hilft es, fliehn? Sie lauern doch"
+    },
+    {
+      "id": "c28-dense-033",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 5556,
+      "source_end": 5717,
+      "source_text": "\nEs ist so elend, in der Fremde schweifen\nUnd sie werden mich doch ergreifen!\n\nFAUST.\nIch bleibe bei dir\n\nMARGARETE.\nGeschwind! Geschwind!\nRette dein armes Kind!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-033.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        202
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 5556,
+      "anchor": "Es ist so elend, in der Fremde schweifen\nUnd sie werden mich doch ergreifen!\n\nFAUST.\nIch bleibe bei "
+    },
+    {
+      "id": "c28-dense-034",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 5717,
+      "source_end": 5882,
+      "source_text": "\nFort! immer den Weg\nAm Bach hinauf,\nÜber den Steg,\nIn den Wald hinein,\nLinks, wo die Planke steht,\nIm Teich.\nFaß es nur gleich!\nEs will sich heben,\nEs zappelt noch!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-034.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        202
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 5717,
+      "anchor": "Fort! immer den Weg\nAm Bach hinauf,\nÜber den Steg,\nIn den Wald hinein,\nLinks, wo die Planke steht,\nI"
+    },
+    {
+      "id": "c28-dense-035",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 5882,
+      "source_end": 5959,
+      "source_text": "\nRette! rette!\n\nFAUST.\nBesinne dich doch!\nNur einen Schritt, so bist du frei!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-035.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        3,
+        208,
+        381,
+        407
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 5882,
+      "anchor": "Rette! rette!\n\nFAUST.\nBesinne dich doch!\nNur einen Schritt, so bist du frei!"
+    },
+    {
+      "id": "c28-dense-036",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 5959,
+      "source_end": 6276,
+      "source_text": "\n\nMARGARETE.\nWären wir nur den Berg vorbei!\nDa sitzt meine Mutter auf einem Stein,\nEs faßt mich kalt beim Schopfe!\nDa sitzt meine Mutter auf einem Stein\nUnd wackelt mit dem Kopfe\nSie winkt nicht, sie nickt nicht, der Kopf ist ihr schwer,\nSie schlief so lange, sie wacht nicht mehr.\nSie schlief, damit wir uns freuten.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-036.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        387,
+        208,
+        765,
+        407
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 5959,
+      "anchor": "MARGARETE.\nWären wir nur den Berg vorbei!\nDa sitzt meine Mutter auf einem Stein,\nEs faßt mich kalt b"
+    },
+    {
+      "id": "c28-dense-037",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 6276,
+      "source_end": 6441,
+      "source_text": "\nEs waren glückliche Zeiten!\n\nFAUST.\nHilft hier kein Flehen, hilft kein Sagen,\nSo wag ich’s, dich hinwegzutragen.\n\nMARGARETE.\nLaß mich! Nein, ich leide keine Gewalt!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-037.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        1155,
+        208,
+        1533,
+        407
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 6276,
+      "anchor": "Es waren glückliche Zeiten!\n\nFAUST.\nHilft hier kein Flehen, hilft kein Sagen,\nSo wag ich’s, dich hin"
+    },
+    {
+      "id": "c28-dense-038",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 6441,
+      "source_end": 6550,
+      "source_text": "\nFasse mich nicht so mörderisch an!\nSonst hab ich dir ja alles zulieb getan.\n\nFAUST.\nDer Tag graut! Liebchen!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-043",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-038.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        3,
+        413,
+        381,
+        611
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 6441,
+      "anchor": "Fasse mich nicht so mörderisch an!\nSonst hab ich dir ja alles zulieb getan.\n\nFAUST.\nDer Tag graut! L"
+    },
+    {
+      "id": "c28-dense-039",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 6550,
+      "source_end": 6656,
+      "source_text": " Liebchen!\n\nMARGARETE.\nTag! Ja, es wird Tag! der letzte Tag dringt herein;\nMein Hochzeittag sollt es sein!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-044",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-039.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        387,
+        413,
+        765,
+        611
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 6550,
+      "anchor": "Liebchen!\n\nMARGARETE.\nTag! Ja, es wird Tag! der letzte Tag dringt herein;\nMein Hochzeittag sollt es "
+    },
+    {
+      "id": "c28-dense-040",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 6656,
+      "source_end": 6793,
+      "source_text": "\nSag niemand, daß du schon bei Gretchen warst.\nWeh meinem Kranze!\nEs ist eben geschehn!\nWir werden uns wiedersehn;\nAber nicht beim Tanze.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-044",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-040.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        771,
+        413,
+        1149,
+        611
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 6656,
+      "anchor": "Sag niemand, daß du schon bei Gretchen warst.\nWeh meinem Kranze!\nEs ist eben geschehn!\nWir werden un"
+    },
+    {
+      "id": "c28-dense-041",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 6793,
+      "source_end": 6953,
+      "source_text": "\nDie Menge drängt sich, man hört sie nicht.\nDer Platz, die Gassen\nKönnen sie nicht fassen.\nDie Glocke ruft, das Stäbchen bricht.\nWie sie mich binden und packen!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-044",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-041.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        1155,
+        413,
+        1533,
+        611
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 6793,
+      "anchor": "Die Menge drängt sich, man hört sie nicht.\nDer Platz, die Gassen\nKönnen sie nicht fassen.\nDie Glocke"
+    },
+    {
+      "id": "c28-dense-042",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 6953,
+      "source_end": 7123,
+      "source_text": "\nZum Blutstuhl bin ich schon entrückt.\nSchon zuckt nach jedem Nacken\nDie Schärfe, die nach meinem zückt.\nStumm liegt die Welt wie das Grab!\n\nFAUST.\nO wär ich nie geboren!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-044",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-042.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        3,
+        617,
+        381,
+        816
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 6953,
+      "anchor": "Zum Blutstuhl bin ich schon entrückt.\nSchon zuckt nach jedem Nacken\nDie Schärfe, die nach meinem züc"
+    },
+    {
+      "id": "c28-dense-043",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 7123,
+      "source_end": 7227,
+      "source_text": "\n\nMEPHISTOPHELES (erscheint draußen).\nAuf! oder ihr seid verloren.\nUnnützes Zagen! Zaudern und Plaudern!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES "
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-044",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-043.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        387,
+        617,
+        765,
+        816
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 7123,
+      "anchor": "MEPHISTOPHELES (erscheint draußen).\nAuf! oder ihr seid verloren.\nUnnützes Zagen! Zaudern und Plauder"
+    },
+    {
+      "id": "c28-dense-044",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 7227,
+      "source_end": 7329,
+      "source_text": "\nMein Pferde schaudern,\nDer Morgen dämmert auf.\n\nMARGARETE.\nWas steigt aus dem Boden herauf?\nDer! der!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-044",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-044.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        771,
+        617,
+        1149,
+        816
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 7227,
+      "anchor": "Mein Pferde schaudern,\nDer Morgen dämmert auf.\n\nMARGARETE.\nWas steigt aus dem Boden herauf?\nDer! der"
+    },
+    {
+      "id": "c28-dense-045",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 7329,
+      "source_end": 7419,
+      "source_text": " Schick ihn fort!\nWas will der an dem heiligen Ort?\nEr will mich!\n\nFAUST.\nDu sollst leben!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-044",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-045.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        1155,
+        617,
+        1533,
+        816
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 7329,
+      "anchor": "Schick ihn fort!\nWas will der an dem heiligen Ort?\nEr will mich!\n\nFAUST.\nDu sollst leben!"
+    },
+    {
+      "id": "c28-dense-046",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 7419,
+      "source_end": 7515,
+      "source_text": "\n\nMARGARETE.\nGericht Gottes! dir hab ich mich übergeben!\n\nMEPHISTOPHELES (zu Faust).\nKomm! komm!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "MEPHISTOPHELES "
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-044",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-046.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        3,
+        822,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 7419,
+      "anchor": "MARGARETE.\nGericht Gottes! dir hab ich mich übergeben!\n\nMEPHISTOPHELES (zu Faust).\nKomm! komm!"
+    },
+    {
+      "id": "c28-dense-047",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 7515,
+      "source_end": 7604,
+      "source_text": " Ich lasse dich mit ihr im Stich.\n\nMARGARETE.\nDein bin ich, Vater! Rette mich!\nIhr Engel!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-044",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-047.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        387,
+        822,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 7515,
+      "anchor": "Ich lasse dich mit ihr im Stich.\n\nMARGARETE.\nDein bin ich, Vater! Rette mich!\nIhr Engel!"
+    },
+    {
+      "id": "c28-dense-048",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 7604,
+      "source_end": 7730,
+      "source_text": " Ihr heiligen Scharen,\nLagert euch umher, mich zu bewahren!\nHeinrich! Mir graut’s vor dir.\n\nMEPHISTOPHELES.\nSie ist gerichtet!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-044",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-048.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        1155,
+        822,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 7604,
+      "anchor": "Ihr heiligen Scharen,\nLagert euch umher, mich zu bewahren!\nHeinrich! Mir graut’s vor dir.\n\nMEPHISTOP"
+    },
+    {
+      "id": "c28-dense-049",
+      "chapter": 28,
+      "chapter_title": "Kerker",
+      "sentence_count": 4,
+      "source_start": 7730,
+      "source_end": 7883,
+      "source_text": "\n\nSTIMME (von oben).\nIst gerettet!\n\nMEPHISTOPHELES (zu Faust).\nHer zu mir!\n(Verschwindet mit Faust.)\n\nSTIMME (von innen, verhallend).\nHeinrich! Heinrich!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "STIMME ",
+        "MEPHISTOPHELES "
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-023"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-044",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-049.webp",
+      "source_grid": "source_images/chapter28-dense-004.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json",
+      "char_offset": 7730,
+      "anchor": "STIMME (von oben).\nIst gerettet!\n\nMEPHISTOPHELES (zu Faust).\nHer zu mir!\n(Verschwindet mit Faust.)\n\n"
     }
   ]
 }

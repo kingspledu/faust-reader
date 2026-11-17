@@ -1,0 +1,22 @@
+{
+  "chapter": 27,
+  "status": "complete",
+  "source_total_chars": 323,
+  "covered_end": 323,
+  "segments": [
+    {
+      "id": "C27-T001",
+      "source_start": 0,
+      "source_end": 224,
+      "source": "Faust, Mephistopheles, auf schwarzen Pferden daherbrausend.\n\nFAUST.\nWas weben die dort um den Rabenstein?\n\nMEPHISTOPHELES.\nWeiß nicht, was sie kochen und schaffen.\n\nFAUST.\nSchweben auf, schweben ab, neigen sich, beugen sich.",
+      "ko": "파우스트와 메피스토가 검은 말을 타고 질주한다.\n파우스트: 저것들은 처형대 주변에서 뭘 하고 있지?\n메피스토: 무얼 끓이고 무얼 하는지 몰라.\n파우스트: 떠올랐다 내려왔다, 몸을 구부렸다 숙였다 하는군."
+    },
+    {
+      "id": "C27-T002",
+      "source_start": 224,
+      "source_end": 323,
+      "source": "\n\nMEPHISTOPHELES.\nEine Hexenzunft.\n\nFAUST.\nSie streuen und weihen.\n\nMEPHISTOPHELES.\nVorbei! Vorbei!",
+      "ko": "메피스토: 마녀 무리야.\n파우스트: 뭔가 뿌리며 의식을 치르네.\n메피스토: 지나쳐! 지나가자고!"
+    }
+  ]
+}

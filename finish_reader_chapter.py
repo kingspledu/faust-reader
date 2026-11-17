@@ -40,10 +40,13 @@ source = ''.join(p.get_text() for p in soup.select('article pre[lang=de]'))
 assert source == ''.join(e['source_text'] for e in scenes)
 position_offset = 0
 for batch, path in enumerate(sys.argv[2:], 1):
+    path, _, row_count = path.partition('#')
+    grid_rows = int(row_count or 4)
     path, _, selection = path.partition('@')
     path, _, tile_range = path.partition('::')
     start_tile, _, end_tile = tile_range.partition(':')
-    offset, stop = int(start_tile or 0), int(end_tile or 16)
+    offset, stop = int(start_tile or 0), int(end_tile or 4 * grid_rows)
+    positions = [int(value) - 1 for value in selection.split(',')] if selection else []
     target = r / f'source_images/chapter{tag}-dense-{batch:03}.png'
     if target.exists():
         assert target.read_bytes() == Path(path).read_bytes(), target
@@ -53,15 +56,16 @@ for batch, path in enumerate(sys.argv[2:], 1):
     w, h = grid.size
     mapping = []
     for tile in range(offset, stop):
-        if selection:
-            positions = [int(value) - 1 for value in selection.split(',')]
+        if positions:
             if tile - offset >= len(positions):
                 break
             position = positions[tile - offset]
+            if position < 0:
+                continue
         else:
             position = position_offset + tile - offset
         x, y = tile % 4, tile // 4
-        box = (round(x*w/4)+3, round(y*h/4)+3, round((x+1)*w/4)-3, round((y+1)*h/4)-3)
+        box = (round(x*w/4)+3, round(y*h/grid_rows)+3, round((x+1)*w/4)-3, round((y+1)*h/grid_rows)-3)
         scene = scenes[position] if position < len(scenes) else None
         stem = scene['id'] if scene else f'c{tag}-alternative-{position-len(scenes)+1:02}'
         image = f'illustrations/{stem}.webp'

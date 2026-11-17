@@ -1,0 +1,66 @@
+[
+  {
+    "tile": 1,
+    "scene_id": "c28-dense-002",
+    "image": "illustrations/c28-dense-002.webp",
+    "source_grid": "source_images/chapter28-dense-005.png",
+    "crop_box": [
+      3,
+      3,
+      359,
+      269
+    ],
+    "native_grid_size": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "tile": 2,
+    "scene_id": "c28-dense-003",
+    "image": "illustrations/c28-dense-003.webp",
+    "source_grid": "source_images/chapter28-dense-005.png",
+    "crop_box": [
+      365,
+      3,
+      721,
+      269
+    ],
+    "native_grid_size": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "tile": 3,
+    "scene_id": "c28-dense-031",
+    "image": "illustrations/c28-dense-031.webp",
+    "source_grid": "source_images/chapter28-dense-005.png",
+    "crop_box": [
+      727,
+      3,
+      1083,
+      269
+    ],
+    "native_grid_size": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "tile": 4,
+    "scene_id": "c28-dense-032",
+    "image": "illustrations/c28-dense-032.webp",
+    "source_grid": "source_images/chapter28-dense-005.png",
+    "crop_box": [
+      1089,
+      3,
+      1445,
+      269
+    ],
+    "native_grid_size": [
+      1448,
+      1086
+    ]
+  }
+]

@@ -26863,12 +26863,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-040",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c26-dense-001.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        359,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-002",
@@ -26886,12 +26899,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-040",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c26-dense-002.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        365,
+        3,
+        721,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-003",
@@ -26909,12 +26935,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-040",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c26-dense-003.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        727,
+        3,
+        1083,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-004",
@@ -26937,12 +26976,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-040",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c26-dense-004.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        1089,
+        3,
+        1445,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-005",
@@ -26960,12 +27012,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-040",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c26-dense-005.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        3,
+        275,
+        359,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-006",
@@ -26986,12 +27051,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c26-dense-006.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        365,
+        275,
+        721,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-007",
@@ -27012,12 +27090,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c26-dense-007.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        727,
+        275,
+        1083,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-008",
@@ -27040,12 +27131,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c26-dense-008.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        1089,
+        275,
+        1445,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-009",
@@ -27066,12 +27170,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c26-dense-009.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        3,
+        546,
+        359,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-010",
@@ -27094,12 +27211,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c26-dense-010.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        365,
+        546,
+        721,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-011",
@@ -27120,12 +27250,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c26-dense-011.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        727,
+        546,
+        1083,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-012",
@@ -27146,12 +27289,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c26-dense-012.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        1089,
+        546,
+        1445,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c26-dense-013",
@@ -27172,12 +27328,25 @@
         "location-021"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c26-dense-013.webp",
+      "source_grid": "source_images/chapter26-dense-001.png",
+      "crop_box": [
+        3,
+        817,
+        359,
+        1083
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-26.json"
     },
     {
       "id": "c27-dense-001",
@@ -27200,12 +27369,25 @@
         "location-022"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c27-dense-001.webp",
+      "source_grid": "source_images/chapter27-dense-001.png",
+      "crop_box": [
+        365,
+        817,
+        721,
+        1083
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-27.json"
     },
     {
       "id": "c27-dense-002",
@@ -27228,12 +27410,25 @@
         "location-022"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c27-dense-002.webp",
+      "source_grid": "source_images/chapter27-dense-001.png",
+      "crop_box": [
+        727,
+        817,
+        1083,
+        1083
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-27.json"
     },
     {
       "id": "c28-dense-001",
@@ -27251,12 +27446,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-001.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-002",
@@ -27274,12 +27482,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-002.webp",
+      "source_grid": "source_images/chapter28-dense-005.png",
+      "crop_box": [
+        3,
+        3,
+        359,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-003",
@@ -27302,12 +27523,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-003.webp",
+      "source_grid": "source_images/chapter28-dense-005.png",
+      "crop_box": [
+        365,
+        3,
+        721,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-004",
@@ -27328,12 +27562,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-004.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-005",
@@ -27356,12 +27603,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-005.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-006",
@@ -27379,12 +27639,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-041",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-006.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-007",
@@ -27402,12 +27675,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-007.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-008",
@@ -27430,12 +27716,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-008.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-009",
@@ -27453,12 +27752,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-009.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-010",
@@ -27481,12 +27793,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-010.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-011",
@@ -27507,12 +27832,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-011.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-012",
@@ -27533,12 +27871,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-012.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-013",
@@ -27556,12 +27907,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-013.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-014",
@@ -27584,12 +27948,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-014.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-015",
@@ -27607,12 +27984,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-015.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-016",
@@ -27630,12 +28020,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-016.webp",
+      "source_grid": "source_images/chapter28-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-017",
@@ -27656,12 +28059,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-017.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-018",
@@ -27684,12 +28100,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-018.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-019",
@@ -27707,12 +28136,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-019.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-020",
@@ -27730,12 +28172,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-020.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-021",
@@ -27756,12 +28211,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-021.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-022",
@@ -27782,12 +28250,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-042",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-022.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-023",
@@ -27810,12 +28291,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-023.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-024",
@@ -27836,12 +28330,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-024.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-025",
@@ -27862,12 +28369,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-025.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-026",
@@ -27885,12 +28405,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-026.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-027",
@@ -27908,12 +28441,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-027.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-028",
@@ -27936,12 +28482,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-028.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-029",
@@ -27962,12 +28521,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-029.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-030",
@@ -27990,12 +28562,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-030.webp",
+      "source_grid": "source_images/chapter28-dense-002.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-031",
@@ -28016,12 +28601,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-031.webp",
+      "source_grid": "source_images/chapter28-dense-005.png",
+      "crop_box": [
+        727,
+        3,
+        1083,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-032",
@@ -28042,12 +28640,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-032.webp",
+      "source_grid": "source_images/chapter28-dense-005.png",
+      "crop_box": [
+        1089,
+        3,
+        1445,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-033",
@@ -28070,12 +28681,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-033.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        202
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-034",
@@ -28093,12 +28717,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-034.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        202
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-035",
@@ -28119,12 +28756,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-035.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        3,
+        208,
+        381,
+        407
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-036",
@@ -28145,12 +28795,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-036.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        387,
+        208,
+        765,
+        407
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-037",
@@ -28173,12 +28836,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-037.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        1155,
+        208,
+        1533,
+        407
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-038",
@@ -28199,12 +28875,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-043",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-038.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        3,
+        413,
+        381,
+        611
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-039",
@@ -28225,12 +28914,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-044",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-039.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        387,
+        413,
+        765,
+        611
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-040",
@@ -28248,12 +28950,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-044",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-040.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        771,
+        413,
+        1149,
+        611
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-041",
@@ -28271,12 +28986,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-044",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-041.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        1155,
+        413,
+        1533,
+        611
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-042",
@@ -28297,12 +29025,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-044",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-042.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        3,
+        617,
+        381,
+        816
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-043",
@@ -28323,12 +29064,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-044",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-043.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        387,
+        617,
+        765,
+        816
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-044",
@@ -28349,12 +29103,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-044",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-044.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        771,
+        617,
+        1149,
+        816
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-045",
@@ -28375,12 +29142,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-044",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-045.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        1155,
+        617,
+        1533,
+        816
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-046",
@@ -28403,12 +29183,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-044",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c28-dense-046.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        3,
+        822,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-047",
@@ -28429,12 +29222,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-044",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c28-dense-047.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        387,
+        822,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-048",
@@ -28455,12 +29261,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-044",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c28-dense-048.webp",
+      "source_grid": "source_images/chapter28-dense-003.png",
+      "crop_box": [
+        1155,
+        822,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     },
     {
       "id": "c28-dense-049",
@@ -28482,12 +29301,25 @@
         "location-023"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-044",
       "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c28-dense-049.webp",
+      "source_grid": "source_images/chapter28-dense-004.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-28.json"
     }
   ]
 }
