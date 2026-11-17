@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-16 complete; chapter17 first 16/21 scenes illustrated and adapted; later work pending.",
+  "scope": "Chapters 1-17 illustrated and adapted; later chapters pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -21050,6 +21050,210 @@
       "adaptation": "adaptations/chapter-17.json",
       "char_offset": 4972,
       "anchor": "MEPHISTOPHELES.\nSchön! Ihr schimpft, und ich muß lachen.\nDer Gott, der Bub’ und Mädchen schuf,\nErkan"
+    },
+    {
+      "id": "c17-dense-017",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 5175,
+      "source_end": 5349,
+      "source_text": "\nIhr sollt in Eures Liebchens Kammer,\nNicht etwa in den Tod.\n\nFAUST.\nWas ist die Himmelsfreud in ihren Armen?\nLaß mich an ihrer Brust erwarmen!\nFühl ich nicht immer ihre Not?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c17-dense-017.webp",
+      "source_grid": "source_images/chapter17-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 5175,
+      "anchor": "Ihr sollt in Eures Liebchens Kammer,\nNicht etwa in den Tod.\n\nFAUST.\nWas ist die Himmelsfreud in ihre"
+    },
+    {
+      "id": "c17-dense-018",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 5349,
+      "source_end": 5666,
+      "source_text": "\nBin ich der Flüchtling nicht? der Unbehauste?\nDer Unmensch ohne Zweck und Ruh,\nDer wie ein Wassersturz von Fels zu Felsen brauste,\nBegierig wütend nach dem Abgrund zu?\nUnd seitwärts sie, mit kindlich dumpfen Sinnen,\nIm Hüttchen auf dem kleinen Alpenfeld,\nUnd all ihr häusliches Beginnen\nUmfangen in der kleinen Welt.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c17-dense-018.webp",
+      "source_grid": "source_images/chapter17-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 5349,
+      "anchor": "Bin ich der Flüchtling nicht? der Unbehauste?\nDer Unmensch ohne Zweck und Ruh,\nDer wie ein Wasserstu"
+    },
+    {
+      "id": "c17-dense-019",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 5666,
+      "source_end": 5893,
+      "source_text": "\nUnd ich, der Gottverhaßte,\nHatte nicht genug,\nDaß ich die Felsen faßte\nUnd sie zu Trümmern schlug!\nSie, ihren Frieden mußt ich untergraben!\nDu, Hölle, mußtest dieses Opfer haben.\nHilf, Teufel, mir die Zeit der Angst verkürzen.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c17-dense-019.webp",
+      "source_grid": "source_images/chapter17-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 5666,
+      "anchor": "Und ich, der Gottverhaßte,\nHatte nicht genug,\nDaß ich die Felsen faßte\nUnd sie zu Trümmern schlug!\nS"
+    },
+    {
+      "id": "c17-dense-020",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 5893,
+      "source_end": 6091,
+      "source_text": "\nWas muß geschehn, mag’s gleich geschehn!\nMag ihr Geschick auf mich zusammenstürzen\nUnd sie mit mir zugrunde gehn!\n\nMEPHISTOPHELES.\nWie’s wieder siedet, wieder glüht!\nGeh ein und tröste sie, du Tor!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c17-dense-020.webp",
+      "source_grid": "source_images/chapter17-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 5893,
+      "anchor": "Was muß geschehn, mag’s gleich geschehn!\nMag ihr Geschick auf mich zusammenstürzen\nUnd sie mit mir z"
+    },
+    {
+      "id": "c17-dense-021",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 6091,
+      "source_end": 6324,
+      "source_text": "\nWo so ein Köpfchen keinen Ausgang sieht,\nStellt er sich gleich das Ende vor.\nEs lebe, wer sich tapfer hält!\nDu bist doch sonst so ziemlich eingeteufelt.\nNichts Abgeschmackters find ich auf der Welt\nAls einen Teufel, der verzweifelt.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c17-dense-021.webp",
+      "source_grid": "source_images/chapter17-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 6091,
+      "anchor": "Wo so ein Köpfchen keinen Ausgang sieht,\nStellt er sich gleich das Ende vor.\nEs lebe, wer sich tapfe"
     }
   ]
 }

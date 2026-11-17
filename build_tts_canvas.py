@@ -9,7 +9,7 @@ voice_codes.update({'파우스트':'FAU','바그너':'WAG'})
 crowd_voices={'직공 청년':('Puck','ART'),'세 번째 직공 청년':('Puck','ART3'),'다섯 번째 직공 청년':('Orus','ART5'),'첫 번째 하녀':('Kore','MAID1'),'다른 하녀':('Sulafat','MAID2'),'시민의 딸':('Kore','DAU'),'두 번째 학생':('Puck','STU2'),'첫 번째 학생':('Fenrir','STU1'),'첫 번째 시민':('Orus','CIT1'),'거지':('Charon','BEG'),'두 번째 시민':('Fenrir','CIT2'),'세 번째 시민':('Orus','CIT3'),'노파':('Sulafat','OLDW'),'아가테':('Kore','AGA'),'군인':('Fenrir','SOL'),'목동':('Puck','SHEP'),'춤추는 사람':('Puck','DAN'),'춤추는 아가씨':('Kore','DANW'),'늙은 농부':('Charon','FARM')}
 voice_names.update({k:v[0] for k,v in crowd_voices.items()});voice_codes.update({k:v[1] for k,v in crowd_voices.items()})
 voice_names.update({'학생':'Puck'});voice_codes.update({'학생':'STU7'})
-chapters_to_build=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+chapters_to_build=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
 for ch in chapters_to_build:
  if ch==8:
   voice_names.update({'프로슈':'Puck','브란더':'Fenrir','지벨':'Orus','알트마이어':'Charon'})
@@ -82,9 +82,14 @@ for ch in chapters_to_build:
     seg['performance']['emotion']='들킬 듯한 장난기와 반가움' if no==1 else '다정한 고백에서 방해받은 짜증으로' if no==2 else '아쉬움과 계속 함께 있고 싶은 마음' if no==3 else '어머니를 의식하는 조심스러움과 작별의 아쉬움' if no<=5 else '기쁨 뒤에 남은 수줍음과 자신 없는 궁금함'
     seg['performance']['acting_notes']+=' 짧은 정원 집 장면이다. 첫 장면은 가벼운 장난과 미소, 입맞춤 뒤 고백은 또렷하고 소박하게 표현한다. 입맞춤 소리나 과한 숨소리는 만들지 않는다. 노크 대목도 환경 효과음 대신 문장으로 읽는다. 파우스트의 누구야는 방해받은 짜증, 메피스토펠레스의 친구죠는 능청스러운 해요체다. 그레트헨의 어머니 언급은 말끝을 멈추며 망설인다. 실제 어머니의 목소리나 꾸중을 추가하지 않는다. 마지막은 자신이 왜 사랑받는지 궁금한 조용한 생각이며 절망이나 울음으로 몰지 않는다. 모든 독백은 나직하되 또렷한 보통 발성으로, 과도한 속삭임 금지.'
     seg['performance']['nonverbal']='장난에서는 작은 미소, 작별에서는 짧은 망설임과 자연스러운 날숨만 필요할 때 사용한다. 키스 소리·신음·헐떡임·기침·울음은 넣지 않는다.'
+   if ch==17:
+    no=int(sid[-3:])
+    seg['performance']['emotion']='자연에 대한 감사와 차분한 사색' if no<=2 else '평온 속에 남은 그리움과 의존의 불편함' if no==3 else '방해받은 짜증과 능청스러운 조롱' if no<=7 else '자연에서 얻는 힘을 지키려는 진지함과 저속한 조롱에 대한 불쾌함' if no<=9 else '그레트헨 이야기로 흔들리는 걱정과 유혹자의 여유' if no<=13 else '억누르기 어려운 그리움과 분노' if no<=16 else '보고 싶은 마음과 해칠지 모른다는 두려움의 충돌' if no<=20 else '불안을 가볍게 취급하는 조롱과 재촉'
+    seg['performance']['acting_notes']+=' 자연을 느끼는 첫 독백은 감사와 평온으로 시작한다. 영의 새 목소리나 환청을 만들지 않는다. 파우스트는 자연스러운 반말, 메피스토펠레스는 예의를 가장한 해요체로 빈정거린다. 그레트헨의 창가·노래·울음은 메피스토펠레스가 전하는 말이므로 별도 여성 목소리나 노래를 추가하지 않는다. 폭포와 오두막은 비유로 또렷하게 전달한다. 뒤쪽 파우스트의 불안은 점차 강해지되 고함·통곡·과호흡으로 몰지 않는다. 메피스토펠레스는 끝까지 상대의 걱정을 우습게 여긴다. 모든 독백은 낮고 또렷한 보통 발성, 과도한 속삭임과 ASMR 숨소리 금지.'
+    seg['performance']['nonverbal']='첫 사색에서는 자연스러운 짧은 들숨, 말다툼에서는 필요한 짧은 멈춤과 억제한 날숨만 사용한다. 메피스토펠레스는 작은 비웃음을 드물게 사용할 수 있다. 그레트헨의 울음·노래·기침이나 배경 환경음은 넣지 않는다.'
    units.append(seg);allindex.append({'chapter':ch,'order':idx,'scene_id':sid,'segment_id':seg['id'],'speaker':speaker,'filename':filename,'voice':seg['voice'],'text_sha256':hashlib.sha256(text.encode()).hexdigest(),'text':text})
  assert units, f'Chapter {ch}: completed adaptation prose is required before TTS generation'
- episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기','술집에서 벌어진 눈속임','거울 속 모습과 젊음의 약','거리에서 마주친 소녀','방에 남겨진 보석 상자','사라진 보석과 새로운 부탁','이웃집에서 꾸민 약속','확인하지 않은 증언','꽃잎에 묻는 마음','문 뒤의 웃음과 짧은 작별'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
+ episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기','술집에서 벌어진 눈속임','거울 속 모습과 젊음의 약','거리에서 마주친 소녀','방에 남겨진 보석 상자','사라진 보석과 새로운 부탁','이웃집에서 꾸민 약속','확인하지 않은 증언','꽃잎에 묻는 마음','문 뒤의 웃음과 짧은 작별','숲의 평온을 흔드는 이름'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
  s=re.sub(r'const originalEpisode = .*?;\s*const originalStory =',lambda m:'const originalEpisode = '+json.dumps(episode,ensure_ascii=False)+';\n        const originalStory =',template,flags=re.S)
  a=s.index('        function parseTurns(');b=s.index("        processBtn.addEventListener",a)
  s=s[:a]+'''        function parseTurns(text) {

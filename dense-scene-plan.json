@@ -20534,15 +20534,29 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "location-013"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-030",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c17-dense-017.webp",
+      "source_grid": "source_images/chapter17-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json"
     },
     {
       "id": "c17-dense-018",
@@ -20557,15 +20571,30 @@
       "composition": "낮은 시점에서 인물·건축의 긴장감",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-013"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-030",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c17-dense-018.webp",
+      "source_grid": "source_images/chapter17-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json"
     },
     {
       "id": "c17-dense-019",
@@ -20580,15 +20609,30 @@
       "composition": "표정과 시선의 변화를 포착",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-013"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-030",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c17-dense-019.webp",
+      "source_grid": "source_images/chapter17-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json"
     },
     {
       "id": "c17-dense-020",
@@ -20605,16 +20649,30 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-013"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-030",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c17-dense-020.webp",
+      "source_grid": "source_images/chapter17-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json"
     },
     {
       "id": "c17-dense-021",
@@ -20629,15 +20687,30 @@
       "composition": "대화 상대와 몸짓의 관계",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-013"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-030",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c17-dense-021.webp",
+      "source_grid": "source_images/chapter17-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json"
     },
     {
       "id": "c18-dense-001",
