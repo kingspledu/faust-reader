@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-12 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1-12 complete; chapter13 first 16/31 scenes illustrated and adapted; later work pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -17263,6 +17263,705 @@
       "adaptation": "adaptations/chapter-12.json",
       "char_offset": 2225,
       "anchor": "Sei, Teufel, doch nur nicht wie Brei,\nUnd schaff einen neuen Schmuck herbei!\n\nMEPHISTOPHELES.\nJa, gn"
+    },
+    {
+      "id": "c13-dense-001",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 234,
+      "source_text": "Marthe allein.\n\nGott verzeih’s meinem lieben Mann,\nEr hat an mir nicht wohl getan!\nGeht da stracks in die Welt hinein\nUnd läßt mich auf dem Stroh allein.\nTät ihn doch wahrlich nicht betrüben,\nTät ihn, weiß Gott, recht herzlich lieben.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c13-dense-001.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 0,
+      "anchor": "Marthe allein.\n\nGott verzeih’s meinem lieben Mann,\nEr hat an mir nicht wohl getan!\nGeht da stracks i"
+    },
+    {
+      "id": "c13-dense-002",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 234,
+      "source_end": 439,
+      "source_text": "\n(Sie weint.)\nVielleicht ist er gar tot!—O Pein!—\nHätt ich nur einen Totenschein!\n\n(Margarete kommt.)\n\nMARGARETE.\nFrau Marthe!\n\nMARTHE.\nGretelchen, was soll’s?\n\nMARGARETE.\nFast sinken mir die Kniee nieder!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "MARTHE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c13-dense-002.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 234,
+      "anchor": "(Sie weint.)\nVielleicht ist er gar tot!—O Pein!—\nHätt ich nur einen Totenschein!\n\n(Margarete kommt.)"
+    },
+    {
+      "id": "c13-dense-003",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 439,
+      "source_end": 707,
+      "source_text": "\nDa find ich so ein Kästchen wieder\nIn meinem Schrein, von Ebenholz,\nUnd Sachen herrlich ganz und gar,\nWeit reicher, als das erste war.\n\nMARTHE.\nDas muß Sie nicht der Mutter sagen;\nTät’s wieder gleich zur Beichte tragen.\n\nMARGARETE.\nAch seh Sie nur! ach schau Sie nur!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MARTHE",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c13-dense-003.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 439,
+      "anchor": "Da find ich so ein Kästchen wieder\nIn meinem Schrein, von Ebenholz,\nUnd Sachen herrlich ganz und gar"
+    },
+    {
+      "id": "c13-dense-004",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 707,
+      "source_end": 1204,
+      "source_text": "\n\nMARTHE (putzt sie auf).\nO du glücksel’ge Kreatur!\n\nMARGARETE.\nDarf mich, leider, nicht auf der Gassen\nNoch in der Kirche mit sehen lassen.\n\nMARTHE.\nKomm du nur oft zu mir herüber,\nUnd leg den Schmuck hier heimlich an;\nSpazier ein Stündchen lang dem Spiegelglas vorüber,\nWir haben unsre Freude dran;\nUnd dann gibt’s einen Anlaß, gibt’s ein Fest,\nWo man’s so nach und nach den Leuten sehen läßt.\nEin Kettchen erst, die Perle dann ins Ohr;\nDie Mutter sieht’s wohl nicht, man macht ihr auch was vor.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MARTHE ",
+        "MARGARETE",
+        "MARTHE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c13-dense-004.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 707,
+      "anchor": "MARTHE (putzt sie auf).\nO du glücksel’ge Kreatur!\n\nMARGARETE.\nDarf mich, leider, nicht auf der Gasse"
+    },
+    {
+      "id": "c13-dense-005",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 1204,
+      "source_end": 1348,
+      "source_text": "\n\nMARGARETE.\nWer konnte nur die beiden Kästchen bringen?\nEs geht nicht zu mit rechten Dingen!\n(Es klopft.)\n\nAch Gott! mag das meine Mutter sein?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c13-dense-005.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 1204,
+      "anchor": "MARGARETE.\nWer konnte nur die beiden Kästchen bringen?\nEs geht nicht zu mit rechten Dingen!\n(Es klop"
+    },
+    {
+      "id": "c13-dense-006",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 1348,
+      "source_end": 1669,
+      "source_text": "\n\nMARTHE (durchs Vorhängel guckend).\nEs ist ein fremder Herr—Herein!\n\n(Mephistopheles tritt auf.)\n\nMEPHISTOPHELES.\nBin so frei, grad hereinzutreten,\nMuß bei den Frauen Verzeihn erbeten.\n(Tritt ehrerbietig vor Margareten zurück.)\n\nWollte nach Frau Marthe Schwerdtlein fragen!\n\nMARTHE.\nIch bin’s, was hat der Herr zu sagen?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MARTHE ",
+        "MEPHISTOPHELES",
+        "MARTHE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c13-dense-006.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 1348,
+      "anchor": "MARTHE (durchs Vorhängel guckend).\nEs ist ein fremder Herr—Herein!\n\n(Mephistopheles tritt auf.)\n\nMEP"
+    },
+    {
+      "id": "c13-dense-007",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 1669,
+      "source_end": 1934,
+      "source_text": "\n\nMEPHISTOPHELES (leise zu ihr).\nIch kenne Sie jetzt, mir ist das genug;\nSie hat da gar vornehmen Besuch.\nVerzeiht die Freiheit, die ich genommen,\nWill Nachmittage wiederkommen.\n\nMARTHE (lacht).\nDenk, Kind, um alles in der Welt!\nDer Herr dich für ein Fräulein hält.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "MARTHE "
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c13-dense-007.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 1669,
+      "anchor": "MEPHISTOPHELES (leise zu ihr).\nIch kenne Sie jetzt, mir ist das genug;\nSie hat da gar vornehmen Besu"
+    },
+    {
+      "id": "c13-dense-008",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 1934,
+      "source_end": 2149,
+      "source_text": "\n\nMARGARETE.\nIch bin ein armes junges Blut;\nAch Gott! der Herr ist gar zu gut.\nSchmuck und Geschmeide sind nicht mein.\n\nMEPHISTOPHELES.\nAch, es ist nicht der Schmuck allein;\nSie hat ein Wesen, einen Blick so scharf!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c13-dense-008.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 1934,
+      "anchor": "MARGARETE.\nIch bin ein armes junges Blut;\nAch Gott! der Herr ist gar zu gut.\nSchmuck und Geschmeide "
+    },
+    {
+      "id": "c13-dense-009",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 2149,
+      "source_end": 2333,
+      "source_text": "\nWie freut mich’s, daß ich bleiben darf.\n\nMARTHE.\nWas bringt Er denn? Verlange sehr—\n\nMEPHISTOPHELES.\nIch wollt, ich hätt eine frohere Mär!\nIch hoffe, Sie läßt mich’s drum nicht büßen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MARTHE",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c13-dense-009.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 2149,
+      "anchor": "Wie freut mich’s, daß ich bleiben darf.\n\nMARTHE.\nWas bringt Er denn? Verlange sehr—\n\nMEPHISTOPHELES."
+    },
+    {
+      "id": "c13-dense-010",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 2333,
+      "source_end": 2412,
+      "source_text": "\nIhr Mann ist tot und läßt Sie grüßen.\n\nMARTHE.\nIst tot? das treue Herz! O weh!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MARTHE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c13-dense-010.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 2333,
+      "anchor": "Ihr Mann ist tot und läßt Sie grüßen.\n\nMARTHE.\nIst tot? das treue Herz! O weh!"
+    },
+    {
+      "id": "c13-dense-011",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 2412,
+      "source_end": 2495,
+      "source_text": "\nMein Mann ist tot! Ach ich vergeh!\n\nMARGARETE.\nAch! liebe Frau, verzweifelt nicht!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c13-dense-011.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 2412,
+      "anchor": "Mein Mann ist tot! Ach ich vergeh!\n\nMARGARETE.\nAch! liebe Frau, verzweifelt nicht!"
+    },
+    {
+      "id": "c13-dense-012",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 2495,
+      "source_end": 2733,
+      "source_text": "\n\nMEPHISTOPHELES.\nSo hört die traurige Geschicht!\n\nMARGARETE.\nIch möchte drum mein’ Tag’ nicht lieben,\nWürde mich Verlust zu Tode betrüben.\n\nMEPHISTOPHELES.\nFreud muß Leid, Leid muß Freude haben.\n\nMARTHE.\nErzählt mir seines Lebens Schluß!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "MARGARETE",
+        "MARTHE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c13-dense-012.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 2495,
+      "anchor": "MEPHISTOPHELES.\nSo hört die traurige Geschicht!\n\nMARGARETE.\nIch möchte drum mein’ Tag’ nicht lieben,"
+    },
+    {
+      "id": "c13-dense-013",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 2733,
+      "source_end": 3009,
+      "source_text": "\n\nMEPHISTOPHELES.\nEr liegt in Padua begraben\nBeim heiligen Antonius\nAn einer wohlgeweihten Stätte\nZum ewig kühlen Ruhebette.\n\nMARTHE.\nHabt Ihr sonst nichts an mich zu bringen?\n\nMEPHISTOPHELES.\nJa, eine Bitte, groß und schwer.\nLaß Sie doch ja für ihn dreihundert Messen singen!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "MARTHE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c13-dense-013.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 2733,
+      "anchor": "MEPHISTOPHELES.\nEr liegt in Padua begraben\nBeim heiligen Antonius\nAn einer wohlgeweihten Stätte\nZum "
+    },
+    {
+      "id": "c13-dense-014",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 3009,
+      "source_end": 3097,
+      "source_text": "\nIm übrigen sind meine Taschen leer.\n\nMARTHE.\nWas! nicht ein Schaustück? kein Geschmeid?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MARTHE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c13-dense-014.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 3009,
+      "anchor": "Im übrigen sind meine Taschen leer.\n\nMARTHE.\nWas! nicht ein Schaustück? kein Geschmeid?"
+    },
+    {
+      "id": "c13-dense-015",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 3097,
+      "source_end": 3417,
+      "source_text": "\nWas jeder Handwerksbursch im Grund des Säckels spart,\nZum Angedenken aufbewahrt,\nUnd lieber hungert, lieber bettelt!\n\nMEPHISTOPHELES.\nMadam, es tut mir herzlich leid;\nAllein er hat sein Geld wahrhaftig nicht verzettelt.\nAuch er bereute seine Fehler sehr,\nJa, und bejammerte sein Unglück noch viel mehr.\n\nMARGARETE.\nAch!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c13-dense-015.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 3097,
+      "anchor": "Was jeder Handwerksbursch im Grund des Säckels spart,\nZum Angedenken aufbewahrt,\nUnd lieber hungert,"
+    },
+    {
+      "id": "c13-dense-016",
+      "chapter": 13,
+      "chapter_title": "Der Nachbarin Haus",
+      "sentence_count": 4,
+      "source_start": 3417,
+      "source_end": 3599,
+      "source_text": " daß die Menschen so unglücklich sind!\nGewiß, ich will für ihn manch Requiem noch beten.\n\nMEPHISTOPHELES.\nIhr wäret wert, gleich in die Eh zu treten.\nIhr seid ein liebenswürdig Kind.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-010"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-026",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c13-dense-016.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json",
+      "char_offset": 3417,
+      "anchor": "daß die Menschen so unglücklich sind!\nGewiß, ich will für ihn manch Requiem noch beten.\n\nMEPHISTOPHE"
     }
   ]
 }

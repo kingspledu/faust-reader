@@ -16918,15 +16918,31 @@
       "composition": "표정과 시선의 변화를 포착",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-008",
+        "character-053",
+        "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c13-dense-001.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-002",
@@ -16944,17 +16960,31 @@
         "MARTHE"
       ],
       "reference_ids": [
+        "character-008",
         "character-053",
         "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c13-dense-002.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-003",
@@ -16972,17 +17002,31 @@
         "MARGARETE"
       ],
       "reference_ids": [
+        "character-008",
         "character-053",
         "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c13-dense-003.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-004",
@@ -17001,17 +17045,31 @@
         "MARTHE"
       ],
       "reference_ids": [
+        "character-008",
         "character-053",
         "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c13-dense-004.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-005",
@@ -17028,16 +17086,31 @@
         "MARGARETE"
       ],
       "reference_ids": [
+        "character-008",
         "character-053",
+        "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c13-dense-005.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-006",
@@ -17057,16 +17130,30 @@
       ],
       "reference_ids": [
         "character-008",
+        "character-053",
         "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c13-dense-006.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-007",
@@ -17085,16 +17172,30 @@
       ],
       "reference_ids": [
         "character-008",
+        "character-053",
         "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c13-dense-007.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-008",
@@ -17114,15 +17215,29 @@
       "reference_ids": [
         "character-008",
         "character-053",
+        "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c13-dense-008.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-009",
@@ -17141,16 +17256,30 @@
       ],
       "reference_ids": [
         "character-008",
+        "character-053",
         "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c13-dense-009.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-010",
@@ -17167,16 +17296,31 @@
         "MARTHE"
       ],
       "reference_ids": [
+        "character-008",
+        "character-053",
         "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c13-dense-010.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-011",
@@ -17193,16 +17337,31 @@
         "MARGARETE"
       ],
       "reference_ids": [
+        "character-008",
         "character-053",
+        "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c13-dense-011.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-012",
@@ -17227,12 +17386,25 @@
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c13-dense-012.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-013",
@@ -17251,16 +17423,30 @@
       ],
       "reference_ids": [
         "character-008",
+        "character-053",
         "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c13-dense-013.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-014",
@@ -17277,16 +17463,31 @@
         "MARTHE"
       ],
       "reference_ids": [
+        "character-008",
+        "character-053",
         "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c13-dense-014.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-015",
@@ -17306,15 +17507,29 @@
       "reference_ids": [
         "character-008",
         "character-053",
+        "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-025",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c13-dense-015.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-016",
@@ -17332,15 +17547,30 @@
       ],
       "reference_ids": [
         "character-008",
+        "character-053",
+        "character-054",
         "location-010"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-026",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c13-dense-016.webp",
+      "source_grid": "source_images/chapter13-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-13.json"
     },
     {
       "id": "c13-dense-017",
