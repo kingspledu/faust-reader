@@ -34,7 +34,7 @@ for e,b in zip(all_scenes[:n],a['scenes'][:n]):
  for u in t['segments']:
   if e['source_start']<=u['source_start']<e['source_end']:fold(u,sec)
  nav.insert_before(sec)
- e.update(status='illustrated_adapted',adaptation='adaptations/chapter-13.json',reference_ids=['character-008','character-053','character-054','location-010'],review_note='회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.')
+ e.update(status='illustrated_adapted',adaptation='adaptations/chapter-13.json',reference_ids=['character-008','character-053','character-054','location-010'],review_note='현장은 마르테·그레트헨·귀족복 메피스토펠레스. 남편 사망·보물·다른 여자 이야기는 악마의 주장으로 구분. 파우스트는 아직 등장하지 않음.')
 for u in t['segments']:
  if u['id'] not in placed:fold(u)
 old=s.find(id='chapter13-adaptation-style')

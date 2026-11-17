@@ -954,3 +954,121 @@
 12,23,c12-dense-009,C12_0023,나레이터,FAUST_C12_V04_0023_c12-dense-009_NAR.wav,Charon,8e51f25a38769d03f7e5f5d250e72655cefd85cdbb7ff1280aa559e2a01f08d7,"“네, 그러죠. 기꺼이요.”"
 12,24,c12-dense-009,C12_0024,나레이터,FAUST_C12_V04_0024_c12-dense-009_NAR.wav,Charon,c319add1fafa7022448876a616d76afb44554d9587d0b097a685241c968948eb,파우스트가 떠나자 그는 연인을 잠깐 즐겁게 하려고 해와 달과 별까지 터뜨릴 바보라며 비웃었다. 보석을 다시 구하느라 누가 고생하든 파우스트는 신경도 쓰지 않는다는 투였다.
 12,25,c12-dense-009,C12_0025,메피스토펠레스,FAUST_C12_V04_0025_c12-dense-009_MEP.wav,Fenrir,1029d24136f6d15354f16b239d3f17f2f8969fdedfb856cbee50a8cdb447a994,"그래, 또 구해 주지. 저렇게 급한데 다음 부탁도 금방 하겠지."
+13,0,c13-dense-001,C13_0000,나레이터,FAUST_C13_V04_0000_c13-dense-001_NAR.wav,Charon,b77744684afce63a0c9ad011b0df82578a434e50bce0049c4efbab3dcc0483de,그레트헨의 이웃인 마르테 슈베르트라인은 집에 혼자 있었다. 남편은 집을 떠난 뒤 돌아오지 않았다.
+13,1,c13-dense-001,C13_0001,나레이터,FAUST_C13_V04_0001_c13-dense-001_NAR.wav,Charon,ebae25d750224766f66ab9ab6abb683b4bc61a0ba99ce99ae0fdd3e4e3db5872,“나 혼자 두고 그렇게 가 버리면 어떡해. 나는 잘해 주려고 했는데.”
+13,2,c13-dense-001,C13_0002,나레이터,FAUST_C13_V04_0002_c13-dense-001_NAR.wav,Charon,f4ca4ff990bd0595d9cd4c87420e7015c92fa492221680753cfd0e38e4c08c75,마르테는 남편을 원망하다가도 혹시 무슨 일을 당한 건 아닌지 걱정했다.
+13,3,c13-dense-001,C13_0003,마르테,FAUST_C13_V04_0003_c13-dense-001_MAR.wav,Sulafat,4e2168f00ffacf825714089171bb73b281cfd9d8dff9a8b47f60d5219116782a,잘 지내기라도 하면 좋겠는데. 어디서 뭘 하는지 알아야 기다리든 말든 하지.
+13,4,c13-dense-002,C13_0004,나레이터,FAUST_C13_V04_0004_c13-dense-002_NAR.wav,Charon,953e9e8efc1c34beb5d97000f2b2d40cda3f17b2522902b1443b62e0b2b87155,"마르테는 눈물을 닦았다. 혹시 남편이 죽었다면 사망 증명서라도 있어야 상황을 알 수 있을 텐데, 아무 소식도 없었다."
+13,5,c13-dense-002,C13_0005,나레이터,FAUST_C13_V04_0005_c13-dense-002_NAR.wav,Charon,f0d103ead691a7abea0b15fa164dea9c906a0dcd43f2202d2023a2998602e2e4,그때 그레트헨이 찾아왔다.
+13,6,c13-dense-002,C13_0006,나레이터,FAUST_C13_V04_0006_c13-dense-002_NAR.wav,Charon,2f62f168b0514db295550038432d57ceba3854deab3d645cb36868c6c7e3b128,“아주머니!”
+13,7,c13-dense-002,C13_0007,나레이터,FAUST_C13_V04_0007_c13-dense-002_NAR.wav,Charon,6ec7747e227dc9c2d14bfbb7741b2ba743d62e57aa5dca8a43ecf75c3d09b2fd,"“그레트헨, 왜 그래?”"
+13,8,c13-dense-002,C13_0008,나레이터,FAUST_C13_V04_0008_c13-dense-002_NAR.wav,Charon,d3174474779451d73f08fdb50bc8bb8c53f93f9b97b647991e6f4e12eb7b6284,그레트헨은 너무 놀라 다리에 힘이 풀릴 것 같다고 했다.
+13,9,c13-dense-002,C13_0009,그레트헨,FAUST_C13_V04_0009_c13-dense-002_GRE.wav,Kore,7b9c28c44559ba0d24a6400069795889c9c85795088cd3a2a079d1f10af799cd,어떻게 또 상자가 생기지? 이번엔 혼자 보고 있을 수가 없어. 아주머니한테 보여 드려야겠어.
+13,10,c13-dense-003,C13_0010,나레이터,FAUST_C13_V04_0010_c13-dense-003_NAR.wav,Charon,a749bcedc99d7c13b4562b5cd58d4f65dc4cbbf415dacc44b5cedfbf15e8f584,그레트헨은 수납장에서 또 보석 상자를 찾았다고 했다. 검고 단단한 흑단으로 만든 상자 안에 첫 번째보다 훨씬 화려한 보석이 들어 있었다.
+13,11,c13-dense-003,C13_0011,나레이터,FAUST_C13_V04_0011_c13-dense-003_NAR.wav,Charon,c911412a1506b320f35052f2dd51419959ca22f44c17591f8e4413aa5bba16d5,“엄마한테는 말하지 마. 또 신부님한테 가져가실 거야.”
+13,12,c13-dense-003,C13_0012,나레이터,FAUST_C13_V04_0012_c13-dense-003_NAR.wav,Charon,47321ead84147ab29e74fe610ff8845a7402f6fb48d82f356c4ebab6b3969b8e,마르테가 말하자 그레트헨은 어서 보라며 상자를 열었다.
+13,13,c13-dense-003,C13_0013,마르테,FAUST_C13_V04_0013_c13-dense-003_MAR.wav,Sulafat,c479d35795f1a473e33b40d0aa71e062f289a44297c45920fd67cc760030007a,지난번처럼 내주기는 아깝지. 이렇게 좋은 게 또 들어왔는데.
+13,14,c13-dense-004,C13_0014,나레이터,FAUST_C13_V04_0014_c13-dense-004_NAR.wav,Charon,36c397a5c2239e210ce0ada8a89fffa11e90d7b6a10b774a8096fb336d8913ea,마르테는 그레트헨에게 보석을 해 주며 복도 많다고 했다. 그레트헨은 마음에 들어도 이걸 하고 거리나 교회에는 나갈 수 없다고 했다.
+13,15,c13-dense-004,C13_0015,나레이터,FAUST_C13_V04_0015_c13-dense-004_NAR.wav,Charon,b5eddcc7c98e3b4a5748a4c80f245b5d6bf157245711e3cb87bf661da22e1b43,“그럼 우리 집에 와서 해 보면 되지. 나중에 잔치라도 있으면 하나씩 하고 나가.”
+13,16,c13-dense-004,C13_0016,나레이터,FAUST_C13_V04_0016_c13-dense-004_NAR.wav,Charon,c77937c477debae3e0fa201f660ff2fd4e35d6d495c7b9d63bc8d9db7e1790fb,"마르테는 처음에는 목걸이, 그다음에는 귀걸이를 해 보라며 어머니에게 숨길 방법까지 일러 주었다."
+13,17,c13-dense-004,C13_0017,그레트헨,FAUST_C13_V04_0017_c13-dense-004_GRE.wav,Kore,76d66f395803dd07898204914d43a32d292e494d73e6112e2047765f2868b79e,예쁘기는 한데 엄마가 보시면 뭐라고 하실까? 아주머니 말대로 몰래 해도 괜찮을까?
+13,18,c13-dense-005,C13_0018,나레이터,FAUST_C13_V04_0018_c13-dense-005_NAR.wav,Charon,ab38080c42d4fef84b7923db470e4692b27b3d7df02429adb4c0b46e17d03975,그레트헨은 누가 상자를 두 번이나 가져왔는지 물었다. 잠긴 수납장에 이런 물건이 생기는 게 아무래도 이상했다.
+13,19,c13-dense-005,C13_0019,나레이터,FAUST_C13_V04_0019_c13-dense-005_NAR.wav,Charon,ea616162c28a07bef0df43626278f7771b09c912b0278df1252faa5be08c524c,그때 문 두드리는 소리가 났다.
+13,20,c13-dense-005,C13_0020,나레이터,FAUST_C13_V04_0020_c13-dense-005_NAR.wav,Charon,43b29ed2f5d0b110ebb8571df1ea8a077bf902ca1814362d1d597c8962633631,“엄마인가 봐요!”
+13,21,c13-dense-005,C13_0021,그레트헨,FAUST_C13_V04_0021_c13-dense-005_GRE.wav,Kore,374c630832e47f08d7eb651473ece876eaec375c6ade8e9cebbfd011f1c4319a,들키면 어떡하지? 누가 줬냐고 물어도 대답할 수가 없는데.
+13,22,c13-dense-006,C13_0022,나레이터,FAUST_C13_V04_0022_c13-dense-006_NAR.wav,Charon,a3b5b8cac68a44ed521afc46f9ec33694ed67849de0c9c8b61b8a42b1f957351,마르테가 커튼 사이로 밖을 보았다. 그레트헨의 어머니가 아니라 낯선 남자였다.
+13,23,c13-dense-006,C13_0023,나레이터,FAUST_C13_V04_0023_c13-dense-006_NAR.wav,Charon,e9a7039387b7194b6d429d904914f1e85f12fa8a4d27e8b95ffe2f14c1b32760,“들어오세요.”
+13,24,c13-dense-006,C13_0024,나레이터,FAUST_C13_V04_0024_c13-dense-006_NAR.wav,Charon,146e2ef75941523fd5aa6a8794689a3157099b3c66e8dc928f9fe2e53a3de61e,메피스토펠레스가 공손하게 인사하며 들어왔다. 보석을 한 그레트헨을 보더니 예의를 차리며 한 걸음 물러섰다.
+13,25,c13-dense-006,C13_0025,나레이터,FAUST_C13_V04_0025_c13-dense-006_NAR.wav,Charon,9e3fc1968b7397b763ee2b0b3aca748fba171c0dddca90cef30c159baa8e91f6,“마르테 슈베르트라인 부인 계신가요?”
+13,26,c13-dense-006,C13_0026,나레이터,FAUST_C13_V04_0026_c13-dense-006_NAR.wav,Charon,a43d90043577e327803af79e05771f47f72e7fcabdcbcd70f3d591c1c6d8c4d4,“전데요. 무슨 일이세요?”
+13,27,c13-dense-006,C13_0027,마르테,FAUST_C13_V04_0027_c13-dense-006_MAR.wav,Sulafat,e6fa35225938cf57619889ca4e0a514d89a38376efaedd7b2bebdce81787d080,나를 찾는다고? 아는 얼굴도 아닌데 무슨 볼일이지?
+13,28,c13-dense-007,C13_0028,나레이터,FAUST_C13_V04_0028_c13-dense-007_NAR.wav,Charon,006c7ee1a7bcb17e65446fdb4b7cf002d62c261797edaa8aedf8f86f19e59dfb,메피스토펠레스는 귀한 손님이 계신 줄 몰랐다며 나중에 다시 오겠다고 했다. 그레트헨을 부잣집 아가씨처럼 대하는 말이었다.
+13,29,c13-dense-007,C13_0029,나레이터,FAUST_C13_V04_0029_c13-dense-007_NAR.wav,Charon,8487a51a473046b8ea24843f530a740b6c5b6f84157095f7f7ac8391a48c33c2,마르테가 웃었다.
+13,30,c13-dense-007,C13_0030,나레이터,FAUST_C13_V04_0030_c13-dense-007_NAR.wav,Charon,f8fbf021c971eba2ae6eddd7dfdeddb742e8f1656bdb223c92a689359fbf0e01,“이분이 너를 귀한 집 아가씨로 아시네.”
+13,31,c13-dense-007,C13_0031,메피스토펠레스,FAUST_C13_V04_0031_c13-dense-007_MEP.wav,Fenrir,5b4957231d22ccb751540016d91c3e7879aa6926780bf63aa243192874222a5e,보석 효과가 좋네. 어떻게 대접해야 할지 벌써 달라졌다고 느끼겠지.
+13,32,c13-dense-008,C13_0032,나레이터,FAUST_C13_V04_0032_c13-dense-008_NAR.wav,Charon,0ab6909f08084984441be6cf2cb01f47381b0b89b4e5bb1ad8dfb8a5dde3fbe4,그레트헨은 자기는 가난한 집 아이이며 보석도 자기 것이 아니라고 말했다.
+13,33,c13-dense-008,C13_0033,나레이터,FAUST_C13_V04_0033_c13-dense-008_NAR.wav,Charon,53139783a23e7cb48c3048a0c32a088a91405a1d370b473cb0e4ca5b69efa60a,메피스토펠레스는 보석 때문만은 아니라며 몸가짐과 눈빛까지 칭찬했다. 그레트헨은 뜻밖의 칭찬에 어떻게 답해야 할지 몰랐다.
+13,34,c13-dense-008,C13_0034,그레트헨,FAUST_C13_V04_0034_c13-dense-008_GRE.wav,Kore,c0cdeb75fcfb919bc71590e4cb97d9562fd80090ee41c354cd3ba805d243de0f,"나를 너무 좋게 보시네. 보석만 잠깐 한 건데, 내가 뭐라고."
+13,35,c13-dense-009,C13_0035,나레이터,FAUST_C13_V04_0035_c13-dense-009_NAR.wav,Charon,6bd4b45a5f63600fd0408f5d4ccdfaeaf962a609a8b6c116befee771139556b6,메피스토펠레스가 머물러도 된다니 기쁘다고 하자 마르테는 무슨 일로 왔는지 다시 물었다.
+13,36,c13-dense-009,C13_0036,나레이터,FAUST_C13_V04_0036_c13-dense-009_NAR.wav,Charon,8d66c1b0558aad118c8da6c0a22ae77c7981945a446acc41652ecebfc5820315,“좋은 소식이면 좋았을 텐데요.”
+13,37,c13-dense-009,C13_0037,나레이터,FAUST_C13_V04_0037_c13-dense-009_NAR.wav,Charon,c8306846fd57ccd0067310ba7eb67dc3a76197020bab055c619482f6a30ef6e8,그가 말을 고르자 마르테는 더 궁금해졌다.
+13,38,c13-dense-009,C13_0038,마르테,FAUST_C13_V04_0038_c13-dense-009_MAR.wav,Sulafat,f8ffc9d4d93e8913315b53d40d061aec91c6453a34e9ed5b8146cc826b28fc28,왜 저렇게 뜸을 들이지? 무슨 소식인데?
+13,39,c13-dense-010,C13_0039,나레이터,FAUST_C13_V04_0039_c13-dense-010_NAR.wav,Charon,0e072f2ed80b332512c523cee32960d9c7100702678c0177b557a40a1719c150,“남편분이 돌아가셨어요. 안부를 전해 달라고 하셨습니다.”
+13,40,c13-dense-010,C13_0040,나레이터,FAUST_C13_V04_0040_c13-dense-010_NAR.wav,Charon,445035a37b261324228ca42742c9b5090607abfeb9d879c8f808460d33123b08,메피스토펠레스의 말에 마르테가 굳어졌다.
+13,41,c13-dense-010,C13_0041,나레이터,FAUST_C13_V04_0041_c13-dense-010_NAR.wav,Charon,1e676c81d96c31feeb07566488975650cee0a1753ffebf31015b2ca0c65cb979,“죽었다고요? 우리 남편이?”
+13,42,c13-dense-010,C13_0042,나레이터,FAUST_C13_V04_0042_c13-dense-010_NAR.wav,Charon,976437addcddc1d9db874f1dd3b8ef55c554e447e78276c14c472421a36fb242,기다리던 소식이었지만 막상 죽었다는 말을 듣자 믿기 어려웠다.
+13,43,c13-dense-010,C13_0043,마르테,FAUST_C13_V04_0043_c13-dense-010_MAR.wav,Sulafat,8637489f448f6beac8be3dfbdeeba9e87fe9bcf8afbfc7d196e90bcca2c44646,진짜 죽었다고? 돌아오지도 않고 그렇게 끝났다고?
+13,44,c13-dense-011,C13_0044,나레이터,FAUST_C13_V04_0044_c13-dense-011_NAR.wav,Charon,cdec2eb54b6d87f684b5ed556442ab94c1be650a4ec7e5285b26427efbd3d7ac,마르테가 쓰러질 것 같다며 울자 그레트헨이 곁으로 다가갔다.
+13,45,c13-dense-011,C13_0045,나레이터,FAUST_C13_V04_0045_c13-dense-011_NAR.wav,Charon,f52f01ade6dfd37fdb223a07072d816eef058ef2266e1cbd2e0289ebee0e9a78,"“아주머니, 진정하세요.”"
+13,46,c13-dense-011,C13_0046,나레이터,FAUST_C13_V04_0046_c13-dense-011_NAR.wav,Charon,508bfe6f01685858f908dd8cc4190adc03f5dd6544e15f97659a8e614915973a,그레트헨은 남편을 기다리던 이웃이 갑자기 이런 말을 들었으니 얼마나 괴로울지 걱정됐다.
+13,47,c13-dense-011,C13_0047,그레트헨,FAUST_C13_V04_0047_c13-dense-011_GRE.wav,Kore,0baa6fe2c6eb56ab85b8e439cfc1ab11c7a60e4fc45d76375db4d13bcb2fb2a2,무슨 말을 해야 좀 괜찮아지실까? 혼자 울게 두면 안 되겠어.
+13,48,c13-dense-012,C13_0048,나레이터,FAUST_C13_V04_0048_c13-dense-012_NAR.wav,Charon,7fe8ebc57cf46219d5b5b76d0b8e2b62e5b5e0ca74830a8232d88eeccd055f50,메피스토펠레스는 이제 사연을 들어 보라고 했다. 그레트헨은 사랑하는 사람을 잃으면 너무 슬플 것 같아 차라리 사랑하지 않겠다고 말했다.
+13,49,c13-dense-012,C13_0049,나레이터,FAUST_C13_V04_0049_c13-dense-012_NAR.wav,Charon,bb88ed15acf3038267cc67d10d3ca52d1486911bdeddac38aed0595f02b6f120,메피스토펠레스는 기쁨과 슬픔이 함께 온다는 말로 넘겼다. 마르테는 남편이 마지막에 어떻게 됐는지부터 알려 달라고 했다.
+13,50,c13-dense-012,C13_0050,마르테,FAUST_C13_V04_0050_c13-dense-012_MAR.wav,Sulafat,6fe7c6c994a2a14055046db46acb07e543e300cc099bd3a114cb6d17df51ac30,지금 그런 얘기는 됐고. 남편이 어디서 어떻게 죽었는지부터 말해 줬으면 좋겠어.
+13,51,c13-dense-013,C13_0051,나레이터,FAUST_C13_V04_0051_c13-dense-013_NAR.wav,Charon,d9ede707cb9c18033852709866c35212433cfd55c72e454e573b49218ed6babf,"메피스토펠레스는 남편이 이탈리아의 파도바, 성 안토니우스 성당 곁에 묻혔다고 했다."
+13,52,c13-dense-013,C13_0052,나레이터,FAUST_C13_V04_0052_c13-dense-013_NAR.wav,Charon,0496dc827d303ea7560e5438dddff011f6c8f5301819ea7b7347600c4ea7eda9,마르테는 자기에게 전할 다른 것은 없는지 물었다. 그는 큰 부탁이 있다며 남편을 위해 미사를 삼백 번 드려 달라고 했다는 말을 꺼냈다. 죽은 이를 위해 기도하는 예배를 부탁했다는 것이다.
+13,53,c13-dense-013,C13_0053,메피스토펠레스,FAUST_C13_V04_0053_c13-dense-013_MEP.wav,Fenrir,667bc1d5723b283c1fba507c202578d8d54673cff2c1be15a38cc079480a3262,무덤 위치까지 말해 줬으니 믿겠지. 이제 뭘 더 물어보려나.
+13,54,c13-dense-014,C13_0054,나레이터,FAUST_C13_V04_0054_c13-dense-014_NAR.wav,Charon,d0bbf5223d37e35bd740888eeff45e19baefa47ce7a589c604e93af526fdf36e,메피스토펠레스는 그 밖에는 가져온 것이 없다며 빈손을 보였다.
+13,55,c13-dense-014,C13_0055,나레이터,FAUST_C13_V04_0055_c13-dense-014_NAR.wav,Charon,7b0c4ddb0962e7daadbbeb8ceab9625e9e9b65e33de365a4133e33fda8d10d7f,“기념품 하나도 없어요? 장신구라도?”
+13,56,c13-dense-014,C13_0056,나레이터,FAUST_C13_V04_0056_c13-dense-014_NAR.wav,Charon,c72ccdff7d26c752132600e1da2af31ce932c3cd621943a8faf118a2dca3c6e5,마르테는 남편이 자신과 아이들에게 남긴 것이 있는지 알고 싶었다.
+13,57,c13-dense-014,C13_0057,마르테,FAUST_C13_V04_0057_c13-dense-014_MAR.wav,Sulafat,26d385acf1e8ee7d0bc368a0c44de060dd4515e8167f9e8bf9fac8d35716b8c1,집 떠난 지가 언젠데 남긴 게 하나도 없어? 그동안 번 돈은 다 어디 갔어?
+13,58,c13-dense-015,C13_0058,나레이터,FAUST_C13_V04_0058_c13-dense-015_NAR.wav,Charon,a815519197859efb3793ca70655666b2c7d71f79ed8f6c2f7102c1951ace3853,마르테는 굶더라도 간직하는 기념품조차 없느냐고 따졌다.
+13,59,c13-dense-015,C13_0059,나레이터,FAUST_C13_V04_0059_c13-dense-015_NAR.wav,Charon,1d8c77666310424b63ce3bfe594f80dc88ced80a5aa6d607ef6da0a9ba1f2629,메피스토펠레스는 남편이 잘못을 많이 뉘우쳤다고 했다. 그러고는 자기 불행을 더 슬퍼했다고 덧붙였다. 재산이 어디 갔는지에는 바로 답하지 않았다.
+13,60,c13-dense-015,C13_0060,메피스토펠레스,FAUST_C13_V04_0060_c13-dense-015_MEP.wav,Fenrir,a4e03a18bbac45d24fcc49feee7a88fe3c6117ee55ba7048ebbb7e3302c6a931,물건 얘기는 잠깐 돌려야겠네. 후회했다는 말부터 하면 좀 누그러지겠지.
+13,61,c13-dense-016,C13_0061,나레이터,FAUST_C13_V04_0061_c13-dense-016_NAR.wav,Charon,864f75906d21b0b89f81ac2dfef760d8c59dd9e2f18c9e875932884222f7099a,그레트헨은 남편이 그토록 불행했다니 마음이 아프다며 자신도 기도하겠다고 했다.
+13,62,c13-dense-016,C13_0062,나레이터,FAUST_C13_V04_0062_c13-dense-016_NAR.wav,Charon,22d53a810f0e57501881603318c5083ce2315540400397f0462b9d1b12bb8f56,메피스토펠레스는 마음씨가 고우니 당장 결혼해도 되겠다고 칭찬했다. 방금까지 남편을 잃은 슬픔을 이야기하다가 갑자기 그레트헨의 결혼 얘기로 넘어간 것이다.
+13,63,c13-dense-016,C13_0063,그레트헨,FAUST_C13_V04_0063_c13-dense-016_GRE.wav,Kore,e866baa7e688cc7c77e4a48c9911775bf19f49149148d7cba6b15231d79ca896,나는 그냥 기도하겠다고 한 건데. 왜 갑자기 결혼 얘기를 하시지?
+13,64,c13-dense-017,C13_0064,나레이터,FAUST_C13_V04_0064_c13-dense-017_NAR.wav,Charon,6c406ba39cb5623382b9b0da0fb8c636c96f6181916f06ef03dbb9582139a6ab,그레트헨은 결혼은 아직 할 수 없다고 답했다. 메피스토펠레스는 그럼 연인이라도 있으면 되지 않느냐고 했다.
+13,65,c13-dense-017,C13_0065,나레이터,FAUST_C13_V04_0065_c13-dense-017_NAR.wav,Charon,43b0edb0f4d06cb4c1f76f11b7d56cf40a259fa4f010498ad84e4fdf28eacf93,“우리는 그렇게 안 해요.”
+13,66,c13-dense-017,C13_0066,나레이터,FAUST_C13_V04_0066_c13-dense-017_NAR.wav,Charon,265285f7beaf1f1dd73d77140a57743b73854a90c3b2516e59cb7e08a7201cb0,그레트헨이 선을 그었지만 그는 그런 일은 생기게 마련이라며 넘겼다.
+13,67,c13-dense-017,C13_0067,그레트헨,FAUST_C13_V04_0067_c13-dense-017_GRE.wav,Kore,8da84b77cb674fde113c1caeb5f1af1e43133797b38fdf1a4ccf152ce89f60e5,처음 보는 분이 왜 자꾸 이런 걸 물으시지? 더는 얘기하고 싶지 않은데.
+13,68,c13-dense-018,C13_0068,나레이터,FAUST_C13_V04_0068_c13-dense-018_NAR.wav,Charon,bffa7fbb3c4a65a726fbb89eb0a50442b81505095e1a78a43c5d679234d5da99,"마르테가 남편 이야기를 계속해 달라고 끼어들었다. 메피스토펠레스는 자기가 곁에서 마지막을 지켰다고 했다. 남편이 반쯤 썩은 짚 위에 누워 있었고, 죽기 전 자기 잘못을 돌아봤다는 이야기였다."
+13,69,c13-dense-018,C13_0069,나레이터,FAUST_C13_V04_0069_c13-dense-018_NAR.wav,Charon,5f1f187b6c3a612312b41db6f00ba41ad648108789ffc733b723da7c2ed4ba2c,마르테는 그가 실제로 보았다고 믿으며 귀를 기울였다.
+13,70,c13-dense-018,C13_0070,마르테,FAUST_C13_V04_0070_c13-dense-018_MAR.wav,Sulafat,1b76ed79b850c4736e59a4f304f434e552b1640f5247032746e886407f5a2f2f,그렇게 힘들게 지냈어? 그래도 마지막에는 집 생각이 났겠지?
+13,71,c13-dense-019,C13_0071,나레이터,FAUST_C13_V04_0071_c13-dense-019_NAR.wav,Charon,800c8c22ea3abc240f95041d0288d33c4c731ac0f03169fd5dfa5c6948b39dc9,"메피스토펠레스는 남편의 말을 옮기는 척했다. 일과 아내를 두고 떠난 자신이 밉다며, 죽기 전에 아내가 용서해 주면 좋겠다고 했다는 것이다."
+13,72,c13-dense-019,C13_0072,나레이터,FAUST_C13_V04_0072_c13-dense-019_NAR.wav,Charon,c12bc5ee11bb6c93ce7517cd5cbd5ccf0bd919776205cc17226104aca7850e6c,마르테가 울면서 대답했다.
+13,73,c13-dense-019,C13_0073,나레이터,FAUST_C13_V04_0073_c13-dense-019_NAR.wav,Charon,f604e1c4925963b7c3840d8ca6de1ad1be7a7313b2816e2c8118bce560cae075,“벌써 용서했어요. 그런 걸 마음에 담고 있었어요?”
+13,74,c13-dense-019,C13_0074,마르테,FAUST_C13_V04_0074_c13-dense-019_MAR.wav,Sulafat,de3f17952adf6a78bdd495cfc2bf252ad57c9f2cc46f6502f9654de352827388,그래도 내가 미안한 줄은 알았구나. 살아서 돌아와 말했으면 좋았잖아.
+13,75,c13-dense-020,C13_0075,나레이터,FAUST_C13_V04_0075_c13-dense-020_NAR.wav,Charon,d9630554a6f72bcf5b5a33eb317d14e0e0043fe2996d49f8ba460b1ee490e293,그런데 메피스토펠레스가 바로 다음 말을 보탰다.
+13,76,c13-dense-020,C13_0076,나레이터,FAUST_C13_V04_0076_c13-dense-020_NAR.wav,Charon,ec25b1324202f648622d1778b8a7888d54e6ed75b4af66dcd04ea563b83de309,“하지만 잘못은 나보다 아내가 더 했다고 하셨어요.”
+13,77,c13-dense-020,C13_0077,나레이터,FAUST_C13_V04_0077_c13-dense-020_NAR.wav,Charon,0b61cc552b19e62e6b53e1e505ef40bea050ece504fc0a436c7e1f86350fe567,마르테의 표정이 달라졌다.
+13,78,c13-dense-020,C13_0078,나레이터,FAUST_C13_V04_0078_c13-dense-020_NAR.wav,Charon,839ec38a780aaee2dee7ecd40448a89adbda63a3f2a3ac47b1b2c0519a41b0eb,“거짓말이에요! 죽을 때까지 그런 말을 했다고요?”
+13,79,c13-dense-020,C13_0079,마르테,FAUST_C13_V04_0079_c13-dense-020_MAR.wav,Sulafat,c71dee3aee589deadb5567c292fe6c354c7b303f91ef41e385575269d4a5a3af,내가 뭘 더 잘못했는데? 혼자 집 나간 사람이 끝까지 내 탓이야?
+13,80,c13-dense-021,C13_0080,나레이터,FAUST_C13_V04_0080_c13-dense-021_NAR.wav,Charon,6bf6c4810a9e2531aedb54fecbb4aa846fdf90d6ea4e586af4cd02804619c561,메피스토펠레스는 마지막에 정신이 흐려져서 그런 말을 했을 거라며 달랬다. 그러고는 남편이 자식들 먹여 살리느라 고생하고도 자기 밥조차 편히 먹지 못했다고 말했다.
+13,81,c13-dense-021,C13_0081,나레이터,FAUST_C13_V04_0081_c13-dense-021_NAR.wav,Charon,b03e7d5537b9872c4c2a7e1d879768b6d7aca4dc5ebd7d2f8172241f604842cc,마르테는 자기도 밤낮으로 고생한 것을 남편이 잊었느냐고 따졌다.
+13,82,c13-dense-021,C13_0082,마르테,FAUST_C13_V04_0082_c13-dense-021_MAR.wav,Sulafat,12a1aca53111cc29d1a1f9430465ded38641b3c583635ac1affd10907b634a0e,혼자만 고생했대? 나는 집에서 편히 놀았던 줄 아나? 내 생각은 하나도 안 했네.
+13,83,c13-dense-022,C13_0083,나레이터,FAUST_C13_V04_0083_c13-dense-022_NAR.wav,Charon,493b60e40721968837bf8375c85b7ee0e8260c80961514f9b5af7b6069b87544,"메피스토펠레스는 그렇지 않다며 남편이 가족을 위해 기도한 이야기를 꺼냈다. 몰타를 떠날 때 탄 배가 술탄의 보물을 실은 배를 붙잡았고, 남편도 보물을 나눠 받았다고 했다."
+13,84,c13-dense-022,C13_0084,나레이터,FAUST_C13_V04_0084_c13-dense-022_NAR.wav,Charon,ea680ad2a4f1eaf409f1022e00234316af2f24409d303377fedfc0ea265ddf2d,그 말을 듣자 마르테가 급히 물었다.
+13,85,c13-dense-022,C13_0085,나레이터,FAUST_C13_V04_0085_c13-dense-022_NAR.wav,Charon,ddba8298daf6f107d03ad7cd2001bb8981d679feeafadb932cafdf9c3bd402bf,“보물을 받았다고요?”
+13,86,c13-dense-022,C13_0086,메피스토펠레스,FAUST_C13_V04_0086_c13-dense-022_MEP.wav,Fenrir,5a976d1c065643fc076d760d5f5affe46249dfff8e837b7e4bd2e0179541cfc5,보물 얘기에는 바로 눈이 달라지네. 이제 어디 있냐고 묻겠지.
+13,87,c13-dense-023,C13_0087,나레이터,FAUST_C13_V04_0087_c13-dense-023_NAR.wav,Charon,c71506323bb87529a61dcefcef0f725d699372af42e77d899c46577ebda5324f,"마르테는 보물을 어디에 두었는지, 혹시 묻어 놓았는지 물었다."
+13,88,c13-dense-023,C13_0088,나레이터,FAUST_C13_V04_0088_c13-dense-023_NAR.wav,Charon,ab76e9bf76a9e2822a07072f9bf4eac1071dbdf072156775fae3e8ff8842e150,메피스토펠레스는 누가 알겠느냐며 대답을 피했다. 그러더니 남편이 나폴리에서 아름다운 여인에게 보살핌을 받았다고 말했다. 보물이 남아 있느냐는 질문을 다른 여자 이야기로 돌린 것이다.
+13,89,c13-dense-023,C13_0089,마르테,FAUST_C13_V04_0089_c13-dense-023_MAR.wav,Sulafat,a6a8b9ccad501988e993060affaf691e38cd8a44b4cdd89cbfb58b56950c9c65,돈은 없고 다른 여자한테는 잘했단 말이야? 설마 거기에 다 썼어?
+13,90,c13-dense-024,C13_0090,나레이터,FAUST_C13_V04_0090_c13-dense-024_NAR.wav,Charon,c2cc9ec798071a8334d3d2520a0c4a59060c787d219738d348bb16d2201c34cc,마르테는 아이들 몫까지 훔친 사람이라며 남편을 욕했다. 고생하고도 정신을 못 차렸다며 목소리를 높였다.
+13,91,c13-dense-024,C13_0091,나레이터,FAUST_C13_V04_0091_c13-dense-024_NAR.wav,Charon,7390537f187818b4fc939fd2f9ad1f70240a86fd431e19fb27ca245118a9c670,메피스토펠레스는 그 때문에 이제 죽은 것 아니냐는 듯 짧게 받아쳤다. 그는 남편 이야기를 꺼낼 때마다 마르테를 울렸다가 화나게 만들었다.
+13,92,c13-dense-024,C13_0092,마르테,FAUST_C13_V04_0092_c13-dense-024_MAR.wav,Sulafat,2ff06c5a5f8a09311d65e4eba14b7ca11ff0ccf9a2e0fb60d5956e65e97dd4ac,아이들 생각은 했어야지. 죽었다는 말을 들어도 이건 화가 나잖아.
+13,93,c13-dense-025,C13_0093,나레이터,FAUST_C13_V04_0093_c13-dense-025_NAR.wav,Charon,9b60714fbf98be53a99830ca66d89bc54c91bf2c93a84d6fa939ff539c9df352,메피스토펠레스는 자신이라면 일 년쯤 애도하고 그사이 새로 만날 사람을 찾겠다고 했다. 마르테에게 남편을 잊고 다른 사람을 만나 보라는 말이었다.
+13,94,c13-dense-025,C13_0094,나레이터,FAUST_C13_V04_0094_c13-dense-025_NAR.wav,Charon,7768ad69879eb05b1ac84325a2fd8e2c1b2260db8ba376e1596d922ff5e375b7,마르테는 남편만 한 사람을 또 어디서 찾겠느냐며 한숨을 쉬었다.
+13,95,c13-dense-025,C13_0095,마르테,FAUST_C13_V04_0095_c13-dense-025_MAR.wav,Sulafat,6dedc839e4b28337bd879ccf6ae6a298144b6a4e67fe1c3518e2b52e5bc6171d,화는 나도 같이 살던 사람인데. 다른 사람을 만난다고 남편 생각이 없어질까?
+13,96,c13-dense-026,C13_0096,나레이터,FAUST_C13_V04_0096_c13-dense-026_NAR.wav,Charon,6cf69f78e307b0ba83b94e5c3488451b55d887de6c86d499611d5f0ce9c24571,"마르테는 남편이 다정하기는 했다고 말했다. 다만 돌아다니는 것과 다른 여자, 술과 주사위 놀이를 너무 좋아했다."
+13,97,c13-dense-026,C13_0097,나레이터,FAUST_C13_V04_0097_c13-dense-026_NAR.wav,Charon,482138c5139cd0dbd3a360664c5f9d53e65ddd392ba54c06b270c5e6d56b03ee,메피스토펠레스는 서로 그 정도씩 눈감아 주면 살 만하겠다고 했다. 그런 조건이라면 자기도 마르테와 결혼하겠다며 농담했다.
+13,98,c13-dense-026,C13_0098,메피스토펠레스,FAUST_C13_V04_0098_c13-dense-026_MEP.wav,Fenrir,3c2ed32d690b7d87414f68b7b00f7d64e2202ab1accaf2b69c409a9294a409f5,이만큼 말하면 웃고 넘어가겠지. 설마 정말 청혼으로 받아들이진 않겠지?
+13,99,c13-dense-027,C13_0099,나레이터,FAUST_C13_V04_0099_c13-dense-027_NAR.wav,Charon,b910bf773dd6227c8c2dc0417d4a7223b423ba0b60c61bc86bd98ccf55ad6451,마르테는 농담도 잘한다며 웃었다. 메피스토펠레스는 이쯤에서 빠져나가야겠다고 생각했다. 자기가 한 말을 정말 약속처럼 붙잡을지도 몰랐다.
+13,100,c13-dense-027,C13_0100,나레이터,FAUST_C13_V04_0100_c13-dense-027_NAR.wav,Charon,318950678861b4413a7d3434791c932a35b0e8cded5703b4e3df70bc23e5f901,그는 그레트헨에게 말을 돌렸다.
+13,101,c13-dense-027,C13_0101,나레이터,FAUST_C13_V04_0101_c13-dense-027_NAR.wav,Charon,228b3ee988bc915e3a41947c108e5d7d160eaba9443febd19791e809b3f0ffaa,“아가씨는요? 마음에 둔 사람 있어요?”
+13,102,c13-dense-027,C13_0102,메피스토펠레스,FAUST_C13_V04_0102_c13-dense-027_MEP.wav,Fenrir,87ff336f6d94b2951bdf77047d6eaebbc38d24de7b6f69af01826a249d520ae7,이쪽은 더 얘기하면 위험하겠네. 그레트헨 얘기나 좀 들어 볼까?
+13,103,c13-dense-028,C13_0103,나레이터,FAUST_C13_V04_0103_c13-dense-028_NAR.wav,Charon,a1515a7e74d0481f573383449a3f2897985138ce8eb037e306984f3234aea5ad,“무슨 말씀이세요?”
+13,104,c13-dense-028,C13_0104,나레이터,FAUST_C13_V04_0104_c13-dense-028_NAR.wav,Charon,6ce6999e3981186526b4d6bb0628b66dc38f75057b8fe850cef994eb8b225166,그레트헨은 갑작스러운 질문에 되물었다. 메피스토펠레스는 속으로 그녀가 참 순진하다고 생각하고 더 묻지 않았다.
+13,105,c13-dense-028,C13_0105,나레이터,FAUST_C13_V04_0105_c13-dense-028_NAR.wav,Charon,83ea9ef51f06d97ba5f79fc8c6208bfb1588dd8f4a7155541b2ecc125cdc8c19,"“그럼 두 분, 안녕히 계세요.”"
+13,106,c13-dense-028,C13_0106,나레이터,FAUST_C13_V04_0106_c13-dense-028_NAR.wav,Charon,a3ff3fdacc322ddd9d0520f2e94b57762910106ea2e3fc560e198f6c9afa22e4,그레트헨도 인사했다.
+13,107,c13-dense-028,C13_0107,그레트헨,FAUST_C13_V04_0107_c13-dense-028_GRE.wav,Kore,75042e2664ca5132fa6eadead5ac432e93aad81aafa1e1bf950004755ea2f2d6,무슨 얘기를 하다가 갑자기 내 마음을 물으신 거지? 정말 알 수 없는 분이네.
+13,108,c13-dense-029,C13_0108,나레이터,FAUST_C13_V04_0108_c13-dense-029_NAR.wav,Charon,b4c5a25815a63c7a21ff6ab202035f2b048010ba43a8d2b00e8ed4f4671f68ca,메피스토펠레스가 나가려 하자 마르테가 불러 세웠다. 남편이 언제 어디서 어떻게 죽고 묻혔는지 증명하는 문서가 필요했다. 신문에도 사망 소식이 실리게 하고 싶다고 했다.
+13,109,c13-dense-029,C13_0109,나레이터,FAUST_C13_V04_0109_c13-dense-029_NAR.wav,Charon,01bc347ec13b55a9105f686d08b45674906e9b3ff19d3ddf059931535352bc84,"메피스토펠레스는 증인 두 명이 말하면 된다며, 자기 동료 한 명을 데려오겠다고 답했다."
+13,110,c13-dense-029,C13_0110,마르테,FAUST_C13_V04_0110_c13-dense-029_MAR.wav,Sulafat,350576e6d3fd748174f0e9c85c8eb4f32ab06595716d4ea39cff7002df07e701,말만 들은 걸로는 안 되지. 서류가 있어야 나중에 물어도 설명할 수 있잖아.
+13,111,c13-dense-030,C13_0111,나레이터,FAUST_C13_V04_0111_c13-dense-030_NAR.wav,Charon,f587a95897bd69a269f24f3c8afac502f00cf1ce1734facef153c290900427af,마르테가 꼭 데려와 달라고 하자 메피스토펠레스는 그레트헨도 그때 있을지 물었다. 좋은 청년이라며 동료를 칭찬하기 시작했다.
+13,112,c13-dense-030,C13_0112,나레이터,FAUST_C13_V04_0112_c13-dense-030_NAR.wav,Charon,5fdb359f6cda0206c29ef5b7d1fde4c272265af0459f4fae61574ea093c66010,남편의 죽음을 증명하러 오겠다는 약속에 그레트헨까지 만나게 할 생각이었다.
+13,113,c13-dense-030,C13_0113,메피스토펠레스,FAUST_C13_V04_0113_c13-dense-030_MEP.wav,Fenrir,474f0bf07c65d13b69f711ca43978c22903337d08c2e2ffacae7753146941e9d,증인 얘기로 다시 올 이유가 생겼네. 그레트헨만 같이 있으면 되겠어.
+13,114,c13-dense-031,C13_0114,나레이터,FAUST_C13_V04_0114_c13-dense-031_NAR.wav,Charon,00e2d1598853811b1cca668a32de64ef1eaa447bc60e2909e6d4e325f532f67f,메피스토펠레스는 동료가 여행도 많이 했고 예의도 바르다고 했다. 그레트헨이 그런 사람 앞에서는 부끄러울 것 같다고 하자 누구 앞에서도 주눅 들 필요가 없다고 답했다.
+13,115,c13-dense-031,C13_0115,나레이터,FAUST_C13_V04_0115_c13-dense-031_NAR.wav,Charon,54060f8b1262543c4e7aeceb64c72930a897e405ed948f270027bdf5b3128b07,마르테가 약속 장소를 정했다.
+13,116,c13-dense-031,C13_0116,나레이터,FAUST_C13_V04_0116_c13-dense-031_NAR.wav,Charon,7e9a887e20a8646aac1986f42fc1e6a30a71fb5686d6b6481e78dbd5380a5e6b,“오늘 저녁에 오세요. 집 뒤 정원에서 기다릴게요.”
+13,117,c13-dense-031,C13_0117,그레트헨,FAUST_C13_V04_0117_c13-dense-031_GRE.wav,Kore,03fb052064e29b6f0d26ddb5705d48330520206e72ed6af4582045cf213a3613,오늘 저녁에 또 온다고? 그 청년은 어떤 사람일까. 내가 꼭 같이 있어야 하나?

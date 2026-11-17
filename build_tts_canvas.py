@@ -9,7 +9,7 @@ voice_codes.update({'파우스트':'FAU','바그너':'WAG'})
 crowd_voices={'직공 청년':('Puck','ART'),'세 번째 직공 청년':('Puck','ART3'),'다섯 번째 직공 청년':('Orus','ART5'),'첫 번째 하녀':('Kore','MAID1'),'다른 하녀':('Sulafat','MAID2'),'시민의 딸':('Kore','DAU'),'두 번째 학생':('Puck','STU2'),'첫 번째 학생':('Fenrir','STU1'),'첫 번째 시민':('Orus','CIT1'),'거지':('Charon','BEG'),'두 번째 시민':('Fenrir','CIT2'),'세 번째 시민':('Orus','CIT3'),'노파':('Sulafat','OLDW'),'아가테':('Kore','AGA'),'군인':('Fenrir','SOL'),'목동':('Puck','SHEP'),'춤추는 사람':('Puck','DAN'),'춤추는 아가씨':('Kore','DANW'),'늙은 농부':('Charon','FARM')}
 voice_names.update({k:v[0] for k,v in crowd_voices.items()});voice_codes.update({k:v[1] for k,v in crowd_voices.items()})
 voice_names.update({'학생':'Puck'});voice_codes.update({'학생':'STU7'})
-chapters_to_build=[1,2,3,4,5,6,7,8,9,10,11,12]
+chapters_to_build=[1,2,3,4,5,6,7,8,9,10,11,12,13]
 for ch in chapters_to_build:
  if ch==8:
   voice_names.update({'프로슈':'Puck','브란더':'Fenrir','지벨':'Orus','알트마이어':'Charon'})
@@ -20,6 +20,8 @@ for ch in chapters_to_build:
   voice_codes.update({'수컷 원숭이':'MONM','암컷 원숭이':'MONF','마녀':'WITCH'})
  if ch==10:
   voice_names.update({'그레트헨':'Kore'});voice_codes.update({'그레트헨':'GRE'})
+ if ch==13:
+  voice_names.update({'마르테':'Sulafat'});voice_codes.update({'마르테':'MAR'})
  for section in soup.select('article .adaptation-intro, article .adaptation-prose'):
   parent=section.find_parent('section',class_='illustrated-scene');sid=parent.get('data-scene') if parent else f'c{ch:02}-intro';parts=[]
   for p in section.find_all('p'):
@@ -63,9 +65,13 @@ for ch in chapters_to_build:
    if ch==12:
     seg['performance']['emotion']='분노와 빈정거림, 마지막에는 냉소적인 복종' if speaker=='메피스토펠레스' else '의아함에서 걱정과 조급한 요구로' if speaker=='파우스트' else '소식의 경위를 친절하게 설명하되 보고와 확정된 사실을 구분'
     seg['performance']['acting_notes']+=' 신부와 어머니의 이야기는 메피스토펠레스가 전한 내용으로 읽는다. 나레이션이 갑자기 신부나 어머니 목소리로 변하지 않는다. 악마의 분노도 독백에서는 나직한 보통 말소리로 표현하고 고함·과도한 속삭임을 피한다. 없는 웃음이나 욕설을 새로 넣지 않는다.'
+   if ch==13:
+    no=int(sid[-3:])
+    seg['performance']['emotion']='기다림과 걱정' if no<=2 else '보석에 대한 놀라움과 들뜸' if no<=4 else '낯선 손님에 대한 경계와 예의' if no<=9 else '사망 소식에 놀란 슬픔과 의심' if no<=18 else '용서하려는 슬픔에서 분노로' if no<=24 else '농담과 경계, 만남에 대한 호기심'
+    seg['performance']['acting_notes']+=' 메피스토펠레스는 해요체로 예의를 차리는 척하며 말을 돌린다. 마르테는 남편 이야기의 내용에 따라 슬픔·분노·궁금함을 바꾼다. 그레트헨은 신중하고 자연스러운 말투다. 남편의 이야기는 손님이 전하는 말로 읽고 실제 회상처럼 별도 남편 목소리를 만들지 않는다. 독백은 나직한 보통 말소리로 과한 속삭임을 피한다.'
    units.append(seg);allindex.append({'chapter':ch,'order':idx,'scene_id':sid,'segment_id':seg['id'],'speaker':speaker,'filename':filename,'voice':seg['voice'],'text_sha256':hashlib.sha256(text.encode()).hexdigest(),'text':text})
  assert units, f'Chapter {ch}: completed adaptation prose is required before TTS generation'
- episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기','술집에서 벌어진 눈속임','거울 속 모습과 젊음의 약','거리에서 마주친 소녀','방에 남겨진 보석 상자','사라진 보석과 새로운 부탁'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
+ episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기','술집에서 벌어진 눈속임','거울 속 모습과 젊음의 약','거리에서 마주친 소녀','방에 남겨진 보석 상자','사라진 보석과 새로운 부탁','이웃집에서 꾸민 약속'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
  s=re.sub(r'const originalEpisode = .*?;\s*const originalStory =',lambda m:'const originalEpisode = '+json.dumps(episode,ensure_ascii=False)+';\n        const originalStory =',template,flags=re.S)
  a=s.index('        function parseTurns(');b=s.index("        processBtn.addEventListener",a)
  s=s[:a]+'''        function parseTurns(text) {

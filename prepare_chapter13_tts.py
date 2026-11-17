@@ -1,0 +1,9 @@
+from pathlib import Path
+r=Path(__file__).parent;p=r/'build_tts_canvas.py';s=p.read_text(encoding='utf-8').replace('chapters_to_build=[1,2,3,4,5,6,7,8,9,10,11,12]','chapters_to_build=[1,2,3,4,5,6,7,8,9,10,11,12,13]').replace("'사라진 보석과 새로운 부탁'][ch-1]","'사라진 보석과 새로운 부탁','이웃집에서 꾸민 약속'][ch-1]")
+s=s.replace(' for section in soup.select'," if ch==13:\n  voice_names.update({'마르테':'Sulafat'});voice_codes.update({'마르테':'MAR'})\n for section in soup.select")
+s=s.replace('   units.append(seg);allindex.append',"   if ch==13:\n    no=int(sid[-3:])\n    seg['performance']['emotion']='기다림과 걱정' if no<=2 else '보석에 대한 놀라움과 들뜸' if no<=4 else '낯선 손님에 대한 경계와 예의' if no<=9 else '사망 소식에 놀란 슬픔과 의심' if no<=18 else '용서하려는 슬픔에서 분노로' if no<=24 else '농담과 경계, 만남에 대한 호기심'\n    seg['performance']['acting_notes']+=' 메피스토펠레스는 해요체로 예의를 차리는 척하며 말을 돌린다. 마르테는 남편 이야기의 내용에 따라 슬픔·분노·궁금함을 바꾼다. 그레트헨은 신중하고 자연스러운 말투다. 남편의 이야기는 손님이 전하는 말로 읽고 실제 회상처럼 별도 남편 목소리를 만들지 않는다. 독백은 나직한 보통 말소리로 과한 속삭임을 피한다.'\n   units.append(seg);allindex.append")
+p.write_text(s,encoding='utf-8')
+for name in ('test_tts_effects.cjs','test_tts_batch_v04.cjs'):
+ p=r/name;s=p.read_text(encoding='utf-8').replace('ch<=12','ch<=13').replace('chapters:[1,2,3,4,5,6,7,8,9,10,11,12]','chapters:[1,2,3,4,5,6,7,8,9,10,11,12,13]').replace('twelve chapter routes','thirteen chapter routes');p.write_text(s,encoding='utf-8')
+text=(r/'save_chapter10_grid.py').read_text(encoding='utf-8').replace('chapter10','chapter13').replace('c10-','c13-').replace('dense-001','dense-002').replace("e['chapter']==10","e['chapter']==13").replace('[:];assert','[16:];assert').replace('==12','==15').replace('i<12','i<15').replace('i-11','i-14').replace('12 scenes and 4','15 scenes and 1');(r/'save_chapter13_final.py').write_text(text,encoding='utf-8')
+print('Chapter13 final crop/TTS tools prepared')
