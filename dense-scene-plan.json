@@ -19303,16 +19303,31 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "character-053",
+        "character-054",
         "location-011"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-028",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c15-dense-017.webp",
+      "source_grid": "source_images/chapter15-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json"
     },
     {
       "id": "c15-dense-018",
@@ -19331,16 +19346,31 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "character-053",
+        "character-054",
         "location-011"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-028",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c15-dense-018.webp",
+      "source_grid": "source_images/chapter15-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json"
     },
     {
       "id": "c15-dense-019",
@@ -19359,16 +19389,31 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "character-053",
+        "character-054",
         "location-011"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-028",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c15-dense-019.webp",
+      "source_grid": "source_images/chapter15-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json"
     },
     {
       "id": "c15-dense-020",
@@ -19387,16 +19432,31 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "character-053",
+        "character-054",
         "location-011"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-028",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c15-dense-020.webp",
+      "source_grid": "source_images/chapter15-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json"
     },
     {
       "id": "c15-dense-021",
@@ -19411,15 +19471,32 @@
       "composition": "대화 상대와 몸짓의 관계",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
         "location-011"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-028",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c15-dense-021.webp",
+      "source_grid": "source_images/chapter15-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json"
     },
     {
       "id": "c15-dense-022",
@@ -19438,17 +19515,32 @@
         "MARTHE"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-053",
         "character-054",
         "location-011"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-028",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c15-dense-022.webp",
+      "source_grid": "source_images/chapter15-dense-002.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json"
     },
     {
       "id": "c15-dense-023",
@@ -19465,16 +19557,32 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-053",
+        "character-054",
         "location-011"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-029",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c15-dense-023.webp",
+      "source_grid": "source_images/chapter15-dense-002.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json"
     },
     {
       "id": "c15-dense-024",
@@ -19492,17 +19600,32 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-053",
         "character-054",
         "location-011"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-029",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c15-dense-024.webp",
+      "source_grid": "source_images/chapter15-dense-002.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json"
     },
     {
       "id": "c16-dense-001",

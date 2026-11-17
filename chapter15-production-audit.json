@@ -1,11 +1,11 @@
 {
   "chapter": 15,
-  "status": "partial",
+  "status": "complete",
   "source_chars": 6389,
   "source_sha256": "e6d6b84346a48cc82f1c672460c37cf8f958b4417bc92efe2fb0f7f14b8e5aa6",
   "independent_source_match": true,
   "bilingual_units": 13,
-  "illustrations": 16,
-  "tts_segments": 0,
+  "illustrations": 24,
+  "tts_segments": 109,
   "audio_generated": false
 }
