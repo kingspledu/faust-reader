@@ -9,7 +9,7 @@ voice_codes.update({'파우스트':'FAU','바그너':'WAG'})
 crowd_voices={'직공 청년':('Puck','ART'),'세 번째 직공 청년':('Puck','ART3'),'다섯 번째 직공 청년':('Orus','ART5'),'첫 번째 하녀':('Kore','MAID1'),'다른 하녀':('Sulafat','MAID2'),'시민의 딸':('Kore','DAU'),'두 번째 학생':('Puck','STU2'),'첫 번째 학생':('Fenrir','STU1'),'첫 번째 시민':('Orus','CIT1'),'거지':('Charon','BEG'),'두 번째 시민':('Fenrir','CIT2'),'세 번째 시민':('Orus','CIT3'),'노파':('Sulafat','OLDW'),'아가테':('Kore','AGA'),'군인':('Fenrir','SOL'),'목동':('Puck','SHEP'),'춤추는 사람':('Puck','DAN'),'춤추는 아가씨':('Kore','DANW'),'늙은 농부':('Charon','FARM')}
 voice_names.update({k:v[0] for k,v in crowd_voices.items()});voice_codes.update({k:v[1] for k,v in crowd_voices.items()})
 voice_names.update({'학생':'Puck'});voice_codes.update({'학생':'STU7'})
-chapters_to_build=[1,2,3,4,5,6,7,8,9]
+chapters_to_build=[1,2,3,4,5,6,7,8,9,10]
 for ch in chapters_to_build:
  if ch==8:
   voice_names.update({'프로슈':'Puck','브란더':'Fenrir','지벨':'Orus','알트마이어':'Charon'})
@@ -18,6 +18,8 @@ for ch in chapters_to_build:
  if ch==9:
   voice_names.update({'수컷 원숭이':'Puck','암컷 원숭이':'Kore','마녀':'Sulafat'})
   voice_codes.update({'수컷 원숭이':'MONM','암컷 원숭이':'MONF','마녀':'WITCH'})
+ if ch==10:
+  voice_names.update({'그레트헨':'Kore'});voice_codes.update({'그레트헨':'GRE'})
  for section in soup.select('article .adaptation-intro, article .adaptation-prose'):
   parent=section.find_parent('section',class_='illustrated-scene');sid=parent.get('data-scene') if parent else f'c{ch:02}-intro';parts=[]
   for p in section.find_all('p'):
@@ -51,9 +53,12 @@ for ch in chapters_to_build:
     no=int(sid[-3:])
     seg['performance']['emotion']='불쾌함과 의심, 악마의 여유' if no<=8 else '장난과 엉뚱한 호기심' if no<=16 else '아름다운 환영에 대한 갈망과 초조함' if no<=21 else '갑작스러운 소란과 분노에서 두려움으로' if no<=28 else '정체를 알아본 안도와 빈정거림' if no<=33 else '위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증' if no<=41 else '약을 마신 뒤의 기대와 유혹'
     seg['performance']['acting_notes']+=' 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.'
+   if ch==10:
+    seg['performance']['emotion']='처음 만난 상대에 대한 분명한 경계' if speaker=='그레트헨' else '조급한 관심과 뜻대로 되지 않는 데 대한 짜증' if speaker=='파우스트' else '상대의 조급함을 살피는 냉정한 계산과 빈정거림' if speaker=='메피스토펠레스' else '차분하고 친절한 설명, 거절과 요구의 차이를 명확히 전달'
+    seg['performance']['acting_notes']+=' 그레트헨은 수줍은 동의처럼 읽지 않고 정중하면서 분명하게 말한다. 파우스트의 조급함을 다정한 구애로 미화하지 않는다. 음색은 기존 인물과 같다. 독백은 나직한 보통 말소리로, 과한 속삭임과 선정적인 연출을 피한다.'
    units.append(seg);allindex.append({'chapter':ch,'order':idx,'scene_id':sid,'segment_id':seg['id'],'speaker':speaker,'filename':filename,'voice':seg['voice'],'text_sha256':hashlib.sha256(text.encode()).hexdigest(),'text':text})
  assert units, f'Chapter {ch}: completed adaptation prose is required before TTS generation'
- episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기','술집에서 벌어진 눈속임','거울 속 모습과 젊음의 약'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
+ episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기','술집에서 벌어진 눈속임','거울 속 모습과 젊음의 약','거리에서 마주친 소녀'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
  s=re.sub(r'const originalEpisode = .*?;\s*const originalStory =',lambda m:'const originalEpisode = '+json.dumps(episode,ensure_ascii=False)+';\n        const originalStory =',template,flags=re.S)
  a=s.index('        function parseTurns(');b=s.index("        processBtn.addEventListener",a)
  s=s[:a]+'''        function parseTurns(text) {

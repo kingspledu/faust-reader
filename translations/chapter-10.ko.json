@@ -1,0 +1,56 @@
+{
+  "chapter": 10,
+  "status": "complete_draft_translation",
+  "source_total_chars": 2947,
+  "covered_end": 2947,
+  "segments": [
+    {
+      "id": "C10-T001",
+      "source_start": 0,
+      "source_end": 596,
+      "source": "Faust. Margarete vorübergehend.\n\nFAUST.\nMein schönes Fräulein, darf ich wagen,\nMeinen Arm und Geleit Ihr anzutragen?\n\nMARGARETE.\nBin weder Fräulein, weder schön,\nKann ungeleitet nach Hause gehn.\n(Sie macht sich los und ab.)\n\nFAUST.\nBeim Himmel, dieses Kind ist schön!\nSo etwas hab ich nie gesehn.\nSie ist so sitt- und tugendreich,\nUnd etwas schnippisch doch zugleich.\nDer Lippe Rot, der Wange Licht,\nDie Tage der Welt vergeß ich’s nicht!\nWie sie die Augen niederschlägt,\nHat tief sich in mein Herz geprägt;\nWie sie kurz angebunden war,\nDas ist nun zum Entzücken gar!\n(Mephistopheles tritt auf.)\n\n",
+      "ko": "파우스트. 마르가레테가 지나간다.\n\n파우스트\n아름다운 아가씨, 실례가 안 된다면 제 팔을 잡고 함께 가시겠습니까?\n\n마르가레테\n저는 귀한 집 아가씨도 아니고 아름답지도 않아요.\n혼자 집에 갈 수 있어요.\n(몸을 빼고 떠난다.)\n\n파우스트\n하늘에 맹세코, 저 소녀는 아름답구나!\n저런 사람은 본 적이 없어.\n저토록 얌전하고 착하면서도 조금은 새침하군.\n붉은 입술과 환한 뺨을 평생 잊지 못하겠어!\n눈을 내리깐 모습이 마음속에 깊이 남았네.\n짧게 잘라 대답한 것까지 정말 사랑스럽구나!\n(메피스토펠레스가 등장한다.)"
+    },
+    {
+      "id": "C10-T002",
+      "source_start": 596,
+      "source_end": 1160,
+      "source": "FAUST.\nHör, du mußt mir die Dirne schaffen!\n\nMEPHISTOPHELES.\nNun, welche?\n\nFAUST.\nSie ging just vorbei.\n\nMEPHISTOPHELES.\nDa die? Sie kam von ihrem Pfaffen,\nDer sprach sie aller Sünden frei\nIch schlich mich hart am Stuhl vorbei,\nEs ist ein gar unschuldig Ding,\nDas eben für nichts zur Beichte ging;\nÜber die hab ich keine Gewalt!\n\nFAUST.\nIst über vierzehn Jahr doch alt.\n\nMEPHISTOPHELES.\nDu sprichst ja wie Hans Liederlich,\nDer begehrt jede liebe Blum für sich,\nUnd dünkelt ihm, es wär kein Ehr\nUnd Gunst, die nicht zu pflücken wär;\nGeht aber doch nicht immer an.\n\n",
+      "ko": "파우스트\n이봐, 저 여자를 내게 데려와야겠네!\n\n메피스토펠레스\n누구 말입니까?\n\n파우스트\n방금 지나간 여자일세.\n\n메피스토펠레스\n저 소녀요? 자기 신부님에게 다녀오는 길입니다.\n신부가 죄를 모두 용서해 주었지요.\n제가 고해석 바로 곁으로 슬쩍 지나갔는데,\n아주 순진해서 아무 일도 없는데 고해하러 갔더군요.\n저 아이에게는 제 힘이 미치지 않습니다!\n\n파우스트\n그래도 열네 살은 넘었겠지.\n\n메피스토펠레스\n모든 예쁜 꽃을 자기 것으로 갖고 싶어 하는 방탕한 사내처럼 말하는군요.\n얻지 못할 명예도 호의도 없다고 생각하는 사람 말입니다.\n하지만 늘 뜻대로 되는 것은 아닙니다."
+    },
+    {
+      "id": "C10-T003",
+      "source_start": 1160,
+      "source_end": 1599,
+      "source": "FAUST.\nMein Herr Magister Lobesan,\nLaß Er mich mit dem Gesetz in Frieden!\nUnd das sag ich Ihm kurz und gut.\nWenn nicht das süße junge Blut\nHeut Nacht in meinen Armen ruht,\nSo sind wir um Mitternacht geschieden.\n\nMEPHISTOPHELES.\nBedenkt, was gehn und stehen mag!\nIch brauche wenigstens vierzehn Tag,\nNur die Gelegenheit auszuspüren.\n\nFAUST.\nHätt ich nur sieben Stunden Ruh,\nBrauchte den Teufel nicht dazu\nSo ein Geschöpfchen zu verführen.\n\n",
+      "ko": "파우스트\n이 점잖은 훈장 선생 양반, 규칙 이야기로 나를 귀찮게 하지 말게!\n짧고 분명하게 말하지.\n오늘 밤 저 젊은 여인이 내 품에 안기지 않는다면,\n우리는 자정에 헤어질 걸세.\n\n메피스토펠레스\n어떻게 해야 할지 생각해 보십시오!\n기회를 알아보는 데만 적어도 열나흘은 필요합니다.\n\n파우스트\n일곱 시간만 여유가 있다면 저런 소녀를 유혹하는 데 악마까지 필요하지는 않겠네."
+    },
+    {
+      "id": "C10-T004",
+      "source_start": 1599,
+      "source_end": 2140,
+      "source": "MEPHISTOPHELES.\nIhr sprecht schon fast wie ein Franzos;\nDoch bitt ich, laßt’s Euch nicht verdrießen.\nWas hilft’s, nur grade zu genießen?\nDie Freud ist lange nicht so groß,\nAls wenn Ihr erst herauf, herum\nDurch allerlei Brimborium,\nDas Püppchen geknetet und zugericht’t\nWie’s lehret manche welsche Geschicht.\n\nFAUST.\nHab Appetit auch ohne das.\n\nMEPHISTOPHELES.\nJetzt ohne Schimpf und ohne Spaß.\nIch sag Euch, mit dem schönen Kind\nGeht’s ein für allemal nicht geschwind.\nMit Sturm ist da nichts einzunehmen;\nWir müssen uns zur List bequemen.\n\n",
+      "ko": "메피스토펠레스\n거의 프랑스인처럼 말씀하시는군요.\n그래도 부디 성급하게 굴지 마십시오.\n곧바로 즐기기만 해서 무엇이 좋겠습니까?\n온갖 번거로운 일을 거쳐, 남쪽 나라 이야기들에서 가르치듯 상대를 제 뜻대로 길들이고 준비시켰을 때의 즐거움이 훨씬 크지요.\n\n파우스트\n그런 것 없이도 마음은 충분하네.\n\n메피스토펠레스\n이제 빈정거림도 농담도 그만하지요.\n그 아름다운 소녀에게는 절대로 서둘러서는 안 됩니다.\n거칠게 밀어붙여서는 얻을 수 없으니 꾀를 써야 합니다."
+    },
+    {
+      "id": "C10-T005",
+      "source_start": 2140,
+      "source_end": 2661,
+      "source": "FAUST.\nSchaff mir etwas vom Engelsschatz!\nFühr mich an ihren Ruheplatz!\nSchaff mir ein Halstuch von ihrer Brust,\nEin Strumpfband meiner Liebeslust!\n\nMEPHISTOPHELES.\nDamit Ihr seht, daß ich Eurer Pein\nWill förderlich und dienstlich sein’\nWollen wir keinen Augenblick verlieren,\nWill Euch noch heut in ihr Zimmer führen.\n\nFAUST.\nUnd soll sie sehn? sie haben?\n\nMEPHISTOPHELES.\nNein! Sie wird bei einer Nachbarin sein.\nIndessen könnt Ihr ganz allein\nAn aller Hoffnung künft’ger Freuden\nIn ihrem Dunstkreis satt Euch weiden.\n\n",
+      "ko": "파우스트\n저 천사 같은 여인의 물건이라도 가져다주게!\n그녀가 쉬는 곳으로 데려가 주게!\n가슴에 둘렀던 목수건이나 사랑하는 마음을 달랠 양말 대님이라도 가져오게!\n\n메피스토펠레스\n제가 그 괴로움을 덜어 드리려고 기꺼이 돕는다는 것을 보이겠습니다.\n한순간도 지체하지 않고 오늘 안으로 그녀의 방에 모셔다 드리지요.\n\n파우스트\n그녀를 만나나? 내 곁에 둘 수 있나?\n\n메피스토펠레스\n아닙니다! 그녀는 이웃 여인의 집에 있을 겁니다.\n그동안 혼자서 그녀의 흔적이 있는 방에 머물며 앞으로의 기쁨을 마음껏 기대하실 수 있지요."
+    },
+    {
+      "id": "C10-T006",
+      "source_start": 2661,
+      "source_end": 2947,
+      "source": "FAUST.\nKönnen wir hin?\n\nMEPHISTOPHELES.\nEs ist noch zu früh.\nFAUST.\nSorg du mir für ein Geschenk für sie!\n(Ab.)\n\nMEPHISTOPHELES.\nGleich schenken? Das ist brav! Da wird er reüssieren!\nIch kenne manchen schönen Platz\nUnd manchen altvergrabnen Schatz;\nIch muß ein bißchen revidieren.\n(Ab.)",
+      "ko": "파우스트\n갈 수 있나?\n\n메피스토펠레스\n아직 너무 이릅니다.\n\n파우스트\n그녀에게 줄 선물을 준비해 주게!\n(퇴장.)\n\n메피스토펠레스\n벌써 선물이라? 훌륭하군! 잘되어 가겠어!\n나는 좋은 장소도 알고 오래전에 묻힌 보물도 여럿 알지.\n좀 살펴봐야겠군.\n(퇴장.)"
+    }
+  ],
+  "notes": [
+    "Fräulein의 신분 호칭 의미를 대응 번역에 반영.",
+    "열네 살 발언은 파우스트의 추측으로 보존하며 성년으로 바꾸지 않음.",
+    "목수건·양말 대님 요구는 원문 뜻을 비선정적으로 보존. 실제 획득 사건으로 그리지 않음.",
+    "상대를 꾀로 얻으려는 발언은 인물의 태도이며 서술자가 정당화하지 않음."
+  ]
+}

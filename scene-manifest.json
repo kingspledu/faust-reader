@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-9 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1-10 illustrated and adapted; later chapters pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -15485,6 +15485,528 @@
       "adaptation": "adaptations/chapter-09.json",
       "char_offset": 12236,
       "anchor": "Nein! Du sollst das Muster aller Frauen\nNun bald leibhaftig vor dir sehn.\n(Leise.)\n\nDu siehst, mit d"
+    },
+    {
+      "id": "c10-dense-001",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 194,
+      "source_text": "Faust. Margarete vorübergehend.\n\nFAUST.\nMein schönes Fräulein, darf ich wagen,\nMeinen Arm und Geleit Ihr anzutragen?\n\nMARGARETE.\nBin weder Fräulein, weder schön,\nKann ungeleitet nach Hause gehn.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c10-dense-001.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 0,
+      "anchor": "Faust. Margarete vorübergehend.\n\nFAUST.\nMein schönes Fräulein, darf ich wagen,\nMeinen Arm und Geleit"
+    },
+    {
+      "id": "c10-dense-002",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 4,
+      "source_start": 194,
+      "source_end": 437,
+      "source_text": "\n(Sie macht sich los und ab.)\n\nFAUST.\nBeim Himmel, dieses Kind ist schön!\nSo etwas hab ich nie gesehn.\nSie ist so sitt- und tugendreich,\nUnd etwas schnippisch doch zugleich.\nDer Lippe Rot, der Wange Licht,\nDie Tage der Welt vergeß ich’s nicht!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c10-dense-002.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 194,
+      "anchor": "(Sie macht sich los und ab.)\n\nFAUST.\nBeim Himmel, dieses Kind ist schön!\nSo etwas hab ich nie gesehn"
+    },
+    {
+      "id": "c10-dense-003",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 4,
+      "source_start": 437,
+      "source_end": 699,
+      "source_text": "\nWie sie die Augen niederschlägt,\nHat tief sich in mein Herz geprägt;\nWie sie kurz angebunden war,\nDas ist nun zum Entzücken gar!\n(Mephistopheles tritt auf.)\n\nFAUST.\nHör, du mußt mir die Dirne schaffen!\n\nMEPHISTOPHELES.\nNun, welche?\n\nFAUST.\nSie ging just vorbei.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c10-dense-003.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 437,
+      "anchor": "Wie sie die Augen niederschlägt,\nHat tief sich in mein Herz geprägt;\nWie sie kurz angebunden war,\nDa"
+    },
+    {
+      "id": "c10-dense-004",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 4,
+      "source_start": 699,
+      "source_end": 1158,
+      "source_text": "\n\nMEPHISTOPHELES.\nDa die? Sie kam von ihrem Pfaffen,\nDer sprach sie aller Sünden frei\nIch schlich mich hart am Stuhl vorbei,\nEs ist ein gar unschuldig Ding,\nDas eben für nichts zur Beichte ging;\nÜber die hab ich keine Gewalt!\n\nFAUST.\nIst über vierzehn Jahr doch alt.\n\nMEPHISTOPHELES.\nDu sprichst ja wie Hans Liederlich,\nDer begehrt jede liebe Blum für sich,\nUnd dünkelt ihm, es wär kein Ehr\nUnd Gunst, die nicht zu pflücken wär;\nGeht aber doch nicht immer an.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c10-dense-004.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 699,
+      "anchor": "MEPHISTOPHELES.\nDa die? Sie kam von ihrem Pfaffen,\nDer sprach sie aller Sünden frei\nIch schlich mich"
+    },
+    {
+      "id": "c10-dense-005",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 4,
+      "source_start": 1158,
+      "source_end": 1421,
+      "source_text": "\n\nFAUST.\nMein Herr Magister Lobesan,\nLaß Er mich mit dem Gesetz in Frieden!\nUnd das sag ich Ihm kurz und gut.\nWenn nicht das süße junge Blut\nHeut Nacht in meinen Armen ruht,\nSo sind wir um Mitternacht geschieden.\n\nMEPHISTOPHELES.\nBedenkt, was gehn und stehen mag!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c10-dense-005.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 1158,
+      "anchor": "FAUST.\nMein Herr Magister Lobesan,\nLaß Er mich mit dem Gesetz in Frieden!\nUnd das sag ich Ihm kurz u"
+    },
+    {
+      "id": "c10-dense-006",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 4,
+      "source_start": 1421,
+      "source_end": 1735,
+      "source_text": "\nIch brauche wenigstens vierzehn Tag,\nNur die Gelegenheit auszuspüren.\n\nFAUST.\nHätt ich nur sieben Stunden Ruh,\nBrauchte den Teufel nicht dazu\nSo ein Geschöpfchen zu verführen.\n\nMEPHISTOPHELES.\nIhr sprecht schon fast wie ein Franzos;\nDoch bitt ich, laßt’s Euch nicht verdrießen.\nWas hilft’s, nur grade zu genießen?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c10-dense-006.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 1421,
+      "anchor": "Ich brauche wenigstens vierzehn Tag,\nNur die Gelegenheit auszuspüren.\n\nFAUST.\nHätt ich nur sieben St"
+    },
+    {
+      "id": "c10-dense-007",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 4,
+      "source_start": 1735,
+      "source_end": 2067,
+      "source_text": "\nDie Freud ist lange nicht so groß,\nAls wenn Ihr erst herauf, herum\nDurch allerlei Brimborium,\nDas Püppchen geknetet und zugericht’t\nWie’s lehret manche welsche Geschicht.\n\nFAUST.\nHab Appetit auch ohne das.\n\nMEPHISTOPHELES.\nJetzt ohne Schimpf und ohne Spaß.\nIch sag Euch, mit dem schönen Kind\nGeht’s ein für allemal nicht geschwind.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c10-dense-007.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 1735,
+      "anchor": "Die Freud ist lange nicht so groß,\nAls wenn Ihr erst herauf, herum\nDurch allerlei Brimborium,\nDas Pü"
+    },
+    {
+      "id": "c10-dense-008",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 4,
+      "source_start": 2067,
+      "source_end": 2287,
+      "source_text": "\nMit Sturm ist da nichts einzunehmen;\nWir müssen uns zur List bequemen.\n\nFAUST.\nSchaff mir etwas vom Engelsschatz!\nFühr mich an ihren Ruheplatz!\nSchaff mir ein Halstuch von ihrer Brust,\nEin Strumpfband meiner Liebeslust!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c10-dense-008.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 2067,
+      "anchor": "Mit Sturm ist da nichts einzunehmen;\nWir müssen uns zur List bequemen.\n\nFAUST.\nSchaff mir etwas vom "
+    },
+    {
+      "id": "c10-dense-009",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 4,
+      "source_start": 2287,
+      "source_end": 2519,
+      "source_text": "\n\nMEPHISTOPHELES.\nDamit Ihr seht, daß ich Eurer Pein\nWill förderlich und dienstlich sein’\nWollen wir keinen Augenblick verlieren,\nWill Euch noch heut in ihr Zimmer führen.\n\nFAUST.\nUnd soll sie sehn? sie haben?\n\nMEPHISTOPHELES.\nNein!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c10-dense-009.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 2287,
+      "anchor": "MEPHISTOPHELES.\nDamit Ihr seht, daß ich Eurer Pein\nWill förderlich und dienstlich sein’\nWollen wir k"
+    },
+    {
+      "id": "c10-dense-010",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 3,
+      "source_start": 2519,
+      "source_end": 2683,
+      "source_text": " Sie wird bei einer Nachbarin sein.\nIndessen könnt Ihr ganz allein\nAn aller Hoffnung künft’ger Freuden\nIn ihrem Dunstkreis satt Euch weiden.\n\nFAUST.\nKönnen wir hin?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c10-dense-010.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 2519,
+      "anchor": "Sie wird bei einer Nachbarin sein.\nIndessen könnt Ihr ganz allein\nAn aller Hoffnung künft’ger Freude"
+    },
+    {
+      "id": "c10-dense-011",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 3,
+      "source_start": 2683,
+      "source_end": 2806,
+      "source_text": "\n\nMEPHISTOPHELES.\nEs ist noch zu früh.\nFAUST.\nSorg du mir für ein Geschenk für sie!\n(Ab.)\n\nMEPHISTOPHELES.\nGleich schenken?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c10-dense-011.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 2683,
+      "anchor": "MEPHISTOPHELES.\nEs ist noch zu früh.\nFAUST.\nSorg du mir für ein Geschenk für sie!\n(Ab.)\n\nMEPHISTOPHE"
+    },
+    {
+      "id": "c10-dense-012",
+      "chapter": 10,
+      "chapter_title": "Straße (I)",
+      "sentence_count": 3,
+      "source_start": 2806,
+      "source_end": 2947,
+      "source_text": " Das ist brav! Da wird er reüssieren!\nIch kenne manchen schönen Platz\nUnd manchen altvergrabnen Schatz;\nIch muß ein bißchen revidieren.\n(Ab.)",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-007"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-023",
+      "review_note": "회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c10-dense-012.webp",
+      "source_grid": "source_images/chapter10-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-10.json",
+      "char_offset": 2806,
+      "anchor": "Das ist brav! Da wird er reüssieren!\nIch kenne manchen schönen Platz\nUnd manchen altvergrabnen Schat"
     }
   ]
 }
