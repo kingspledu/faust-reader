@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1–5 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1–6 illustrated and adapted; later chapters pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -5541,6 +5541,2075 @@
       ],
       "char_offset": 13810,
       "anchor": "FAUST.\nDu hast wohl recht; ich finde nicht die Spur\nVon einem Geist, und alles ist Dressur.\n\nWAGNER."
+    },
+    {
+      "id": "c06-dense-001",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 314,
+      "source_text": "Faust mit dem Pudel hereintretend.\n\nFAUST.\nVerlassen hab ich Feld und Auen,\nDie eine tiefe Nacht bedeckt,\nMit ahnungsvollem, heil’gem Grauen\nIn uns die beßre Seele weckt.\nEntschlafen sind nun wilde Triebe\nMit jedem ungestümen Tun;\nEs reget sich die Menschenliebe,\nDie Liebe Gottes regt sich nun.\n\nSei ruhig, Pudel!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c06-dense-001.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "alternative_images": [
+        {
+          "image": "illustrations/c06-dense-001-v2.webp",
+          "source_grid": "source_images/chapter06-dense-003.png",
+          "crop_box": [
+            1155,
+            515,
+            1533,
+            765
+          ],
+          "native_grid_size": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 0,
+      "anchor": "Faust mit dem Pudel hereintretend.\n\nFAUST.\nVerlassen hab ich Feld und Auen,\nDie eine tiefe Nacht bed"
+    },
+    {
+      "id": "c06-dense-002",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 314,
+      "source_end": 600,
+      "source_text": " Renne nicht hin und wieder!\nAn der Schwelle was schnoperst du hier?\nLege dich hinter den Ofen nieder,\nMein bestes Kissen geb ich dir.\nWie du draußen auf dem bergigen Wege\nDurch Rennen und Springen ergetzt uns hast,\nSo nimm nun auch von mir die Pflege,\nAls ein willkommner stiller Gast.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c06-dense-002.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "alternative_images": [
+        {
+          "image": "illustrations/c06-dense-002-v2.webp",
+          "source_grid": "source_images/chapter06-dense-003.png",
+          "crop_box": [
+            3,
+            771,
+            381,
+            1021
+          ],
+          "native_grid_size": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 314,
+      "anchor": "Renne nicht hin und wieder!\nAn der Schwelle was schnoperst du hier?\nLege dich hinter den Ofen nieder"
+    },
+    {
+      "id": "c06-dense-003",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 600,
+      "source_end": 902,
+      "source_text": "\n\nAch wenn in unsrer engen Zelle\nDie Lampe freundlich wieder brennt,\nDann wird’s in unserm Busen helle,\nIm Herzen, das sich selber kennt.\nVernunft fängt wieder an zu sprechen,\nUnd Hoffnung wieder an zu blühn,\nMan sehnt sich nach des Lebens Bächen,\nAch! nach des Lebens Quelle hin.\n\nKnurre nicht, Pudel!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c06-dense-003.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "alternative_images": [
+        {
+          "image": "illustrations/c06-dense-003-v2.webp",
+          "source_grid": "source_images/chapter06-dense-003.png",
+          "crop_box": [
+            387,
+            771,
+            765,
+            1021
+          ],
+          "native_grid_size": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 600,
+      "anchor": "Ach wenn in unsrer engen Zelle\nDie Lampe freundlich wieder brennt,\nDann wird’s in unserm Busen helle"
+    },
+    {
+      "id": "c06-dense-004",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 902,
+      "source_end": 1280,
+      "source_text": " Zu den heiligen Tönen,\nDie jetzt meine ganze Seel umfassen,\nWill der tierische Laut nicht passen.\nWir sind gewohnt, daß die Menschen verhöhnen,\nWas sie nicht verstehn,\nDaß sie vor dem Guten und Schönen,\nDas ihnen oft beschwerlich ist, murren;\nWill es der Hund, wie sie, beknurren?\n\nAber ach! schon fühl ich, bei dem besten Willen,\nBefriedigung nicht mehr aus dem Busen quillen.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c06-dense-004.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "alternative_images": [
+        {
+          "image": "illustrations/c06-dense-004-v2.webp",
+          "source_grid": "source_images/chapter06-dense-003.png",
+          "crop_box": [
+            771,
+            771,
+            1149,
+            1021
+          ],
+          "native_grid_size": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 902,
+      "anchor": "Zu den heiligen Tönen,\nDie jetzt meine ganze Seel umfassen,\nWill der tierische Laut nicht passen.\nWi"
+    },
+    {
+      "id": "c06-dense-005",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 1280,
+      "source_end": 1703,
+      "source_text": "\nAber warum muß der Strom so bald versiegen,\nUnd wir wieder im Durste liegen?\nDavon hab ich so viel Erfahrung.\nDoch dieser Mangel läßt sich ersetzen,\nWir lernen das Überirdische schätzen,\nWir sehnen uns nach Offenbarung,\nDie nirgends würd’ger und schöner brennt\nAls in dem Neuen Testament.\nMich drängt’s, den Grundtext aufzuschlagen,\nMit redlichem Gefühl einmal\nDas heilige Original\nIn mein geliebtes Deutsch zu übertragen.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c06-dense-005.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "alternative_images": [
+        {
+          "image": "illustrations/c06-dense-005-v2.webp",
+          "source_grid": "source_images/chapter06-dense-003.png",
+          "crop_box": [
+            1155,
+            771,
+            1533,
+            1021
+          ],
+          "native_grid_size": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 1280,
+      "anchor": "Aber warum muß der Strom so bald versiegen,\nUnd wir wieder im Durste liegen?\nDavon hab ich so viel E"
+    },
+    {
+      "id": "c06-dense-006",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 1703,
+      "source_end": 1964,
+      "source_text": "\n(Er schlägt ein Volum auf und schickt sich an.)\n\nGeschrieben steht: “Im Anfang war das Wort!”\nHier stock ich schon! Wer hilft mir weiter fort?\nIch kann das Wort so hoch unmöglich schätzen,\nIch muß es anders übersetzen,\nWenn ich vom Geiste recht erleuchtet bin.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c06-dense-006.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 1703,
+      "anchor": "(Er schlägt ein Volum auf und schickt sich an.)\n\nGeschrieben steht: “Im Anfang war das Wort!”\nHier s"
+    },
+    {
+      "id": "c06-dense-007",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 1964,
+      "source_end": 2162,
+      "source_text": "\nGeschrieben steht: Im Anfang war der Sinn.\nBedenke wohl die erste Zeile,\nDaß deine Feder sich nicht übereile!\nIst es der Sinn, der alles wirkt und schafft?\nEs sollte stehn: Im Anfang war die Kraft!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c06-dense-007.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 1964,
+      "anchor": "Geschrieben steht: Im Anfang war der Sinn.\nBedenke wohl die erste Zeile,\nDaß deine Feder sich nicht "
+    },
+    {
+      "id": "c06-dense-008",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 2162,
+      "source_end": 2427,
+      "source_text": "\nDoch, auch indem ich dieses niederschreibe,\nSchon warnt mich was, daß ich dabei nicht bleibe.\nMir hilft der Geist! Auf einmal seh ich Rat\nUnd schreibe getrost: Im Anfang war die Tat!\n\nSoll ich mit dir das Zimmer teilen,\nPudel, so laß das Heulen,\nSo laß das Bellen!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c06-dense-008.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 2162,
+      "anchor": "Doch, auch indem ich dieses niederschreibe,\nSchon warnt mich was, daß ich dabei nicht bleibe.\nMir hi"
+    },
+    {
+      "id": "c06-dense-009",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 2427,
+      "source_end": 2630,
+      "source_text": "\nSolch einen störenden Gesellen\nMag ich nicht in der Nähe leiden.\nEiner von uns beiden\nMuß die Zelle meiden.\nUngern heb ich das Gastrecht auf,\nDie Tür ist offen, hast freien Lauf.\nAber was muß ich sehen!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c06-dense-009.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 2427,
+      "anchor": "Solch einen störenden Gesellen\nMag ich nicht in der Nähe leiden.\nEiner von uns beiden\nMuß die Zelle "
+    },
+    {
+      "id": "c06-dense-010",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 2630,
+      "source_end": 2733,
+      "source_text": "\nKann das natürlich geschehen?\nIst es Schatten? ist’s Wirklichkeit?\nWie wird mein Pudel lang und breit!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c06-dense-010.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 2630,
+      "anchor": "Kann das natürlich geschehen?\nIst es Schatten? ist’s Wirklichkeit?\nWie wird mein Pudel lang und brei"
+    },
+    {
+      "id": "c06-dense-011",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 2733,
+      "source_end": 2916,
+      "source_text": "\nEr hebt sich mit Gewalt,\nDas ist nicht eines Hundes Gestalt!\nWelch ein Gespenst bracht ich ins Haus!\nSchon sieht er wie ein Nilpferd aus,\nMit feurigen Augen, schrecklichem Gebiß.\nOh!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c06-dense-011.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 2733,
+      "anchor": "Er hebt sich mit Gewalt,\nDas ist nicht eines Hundes Gestalt!\nWelch ein Gespenst bracht ich ins Haus!"
+    },
+    {
+      "id": "c06-dense-012",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 2916,
+      "source_end": 3078,
+      "source_text": " du bist mir gewiß!\nFür solche halbe Höllenbrut\nIst Salomonis Schlüssel gut.\nGEISTER (auf dem Gange).\nDrinnen gefangen ist einer!\nBleibet haußen, folg ihm keiner!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "GEISTER "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c06-dense-012.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 2916,
+      "anchor": "du bist mir gewiß!\nFür solche halbe Höllenbrut\nIst Salomonis Schlüssel gut.\nGEISTER (auf dem Gange)."
+    },
+    {
+      "id": "c06-dense-013",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 3078,
+      "source_end": 3265,
+      "source_text": "\nWie im Eisen der Fuchs,\nZagt ein alter Höllenluchs.\nAber gebt acht!\nSchwebet hin, schwebet wider,\nAuf und nieder,\nUnd er hat sich losgemacht.\nKönnt ihr ihm nützen,\nLaßt ihn nicht sitzen!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c06-dense-013.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 3078,
+      "anchor": "Wie im Eisen der Fuchs,\nZagt ein alter Höllenluchs.\nAber gebt acht!\nSchwebet hin, schwebet wider,\nAu"
+    },
+    {
+      "id": "c06-dense-014",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 3265,
+      "source_end": 3600,
+      "source_text": "\nDenn er tat uns allen\nSchon viel zu Gefallen.\n\nFAUST.\nErst zu begegnen dem Tiere,\nBrauch ich den Spruch der Viere:\nSalamander soll glühen,\nUndene sich winden,\nSylphe verschwinden,\nKobold sich mühen.\n\nWer sie nicht kennte\nDie Elemente,\nIhre Kraft\nUnd Eigenschaft,\nWäre kein Meister\nÜber die Geister.\n\nVerschwind in Flammen,\nSalamander!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c06-dense-014.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 3265,
+      "anchor": "Denn er tat uns allen\nSchon viel zu Gefallen.\n\nFAUST.\nErst zu begegnen dem Tiere,\nBrauch ich den Spr"
+    },
+    {
+      "id": "c06-dense-015",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 3600,
+      "source_end": 3711,
+      "source_text": "\nRauschend fließe zusammen,\nUndene!\nLeucht in Meteoren-Schöne,\nSylphe!\nBring häusliche Hülfe,\nIncubus! Incubus!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c06-dense-015.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 3600,
+      "anchor": "Rauschend fließe zusammen,\nUndene!\nLeucht in Meteoren-Schöne,\nSylphe!\nBring häusliche Hülfe,\nIncubus"
+    },
+    {
+      "id": "c06-dense-016",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 3711,
+      "source_end": 3900,
+      "source_text": "\nTritt hervor und mache den Schluß!\n\nKeines der Viere\nSteckt in dem Tiere.\nEs liegt ganz ruhig und grinst mich an;\nIch hab ihm noch nicht weh getan.\nDu sollst mich hören\nStärker beschwören.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c06-dense-016.webp",
+      "source_grid": "source_images/chapter06-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 3711,
+      "anchor": "Tritt hervor und mache den Schluß!\n\nKeines der Viere\nSteckt in dem Tiere.\nEs liegt ganz ruhig und gr"
+    },
+    {
+      "id": "c06-dense-017",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 3900,
+      "source_end": 4073,
+      "source_text": "\n\nBist du, Geselle\nEin Flüchtling der Hölle?\nSo sieh dies Zeichen\nDem sie sich beugen,\nDie schwarzen Scharen!\n\nSchon schwillt es auf mit borstigen Haaren.\n\nVerworfnes Wesen!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c06-dense-017.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 3900,
+      "anchor": "Bist du, Geselle\nEin Flüchtling der Hölle?\nSo sieh dies Zeichen\nDem sie sich beugen,\nDie schwarzen S"
+    },
+    {
+      "id": "c06-dense-018",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 4073,
+      "source_end": 4331,
+      "source_text": "\nKannst du ihn lesen?\nDen nie Entsproßnen,\nUnausgesprochnen,\nDurch alle Himmel Gegoßnen,\nFreventlich Durchstochnen?\n\nHinter den Ofen gebannt,\nSchwillt es wie ein Elefant\nDen ganzen Raum füllt es an,\nEs will zum Nebel zerfließen.\nSteige nicht zur Decke hinan!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c06-dense-018.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 4073,
+      "anchor": "Kannst du ihn lesen?\nDen nie Entsproßnen,\nUnausgesprochnen,\nDurch alle Himmel Gegoßnen,\nFreventlich "
+    },
+    {
+      "id": "c06-dense-019",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 4331,
+      "source_end": 4485,
+      "source_text": "\nLege dich zu des Meisters Füßen!\nDu siehst, daß ich nicht vergebens drohe.\nIch versenge dich mit heiliger Lohe!\nErwarte nicht\nDas dreimal glühende Licht!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c06-dense-019.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 4331,
+      "anchor": "Lege dich zu des Meisters Füßen!\nDu siehst, daß ich nicht vergebens drohe.\nIch versenge dich mit hei"
+    },
+    {
+      "id": "c06-dense-020",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 4485,
+      "source_end": 4748,
+      "source_text": "\nErwarte nicht\nDie stärkste von meinen Künsten!\n(Mephistopheles tritt, indem der Nebel fällt, gekleidet wie ein\nfahrender Scholastikus, hinter dem Ofen hervor.)\n\nMEPHISTOPHELES.\nWozu der Lärm? was steht dem Herrn zu Diensten?\n\nFAUST.\nDas also war des Pudels Kern!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c06-dense-020.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 4485,
+      "anchor": "Erwarte nicht\nDie stärkste von meinen Künsten!\n(Mephistopheles tritt, indem der Nebel fällt, gekleid"
+    },
+    {
+      "id": "c06-dense-021",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 4748,
+      "source_end": 4893,
+      "source_text": "\nEin fahrender Skolast? Der Kasus macht mich lachen.\n\nMEPHISTOPHELES.\nIch salutiere den gelehrten Herrn!\nIhr habt mich weidlich schwitzen machen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c06-dense-021.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 4748,
+      "anchor": "Ein fahrender Skolast? Der Kasus macht mich lachen.\n\nMEPHISTOPHELES.\nIch salutiere den gelehrten Her"
+    },
+    {
+      "id": "c06-dense-022",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 4893,
+      "source_end": 5271,
+      "source_text": "\n\nFAUST.\nWie nennst du dich?\n\nMEPHISTOPHELES.\nDie Frage scheint mir klein\nFür einen, der das Wort so sehr verachtet,\nDer, weit entfernt von allem Schein,\nNur in der Wesen Tiefe trachtet.\n\nFAUST.\nBei euch, ihr Herrn, kann man das Wesen\nGewöhnlich aus dem Namen lesen,\nWo es sich allzu deutlich weist,\nWenn man euch Fliegengott, Verderber, Lügner heißt.\nNun gut, wer bist du denn?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c06-dense-022.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 4893,
+      "anchor": "FAUST.\nWie nennst du dich?\n\nMEPHISTOPHELES.\nDie Frage scheint mir klein\nFür einen, der das Wort so s"
+    },
+    {
+      "id": "c06-dense-023",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 5271,
+      "source_end": 5587,
+      "source_text": "\n\nMEPHISTOPHELES.\nEin Teil von jener Kraft,\nDie stets das Böse will und stets das Gute schafft.\n\nFAUST.\nWas ist mit diesem Rätselwort gemeint?\n\nMEPHISTOPHELES.\nIch bin der Geist, der stets verneint!\nUnd das mit Recht; denn alles, was entsteht,\nIst wert, daß es zugrunde geht;\nDrum besser wär’s, daß nichts entstünde.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-010",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c06-dense-023.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 5271,
+      "anchor": "MEPHISTOPHELES.\nEin Teil von jener Kraft,\nDie stets das Böse will und stets das Gute schafft.\n\nFAUST"
+    },
+    {
+      "id": "c06-dense-024",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 5587,
+      "source_end": 6152,
+      "source_text": "\nSo ist denn alles, was ihr Sünde,\nZerstörung, kurz, das Böse nennt,\nMein eigentliches Element.\n\nFAUST.\nDu nennst dich einen Teil, und stehst doch ganz vor mir?\n\nMEPHISTOPHELES.\nBescheidne Wahrheit sprech ich dir.\nWenn sich der Mensch, die kleine Narrenwelt\nGewöhnlich für ein Ganzes hält,\nIch bin ein Teil des Teils, der anfangs alles war\nEin Teil der Finsternis, die sich das Licht gebar\nDas stolze Licht, das nun der Mutter Nacht\nDen alten Rang, den Raum ihr streitig macht,\nUnd doch gelingt’s ihm nicht, da es, so viel es strebt,\nVerhaftet an den Körpern klebt.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c06-dense-024.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 5587,
+      "anchor": "So ist denn alles, was ihr Sünde,\nZerstörung, kurz, das Böse nennt,\nMein eigentliches Element.\n\nFAUS"
+    },
+    {
+      "id": "c06-dense-025",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 6152,
+      "source_end": 6493,
+      "source_text": "\nVon Körpern strömt’s, die Körper macht es schön,\nEin Körper hemmt’s auf seinem Gange;\nSo, hoff ich, dauert es nicht lange,\nUnd mit den Körpern wird’s zugrunde gehn.\n\nFAUST.\nNun kenn ich deine würd’gen Pflichten!\nDu kannst im Großen nichts vernichten\nUnd fängst es nun im Kleinen an.\n\nMEPHISTOPHELES.\nUnd freilich ist nicht viel damit getan.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c06-dense-025.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 6152,
+      "anchor": "Von Körpern strömt’s, die Körper macht es schön,\nEin Körper hemmt’s auf seinem Gange;\nSo, hoff ich, "
+    },
+    {
+      "id": "c06-dense-026",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 6493,
+      "source_end": 6869,
+      "source_text": "\nWas sich dem Nichts entgegenstellt,\nDas Etwas, diese plumpe Welt\nSo viel als ich schon unternommen\nIch wußte nicht ihr beizukommen\nMit Wellen, Stürmen, Schütteln, Brand;\nGeruhig bleibt am Ende Meer und Land!\nUnd dem verdammten Zeug, der Tier- und Menschenbrut,\nDem ist nun gar nichts anzuhaben.\nWie viele hab ich schon begraben!\nUnd immer zirkuliert ein neues, frisches Blut.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c06-dense-026.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 6493,
+      "anchor": "Was sich dem Nichts entgegenstellt,\nDas Etwas, diese plumpe Welt\nSo viel als ich schon unternommen\nI"
+    },
+    {
+      "id": "c06-dense-027",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 6869,
+      "source_end": 7230,
+      "source_text": "\nSo geht es fort, man möchte rasend werden!\nDer Luft, dem Wasser wie der Erden\nEntwinden tausend Keime sich,\nIm Trocknen, Feuchten, Warmen, Kalten!\nHätt ich mir nicht die Flamme vorbehalten,\nIch hätte nichts Aparts für mich.\n\nFAUST.\nSo setzest du der ewig regen,\nDer heilsam schaffenden Gewalt\nDie kalte Teufelsfaust entgegen,\nDie sich vergebens tückisch ballt!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c06-dense-027.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 6869,
+      "anchor": "So geht es fort, man möchte rasend werden!\nDer Luft, dem Wasser wie der Erden\nEntwinden tausend Keim"
+    },
+    {
+      "id": "c06-dense-028",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 7230,
+      "source_end": 7449,
+      "source_text": "\nWas anders suche zu beginnen\nDes Chaos wunderlicher Sohn!\n\nMEPHISTOPHELES.\nWir wollen wirklich uns besinnen,\nDie nächsten Male mehr davon!\nDürft ich wohl diesmal mich entfernen?\n\nFAUST.\nIch sehe nicht, warum du fragst.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c06-dense-028.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 7230,
+      "anchor": "Was anders suche zu beginnen\nDes Chaos wunderlicher Sohn!\n\nMEPHISTOPHELES.\nWir wollen wirklich uns b"
+    },
+    {
+      "id": "c06-dense-029",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 7449,
+      "source_end": 7756,
+      "source_text": "\nIch habe jetzt dich kennen lernen\nBesuche nun mich, wie du magst.\nHier ist das Fenster, hier die Türe,\nEin Rauchfang ist dir auch gewiß.\n\nMEPHISTOPHELES.\nGesteh ich’s nur! daß ich hinausspaziere,\nVerbietet mir ein kleines Hindernis,\nDer Drudenfuß auf Eurer Schwelle—\n\nFAUST.\nDas Pentagramma macht dir Pein?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c06-dense-029.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 7449,
+      "anchor": "Ich habe jetzt dich kennen lernen\nBesuche nun mich, wie du magst.\nHier ist das Fenster, hier die Tür"
+    },
+    {
+      "id": "c06-dense-030",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 7756,
+      "source_end": 7934,
+      "source_text": "\nEi sage mir, du Sohn der Hölle,\nWenn das dich bannt, wie kamst du denn herein?\nWie ward ein solcher Geist betrogen?\n\nMEPHISTOPHELES.\nBeschaut es recht! es ist nicht gut gezogen.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c06-dense-030.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 7756,
+      "anchor": "Ei sage mir, du Sohn der Hölle,\nWenn das dich bannt, wie kamst du denn herein?\nWie ward ein solcher "
+    },
+    {
+      "id": "c06-dense-031",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 7934,
+      "source_end": 8114,
+      "source_text": "\nDer eine Winkel, der nach außen zu,\nIst, wie du siehst, ein wenig offen.\n\nFAUST.\nDas hat der Zufall gut getroffen!\nUnd mein Gefangner wärst denn du?\nDas ist von ungefähr gelungen!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c06-dense-031.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 7934,
+      "anchor": "Der eine Winkel, der nach außen zu,\nIst, wie du siehst, ein wenig offen.\n\nFAUST.\nDas hat der Zufall "
+    },
+    {
+      "id": "c06-dense-032",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 8114,
+      "source_end": 8363,
+      "source_text": "\n\nMEPHISTOPHELES.\nDer Pudel merkte nichts, als er hereingesprungen,\nDie Sache sieht jetzt anders aus.\nDer Teufel kann nicht aus dem Haus.\n\nFAUST.\nDoch warum gehst du nicht durchs Fenster?\n\nMEPHISTOPHELES.\n’s ist ein Gesetz der Teufel und Gespenster.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c06-dense-032.webp",
+      "source_grid": "source_images/chapter06-dense-002.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 8114,
+      "anchor": "MEPHISTOPHELES.\nDer Pudel merkte nichts, als er hereingesprungen,\nDie Sache sieht jetzt anders aus.\n"
+    },
+    {
+      "id": "c06-dense-033",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 8363,
+      "source_end": 8601,
+      "source_text": "\nWo sie hereingeschlüpft, da müssen sie hinaus.\nDas erste steht uns frei, beim zweiten sind wir Knechte.\n\nFAUST.\nDie Hölle selbst hat ihre Rechte?\nDas find ich gut, da ließe sich ein Pakt,\nUnd sicher wohl, mit euch, ihr Herren, schließen?",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c06-dense-033.webp",
+      "source_grid": "source_images/chapter06-dense-003.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 8363,
+      "anchor": "Wo sie hereingeschlüpft, da müssen sie hinaus.\nDas erste steht uns frei, beim zweiten sind wir Knech"
+    },
+    {
+      "id": "c06-dense-034",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 8601,
+      "source_end": 8957,
+      "source_text": "\n\nMEPHISTOPHELES.\nWas man verspricht, das sollst du rein genießen,\nDir wird davon nichts abgezwackt.\nDoch das ist nicht so kurz zu fassen,\nUnd wir besprechen das zunächst\nDoch jetzo bitt ich, hoch und höchst,\nFür dieses Mal mich zu entlassen.\n\nFAUST.\nSo bleibe doch noch einen Augenblick,\nUm mir erst gute Mär zu sagen.\n\nMEPHISTOPHELES.\nJetzt laß mich los!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c06-dense-034.webp",
+      "source_grid": "source_images/chapter06-dense-003.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 8601,
+      "anchor": "MEPHISTOPHELES.\nWas man verspricht, das sollst du rein genießen,\nDir wird davon nichts abgezwackt.\nD"
+    },
+    {
+      "id": "c06-dense-035",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 8957,
+      "source_end": 9179,
+      "source_text": " ich komme bald zurück;\nDann magst du nach Belieben fragen.\n\nFAUST.\nIch habe dir nicht nachgestellt,\nBist du doch selbst ins Garn gegangen.\nDen Teufel halte, wer ihn hält!\nEr wird ihn nicht so bald zum zweiten Male fangen.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c06-dense-035.webp",
+      "source_grid": "source_images/chapter06-dense-003.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 8957,
+      "anchor": "ich komme bald zurück;\nDann magst du nach Belieben fragen.\n\nFAUST.\nIch habe dir nicht nachgestellt,\n"
+    },
+    {
+      "id": "c06-dense-036",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 9179,
+      "source_end": 9652,
+      "source_text": "\n\nMEPHISTOPHELES.\nWenn dir’s beliebt, so bin ich auch bereit,\nDir zur Gesellschaft hier zu bleiben;\nDoch mit Bedingnis, dir die Zeit\nDurch meine Künste würdig zu vertreiben.\n\nFAUST.\nIch seh es gern, das steht dir frei;\nNur daß die Kunst gefällig sei!\n\nMEPHISTOPHELES.\nDu wirst, mein Freund, für deine Sinnen\nIn dieser Stunde mehr gewinnen\nAls in des Jahres Einerlei.\nWas dir die zarten Geister singen,\nDie schönen Bilder, die sie bringen,\nSind nicht ein leeres Zauberspiel.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c06-dense-036.webp",
+      "source_grid": "source_images/chapter06-dense-003.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 9179,
+      "anchor": "MEPHISTOPHELES.\nWenn dir’s beliebt, so bin ich auch bereit,\nDir zur Gesellschaft hier zu bleiben;\nDo"
+    },
+    {
+      "id": "c06-dense-037",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 9652,
+      "source_end": 9929,
+      "source_text": "\nAuch dein Geruch wird sich ergetzen,\nDann wirst du deinen Gaumen letzen,\nUnd dann entzückt sich dein Gefühl.\nBereitung braucht es nicht voran,\nBeisammen sind wir, fanget an!\n\nGEISTER.\nSchwindet, ihr dunkeln\nWölbungen droben!\nReizender schaue\nFreundlich der blaue\nÄther herein!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "GEISTER"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c06-dense-037.webp",
+      "source_grid": "source_images/chapter06-dense-003.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 9652,
+      "anchor": "Auch dein Geruch wird sich ergetzen,\nDann wirst du deinen Gaumen letzen,\nUnd dann entzückt sich dein"
+    },
+    {
+      "id": "c06-dense-038",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 9929,
+      "source_end": 10249,
+      "source_text": "\nWären die dunkeln\nWolken zerronnen!\nSternelein funkeln,\nMildere Sonnen\nScheinen darein.\nHimmlischer Söhne\nGeistige Schöne,\nSchwankende Beugung\nSchwebet vorüber.\nSehnende Neigung\nFolget hinüber;\nUnd der Gewänder\nFlatternde Bänder\nDecken die Länder,\nDecken die Laube,\nWo sich fürs Leben,\nTief in Gedanken,\nLiebende geben.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c06-dense-038.webp",
+      "source_grid": "source_images/chapter06-dense-003.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 9929,
+      "anchor": "Wären die dunkeln\nWolken zerronnen!\nSternelein funkeln,\nMildere Sonnen\nScheinen darein.\nHimmlischer "
+    },
+    {
+      "id": "c06-dense-039",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 10249,
+      "source_end": 10733,
+      "source_text": "\nLaube bei Laube!\nSprossende Ranken!\nLastende Traube\nStürzt ins Behälter\nDrängender Kelter,\nStürzen in Bächen\nSchäumende Weine,\nRieseln durch reine,\nEdle Gesteine,\nLassen die Höhen\nHinter sich liegen,\nBreiten zu Seen\nSich ums Genüge\nGrünender Hügel.\nUnd das Geflügel\nSchlürfet sich Wonne,\nFlieget der Sonne,\nFlieget den hellen\nInseln entgegen,\nDie sich auf Wellen\nGauklend bewegen;\nWo wir in Chören\nJauchzende hören,\nÜber den Auen\nTanzende schauen,\nDie sich im Freien\nAlle zerstreuen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-011",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c06-dense-039.webp",
+      "source_grid": "source_images/chapter06-dense-003.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 10249,
+      "anchor": "Laube bei Laube!\nSprossende Ranken!\nLastende Traube\nStürzt ins Behälter\nDrängender Kelter,\nStürzen i"
+    },
+    {
+      "id": "c06-dense-040",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 10733,
+      "source_end": 10978,
+      "source_text": "\nEinige klimmen\nÜber die Höhen,\nAndere schwimmen\nÜber die Seen,\nAndere schweben;\nAlle zum Leben,\nAlle zur Ferne\nLiebender Sterne,\nSeliger Huld.\n\nMEPHISTOPHELES.\nEr schläft! So recht, ihr luft’gen zarten Jungen!\nIhr habt ihn treulich eingesungen!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c06-dense-040.webp",
+      "source_grid": "source_images/chapter06-dense-003.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 10733,
+      "anchor": "Einige klimmen\nÜber die Höhen,\nAndere schwimmen\nÜber die Seen,\nAndere schweben;\nAlle zum Leben,\nAlle"
+    },
+    {
+      "id": "c06-dense-041",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 4,
+      "source_start": 10978,
+      "source_end": 11316,
+      "source_text": "\nFür dies Konzert bin ich in eurer Schuld.\nDu bist noch nicht der Mann, den Teufel festzuhalten!\nUmgaukelt ihn mit süßen Traumgestalten,\nVersenkt ihn in ein Meer des Wahns;\nDoch dieser Schwelle Zauber zu zerspalten,\nBedarf ich eines Rattenzahns.\nNicht lange brauch ich zu beschwören,\nSchon raschelt eine hier und wird sogleich mich hören.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c06-dense-041.webp",
+      "source_grid": "source_images/chapter06-dense-003.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 10978,
+      "anchor": "Für dies Konzert bin ich in eurer Schuld.\nDu bist noch nicht der Mann, den Teufel festzuhalten!\nUmga"
+    },
+    {
+      "id": "c06-dense-042",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 3,
+      "source_start": 11316,
+      "source_end": 11604,
+      "source_text": "\n\nDer Herr der Ratten und der Mäuse,\nDer Fliegen, Frösche, Wanzen, Läuse\nBefiehlt dir, dich hervor zu wagen\nUnd diese Schwelle zu benagen,\nSo wie er sie mit Öl betupft—\nDa kommst du schon hervorgehupft!\nNur frisch ans Werk! Die Spitze, die mich bannte,\nSie sitzt ganz vornen an der Kante.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c06-dense-042.webp",
+      "source_grid": "source_images/chapter06-dense-003.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 11316,
+      "anchor": "Der Herr der Ratten und der Mäuse,\nDer Fliegen, Frösche, Wanzen, Läuse\nBefiehlt dir, dich hervor zu "
+    },
+    {
+      "id": "c06-dense-043",
+      "chapter": 6,
+      "chapter_title": "Studierzimmer",
+      "sentence_count": 3,
+      "source_start": 11604,
+      "source_end": 11856,
+      "source_text": "\nNoch einen Biß, so ist’s geschehn.—\nNun, Fauste, träume fort, bis wir uns wiedersehn.\n\nFAUST (erwachend).\nBin ich denn abermals betrogen?\nVerschwindet so der geisterreiche Drang\nDaß mir ein Traum den Teufel vorgelogen,\nUnd daß ein Pudel mir entsprang?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-003"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-012",
+      "review_note": "노학자·학자 차림 악마와 사건 순서 대조. 천장이 사라지는 듯한 풍경은 마법의 환상이며 실제 장소 이동 아님. 계약 성립 장면 없음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c06-dense-043.webp",
+      "source_grid": "source_images/chapter06-dense-003.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-06.json",
+      "visual_references": [
+        "art-bible/character-faust-old.png",
+        "art-bible/location-study.png",
+        "art-bible/character-mephistopheles-scholar.png"
+      ],
+      "char_offset": 11604,
+      "anchor": "Noch einen Biß, so ist’s geschehn.—\nNun, Fauste, träume fort, bis wir uns wiedersehn.\n\nFAUST (erwach"
     }
   ]
 }

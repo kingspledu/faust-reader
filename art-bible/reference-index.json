@@ -239,7 +239,17 @@
       "canonical_note": "악마. 푸들·유랑학생 복식 등 변형을 동일 인물에 연결. 뿔·적안은 첨부 이미지의 창작 설정.",
       "variants_note": "",
       "unresolved": [],
-      "menu_group": "main"
+      "menu_group": "main",
+      "chapter06_reference": {
+        "image": "character-mephistopheles-scholar.png",
+        "state": "떠돌이 학자 차림",
+        "visual_locks": [
+          "검은 흐트러진 머리·기존 얼굴·붉은 눈 유지",
+          "수수한 회갈색 긴 학자 옷·짧은 망토·천 모자·가죽 허리띠",
+          "변장 장면에서는 뿔·화려한 금장·보석 장신구를 드러내지 않음"
+        ],
+        "canonical_note": "이번 장의 무대지시: fahrender Scholastikus. 구체적 옷의 색·얼굴은 연출용 설정."
+      }
     },
     {
       "id": "character-009",
@@ -1308,7 +1318,8 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "chapter06_staging_note": "복도 목소리와 환상을 부르는 무리. 개별 얼굴·인간 이름을 임의로 확정하지 않고 흐릿한 기운과 노래가 보여 주는 풍경으로 연출."
     },
     {
       "id": "character-041",
