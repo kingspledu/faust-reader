@@ -14,7 +14,8 @@ for ch in range(1,len(audit["chapters"])+1):
  s=BeautifulSoup((r/f'chapter-{ch:02}.html').read_text(encoding='utf-8'),'html.parser');d=json.loads((r/f'adaptations/chapter-{ch:02}.json').read_text(encoding='utf-8'));before=audit['chapters'][ch-1]['protected']
  actual=dict(source=[x.get_text() for x in s.select('article pre[lang="de"]')],translations=[x.get_text() for x in s.select('article .ko-translation')],images=[x['src'] for x in s.select('article figure img')],anchors=[x.get('data-scene') for x in s.select('.illustrated-scene')])
  assert actual==before and not s.select('details.source-fold[open]')
- assert ''.join(actual['source'])=='\n'.join(lines[positions[ch-1]+1:positions[ch]]).strip()
+ end=positions[ch] if ch<len(positions) else next(i for i in range(positions[ch-1]+1,len(lines)) if lines[i].startswith('*** END OF'))
+ assert ''.join(actual['source'])=='\n'.join(lines[positions[ch-1]+1:end]).strip()
  for fold in s.select('details.source-fold'):
   for pre in fold.select('pre[lang="de"]'):assert 'ko-translation' in pre.find_next_sibling().get('class',[])
  for i,block in enumerate(s.select('article .adaptation-prose')):

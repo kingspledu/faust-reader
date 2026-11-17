@@ -1,0 +1,148 @@
+{
+  "chapter": 25,
+  "status": "complete",
+  "source_total_chars": 5913,
+  "covered_end": 5913,
+  "segments": [
+    {
+      "id": "C25-T001",
+      "source_start": 0,
+      "source_end": 418,
+      "source": "oder\nOberons und Titanias goldne Hochzeit\nIntermezzo\n\n\nTHEATERMEISTER.\nHeute ruhen wir einmal,\nMiedings wackre Söhne.\nAlter Berg und feuchtes Tal,\nDas ist die ganze Szene!\n\nHEROLD.\nDaß die Hochzeit golden sei,\nSolln funfzig Jahr sein vorüber;\nAber ist der Streit vorbei,\nDas golden ist mir lieber.\n\nOBERON.\nSeid ihr Geister, wo ich bin,\nSo zeigt’s in diesen Stunden;\nKönig und die Königin,\nSie sind aufs neu verbunden.",
+      "ko": "또는 오베론과 티타니아의 금혼식. 막간극.\n무대 감독: 오늘은 쉬자, 미딩의 씩씩한 아들들아. 오래된 산과 축축한 골짜기, 그게 무대의 전부야!\n전령: 금혼식이라면 쉰 해가 지나야지. 그래도 싸움이 끝났다면 그게 내겐 더 귀한 금이야.\n오베론: 내 곁의 정령들아, 지금 힘을 보여 줘라. 왕과 여왕이 다시 맺어졌다."
+    },
+    {
+      "id": "C25-T002",
+      "source_start": 418,
+      "source_end": 801,
+      "source": "\n\nPUCK.\nKommt der Puck und dreht sich quer\nUnd schleift den Fuß im Reihen;\nHundert kommen hinterher,\nSich auch mit ihm zu freuen.\n\nARIEL.\nAriel bewegt den Sang\nIn himmlisch reinen Tönen;\nViele Fratzen lockt sein Klang,\nDoch lockt er auch die Schönen.\n\nOBERON.\nGatten, die sich vertragen wollen,\nLernen’s von uns beiden!\nWenn sich zweie lieben sollen,\nBraucht man sie nur zu scheiden.",
+      "ko": "퍽: 퍽이 와서 몸을 휙 돌리고 발을 끌며 춘다. 백 명이 그 뒤에 따라와 함께 즐긴다.\n아리엘: 아리엘이 하늘처럼 맑은 소리로 노래한다. 그 소리는 온갖 우스꽝스러운 것과 아름다운 것들을 불러 모은다.\n오베론: 사이좋게 살고 싶은 부부는 우리한테 배워라. 둘이 다시 사랑하게 하려거든 떨어뜨려 놓으면 된다."
+    },
+    {
+      "id": "C25-T003",
+      "source_start": 801,
+      "source_end": 1135,
+      "source": "\n\nTITANIA.\nSchmollt der Mann und grillt die Frau,\nSo faßt sie nur behende,\nFührt mir nach dem Mittag sie,\nUnd ihn an Nordens Ende.\n\nORCHESTER TUTTI (Fortissimo).\nFliegenschnauz und Mückennas\nMit ihren Anverwandten,\nFrosch im Laub und Grill im Gras,\nDas sind die Musikanten!\n\nSOLO.\nSeht, da kommt der Dudelsack!\nEs ist die Seifenblase.",
+      "ko": "티타니아: 남편이 토라지고 아내가 짜증을 내거든 얼른 붙잡아, 아내는 남쪽으로, 남편은 북쪽 끝으로 보내라.\n오케스트라 총주(아주 크게): 파리 주둥이, 모기 코와 그 친척들, 잎 속 개구리와 풀숲 귀뚜라미가 바로 악사다!\n독주: 저기 백파이프가 온다! 비눗방울이구나."
+    },
+    {
+      "id": "C25-T004",
+      "source_start": 1135,
+      "source_end": 1532,
+      "source": "\nHört den Schneckeschnickeschnack\nDurch seine stumpfe Nase\n\nGEIST, DER SICH ERST BILDET.\nSpinnenfuß und Krötenbauch\nUnd Flügelchen dem Wichtchen!\nZwar ein Tierchen gibt es nicht,\nDoch gibt es ein Gedichtchen.\n\nEIN PÄRCHEN.\nKleiner Schritt und hoher Sprung\nDurch Honigtau und Düfte\nZwar du trippelst mir genung,\nDoch geht’s nicht in die Lüfte.\n\nNEUGIERIGER REISENDER.\nIst das nicht Maskeradenspott?",
+      "ko": "저 뭉툭한 코로 달팽이가 재잘대는 소리를 들어 봐라.\n갓 생겨나는 정령: 거미 발과 두꺼비 배, 저 작은 것에 날개까지! 세상에 이런 짐승은 없지만 이런 시 한 편은 있지.\n한 쌍: 꿀물과 향기 사이로 작은 걸음, 높은 도약. 종종걸음은 충분한데, 공중에 뜨질 않는군.\n호기심 많은 여행자: 이건 가면을 쓰고 벌이는 풍자 아닌가?"
+    },
+    {
+      "id": "C25-T005",
+      "source_start": 1532,
+      "source_end": 1744,
+      "source": "\nSoll ich den Augen trauen,\nOberon, den schönen Gott,\nAuch heute hier zu schauen?\n\nORTHODOX.\nKeine Klauen, keinen Schwanz!\nDoch bleibt es außer Zweifel.\nSo wie die Götter Griechenlands,\nSo ist auch er ein Teufel.",
+      "ko": "내 눈을 믿어도 되나? 아름다운 신 오베론을 오늘 여기서 보다니?\n정통주의자: 발톱도 꼬리도 없네! 그래도 의심할 여지 없어. 그리스의 옛 신들이 그렇듯, 그도 악마다."
+    },
+    {
+      "id": "C25-T006",
+      "source_start": 1744,
+      "source_end": 1951,
+      "source": "\n\nNORDISCHER KÜNSTLER.\nWas ich ergreife, das ist heut\nFürwahr nur skizzenweise;\nDoch ich bereite mich beizeit\nZur italien’schen Reise.\n\nPURIST.\nAch! mein Unglück führt mich her.\nWie wird nicht hier geludert!",
+      "ko": "북방 예술가: 오늘 내가 붙잡은 건 참으로 밑그림뿐이야. 그래도 이탈리아 여행을 미리 준비해 두는 거지.\n순수주의자: 아, 어쩌다 여기까지 왔담! 이렇게 난잡하게 놀아도 되나!"
+    },
+    {
+      "id": "C25-T007",
+      "source_start": 1951,
+      "source_end": 2275,
+      "source": "\nUnd von dem ganzen Hexenheer\nSind zweie nur gepudert.\n\nJUNGE HEXE\nDer Puder ist so wie der Rock\nFür alt’ und graue Weibchen,\nDrum sitz ich nackt auf meinem Bock\nUnd zeig ein derbes Leibchen.\n\nMATRONE.\nWir haben zu viel Lebensart\nUm hier mit euch zu maulen!\nDoch hoff ich, sollt ihr jung und zart\nSo wie ihr seid, verfaulen.",
+      "ko": "이 많은 마녀 가운데 분을 바른 사람이 둘뿐이잖아.\n젊은 마녀: 분과 치마는 늙고 머리가 센 여인들이나 쓰는 거야. 난 벗고 염소에 올라 튼튼한 몸을 보여 줄래.\n나이 든 부인: 우리는 예의가 있어서 너희하고 입씨름은 안 해! 그래도 그 젊고 여린 모습 그대로 썩어 버리길 바라지."
+    },
+    {
+      "id": "C25-T008",
+      "source_start": 2275,
+      "source_end": 2515,
+      "source": "\n\nKAPELLMEISTER.\nFliegenschnauz und Mückennas\nUmschwärmt mir nicht die Nackte!\nFrosch im Laub und Grill im Gras,\nSo bleibt doch auch im Takte!\n\nWINDFAHNE (nach der einen Seite).\nGesellschaft, wie man wünschen kann.\nWahrhaftig lauter Bräute!",
+      "ko": "악장: 파리 주둥이, 모기 코야, 저 벗은 이 주변을 맴돌지 마! 잎 속 개구리, 풀 속 귀뚜라미야, 박자 좀 맞춰!\n풍향계(한쪽을 향해): 이만한 모임이 어디 있어. 하나같이 훌륭한 신붓감이야!"
+    },
+    {
+      "id": "C25-T009",
+      "source_start": 2515,
+      "source_end": 2918,
+      "source": "\nUnd Junggesellen, Mann für Mann,\nDie hoffnungsvollsten Leute!\n\nWINDFAHNE (nach der andern Seite).\nUnd tut sich nicht der Boden auf,\nSie alle zu verschlingen,\nSo will ich mit behendem Lauf\nGleich in die Hölle springen.\n\nXENIEN.\nAls Insekten sind wir da,\nMit kleinen scharfen Scheren,\nSatan, unsern Herrn Papa,\nNach Würden zu verehren.\n\nHENNINGS.\nSeht, wie sie in gedrängter Schar\nNaiv zusammen scherzen!",
+      "ko": "신랑감도 사람마다 어찌 그리 앞날이 밝은지!\n풍향계(반대편을 향해): 땅이 벌어져 저것들을 삼켜 버리지 않는다면 내가 재빨리 지옥으로 뛰어들겠다!\n크세니엔: 우리는 조그맣고 날카로운 집게를 단 벌레다. 우리 아버지 사탄에게 마땅한 경의를 표하러 왔다.\n헤닝스: 빽빽이 모여 천진한 척 농담하는 꼴을 봐!"
+    },
+    {
+      "id": "C25-T010",
+      "source_start": 2918,
+      "source_end": 3180,
+      "source": "\nAm Ende sagen sie noch gar,\nSie hätten gute Herzen.\n\nMUSAGET.\nIch mag in diesem Hexenheer\nMich gar zu gern verlieren;\nDenn freilich diese wüßt ich eh’r\nAls Musen anzuführen.\n\nCI-DEVANT GENIUS DER ZEIT.\nMit rechten Leuten wird man was.\nKomm, fasse meinen Zipfel!",
+      "ko": "끝내 자기들은 마음도 착하다고 하겠군.\n무사게트: 난 이 마녀들 틈에 섞이는 게 좋아. 차라리 이들을 예술의 여신이라 부르겠어.\n한때 시대의 천재였던 자: 괜찮은 사람들과 어울려야 뭐라도 되지. 이리 와, 내 옷자락을 잡아!"
+    },
+    {
+      "id": "C25-T011",
+      "source_start": 3180,
+      "source_end": 3376,
+      "source": "\nDer Blocksberg, wie der deutsche Parnaß,\nHat gar einen breiten Gipfel.\n\nNEUGIERIGER REISENDER.\nSagt, wie heißt der steife Mann?\nEr geht mit stolzen Schritten.\nEr schnopert, was er schnopern kann.",
+      "ko": "브록켄산도 독일의 파르나소스산도 꼭대기가 참 넓구나.\n호기심 많은 여행자: 저 빳빳한 양반은 이름이 뭐지? 거만하게 걸으면서 온통 냄새를 맡고 다니네."
+    },
+    {
+      "id": "C25-T012",
+      "source_start": 3376,
+      "source_end": 3701,
+      "source": "\n“Er spürt nach Jesuiten.”\n\nKRANICH.\nIn dem klaren mag ich gern\nUnd auch im trüben fischen;\nDarum seht ihr den frommen Herrn\nSich auch mit Teufeln mischen.\n\nWELTKIND.\nJa, für die Frommen, glaubet mir,\nIst alles ein Vehikel,\nSie bilden auf dem Blocksberg hier\nGar manches Konventikel.\n\nTÄNZER.\nDa kommt ja wohl ein neues Chor?",
+      "ko": "“예수회 사람들 냄새를 맡는 거야.”\n두루미: 난 맑은 물에서도, 흐린 물에서도 물고기 잡는 게 좋아. 그러니 저 경건한 양반도 악마와 뒤섞이지.\n세속의 자식: 믿어 봐. 경건하다는 이들은 뭐든 자기 목적에 써먹어. 여기 브록켄산에서도 모임을 여럿 꾸리지.\n무용수: 새 합창단이 오나?"
+    },
+    {
+      "id": "C25-T013",
+      "source_start": 3701,
+      "source_end": 3827,
+      "source": "\nIch höre ferne Trommeln.\n“Nur ungestört! es sind im Rohr\nDie unisonen Dommeln.”\n\nTANZMEISTER.\nWie jeder doch die Beine lupft!",
+      "ko": "멀리서 북이 들리네. “신경 쓰지 마! 갈대밭에서 한 음으로 울려대는 저 소리야.”\n무용 교사: 저마다 다리를 올려대는 것 좀 봐!"
+    },
+    {
+      "id": "C25-T014",
+      "source_start": 3827,
+      "source_end": 4155,
+      "source": "\nSich, wie er kann, herauszieht!\nDer Krumme springt, der Plumpe hupft\nUnd fragt nicht, wie es aussieht.\n\nFIEDLER.\nDas haßt sich schwer, das Lumpenpack,\nUnd gäb sich gern das Restchen;\nEs eint sie hier der Dudelsack,\nWie Orpheus’ Leier die Bestjen.\n\nDOGMATIKER.\nIch lasse mich nicht irre schrein,\nNicht durch Kritik noch Zweifel.",
+      "ko": "저마다 어떻게든 빠져나오네! 몸이 굽은 사람도, 몸놀림이 둔한 사람도 남의 눈치 안 보고 뛰는군.\n바이올린 연주자: 저 엉망인 무리는 서로 죽도록 싫어하면서도 여기선 백파이프가 하나로 묶는군. 오르페우스의 리라가 짐승을 모았듯이.\n독단주의자: 비판이든 의심이든 떠들어 봐라. 난 흔들리지 않아."
+    },
+    {
+      "id": "C25-T015",
+      "source_start": 4155,
+      "source_end": 4480,
+      "source": "\nDer Teufel muß doch etwas sein;\nWie gäb’s denn sonst auch Teufel?\n\nIDEALIST.\nDie Phantasie in meinem Sinn\nIst diesmal gar zu herrisch.\nFürwahr, wenn ich das alles bin,\nSo bin ich heute närrisch.\n\nREALIST.\nDas Wesen ist mir recht zur Qual\nUnd muß mich baß verdrießen;\nIch stehe hier zum erstenmal\nNicht fest auf meinen Füßen.",
+      "ko": "악마는 뭔가 있어야 해. 아니면 어떻게 악마가 있겠어?\n관념론자: 오늘은 내 상상이 너무 제멋대로군. 이 모든 게 나라면 오늘의 난 영 제정신이 아니야.\n실재론자: 이 꼴이 정말 괴롭고 못마땅하군. 내 발로 서 있는 게 확실하지 않은 건 처음이야."
+    },
+    {
+      "id": "C25-T016",
+      "source_start": 4480,
+      "source_end": 4833,
+      "source": "\n\nSUPERNATURALIST.\nMit viel Vergnügen bin ich da\nUnd freue mich mit diesen;\nDenn von den Teufeln kann ich ja\nAuf gute Geister schließen.\n\nSKEPTIKER.\nSie gehn den Flämmchen auf der Spur\nUnd glaubn sich nah dem Schatze.\nAuf Teufel reimt der Zweifel nur;\nDa bin ich recht am Platze.\n\nKAPELLMEISTER.\nFrosch im Laub und Grill im Gras,\nVerfluchte Dilettanten!",
+      "ko": "초자연주의자: 난 기쁘게 와서 이들과 즐기는 중이야. 악마를 보면 선한 정령도 있으리라고 짐작할 수 있잖아.\n회의론자: 불빛을 쫓아가며 보물이 가까이 있다고들 믿지. 악마와 운이 맞는 것은 의심뿐이야. 내가 딱 맞게 왔군.\n악장: 잎 속 개구리, 풀 속 귀뚜라미, 이 빌어먹을 아마추어들아!"
+    },
+    {
+      "id": "C25-T017",
+      "source_start": 4833,
+      "source_end": 5174,
+      "source": "\nFliegenschnauz und Mückennas,\nIhr seid doch Musikanten!\n\nDIE GEWANDTEN.\nSanssouci, so heißt das Heer\nVon lustigen Geschöpfen;\nAuf den Füßen geht’s nicht mehr,\nDrum gehn wir auf den Köpfen.\n\nDIE UNBEHILFLICHEN.\nSonst haben wir manchen Bissen erschranzt,\nNun aber Gott befohlen!\nUnsere Schuhe sind durchgetanzt,\nWir laufen auf nackten Sohlen.",
+      "ko": "파리 주둥이, 모기 코, 너희는 그래도 악사잖아!\n재주 좋은 무리: 근심 없는 무리라는 뜻으로 우리 이름은 상수시. 발로 갈 수 없으니 머리로 걷지.\n서투른 무리: 예전엔 아첨해서 몇 끼 얻어먹었지만 이젠 안녕! 춤추다 신발이 닳아 맨발로 달린다."
+    },
+    {
+      "id": "C25-T018",
+      "source_start": 5174,
+      "source_end": 5476,
+      "source": "\n\nIRRLICHTER.\nVon dem Sumpfe kommen wir,\nWoraus wir erst entstanden;\nDoch sind wir gleich im Reihen hier\nDie glänzenden Galanten.\n\nSTERNSCHNUPPE.\nAus der Höhe schoß ich her\nIm Stern- und Feuerscheine,\nLiege nun im Grase quer;\nWer hilft mir auf die Beine?\n\nDIE MASSIVEN.\nPlatz und Platz! und ringsherum!",
+      "ko": "도깨비불들: 우리는 처음 생겨난 늪에서 왔어. 그래도 여기 춤판에선 당장 우리가 제일 빛나는 멋쟁이지.\n별똥별: 별빛과 불빛을 내며 높은 곳에서 여기로 날아왔어. 이젠 풀 위에 쓰러졌는데 누가 좀 일으켜 줄래?\n육중한 무리: 비켜라, 사방으로 비켜!"
+    },
+    {
+      "id": "C25-T019",
+      "source_start": 5476,
+      "source_end": 5676,
+      "source": "\nSo gehn die Gräschen nieder.\nGeister kommen, Geister auch,\nSie haben plumpe Glieder.\n\nPUCK.\nTretet nicht so mastig auf\nWie Elefantenkälber,\nUnd der plumpst’ an diesem Tag\nSei Puck, der derbe, selber.",
+      "ko": "풀이 이렇게 짓눌린다. 정령들이 온다, 또 온다. 팔다리가 육중한 정령들이야.\n퍽: 새끼 코끼리들처럼 쿵쿵거리지 마. 오늘 제일 둔한 녀석은 바로 이 퍽이어야 한다고."
+    },
+    {
+      "id": "C25-T020",
+      "source_start": 5676,
+      "source_end": 5913,
+      "source": "\n\nARIEL.\nGab die liebende Natur,\nGab der Geist euch Flügel,\nFolget meiner leichten Spur,\nAuf zum Rosenhügel!\n\nORCHESTER (Pianissimo).\nWolkenzug und Nebelflor\nErhellen sich von oben.\nLuft im Laub und Wind im Rohr,\nUnd alles ist zerstoben.",
+      "ko": "아리엘: 다정한 자연이나 정령이 너희에게 날개를 주었거든, 내 가벼운 자취를 따라 장미 언덕으로 오라!\n오케스트라(아주 여리게): 구름과 안개가 위에서부터 밝아진다. 잎에는 바람, 갈대에도 바람. 그리고 모든 것이 흩어졌다."
+    }
+  ]
+}

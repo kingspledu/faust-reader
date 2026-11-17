@@ -23,12 +23,24 @@ def save(path, data):
 
 plan = read(plan_path)
 scenes = [e for e in plan['scenes'] if e['chapter'] == ch]
-rows = read(r / f'chapter{tag}-prose.json')
+prose_path = r / f'chapter{tag}-prose.json'
+if prose_path.exists():
+    rows = read(prose_path)
+else:
+    rows = []
+    for line in prose_path.with_suffix('.txt').read_text(encoding='utf-8').splitlines():
+        if not line.strip():
+            continue
+        translation, narration, *speech = line.split('|')
+        rows.append(dict(translation=translation.replace('\\n','\n'), narration=narration,
+                         speech=[entry.split('>', 2) for entry in speech]))
 assert len(scenes) == len(rows)
 soup = BeautifulSoup(page.read_text(encoding='utf-8'), 'html.parser')
 source = ''.join(p.get_text() for p in soup.select('article pre[lang=de]'))
 assert source == ''.join(e['source_text'] for e in scenes)
+position_offset = 0
 for batch, path in enumerate(sys.argv[2:], 1):
+    path, _, selection = path.partition('@')
     path, _, tile_range = path.partition('::')
     start_tile, _, end_tile = tile_range.partition(':')
     offset, stop = int(start_tile or 0), int(end_tile or 16)
@@ -41,7 +53,13 @@ for batch, path in enumerate(sys.argv[2:], 1):
     w, h = grid.size
     mapping = []
     for tile in range(offset, stop):
-        position = (batch - 1) * 16 + tile - offset
+        if selection:
+            positions = [int(value) - 1 for value in selection.split(',')]
+            if tile - offset >= len(positions):
+                break
+            position = positions[tile - offset]
+        else:
+            position = position_offset + tile - offset
         x, y = tile % 4, tile // 4
         box = (round(x*w/4)+3, round(y*h/4)+3, round((x+1)*w/4)-3, round((y+1)*h/4)-3)
         scene = scenes[position] if position < len(scenes) else None
@@ -53,6 +71,8 @@ for batch, path in enumerate(sys.argv[2:], 1):
         if scene:
             scene.update(entry)
     save(r / f'chapter{tag}-grid-{batch:03}-map.json', mapping)
+    if not selection:
+        position_offset += stop - offset
 
 assert all(e.get('image') and (r/e['image']).is_file() for e in scenes)
 cast = read(r / 'voice-cast.json')
@@ -63,7 +83,8 @@ for i, (e, row) in enumerate(zip(scenes, rows), 1):
     units.append(unit)
     flow = [dict(role='narration', speaker='나레이터', cast_id='narrator', text=row['narration'])]
     for role, speaker, text in row.get('speech', []):
-        flow.append(dict(role=role, speaker=speaker, cast_id=cast['aliases'][speaker], text=text))
+        overrides = cast['chapter_alias_overrides'].get(str(ch), {})
+        flow.append(dict(role=role, speaker=speaker, cast_id=overrides.get(speaker) or cast['aliases'][speaker], text=text))
     if row.get('monologue'):
         flow.append(dict(role='monologue', speaker='그레첸', cast_id=cast['aliases']['그레첸'], text=row['monologue']))
     scripts.append(dict(id=e['id'], script=flow))

@@ -1,0 +1,18 @@
+[
+  {
+    "tile": 1,
+    "scene_id": "c24-dense-065",
+    "image": "illustrations/c24-dense-065.webp",
+    "source_grid": "source_images/chapter24-dense-005.png",
+    "crop_box": [
+      3,
+      3,
+      359,
+      269
+    ],
+    "native_grid_size": [
+      1448,
+      1086
+    ]
+  }
+]

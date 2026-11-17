@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1–23 illustrated and adapted.",
+  "scope": "Chapters 1–25 illustrated and adapted.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -24249,6 +24249,3459 @@
       "adaptation": "adaptations/chapter-23.json",
       "char_offset": 1444,
       "anchor": "CHOR.\nQuid sum miser tunc dicturus?\nGRETCHEN.\nNachbarin! Euer Fläschchen!\n(Sie fällt in Ohnmacht.)"
+    },
+    {
+      "id": "c24-dense-001",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 165,
+      "source_text": "Harzgebirg Gegend von Schierke und Elend\n\nFaust. Mephistopheles.\n\nMEPHISTOPHELES.\nVerlangst du nicht nach einem Besenstiele?\nIch wünschte mir den allerderbsten Bock.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-001.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 0,
+      "anchor": "Harzgebirg Gegend von Schierke und Elend\n\nFaust. Mephistopheles.\n\nMEPHISTOPHELES.\nVerlangst du nicht"
+    },
+    {
+      "id": "c24-dense-002",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 165,
+      "source_end": 502,
+      "source_text": "\nAuf diesem Weg sind wir noch weit vom Ziele.\n\nFAUST.\nSolang ich mich noch frisch auf meinen Beinen fühle,\nGenügt mir dieser Knotenstock.\nWas hilft’s, daß man den Weg verkürzt!\nIm Labyrinth der Täler hinzuschleichen,\nDann diesen Felsen zu ersteigen,\nVon dem der Quell sich ewig sprudelnd stürzt,\nDas ist die Lust, die solche Pfade würzt!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-002.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 165,
+      "anchor": "Auf diesem Weg sind wir noch weit vom Ziele.\n\nFAUST.\nSolang ich mich noch frisch auf meinen Beinen f"
+    },
+    {
+      "id": "c24-dense-003",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 502,
+      "source_end": 927,
+      "source_text": "\nDer Frühling webt schon in den Birken,\nUnd selbst die Fichte fühlt ihn schon;\nSollt er nicht auch auf unsre Glieder wirken?\n\nMEPHISTOPHELES.\nFürwahr, ich spüre nichts davon!\nMir ist es winterlich im Leibe,\nIch wünschte Schnee und Frost auf meiner Bahn.\nWie traurig steigt die unvollkommne Scheibe\nDes roten Monds mit später Glut heran\nUnd leuchtet schlecht, daß man bei jedem Schritte\nVor einen Baum, vor einen Felsen rennt!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-003.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 502,
+      "anchor": "Der Frühling webt schon in den Birken,\nUnd selbst die Fichte fühlt ihn schon;\nSollt er nicht auch au"
+    },
+    {
+      "id": "c24-dense-004",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 927,
+      "source_end": 1025,
+      "source_text": "\nErlaub, daß ich ein Irrlicht bitte!\nDort seh ich eins, das eben lustig brennt.\nHeda! mein Freund!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-004.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 927,
+      "anchor": "Erlaub, daß ich ein Irrlicht bitte!\nDort seh ich eins, das eben lustig brennt.\nHeda! mein Freund!"
+    },
+    {
+      "id": "c24-dense-005",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 1025,
+      "source_end": 1265,
+      "source_text": " darf ich dich zu uns fodern?\nWas willst du so vergebens lodern?\nSei doch so gut und leucht uns da hinauf!\n\nIRRLICHT.\nAus Ehrfurcht, hoff ich, soll es mir gelingen,\nMein leichtes Naturell zu zwingen;\nNur zickzack geht gewöhnlich unser Lauf.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "IRRLICHT"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-005.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 1025,
+      "anchor": "darf ich dich zu uns fodern?\nWas willst du so vergebens lodern?\nSei doch so gut und leucht uns da hi"
+    },
+    {
+      "id": "c24-dense-006",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 1265,
+      "source_end": 1365,
+      "source_text": "\n\nMEPHISTOPHELES.\nEi! Ei! Er denkt’s den Menschen nachzuahmen.\nGeh Er nur grad, in ’s Teufels Namen!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-006.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 1265,
+      "anchor": "MEPHISTOPHELES.\nEi! Ei! Er denkt’s den Menschen nachzuahmen.\nGeh Er nur grad, in ’s Teufels Namen!"
+    },
+    {
+      "id": "c24-dense-007",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 1365,
+      "source_end": 1632,
+      "source_text": "\nSonst blas ich ihm sein Flackerleben aus.\n\nIRRLICHT.\nIch merke wohl, Ihr seid der Herr vom Haus,\nUnd will mich gern nach Euch bequemen.\nAllein bedenkt! der Berg ist heute zaubertoll\nUnd wenn ein Irrlicht Euch die Wege weisen soll\nSo müßt Ihr’s so genau nicht nehmen.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "IRRLICHT"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-007.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 1365,
+      "anchor": "Sonst blas ich ihm sein Flackerleben aus.\n\nIRRLICHT.\nIch merke wohl, Ihr seid der Herr vom Haus,\nUnd"
+    },
+    {
+      "id": "c24-dense-008",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 1632,
+      "source_end": 2065,
+      "source_text": "\nFAUST, MEPHISTOPHELES, IRRLICHT (im Wechselgesang).\nIn die Traum- und Zaubersphäre\nSind wir, scheint es, eingegangen.\nFühr uns gut und mach dir Ehre\nDaß wir vorwärts bald gelangen\nIn den weiten, öden Räumen!\nSeh die Bäume hinter Bäumen,\nWie sie schnell vorüberrücken,\nUnd die Klippen, die sich bücken,\nUnd die langen Felsennasen,\nWie sie schnarchen, wie sie blasen!\n\nDurch die Steine, durch den Rasen\nEilet Bach und Bächlein nieder.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST, MEPHISTOPHELES, IRRLICHT "
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-008.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 1632,
+      "anchor": "FAUST, MEPHISTOPHELES, IRRLICHT (im Wechselgesang).\nIn die Traum- und Zaubersphäre\nSind wir, scheint"
+    },
+    {
+      "id": "c24-dense-009",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 2065,
+      "source_end": 2185,
+      "source_text": "\nHör ich Rauschen? hör ich Lieder?\nHör ich holde Liebesklage,\nStimmen jener Himmelstage?\nWas wir hoffen, was wir lieben!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-009.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 2065,
+      "anchor": "Hör ich Rauschen? hör ich Lieder?\nHör ich holde Liebesklage,\nStimmen jener Himmelstage?\nWas wir hoff"
+    },
+    {
+      "id": "c24-dense-010",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 2185,
+      "source_end": 2333,
+      "source_text": "\nUnd das Echo, wie die Sage\nAlter Zeiten, hallet wider.\n\n“Uhu! Schuhu!” tönt es näher,\nKauz und Kiebitz und der Häher,\nSind sie alle wach geblieben?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-010.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 2185,
+      "anchor": "Und das Echo, wie die Sage\nAlter Zeiten, hallet wider.\n\n“Uhu! Schuhu!” tönt es näher,\nKauz und Kiebi"
+    },
+    {
+      "id": "c24-dense-011",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 2333,
+      "source_end": 2675,
+      "source_text": "\nSind das Molche durchs Gesträuche?\nLange Beine, dicke Bäuche!\nUnd die Wurzeln, wie die Schlangen,\nWinden sich aus Fels und Sande,\nStrecken wunderliche Bande,\nUns zu schrecken, uns zu fangen;\nAus belebten derben Masern\nStrecken sie Polypenfasern\nNach dem Wandrer. Und die Mäuse\nTausendfärbig, scharenweise,\nDurch das Moos und durch die Heide!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-011.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 2333,
+      "anchor": "Sind das Molche durchs Gesträuche?\nLange Beine, dicke Bäuche!\nUnd die Wurzeln, wie die Schlangen,\nWi"
+    },
+    {
+      "id": "c24-dense-012",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 2675,
+      "source_end": 2987,
+      "source_text": "\nUnd die Funkenwürmer fliegen\nMit gedrängten Schwärmezügen\nZum verwirrenden Geleite.\n\nAber sag mir, ob wir stehen\nOder ob wir weitergehen?\nAlles, alles scheint zu drehen,\nFels und Bäume, die Gesichter\nSchneiden, und die irren Lichter,\nDie sich mehren, die sich blähen.\nMEPHISTOPHELES.\nFasse wacker meinen Zipfel!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-012.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 2675,
+      "anchor": "Und die Funkenwürmer fliegen\nMit gedrängten Schwärmezügen\nZum verwirrenden Geleite.\n\nAber sag mir, o"
+    },
+    {
+      "id": "c24-dense-013",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 2987,
+      "source_end": 3384,
+      "source_text": "\nHier ist so ein Mittelgipfel\nWo man mit Erstaunen sieht,\nWie im Berg der Mammon glüht.\n\nFAUST.\nWie seltsam glimmert durch die Gründe\nEin morgenrötlich trüber Schein!\nUnd selbst bis in die tiefen Schlünde\nDes Abgrunds wittert er hinein.\nDa steigt ein Dampf, dort ziehen Schwaden,\nHier leuchtet Glut aus Dunst und Flor,\nDann schleicht sie wie ein zarter Faden,\nDann bricht sie wie ein Quell hervor.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-013.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 2987,
+      "anchor": "Hier ist so ein Mittelgipfel\nWo man mit Erstaunen sieht,\nWie im Berg der Mammon glüht.\n\nFAUST.\nWie s"
+    },
+    {
+      "id": "c24-dense-014",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 3384,
+      "source_end": 3646,
+      "source_text": "\nHier schlingt sie eine ganze Strecke\nMit hundert Adern sich durchs Tal,\nUnd hier in der gedrängten Ecke\nVereinzelt sie sich auf einmal.\nDa sprühen Funken in der Nähe\nWie ausgestreuter goldner Sand.\nDoch schau! in ihrer ganzen Höhe\nEntzündet sich die Felsenwand.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-014.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 3384,
+      "anchor": "Hier schlingt sie eine ganze Strecke\nMit hundert Adern sich durchs Tal,\nUnd hier in der gedrängten E"
+    },
+    {
+      "id": "c24-dense-015",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 3646,
+      "source_end": 3896,
+      "source_text": "\n\nMEPHISTOPHELES.\nErleuchtet nicht zu diesem Feste\nHerr Mammon prächtig den Palast?\nEin Glück, daß du’s gesehen hast,\nIch spüre schon die ungestümen Gäste.\n\nFAUST.\nWie rast die Windsbraut durch die Luft!\nMit welchen Schlägen trifft sie meinen Nacken!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-015.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 3646,
+      "anchor": "MEPHISTOPHELES.\nErleuchtet nicht zu diesem Feste\nHerr Mammon prächtig den Palast?\nEin Glück, daß du’"
+    },
+    {
+      "id": "c24-dense-016",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 3896,
+      "source_end": 4108,
+      "source_text": "\n\nMEPHISTOPHELES.\nDu mußt des Felsens alte Rippen packen\nSonst stürzt sie dich hinab in dieser Schlünde Gruft.\nEin Nebel verdichtet die Nacht.\nHöre, wie’s durch die Wälder kracht!\nAufgescheucht fliegen die Eulen.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-016.webp",
+      "source_grid": "source_images/chapter24-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 3896,
+      "anchor": "MEPHISTOPHELES.\nDu mußt des Felsens alte Rippen packen\nSonst stürzt sie dich hinab in dieser Schlünd"
+    },
+    {
+      "id": "c24-dense-017",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 4108,
+      "source_end": 4249,
+      "source_text": "\nHör, es splittern die Säulen\nEwig grüner Paläste.\nGirren und Brechen der Äste!\nDer Stämme mächtiges Dröhnen!\nDer Wurzeln Knarren und Gähnen!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-017.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 4108,
+      "anchor": "Hör, es splittern die Säulen\nEwig grüner Paläste.\nGirren und Brechen der Äste!\nDer Stämme mächtiges "
+    },
+    {
+      "id": "c24-dense-018",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 4249,
+      "source_end": 4498,
+      "source_text": "\nIm fürchterlich verworrenen Falle\nÜbereinander krachen sie alle\nUnd durch die übertrümmerten Klüfte\nZischen und heulen die Lüfte.\nHörst du Stimmen in der Höhe?\nIn der Ferne, in der Nähe?\nJa, den ganzen Berg entlang\nStrömt ein wütender Zaubergesang!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-018.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 4249,
+      "anchor": "Im fürchterlich verworrenen Falle\nÜbereinander krachen sie alle\nUnd durch die übertrümmerten Klüfte\n"
+    },
+    {
+      "id": "c24-dense-019",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 4498,
+      "source_end": 4796,
+      "source_text": "\n\nHEXEN (im Chor).\nDie Hexen zu dem Brocken ziehn,\nDie Stoppel ist gelb, die Saat ist grün.\nDort sammelt sich der große Hauf,\nHerr Urian sitzt oben auf.\nSo geht es über Stein und Stock,\nEs farzt die Hexe, es stinkt der Bock.\n\nSTIMME.\nDie alte Baubo kommt allein,\nSie reitet auf einem Mutterschwein.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "HEXEN ",
+        "STIMME"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-019.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 4498,
+      "anchor": "HEXEN (im Chor).\nDie Hexen zu dem Brocken ziehn,\nDie Stoppel ist gelb, die Saat ist grün.\nDort samme"
+    },
+    {
+      "id": "c24-dense-020",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 4796,
+      "source_end": 4934,
+      "source_text": "\n\nCHOR.\nSo Ehre denn, wem Ehre gebührt!\nFrau Baubo vor! und angeführt!\nEin tüchtig Schwein und Mutter drauf,\nDa folgt der ganze Hexenhauf.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "CHOR"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-020.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 4796,
+      "anchor": "CHOR.\nSo Ehre denn, wem Ehre gebührt!\nFrau Baubo vor! und angeführt!\nEin tüchtig Schwein und Mutter "
+    },
+    {
+      "id": "c24-dense-021",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 4934,
+      "source_end": 5090,
+      "source_text": "\n\nSTIMME.\nWelchen Weg kommst du her?\n\nSTIMME.\nÜbern Ilsenstein!\nDa guckt ich der Eule ins Nest hinein,\nDie macht ein Paar Augen!\n\nSTIMME.\nO fahre zur Hölle!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "STIMME"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-021.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 4934,
+      "anchor": "STIMME.\nWelchen Weg kommst du her?\n\nSTIMME.\nÜbern Ilsenstein!\nDa guckt ich der Eule ins Nest hinein,"
+    },
+    {
+      "id": "c24-dense-022",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 5090,
+      "source_end": 5334,
+      "source_text": "\nWas reitst du so schnelle!\n\nSTIMME.\nMich hat sie geschunden,\nDa sieh nur die Wunden!\n\nHEXEN, CHOR.\nDer Weg ist breit, der Weg ist lang,\nWas ist das für ein toller Drang?\nDie Gabel sticht, der Besen kratzt,\nDas Kind erstickt, die Mutter platzt.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "STIMME",
+        "HEXEN, CHOR"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-022.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 5090,
+      "anchor": "Was reitst du so schnelle!\n\nSTIMME.\nMich hat sie geschunden,\nDa sieh nur die Wunden!\n\nHEXEN, CHOR.\nD"
+    },
+    {
+      "id": "c24-dense-023",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 5334,
+      "source_end": 5712,
+      "source_text": "\n\nHEXENMEISTER, HALBER CHOR.\nWir schleichen wie die Schneck im Haus,\nDie Weiber alle sind voraus.\nDenn, geht es zu des Bösen Haus,\nDas Weib hat tausend Schritt voraus.\n\nANDERE HÄLFTE.\nWir nehmen das nicht so genau,\nMit tausend Schritten macht’s die Frau;\nDoch wie sie sich auch eilen kann,\nMit einem Sprunge macht’s der Mann.\n\nSTIMME (oben).\nKommt mit, kommt mit, vom Felsensee!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "HEXENMEISTER, HALBER CHOR",
+        "ANDERE HÄLFTE",
+        "STIMME "
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-023.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 5334,
+      "anchor": "HEXENMEISTER, HALBER CHOR.\nWir schleichen wie die Schneck im Haus,\nDie Weiber alle sind voraus.\nDenn"
+    },
+    {
+      "id": "c24-dense-024",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 5712,
+      "source_end": 5999,
+      "source_text": "\n\nSTIMMEN (von unten).\nWir möchten gerne mit in die Höh.\nWir waschen, und blank sind wir ganz und gar;\nAber auch ewig unfruchtbar.\n\nBEIDE CHÖRE.\nEs schweigt der Wind, es flieht der Stern,\nDer trübe Mond verbirgt sich gern.\nIm Sausen sprüht das Zauberchor\nViel tausend Feuerfunken hervor.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "STIMMEN ",
+        "BEIDE CHÖRE"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-024.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 5712,
+      "anchor": "STIMMEN (von unten).\nWir möchten gerne mit in die Höh.\nWir waschen, und blank sind wir ganz und gar;"
+    },
+    {
+      "id": "c24-dense-025",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 5999,
+      "source_end": 6137,
+      "source_text": "\n\nSTIMME (von unten).\nHalte! Haltet\n\nSTIMME (oben).\nWer ruft da aus der Felsenspalte?\n\nSTIMME (von unten).\nNehmt mich mit! Nehmt mich mit!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "STIMME "
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-025.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 5999,
+      "anchor": "STIMME (von unten).\nHalte! Haltet\n\nSTIMME (oben).\nWer ruft da aus der Felsenspalte?\n\nSTIMME (von unt"
+    },
+    {
+      "id": "c24-dense-026",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 6137,
+      "source_end": 6534,
+      "source_text": "\nIch steige schon dreihundert Jahr,\nUnd kann den Gipfel nicht erreichen\nIch wäre gern bei meinesgleichen.\n\nBEIDE CHÖRE.\nEs trägt der Besen, trägt der Stock\nDie Gabel trägt, es trägt der Bock\nWer heute sich nicht heben kann\nIst ewig ein verlorner Mann.\n\nHALBHEXE (unten).\nIch tripple nach, so lange Zeit;\nWie sind die andern schon so weit!\nIch hab zu Hause keine Ruh\nUnd komme hier doch nicht dazu.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "BEIDE CHÖRE",
+        "HALBHEXE "
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-036",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-026.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 6137,
+      "anchor": "Ich steige schon dreihundert Jahr,\nUnd kann den Gipfel nicht erreichen\nIch wäre gern bei meinesgleic"
+    },
+    {
+      "id": "c24-dense-027",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 6534,
+      "source_end": 7006,
+      "source_text": "\n\nCHOR DER HEXEN.\nDie Salbe gibt den Hexen Mut,\nEin Lumpen ist zum Segel gut\nEin gutes Schiff ist jeder Trog\nDer flieget nie, der heut nicht flog.\n\nBEIDE CHÖRE.\nUnd wenn wir um den Gipfel ziehn,\nSo streichet an dem Boden hin\nUnd deckt die Heide weit und breit\nMit eurem Schwarm der Hexenheit\n(Sie lassen sich nieder.)\n\nMEPHISTOPHELES.\nDas drängt und stößt, das ruscht und klappert!\nDas zischt und quirlt, das zieht und plappert!\nDas leuchtet, sprüht und stinkt und brennt!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "CHOR DER HEXEN",
+        "BEIDE CHÖRE",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-027.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 6534,
+      "anchor": "CHOR DER HEXEN.\nDie Salbe gibt den Hexen Mut,\nEin Lumpen ist zum Segel gut\nEin gutes Schiff ist jede"
+    },
+    {
+      "id": "c24-dense-028",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 7006,
+      "source_end": 7092,
+      "source_text": "\nEin wahres Hexenelement!\nNur fest an mir! sonst sind wir gleich getrennt.\nWo bist du?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-028.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 7006,
+      "anchor": "Ein wahres Hexenelement!\nNur fest an mir! sonst sind wir gleich getrennt.\nWo bist du?"
+    },
+    {
+      "id": "c24-dense-029",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 7092,
+      "source_end": 7206,
+      "source_text": "\n\nFAUST (in der Ferne).\nHier!\n\nMEPHISTOPHELES.\nWas! dort schon hingerissen?\nDa werd ich Hausrecht brauchen müssen.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST ",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-029.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 7092,
+      "anchor": "FAUST (in der Ferne).\nHier!\n\nMEPHISTOPHELES.\nWas! dort schon hingerissen?\nDa werd ich Hausrecht brau"
+    },
+    {
+      "id": "c24-dense-030",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 7206,
+      "source_end": 7261,
+      "source_text": "\nPlatz! Junker Voland kommt. Platz! süßer Pöbel, Platz!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-030.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 7206,
+      "anchor": "Platz! Junker Voland kommt. Platz! süßer Pöbel, Platz!"
+    },
+    {
+      "id": "c24-dense-031",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 7261,
+      "source_end": 7489,
+      "source_text": "\nHier, Doktor, fasse mich! und nun in einem Satz\nLaß uns aus dem Gedräng entweichen;\nEs ist zu toll, sogar für meinesgleichen.\nDortneben leuchtet was mit ganz besondrem Schein,\nEs zieht mich was nach jenen Sträuchen.\nKomm, komm!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-031.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 7261,
+      "anchor": "Hier, Doktor, fasse mich! und nun in einem Satz\nLaß uns aus dem Gedräng entweichen;\nEs ist zu toll, "
+    },
+    {
+      "id": "c24-dense-032",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 7489,
+      "source_end": 7579,
+      "source_text": " wir schlupfen da hinein.\n\nFAUST.\nDu Geist des Widerspruchs! Nur zu! du magst mich führen.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-032.webp",
+      "source_grid": "source_images/chapter24-dense-002.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 7489,
+      "anchor": "wir schlupfen da hinein.\n\nFAUST.\nDu Geist des Widerspruchs! Nur zu! du magst mich führen."
+    },
+    {
+      "id": "c24-dense-033",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 7579,
+      "source_end": 7802,
+      "source_text": "\nIch denke doch, das war recht klug gemacht.\nZum Brocken wandeln wir in der Walpurgisnacht,\nUm uns beliebig nun hieselbst zu isolieren.\n\nMEPHISTOPHELES.\nDa sieh nur, welche bunten Flammen!\nEs ist ein muntrer Klub beisammen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-033.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 7579,
+      "anchor": "Ich denke doch, das war recht klug gemacht.\nZum Brocken wandeln wir in der Walpurgisnacht,\nUm uns be"
+    },
+    {
+      "id": "c24-dense-034",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 7802,
+      "source_end": 7984,
+      "source_text": "\nIm Kleinen ist man nicht allein.\n\nFAUST.\nDoch droben möcht ich lieber sein!\nSchon seh ich Glut und Wirbelrauch.\nDort strömt die Menge zu dem Bösen;\nDa muß sich manches Rätsel lösen.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-034.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 7802,
+      "anchor": "Im Kleinen ist man nicht allein.\n\nFAUST.\nDoch droben möcht ich lieber sein!\nSchon seh ich Glut und W"
+    },
+    {
+      "id": "c24-dense-035",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 7984,
+      "source_end": 8264,
+      "source_text": "\n\nMEPHISTOPHELES.\nDoch manches Rätsel knüpft sich auch.\nLaß du die große Welt nur sausen,\nWir wollen hier im stillen hausen.\nEs ist doch lange hergebracht,\nDaß in der großen Welt man kleine Welten macht.\nDa seh ich junge Hexchen, nackt und bloß,\nUnd alte, die sich klug verhüllen.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-035.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 7984,
+      "anchor": "MEPHISTOPHELES.\nDoch manches Rätsel knüpft sich auch.\nLaß du die große Welt nur sausen,\nWir wollen h"
+    },
+    {
+      "id": "c24-dense-036",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 8264,
+      "source_end": 8426,
+      "source_text": "\nSeid freundlich, nur um meinetwillen;\nDie Müh ist klein, der Spaß ist groß.\nIch höre was von Instrumenten tönen!\nVerflucht Geschnarr! Man muß sich dran gewöhnen.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-036.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 8264,
+      "anchor": "Seid freundlich, nur um meinetwillen;\nDie Müh ist klein, der Spaß ist groß.\nIch höre was von Instrum"
+    },
+    {
+      "id": "c24-dense-037",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 8426,
+      "source_end": 8566,
+      "source_text": "\nKomm mit! Komm mit! Es kann nicht anders sein,\nIch tret heran und führe dich herein,\nUnd ich verbinde dich aufs neue.\nWas sagst du, Freund?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-037.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 8426,
+      "anchor": "Komm mit! Komm mit! Es kann nicht anders sein,\nIch tret heran und führe dich herein,\nUnd ich verbind"
+    },
+    {
+      "id": "c24-dense-038",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 8566,
+      "source_end": 8770,
+      "source_text": " das ist kein kleiner Raum.\nDa sieh nur hin! du siehst das Ende kaum.\nEin Hundert Feuer brennen in der Reihe\nMan tanzt, man schwatzt, man kocht, man trinkt, man liebt\nNun sage mir, wo es was Bessers gibt?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-038.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 8566,
+      "anchor": "das ist kein kleiner Raum.\nDa sieh nur hin! du siehst das Ende kaum.\nEin Hundert Feuer brennen in de"
+    },
+    {
+      "id": "c24-dense-039",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 8770,
+      "source_end": 9079,
+      "source_text": "\n\nFAUST.\nWillst du dich nun, um uns hier einzuführen,\nAls Zaubrer oder Teufel produzieren?\n\nMEPHISTOPHELES.\nZwar bin ich sehr gewohnt, inkognito zu gehn,\nDoch läßt am Galatag man seinen Orden sehn.\nEin Knieband zeichnet mich nicht aus,\nDoch ist der Pferdefuß hier ehrenvoll zu Haus.\nSiehst du die Schnecke da?",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-039.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 8770,
+      "anchor": "FAUST.\nWillst du dich nun, um uns hier einzuführen,\nAls Zaubrer oder Teufel produzieren?\n\nMEPHISTOPH"
+    },
+    {
+      "id": "c24-dense-040",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 9079,
+      "source_end": 9301,
+      "source_text": " sie kommt herangekrochen;\nMit ihrem tastenden Gesicht\nHat sie mir schon was abgerochen.\nWenn ich auch will, verleugn ich hier mich nicht.\nKomm nur! von Feuer gehen wir zu Feuer,\nIch bin der Werber, und du bist der Freier.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-040.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 9079,
+      "anchor": "sie kommt herangekrochen;\nMit ihrem tastenden Gesicht\nHat sie mir schon was abgerochen.\nWenn ich auc"
+    },
+    {
+      "id": "c24-dense-041",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 9301,
+      "source_end": 9669,
+      "source_text": "\n(Zu einigen, die um verglimmende Kohlen sitzen:)\nIhr alten Herrn, was macht ihr hier am Ende?\nIch lobt euch, wenn ich euch hübsch in der Mitte fände,\nVon Saus umzirkt und Jugendbraus;\nGenug allein ist jeder ja zu Haus.\n\nGENERAL.\nWer mag auf Nationen trauen!\nMan habe noch so viel für sie getan;\nDenn bei dem Volk wie bei den Frauen\nSteht immerfort die Jugend oben an.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "GENERAL"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-041.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 9301,
+      "anchor": "(Zu einigen, die um verglimmende Kohlen sitzen:)\nIhr alten Herrn, was macht ihr hier am Ende?\nIch lo"
+    },
+    {
+      "id": "c24-dense-042",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 9669,
+      "source_end": 10140,
+      "source_text": "\n\nMINISTER.\nJetzt ist man von dem Rechten allzu weit,\nIch lobe mir die guten Alten;\nDenn freilich, da wir alles galten,\nDa war die rechte goldne Zeit.\n\nPARVENÜ.\nWir waren wahrlich auch nicht dumm\nUnd taten oft, was wir nicht sollten;\nDoch jetzo kehrt sich alles um und um,\nUnd eben da wir’s fest erhalten wollten.\n\nAUTOR.\nWer mag wohl überhaupt jetzt eine Schrift\nVon mäßig klugem Inhalt lesen!\nUnd was das liebe junge Volk betrifft,\nDas ist noch nie so naseweis gewesen.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MINISTER",
+        "PARVENÜ",
+        "AUTOR"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-037",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-042.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 9669,
+      "anchor": "MINISTER.\nJetzt ist man von dem Rechten allzu weit,\nIch lobe mir die guten Alten;\nDenn freilich, da "
+    },
+    {
+      "id": "c24-dense-043",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 10140,
+      "source_end": 10505,
+      "source_text": "\n\nMEPHISTOPHELES (der auf einmal sehr alt erscheint).\nZum Jüngsten Tag fühl ich das Volk gereift,\nDa ich zum letztenmal den Hexenberg ersteige,\nUnd weil mein Fäßchen trübe läuft,\nSo ist die Welt auch auf der Neige.\n\nTRÖDELHEXE.\nIhr Herren, geht nicht so vorbei!\nLaßt die Gelegenheit nicht fahren!\nAufmerksam blickt nach meinen Waren,\nEs steht dahier gar mancherlei.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "TRÖDELHEXE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-043.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 10140,
+      "anchor": "MEPHISTOPHELES (der auf einmal sehr alt erscheint).\nZum Jüngsten Tag fühl ich das Volk gereift,\nDa i"
+    },
+    {
+      "id": "c24-dense-044",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 10505,
+      "source_end": 11006,
+      "source_text": "\nUnd doch ist nichts in meinem Laden,\nDem keiner auf der Erde gleicht,\nDas nicht einmal zum tücht’gen Schaden\nDer Menschen und der Welt gereicht.\nKein Dolch ist hier, von dem nicht Blut geflossen,\nKein Kelch, aus dem sich nicht in ganz gesunden Leib\nVerzehrend heißes Gift ergossen,\nKein Schmuck, der nicht ein liebenswürdig Weib\nVerführt, kein Schwert, das nicht den Bund gebrochen,\nNicht etwa hinterrücks den Gegenmann durchstochen.\n\nMEPHISTOPHELES.\nFrau Muhme! Sie versteht mir schlecht die Zeiten.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-044.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 10505,
+      "anchor": "Und doch ist nichts in meinem Laden,\nDem keiner auf der Erde gleicht,\nDas nicht einmal zum tücht’gen"
+    },
+    {
+      "id": "c24-dense-045",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 11006,
+      "source_end": 11103,
+      "source_text": "\nGetan, geschehn! Geschehn, getan!\nVerleg Sie sich auf Neuigkeiten!\nNur Neuigkeiten ziehn uns an.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-045.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 11006,
+      "anchor": "Getan, geschehn! Geschehn, getan!\nVerleg Sie sich auf Neuigkeiten!\nNur Neuigkeiten ziehn uns an."
+    },
+    {
+      "id": "c24-dense-046",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 11103,
+      "source_end": 11312,
+      "source_text": "\n\nFAUST.\nDaß ich mich nur nicht selbst vergesse!\nHeiß ich mir das doch eine Messe!\n\nMEPHISTOPHELES.\nDer ganze Strudel strebt nach oben;\nDu glaubst zu schieben, und du wirst geschoben.\n\nFAUST.\nWer ist denn das?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-046.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 11103,
+      "anchor": "FAUST.\nDaß ich mich nur nicht selbst vergesse!\nHeiß ich mir das doch eine Messe!\n\nMEPHISTOPHELES.\nDe"
+    },
+    {
+      "id": "c24-dense-047",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 11312,
+      "source_end": 11414,
+      "source_text": "\n\nMEPHISTOPHELES.\nBetrachte sie genau!\nLilith ist das.\n\nFAUST.\nWer?\n\nMEPHISTOPHELES.\nAdams erste Frau.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-047.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 11312,
+      "anchor": "MEPHISTOPHELES.\nBetrachte sie genau!\nLilith ist das.\n\nFAUST.\nWer?\n\nMEPHISTOPHELES.\nAdams erste Frau."
+    },
+    {
+      "id": "c24-dense-048",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 11414,
+      "source_end": 11724,
+      "source_text": "\nNimm dich in acht vor ihren schönen Haaren,\nVor diesem Schmuck, mit dem sie einzig prangt.\nWenn sie damit den jungen Mann erlangt,\nSo läßt sie ihn so bald nicht wieder fahren.\n\nFAUST.\nDa sitzen zwei, die Alte mit der Jungen;\nDie haben schon was Rechts gesprungen!\n\nMEPHISTOPHELES.\nDas hat nun heute keine Ruh.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-048.webp",
+      "source_grid": "source_images/chapter24-dense-003.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 11414,
+      "anchor": "Nimm dich in acht vor ihren schönen Haaren,\nVor diesem Schmuck, mit dem sie einzig prangt.\nWenn sie "
+    },
+    {
+      "id": "c24-dense-049",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 11724,
+      "source_end": 12012,
+      "source_text": "\nEs geht zum neuen Tanz, nun komm! wir greifen zu.\n\nFAUST (mit der Jungen tanzend).\nEinst hatt ich einen schönen Traum\nDa sah ich einen Apfelbaum,\nZwei schöne Äpfel glänzten dran,\nSie reizten mich, ich stieg hinan.\n\nDIE SCHÖNE.\nDer Äpfelchen begehrt ihr sehr,\nUnd schon vom Paradiese her.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST ",
+        "DIE SCHÖNE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-049.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 11724,
+      "anchor": "Es geht zum neuen Tanz, nun komm! wir greifen zu.\n\nFAUST (mit der Jungen tanzend).\nEinst hatt ich ei"
+    },
+    {
+      "id": "c24-dense-050",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 12012,
+      "source_end": 12391,
+      "source_text": "\nVon Freuden fühl ich mich bewegt,\nDaß auch mein Garten solche trägt.\n\nMEPHISTOPHELES (mit der Alten).\nEinst hatt ich einen wüsten Traum\nDa sah ich einen gespaltnen Baum,\nDer hatt ein ungeheures Loch;\nSo groß es war, gefiel mir’s doch.\n\nDIE ALTE.\nIch biete meinen besten Gruß\nDem Ritter mit dem Pferdefuß!\nHalt Er einen rechten Pfropf bereit,\nWenn Er das große Loch nicht scheut.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "DIE ALTE"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-050.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 12012,
+      "anchor": "Von Freuden fühl ich mich bewegt,\nDaß auch mein Garten solche trägt.\n\nMEPHISTOPHELES (mit der Alten)"
+    },
+    {
+      "id": "c24-dense-051",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 12391,
+      "source_end": 12533,
+      "source_text": "\n\nPROKTOPHANTASMIST.\nVerfluchtes Volk! was untersteht ihr euch?\nHat man euch lange nicht bewiesen.\nEin Geist steht nie auf ordentlichen Füßen?",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "PROKTOPHANTASMIST"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-051.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 12391,
+      "anchor": "PROKTOPHANTASMIST.\nVerfluchtes Volk! was untersteht ihr euch?\nHat man euch lange nicht bewiesen.\nEin"
+    },
+    {
+      "id": "c24-dense-052",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 12533,
+      "source_end": 12682,
+      "source_text": "\nNun tanzt ihr gar, uns andern Menschen gleich!\n\nDIE SCHÖNE (tanzend).\nWas will denn der auf unserm Ball?\n\nFAUST (tanzend).\nEi! der ist eben überall.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "DIE SCHÖNE ",
+        "FAUST "
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-052.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 12533,
+      "anchor": "Nun tanzt ihr gar, uns andern Menschen gleich!\n\nDIE SCHÖNE (tanzend).\nWas will denn der auf unserm B"
+    },
+    {
+      "id": "c24-dense-053",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 12682,
+      "source_end": 13011,
+      "source_text": "\nWas andre tanzen, muß er schätzen.\nKann er nicht jeden Schritt beschwätzen,\nSo ist der Schritt so gut als nicht geschehn.\nAm meisten ärgert ihn, sobald wir vorwärts gehn.\nWenn ihr euch so im Kreise drehen wolltet,\nWie er’s in seiner alten Mühle tut\nDas hieß’ er allenfalls noch gut\nBesonders wenn ihr ihn darum begrüßen solltet.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-053.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 12682,
+      "anchor": "Was andre tanzen, muß er schätzen.\nKann er nicht jeden Schritt beschwätzen,\nSo ist der Schritt so gu"
+    },
+    {
+      "id": "c24-dense-054",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 13011,
+      "source_end": 13123,
+      "source_text": "\n\nPROKTOPHANTASMIST.\nIhr seid noch immer da! nein, das ist unerhört.\nVerschwindet doch! Wir haben ja aufgeklärt!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "PROKTOPHANTASMIST"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-054.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 13011,
+      "anchor": "PROKTOPHANTASMIST.\nIhr seid noch immer da! nein, das ist unerhört.\nVerschwindet doch! Wir haben ja a"
+    },
+    {
+      "id": "c24-dense-055",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 13123,
+      "source_end": 13418,
+      "source_text": "\nDas Teufelspack, es fragt nach keiner Regel\nWir sind so klug, und dennoch spukt’s in Tegel.\nWie lange hab ich nicht am Wahn hinausgekehrt,\nUnd nie wird’s rein; das ist doch unerhört!\n\nDIE SCHÖNE.\nSo hört doch auf, uns hier zu ennuyieren!\n\nPROKTOPHANTASMIST.\nIch sag’s euch Geistern ins Gesicht.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "DIE SCHÖNE",
+        "PROKTOPHANTASMIST"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-055.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 13123,
+      "anchor": "Das Teufelspack, es fragt nach keiner Regel\nWir sind so klug, und dennoch spukt’s in Tegel.\nWie lang"
+    },
+    {
+      "id": "c24-dense-056",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 13418,
+      "source_end": 13990,
+      "source_text": "\nDen Geistesdespotismus leid ich nicht;\nMein Geist kann ihn nicht exerzieren.\n(Es wird fortgetanzt.)\nHeut, seh ich, will mir nichts gelingen;\nDoch eine Reise nehm ich immer mit\nUnd hoffe noch vor meinem letzten Schritt\nDie Teufel und die Dichter zu bezwingen.\n\nMEPHISTOPHELES.\nEr wird sich gleich in eine Pfütze setzen,\nDas ist die Art, wie er sich soulagiert,\nUnd wenn Blutegel sich an seinem Steiß ergetzen,\nIst er von Geistern und von Geist kuriert.\n(Zu Faust, der aus dem Tanz getreten ist.)\nWas lässest du das schöne Mädchen fahren,\nDas dir zum Tanz so lieblich sang?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-056.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 13418,
+      "anchor": "Den Geistesdespotismus leid ich nicht;\nMein Geist kann ihn nicht exerzieren.\n(Es wird fortgetanzt.)\n"
+    },
+    {
+      "id": "c24-dense-057",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 13990,
+      "source_end": 14167,
+      "source_text": "\n\nFAUST.\nAch! mitten im Gesange sprang\nEin rotes Mäuschen ihr aus dem Munde.\n\nMEPHISTOPHELES.\nDas ist was Rechts! das nimmt man nicht genau;\nGenug, die Maus war doch nicht grau.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-057.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 13990,
+      "anchor": "FAUST.\nAch! mitten im Gesange sprang\nEin rotes Mäuschen ihr aus dem Munde.\n\nMEPHISTOPHELES.\nDas ist "
+    },
+    {
+      "id": "c24-dense-058",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 14167,
+      "source_end": 14419,
+      "source_text": "\nWer fragt darnach in einer Schäferstunde?\n\nFAUST.\nDann sah ich—\n\nMEPHISTOPHELES.\nWas?\n\nFAUST.\nMephisto, siehst du dort\nEin blasses, schönes Kind allein und ferne stehen?\nSie schiebt sich langsam nur vom Ort,\nSie scheint mit geschloßnen Füßen zu gehen.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-038",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-058.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 14167,
+      "anchor": "Wer fragt darnach in einer Schäferstunde?\n\nFAUST.\nDann sah ich—\n\nMEPHISTOPHELES.\nWas?\n\nFAUST.\nMephis"
+    },
+    {
+      "id": "c24-dense-059",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 14419,
+      "source_end": 14597,
+      "source_text": "\nIch muß bekennen, daß mir deucht,\nDaß sie dem guten Gretchen gleicht.\n\nMEPHISTOPHELES.\nLaß das nur stehn! dabei wird’s niemand wohl.\nEs ist ein Zauberbild, ist leblos, ein Idol.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-059.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 14419,
+      "anchor": "Ich muß bekennen, daß mir deucht,\nDaß sie dem guten Gretchen gleicht.\n\nMEPHISTOPHELES.\nLaß das nur s"
+    },
+    {
+      "id": "c24-dense-060",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 14597,
+      "source_end": 14913,
+      "source_text": "\nIhm zu begegnen, ist nicht gut.\nVom starren Blick erstarrt des Menschen Blut,\nUnd er wird fast in Stein verkehrt;\nVon der Meduse hast du ja gehört.\n\nFAUST.\nFürwahr, es sind die Augen einer Toten,\nDie eine liebende Hand nicht schloß.\nDas ist die Brust, die Gretchen mir geboten,\nDas ist der süße Leib, den ich genoß.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-060.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 14597,
+      "anchor": "Ihm zu begegnen, ist nicht gut.\nVom starren Blick erstarrt des Menschen Blut,\nUnd er wird fast in St"
+    },
+    {
+      "id": "c24-dense-061",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 14913,
+      "source_end": 15066,
+      "source_text": "\n\nMEPHISTOPHELES.\nDas ist die Zauberei, du leicht verführter Tor!\nDenn jedem kommt sie wie sein Liebchen vor.\n\nFAUST.\nWelch eine Wonne! welch ein Leiden!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-061.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 14913,
+      "anchor": "MEPHISTOPHELES.\nDas ist die Zauberei, du leicht verführter Tor!\nDenn jedem kommt sie wie sein Liebch"
+    },
+    {
+      "id": "c24-dense-062",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 4,
+      "source_start": 15066,
+      "source_end": 15272,
+      "source_text": "\nIch kann von diesem Blick nicht scheiden.\nWie sonderbar muß diesen schönen Hals\nEin einzig rotes Schnürchen schmücken,\nNicht breiter als ein Messerrücken!\n\nMEPHISTOPHELES.\nGanz recht! ich seh es ebenfalls.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c24-dense-062.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 15066,
+      "anchor": "Ich kann von diesem Blick nicht scheiden.\nWie sonderbar muß diesen schönen Hals\nEin einzig rotes Sch"
+    },
+    {
+      "id": "c24-dense-063",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 3,
+      "source_start": 15272,
+      "source_end": 15516,
+      "source_text": "\nSie kann das Haupt auch unterm Arme tragen,\nDenn Perseus hat’s ihr abgeschlagen.\nNur immer diese Lust zum Wahn!\nKomm doch das Hügelchen heran,\nHier ist’s so lustig wie im Prater\nUnd hat man mir’s nicht angetan,\nSo seh ich wahrlich ein Theater.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c24-dense-063.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 15272,
+      "anchor": "Sie kann das Haupt auch unterm Arme tragen,\nDenn Perseus hat’s ihr abgeschlagen.\nNur immer diese Lus"
+    },
+    {
+      "id": "c24-dense-064",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 3,
+      "source_start": 15516,
+      "source_end": 15623,
+      "source_text": "\nWas gibt’s denn da?\n\nSERVIBILIS.\nGleich fängt man wieder an.\nEin neues Stück, das letzte Stück von sieben.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "SERVIBILIS"
+      ],
+      "reference_ids": [
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c24-dense-064.webp",
+      "source_grid": "source_images/chapter24-dense-004.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 15516,
+      "anchor": "Was gibt’s denn da?\n\nSERVIBILIS.\nGleich fängt man wieder an.\nEin neues Stück, das letzte Stück von s"
+    },
+    {
+      "id": "c24-dense-065",
+      "chapter": 24,
+      "chapter_title": "Walpurgisnacht",
+      "sentence_count": 3,
+      "source_start": 15623,
+      "source_end": 15913,
+      "source_text": "\nSo viel zu geben ist allhier der Brauch,\nEin Dilettant hat es geschrieben\nUnd Dilettanten spielen’s auch.\nVerzeiht, ihr Herrn, wenn ich verschwinde\nMich dilettiert’s, den Vorhang aufzuziehn.\n\nMEPHISTOPHELES.\nWenn ich euch auf dem Blocksberg finde,\nDas find ich gut; denn da gehört ihr hin.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "location-019"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c24-dense-065.webp",
+      "source_grid": "source_images/chapter24-dense-005.png",
+      "crop_box": [
+        3,
+        3,
+        359,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-24.json",
+      "char_offset": 15623,
+      "anchor": "So viel zu geben ist allhier der Brauch,\nEin Dilettant hat es geschrieben\nUnd Dilettanten spielen’s "
+    },
+    {
+      "id": "c25-dense-001",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 418,
+      "source_text": "oder\nOberons und Titanias goldne Hochzeit\nIntermezzo\n\n\nTHEATERMEISTER.\nHeute ruhen wir einmal,\nMiedings wackre Söhne.\nAlter Berg und feuchtes Tal,\nDas ist die ganze Szene!\n\nHEROLD.\nDaß die Hochzeit golden sei,\nSolln funfzig Jahr sein vorüber;\nAber ist der Streit vorbei,\nDas golden ist mir lieber.\n\nOBERON.\nSeid ihr Geister, wo ich bin,\nSo zeigt’s in diesen Stunden;\nKönig und die Königin,\nSie sind aufs neu verbunden.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "THEATERMEISTER",
+        "HEROLD",
+        "OBERON"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c25-dense-001.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        365,
+        3,
+        721,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 0,
+      "anchor": "oder\nOberons und Titanias goldne Hochzeit\nIntermezzo\n\n\nTHEATERMEISTER.\nHeute ruhen wir einmal,\nMiedi"
+    },
+    {
+      "id": "c25-dense-002",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 418,
+      "source_end": 801,
+      "source_text": "\n\nPUCK.\nKommt der Puck und dreht sich quer\nUnd schleift den Fuß im Reihen;\nHundert kommen hinterher,\nSich auch mit ihm zu freuen.\n\nARIEL.\nAriel bewegt den Sang\nIn himmlisch reinen Tönen;\nViele Fratzen lockt sein Klang,\nDoch lockt er auch die Schönen.\n\nOBERON.\nGatten, die sich vertragen wollen,\nLernen’s von uns beiden!\nWenn sich zweie lieben sollen,\nBraucht man sie nur zu scheiden.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "PUCK",
+        "ARIEL",
+        "OBERON"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c25-dense-002.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        727,
+        3,
+        1083,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 418,
+      "anchor": "PUCK.\nKommt der Puck und dreht sich quer\nUnd schleift den Fuß im Reihen;\nHundert kommen hinterher,\nS"
+    },
+    {
+      "id": "c25-dense-003",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 801,
+      "source_end": 1135,
+      "source_text": "\n\nTITANIA.\nSchmollt der Mann und grillt die Frau,\nSo faßt sie nur behende,\nFührt mir nach dem Mittag sie,\nUnd ihn an Nordens Ende.\n\nORCHESTER TUTTI (Fortissimo).\nFliegenschnauz und Mückennas\nMit ihren Anverwandten,\nFrosch im Laub und Grill im Gras,\nDas sind die Musikanten!\n\nSOLO.\nSeht, da kommt der Dudelsack!\nEs ist die Seifenblase.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "TITANIA",
+        "ORCHESTER TUTTI ",
+        "SOLO"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c25-dense-003.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        1089,
+        3,
+        1445,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 801,
+      "anchor": "TITANIA.\nSchmollt der Mann und grillt die Frau,\nSo faßt sie nur behende,\nFührt mir nach dem Mittag s"
+    },
+    {
+      "id": "c25-dense-004",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 1135,
+      "source_end": 1532,
+      "source_text": "\nHört den Schneckeschnickeschnack\nDurch seine stumpfe Nase\n\nGEIST, DER SICH ERST BILDET.\nSpinnenfuß und Krötenbauch\nUnd Flügelchen dem Wichtchen!\nZwar ein Tierchen gibt es nicht,\nDoch gibt es ein Gedichtchen.\n\nEIN PÄRCHEN.\nKleiner Schritt und hoher Sprung\nDurch Honigtau und Düfte\nZwar du trippelst mir genung,\nDoch geht’s nicht in die Lüfte.\n\nNEUGIERIGER REISENDER.\nIst das nicht Maskeradenspott?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "GEIST, DER SICH ERST BILDET",
+        "EIN PÄRCHEN",
+        "NEUGIERIGER REISENDER"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c25-dense-004.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        3,
+        275,
+        359,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 1135,
+      "anchor": "Hört den Schneckeschnickeschnack\nDurch seine stumpfe Nase\n\nGEIST, DER SICH ERST BILDET.\nSpinnenfuß u"
+    },
+    {
+      "id": "c25-dense-005",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 1532,
+      "source_end": 1744,
+      "source_text": "\nSoll ich den Augen trauen,\nOberon, den schönen Gott,\nAuch heute hier zu schauen?\n\nORTHODOX.\nKeine Klauen, keinen Schwanz!\nDoch bleibt es außer Zweifel.\nSo wie die Götter Griechenlands,\nSo ist auch er ein Teufel.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "ORTHODOX"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c25-dense-005.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        365,
+        275,
+        721,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 1532,
+      "anchor": "Soll ich den Augen trauen,\nOberon, den schönen Gott,\nAuch heute hier zu schauen?\n\nORTHODOX.\nKeine Kl"
+    },
+    {
+      "id": "c25-dense-006",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 1744,
+      "source_end": 1951,
+      "source_text": "\n\nNORDISCHER KÜNSTLER.\nWas ich ergreife, das ist heut\nFürwahr nur skizzenweise;\nDoch ich bereite mich beizeit\nZur italien’schen Reise.\n\nPURIST.\nAch! mein Unglück führt mich her.\nWie wird nicht hier geludert!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "NORDISCHER KÜNSTLER",
+        "PURIST"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c25-dense-006.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        727,
+        275,
+        1083,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 1744,
+      "anchor": "NORDISCHER KÜNSTLER.\nWas ich ergreife, das ist heut\nFürwahr nur skizzenweise;\nDoch ich bereite mich "
+    },
+    {
+      "id": "c25-dense-007",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 1951,
+      "source_end": 2275,
+      "source_text": "\nUnd von dem ganzen Hexenheer\nSind zweie nur gepudert.\n\nJUNGE HEXE\nDer Puder ist so wie der Rock\nFür alt’ und graue Weibchen,\nDrum sitz ich nackt auf meinem Bock\nUnd zeig ein derbes Leibchen.\n\nMATRONE.\nWir haben zu viel Lebensart\nUm hier mit euch zu maulen!\nDoch hoff ich, sollt ihr jung und zart\nSo wie ihr seid, verfaulen.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MATRONE"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c25-dense-007.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        1089,
+        275,
+        1445,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 1951,
+      "anchor": "Und von dem ganzen Hexenheer\nSind zweie nur gepudert.\n\nJUNGE HEXE\nDer Puder ist so wie der Rock\nFür "
+    },
+    {
+      "id": "c25-dense-008",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 2275,
+      "source_end": 2515,
+      "source_text": "\n\nKAPELLMEISTER.\nFliegenschnauz und Mückennas\nUmschwärmt mir nicht die Nackte!\nFrosch im Laub und Grill im Gras,\nSo bleibt doch auch im Takte!\n\nWINDFAHNE (nach der einen Seite).\nGesellschaft, wie man wünschen kann.\nWahrhaftig lauter Bräute!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "KAPELLMEISTER",
+        "WINDFAHNE "
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c25-dense-008.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        3,
+        546,
+        359,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 2275,
+      "anchor": "KAPELLMEISTER.\nFliegenschnauz und Mückennas\nUmschwärmt mir nicht die Nackte!\nFrosch im Laub und Gril"
+    },
+    {
+      "id": "c25-dense-009",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 2515,
+      "source_end": 2918,
+      "source_text": "\nUnd Junggesellen, Mann für Mann,\nDie hoffnungsvollsten Leute!\n\nWINDFAHNE (nach der andern Seite).\nUnd tut sich nicht der Boden auf,\nSie alle zu verschlingen,\nSo will ich mit behendem Lauf\nGleich in die Hölle springen.\n\nXENIEN.\nAls Insekten sind wir da,\nMit kleinen scharfen Scheren,\nSatan, unsern Herrn Papa,\nNach Würden zu verehren.\n\nHENNINGS.\nSeht, wie sie in gedrängter Schar\nNaiv zusammen scherzen!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "WINDFAHNE ",
+        "XENIEN",
+        "HENNINGS"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-039",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c25-dense-009.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        365,
+        546,
+        721,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 2515,
+      "anchor": "Und Junggesellen, Mann für Mann,\nDie hoffnungsvollsten Leute!\n\nWINDFAHNE (nach der andern Seite).\nUn"
+    },
+    {
+      "id": "c25-dense-010",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 2918,
+      "source_end": 3180,
+      "source_text": "\nAm Ende sagen sie noch gar,\nSie hätten gute Herzen.\n\nMUSAGET.\nIch mag in diesem Hexenheer\nMich gar zu gern verlieren;\nDenn freilich diese wüßt ich eh’r\nAls Musen anzuführen.\n\nCI-DEVANT GENIUS DER ZEIT.\nMit rechten Leuten wird man was.\nKomm, fasse meinen Zipfel!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MUSAGET",
+        "CI-DEVANT GENIUS DER ZEIT"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c25-dense-010.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        727,
+        546,
+        1083,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 2918,
+      "anchor": "Am Ende sagen sie noch gar,\nSie hätten gute Herzen.\n\nMUSAGET.\nIch mag in diesem Hexenheer\nMich gar z"
+    },
+    {
+      "id": "c25-dense-011",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 3180,
+      "source_end": 3376,
+      "source_text": "\nDer Blocksberg, wie der deutsche Parnaß,\nHat gar einen breiten Gipfel.\n\nNEUGIERIGER REISENDER.\nSagt, wie heißt der steife Mann?\nEr geht mit stolzen Schritten.\nEr schnopert, was er schnopern kann.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "NEUGIERIGER REISENDER"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c25-dense-011.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        1089,
+        546,
+        1445,
+        811
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 3180,
+      "anchor": "Der Blocksberg, wie der deutsche Parnaß,\nHat gar einen breiten Gipfel.\n\nNEUGIERIGER REISENDER.\nSagt,"
+    },
+    {
+      "id": "c25-dense-012",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 3376,
+      "source_end": 3701,
+      "source_text": "\n“Er spürt nach Jesuiten.”\n\nKRANICH.\nIn dem klaren mag ich gern\nUnd auch im trüben fischen;\nDarum seht ihr den frommen Herrn\nSich auch mit Teufeln mischen.\n\nWELTKIND.\nJa, für die Frommen, glaubet mir,\nIst alles ein Vehikel,\nSie bilden auf dem Blocksberg hier\nGar manches Konventikel.\n\nTÄNZER.\nDa kommt ja wohl ein neues Chor?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "KRANICH",
+        "WELTKIND",
+        "TÄNZER"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c25-dense-012.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        3,
+        817,
+        359,
+        1083
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 3376,
+      "anchor": "“Er spürt nach Jesuiten.”\n\nKRANICH.\nIn dem klaren mag ich gern\nUnd auch im trüben fischen;\nDarum seh"
+    },
+    {
+      "id": "c25-dense-013",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 3701,
+      "source_end": 3827,
+      "source_text": "\nIch höre ferne Trommeln.\n“Nur ungestört! es sind im Rohr\nDie unisonen Dommeln.”\n\nTANZMEISTER.\nWie jeder doch die Beine lupft!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "TANZMEISTER"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c25-dense-013.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        365,
+        817,
+        721,
+        1083
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 3701,
+      "anchor": "Ich höre ferne Trommeln.\n“Nur ungestört! es sind im Rohr\nDie unisonen Dommeln.”\n\nTANZMEISTER.\nWie je"
+    },
+    {
+      "id": "c25-dense-014",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 3827,
+      "source_end": 4155,
+      "source_text": "\nSich, wie er kann, herauszieht!\nDer Krumme springt, der Plumpe hupft\nUnd fragt nicht, wie es aussieht.\n\nFIEDLER.\nDas haßt sich schwer, das Lumpenpack,\nUnd gäb sich gern das Restchen;\nEs eint sie hier der Dudelsack,\nWie Orpheus’ Leier die Bestjen.\n\nDOGMATIKER.\nIch lasse mich nicht irre schrein,\nNicht durch Kritik noch Zweifel.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FIEDLER",
+        "DOGMATIKER"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c25-dense-014.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        727,
+        817,
+        1083,
+        1083
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 3827,
+      "anchor": "Sich, wie er kann, herauszieht!\nDer Krumme springt, der Plumpe hupft\nUnd fragt nicht, wie es aussieh"
+    },
+    {
+      "id": "c25-dense-015",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 4155,
+      "source_end": 4480,
+      "source_text": "\nDer Teufel muß doch etwas sein;\nWie gäb’s denn sonst auch Teufel?\n\nIDEALIST.\nDie Phantasie in meinem Sinn\nIst diesmal gar zu herrisch.\nFürwahr, wenn ich das alles bin,\nSo bin ich heute närrisch.\n\nREALIST.\nDas Wesen ist mir recht zur Qual\nUnd muß mich baß verdrießen;\nIch stehe hier zum erstenmal\nNicht fest auf meinen Füßen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "IDEALIST",
+        "REALIST"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c25-dense-015.webp",
+      "source_grid": "source_images/chapter25-dense-001.png",
+      "crop_box": [
+        1089,
+        817,
+        1445,
+        1083
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 4155,
+      "anchor": "Der Teufel muß doch etwas sein;\nWie gäb’s denn sonst auch Teufel?\n\nIDEALIST.\nDie Phantasie in meinem"
+    },
+    {
+      "id": "c25-dense-016",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 4480,
+      "source_end": 4833,
+      "source_text": "\n\nSUPERNATURALIST.\nMit viel Vergnügen bin ich da\nUnd freue mich mit diesen;\nDenn von den Teufeln kann ich ja\nAuf gute Geister schließen.\n\nSKEPTIKER.\nSie gehn den Flämmchen auf der Spur\nUnd glaubn sich nah dem Schatze.\nAuf Teufel reimt der Zweifel nur;\nDa bin ich recht am Platze.\n\nKAPELLMEISTER.\nFrosch im Laub und Grill im Gras,\nVerfluchte Dilettanten!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "SUPERNATURALIST",
+        "SKEPTIKER",
+        "KAPELLMEISTER"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c25-dense-016.webp",
+      "source_grid": "source_images/chapter25-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        359,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 4480,
+      "anchor": "SUPERNATURALIST.\nMit viel Vergnügen bin ich da\nUnd freue mich mit diesen;\nDenn von den Teufeln kann "
+    },
+    {
+      "id": "c25-dense-017",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 4833,
+      "source_end": 5174,
+      "source_text": "\nFliegenschnauz und Mückennas,\nIhr seid doch Musikanten!\n\nDIE GEWANDTEN.\nSanssouci, so heißt das Heer\nVon lustigen Geschöpfen;\nAuf den Füßen geht’s nicht mehr,\nDrum gehn wir auf den Köpfen.\n\nDIE UNBEHILFLICHEN.\nSonst haben wir manchen Bissen erschranzt,\nNun aber Gott befohlen!\nUnsere Schuhe sind durchgetanzt,\nWir laufen auf nackten Sohlen.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "DIE GEWANDTEN",
+        "DIE UNBEHILFLICHEN"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c25-dense-017.webp",
+      "source_grid": "source_images/chapter25-dense-002.png",
+      "crop_box": [
+        365,
+        3,
+        721,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 4833,
+      "anchor": "Fliegenschnauz und Mückennas,\nIhr seid doch Musikanten!\n\nDIE GEWANDTEN.\nSanssouci, so heißt das Heer"
+    },
+    {
+      "id": "c25-dense-018",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 4,
+      "source_start": 5174,
+      "source_end": 5476,
+      "source_text": "\n\nIRRLICHTER.\nVon dem Sumpfe kommen wir,\nWoraus wir erst entstanden;\nDoch sind wir gleich im Reihen hier\nDie glänzenden Galanten.\n\nSTERNSCHNUPPE.\nAus der Höhe schoß ich her\nIm Stern- und Feuerscheine,\nLiege nun im Grase quer;\nWer hilft mir auf die Beine?\n\nDIE MASSIVEN.\nPlatz und Platz! und ringsherum!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "IRRLICHTER",
+        "STERNSCHNUPPE",
+        "DIE MASSIVEN"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c25-dense-018.webp",
+      "source_grid": "source_images/chapter25-dense-002.png",
+      "crop_box": [
+        727,
+        3,
+        1083,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 5174,
+      "anchor": "IRRLICHTER.\nVon dem Sumpfe kommen wir,\nWoraus wir erst entstanden;\nDoch sind wir gleich im Reihen hi"
+    },
+    {
+      "id": "c25-dense-019",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 3,
+      "source_start": 5476,
+      "source_end": 5676,
+      "source_text": "\nSo gehn die Gräschen nieder.\nGeister kommen, Geister auch,\nSie haben plumpe Glieder.\n\nPUCK.\nTretet nicht so mastig auf\nWie Elefantenkälber,\nUnd der plumpst’ an diesem Tag\nSei Puck, der derbe, selber.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "PUCK"
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c25-dense-019.webp",
+      "source_grid": "source_images/chapter25-dense-002.png",
+      "crop_box": [
+        1089,
+        3,
+        1445,
+        269
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 5476,
+      "anchor": "So gehn die Gräschen nieder.\nGeister kommen, Geister auch,\nSie haben plumpe Glieder.\n\nPUCK.\nTretet n"
+    },
+    {
+      "id": "c25-dense-020",
+      "chapter": 25,
+      "chapter_title": "Walpurgisnachtstraum",
+      "sentence_count": 3,
+      "source_start": 5676,
+      "source_end": 5913,
+      "source_text": "\n\nARIEL.\nGab die liebende Natur,\nGab der Geist euch Flügel,\nFolget meiner leichten Spur,\nAuf zum Rosenhügel!\n\nORCHESTER (Pianissimo).\nWolkenzug und Nebelflor\nErhellen sich von oben.\nLuft im Laub und Wind im Rohr,\nUnd alles ist zerstoben.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "ARIEL",
+        "ORCHESTER "
+      ],
+      "reference_ids": [
+        "location-020"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-040",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c25-dense-020.webp",
+      "source_grid": "source_images/chapter25-dense-002.png",
+      "crop_box": [
+        3,
+        275,
+        359,
+        540
+      ],
+      "native_grid_size": [
+        1448,
+        1086
+      ],
+      "adaptation": "adaptations/chapter-25.json",
+      "char_offset": 5676,
+      "anchor": "ARIEL.\nGab die liebende Natur,\nGab der Geist euch Flügel,\nFolget meiner leichten Spur,\nAuf zum Rosen"
     }
   ]
 }

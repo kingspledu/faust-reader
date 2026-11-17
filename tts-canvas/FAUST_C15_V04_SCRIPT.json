@@ -7,7 +7,7 @@
   "script_revision": "dialogue-cast-v3",
   "model": "gemini-2.5-flash-preview-tts",
   "cast_revision": "CAST-2026-11-18",
-  "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+  "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
   "voices": {
     "나레이터": "Charon",
     "시인": "Algieba",
@@ -175,7 +175,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -202,7 +202,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -229,7 +229,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -256,7 +256,7 @@
           "voice": "Orus",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -283,7 +283,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -310,7 +310,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -337,7 +337,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -364,7 +364,7 @@
           "voice": "Sulafat",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -391,7 +391,7 @@
           "voice": "Fenrir",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -418,7 +418,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -445,7 +445,7 @@
           "voice": "Sulafat",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -472,7 +472,7 @@
           "voice": "Fenrir",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -499,7 +499,7 @@
           "voice": "Sulafat",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -526,7 +526,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -553,7 +553,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -580,7 +580,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -607,7 +607,7 @@
           "voice": "Orus",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -634,7 +634,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -661,7 +661,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -688,7 +688,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -715,7 +715,7 @@
           "voice": "Orus",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -742,7 +742,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -769,7 +769,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -796,7 +796,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -823,7 +823,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -850,7 +850,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -877,7 +877,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -904,7 +904,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -931,7 +931,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -958,7 +958,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -985,7 +985,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1012,7 +1012,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1039,7 +1039,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1066,7 +1066,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1093,7 +1093,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1120,7 +1120,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1147,7 +1147,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1174,7 +1174,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1201,7 +1201,7 @@
           "voice": "Sulafat",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1228,7 +1228,7 @@
           "voice": "Fenrir",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1255,7 +1255,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1282,7 +1282,7 @@
           "voice": "Sulafat",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1309,7 +1309,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1336,7 +1336,7 @@
           "voice": "Sulafat",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1363,7 +1363,7 @@
           "voice": "Fenrir",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1390,7 +1390,7 @@
           "voice": "Sulafat",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1417,7 +1417,7 @@
           "voice": "Fenrir",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1444,7 +1444,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1471,7 +1471,7 @@
           "voice": "Fenrir",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1498,7 +1498,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1525,7 +1525,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1552,7 +1552,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1579,7 +1579,7 @@
           "voice": "Orus",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1606,7 +1606,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1633,7 +1633,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1660,7 +1660,7 @@
           "voice": "Orus",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1687,7 +1687,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1714,7 +1714,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1741,7 +1741,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1768,7 +1768,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1795,7 +1795,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1822,7 +1822,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1849,7 +1849,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1876,7 +1876,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1903,7 +1903,7 @@
           "voice": "Orus",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1930,7 +1930,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -1957,7 +1957,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -1984,7 +1984,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2011,7 +2011,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2038,7 +2038,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2065,7 +2065,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2092,7 +2092,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2119,7 +2119,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2146,7 +2146,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2173,7 +2173,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2200,7 +2200,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2227,7 +2227,7 @@
           "voice": "Leda",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2254,7 +2254,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2281,7 +2281,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2308,7 +2308,7 @@
           "voice": "Orus",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2335,7 +2335,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2362,7 +2362,7 @@
           "voice": "Orus",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2389,7 +2389,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2416,7 +2416,7 @@
           "voice": "Orus",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2443,7 +2443,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2470,7 +2470,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2497,7 +2497,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2524,7 +2524,7 @@
           "voice": "Sulafat",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2551,7 +2551,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2578,7 +2578,7 @@
           "voice": "Sulafat",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2605,7 +2605,7 @@
           "voice": "Fenrir",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2632,7 +2632,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2659,7 +2659,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,
@@ -2686,7 +2686,7 @@
           "voice": "Fenrir",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.55,
@@ -2713,7 +2713,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "CAST-2026-11-18",
-          "cast_sha256": "60cf943329ebabbe7ea97f235e8c89dc0384ccb722dc9fe59ffea27ba387c1ec",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
           "performance": {
             "emotion": "본문과 앞뒤 맥락의 감정에 맞춤; 과도한 비극·흥분으로 단정하지 않음",
             "intensity": 0.42,

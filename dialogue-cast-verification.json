@@ -186,9 +186,25 @@
       "dialogue": 6,
       "monologues": 0,
       "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 24,
+      "scenes": 65,
+      "tts_segments": 69,
+      "dialogue": 4,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 25,
+      "scenes": 20,
+      "tts_segments": 23,
+      "dialogue": 3,
+      "monologues": 0,
+      "source_translation_images_preserved": true
     }
   ],
-  "tts_segments": 1353,
+  "tts_segments": 1445,
   "audio_generated": false,
   "listening_test": false
 }

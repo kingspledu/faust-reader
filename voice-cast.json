@@ -2206,6 +2206,9 @@
   "chapter_alias_overrides": {
     "1": {
       "시인": "dedication-poet"
+    },
+    "28": {
+      "목소리": "character-119"
     }
   },
   "notes": [
