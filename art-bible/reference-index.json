@@ -489,7 +489,11 @@
       ],
       "image": "character-017-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "금발을 땋아 올린 머리",
+        "흰 모자와 앞치마",
+        "초록 드레스"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -614,7 +618,11 @@
       ],
       "image": "character-022-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "밝은 갈색 머리",
+        "푸른 조끼",
+        "갈색 작업복"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -651,7 +659,11 @@
       ],
       "image": "character-023-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "구릿빛 곱슬머리",
+        "황토색 조끼",
+        "아이보리 셔츠와 갈색 바지"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -688,7 +700,11 @@
       ],
       "image": "character-024-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "짧은 검은 머리",
+        "갈색 모자",
+        "초록 조끼"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -752,7 +768,11 @@
       ],
       "image": "character-026-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "갈색 한 갈래 땋은 머리",
+        "흰 모자와 앞치마",
+        "적갈색 드레스"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -811,7 +831,11 @@
       ],
       "image": "character-028-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "갈색으로 올린 머리",
+        "짙은 남색 드레스와 흰 칼라",
+        "버건디 리본"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -848,7 +872,10 @@
       ],
       "image": "character-029-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "밝은 갈색 머리",
+        "남색 모자와 푸른 더블릿"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -885,7 +912,10 @@
       ],
       "image": "character-030-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "검은 물결머리",
+        "버건디 더블릿과 짧은 어두운 망토"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -922,7 +952,11 @@
       ],
       "image": "character-031-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "중년의 통통한 체격",
+        "검은 콧수염",
+        "갈색 모자와 황갈색 겉옷"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -959,7 +993,11 @@
       ],
       "image": "character-032-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "마른 노인",
+        "긴 회색 수염",
+        "낡고 해진 회갈색 옷과 지팡이"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -996,7 +1034,11 @@
       ],
       "image": "character-033-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "중년의 풍성한 갈색 수염",
+        "넓은 모자",
+        "청회색 겉옷"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -1033,7 +1075,11 @@
       ],
       "image": "character-034-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "정수리의 숱이 적은 중년",
+        "회갈색 수염",
+        "올리브색 겉옷"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -1070,7 +1116,11 @@
       ],
       "image": "character-035-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "주름진 노년 여성",
+        "회색 머리와 갈색 머릿수건",
+        "적갈색 옷"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -1107,7 +1157,11 @@
       ],
       "image": "character-036-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "짙은 갈색 땋은 머리",
+        "자주색 드레스와 흰 칼라",
+        "초록 리본"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -1144,7 +1198,11 @@
       ],
       "image": "character-037-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "다듬은 갈색 수염",
+        "소박한 철제 투구",
+        "버건디 조끼와 갈색 바지"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
@@ -1181,7 +1239,11 @@
       ],
       "image": "character-038-chapter05.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "볕에 탄 노인의 얼굴",
+        "흰 머리와 흰 콧수염",
+        "갈색 모자와 올리브 갈색 옷"
+      ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
