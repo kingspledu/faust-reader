@@ -1072,3 +1072,43 @@
 13,115,c13-dense-031,C13_0115,나레이터,FAUST_C13_V04_0115_c13-dense-031_NAR.wav,Charon,54060f8b1262543c4e7aeceb64c72930a897e405ed948f270027bdf5b3128b07,마르테가 약속 장소를 정했다.
 13,116,c13-dense-031,C13_0116,나레이터,FAUST_C13_V04_0116_c13-dense-031_NAR.wav,Charon,7e9a887e20a8646aac1986f42fc1e6a30a71fb5686d6b6481e78dbd5380a5e6b,“오늘 저녁에 오세요. 집 뒤 정원에서 기다릴게요.”
 13,117,c13-dense-031,C13_0117,그레트헨,FAUST_C13_V04_0117_c13-dense-031_GRE.wav,Kore,03fb052064e29b6f0d26ddb5705d48330520206e72ed6af4582045cf213a3613,오늘 저녁에 또 온다고? 그 청년은 어떤 사람일까. 내가 꼭 같이 있어야 하나?
+14,0,c14-dense-001,C14_0000,나레이터,FAUST_C14_V04_0000_c14-dense-001_NAR.wav,Charon,05e3ec435937c5ef36517780b6d858aef4c0fc4d92ab81837816ee488f4665a8,메피스토펠레스가 마르테의 집을 나온 뒤 파우스트를 만났다. 파우스트는 기다렸다는 듯 일이 어떻게 됐는지 물었다.
+14,1,c14-dense-001,C14_0001,나레이터,FAUST_C14_V04_0001_c14-dense-001_NAR.wav,Charon,944a9c03d745ae70f2d33baebdacfa186121663e4a54552bd2017669cad2559f,“잘됐어? 이제 만날 수 있어?”
+14,2,c14-dense-001,C14_0002,파우스트,FAUST_C14_V04_0002_c14-dense-001_FAU.wav,Orus,4b69405e77d267734ccbd3a3df71cd28432331a317332196c62da31b9263ee3b,왜 이렇게 오래 걸려. 약속을 잡았다는 건지부터 말해 줬으면 좋겠네.
+14,3,c14-dense-002,C14_0003,나레이터,FAUST_C14_V04_0003_c14-dense-002_NAR.wav,Charon,2b30d059dc48791e76470b870a6781a3331d4546cb4ba4b34f7f97c48c3ddd76,메피스토펠레스는 파우스트의 조급함을 보고 웃었다.
+14,4,c14-dense-002,C14_0004,나레이터,FAUST_C14_V04_0004_c14-dense-002_NAR.wav,Charon,f995e3c25615131f90888e411f94c1ec9475566e0cd7eb55a7b12237f998d9af,“아주 기다리셨네요. 곧 그레트헨을 만나게 될 거예요.”
+14,5,c14-dense-002,C14_0005,나레이터,FAUST_C14_V04_0005_c14-dense-002_NAR.wav,Charon,d2e190d1a03decd3e01664e6077981076c0bfcc2a62642788b7e4b2805e6a820,그는 그레트헨의 마음도 얻을 수 있다는 듯 자신 있게 말했다.
+14,6,c14-dense-002,C14_0006,메피스토펠레스,FAUST_C14_V04_0006_c14-dense-002_MEP.wav,Fenrir,63c67bea35fbac0140f67b3682d383078f06e7cfbcef8484af603b6507edb967,저 표정 좀 봐. 만날 수만 있다면 뭐든 하겠어.
+14,7,c14-dense-003,C14_0007,나레이터,FAUST_C14_V04_0007_c14-dense-003_NAR.wav,Charon,c84e3090d722910a82f5ed6450ac19adfd5b65cd522144b4b1ff3c534b1b3b74,메피스토펠레스는 오늘 저녁 마르테의 집에서 그레트헨을 만날 거라고 했다. 마르테가 만남을 주선하기에 딱 좋은 사람이라며 빈정거렸다.
+14,8,c14-dense-003,C14_0008,나레이터,FAUST_C14_V04_0008_c14-dense-003_NAR.wav,Charon,98604cfef86d5de71789d054266a943c5bb25e137215cc97f567f8e7df5ef8b9,파우스트가 좋아하자 한 가지 조건을 덧붙였다. 마르테의 부탁도 들어줘야 했다.
+14,9,c14-dense-003,C14_0009,나레이터,FAUST_C14_V04_0009_c14-dense-003_NAR.wav,Charon,2240af7d063faaf99c99003a4248b20e811b9a82e3558c7b034dfa3bf21547cf,“도움을 받았으면 도와줘야지. 뭔데?”
+14,10,c14-dense-003,C14_0010,파우스트,FAUST_C14_V04_0010_c14-dense-003_FAU.wav,Orus,9a469f575ae4bb1dd323088fcb9b051c2c51716eb8824d66e7c06cf9abc93ee2,별로 어려운 일은 아니겠지. 어쨌든 오늘 저녁에 볼 수 있다잖아.
+14,11,c14-dense-004,C14_0011,나레이터,FAUST_C14_V04_0011_c14-dense-004_NAR.wav,Charon,94a72bb9d53bdd7256f64df73ee49ad7dbde35218810b9ce6477c938d239bedd,메피스토펠레스는 마르테의 남편이 파도바에 묻혔다고 증언해 주면 된다고 말했다. 앞서 마르테에게 약속한 두 번째 증인으로 파우스트를 쓰려는 것이다.
+14,12,c14-dense-004,C14_0012,나레이터,FAUST_C14_V04_0012_c14-dense-004_NAR.wav,Charon,15c3ba7266e45d8f5d30d5d99e84a72fdea47240fe71ca908b4e07e377e7e642,파우스트가 되물었다.
+14,13,c14-dense-004,C14_0013,나레이터,FAUST_C14_V04_0013_c14-dense-004_NAR.wav,Charon,772e7f8e79e5d458e776a112e9cc670cf7139129c440b55c1cdd8086bdd27899,“그러려면 먼저 가서 확인해야겠네?”
+14,14,c14-dense-004,C14_0014,파우스트,FAUST_C14_V04_0014_c14-dense-004_FAU.wav,Orus,0183e7afe6b10bee179233f62b851b70ab87666302beb3a1dc4bf9709ecb244d,난 그 사람을 본 적도 없는데. 어디 묻혔는지 어떻게 안다고 해?
+14,15,c14-dense-005,C14_0015,나레이터,FAUST_C14_V04_0015_c14-dense-005_NAR.wav,Charon,8e42886c82a13493d4392856f249f43f12acd39f9427be75f2b96841cd3eecec,“그럴 필요 없어요. 그냥 그렇다고 말하면 돼요.”
+14,16,c14-dense-005,C14_0016,나레이터,FAUST_C14_V04_0016_c14-dense-005_NAR.wav,Charon,b06d47a6dd5d04ddd5ebad756aa0d05b524d1ed4191c1b4638276b5d5d20255d,파우스트는 듣자마자 거절했다.
+14,17,c14-dense-005,C14_0017,나레이터,FAUST_C14_V04_0017_c14-dense-005_NAR.wav,Charon,502e81d003d2a77a920ec2ecc3d8b6a259723e79459fd4b3f97c65b22ffeb0a5,“다른 방법이 없으면 그 약속은 취소해.”
+14,18,c14-dense-005,C14_0018,나레이터,FAUST_C14_V04_0018_c14-dense-005_NAR.wav,Charon,ec0b1f91f480e71390580c16084892e55f3dc04080cf98ad702ae978bb033195,메피스토펠레스는 갑자기 성인군자라도 된 것처럼 군다며 비꼬았다.
+14,19,c14-dense-005,C14_0019,메피스토펠레스,FAUST_C14_V04_0019_c14-dense-005_MEP.wav,Fenrir,974b588cd0da684e4beb7636899b96f29257c86bef6b55b7c8450a9e1f5e0a41,이제 와서 거짓말은 못 하겠다? 언제부터 그렇게 확인하고 말했대?
+14,20,c14-dense-006,C14_0020,나레이터,FAUST_C14_V04_0020_c14-dense-006_NAR.wav,Charon,5c7feefced8dbc8fdc098cf7c550b2a7d0ca3a9ed86d1b86581a15d7cca3743c,"메피스토펠레스는 그동안 파우스트가 신과 세상, 사람의 생각과 마음을 얼마나 자신 있게 설명했는지 들춰냈다."
+14,21,c14-dense-006,C14_0021,나레이터,FAUST_C14_V04_0021_c14-dense-006_NAR.wav,Charon,49ddc102ba5e3aa477e9e8c74cf525195c6e9b5b9d3dc5bfd9cb010d845b9c61,“그때는 전부 확인하고 말했어요? 정말 다 알고 있었어요?”
+14,22,c14-dense-006,C14_0022,나레이터,FAUST_C14_V04_0022_c14-dense-006_NAR.wav,Charon,0e25fcf7eea418d2299aefb8f3bcb0bda4661e758e09d438f9d92437bcace964,모르는 것을 아는 것처럼 말한 적이 없느냐고 몰아붙이는 질문이었다.
+14,23,c14-dense-006,C14_0023,파우스트,FAUST_C14_V04_0023_c14-dense-006_FAU.wav,Orus,830be6f40860a3fde03289538f4aaf7392b800439336c6690f46a6700925e9df,내가 다 안다고 한 적이 있어? 학문 얘기를 왜 여기다 갖다 붙여?
+14,24,c14-dense-007,C14_0024,나레이터,FAUST_C14_V04_0024_c14-dense-007_NAR.wav,Charon,7f88ae98840831e8e0c74dd190b0b42e9b35d84770ae1484396edcbd9b6b73ce,메피스토펠레스는 남편의 죽음에 대해서도 그만큼밖에 모르는 것 아니냐고 했다. 파우스트는 말을 비튼다며 화를 냈다.
+14,25,c14-dense-007,C14_0025,나레이터,FAUST_C14_V04_0025_c14-dense-007_NAR.wav,Charon,a3af5ca4153f14114fc10d6428b0a575088d84c903fd71488241102025475c95,그러자 메피스토펠레스는 그레트헨에게 온 마음으로 사랑한다고 맹세할 것 아니냐고 물었다. 사랑을 고백할 때도 확신할 수 없는 말을 하지 않겠느냐는 공격이었다.
+14,26,c14-dense-007,C14_0026,메피스토펠레스,FAUST_C14_V04_0026_c14-dense-007_MEP.wav,Fenrir,14d06c3416cf9160a37a49e8d040dcbdb5aa17b161f034d81640fb8b7c665c90,이번에는 사랑 얘기를 해 보자고. 그건 절대 거짓말 아니라고 하겠지?
+14,27,c14-dense-008,C14_0027,나레이터,FAUST_C14_V04_0027_c14-dense-008_NAR.wav,Charon,d82e98ba3f3222a5d80bd6134c386ca666bcee8c5a3cdbe85e3ee96fd198c8bc,“그건 진심으로 말할 거야.”
+14,28,c14-dense-008,C14_0028,나레이터,FAUST_C14_V04_0028_c14-dense-008_NAR.wav,Charon,aed90cab76366a52cf45cf6beabf182d283252ea2a26a36534598b3ef60047a3,파우스트가 대답하자 메피스토펠레스는 다시 물었다.
+14,29,c14-dense-008,C14_0029,나레이터,FAUST_C14_V04_0029_c14-dense-008_NAR.wav,Charon,0c0da6b4f7056ff11cb8fe3ce0d8b0aadbd969a509689c439dc2bbfb110da9db,“영원히 사랑하고 절대 변하지 않겠다고요? 그것도 진심이에요?”
+14,30,c14-dense-008,C14_0030,나레이터,FAUST_C14_V04_0030_c14-dense-008_NAR.wav,Charon,7d6fa245a82161578386e1449b8e6326f90bd4bca56ec8ca99e2b192d1c2958b,지금의 마음이 진짜라는 것과 앞으로도 절대 바뀌지 않는다고 장담하는 것은 같지 않다는 지적이었다.
+14,31,c14-dense-008,C14_0031,파우스트,FAUST_C14_V04_0031_c14-dense-008_FAU.wav,Orus,8291964ee7c4ee6b4f5250a01271532efc894649557d66d2a73234fe097a0d89,아직 고백도 안 했는데 벌써 거짓말 취급이야. 내가 느끼는 걸 왜 자꾸 부정하지?
+14,32,c14-dense-009,C14_0032,나레이터,FAUST_C14_V04_0032_c14-dense-009_NAR.wav,Charon,e034bc14d898601aca1e43e5d33599c0b3edcfa5373b1ccf7c79cb5f1b910263,파우스트는 그만하라며 말을 이었다. 느끼는 감정은 크고 복잡한데 맞는 말을 찾을 수 없다고 했다. 그래서 가장 큰 말들을 골라 무한하다거나 영원하다고 부르는 것이라고 설명했다.
+14,33,c14-dense-009,C14_0033,나레이터,FAUST_C14_V04_0033_c14-dense-009_NAR.wav,Charon,26c536ae4036ed0a25ceb8932c006813c4dfcce4b06a8ddaa1a4b878467b239f,“그게 전부 거짓말이야?”
+14,34,c14-dense-009,C14_0034,나레이터,FAUST_C14_V04_0034_c14-dense-009_NAR.wav,Charon,61c9f1acada3061845b4b2226d837fa9a1dce2d839c7edfca30e4c3c8d6266d4,메피스토펠레스는 오히려 자기 말이 맞지 않느냐고 받아쳤다.
+14,35,c14-dense-009,C14_0035,파우스트,FAUST_C14_V04_0035_c14-dense-009_FAU.wav,Orus,6a4224b316f4283ede81eec4dd895b85d45c8ba6a922c4a4fe09b67abc8b8f8e,마음을 설명하려는 건데. 영원하다는 말밖에 생각 안 나면 어떻게 하라고?
+14,36,c14-dense-010,C14_0036,나레이터,FAUST_C14_V04_0036_c14-dense-010_NAR.wav,Charon,bb16e61f24fb74b621eb88389704ade7f4a10226685e78dd1a09df68a2120019,파우스트는 더 말해 봐야 끝나지 않을 것 같았다.
+14,37,c14-dense-010,C14_0037,나레이터,FAUST_C14_V04_0037_c14-dense-010_NAR.wav,Charon,8c422ed89790a62706d6c36340701cf7b98ccdfdb799988727071b1f13dee251,"“그래, 네가 맞다고 해. 계속 우기면 결국 네 말이 맞겠지. 이제 그만하고 가자.”"
+14,38,c14-dense-010,C14_0038,나레이터,FAUST_C14_V04_0038_c14-dense-010_NAR.wav,Charon,6112f5bbc46dd1acaebbb82735b68f33da0d3c393e2457230c4fdca2fcc096db,"그는 메피스토펠레스의 도움이 있어야 그레트헨을 만날 수 있었다. 그걸 포기하지 못해 대화를 끝냈지만, 거짓 증언이 옳다고 납득한 것은 아니었다."
+14,39,c14-dense-010,C14_0039,파우스트,FAUST_C14_V04_0039_c14-dense-010_FAU.wav,Orus,4a4ab3392b26615d564854d8874e7552ecaccc72e37a9c0f13db1a4a2603730c,말싸움만 하다가 저녁을 놓치겠어. 일단 가자. 지금은 저 사람 도움이 필요하니까.

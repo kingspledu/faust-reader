@@ -18215,15 +18215,29 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "location-007"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-027",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "현장은 회춘한 파우스트와 귀족복 메피스토펠레스. 거짓 증언을 요구하는 논쟁. 실제 서류 서명·묘지 방문·그레트헨과 만남은 아직 없음.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c14-dense-001.webp",
+      "source_grid": "source_images/chapter14-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-14.json"
     },
     {
       "id": "c14-dense-002",
@@ -18240,16 +18254,30 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
         "location-007"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-027",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "현장은 회춘한 파우스트와 귀족복 메피스토펠레스. 거짓 증언을 요구하는 논쟁. 실제 서류 서명·묘지 방문·그레트헨과 만남은 아직 없음.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c14-dense-002.webp",
+      "source_grid": "source_images/chapter14-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-14.json"
     },
     {
       "id": "c14-dense-003",
@@ -18267,17 +18295,30 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-007"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-027",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "현장은 회춘한 파우스트와 귀족복 메피스토펠레스. 거짓 증언을 요구하는 논쟁. 실제 서류 서명·묘지 방문·그레트헨과 만남은 아직 없음.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c14-dense-003.webp",
+      "source_grid": "source_images/chapter14-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-14.json"
     },
     {
       "id": "c14-dense-004",
@@ -18295,17 +18336,30 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-007"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-027",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "현장은 회춘한 파우스트와 귀족복 메피스토펠레스. 거짓 증언을 요구하는 논쟁. 실제 서류 서명·묘지 방문·그레트헨과 만남은 아직 없음.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c14-dense-004.webp",
+      "source_grid": "source_images/chapter14-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-14.json"
     },
     {
       "id": "c14-dense-005",
@@ -18323,17 +18377,30 @@
         "FAUST"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-007"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-027",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "현장은 회춘한 파우스트와 귀족복 메피스토펠레스. 거짓 증언을 요구하는 논쟁. 실제 서류 서명·묘지 방문·그레트헨과 만남은 아직 없음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c14-dense-005.webp",
+      "source_grid": "source_images/chapter14-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-14.json"
     },
     {
       "id": "c14-dense-006",
@@ -18348,15 +18415,30 @@
       "composition": "낮은 시점에서 인물·건축의 긴장감",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "location-007"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-027",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "현장은 회춘한 파우스트와 귀족복 메피스토펠레스. 거짓 증언을 요구하는 논쟁. 실제 서류 서명·묘지 방문·그레트헨과 만남은 아직 없음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c14-dense-006.webp",
+      "source_grid": "source_images/chapter14-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-14.json"
     },
     {
       "id": "c14-dense-007",
@@ -18374,17 +18456,30 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-007"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-027",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "현장은 회춘한 파우스트와 귀족복 메피스토펠레스. 거짓 증언을 요구하는 논쟁. 실제 서류 서명·묘지 방문·그레트헨과 만남은 아직 없음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c14-dense-007.webp",
+      "source_grid": "source_images/chapter14-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-14.json"
     },
     {
       "id": "c14-dense-008",
@@ -18402,17 +18497,30 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-007"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-027",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "현장은 회춘한 파우스트와 귀족복 메피스토펠레스. 거짓 증언을 요구하는 논쟁. 실제 서류 서명·묘지 방문·그레트헨과 만남은 아직 없음.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c14-dense-008.webp",
+      "source_grid": "source_images/chapter14-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-14.json"
     },
     {
       "id": "c14-dense-009",
@@ -18430,17 +18538,30 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "location-007"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-027",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "현장은 회춘한 파우스트와 귀족복 메피스토펠레스. 거짓 증언을 요구하는 논쟁. 실제 서류 서명·묘지 방문·그레트헨과 만남은 아직 없음.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c14-dense-009.webp",
+      "source_grid": "source_images/chapter14-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-14.json"
     },
     {
       "id": "c14-dense-010",
@@ -18458,15 +18579,29 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "location-007"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-027",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "현장은 회춘한 파우스트와 귀족복 메피스토펠레스. 거짓 증언을 요구하는 논쟁. 실제 서류 서명·묘지 방문·그레트헨과 만남은 아직 없음.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c14-dense-010.webp",
+      "source_grid": "source_images/chapter14-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-14.json"
     },
     {
       "id": "c15-dense-001",
