@@ -1,6 +1,6 @@
 # 파우스트 Gemini Canvas TTS
 
-현재 본문·배역 기준: dialogue-cast-v3 / CAST-2026-11-18. 모델은 `gemini-2.5-flash-preview-tts`. 1~17장 전체1136구간. 원문·대응 번역·메뉴·화자 라벨은 낭독하지 않는다.
+현재 본문·배역 기준: dialogue-cast-v3 / CAST-2026-11-18. 모델은 `gemini-2.5-flash-preview-tts`. 1~17장 전체1188구간. 원문·대응 번역·메뉴·화자 라벨은 낭독하지 않는다.
 
 [성우·연기 설정](../voice-cast.html) · [배역 원본 JSON](../voice-cast.json) · [제작 규칙](../FAUST_PRODUCTION_GUIDELINES.md)
 
@@ -16,39 +16,39 @@
 
 |---|---:|---:|---:|---|
 
-|1|44|0|5|[Canvas HTML](FAUST_C01_V04_GEMINI_CANVAS_TTS.html)|
+|1|45|0|5|[Canvas HTML](FAUST_C01_V04_GEMINI_CANVAS_TTS.html)|
 
-|2|49|25|0|[Canvas HTML](FAUST_C02_V04_GEMINI_CANVAS_TTS.html)|
+|2|51|25|0|[Canvas HTML](FAUST_C02_V04_GEMINI_CANVAS_TTS.html)|
 
-|3|35|17|0|[Canvas HTML](FAUST_C03_V04_GEMINI_CANVAS_TTS.html)|
+|3|37|17|0|[Canvas HTML](FAUST_C03_V04_GEMINI_CANVAS_TTS.html)|
 
-|4|78|21|5|[Canvas HTML](FAUST_C04_V04_GEMINI_CANVAS_TTS.html)|
+|4|81|21|5|[Canvas HTML](FAUST_C04_V04_GEMINI_CANVAS_TTS.html)|
 
-|5|62|11|0|[Canvas HTML](FAUST_C05_V04_GEMINI_CANVAS_TTS.html)|
+|5|64|11|0|[Canvas HTML](FAUST_C05_V04_GEMINI_CANVAS_TTS.html)|
 
-|6|86|35|4|[Canvas HTML](FAUST_C06_V04_GEMINI_CANVAS_TTS.html)|
+|6|90|35|4|[Canvas HTML](FAUST_C06_V04_GEMINI_CANVAS_TTS.html)|
 
-|7|129|61|3|[Canvas HTML](FAUST_C07_V04_GEMINI_CANVAS_TTS.html)|
+|7|134|61|3|[Canvas HTML](FAUST_C07_V04_GEMINI_CANVAS_TTS.html)|
 
-|8|105|33|0|[Canvas HTML](FAUST_C08_V04_GEMINI_CANVAS_TTS.html)|
+|8|107|33|0|[Canvas HTML](FAUST_C08_V04_GEMINI_CANVAS_TTS.html)|
 
-|9|100|47|2|[Canvas HTML](FAUST_C09_V04_GEMINI_CANVAS_TTS.html)|
+|9|103|47|2|[Canvas HTML](FAUST_C09_V04_GEMINI_CANVAS_TTS.html)|
 
-|10|37|25|0|[Canvas HTML](FAUST_C10_V04_GEMINI_CANVAS_TTS.html)|
+|10|39|25|0|[Canvas HTML](FAUST_C10_V04_GEMINI_CANVAS_TTS.html)|
 
-|11|71|21|3|[Canvas HTML](FAUST_C11_V04_GEMINI_CANVAS_TTS.html)|
+|11|76|21|3|[Canvas HTML](FAUST_C11_V04_GEMINI_CANVAS_TTS.html)|
 
-|12|28|17|0|[Canvas HTML](FAUST_C12_V04_GEMINI_CANVAS_TTS.html)|
+|12|30|17|0|[Canvas HTML](FAUST_C12_V04_GEMINI_CANVAS_TTS.html)|
 
-|13|105|47|2|[Canvas HTML](FAUST_C13_V04_GEMINI_CANVAS_TTS.html)|
+|13|110|47|2|[Canvas HTML](FAUST_C13_V04_GEMINI_CANVAS_TTS.html)|
 
-|14|29|17|0|[Canvas HTML](FAUST_C14_V04_GEMINI_CANVAS_TTS.html)|
+|14|32|17|0|[Canvas HTML](FAUST_C14_V04_GEMINI_CANVAS_TTS.html)|
 
-|15|91|45|2|[Canvas HTML](FAUST_C15_V04_GEMINI_CANVAS_TTS.html)|
+|15|95|45|2|[Canvas HTML](FAUST_C15_V04_GEMINI_CANVAS_TTS.html)|
 
-|16|25|14|1|[Canvas HTML](FAUST_C16_V04_GEMINI_CANVAS_TTS.html)|
+|16|27|14|1|[Canvas HTML](FAUST_C16_V04_GEMINI_CANVAS_TTS.html)|
 
-|17|62|26|2|[Canvas HTML](FAUST_C17_V04_GEMINI_CANVAS_TTS.html)|
+|17|67|26|2|[Canvas HTML](FAUST_C17_V04_GEMINI_CANVAS_TTS.html)|
 
 
 
