@@ -6,7 +6,10 @@ voice_names={'나레이터':'Charon','시인':'Charon','지배인':'Orus','희�
 voice_codes={'나레이터':'NAR','시인':'POET','지배인':'DIR','희극 배우':'COM','라파엘':'RAP','가브리엘':'GAB','미카엘':'MIC','메피스토펠레스':'MEP'}
 voice_names.update({'파우스트':'Orus','바그너':'Puck'})
 voice_codes.update({'파우스트':'FAU','바그너':'WAG'})
-for ch in [1,2,3,4]:
+crowd_voices={'직공 청년':('Puck','ART'),'세 번째 직공 청년':('Puck','ART3'),'다섯 번째 직공 청년':('Orus','ART5'),'첫 번째 하녀':('Kore','MAID1'),'다른 하녀':('Sulafat','MAID2'),'시민의 딸':('Kore','DAU'),'두 번째 학생':('Puck','STU2'),'첫 번째 학생':('Fenrir','STU1'),'첫 번째 시민':('Orus','CIT1'),'거지':('Charon','BEG'),'두 번째 시민':('Fenrir','CIT2'),'세 번째 시민':('Orus','CIT3'),'노파':('Sulafat','OLDW'),'아가테':('Kore','AGA'),'군인':('Fenrir','SOL'),'목동':('Puck','SHEP'),'춤추는 사람':('Puck','DAN'),'춤추는 아가씨':('Kore','DANW'),'늙은 농부':('Charon','FARM')}
+voice_names.update({k:v[0] for k,v in crowd_voices.items()});voice_codes.update({k:v[1] for k,v in crowd_voices.items()})
+chapters_to_build=[1,2,3,4,5]
+for ch in chapters_to_build:
  soup=BeautifulSoup((root/f'chapter-{ch:02}.html').read_text(encoding='utf-8'),'html.parser');units=[]
  for section in soup.select('article .adaptation-intro, article .adaptation-prose'):
   parent=section.find_parent('section',class_='illustrated-scene');sid=parent.get('data-scene') if parent else f'c{ch:02}-intro';parts=[]
@@ -30,7 +33,8 @@ for ch in [1,2,3,4]:
    seg['performance']['mic_direction'] = ('마이크 바로 가까이에서 한 사람의 귓가에 조용히 털어놓듯. 작은 목소리의 또렷한 속삭임과 부드러운 숨결. 같은 인물의 음색을 유지하고 자음은 선명하게. 고함·무대 발성·전화 음질·큰 잔향·과한 ASMR 입소리는 금지. 웃음·울먹임도 낮고 가까운 거리에서 절제한다. 숨을 세게 불거나 파열음을 내지 않는다.' if speaker!='나레이터' else '편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다.')
    seg['performance']['delivery'] = 'intimate_close_mic_soft_whisper' if speaker!='나레이터' else 'warm_storytelling'
    units.append(seg);allindex.append({'chapter':ch,'order':idx,'scene_id':sid,'segment_id':seg['id'],'speaker':speaker,'filename':filename,'voice':seg['voice'],'text_sha256':hashlib.sha256(text.encode()).hexdigest(),'text':text})
- episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
+ assert units, f'Chapter {ch}: completed adaptation prose is required before TTS generation'
+ episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
  s=re.sub(r'const originalEpisode = .*?;\s*const originalStory =',lambda m:'const originalEpisode = '+json.dumps(episode,ensure_ascii=False)+';\n        const originalStory =',template,flags=re.S)
  a=s.index('        function parseTurns(');b=s.index("        processBtn.addEventListener",a)
  s=s[:a]+'''        function parseTurns(text) {
@@ -78,8 +82,8 @@ for ch in [1,2,3,4]:
  s=re.sub(r'const originalEpisode = .*?;\s*const originalStory =',lambda m:'const originalEpisode = '+json.dumps(episode,ensure_ascii=False)+';\n        const originalStory =',s,flags=re.S)
  (out/f'FAUST_C{ch:02}_V04_GEMINI_CANVAS_TTS.html').write_text(s,encoding='utf-8');(out/f'FAUST_C{ch:02}_V04_SCRIPT.json').write_text(json.dumps(episode,ensure_ascii=False,indent=2),encoding='utf-8')
  js=next(x for x in re.findall(r'<script[^>]*>(.*?)</script>',s,re.S) if 'const FAUST_EFFECTS' in x);(out/f'check-v04-{ch:02}.js').write_text(js,encoding='utf-8')
-(out/'FAUST_AUDIO_INDEX_V04.json').write_text(json.dumps({'schema':'faust-audio-index-1','revision':'V04','segments':allindex,'full_mp3':[f'FAUST_C{ch:02}_V04_FULL.mp3' for ch in [1,2,3,4]],'future_target':'audio/chapter-NN/','source':'Published adaptation prose only; source/translation excluded'},ensure_ascii=False,indent=2),encoding='utf-8')
+(out/'FAUST_AUDIO_INDEX_V04.json').write_text(json.dumps({'schema':'faust-audio-index-1','revision':'V04','segments':allindex,'full_mp3':[f'FAUST_C{ch:02}_V04_FULL.mp3' for ch in chapters_to_build],'future_target':'audio/chapter-NN/','source':'Published adaptation prose only; source/translation excluded'},ensure_ascii=False,indent=2),encoding='utf-8')
 with (out/'FAUST_AUDIO_INDEX_V04.csv').open('w',encoding='utf-8-sig',newline='') as f:
  w=csv.DictWriter(f,fieldnames=list(allindex[0]));w.writeheader();w.writerows(allindex)
 assert len({e['filename'] for e in allindex})==len(allindex)
-print('Generated four Canvas HTMLs; indexed segments:',len(allindex))
+print('Generated',len(chapters_to_build),'Canvas HTMLs; indexed segments:',len(allindex))

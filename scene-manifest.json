@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1–4 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1–5 illustrated and adapted; later chapters pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -3315,6 +3315,2232 @@
       "adaptation": "adaptations/chapter-04.json",
       "char_offset": 17365,
       "anchor": "wir beweinen,\nMeister, dein Glück!\n\nCHOR DER ENGEL.\nChrist ist erstanden,\nAus der Verwesung Schoß.\nR"
+    },
+    {
+      "id": "c05-dense-001",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 181,
+      "source_text": "Spaziergänger aller Art ziehen hinaus.\n\nEINIGE HANDWERKSBURSCHE.\nWarum denn dort hinaus?\n\nANDRE.\nWir gehn hinaus aufs Jägerhaus.\n\nDIE ERSTEN.\nWir aber wollen nach der Mühle wandern.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "EINIGE HANDWERKSBURSCHE",
+        "ANDRE",
+        "DIE ERSTEN"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-023",
+        "character-024",
+        "character-022"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-001.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-023-chapter05.webp",
+        "art-bible/character-024-chapter05.webp",
+        "art-bible/character-022-chapter05.webp"
+      ],
+      "char_offset": 0,
+      "anchor": "Spaziergänger aller Art ziehen hinaus.\n\nEINIGE HANDWERKSBURSCHE.\nWarum denn dort hinaus?\n\nANDRE.\nWir"
+    },
+    {
+      "id": "c05-dense-002",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 181,
+      "source_end": 361,
+      "source_text": "\n\nEIN HANDWERKSBURSCH.\nIch rat euch, nach dem Wasserhof zu gehn.\n\nZWEITER.\nDer Weg dahin ist gar nicht schön.\n\nDIE ZWEITEN.\nWas tust denn du?\n\nEIN DRITTER.\nIch gehe mit den andern.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "EIN HANDWERKSBURSCH",
+        "ZWEITER",
+        "DIE ZWEITEN",
+        "EIN DRITTER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-022"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-002.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-022-chapter05.webp"
+      ],
+      "char_offset": 181,
+      "anchor": "EIN HANDWERKSBURSCH.\nIch rat euch, nach dem Wasserhof zu gehn.\n\nZWEITER.\nDer Weg dahin ist gar nicht"
+    },
+    {
+      "id": "c05-dense-003",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 361,
+      "source_end": 640,
+      "source_text": "\n\nVIERTER.\nNach Burgdorf kommt herauf, gewiß dort findet ihr\nDie schönsten Mädchen und das beste Bier,\nUnd Händel von der ersten Sorte.\n\nFÜNFTER.\nDu überlustiger Gesell,\nJuckt dich zum drittenmal das Fell?\nIch mag nicht hin, mir graut es vor dem Orte.\n\nDIENSTMÄDCHEN.\nNein, nein!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "VIERTER",
+        "FÜNFTER",
+        "DIENSTMÄDCHEN"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-023",
+        "character-024"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-003.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-023-chapter05.webp",
+        "art-bible/character-024-chapter05.webp"
+      ],
+      "char_offset": 361,
+      "anchor": "VIERTER.\nNach Burgdorf kommt herauf, gewiß dort findet ihr\nDie schönsten Mädchen und das beste Bier,"
+    },
+    {
+      "id": "c05-dense-004",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 640,
+      "source_end": 869,
+      "source_text": " ich gehe nach der Stadt zurück.\n\nANDRE.\nWir finden ihn gewiß bei jenen Pappeln stehen.\n\nERSTE.\nDas ist für mich kein großes Glück;\nEr wird an deiner Seite gehen,\nMit dir nur tanzt er auf dem Plan.\nWas gehn mich deine Freuden an!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "ANDRE",
+        "ERSTE"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-026",
+        "character-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-004.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-026-chapter05.webp",
+        "art-bible/character-017-chapter05.webp"
+      ],
+      "char_offset": 640,
+      "anchor": "ich gehe nach der Stadt zurück.\n\nANDRE.\nWir finden ihn gewiß bei jenen Pappeln stehen.\n\nERSTE.\nDas i"
+    },
+    {
+      "id": "c05-dense-005",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 869,
+      "source_end": 1050,
+      "source_text": "\n\nANDRE.\nHeut ist er sicher nicht allein,\nDer Krauskopf, sagt er, würde bei ihm sein.\n\nSCHÜLER.\nBlitz, wie die wackern Dirnen schreiten!\nHerr Bruder, komm! wir müssen sie begleiten.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "ANDRE",
+        "SCHÜLER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-026",
+        "character-017",
+        "character-030",
+        "character-029"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-005.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-026-chapter05.webp",
+        "art-bible/character-017-chapter05.webp",
+        "art-bible/character-030-chapter05.webp",
+        "art-bible/character-029-chapter05.webp"
+      ],
+      "char_offset": 869,
+      "anchor": "ANDRE.\nHeut ist er sicher nicht allein,\nDer Krauskopf, sagt er, würde bei ihm sein.\n\nSCHÜLER.\nBlitz,"
+    },
+    {
+      "id": "c05-dense-006",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 1050,
+      "source_end": 1303,
+      "source_text": "\nEin starkes Bier, ein beizender Toback,\nUnd eine Magd im Putz, das ist nun mein Geschmack.\n\nBÜRGERMÄDCHEN.\nDa sieh mir nur die schönen Knaben!\nEs ist wahrhaftig eine Schmach.\nGesellschaft könnten sie die allerbeste haben,\nUnd laufen diesen Mägden nach!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "BÜRGERMÄDCHEN"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-028",
+        "character-030"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-006.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-028-chapter05.webp",
+        "art-bible/character-030-chapter05.webp"
+      ],
+      "char_offset": 1050,
+      "anchor": "Ein starkes Bier, ein beizender Toback,\nUnd eine Magd im Putz, das ist nun mein Geschmack.\n\nBÜRGERMÄ"
+    },
+    {
+      "id": "c05-dense-007",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 1303,
+      "source_end": 1573,
+      "source_text": "\nZWEITER SCHÜLER (zum ersten).\nNicht so geschwind! dort hinten kommen zwei,\nSie sind gar niedlich angezogen,\n’s ist meine Nachbarin dabei;\nIch bin dem Mädchen sehr gewogen.\nSie gehen ihren stillen Schritt\nUnd nehmen uns doch auch am Ende mit.\n\nERSTER.\nHerr Bruder, nein!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "ZWEITER SCHÜLER ",
+        "ERSTER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-029",
+        "character-036"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-006",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-007.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-029-chapter05.webp",
+        "art-bible/character-036-chapter05.webp"
+      ],
+      "char_offset": 1303,
+      "anchor": "ZWEITER SCHÜLER (zum ersten).\nNicht so geschwind! dort hinten kommen zwei,\nSie sind gar niedlich ang"
+    },
+    {
+      "id": "c05-dense-008",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 1573,
+      "source_end": 1733,
+      "source_text": " Ich bin nicht gern geniert.\nGeschwind! daß wir das Wildbret nicht verlieren.\nDie Hand, die samstags ihren Besen führt\nWird sonntags dich am besten karessieren.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-030"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-008.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-030-chapter05.webp"
+      ],
+      "char_offset": 1573,
+      "anchor": "Ich bin nicht gern geniert.\nGeschwind! daß wir das Wildbret nicht verlieren.\nDie Hand, die samstags "
+    },
+    {
+      "id": "c05-dense-009",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 1733,
+      "source_end": 1911,
+      "source_text": "\n\nBÜRGER.\nNein, er gefällt mir nicht, der neue Burgemeister!\nNun, da er’s ist, wird er nur täglich dreister.\nUnd für die Stadt was tut denn er?\nWird es nicht alle Tage schlimmer?",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "BÜRGER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-031"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-009.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-031-chapter05.webp"
+      ],
+      "char_offset": 1733,
+      "anchor": "BÜRGER.\nNein, er gefällt mir nicht, der neue Burgemeister!\nNun, da er’s ist, wird er nur täglich dre"
+    },
+    {
+      "id": "c05-dense-010",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 1911,
+      "source_end": 2200,
+      "source_text": "\nGehorchen soll man mehr als immer,\nUnd zahlen mehr als je vorher.\n\nBETTLER (singt).\nIhr guten Herrn, ihr schönen Frauen,\nSo wohlgeputzt und backenrot,\nBelieb es euch, mich anzuschauen,\nUnd seht und mildert meine Not!\nLaßt hier mich nicht vergebens leiern!\nNur der ist froh, der geben mag.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "BETTLER "
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-032"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-010.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-032-chapter05.webp"
+      ],
+      "char_offset": 1911,
+      "anchor": "Gehorchen soll man mehr als immer,\nUnd zahlen mehr als je vorher.\n\nBETTLER (singt).\nIhr guten Herrn,"
+    },
+    {
+      "id": "c05-dense-011",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 2200,
+      "source_end": 2657,
+      "source_text": "\nEin Tag, den alle Menschen feiern,\nEr sei für mich ein Erntetag.\n\nANDRER BÜRGER.\nNichts Bessers weiß ich mir an Sonn- und Feiertagen\nAls ein Gespräch von Krieg und Kriegsgeschrei,\nWenn hinten, weit, in der Türkei,\nDie Völker aufeinander schlagen.\nMan steht am Fenster, trinkt sein Gläschen aus\nUnd sieht den Fluß hinab die bunten Schiffe gleiten;\nDann kehrt man abends froh nach Haus,\nUnd segnet Fried und Friedenszeiten.\n\nDRITTER BÜRGER.\nHerr Nachbar, ja!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "ANDRER BÜRGER",
+        "DRITTER BÜRGER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-033",
+        "character-034"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-011.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-033-chapter05.webp",
+        "art-bible/character-034-chapter05.webp"
+      ],
+      "char_offset": 2200,
+      "anchor": "Ein Tag, den alle Menschen feiern,\nEr sei für mich ein Erntetag.\n\nANDRER BÜRGER.\nNichts Bessers weiß"
+    },
+    {
+      "id": "c05-dense-012",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 2657,
+      "source_end": 2833,
+      "source_text": " so laß ich’s auch geschehn.\nSie mögen sich die Köpfe spalten,\nMag alles durcheinander gehn;\nDoch nur zu Hause bleib’s beim alten.\nALTE (zu den Bürgermädchen).\nEi! wie geputzt!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "ALTE "
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-034",
+        "character-035",
+        "character-028",
+        "character-036"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-012.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-034-chapter05.webp",
+        "art-bible/character-035-chapter05.webp",
+        "art-bible/character-028-chapter05.webp",
+        "art-bible/character-036-chapter05.webp"
+      ],
+      "char_offset": 2657,
+      "anchor": "so laß ich’s auch geschehn.\nSie mögen sich die Köpfe spalten,\nMag alles durcheinander gehn;\nDoch nur"
+    },
+    {
+      "id": "c05-dense-013",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 2833,
+      "source_end": 2986,
+      "source_text": " das schöne junge Blut!\nWer soll sich nicht in euch vergaffen?—\nNur nicht so stolz! es ist schon gut!\nUnd was ihr wünscht, das wüßt ich wohl zu schaffen.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-035"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-013.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-035-chapter05.webp"
+      ],
+      "char_offset": 2833,
+      "anchor": "das schöne junge Blut!\nWer soll sich nicht in euch vergaffen?—\nNur nicht so stolz! es ist schon gut!"
+    },
+    {
+      "id": "c05-dense-014",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 2986,
+      "source_end": 3459,
+      "source_text": "\n\nBÜRGERMÄDCHEN.\nAgathe, fort! ich nehme mich in acht,\nMit solchen Hexen öffentlich zu gehen;\nSie ließ mich zwar in Sankt Andreas’ Nacht\nDen künft’gen Liebsten leiblich sehen—\nDIE ANDRE.\nMir zeigte sie ihn im Kristall,\nSoldatenhaft, mit mehreren Verwegnen;\nIch seh mich um, ich such ihn überall,\nAllein mir will er nicht begegnen.\n\nSOLDATEN.\nBurgen mit hohen\nMauern und Zinnen,\nMädchen mit stolzen\nHöhnenden Sinnen\nMöcht ich gewinnen!\nKühn ist das Mühen,\nHerrlich der Lohn!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "BÜRGERMÄDCHEN",
+        "DIE ANDRE",
+        "SOLDATEN"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-028",
+        "character-036"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-014.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-028-chapter05.webp",
+        "art-bible/character-036-chapter05.webp"
+      ],
+      "char_offset": 2986,
+      "anchor": "BÜRGERMÄDCHEN.\nAgathe, fort! ich nehme mich in acht,\nMit solchen Hexen öffentlich zu gehen;\nSie ließ"
+    },
+    {
+      "id": "c05-dense-015",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 3459,
+      "source_end": 3611,
+      "source_text": "\n\nUnd die Trompete\nLassen wir werben,\nWie zu der Freude,\nSo zum Verderben.\nDas ist ein Stürmen!\nDas ist ein Leben!\nMädchen und Burgen\nMüssen sich geben.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-037"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-015.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-037-chapter05.webp"
+      ],
+      "char_offset": 3459,
+      "anchor": "Und die Trompete\nLassen wir werben,\nWie zu der Freude,\nSo zum Verderben.\nDas ist ein Stürmen!\nDas is"
+    },
+    {
+      "id": "c05-dense-016",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 3611,
+      "source_end": 3892,
+      "source_text": "\nKühn ist das Mühen,\nHerrlich der Lohn!\nUnd die Soldaten\nZiehen davon.\n\nFaust und Wagner.\n\nFAUST.\nVom Eise befreit sind Strom und Bäche\nDurch des Frühlings holden, belebenden Blick;\nIm Tale grünet Hoffnungsglück;\nDer alte Winter, in seiner Schwäche,\nZog sich in rauhe Berge zurück.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-016.webp",
+      "source_grid": "source_images/chapter05-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 3611,
+      "anchor": "Kühn ist das Mühen,\nHerrlich der Lohn!\nUnd die Soldaten\nZiehen davon.\n\nFaust und Wagner.\n\nFAUST.\nVom"
+    },
+    {
+      "id": "c05-dense-017",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 3892,
+      "source_end": 4334,
+      "source_text": "\nVon dorther sendet er, fliehend, nur\nOhnmächtige Schauer kornigen Eises\nIn Streifen über die grünende Flur;\nAber die Sonne duldet kein Weißes,\nÜberall regt sich Bildung und Streben,\nAlles will sie mit Farben beleben;\nDoch an Blumen fehlt’s im Revier\nSie nimmt geputzte Menschen dafür.\nKehre dich um, von diesen Höhen\nNach der Stadt zurückzusehen.\nAus dem hohlen finstern Tor\nDringt ein buntes Gewimmel hervor.\nJeder sonnt sich heute so gern.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-017.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        312,
+        309
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 3892,
+      "anchor": "Von dorther sendet er, fliehend, nur\nOhnmächtige Schauer kornigen Eises\nIn Streifen über die grünend"
+    },
+    {
+      "id": "c05-dense-018",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 4334,
+      "source_end": 4906,
+      "source_text": "\nSie feiern die Auferstehung des Herrn,\nDenn sie sind selber auferstanden,\nAus niedriger Häuser dumpfen Gemächern,\nAus Handwerks- und Gewerbesbanden,\nAus dem Druck von Giebeln und Dächern,\nAus der Straßen quetschender Enge,\nAus der Kirchen ehrwürdiger Nacht\nSind sie alle ans Licht gebracht.\nSieh nur, sieh! wie behend sich die Menge\nDurch die Gärten und Felder zerschlägt,\nWie der Fluß, in Breit und Länge\nSo manchen lustigen Nachen bewegt,\nUnd bis zum Sinken überladen\nEntfernt sich dieser letzte Kahn.\nSelbst von des Berges fernen Pfaden\nBlinken uns farbige Kleider an.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-018.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        318,
+        3,
+        627,
+        309
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png"
+      ],
+      "char_offset": 4334,
+      "anchor": "Sie feiern die Auferstehung des Herrn,\nDenn sie sind selber auferstanden,\nAus niedriger Häuser dumpf"
+    },
+    {
+      "id": "c05-dense-019",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 4906,
+      "source_end": 5347,
+      "source_text": "\nIch höre schon des Dorfs Getümmel,\nHier ist des Volkes wahrer Himmel,\nZufrieden jauchzet groß und klein.\nHier bin ich Mensch, hier darf ich’s sein!\n\nWAGNER.\nMit Euch, Herr Doktor, zu spazieren\nIst ehrenvoll und ist Gewinn;\nDoch würd ich nicht allein mich her verlieren,\nWeil ich ein Feind von allem Rohen bin.\nDas Fiedeln, Schreien, Kegelschieben\nIst mir ein gar verhaßter Klang;\nSie toben wie vom bösen Geist getrieben\nUnd nennen’s Freude.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-019.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        633,
+        3,
+        943,
+        309
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 4906,
+      "anchor": "Ich höre schon des Dorfs Getümmel,\nHier ist des Volkes wahrer Himmel,\nZufrieden jauchzet groß und kl"
+    },
+    {
+      "id": "c05-dense-020",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 5347,
+      "source_end": 5501,
+      "source_text": " nennen’s Gesang.\n\nBauern unter der Linde. Tanz und Gesang.\n\nDer Schäfer putzte sich zum Tanz,\nMit bunter Jacke, Band und Kranz,\nSchmuck war er angezogen.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-125"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-020.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        949,
+        3,
+        1258,
+        309
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png"
+      ],
+      "char_offset": 5347,
+      "anchor": "nennen’s Gesang.\n\nBauern unter der Linde. Tanz und Gesang.\n\nDer Schäfer putzte sich zum Tanz,\nMit bu"
+    },
+    {
+      "id": "c05-dense-021",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 5501,
+      "source_end": 5593,
+      "source_text": "\nSchon um die Linde war es voll,\nUnd alles tanzte schon wie toll.\nJuchhe! Juchhe!\nJuchheisa!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-125"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-021.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        3,
+        315,
+        312,
+        621
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png"
+      ],
+      "char_offset": 5501,
+      "anchor": "Schon um die Linde war es voll,\nUnd alles tanzte schon wie toll.\nJuchhe! Juchhe!\nJuchheisa!"
+    },
+    {
+      "id": "c05-dense-022",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 5593,
+      "source_end": 5781,
+      "source_text": " Heisa! He!\nSo ging der Fiedelbogen.\n\nEr drückte hastig sich heran,\nDa stieß er an ein Mädchen an\nMit seinem Ellenbogen;\nDie frische Dirne kehrt, sich um\nUnd sagte: Nun, das find ich dumm!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-125"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-022.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        318,
+        315,
+        627,
+        621
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png"
+      ],
+      "char_offset": 5593,
+      "anchor": "Heisa! He!\nSo ging der Fiedelbogen.\n\nEr drückte hastig sich heran,\nDa stieß er an ein Mädchen an\nMit"
+    },
+    {
+      "id": "c05-dense-023",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 5781,
+      "source_end": 5815,
+      "source_text": "\nJuchhe! Juchhe!\nJuchheisa! Heisa!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-125"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-007",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-023.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        633,
+        315,
+        943,
+        621
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png"
+      ],
+      "char_offset": 5781,
+      "anchor": "Juchhe! Juchhe!\nJuchheisa! Heisa!"
+    },
+    {
+      "id": "c05-dense-024",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 5815,
+      "source_end": 6011,
+      "source_text": " He!\nSeid nicht so ungezogen!\n\nDoch hurtig in dem Kreise ging’s,\nSie tanzten rechts, sie tanzten links,\nUnd alle Röcke flogen.\nSie wurden rot, sie wurden warm\nUnd ruhten atmend Arm in Arm,\nJuchhe!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-125"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-024.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        949,
+        315,
+        1258,
+        621
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png"
+      ],
+      "char_offset": 5815,
+      "anchor": "He!\nSeid nicht so ungezogen!\n\nDoch hurtig in dem Kreise ging’s,\nSie tanzten rechts, sie tanzten link"
+    },
+    {
+      "id": "c05-dense-025",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 6011,
+      "source_end": 6041,
+      "source_text": " Juchhe!\nJuchheisa! Heisa! He!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-125"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-025.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        3,
+        627,
+        312,
+        932
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png"
+      ],
+      "char_offset": 6011,
+      "anchor": "Juchhe!\nJuchheisa! Heisa! He!"
+    },
+    {
+      "id": "c05-dense-026",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 6041,
+      "source_end": 6226,
+      "source_text": "\nUnd Hüft an Ellenbogen.\n\nUnd tu mir doch nicht so vertraut!\nWie mancher hat nicht seine Braut\nBelogen und betrogen!\nEr schmeichelte sie doch bei Seit,\nUnd von der Linde scholl es weit.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-125"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-026.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        318,
+        627,
+        627,
+        932
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png"
+      ],
+      "char_offset": 6041,
+      "anchor": "Und Hüft an Ellenbogen.\n\nUnd tu mir doch nicht so vertraut!\nWie mancher hat nicht seine Braut\nBeloge"
+    },
+    {
+      "id": "c05-dense-027",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 6226,
+      "source_end": 6260,
+      "source_text": "\nJuchhe! Juchhe!\nJuchheisa! Heisa!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-125"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-027.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        633,
+        627,
+        943,
+        932
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png"
+      ],
+      "char_offset": 6226,
+      "anchor": "Juchhe! Juchhe!\nJuchheisa! Heisa!"
+    },
+    {
+      "id": "c05-dense-028",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 6260,
+      "source_end": 6586,
+      "source_text": " He!\nGeschrei und Fiedelbogen.\n\nALTER BAUER.\nHerr Doktor, das ist schön von Euch,\nDaß Ihr uns heute nicht verschmäht,\nUnd unter dieses Volksgedräng,\nAls ein so Hochgelahrter, geht.\nSo nehmet auch den schönsten Krug,\nDen wir mit frischem Trunk gefüllt,\nIch bring ihn zu und wünsche laut,\nDaß er nicht nur den Durst Euch stillt.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "ALTER BAUER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012",
+        "character-038"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-028.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        949,
+        627,
+        1258,
+        932
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png",
+        "art-bible/character-038-chapter05.webp"
+      ],
+      "char_offset": 6260,
+      "anchor": "He!\nGeschrei und Fiedelbogen.\n\nALTER BAUER.\nHerr Doktor, das ist schön von Euch,\nDaß Ihr uns heute n"
+    },
+    {
+      "id": "c05-dense-029",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 6586,
+      "source_end": 7022,
+      "source_text": "\nDie Zahl der Tropfen, die er hegt,\nSei Euren Tagen zugelegt.\n\nFAUST.\nIch nehme den Erquickungstrank\nErwidr’ euch allen Heil und Dank.\n(Das Volk sammelt sich im Kreis umher.)\n\nALTER BAUER.\nFürwahr, es ist sehr wohl getan,\nDaß Ihr am frohen Tag erscheint;\nHabt Ihr es vormals doch mit uns\nAn bösen Tagen gut gemeint!\nGar mancher steht lebendig hier\nDen Euer Vater noch zuletzt\nDer heißen Fieberwut entriß,\nAls er der Seuche Ziel gesetzt.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST",
+        "ALTER BAUER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012",
+        "character-038"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-029.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        3,
+        938,
+        312,
+        1244
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png",
+        "art-bible/character-038-chapter05.webp"
+      ],
+      "char_offset": 6586,
+      "anchor": "Die Zahl der Tropfen, die er hegt,\nSei Euren Tagen zugelegt.\n\nFAUST.\nIch nehme den Erquickungstrank\n"
+    },
+    {
+      "id": "c05-dense-030",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 7022,
+      "source_end": 7479,
+      "source_text": "\nAuch damals Ihr, ein junger Mann,\nIhr gingt in jedes Krankenhaus,\nGar manche Leiche trug man fort,\nIhr aber kamt gesund heraus,\nBestandet manche harte Proben;\nDem Helfer half der Helfer droben.\n\nALLE.\nGesundheit dem bewährten Mann,\nDaß er noch lange helfen kann!\n\nFAUST.\nVor jenem droben steht gebückt,\nDer helfen lehrt und Hülfe schickt.\n(Er geht mit Wagnern weiter.)\n\nWAGNER.\nWelch ein Gefühl mußt du, o großer Mann,\nBei der Verehrung dieser Menge haben!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "ALLE",
+        "FAUST",
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012",
+        "character-038"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-030.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        318,
+        938,
+        627,
+        1244
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png",
+        "art-bible/character-038-chapter05.webp"
+      ],
+      "char_offset": 7022,
+      "anchor": "Auch damals Ihr, ein junger Mann,\nIhr gingt in jedes Krankenhaus,\nGar manche Leiche trug man fort,\nI"
+    },
+    {
+      "id": "c05-dense-031",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 7479,
+      "source_end": 7885,
+      "source_text": "\nO glücklich, wer von seinen Gaben\nSolch einen Vorteil ziehen kann!\nDer Vater zeigt dich seinem Knaben,\nEin jeder fragt und drängt und eilt,\nDie Fiedel stockt, der Tänzer weilt.\nDu gehst, in Reihen stehen sie,\nDie Mützen fliegen in die Höh;\nUnd wenig fehlt, so beugten sich die Knie,\nAls käm das Venerabile.\n\nFAUST.\nNur wenig Schritte noch hinauf zu jenem Stein,\nHier wollen wir von unsrer Wandrung rasten.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-031.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        633,
+        938,
+        943,
+        1244
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 7479,
+      "anchor": "O glücklich, wer von seinen Gaben\nSolch einen Vorteil ziehen kann!\nDer Vater zeigt dich seinem Knabe"
+    },
+    {
+      "id": "c05-dense-032",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 7885,
+      "source_end": 8236,
+      "source_text": "\nHier saß ich oft gedankenvoll allein\nUnd quälte mich mit Beten und mit Fasten.\nAn Hoffnung reich, im Glauben fest,\nMit Tränen, Seufzen, Händeringen\nDacht ich das Ende jener Pest\nVom Herrn des Himmels zu erzwingen.\nDer Menge Beifall tönt mir nun wie Hohn.\nO könntest du in meinem Innern lesen,\nWie wenig Vater und Sohn\nSolch eines Ruhmes wert gewesen!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-032.webp",
+      "source_grid": "source_images/chapter05-dense-002.png",
+      "crop_box": [
+        949,
+        938,
+        1258,
+        1244
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 7885,
+      "anchor": "Hier saß ich oft gedankenvoll allein\nUnd quälte mich mit Beten und mit Fasten.\nAn Hoffnung reich, im"
+    },
+    {
+      "id": "c05-dense-033",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 8236,
+      "source_end": 8912,
+      "source_text": "\nMein Vater war ein dunkler Ehrenmann,\nDer über die Natur und ihre heil’gen Kreise\nIn Redlichkeit, jedoch auf seine Weise,\nMit grillenhafter Mühe sann;\nDer, in Gesellschaft von Adepten,\nSich in die schwarze Küche schloß,\nUnd, nach unendlichen Rezepten,\nDas Widrige zusammengoß.\nDa ward ein roter Leu, ein kühner Freier,\nIm lauen Bad der Lilie vermählt,\nUnd beide dann mit offnem Flammenfeuer\nAus einem Brautgemach ins andere gequält.\nErschien darauf mit bunten Farben\nDie junge Königin im Glas,\nHier war die Arzenei, die Patienten starben,\nUnd niemand fragte: wer genas?\nSo haben wir mit höllischen Latwergen\nIn diesen Tälern, diesen Bergen\nWeit schlimmer als die Pest getobt.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-033.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 8236,
+      "anchor": "Mein Vater war ein dunkler Ehrenmann,\nDer über die Natur und ihre heil’gen Kreise\nIn Redlichkeit, je"
+    },
+    {
+      "id": "c05-dense-034",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 8912,
+      "source_end": 9173,
+      "source_text": "\nIch habe selbst den Gift an Tausende gegeben.\nSie welkten hin, ich muß erleben,\nDaß man die frechen Mörder lobt.\n\nWAGNER.\nWie könnt Ihr Euch darum betrüben!\nTut nicht ein braver Mann genug,\nDie Kunst, die man ihm übertrug,\nGewissenhaft und pünktlich auszuüben?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-034.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 8912,
+      "anchor": "Ich habe selbst den Gift an Tausende gegeben.\nSie welkten hin, ich muß erleben,\nDaß man die frechen "
+    },
+    {
+      "id": "c05-dense-035",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 9173,
+      "source_end": 9589,
+      "source_text": "\nWenn du als Jüngling deinen Vater ehrst,\nSo wirst du gern von ihm empfangen;\nWenn du als Mann die Wissenschaft vermehrst,\nSo kann dein Sohn zu höhrem Ziel gelangen.\n\nFAUST.\nO glücklich, wer noch hoffen kann,\nAus diesem Meer des Irrtums aufzutauchen!\nWas man nicht weiß, das eben brauchte man,\nUnd was man weiß, kann man nicht brauchen.\nDoch laß uns dieser Stunde schönes Gut\nDurch solchen Trübsinn nicht verkümmern!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-035.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 9173,
+      "anchor": "Wenn du als Jüngling deinen Vater ehrst,\nSo wirst du gern von ihm empfangen;\nWenn du als Mann die Wi"
+    },
+    {
+      "id": "c05-dense-036",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 9589,
+      "source_end": 9963,
+      "source_text": "\nBetrachte, wie in Abendsonne-Glut\nDie grünumgebnen Hütten schimmern.\nSie rückt und weicht, der Tag ist überlebt,\nDort eilt sie hin und fördert neues Leben.\nO daß kein Flügel mich vom Boden hebt\nIhr nach und immer nach zu streben!\nIch säh im ewigen Abendstrahl\nDie stille Welt zu meinen Füßen,\nEntzündet alle Höhn beruhigt jedes Tal,\nDen Silberbach in goldne Ströme fließen.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-036.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 9589,
+      "anchor": "Betrachte, wie in Abendsonne-Glut\nDie grünumgebnen Hütten schimmern.\nSie rückt und weicht, der Tag i"
+    },
+    {
+      "id": "c05-dense-037",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 9963,
+      "source_end": 10381,
+      "source_text": "\nNicht hemmte dann den göttergleichen Lauf\nDer wilde Berg mit allen seinen Schluchten;\nSchon tut das Meer sich mit erwärmten Buchten\nVor den erstaunten Augen auf.\nDoch scheint die Göttin endlich wegzusinken;\nAllein der neue Trieb erwacht,\nIch eile fort, ihr ew’ges Licht zu trinken,\nVor mir den Tag und hinter mir die Nacht,\nDen Himmel über mir und unter mir die Wellen.\nEin schöner Traum, indessen sie entweicht.\nAch!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-037.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 9963,
+      "anchor": "Nicht hemmte dann den göttergleichen Lauf\nDer wilde Berg mit allen seinen Schluchten;\nSchon tut das "
+    },
+    {
+      "id": "c05-dense-038",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 10381,
+      "source_end": 10929,
+      "source_text": " zu des Geistes Flügeln wird so leicht\nKein körperlicher Flügel sich gesellen.\nDoch ist es jedem eingeboren\nDaß sein Gefühl hinauf und vorwärts dringt,\nWenn über uns, im blauen Raum verloren,\nIhr schmetternd Lied die Lerche singt;\nWenn über schroffen Fichtenhöhen\nDer Adler ausgebreitet schwebt,\nUnd über Flächen, über Seen\nDer Kranich nach der Heimat strebt.\n\nWAGNER.\nIch hatte selbst oft grillenhafte Stunden,\nDoch solchen Trieb hab ich noch nie empfunden.\nMan sieht sich leicht an Wald und Feldern satt;\nDes Vogels Fittich werd ich nie beneiden.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-038.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 10381,
+      "anchor": "zu des Geistes Flügeln wird so leicht\nKein körperlicher Flügel sich gesellen.\nDoch ist es jedem eing"
+    },
+    {
+      "id": "c05-dense-039",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 10929,
+      "source_end": 11252,
+      "source_text": "\nWie anders tragen uns die Geistesfreuden\nVon Buch zu Buch, von Blatt zu Blatt!\nDa werden Winternächte hold und schön\nEin selig Leben wärmet alle Glieder,\nUnd ach! entrollst du gar ein würdig Pergamen,\nSo steigt der ganze Himmel zu dir nieder.\n\nFAUST.\nDu bist dir nur des einen Triebs bewußt,\nO lerne nie den andern kennen!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-008",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-039.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 10929,
+      "anchor": "Wie anders tragen uns die Geistesfreuden\nVon Buch zu Buch, von Blatt zu Blatt!\nDa werden Winternächt"
+    },
+    {
+      "id": "c05-dense-040",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 11252,
+      "source_end": 11713,
+      "source_text": "\nZwei Seelen wohnen, ach! in meiner Brust,\nDie eine will sich von der andern trennen;\nDie eine hält, in derber Liebeslust,\nSich an die Welt mit klammernden Organen;\nDie andre hebt gewaltsam sich vom Dust\nZu den Gefilden hoher Ahnen.\nO gibt es Geister in der Luft,\nDie zwischen Erd und Himmel herrschend weben\nSo steiget nieder aus dem goldnen Duft\nUnd führt mich weg zu neuem, buntem Leben!\nJa, wäre nur ein Zaubermantel mein,\nUnd trüg er mich in fremde Länder!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-040.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 11252,
+      "anchor": "Zwei Seelen wohnen, ach! in meiner Brust,\nDie eine will sich von der andern trennen;\nDie eine hält, "
+    },
+    {
+      "id": "c05-dense-041",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 11713,
+      "source_end": 12459,
+      "source_text": "\nMir sollt er um die köstlichsten Gewänder,\nNicht feil um einen Königsmantel sein.\n\nWAGNER.\nBerufe nicht die wohlbekannte Schar,\nDie strömend sich im Dunstkreis überbreitet,\nDem Menschen tausendfältige Gefahr,\nVon allen Enden her, bereitet.\nVon Norden dringt der scharfe Geisterzahn\nAuf dich herbei, mit pfeilgespitzten Zungen;\nVon Morgen ziehn, vertrocknend, sie heran,\nUnd nähren sich von deinen Lungen;\nWenn sie der Mittag aus der Wüste schickt,\nDie Glut auf Glut um deinen Scheitel häufen\nSo bringt der West den Schwarm, der erst erquickt,\nUm dich und Feld und Aue zu ersäufen.\nSie hören gern, zum Schaden froh gewandt,\nGehorchen gern, weil sie uns gern betrügen;\nSie stellen wie vom Himmel sich gesandt,\nUnd lispeln englisch, wenn sie lügen.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-041.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 11713,
+      "anchor": "Mir sollt er um die köstlichsten Gewänder,\nNicht feil um einen Königsmantel sein.\n\nWAGNER.\nBerufe ni"
+    },
+    {
+      "id": "c05-dense-042",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 12459,
+      "source_end": 12665,
+      "source_text": "\nDoch gehen wir! Ergraut ist schon die Welt,\nDie Luft gekühlt, der Nebel fällt!\nAm Abend schätzt man erst das Haus.—\nWas stehst du so und blickst erstaunt hinaus?\nWas kann dich in der Dämmrung so ergreifen?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-042.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png"
+      ],
+      "char_offset": 12459,
+      "anchor": "Doch gehen wir! Ergraut ist schon die Welt,\nDie Luft gekühlt, der Nebel fällt!\nAm Abend schätzt man "
+    },
+    {
+      "id": "c05-dense-043",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 12665,
+      "source_end": 12854,
+      "source_text": "\n\nFAUST.\nSiehst du den schwarzen Hund durch Saat und Stoppel streifen?\n\nWAGNER.\nIch sah ihn lange schon, nicht wichtig schien er mir.\n\nFAUST.\nBetracht ihn recht! für was hältst du das Tier?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012",
+        "character-122"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현. 푸들의 불길은 파우스트의 주관적 인식으로 모호하게 표현. 악마의 외형을 드러내지 않음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-043.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 12665,
+      "anchor": "FAUST.\nSiehst du den schwarzen Hund durch Saat und Stoppel streifen?\n\nWAGNER.\nIch sah ihn lange scho"
+    },
+    {
+      "id": "c05-dense-044",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 12854,
+      "source_end": 13193,
+      "source_text": "\n\nWAGNER.\nFür einen Pudel, der auf seine Weise\nSich auf der Spur des Herren plagt.\n\nFAUST.\nBemerkst du, wie in weitem Schneckenkreise\nEr um uns her und immer näher jagt?\nUnd irr ich nicht, so zieht ein Feuerstrudel\nAuf seinen Pfaden hinterdrein.\n\nWAGNER.\nIch sehe nichts als einen schwarzen Pudel;\nEs mag bei Euch wohl Augentäuschung sein.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "WAGNER",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012",
+        "character-122"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현. 푸들의 불길은 파우스트의 주관적 인식으로 모호하게 표현. 악마의 외형을 드러내지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-044.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 12854,
+      "anchor": "WAGNER.\nFür einen Pudel, der auf seine Weise\nSich auf der Spur des Herren plagt.\n\nFAUST.\nBemerkst du"
+    },
+    {
+      "id": "c05-dense-045",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 13193,
+      "source_end": 13464,
+      "source_text": "\n\nFAUST.\nMir scheint es, daß er magisch leise Schlingen\nZu künft’gem Band um unsre Füße zieht.\n\nWAGNER.\nIch seh ihn ungewiß und furchtsam uns umspringen,\nWeil er, statt seines Herrn, zwei Unbekannte sieht.\n\nFAUST.\nDer Kreis wird eng, schon ist er nah!\n\nWAGNER.\nDu siehst!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012",
+        "character-122"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현. 푸들의 불길은 파우스트의 주관적 인식으로 모호하게 표현. 악마의 외형을 드러내지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c05-dense-045.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 13193,
+      "anchor": "FAUST.\nMir scheint es, daß er magisch leise Schlingen\nZu künft’gem Band um unsre Füße zieht.\n\nWAGNER"
+    },
+    {
+      "id": "c05-dense-046",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 4,
+      "source_start": 13464,
+      "source_end": 13608,
+      "source_text": " ein Hund, und kein Gespenst ist da.\nEr knurrt und zweifelt, legt sich auf den Bauch,\nEr wedelt. Alles Hundebrauch.\n\nFAUST.\nGeselle dich zu uns!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012",
+        "character-122"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현. 푸들의 불길은 파우스트의 주관적 인식으로 모호하게 표현. 악마의 외형을 드러내지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c05-dense-046.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 13464,
+      "anchor": "ein Hund, und kein Gespenst ist da.\nEr knurrt und zweifelt, legt sich auf den Bauch,\nEr wedelt. Alle"
+    },
+    {
+      "id": "c05-dense-047",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 3,
+      "source_start": 13608,
+      "source_end": 13810,
+      "source_text": " Komm hier!\n\nWAGNER.\nEs ist ein pudelnärrisch Tier.\nDu stehest still, er wartet auf;\nDu sprichst ihn an, er strebt an dir hinauf;\nVerliere was, er wird es bringen,\nNach deinem Stock ins Wasser springen.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012",
+        "character-122"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현. 푸들의 불길은 파우스트의 주관적 인식으로 모호하게 표현. 악마의 외형을 드러내지 않음.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c05-dense-047.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 13608,
+      "anchor": "Komm hier!\n\nWAGNER.\nEs ist ein pudelnärrisch Tier.\nDu stehest still, er wartet auf;\nDu sprichst ihn "
+    },
+    {
+      "id": "c05-dense-048",
+      "chapter": 5,
+      "chapter_title": "Vor dem Tor",
+      "sentence_count": 3,
+      "source_start": 13810,
+      "source_end": 14090,
+      "source_text": "\n\nFAUST.\nDu hast wohl recht; ich finde nicht die Spur\nVon einem Geist, und alles ist Dressur.\n\nWAGNER.\nDem Hunde, wenn er gut gezogen,\nWird selbst ein weiser Mann gewogen.\nJa, deine Gunst verdient er ganz und gar,\nEr, der Studenten trefflicher Skolar.\n(Sie gehen in das Stadttor.)",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST",
+        "WAGNER"
+      ],
+      "reference_ids": [
+        "location-004",
+        "character-010",
+        "character-012",
+        "character-122"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-009",
+      "review_note": "장면 의미·연령·의상·주야 흐름 검토. 봄꽃·빛은 연출용 강조이며 지리·식생의 역사적 복원은 아님. 반복 후렴도 서로 다른 구도로 표현. 푸들의 불길은 파우스트의 주관적 인식으로 모호하게 표현. 악마의 외형을 드러내지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c05-dense-048.webp",
+      "source_grid": "source_images/chapter05-dense-003.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-05.json",
+      "visual_references": [
+        "art-bible/location-town-gate.png",
+        "art-bible/character-faust-old.png",
+        "art-bible/character-wagner.png",
+        "art-bible/character-black-poodle.png"
+      ],
+      "char_offset": 13810,
+      "anchor": "FAUST.\nDu hast wohl recht; ich finde nicht die Spur\nVon einem Geist, und alles ist Dressur.\n\nWAGNER."
     }
   ]
 }

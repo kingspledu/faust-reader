@@ -487,15 +487,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-017-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-017-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          2,
+          317,
+          310,
+          628
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님. 이 시트는 하녀 대화의 다른 하녀에만 해당하며 다른 장면의 ANDRE 전체와 동일 인물로 보지 않는다."
+      }
     },
     {
       "id": "character-018",
@@ -597,15 +612,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-022-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-022-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          626,
+          2,
+          933,
+          313
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-023",
@@ -619,15 +649,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-023-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-023-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          2,
+          2,
+          310,
+          313
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-024",
@@ -641,15 +686,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-024-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-024-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          314,
+          2,
+          622,
+          313
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-025",
@@ -671,7 +731,12 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-026-chapter05.webp",
+        "same_local_role_as": "character-026",
+        "note": "같은 하녀 대화 안에서 첫 번째 하녀에 해당."
+      }
     },
     {
       "id": "character-026",
@@ -685,15 +750,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-026-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-026-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          937,
+          2,
+          1245,
+          313
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-027",
@@ -729,15 +809,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-028-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-028-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          937,
+          317,
+          1245,
+          628
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-029",
@@ -751,15 +846,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-029-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-029-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          626,
+          317,
+          933,
+          628
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-030",
@@ -773,15 +883,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-030-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-030-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          314,
+          317,
+          622,
+          628
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-031",
@@ -795,15 +920,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-031-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-031-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          314,
+          632,
+          622,
+          944
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-032",
@@ -817,15 +957,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-032-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-032-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          626,
+          632,
+          933,
+          944
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-033",
@@ -839,15 +994,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-033-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-033-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          937,
+          632,
+          1245,
+          944
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-034",
@@ -861,15 +1031,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-034-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-034-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          2,
+          948,
+          310,
+          1259
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-035",
@@ -883,15 +1068,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-035-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-035-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          314,
+          948,
+          622,
+          1259
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-036",
@@ -905,15 +1105,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-036-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-036-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          2,
+          632,
+          310,
+          944
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-037",
@@ -927,15 +1142,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-037-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-037-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          626,
+          948,
+          933,
+          1259
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-038",
@@ -949,15 +1179,30 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
+      "image": "character-038-chapter05.webp",
+      "status": "draft_visual",
       "visual_locks": [],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "chapter05_reference": {
+        "image": "character-038-chapter05.webp",
+        "atlas": "reference-chapter05-cast.png",
+        "crop_box": [
+          937,
+          948,
+          1245,
+          1259
+        ],
+        "native_grid_size": [
+          1247,
+          1261
+        ],
+        "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
+      }
     },
     {
       "id": "character-039",
@@ -2841,11 +3086,14 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-05.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
+      "image": "character-black-poodle.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "검은 곱슬털·늘어진 귀·길쭉한 주둥이",
+        "자연스러운 개의 몸과 행동; 뿔·붉은 눈·의복·현대식 장식 없음"
+      ],
       "canonical_note": "원문 대조 항목",
-      "variants_note": "",
+      "variants_note": "메피스토펠레스의 푸들 형태. 새 독립 인간 인물로 세지 않는다. 크기·털 모양은 시각적 해석이며 원문 확정값이 아님.",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
