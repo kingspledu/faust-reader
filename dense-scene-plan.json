@@ -13245,15 +13245,33 @@
       "composition": "표정과 시선의 변화를 포착",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-001.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-002",
@@ -13271,15 +13289,32 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-002.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-003",
@@ -13294,15 +13329,33 @@
       "composition": "대화 상대와 몸짓의 관계",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c09-dense-003.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-004",
@@ -13319,16 +13372,33 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c09-dense-004.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-005",
@@ -13346,17 +13416,33 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-005.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-006",
@@ -13374,17 +13460,33 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-006.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-007",
@@ -13401,16 +13503,33 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c09-dense-007.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-008",
@@ -13425,15 +13544,33 @@
       "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c09-dense-008.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-009",
@@ -13450,15 +13587,33 @@
         "DIE TIERE"
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-009.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-010",
@@ -13476,16 +13631,33 @@
         "DIE TIERE"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-010.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-011",
@@ -13504,17 +13676,33 @@
         "DIE TIERE"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c09-dense-011.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-012",
@@ -13532,16 +13720,33 @@
         "DER KATER "
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c09-dense-012.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-013",
@@ -13558,15 +13763,33 @@
         "DER KATER"
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-013.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-014",
@@ -13583,16 +13806,33 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-014.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-015",
@@ -13610,16 +13850,33 @@
         "MEPHISTOPHELES "
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c09-dense-015.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-016",
@@ -13638,16 +13895,33 @@
         "DER KATER"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c09-dense-016.webp",
+      "source_grid": "source_images/chapter09-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-017",
@@ -13665,15 +13939,32 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-017.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-018",
@@ -13690,16 +13981,33 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-018.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-019",
@@ -13716,15 +14024,33 @@
         "DIE TIERE "
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c09-dense-019.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-020",
@@ -13742,17 +14068,33 @@
         "MEPHISTOPHELES "
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c09-dense-020.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-021",
@@ -13771,17 +14113,33 @@
         "MEPHISTOPHELES "
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-021.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-022",
@@ -13798,16 +14156,33 @@
         "DIE HEXE"
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
         "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-022.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-023",
@@ -13822,15 +14197,33 @@
       "composition": "인물과 주변 공간을 위에서 관찰",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-020",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c09-dense-023.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-024",
@@ -13845,15 +14238,33 @@
       "composition": "낮은 시점에서 인물·건축의 긴장감",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-021",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c09-dense-024.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-025",
@@ -13870,16 +14281,33 @@
         "MEPHISTOPHELES "
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-021",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-025.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-026",
@@ -13894,15 +14322,33 @@
       "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-021",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-026.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-027",
@@ -13917,15 +14363,33 @@
       "composition": "대화 상대와 몸짓의 관계",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-021",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c09-dense-027.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-028",
@@ -13942,16 +14406,33 @@
         "DIE HEXE"
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
         "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-021",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c09-dense-028.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-029",
@@ -13968,16 +14449,33 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-021",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-029.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-030",
@@ -13996,17 +14494,33 @@
         "DIE HEXE"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
         "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-021",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-030.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-031",
@@ -14023,16 +14537,33 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-010",
         "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-021",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c09-dense-031.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-032",
@@ -14049,16 +14580,33 @@
         "DIE HEXE "
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
         "character-052",
         "location-006"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-021",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c09-dense-032.webp",
+      "source_grid": "source_images/chapter09-dense-002.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json"
     },
     {
       "id": "c09-dense-033",
