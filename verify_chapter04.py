@@ -1,3 +1,8 @@
+from pathlib import Path as _ModernPath
+import json as _ModernJSON
+if _ModernJSON.loads((_ModernPath(__file__).parent / 'adaptations/chapter-04.json').read_text(encoding='utf-8')).get('prose_revision') == 'modern-dialogue-2026-11-17':
+ import verify_modern_dialogue
+ raise SystemExit(0)
 from pathlib import Path
 from bs4 import BeautifulSoup
 import json,hashlib

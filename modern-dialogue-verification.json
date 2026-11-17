@@ -1,0 +1,9 @@
+{
+  "chapters": 12,
+  "scenes": 406,
+  "tts_segments": 955,
+  "gutenberg_independent_match": true,
+  "text_and_index_aligned": true,
+  "source_translation_images_preserved": true,
+  "real_audio_generated": false
+}
