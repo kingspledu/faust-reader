@@ -45,6 +45,8 @@ assert ''.join(x.get_text() for x in soup.select('article pre[lang="de"]'))==ori
 assert [x.get_text() for x in soup.select('article .ko-translation')]==[u['ko'] for u in t['segments']]
 assert len(soup.select('article > section.illustrated-scene'))==48
 assert len(soup.select('details.source-fold'))==20
+for label in soup.select('.voice-label'):
+ if label.get_text().startswith('[나레이션:'):label.decompose()
 p.write_text(str(soup),encoding='utf-8')
 a['status']='illustration_aligned_reviewed';(root/'adaptations/chapter-05.json').write_text(json.dumps(a,ensure_ascii=False,indent=2),encoding='utf-8')
 (root/'dense-scene-plan.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf-8')

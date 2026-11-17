@@ -1,0 +1,37 @@
+[
+  {
+    "chapter": 1,
+    "source_preserved": true,
+    "translation_preserved": true,
+    "narration_labels": 0,
+    "images": 16
+  },
+  {
+    "chapter": 2,
+    "source_preserved": true,
+    "translation_preserved": true,
+    "narration_labels": 0,
+    "images": 23
+  },
+  {
+    "chapter": 3,
+    "source_preserved": true,
+    "translation_preserved": true,
+    "narration_labels": 0,
+    "images": 14
+  },
+  {
+    "chapter": 4,
+    "source_preserved": true,
+    "translation_preserved": true,
+    "narration_labels": 0,
+    "images": 52
+  },
+  {
+    "chapter": 5,
+    "source_preserved": true,
+    "translation_preserved": true,
+    "narration_labels": 0,
+    "images": 48
+  }
+]

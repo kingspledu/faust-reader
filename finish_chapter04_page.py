@@ -47,6 +47,8 @@ style=soup.new_tag('style',id='chapter04-adaptation-style');style.string=css;sou
 assert ''.join(x.get_text() for x in soup.select('article pre[lang="de"]'))==original
 assert [x.get_text() for x in soup.select('article .ko-translation')]==[u['ko'] for u in translations['segments']]
 assert len(soup.select('section.illustrated-scene'))==52
+for label in soup.select('.voice-label'):
+ if label.get_text().startswith('[나레이션:'):label.decompose()
 p.write_text(str(soup),encoding='utf-8')
 (root/'dense-scene-plan.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf-8')
 manifest=json.loads((root/'scene-manifest.json').read_text(encoding='utf-8'));manifest['scenes']=[e for e in manifest['scenes'] if e.get('chapter')!=4]+[{**e,'char_offset':e['source_start'],'anchor':e['source_text'].strip()[:100]} for e in scenes];manifest['scope']='Chapters 1–4 illustrated and adapted; later chapters pending.'
