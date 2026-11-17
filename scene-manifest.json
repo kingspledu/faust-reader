@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-16 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1-16 complete; chapter17 first 16/21 scenes illustrated and adapted; later work pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -20384,6 +20384,672 @@
       "adaptation": "adaptations/chapter-16.json",
       "char_offset": 731,
       "anchor": "was so ein Mann\nNicht alles, alles denken kann!\nBeschämt nur steh ich vor ihm da\nUnd sag zu allen Sa"
+    },
+    {
+      "id": "c17-dense-001",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 219,
+      "source_text": "Faust allein.\n\nErhabner Geist, du gabst mir, gabst mir alles,\nWarum ich bat. Du hast mir nicht umsonst\nDein Angesicht im Feuer zugewendet.\nGabst mir die herrliche Natur zum Königreich,\nKraft, sie zu fühlen, zu genießen.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c17-dense-001.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 0,
+      "anchor": "Faust allein.\n\nErhabner Geist, du gabst mir, gabst mir alles,\nWarum ich bat. Du hast mir nicht umson"
+    },
+    {
+      "id": "c17-dense-002",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 219,
+      "source_end": 963,
+      "source_text": " Nicht\nKalt staunenden Besuch erlaubst du nur,\nVergönnest mir, in ihre tiefe Brust\nWie in den Busen eines Freunds zu schauen.\nDu führst die Reihe der Lebendigen\nVor mir vorbei und lehrst mich meine Brüder\nIm stillen Busch, in Luft und Wasser kennen.\nUnd wenn der Sturm im Walde braust und knarrt,\nDie Riesenfichte stürzend Nachbaräste\nUnd Nachbarstämme quetschend niederstreift\nUnd ihrem Fall dumpf hohl der Hügel donnert,\nDann führst du mich zur sichern Höhle, zeigst\nMich dann mir selbst, und meiner eignen Brust\nGeheime tiefe Wunder öffnen sich.\nUnd steigt vor meinem Blick der reine Mond\nBesänftigend herüber, schweben mir\nVon Felsenwänden, aus dem feuchten Busch\nDer Vorwelt silberne Gestalten auf\nUnd lindern der Betrachtung strenge Lust.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c17-dense-002.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 219,
+      "anchor": "Nicht\nKalt staunenden Besuch erlaubst du nur,\nVergönnest mir, in ihre tiefe Brust\nWie in den Busen e"
+    },
+    {
+      "id": "c17-dense-003",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 963,
+      "source_end": 1435,
+      "source_text": "\n\nO daß dem Menschen nichts Vollkommnes wird,\nEmpfind ich nun. Du gabst zu dieser Wonne,\nDie mich den Göttern nah und näher bringt,\nMir den Gefährten, den ich schon nicht mehr\nEntbehren kann, wenn er gleich, kalt und frech,\nMich vor mir selbst erniedrigt und zu Nichts,\nMit einem Worthauch, deine Gaben wandelt.\nEr facht in meiner Brust ein wildes Feuer\nNach jenem schönen Bild geschäftig an.\nSo tauml ich von Begierde zu Genuß,\nUnd im Genuß verschmacht ich nach Begierde.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c17-dense-003.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 963,
+      "anchor": "O daß dem Menschen nichts Vollkommnes wird,\nEmpfind ich nun. Du gabst zu dieser Wonne,\nDie mich den "
+    },
+    {
+      "id": "c17-dense-004",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 1435,
+      "source_end": 1709,
+      "source_text": "\n(Mephistopheles tritt auf.)\n\nMEPHISTOPHELES.\nHabt Ihr nun bald das Leben gnug geführt?\nWie kann’s Euch in die Länge freuen?\nEs ist wohl gut, daß man’s einmal probiert\nDann aber wieder zu was Neuen!\n\nFAUST.\nIch wollt, du hättest mehr zu tun,\nAls mich am guten Tag zu plagen.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c17-dense-004.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 1435,
+      "anchor": "(Mephistopheles tritt auf.)\n\nMEPHISTOPHELES.\nHabt Ihr nun bald das Leben gnug geführt?\nWie kann’s Eu"
+    },
+    {
+      "id": "c17-dense-005",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 1709,
+      "source_end": 1914,
+      "source_text": "\n\nMEPHISTOPHELES.\nNun, nun! ich laß dich gerne ruhn,\nDu darfst mir’s nicht im Ernste sagen.\nAn dir Gesellen, unhold, barsch und toll,\nIst wahrlich wenig zu verlieren.\nDen ganzen Tag hat man die Hände voll!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c17-dense-005.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 1709,
+      "anchor": "MEPHISTOPHELES.\nNun, nun! ich laß dich gerne ruhn,\nDu darfst mir’s nicht im Ernste sagen.\nAn dir Ges"
+    },
+    {
+      "id": "c17-dense-006",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 1914,
+      "source_end": 2158,
+      "source_text": "\nWas ihm gefällt und was man lassen soll,\nKann man dem Herrn nie an der Nase spüren.\n\nFAUST.\nDas ist so just der rechte Ton!\nEr will noch Dank, daß er mich ennuyiert.\n\nMEPHISTOPHELES.\nWie hättst du, armer Erdensohn\nDein Leben ohne mich geführt?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c17-dense-006.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 1914,
+      "anchor": "Was ihm gefällt und was man lassen soll,\nKann man dem Herrn nie an der Nase spüren.\n\nFAUST.\nDas ist "
+    },
+    {
+      "id": "c17-dense-007",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 2158,
+      "source_end": 2488,
+      "source_text": "\nVom Kribskrabs der Imagination\nHab ich dich doch auf Zeiten lang kuriert;\nUnd wär ich nicht, so wärst du schon\nVon diesem Erdball abspaziert.\nWas hast du da in Höhlen, Felsenritzen\nDich wie ein Schuhu zu versitzen?\nWas schlurfst aus dumpfem Moos und triefendem Gestein\nWie eine Kröte Nahrung ein?\nEin schöner, süßer Zeitvertreib!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c17-dense-007.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 2158,
+      "anchor": "Vom Kribskrabs der Imagination\nHab ich dich doch auf Zeiten lang kuriert;\nUnd wär ich nicht, so wärs"
+    },
+    {
+      "id": "c17-dense-008",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 2488,
+      "source_end": 2742,
+      "source_text": "\nDir steckt der Doktor noch im Leib.\n\nFAUST.\nVerstehst du, was für neue Lebenskraft\nMir dieser Wandel in der Öde schafft?\nJa, würdest du es ahnen können,\nDu wärest Teufel gnug, mein Glück mir nicht zu gönnen.\n\nMEPHISTOPHELES.\nEin überirdisches Vergnügen.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c17-dense-008.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 2488,
+      "anchor": "Dir steckt der Doktor noch im Leib.\n\nFAUST.\nVerstehst du, was für neue Lebenskraft\nMir dieser Wandel"
+    },
+    {
+      "id": "c17-dense-009",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 2742,
+      "source_end": 3362,
+      "source_text": "\nIn Nacht und Tau auf den Gebirgen liegen\nUnd Erd und Himmel wonniglich umfassen,\nZu einer Gottheit sich aufschwellen lassen,\nDer Erde Mark mit Ahnungsdrang durchwühlen,\nAlle sechs Tagewerk im Busen fühlen,\nIn stolzer Kraft ich weiß nicht was genießen,\nBald liebewonniglich in alles überfließen,\nVerschwunden ganz der Erdensohn,\nUnd dann die hohe Intuition—\n(mit einer Gebärde)\nIch darf nicht sagen, wie—zu schließen.\n\nFAUST.\nPfui über dich!\n\nMEPHISTOPHELES.\nDas will Euch nicht behagen;\nIhr habt das Recht, gesittet pfui zu sagen.\nMan darf das nicht vor keuschen Ohren nennen,\nWas keusche Herzen nicht entbehren können.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c17-dense-009.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 2742,
+      "anchor": "In Nacht und Tau auf den Gebirgen liegen\nUnd Erd und Himmel wonniglich umfassen,\nZu einer Gottheit s"
+    },
+    {
+      "id": "c17-dense-010",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 3362,
+      "source_end": 3655,
+      "source_text": "\nUnd kurz und gut, ich gönn Ihm das Vergnügen,\nGelegentlich sich etwas vorzulügen;\nDoch lange hält Er das nicht aus.\nDu bist schon wieder abgetrieben\nUnd, währt es länger, aufgerieben\nIn Tollheit oder Angst und Graus.\nGenug damit! Dein Liebchen sitzt dadrinne,\nUnd alles wird ihr eng und trüb.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c17-dense-010.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 3362,
+      "anchor": "Und kurz und gut, ich gönn Ihm das Vergnügen,\nGelegentlich sich etwas vorzulügen;\nDoch lange hält Er"
+    },
+    {
+      "id": "c17-dense-011",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 3655,
+      "source_end": 4129,
+      "source_text": "\nDu kommst ihr gar nicht aus dem Sinne,\nSie hat dich übermächtig lieb.\nErst kam deine Liebeswut übergeflossen,\nWie vom geschmolznen Schnee ein Bächlein übersteigt;\nDu hast sie ihr ins Herz gegossen,\nNun ist dein Bächlein wieder seicht.\nMich dünkt, anstatt in Wäldern zu thronen,\nLieß’ es dem großen Herren gut,\nDas arme affenjunge Blut\nFür seine Liebe zu belohnen.\nDie Zeit wird ihr erbärmlich lang;\nSie steht am Fenster, sieht die Wolken ziehn\nÜber die alte Stadtmauer hin.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c17-dense-011.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 3655,
+      "anchor": "Du kommst ihr gar nicht aus dem Sinne,\nSie hat dich übermächtig lieb.\nErst kam deine Liebeswut überg"
+    },
+    {
+      "id": "c17-dense-012",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 4129,
+      "source_end": 4341,
+      "source_text": "\n“Wenn ich ein Vöglein wär!” so geht ihr Gesang\nTage lang, halbe Nächte lang.\nEinmal ist sie munter, meist betrübt,\nEinmal recht ausgeweint,\nDann wieder ruhig, wie’s scheint,\nUnd immer verliebt.\n\nFAUST.\nSchlange!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c17-dense-012.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 4129,
+      "anchor": "“Wenn ich ein Vöglein wär!” so geht ihr Gesang\nTage lang, halbe Nächte lang.\nEinmal ist sie munter, "
+    },
+    {
+      "id": "c17-dense-013",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 4341,
+      "source_end": 4425,
+      "source_text": " Schlange!\n\nMEPHISTOPHELES (für sich).\nGelt! daß ich dich fange!\n\nFAUST.\nVerruchter!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c17-dense-013.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 4341,
+      "anchor": "Schlange!\n\nMEPHISTOPHELES (für sich).\nGelt! daß ich dich fange!\n\nFAUST.\nVerruchter!"
+    },
+    {
+      "id": "c17-dense-014",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 4425,
+      "source_end": 4663,
+      "source_text": " hebe dich von hinnen,\nUnd nenne nicht das schöne Weib!\nBring die Begier zu ihrem süßen Leib\nNicht wieder vor die halb verrückten Sinnen!\n\nMEPHISTOPHELES.\nWas soll es denn? Sie meint, du seist entflohn,\nUnd halb und halb bist du es schon.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c17-dense-014.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 4425,
+      "anchor": "hebe dich von hinnen,\nUnd nenne nicht das schöne Weib!\nBring die Begier zu ihrem süßen Leib\nNicht wi"
+    },
+    {
+      "id": "c17-dense-015",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 4663,
+      "source_end": 4972,
+      "source_text": "\n\nFAUST.\nIch bin ihr nah, und wär ich noch so fern,\nIch kann sie nie vergessen, nie verlieren\nJa, ich beneide schon den Leib des Herrn,\nWenn ihre Lippen ihn indes berühren.\n\nMEPHISTOPHELES.\nGar wohl, mein Freund! Ich hab Euch oft beneidet\nUms Zwillingspaar, das unter Rosen weidet.\n\nFAUST.\nEntfliehe, Kuppler!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c17-dense-015.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 4663,
+      "anchor": "FAUST.\nIch bin ihr nah, und wär ich noch so fern,\nIch kann sie nie vergessen, nie verlieren\nJa, ich "
+    },
+    {
+      "id": "c17-dense-016",
+      "chapter": 17,
+      "chapter_title": "Wald und Höhle",
+      "sentence_count": 4,
+      "source_start": 4972,
+      "source_end": 5175,
+      "source_text": "\n\nMEPHISTOPHELES.\nSchön! Ihr schimpft, und ich muß lachen.\nDer Gott, der Bub’ und Mädchen schuf,\nErkannte gleich den edelsten Beruf,\nAuch selbst Gelegenheit zu machen.\nNur fort, es ist ein großer Jammer!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-013"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "회춘한 파우스트와 귀족복 메피스토펠레스의 숲 대화. 영·그레트헨·폭포 비유는 현장 등장이나 실제 재난으로 그리지 않음. 그레트헨의 상태는 메피스토펠레스의 주장.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c17-dense-016.webp",
+      "source_grid": "source_images/chapter17-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-17.json",
+      "char_offset": 4972,
+      "anchor": "MEPHISTOPHELES.\nSchön! Ihr schimpft, und ich muß lachen.\nDer Gott, der Bub’ und Mädchen schuf,\nErkan"
     }
   ]
 }
