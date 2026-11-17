@@ -9,8 +9,11 @@ voice_codes.update({'파우스트':'FAU','바그너':'WAG'})
 crowd_voices={'직공 청년':('Puck','ART'),'세 번째 직공 청년':('Puck','ART3'),'다섯 번째 직공 청년':('Orus','ART5'),'첫 번째 하녀':('Kore','MAID1'),'다른 하녀':('Sulafat','MAID2'),'시민의 딸':('Kore','DAU'),'두 번째 학생':('Puck','STU2'),'첫 번째 학생':('Fenrir','STU1'),'첫 번째 시민':('Orus','CIT1'),'거지':('Charon','BEG'),'두 번째 시민':('Fenrir','CIT2'),'세 번째 시민':('Orus','CIT3'),'노파':('Sulafat','OLDW'),'아가테':('Kore','AGA'),'군인':('Fenrir','SOL'),'목동':('Puck','SHEP'),'춤추는 사람':('Puck','DAN'),'춤추는 아가씨':('Kore','DANW'),'늙은 농부':('Charon','FARM')}
 voice_names.update({k:v[0] for k,v in crowd_voices.items()});voice_codes.update({k:v[1] for k,v in crowd_voices.items()})
 voice_names.update({'학생':'Puck'});voice_codes.update({'학생':'STU7'})
-chapters_to_build=[1,2,3,4,5,6,7]
+chapters_to_build=[1,2,3,4,5,6,7,8]
 for ch in chapters_to_build:
+ if ch==8:
+  voice_names.update({'프로슈':'Puck','브란더':'Fenrir','지벨':'Orus','알트마이어':'Charon'})
+  voice_codes.update({'프로슈':'FRO','브란더':'BRA','지벨':'SIE','알트마이어':'ALT'})
  soup=BeautifulSoup((root/f'chapter-{ch:02}.html').read_text(encoding='utf-8'),'html.parser');units=[]
  for section in soup.select('article .adaptation-intro, article .adaptation-prose'):
   parent=section.find_parent('section',class_='illustrated-scene');sid=parent.get('data-scene') if parent else f'c{ch:02}-intro';parts=[]
@@ -33,9 +36,17 @@ for ch in chapters_to_build:
    seg={'id':f'C{ch:02}_{idx:04}','speaker':speaker,'text':text,'scene_id':sid,'filename':filename,'voice':voice_names.get(speaker,'Charon'),'performance':{'emotion':emotion,'intensity':0.65 if speaker!='나레이터' else 0.4,'pace':'slow' if sad else 'medium','delivery':'inner_close' if speaker!='나레이터' else 'warm_storytelling','pause_after_ms':650 if sad else 420,'acting_notes':'중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡.','nonverbal':nonverbal,'cough_rule':'원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.'}}
    seg['performance']['mic_direction'] = ('가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다.' if speaker!='나레이터' else '편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다.')
    seg['performance']['delivery'] = 'quiet_intimate_natural_voiced_speech' if speaker!='나레이터' else 'warm_storytelling'
+   if ch==8:
+    scene_number=int(sid[-3:])
+    emotion='술자리의 떠들썩함과 짓궂은 장난' if scene_number<=18 else '낯선 상대를 떠보는 호기심과 경계' if scene_number<=28 else '우스운 노래를 듣는 흥과 빈정거림' if scene_number<=33 else '좋은 술에 대한 기대와 의심' if scene_number<=44 else '놀라움과 들뜸, 파우스트의 지루함' if scene_number<=46 else '불에 놀란 공포에서 모욕당한 분노로' if scene_number<=52 else '환상에 사로잡힌 놀라움과 들뜸' if scene_number<=54 else '위험을 깨달은 당황과 떨림' if scene_number<=57 else '분노와 의심, 끝내 풀리지 않는 혼란'
+    if speaker=='메피스토펠레스':emotion+='; 메피스토펠레스는 여유와 통제감을 유지하고 큰 소리로 놀라지 않는다'
+    if speaker=='파우스트':emotion='지루함과 실망, 자리를 떠나고 싶은 조용한 불편함'
+    seg['performance']['emotion']=emotion
+    seg['performance']['acting_notes']+=' 노래 내용도 쓰인 본문 그대로 이야기하듯 낭독한다. 가사나 인물 대사를 새로 불러 넣지 않는다. 술 취한 소리로 발음을 뭉개지 않는다. 프로슈는 호기로운 장난기, 브란더는 비꼬는 웃음, 지벨은 성급한 반응, 알트마이어는 느긋한 관찰에서 당황으로 변하는 흐름을 살린다. 독백은 흥분한 장면에도 나직한 유성 발성을 유지한다.'
+    seg['performance']['nonverbal']='호흡을 짧게 고른 뒤 발화. 상황에 맞는 작은 웃음 한 번을 허용하되 문장마다 넣지 않는다.' if scene_number<=45 else '놀람에는 짧은 들숨, 분노에는 절제된 날숨, 환상 뒤에는 잠깐 말을 망설이는 쉼. 소리 지르거나 없는 기침·통곡을 추가하지 않는다.'
    units.append(seg);allindex.append({'chapter':ch,'order':idx,'scene_id':sid,'segment_id':seg['id'],'speaker':speaker,'filename':filename,'voice':seg['voice'],'text_sha256':hashlib.sha256(text.encode()).hexdigest(),'text':text})
  assert units, f'Chapter {ch}: completed adaptation prose is required before TTS generation'
- episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
+ episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기','술집에서 벌어진 눈속임'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
  s=re.sub(r'const originalEpisode = .*?;\s*const originalStory =',lambda m:'const originalEpisode = '+json.dumps(episode,ensure_ascii=False)+';\n        const originalStory =',template,flags=re.S)
  a=s.index('        function parseTurns(');b=s.index("        processBtn.addEventListener",a)
  s=s[:a]+'''        function parseTurns(text) {

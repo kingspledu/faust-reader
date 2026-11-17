@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-7 complete; chapter8 first 48/60 scenes illustrated and adapted; later work pending.",
+  "scope": "Chapters 1-8 illustrated and adapted; later chapters pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -12825,6 +12825,595 @@
       "adaptation": "adaptations/chapter-08.json",
       "char_offset": 10242,
       "anchor": "(Zu den Gesellen.)\nFür diesmal war es nur ein Tropfen Fegefeuer.\n\nSIEBEL.\nWas soll das sein? Wart! I"
+    },
+    {
+      "id": "c08-dense-049",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 10363,
+      "source_end": 10536,
+      "source_text": "\nEs scheinet, daß Ihr uns nicht kennt.\n\nFROSCH.\nLaß Er uns das zum zweiten Male bleiben!\n\nALTMAYER.\nIch dächt, wir hießen ihn ganz sachte seitwärts gehn.\n\nSIEBEL.\nWas, Herr?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FROSCH",
+        "ALTMAYER",
+        "SIEBEL"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-019",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-049.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 10363,
+      "anchor": "Es scheinet, daß Ihr uns nicht kennt.\n\nFROSCH.\nLaß Er uns das zum zweiten Male bleiben!\n\nALTMAYER.\nI"
+    },
+    {
+      "id": "c08-dense-050",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 10536,
+      "source_end": 10693,
+      "source_text": " Er will sich unterstehn,\nUnd hier sein Hokuspokus treiben?\n\nMEPHISTOPHELES.\nStill, altes Weinfaß!\n\nSIEBEL.\nBesenstiel!\nDu willst uns gar noch grob begegnen?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "SIEBEL"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-019",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-050.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 10536,
+      "anchor": "Er will sich unterstehn,\nUnd hier sein Hokuspokus treiben?\n\nMEPHISTOPHELES.\nStill, altes Weinfaß!\n\nS"
+    },
+    {
+      "id": "c08-dense-051",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 10693,
+      "source_end": 10859,
+      "source_text": "\n\nBRANDER.\nWart nur, es sollen Schläge regnen!\n\nALTMAYER (zieht einen Pfropf aus dem Tisch, es springt ihm Feuer\nentgegen):\nIch brenne! ich brenne!\n\nSIEBEL.\nZauberei!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "BRANDER",
+        "ALTMAYER ",
+        "SIEBEL"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-019",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-051.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 10693,
+      "anchor": "BRANDER.\nWart nur, es sollen Schläge regnen!\n\nALTMAYER (zieht einen Pfropf aus dem Tisch, es springt"
+    },
+    {
+      "id": "c08-dense-052",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 10859,
+      "source_end": 11060,
+      "source_text": "\nStoßt zu! der Kerl ist vogelfrei!\n(Sie ziehen die Messer und gehn auf Mephistopheles los.)\n\nMEPHISTOPHELES (mit ernsthafter Gebärde).\nFalsch Gebild und Wort\nVerändern Sinn und Ort!\nSeid hier und dort!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES "
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-019",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-052.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 10859,
+      "anchor": "Stoßt zu! der Kerl ist vogelfrei!\n(Sie ziehen die Messer und gehn auf Mephistopheles los.)\n\nMEPHISTO"
+    },
+    {
+      "id": "c08-dense-053",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 3,
+      "source_start": 11060,
+      "source_end": 11167,
+      "source_text": "\n(Sie stehn erstaunt und sehn einander an.)\n\nALTMAYER.\nWo bin ich? Welches schöne Land!\n\nFROSCH.\nWeinberge!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "ALTMAYER",
+        "FROSCH"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-019",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-053.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 11060,
+      "anchor": "(Sie stehn erstaunt und sehn einander an.)\n\nALTMAYER.\nWo bin ich? Welches schöne Land!\n\nFROSCH.\nWein"
+    },
+    {
+      "id": "c08-dense-054",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 3,
+      "source_start": 11167,
+      "source_end": 11285,
+      "source_text": " Seh ich recht?\n\nSIEBEL.\nUnd Trauben gleich zur Hand!\n\nBRANDER.\nHier unter diesem grünen Laube,\nSeht, welch ein Stock!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "SIEBEL",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-019",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-054.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 11167,
+      "anchor": "Seh ich recht?\n\nSIEBEL.\nUnd Trauben gleich zur Hand!\n\nBRANDER.\nHier unter diesem grünen Laube,\nSeht,"
+    },
+    {
+      "id": "c08-dense-055",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 3,
+      "source_start": 11285,
+      "source_end": 11553,
+      "source_text": " Seht, welche Traube!\n(Er faßt Siebeln bei der Nase. Die andern tun es wechselseitig und\nheben\ndie Messer.)\n\nMEPHISTOPHELES (wie oben).\nIrrtum, laß los der Augen Band!\nUnd merkt euch, wie der Teufel spaße!\n(Er verschwindet mit Faust, die Gesellen fahren auseinander.\n\n",
+      "shot": "wide",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SIEBEL",
+        "ALTMAYER",
+        "FROSCH",
+        "BRANDER ",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "chapter08-final",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-055.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 11285,
+      "anchor": "Seht, welche Traube!\n(Er faßt Siebeln bei der Nase. Die andern tun es wechselseitig und\nheben\ndie Me"
+    },
+    {
+      "id": "c08-dense-056",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 11553,
+      "source_end": 11672,
+      "source_text": "SIEBEL.\nWas gibt’s?\n\nALTMAYER.\nWie?\n\nFROSCH.\nWar das deine Nase?\n\nBRANDER (zu Siebel).\nUnd deine hab ich in der Hand!\n\n",
+      "shot": "medium",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SIEBEL",
+        "ALTMAYER",
+        "FROSCH",
+        "BRANDER ",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "chapter08-final",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-056.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 11553,
+      "anchor": "SIEBEL.\nWas gibt’s?\n\nALTMAYER.\nWie?\n\nFROSCH.\nWar das deine Nase?\n\nBRANDER (zu Siebel).\nUnd deine hab"
+    },
+    {
+      "id": "c08-dense-057",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 3,
+      "source_start": 11672,
+      "source_end": 11817,
+      "source_text": "ALTMAYER.\nEs war ein Schlag, der ging durch alle Glieder!\nSchafft einen Stuhl, ich sinke nieder!\n\nFROSCH.\nNein, sagt mir nur, was ist geschehn?\n\n",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SIEBEL",
+        "ALTMAYER",
+        "FROSCH",
+        "BRANDER ",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "chapter08-final",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-057.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 11672,
+      "anchor": "ALTMAYER.\nEs war ein Schlag, der ging durch alle Glieder!\nSchafft einen Stuhl, ich sinke nieder!\n\nFR"
+    },
+    {
+      "id": "c08-dense-058",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 11817,
+      "source_end": 12015,
+      "source_text": "FROSCH.\nWo ist der Kerl? Wenn ich ihn spüre,\nEr soll mir nicht lebendig gehn!\n\nALTMAYER.\nIch hab ihn selbst hinaus zur Kellertüre—\nAuf einem Fasse reiten sehn—\nEs liegt mir bleischwer in den Füßen.\n",
+      "shot": "wide",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SIEBEL",
+        "ALTMAYER",
+        "FROSCH",
+        "BRANDER ",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "chapter08-final",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-058.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 11817,
+      "anchor": "FROSCH.\nWo ist der Kerl? Wenn ich ihn spüre,\nEr soll mir nicht lebendig gehn!\n\nALTMAYER.\nIch hab ihn"
+    },
+    {
+      "id": "c08-dense-059",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 12015,
+      "source_end": 12179,
+      "source_text": "(Sich nach dem Tische wendend.)\nMein! Sollte wohl der Wein noch fließen?\n\nSIEBEL.\nBetrug war alles, Lug und Schein.\n\nFROSCH.\nMir deuchte doch, als tränk ich Wein.\n\n",
+      "shot": "detail",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SIEBEL",
+        "ALTMAYER",
+        "FROSCH",
+        "BRANDER ",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "chapter08-final",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-059.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 12015,
+      "anchor": "(Sich nach dem Tische wendend.)\nMein! Sollte wohl der Wein noch fließen?\n\nSIEBEL.\nBetrug war alles, "
+    },
+    {
+      "id": "c08-dense-060",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 2,
+      "source_start": 12179,
+      "source_end": 12279,
+      "source_text": "BRANDER.\nAber wie war es mit den Trauben?\n\nALTMAYER.\nNun sag mir eins, man soll kein Wunder glauben!",
+      "shot": "medium",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SIEBEL",
+        "ALTMAYER",
+        "FROSCH",
+        "BRANDER ",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "chapter08-final",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
+      "exception": true,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-060.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json",
+      "char_offset": 12179,
+      "anchor": "BRANDER.\nAber wie war es mit den Trauben?\n\nALTMAYER.\nNun sag mir eins, man soll kein Wunder glauben!"
     }
   ]
 }

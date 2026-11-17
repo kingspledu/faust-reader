@@ -81,8 +81,9 @@
       "chapter": 8,
       "title": "Auerbachs Keller in Leipzig",
       "source_sentences": 217,
-      "planned_images": 55,
-      "short_tail_exception": false
+      "planned_images": 60,
+      "short_tail_exception": true,
+      "review_note": "Final oversized residual split manually into scenes55-60; last2 source sentences retained as short-tail exception."
     },
     {
       "chapter": 9,
@@ -12684,17 +12685,33 @@
       ],
       "reference_ids": [
         "character-043",
+        "character-044",
         "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-049.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-050",
@@ -12712,17 +12729,34 @@
         "SIEBEL"
       ],
       "reference_ids": [
-        "character-008",
+        "character-043",
+        "character-044",
         "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-050.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-051",
@@ -12741,18 +12775,34 @@
         "SIEBEL"
       ],
       "reference_ids": [
+        "character-043",
         "character-044",
         "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-051.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-052",
@@ -12769,16 +12819,34 @@
         "MEPHISTOPHELES "
       ],
       "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
         "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-052.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-053",
@@ -12797,16 +12865,33 @@
       ],
       "reference_ids": [
         "character-043",
+        "character-044",
+        "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-053.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-054",
@@ -12824,17 +12909,34 @@
         "BRANDER"
       ],
       "reference_ids": [
+        "character-043",
         "character-044",
         "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-054.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-055",
@@ -12856,20 +12958,34 @@
         "BRANDER"
       ],
       "reference_ids": [
-        "character-008",
         "character-043",
         "character-044",
         "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "chapter08-final",
-      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-055.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-056",
@@ -12891,20 +13007,34 @@
         "BRANDER"
       ],
       "reference_ids": [
-        "character-008",
         "character-043",
         "character-044",
         "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "chapter08-final",
-      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-056.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-057",
@@ -12926,20 +13056,34 @@
         "BRANDER"
       ],
       "reference_ids": [
-        "character-008",
         "character-043",
         "character-044",
         "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "chapter08-final",
-      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-057.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-058",
@@ -12961,20 +13105,34 @@
         "BRANDER"
       ],
       "reference_ids": [
-        "character-008",
         "character-043",
         "character-044",
         "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "chapter08-final",
-      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-058.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-059",
@@ -12996,20 +13154,34 @@
         "BRANDER"
       ],
       "reference_ids": [
-        "character-008",
         "character-043",
         "character-044",
         "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "chapter08-final",
-      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-059.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-060",
@@ -13031,20 +13203,34 @@
         "BRANDER"
       ],
       "reference_ids": [
-        "character-008",
         "character-043",
         "character-044",
         "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "chapter08-final",
-      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": true,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-060.webp",
+      "source_grid": "source_images/chapter08-dense-004.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c09-dense-001",

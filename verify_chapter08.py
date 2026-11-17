@@ -19,6 +19,20 @@ for sec,b in zip(sections,a['scenes']):
  assert sec.select_one('.inner-voice .voice-label').get_text()==f'[독백: {b["speaker"]}]'
  assert (r/sec.img['src']).is_file()
 assert len({x.img['src'] for x in sections})==n
+plan=json.loads((r/'dense-scene-plan.json').read_text(encoding='utf-8'));planned=[e for e in plan['scenes'] if e['chapter']==8]
+assert len(planned)==60 and ''.join(e['source_text'] for e in planned)==de
+assert planned[0]['source_start']==0 and planned[-1]['source_end']==len(de)
+for left,right in zip(planned,planned[1:]):assert left['source_end']==right['source_start']
+for sec,e in zip(sections,planned):
+ for fold in sec.select('details.source-fold'):
+  u=next(u for u in t['segments'] if u['id']==fold['data-translation'])
+  assert e['source_start']<=u['source_start']<e['source_end']
 assert not any(p.get_text().startswith('[나레이션:') for p in s.select('article p'))
+if n==60:
+ units=json.loads((r/'tts-canvas/FAUST_C08_V04_SCRIPT.json').read_text(encoding='utf-8'))['scenes'][0]['segments'];assert len(units)==120
+ for i,b in enumerate(a['scenes']):
+  assert units[i*2]['text']==b['narration'] and units[i*2+1]['text']==b['monologue']
+  assert units[i*2]['performance']['audio_effect']=='dry' and units[i*2+1]['performance']['audio_effect']=='echo-v4'
+  assert '속삭임으로 바꾸거나' in units[i*2+1]['performance']['mic_direction']
 report=dict(chapter=8,status='partial' if n<60 else 'complete',illustrations=n,planned=60,narration=n,monologues=n,closed_bilingual_units=11,source_chars=len(de),independent_gutenberg_match=True,source_sha256=hashlib.sha256(de.encode()).hexdigest(),tts_generated=False)
 (r/'chapter08-production-audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(report))
