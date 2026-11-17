@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-14 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1-14 complete; chapter15 first 16/24 scenes illustrated and adapted; later work pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -19043,6 +19043,721 @@
       "adaptation": "adaptations/chapter-14.json",
       "char_offset": 1890,
       "anchor": "FAUST.\nHör! merk dir dies—\nIch bitte dich, und schone meine Lunge—\nWer recht behalten will und hat n"
+    },
+    {
+      "id": "c15-dense-001",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 398,
+      "source_text": "Margarete an Faustens Arm, Marthe mit Mephistopheles auf und ab\nspazierend.\n\nMARGARETE.\nIch fühl es wohl, daß mich der Herr nur schont,\nHerab sich läßt, mich zu beschämen.\nEin Reisender ist so gewohnt,\nAus Gütigkeit fürliebzunehmen;\nIch weiß zu gut, daß solch erfahrnen Mann\nMein arm Gespräch nicht unterhalten kann.\n\nFAUST.\nEin Blick von dir, ein Wort mehr unterhält\nAls alle Weisheit dieser Welt.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-027",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c15-dense-001.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 0,
+      "anchor": "Margarete an Faustens Arm, Marthe mit Mephistopheles auf und ab\nspazierend.\n\nMARGARETE.\nIch fühl es "
+    },
+    {
+      "id": "c15-dense-002",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 398,
+      "source_end": 566,
+      "source_text": "\n(Er küßt ihre Hand.)\n\nMARGARETE.\nInkommodiert Euch nicht! Wie könnt Ihr sie nur küssen?\nSie ist so garstig, ist so rauh!\nWas hab ich nicht schon alles schaffen müssen!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-027",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c15-dense-002.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 398,
+      "anchor": "(Er küßt ihre Hand.)\n\nMARGARETE.\nInkommodiert Euch nicht! Wie könnt Ihr sie nur küssen?\nSie ist so g"
+    },
+    {
+      "id": "c15-dense-003",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 566,
+      "source_end": 812,
+      "source_text": "\nDie Mutter ist gar zu genau.\n(Gehn vorüber.)\n\nMARTHE.\nUnd Ihr, mein Herr, Ihr reist so immer fort?\n\nMEPHISTOPHELES.\nAch, daß Gewerb und Pflicht uns dazu treiben!\nMit wieviel Schmerz verläßt man manchen Ort\nUnd darf doch nun einmal nicht bleiben!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MARTHE",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-027",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c15-dense-003.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 566,
+      "anchor": "Die Mutter ist gar zu genau.\n(Gehn vorüber.)\n\nMARTHE.\nUnd Ihr, mein Herr, Ihr reist so immer fort?\n\n"
+    },
+    {
+      "id": "c15-dense-004",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 812,
+      "source_end": 1182,
+      "source_text": "\n\nMARTHE.\nIn raschen Jahren geht’s wohl an\nSo um und um frei durch die Welt zu streifen;\nDoch kömmt die böse Zeit heran,\nUnd sich als Hagestolz allein zum Grab zu schleifen,\nDas hat noch keinem wohlgetan.\n\nMEPHISTOPHELES.\nMit Grausen seh ich das von weiten.\n\nMARTHE.\nDrum, werter Herr, beratet Euch in Zeiten.\n(Gehn vorüber.)\n\nMARGARETE.\nJa, aus den Augen, aus dem Sinn!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MARTHE",
+        "MEPHISTOPHELES",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-027",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c15-dense-004.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 812,
+      "anchor": "MARTHE.\nIn raschen Jahren geht’s wohl an\nSo um und um frei durch die Welt zu streifen;\nDoch kömmt di"
+    },
+    {
+      "id": "c15-dense-005",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 1182,
+      "source_end": 1397,
+      "source_text": "\nDie Höflichkeit ist Euch geläufig;\nAllein Ihr habt der Freunde häufig,\nSie sind verständiger, als ich bin.\n\nFAUST.\nO Beste! glaube, was man so verständig nennt,\nIst oft mehr Eitelkeit und Kurzsinn.\n\nMARGARETE.\nWie?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-027",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c15-dense-005.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 1182,
+      "anchor": "Die Höflichkeit ist Euch geläufig;\nAllein Ihr habt der Freunde häufig,\nSie sind verständiger, als ic"
+    },
+    {
+      "id": "c15-dense-006",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 1397,
+      "source_end": 1786,
+      "source_text": "\n\nFAUST.\nAch, daß die Einfalt, daß die Unschuld nie\nSich selbst und ihren heil’gen Wert erkennt!\nDaß Demut, Niedrigkeit, die höchsten Gaben\nDer liebevoll austeilenden Natur—\n\nMARGARETE.\nDenkt Ihr an mich ein Augenblickchen nur,\nIch werde Zeit genug an Euch zu denken haben.\n\nFAUST.\nIhr seid wohl viel allein?\n\nMARGARETE.\nJa, unsre Wirtschaft ist nur klein,\nUnd doch will sie versehen sein.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-027",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c15-dense-006.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 1397,
+      "anchor": "FAUST.\nAch, daß die Einfalt, daß die Unschuld nie\nSich selbst und ihren heil’gen Wert erkennt!\nDaß D"
+    },
+    {
+      "id": "c15-dense-007",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 1786,
+      "source_end": 2148,
+      "source_text": "\nWir haben keine Magd; muß kochen, fegen, stricken\nUnd nähn und laufen früh und spat;\nUnd meine Mutter ist in allen Stücken\nSo akkurat!\nNicht daß sie just so sehr sich einzuschränken hat;\nWir könnten uns weit eh’r als andre regen.\nMein Vater hinterließ ein hübsch Vermögen,\nEin Häuschen und ein Gärtchen vor der Stadt.\nDoch hab ich jetzt so ziemlich stille Tage.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-028",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c15-dense-007.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 1786,
+      "anchor": "Wir haben keine Magd; muß kochen, fegen, stricken\nUnd nähn und laufen früh und spat;\nUnd meine Mutte"
+    },
+    {
+      "id": "c15-dense-008",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 2148,
+      "source_end": 2411,
+      "source_text": "\nMein Bruder ist Soldat,\nMein Schwesterchen ist tot.\nIch hatte mit dem Kind wohl meine liebe Not;\nDoch übernähm ich gern noch einmal alle Plage,\nSo lieb war mir das Kind.\n\nFAUST.\nEin Engel, wenn dir’s glich.\n\nMARGARETE.\nIch zog es auf, und herzlich liebt es mich.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-028",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c15-dense-008.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 2148,
+      "anchor": "Mein Bruder ist Soldat,\nMein Schwesterchen ist tot.\nIch hatte mit dem Kind wohl meine liebe Not;\nDoc"
+    },
+    {
+      "id": "c15-dense-009",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 2411,
+      "source_end": 2825,
+      "source_text": "\nEs war nach meines Vaters Tod geboren.\nDie Mutter gaben wir verloren,\nSo elend wie sie damals lag,\nUnd sie erholte sich sehr langsam, nach und nach.\nDa konnte sie nun nicht dran denken,\nDas arme Würmchen selbst zu tränken,\nUnd so erzog ich’s ganz allein,\nMit Milch und Wasser, so ward’s mein\nAuf meinem Arm, in meinem Schoß\nWar’s freundlich, zappelte, ward groß.\n\nFAUST.\nDu hast gewiß das reinste Glück empfunden.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-028",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c15-dense-009.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 2411,
+      "anchor": "Es war nach meines Vaters Tod geboren.\nDie Mutter gaben wir verloren,\nSo elend wie sie damals lag,\nU"
+    },
+    {
+      "id": "c15-dense-010",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 2825,
+      "source_end": 3392,
+      "source_text": "\n\nMARGARETE.\nDoch auch gewiß gar manche schwere Stunden.\nDes Kleinen Wiege stand zu Nacht\nAn meinem Bett; es durfte kaum sich regen,\nWar ich erwacht;\nBald mußt ich’s tränken, bald es zu mir legen\nBald, wenn’s nicht schwieg, vom Bett aufstehn\nUnd tänzelnd in der Kammer auf und nieder gehn,\nUnd früh am Tage schon am Waschtrog stehn;\nDann auf dem Markt und an dem Herde sorgen,\nUnd immer fort wie heut so morgen.\nDa geht’s, mein Herr, nicht immer mutig zu;\nDoch schmeckt dafür das Essen, schmeckt die Ruh.\n(Gehn vorüber.)\n\nMARTHE.\nDie armen Weiber sind doch übel dran.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "MARTHE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-028",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c15-dense-010.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 2825,
+      "anchor": "MARGARETE.\nDoch auch gewiß gar manche schwere Stunden.\nDes Kleinen Wiege stand zu Nacht\nAn meinem Be"
+    },
+    {
+      "id": "c15-dense-011",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 3392,
+      "source_end": 3622,
+      "source_text": "\nEin Hagestolz ist schwerlich zu bekehren.\n\nMEPHISTOPHELES.\nEs käme nur auf Euresgleichen an,\nMich eines Bessern zu belehren.\n\nMARTHE.\nSagt grad, mein Herr, habt Ihr noch nichts gefunden?\nHat sich das Herz nicht irgendwo gebunden?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "MARTHE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-028",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c15-dense-011.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 3392,
+      "anchor": "Ein Hagestolz ist schwerlich zu bekehren.\n\nMEPHISTOPHELES.\nEs käme nur auf Euresgleichen an,\nMich ei"
+    },
+    {
+      "id": "c15-dense-012",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 3622,
+      "source_end": 3896,
+      "source_text": "\n\nMEPHISTOPHELES.\nDas Sprichwort sagt: Ein eigner Herd,\nEin braves Weib sind Gold und Perlen wert.\n\nMARTHE.\nIch meine: ob Ihr niemals Lust bekommen?\n\nMEPHISTOPHELES.\nMan hat mich überall recht höflich aufgenommen.\n\nMARTHE.\nIch wollte sagen: ward’s nie Ernst in Eurem Herzen?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "MARTHE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-028",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c15-dense-012.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 3622,
+      "anchor": "MEPHISTOPHELES.\nDas Sprichwort sagt: Ein eigner Herd,\nEin braves Weib sind Gold und Perlen wert.\n\nMA"
+    },
+    {
+      "id": "c15-dense-013",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 3896,
+      "source_end": 4092,
+      "source_text": "\n\nMEPHISTOPHELES.\nMit Frauen soll man sich nie unterstehn zu scherzen.\n\nMARTHE.\nAch, Ihr versteht mich nicht!\n\nMEPHISTOPHELES.\nDas tut mir herzlich leid!\nDoch ich versteh’—daß Ihr sehr gütig seid.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "MARTHE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-028",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c15-dense-013.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 3896,
+      "anchor": "MEPHISTOPHELES.\nMit Frauen soll man sich nie unterstehn zu scherzen.\n\nMARTHE.\nAch, Ihr versteht mich"
+    },
+    {
+      "id": "c15-dense-014",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 4092,
+      "source_end": 4378,
+      "source_text": "\n(Gehn vorüber.)\n\nFAUST.\nDu kanntest mich, o kleiner Engel, wieder,\nGleich als ich in den Garten kam?\n\nMARGARETE.\nSaht Ihr es nicht, ich schlug die Augen nieder.\n\nFAUST.\nUnd du verzeihst die Freiheit, die ich nahm?\nWas sich die Frechheit unterfangen,\nAls du jüngst aus dem Dom gegangen?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-028",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c15-dense-014.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 4092,
+      "anchor": "(Gehn vorüber.)\n\nFAUST.\nDu kanntest mich, o kleiner Engel, wieder,\nGleich als ich in den Garten kam?"
+    },
+    {
+      "id": "c15-dense-015",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 4378,
+      "source_end": 4645,
+      "source_text": "\n\nMARGARETE.\nIch war bestürzt, mir war das nie geschehn;\nEs konnte niemand von mir Übels sagen.\nAch, dacht ich, hat er in deinem Betragen\nWas Freches, Unanständiges gesehn?\nEs schien ihn gleich nur anzuwandeln,\nMit dieser Dirne gradehin zu handeln.\nGesteh ich’s doch!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-028",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c15-dense-015.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 4378,
+      "anchor": "MARGARETE.\nIch war bestürzt, mir war das nie geschehn;\nEs konnte niemand von mir Übels sagen.\nAch, d"
+    },
+    {
+      "id": "c15-dense-016",
+      "chapter": 15,
+      "chapter_title": "Garten",
+      "sentence_count": 4,
+      "source_start": 4645,
+      "source_end": 4952,
+      "source_text": " Ich wußte nicht, was sich\nZu Eurem Vorteil hier zu regen gleich begonnte;\nAllein gewiß, ich war recht bös auf mich,\nDaß ich auf Euch nicht böser werden konnte.\n\nFAUST.\nSüß Liebchen!\n\nMARGARETE.\nLaßt einmal!\n(Sie pflückt eine Sternblume und zupft die Blätter ab, eins nach dem\nandern.)\n\nFAUST.\nWas soll das?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-011"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-028",
+      "review_note": "두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c15-dense-016.webp",
+      "source_grid": "source_images/chapter15-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-15.json",
+      "char_offset": 4645,
+      "anchor": "Ich wußte nicht, was sich\nZu Eurem Vorteil hier zu regen gleich begonnte;\nAllein gewiß, ich war rech"
     }
   ]
 }
