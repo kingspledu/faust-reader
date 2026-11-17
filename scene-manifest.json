@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-15 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1-16 illustrated and adapted; later chapters pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -20115,6 +20115,275 @@
       "adaptation": "adaptations/chapter-15.json",
       "char_offset": 6294,
       "anchor": "MARTHE.\nEr scheint ihr gewogen.\n\nMEPHISTOPHELES.\nUnd sie ihm auch. Das ist der Lauf der Welt."
+    },
+    {
+      "id": "c16-dense-001",
+      "chapter": 16,
+      "chapter_title": "Ein Gartenhäuschen",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 202,
+      "source_text": "Margarete springt herein, steckt sich hinter die Tür, hält die\nFingerspitze\nan die Lippen und guckt durch die Ritze.\n\nMARGARETE.\nEr kommt!\n\nFAUST (kommt).\nAch, Schelm, so neckst du mich!\nTreff ich dich!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "FAUST "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c16-dense-001.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        313,
+        309
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json",
+      "char_offset": 0,
+      "anchor": "Margarete springt herein, steckt sich hinter die Tür, hält die\nFingerspitze\nan die Lippen und guckt "
+    },
+    {
+      "id": "c16-dense-002",
+      "chapter": 16,
+      "chapter_title": "Ein Gartenhäuschen",
+      "sentence_count": 4,
+      "source_start": 202,
+      "source_end": 392,
+      "source_text": "\n(Er küßt sie.)\n\nMARGARETE (ihn fassend und den Kuß zurückgebend).\nBester Mann! von Herzen lieb ich dich!\n(Mephistopheles klopft an.)\n\nFAUST (stampfend).\nWer da?\n\nMEPHISTOPHELES.\nGut Freund!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MARGARETE ",
+        "FAUST ",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c16-dense-002.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        319,
+        3,
+        629,
+        309
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json",
+      "char_offset": 202,
+      "anchor": "(Er küßt sie.)\n\nMARGARETE (ihn fassend und den Kuß zurückgebend).\nBester Mann! von Herzen lieb ich d"
+    },
+    {
+      "id": "c16-dense-003",
+      "chapter": 16,
+      "chapter_title": "Ein Gartenhäuschen",
+      "sentence_count": 4,
+      "source_start": 392,
+      "source_end": 540,
+      "source_text": "\n\nFAUST.\nEin Tier!\n\nMEPHISTOPHELES.\nEs ist wohl Zeit zu scheiden.\n\nMARTHE (kommt).\nJa, es ist spät, mein Herr.\n\nFAUST.\nDarf ich Euch nicht geleiten?",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES",
+        "MARTHE "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c16-dense-003.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        635,
+        3,
+        944,
+        309
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json",
+      "char_offset": 392,
+      "anchor": "FAUST.\nEin Tier!\n\nMEPHISTOPHELES.\nEs ist wohl Zeit zu scheiden.\n\nMARTHE (kommt).\nJa, es ist spät, me"
+    },
+    {
+      "id": "c16-dense-004",
+      "chapter": 16,
+      "chapter_title": "Ein Gartenhäuschen",
+      "sentence_count": 3,
+      "source_start": 540,
+      "source_end": 623,
+      "source_text": "\n\nMARGARETE.\nDie Mutter würde mich—Lebt wohl!\n\nFAUST.\nMuß ich denn gehn? Lebt wohl!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c16-dense-004.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        950,
+        3,
+        1260,
+        309
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json",
+      "char_offset": 540,
+      "anchor": "MARGARETE.\nDie Mutter würde mich—Lebt wohl!\n\nFAUST.\nMuß ich denn gehn? Lebt wohl!"
+    },
+    {
+      "id": "c16-dense-005",
+      "chapter": 16,
+      "chapter_title": "Ein Gartenhäuschen",
+      "sentence_count": 3,
+      "source_start": 623,
+      "source_end": 731,
+      "source_text": "\n\nMARTHE.\nAde!\n\nMARGARETE.\nAuf baldig Wiedersehn!\n(Faust und Mephistopheles ab.)\n\nMARGARETE.\nDu lieber Gott!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MARTHE",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c16-dense-005.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        3,
+        315,
+        313,
+        620
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json",
+      "char_offset": 623,
+      "anchor": "MARTHE.\nAde!\n\nMARGARETE.\nAuf baldig Wiedersehn!\n(Faust und Mephistopheles ab.)\n\nMARGARETE.\nDu lieber"
+    },
+    {
+      "id": "c16-dense-006",
+      "chapter": 16,
+      "chapter_title": "Ein Gartenhäuschen",
+      "sentence_count": 3,
+      "source_start": 731,
+      "source_end": 916,
+      "source_text": " was so ein Mann\nNicht alles, alles denken kann!\nBeschämt nur steh ich vor ihm da\nUnd sag zu allen Sachen ja.\nBin doch ein arm unwissend Kind,\nBegreife nicht, was er an mir findt.\n(Ab.)",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
+        "location-012"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-029",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c16-dense-006.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        319,
+        315,
+        629,
+        620
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json",
+      "char_offset": 731,
+      "anchor": "was so ein Mann\nNicht alles, alles denken kann!\nBeschämt nur steh ich vor ihm da\nUnd sag zu allen Sa"
     }
   ]
 }

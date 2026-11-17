@@ -9,7 +9,7 @@ voice_codes.update({'파우스트':'FAU','바그너':'WAG'})
 crowd_voices={'직공 청년':('Puck','ART'),'세 번째 직공 청년':('Puck','ART3'),'다섯 번째 직공 청년':('Orus','ART5'),'첫 번째 하녀':('Kore','MAID1'),'다른 하녀':('Sulafat','MAID2'),'시민의 딸':('Kore','DAU'),'두 번째 학생':('Puck','STU2'),'첫 번째 학생':('Fenrir','STU1'),'첫 번째 시민':('Orus','CIT1'),'거지':('Charon','BEG'),'두 번째 시민':('Fenrir','CIT2'),'세 번째 시민':('Orus','CIT3'),'노파':('Sulafat','OLDW'),'아가테':('Kore','AGA'),'군인':('Fenrir','SOL'),'목동':('Puck','SHEP'),'춤추는 사람':('Puck','DAN'),'춤추는 아가씨':('Kore','DANW'),'늙은 농부':('Charon','FARM')}
 voice_names.update({k:v[0] for k,v in crowd_voices.items()});voice_codes.update({k:v[1] for k,v in crowd_voices.items()})
 voice_names.update({'학생':'Puck'});voice_codes.update({'학생':'STU7'})
-chapters_to_build=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+chapters_to_build=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
 for ch in chapters_to_build:
  if ch==8:
   voice_names.update({'프로슈':'Puck','브란더':'Fenrir','지벨':'Orus','알트마이어':'Charon'})
@@ -77,9 +77,14 @@ for ch in chapters_to_build:
     seg['performance']['emotion']='조심스러운 설렘과 부끄러움' if no<=2 else '상대 마음을 떠보는 호기심과 능청스러운 회피' if no<=4 else '자신 없는 마음과 다정한 관심' if no<=7 else '어린 동생을 그리는 애틋함과 돌봄의 고단함' if no<=10 else '직접 묻는 답답함과 예의를 가장한 회피' if no<=13 else '첫 만남을 돌아보는 미안함과 수줍은 고백' if no<=16 else '꽃잎 결과를 기다리는 긴장과 기쁨' if no<=19 else '벅찬 고백과 떨림' if no<=21 else '저무는 정원의 아쉬움과 소문을 의식하는 조심스러움'
     seg['performance']['acting_notes']+=' 두 쌍의 대화가 번갈아 나온다. 나레이션 속 직접 대사는 해당 인물의 감정만 가볍게 살리고 화자를 혼동시키는 과도한 흉내는 피한다. 그레트헨은 자연스러운 해요체, 파우스트는 다정한 반말, 마르테는 궁금한 것을 직접 묻는 말투, 메피스토펠레스는 능청스러운 해요체다. 여동생 이야기는 이미 지난 돌봄과 사별을 떠올리는 말이며 아기 목소리나 새 화자를 넣지 않는다. 꽃잎 점은 가볍게 시작해 마지막에 기쁨을 드러낸다. 독백은 낮고 또렷한 보통 말소리, 과한 속삭임이나 숨소리 금지. 영원하다는 말은 벅차지만 고함은 피한다.'
     seg['performance']['nonverbal']='필요할 때만 짧은 들숨이나 작은 미소. 동생 이야기는 잠깐 머뭇거리되 흐느낌·통곡은 넣지 않는다. 꽃잎 결과에서는 작게 웃을 수 있으나 본문 단어를 덮지 않는다.'
+   if ch==16:
+    no=int(sid[-3:])
+    seg['performance']['emotion']='들킬 듯한 장난기와 반가움' if no==1 else '다정한 고백에서 방해받은 짜증으로' if no==2 else '아쉬움과 계속 함께 있고 싶은 마음' if no==3 else '어머니를 의식하는 조심스러움과 작별의 아쉬움' if no<=5 else '기쁨 뒤에 남은 수줍음과 자신 없는 궁금함'
+    seg['performance']['acting_notes']+=' 짧은 정원 집 장면이다. 첫 장면은 가벼운 장난과 미소, 입맞춤 뒤 고백은 또렷하고 소박하게 표현한다. 입맞춤 소리나 과한 숨소리는 만들지 않는다. 노크 대목도 환경 효과음 대신 문장으로 읽는다. 파우스트의 누구야는 방해받은 짜증, 메피스토펠레스의 친구죠는 능청스러운 해요체다. 그레트헨의 어머니 언급은 말끝을 멈추며 망설인다. 실제 어머니의 목소리나 꾸중을 추가하지 않는다. 마지막은 자신이 왜 사랑받는지 궁금한 조용한 생각이며 절망이나 울음으로 몰지 않는다. 모든 독백은 나직하되 또렷한 보통 발성으로, 과도한 속삭임 금지.'
+    seg['performance']['nonverbal']='장난에서는 작은 미소, 작별에서는 짧은 망설임과 자연스러운 날숨만 필요할 때 사용한다. 키스 소리·신음·헐떡임·기침·울음은 넣지 않는다.'
    units.append(seg);allindex.append({'chapter':ch,'order':idx,'scene_id':sid,'segment_id':seg['id'],'speaker':speaker,'filename':filename,'voice':seg['voice'],'text_sha256':hashlib.sha256(text.encode()).hexdigest(),'text':text})
  assert units, f'Chapter {ch}: completed adaptation prose is required before TTS generation'
- episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기','술집에서 벌어진 눈속임','거울 속 모습과 젊음의 약','거리에서 마주친 소녀','방에 남겨진 보석 상자','사라진 보석과 새로운 부탁','이웃집에서 꾸민 약속','확인하지 않은 증언','꽃잎에 묻는 마음'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
+ episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기','술집에서 벌어진 눈속임','거울 속 모습과 젊음의 약','거리에서 마주친 소녀','방에 남겨진 보석 상자','사라진 보석과 새로운 부탁','이웃집에서 꾸민 약속','확인하지 않은 증언','꽃잎에 묻는 마음','문 뒤의 웃음과 짧은 작별'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
  s=re.sub(r'const originalEpisode = .*?;\s*const originalStory =',lambda m:'const originalEpisode = '+json.dumps(episode,ensure_ascii=False)+';\n        const originalStory =',template,flags=re.S)
  a=s.index('        function parseTurns(');b=s.index("        processBtn.addEventListener",a)
  s=s[:a]+'''        function parseTurns(text) {

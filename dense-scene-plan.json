@@ -19644,16 +19644,31 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "character-053",
+        "character-054",
         "location-012"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-029",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c16-dense-001.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        313,
+        309
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json"
     },
     {
       "id": "c16-dense-002",
@@ -19672,18 +19687,32 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
         "character-053",
+        "character-054",
         "location-012"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-029",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c16-dense-002.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        319,
+        3,
+        629,
+        309
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json"
     },
     {
       "id": "c16-dense-003",
@@ -19702,18 +19731,32 @@
         "MARTHE "
       ],
       "reference_ids": [
-        "character-008",
         "character-010",
+        "character-008",
+        "character-053",
         "character-054",
         "location-012"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-029",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c16-dense-003.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        635,
+        3,
+        944,
+        309
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json"
     },
     {
       "id": "c16-dense-004",
@@ -19732,16 +19775,31 @@
       ],
       "reference_ids": [
         "character-010",
+        "character-008",
         "character-053",
+        "character-054",
         "location-012"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-029",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c16-dense-004.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        950,
+        3,
+        1260,
+        309
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json"
     },
     {
       "id": "c16-dense-005",
@@ -19759,17 +19817,32 @@
         "MARGARETE"
       ],
       "reference_ids": [
+        "character-010",
+        "character-008",
         "character-053",
         "character-054",
         "location-012"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-029",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c16-dense-005.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        3,
+        315,
+        313,
+        620
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json"
     },
     {
       "id": "c16-dense-006",
@@ -19784,15 +19857,32 @@
       "composition": "낮은 시점에서 인물·건축의 긴장감",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "character-054",
         "location-012"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-029",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c16-dense-006.webp",
+      "source_grid": "source_images/chapter16-dense-001.png",
+      "crop_box": [
+        319,
+        315,
+        629,
+        620
+      ],
+      "native_grid_size": [
+        1263,
+        1246
+      ],
+      "adaptation": "adaptations/chapter-16.json"
     },
     {
       "id": "c17-dense-001",
