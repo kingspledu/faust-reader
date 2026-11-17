@@ -19,6 +19,11 @@ md+=['','검증: `python verify_dialogue_cast.py`, `node test_tts_effects.cjs`, 
 - 원문·번역·그림 보존, 배역·페르소나·효과·색인 대응 및 DSP·일괄 저장 모의검사 통과. 실제 음성 생성·다운로드·청취 미실행.
 - V04라도 발화순서·배역코드가 바뀌었으므로 이전 다운로드 음성과 새 색인을 혼용하지 않음.
 ''',encoding='utf-8')
+completed=rows[-1]['chapter']
+for name in ['tts-canvas/README.md','PRODUCTION_PROGRESS.md']:
+ p=r/name
+ s=p.read_text(encoding='utf-8').replace('1~17장',f'1~{completed}장').replace('18~28장은 원문 페이지 유지, 다음 제작은18장.',f'{completed+1}~28장은 원문 페이지를 제공한다.' if completed<28 else '제1부 전편 제작 완료.')
+ p.write_text(s,encoding='utf-8')
 for name in ['index.html','art-bible/index.html']:
  p=r/name;s=BeautifulSoup(p.read_text(encoding='utf-8'),'html.parser');target='voice-cast.html' if name=='index.html' else '../voice-cast.html'
  if not s.find('a',href=target):

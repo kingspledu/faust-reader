@@ -1,0 +1,148 @@
+{
+  "chapter": 19,
+  "status": "complete",
+  "source_total_chars": 5112,
+  "covered_end": 5112,
+  "segments": [
+    {
+      "id": "C19-T001",
+      "source_start": 0,
+      "source_end": 76,
+      "source": "Margarete. Faust.\n\nMARGARETE.\nVersprich mir, Heinrich!\n\nFAUST.\nWas ich kann!",
+      "ko": "마르가레테와 파우스트.\n\n마르가레테: 약속해 줘, 하인리히!\n파우스트: 내가 할 수 있는 거라면!"
+    },
+    {
+      "id": "C19-T002",
+      "source_start": 76,
+      "source_end": 356,
+      "source": "\n\nMARGARETE.\nNun sag, wie hast du’s mit der Religion?\nDu bist ein herzlich guter Mann,\nAllein ich glaub, du hältst nicht viel davon.\n\nFAUST.\nLaß das, mein Kind! Du fühlst, ich bin dir gut;\nFür meine Lieben ließ’ ich Leib und Blut,\nWill niemand sein Gefühl und seine Kirche rauben.",
+      "ko": "마르가레테: 자, 종교에 대해서는 어떻게 생각해요? 마음이 참 좋은 분이지만 종교는 별로 중요하게 여기지 않는 것 같아요.\n파우스트: 그 얘기는 그만하자! 내가 너를 아낀다는 건 느끼잖아. 사랑하는 사람들을 위해선 몸과 피도 바칠 거고, 누구의 믿는 마음이나 교회도 빼앗고 싶지 않아."
+    },
+    {
+      "id": "C19-T003",
+      "source_start": 356,
+      "source_end": 477,
+      "source": "\n\nMARGARETE.\nDas ist nicht recht, man muß dran glauben.\n\nFAUST.\nMuß man?\n\nMARGARETE.\nAch! wenn ich etwas auf dich konnte!",
+      "ko": "마르가레테: 그건 옳지 않아요. 믿어야 해요.\n파우스트: 꼭 그래야 해?\n마르가레테: 아, 내가 조금이라도 당신에게 영향을 줄 수 있다면!"
+    },
+    {
+      "id": "C19-T004",
+      "source_start": 477,
+      "source_end": 630,
+      "source": "\nDu ehrst auch nicht die heil’gen Sakramente.\n\nFAUST.\nIch ehre sie.\n\nMARGARETE.\nDoch ohne Verlangen.\nZur Messe, zur Beichte bist du lange nicht gegangen.",
+      "ko": "마르가레테: 거룩한 성사도 존중하지 않잖아요.\n파우스트: 존중해.\n마르가레테: 찾아갈 마음은 없잖아요. 미사에도, 고해에도 오래 가지 않았어요."
+    },
+    {
+      "id": "C19-T005",
+      "source_start": 630,
+      "source_end": 835,
+      "source": "\nGlaubst du an Gott?\n\nFAUST.\nMein Liebchen, wer darf sagen:\nIch glaub an Gott?\nMagst Priester oder Weise fragen,\nUnd ihre Antwort scheint nur Spott\nÜber den Frager zu sein.\n\nMARGARETE.\nSo glaubst du nicht?",
+      "ko": "마르가레테: 하느님을 믿어요?\n파우스트: 사랑하는 사람아, 누가 ‘나는 하느님을 믿는다’고 말할 수 있을까? 성직자나 현자에게 물어봐. 그 대답은 질문한 이를 비웃는 것처럼 들릴 거야.\n마르가레테: 그럼 믿지 않는 거예요?"
+    },
+    {
+      "id": "C19-T006",
+      "source_start": 835,
+      "source_end": 940,
+      "source": "\n\nFAUST.\nMißhör mich nicht, du holdes Angesicht!\nWer darf ihn nennen?\nUnd wer bekennen.\n“Ich glaub ihn!”?",
+      "ko": "파우스트: 내 말을 잘못 듣지 마, 사랑스러운 사람아! 누가 그분에게 이름을 붙일 수 있을까? 누가 ‘나는 그분을 믿는다!’고 고백할 수 있을까?"
+    },
+    {
+      "id": "C19-T007",
+      "source_start": 940,
+      "source_end": 1171,
+      "source": "\nWer empfinden,\nUnd sich unterwinden\nZu sagen: “Ich glaub ihn nicht!”?\nDer Allumfasser,\nDer Allerhalter,\nFaßt und erhält er nicht\nDich, mich, sich selbst?\nWölbt sich der Himmel nicht da droben?\nLiegt die Erde nicht hier unten fest?",
+      "ko": "그분을 느끼면서 감히 ‘나는 그분을 믿지 않는다!’고 말할 사람이 있을까? 모든 것을 품고 지탱하는 분은 너와 나와 자신까지 품고 지탱하지 않는가? 저 위에 하늘이 펼쳐지고 이 아래 땅은 굳게 놓여 있지 않은가?"
+    },
+    {
+      "id": "C19-T008",
+      "source_start": 1171,
+      "source_end": 1506,
+      "source": "\nUnd steigen freundlich blickend\nEwige Sterne nicht herauf?\nSchau ich nicht Aug in Auge dir,\nUnd drängt nicht alles\nNach Haupt und Herzen dir,\nUnd webt in ewigem Geheimnis\nUnsichtbar sichtbar neben dir?\nErfüll davon dein Herz, so groß es ist,\nUnd wenn du ganz in dem Gefühle selig bist,\nNenn es dann, wie du willst,\nNenn’s Glück! Herz!",
+      "ko": "영원한 별들이 다정한 눈빛으로 떠오르지 않는가? 내가 네 눈을 마주 보지 않는가? 모든 것이 네 머리와 가슴으로 밀려오고, 영원한 비밀 속에서 보이지 않으면서도 보이듯 네 곁에서 얽혀 있지 않은가? 네 마음이 담을 수 있는 만큼 그것으로 가득 채워 봐. 그 느낌 속에서 더없이 행복해지면 네가 원하는 이름으로 불러. 행복, 마음,"
+    },
+    {
+      "id": "C19-T009",
+      "source_start": 1506,
+      "source_end": 1733,
+      "source": " Liebe! Gott\nIch habe keinen Namen\nDafür! Gefühl ist alles;\nName ist Schall und Rauch,\nUmnebelnd Himmelsglut.\n\nMARGARETE.\nDas ist alles recht schön und gut;\nUngefähr sagt das der Pfarrer auch,\nNur mit ein bißchen andern Worten.",
+      "ko": "사랑, 하느님이라고! 나는 그것에 붙일 이름이 없어. 느낌이 전부야. 이름은 하늘의 불빛을 가리는 소리와 연기일 뿐이야.\n마르가레테: 다 좋고 아름다운 말이에요. 신부님도 말은 조금 달라도 대략 그렇게 말씀하세요."
+    },
+    {
+      "id": "C19-T010",
+      "source_start": 1733,
+      "source_end": 2083,
+      "source": "\n\nFAUST.\nEs sagen’s allerorten\nAlle Herzen unter dem himmlischen Tage,\nJedes in seiner Sprache;\nWarum nicht ich in der meinen?\n\nMARGARETE.\nWenn man’s so hört, möcht’s leidlich scheinen,\nSteht aber doch immer schief darum;\nDenn du hast kein Christentum.\n\nFAUST.\nLiebs Kind!\n\nMARGARETE.\nEs tut mir lange schon weh,\nDaß ich dich in der Gesellschaft seh.",
+      "ko": "파우스트: 하늘 아래 모든 곳에서 모든 마음이 저마다의 말로 같은 이야기를 해. 나라고 내 말로 하면 왜 안 되겠어?\n마르가레테: 그렇게 들으면 괜찮은 듯하지만 그래도 어긋나 있어요. 당신에게는 기독교 신앙이 없으니까요.\n파우스트: 사랑하는 사람아!\n마르가레테: 오래전부터 당신이 그 사람과 어울리는 게 마음 아팠어요."
+    },
+    {
+      "id": "C19-T011",
+      "source_start": 2083,
+      "source_end": 2373,
+      "source": "\n\nFAUST.\nWieso?\n\nMARGARETE.\nDer Mensch, den du da bei dir hast,\nIst mir in tiefer innrer Seele verhaßt;\nEs hat mir in meinem Leben\nSo nichts einen Stich ins Herz gegeben\nAls des Menschen widrig Gesicht.\n\nFAUST.\nLiebe Puppe, fürcht ihn nicht!\n\nMARGARETE.\nSeine Gegenwart bewegt mir das Blut.",
+      "ko": "파우스트: 왜?\n마르가레테: 당신 곁에 있는 그 사람은 마음 깊이 싫어요. 살면서 그 불쾌한 얼굴만큼 가슴을 찌른 것은 없었어요.\n파우스트: 귀여운 사람아, 그를 무서워하지 마!\n마르가레테: 그 사람이 있으면 온몸이 불안해져요."
+    },
+    {
+      "id": "C19-T012",
+      "source_start": 2373,
+      "source_end": 2667,
+      "source": "\nIch bin sonst allen Menschen gut;\nAber wie ich mich sehne, dich zu schauen,\nHab ich vor dem Menschen ein heimlich Grauen,\nUnd halt ihn für einen Schelm dazu!\nGott verzeih mir’s, wenn ich ihm unrecht tu!\n\nFAUST.\nEs muß auch solche Käuze geben.\n\nMARGARETE.\nWollte nicht mit seinesgleichen leben!",
+      "ko": "저는 평소 누구에게나 잘 대해요. 하지만 당신을 보고 싶은 만큼 그 사람은 남몰래 두렵고, 못된 사람이라고 생각해요! 제가 그를 억울하게 판단했다면 하느님이 용서하시길!\n파우스트: 그런 별난 사람도 있어야지.\n마르가레테: 저라면 그런 사람과는 같이 살고 싶지 않아요!"
+    },
+    {
+      "id": "C19-T013",
+      "source_start": 2667,
+      "source_end": 3138,
+      "source": "\nKommt er einmal zur Tür herein,\nSieht er immer so spöttisch drein\nUnd halb ergrimmt;\nMan sieht, daß er an nichts keinen Anteil nimmt;\nEs steht ihm an der Stirn geschrieben,\nDaß er nicht mag eine Seele lieben.\nMir wird’s so wohl in deinem Arm,\nSo frei, so hingegeben warm,\nUnd seine Gegenwart schnürt mir das Innre zu.\n\nFAUST.\nDu ahnungsvoller Engel du!\n\nMARGARETE.\nDas übermannt mich so sehr,\nDaß, wo er nur mag zu uns treten,\nMein ich sogar, ich liebte dich nicht mehr.",
+      "ko": "그 사람이 문에 들어서면 늘 비웃는 눈빛에 반쯤 화난 얼굴이에요. 아무 일에도 진심으로 마음 쓰지 않는 게 보여요. 아무도 사랑할 마음이 없다는 게 얼굴에 쓰여 있어요. 당신 품에서는 편하고 자유롭고 따뜻한데, 그 사람이 오면 속이 꽉 막혀요.\n파우스트: 참 잘 알아채는 천사구나!\n마르가레테: 어찌나 압도되는지, 그 사람이 우리 곁에 오기만 하면 당신을 이제 사랑하지 않는 것 같기까지 해요."
+    },
+    {
+      "id": "C19-T014",
+      "source_start": 3138,
+      "source_end": 3432,
+      "source": "\nAuch, wenn er da ist, könnt ich nimmer beten,\nUnd das frißt mir ins Herz hinein;\nDir, Heinrich, muß es auch so sein.\n\nFAUST.\nDu hast nun die Antipathie!\n\nMARGARETE.\nIch muß nun fort.\n\nFAUST.\nAch kann ich nie\nEin Stündchen ruhig dir am Busen hängen\nUnd Brust an Brust und Seel in Seele drängen?",
+      "ko": "또 그 사람이 있으면 도무지 기도할 수가 없어요. 그게 마음을 갉아먹어요. 하인리히, 당신도 그래야 하지 않나요?\n파우스트: 네가 그를 싫어하는 거야!\n마르가레테: 이제 가야 해요.\n파우스트: 아, 나는 잠시라도 네 품에 조용히 안겨 가슴과 가슴, 마음과 마음을 맞댈 수 없을까?"
+    },
+    {
+      "id": "C19-T015",
+      "source_start": 3432,
+      "source_end": 3773,
+      "source": "\n\nMARGARETE.\nAch wenn ich nur alleine schlief!\nIch ließ dir gern heut nacht den Riegel offen;\nDoch meine Mutter schläft nicht tief,\nUnd würden wir von ihr betroffen,\nIch wär gleich auf der Stelle tot!\n\nFAUST.\nDu Engel, das hat keine Not.\nHier ist ein Fläschchen, drei Tropfen nur\nIn ihren Trank umhüllen\nMit tiefem Schlaf gefällig die Natur.",
+      "ko": "마르가레테: 아, 혼자 잔다면 좋을 텐데! 오늘 밤 기꺼이 빗장을 열어 둘 거예요. 하지만 어머니는 잠이 깊지 않아요. 들킨다면 저는 그 자리에서 죽을 것 같아요!\n파우스트: 천사야, 걱정할 것 없어. 여기 작은 병이 있어. 어머니가 마시는 데 세 방울만 넣으면 깊은 잠에 들 거야."
+    },
+    {
+      "id": "C19-T016",
+      "source_start": 3773,
+      "source_end": 4085,
+      "source": "\n\nMARGARETE.\nWas tu ich nicht um deinetwillen?\nEs wird ihr hoffentlich nicht schaden!\n\nFAUST.\nWürd ich sonst, Liebchen, dir es raten?\n\nMARGARETE.\nSeh ich dich, bester Mann, nur an,\nWeiß nicht, was mich nach deinem Willen treibt,\nIch habe schon so viel für dich getan,\nDaß mir zu tun fast nichts mehr übrigbleibt.",
+      "ko": "마르가레테: 당신을 위해 제가 못 할 일이 뭐 있겠어요? 그래도 어머니께 해가 없겠죠!\n파우스트: 해가 있다면 내가 권하겠어, 사랑아?\n마르가레테: 당신을 바라보기만 해도 무엇이 저를 당신 뜻대로 움직이게 하는지 모르겠어요. 이미 당신을 위해 너무 많은 일을 해서 이제 해 드릴 일이 거의 남지 않았어요."
+    },
+    {
+      "id": "C19-T017",
+      "source_start": 4085,
+      "source_end": 4319,
+      "source": "\n(Ab.)\n\n(Mephistopheles tritt auf.)\n\nMEPHISTOPHELES.\nDer Grasaff! ist er weg?\n\nFAUST.\nHast wieder spioniert?\n\nMEPHISTOPHELES.\nIch hab’s ausführlich wohl vernommen,\nHerr Doktor wurden da katechisiert;\nHoff, es soll Ihnen wohl bekommen.",
+      "ko": "(마르가레테 퇴장. 메피스토펠레스 등장.)\n메피스토펠레스: 그 풋내기는 갔어?\n파우스트: 또 엿들었어?\n메피스토펠레스: 자세히 잘 들었지. 박사님께서 교리 시험을 보시던데, 부디 기분에 맞으셨길."
+    },
+    {
+      "id": "C19-T018",
+      "source_start": 4319,
+      "source_end": 4735,
+      "source": "\nDie Mädels sind doch sehr interessiert,\nOb einer fromm und schlicht nach altem Brauch.\nSie denken: duckt er da, folgt er uns eben auch.\n\nFAUST.\nDu Ungeheuer siehst nicht ein,\nWie diese treue liebe Seele\nVon ihrem Glauben voll,\nDer ganz allein\nIhr seligmachend ist, sich heilig quäle,\nDaß sie den liebsten Mann verloren halten soll.\n\nMEPHISTOPHELES.\nDu übersinnlicher sinnlicher Freier,\nEin Mägdelein nasführet dich.",
+      "ko": "여자애들은 남자가 옛 관습대로 신앙 깊고 순한지 꽤 궁금해하지. 거기서 고개를 숙이면 우리 말도 잘 듣겠다고 생각하는 거야.\n파우스트: 괴물아, 넌 모르지. 그 사람에게 구원은 오직 믿음에 달렸어. 가장 사랑하는 사람을 잃었다고 여겨야 할까 봐 얼마나 괴로운지.\n메피스토펠레스: 정신을 말하며 육체를 좇는 구혼자야, 어린 여자 하나가 너를 끌고 다니는구나."
+    },
+    {
+      "id": "C19-T019",
+      "source_start": 4735,
+      "source_end": 5016,
+      "source": "\n\nFAUST.\nDu Spottgeburt von Dreck und Feuer!\n\nMEPHISTOPHELES.\nUnd die Physiognomie versteht sie meisterlich.\nIn meiner Gegenwart wird’s ihr, sie weiß nicht wie,\nMein Mäskchen da weissagt verborgnen Sinn;\nSie fühlt, daß ich ganz sicher ein Genie,\nVielleicht wohl gar der Teufel bin.",
+      "ko": "파우스트: 흙과 불에서 태어난 조롱 덩어리 같으니!\n메피스토펠레스: 그래도 얼굴 보고 속을 짐작하는 데는 아주 뛰어나더라고. 내 앞에만 서면 자기도 모르게 내 가면 뒤에 뭐가 있는지 알아채. 내가 분명 뛰어난 존재, 어쩌면 악마일지도 모른다고 느끼는 거지."
+    },
+    {
+      "id": "C19-T020",
+      "source_start": 5016,
+      "source_end": 5112,
+      "source": "\nNun, heute nacht—?\n\nFAUST.\nWas geht dich’s an?\n\nMEPHISTOPHELES.\nHab ich doch meine Freude dran!",
+      "ko": "메피스토펠레스: 그래, 오늘 밤은?\n파우스트: 네가 무슨 상관이야?\n메피스토펠레스: 나도 그게 재미있으니까!"
+    }
+  ]
+}

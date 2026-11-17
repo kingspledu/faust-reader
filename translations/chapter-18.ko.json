@@ -1,0 +1,29 @@
+{
+  "chapter": 18,
+  "status": "complete",
+  "source_total_chars": 792,
+  "covered_end": 792,
+  "segments": [
+    {
+      "id": "C18-T001",
+      "source_start": 0,
+      "source_end": 266,
+      "source": "Gretchen (am Spinnrad, allein).\n\nGRETCHEN.\nMeine Ruh ist hin,\nMein Herz ist schwer;\nIch finde sie nimmer\nund nimmermehr.\n\nWo ich ihn nicht hab,\nIst mir das Grab,\nDie ganze Welt\nIst mir vergällt.\n\nMein armer Kopf\nIst mir verrückt,\nMeiner armer Sinn\nIst mir zerstückt.",
+      "ko": "그레첸(혼자 물레 앞에 앉아).\n\n그레첸\n내 평온은 사라지고\n마음은 무거워.\n다시는, 다시는\n그 평온을 찾지 못하겠어.\n\n그가 없는 곳은\n내게 무덤 같고,\n온 세상이\n쓰게만 느껴져.\n\n가엾은 내 머리는\n뒤죽박죽이고,\n가엾은 내 마음은\n산산이 흩어졌어."
+    },
+    {
+      "id": "C18-T002",
+      "source_start": 266,
+      "source_end": 560,
+      "source": "\n\nMeine Ruh ist hin,\nMein Herz ist schwer,\nIch finde sie nimmer\nund nimmermehr.\n\nNach ihm nur schau ich\nZum Fenster hinaus,\nNach ihm nur geh ich\nAus dem Haus.\n\nSein hoher Gang,\nSein edle Gestalt,\nSeines Mundes Lächeln,\nSeiner Augen Gewalt,\n\nUnd seiner Rede\nZauberfluß,\nSein Händedruck,\nUnd ach!",
+      "ko": "내 평온은 사라지고\n마음은 무거워.\n다시는, 다시는\n그 평온을 찾지 못하겠어.\n\n그를 찾으려고\n창밖을 내다보고,\n그를 찾으려고\n집 밖으로 나가.\n\n당당한 걸음,\n품위 있는 모습,\n입가의 미소,\n눈빛에 담긴 힘,\n\n마음을 빼앗던\n그 말솜씨,\n내 손을 잡던 손길,\n그리고 아,"
+    },
+    {
+      "id": "C18-T003",
+      "source_start": 560,
+      "source_end": 792,
+      "source": " sein Kuß!\n\nMeine Ruh ist hin,\nMein Herz ist schwer,\nIch finde sie nimmer\nund nimmermehr.\n\nMein Busen drängt\nSich nach ihm hin,\nAch dürft ich fassen\nUnd halten ihn,\n\nUnd küssen ihn,\nSo wie ich wollt,\nAn seinen Küssen\nVergehen sollt!",
+      "ko": "그 입맞춤!\n\n내 평온은 사라지고\n마음은 무거워.\n다시는, 다시는\n그 평온을 찾지 못하겠어.\n\n내 가슴은\n그에게로 달려가.\n아, 그를 안고\n꼭 붙들 수 있다면,\n\n내가 원하는 만큼\n그에게 입 맞추고,\n그 입맞춤 속에서\n사라져 버릴 수 있다면!"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
 const cast=JSON.parse(fs.readFileSync('voice-cast.json','utf8'));
 let dialogue=0,monologue=0,narration=0;
-for(let ch=1;ch<=17;ch++){
+for(let ch=1;ch<=JSON.parse(fs.readFileSync('dialogue-cast-revision-audit.json','utf8')).chapters.length;ch++){
  const source=fs.readFileSync(`tts-canvas/check-v04-${String(ch).padStart(2,'0')}.js`,'utf8');new vm.Script(source);
  const episode=JSON.parse(source.match(/const originalEpisode = (.*?);\s*const originalStory =/s)[1]);
  const turns=episode.scenes.flatMap(s=>s.segments);

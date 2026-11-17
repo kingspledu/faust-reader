@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-17 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1–23 illustrated and adapted.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -21254,6 +21254,3001 @@
       "adaptation": "adaptations/chapter-17.json",
       "char_offset": 6091,
       "anchor": "Wo so ein Köpfchen keinen Ausgang sieht,\nStellt er sich gleich das Ende vor.\nEs lebe, wer sich tapfe"
+    },
+    {
+      "id": "c18-dense-001",
+      "chapter": 18,
+      "chapter_title": "Gretchens Stube",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 266,
+      "source_text": "Gretchen (am Spinnrad, allein).\n\nGRETCHEN.\nMeine Ruh ist hin,\nMein Herz ist schwer;\nIch finde sie nimmer\nund nimmermehr.\n\nWo ich ihn nicht hab,\nIst mir das Grab,\nDie ganze Welt\nIst mir vergällt.\n\nMein armer Kopf\nIst mir verrückt,\nMeiner armer Sinn\nIst mir zerstückt.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c18-dense-001.webp",
+      "source_grid": "source_images/chapter18-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        312,
+        309
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-18.json",
+      "char_offset": 0,
+      "anchor": "Gretchen (am Spinnrad, allein).\n\nGRETCHEN.\nMeine Ruh ist hin,\nMein Herz ist schwer;\nIch finde sie ni"
+    },
+    {
+      "id": "c18-dense-002",
+      "chapter": 18,
+      "chapter_title": "Gretchens Stube",
+      "sentence_count": 3,
+      "source_start": 266,
+      "source_end": 560,
+      "source_text": "\n\nMeine Ruh ist hin,\nMein Herz ist schwer,\nIch finde sie nimmer\nund nimmermehr.\n\nNach ihm nur schau ich\nZum Fenster hinaus,\nNach ihm nur geh ich\nAus dem Haus.\n\nSein hoher Gang,\nSein edle Gestalt,\nSeines Mundes Lächeln,\nSeiner Augen Gewalt,\n\nUnd seiner Rede\nZauberfluß,\nSein Händedruck,\nUnd ach!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c18-dense-002.webp",
+      "source_grid": "source_images/chapter18-dense-001.png",
+      "crop_box": [
+        318,
+        3,
+        627,
+        309
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-18.json",
+      "char_offset": 266,
+      "anchor": "Meine Ruh ist hin,\nMein Herz ist schwer,\nIch finde sie nimmer\nund nimmermehr.\n\nNach ihm nur schau ic"
+    },
+    {
+      "id": "c18-dense-003",
+      "chapter": 18,
+      "chapter_title": "Gretchens Stube",
+      "sentence_count": 3,
+      "source_start": 560,
+      "source_end": 792,
+      "source_text": " sein Kuß!\n\nMeine Ruh ist hin,\nMein Herz ist schwer,\nIch finde sie nimmer\nund nimmermehr.\n\nMein Busen drängt\nSich nach ihm hin,\nAch dürft ich fassen\nUnd halten ihn,\n\nUnd küssen ihn,\nSo wie ich wollt,\nAn seinen Küssen\nVergehen sollt!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-030",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c18-dense-003.webp",
+      "source_grid": "source_images/chapter18-dense-001.png",
+      "crop_box": [
+        633,
+        3,
+        943,
+        309
+      ],
+      "native_grid_size": [
+        1261,
+        1247
+      ],
+      "adaptation": "adaptations/chapter-18.json",
+      "char_offset": 560,
+      "anchor": "sein Kuß!\n\nMeine Ruh ist hin,\nMein Herz ist schwer,\nIch finde sie nimmer\nund nimmermehr.\n\nMein Busen"
+    },
+    {
+      "id": "c19-dense-001",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 76,
+      "source_text": "Margarete. Faust.\n\nMARGARETE.\nVersprich mir, Heinrich!\n\nFAUST.\nWas ich kann!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c19-dense-001.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 0,
+      "anchor": "Margarete. Faust.\n\nMARGARETE.\nVersprich mir, Heinrich!\n\nFAUST.\nWas ich kann!"
+    },
+    {
+      "id": "c19-dense-002",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 76,
+      "source_end": 356,
+      "source_text": "\n\nMARGARETE.\nNun sag, wie hast du’s mit der Religion?\nDu bist ein herzlich guter Mann,\nAllein ich glaub, du hältst nicht viel davon.\n\nFAUST.\nLaß das, mein Kind! Du fühlst, ich bin dir gut;\nFür meine Lieben ließ’ ich Leib und Blut,\nWill niemand sein Gefühl und seine Kirche rauben.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c19-dense-002.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 76,
+      "anchor": "MARGARETE.\nNun sag, wie hast du’s mit der Religion?\nDu bist ein herzlich guter Mann,\nAllein ich glau"
+    },
+    {
+      "id": "c19-dense-003",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 356,
+      "source_end": 477,
+      "source_text": "\n\nMARGARETE.\nDas ist nicht recht, man muß dran glauben.\n\nFAUST.\nMuß man?\n\nMARGARETE.\nAch! wenn ich etwas auf dich konnte!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c19-dense-003.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 356,
+      "anchor": "MARGARETE.\nDas ist nicht recht, man muß dran glauben.\n\nFAUST.\nMuß man?\n\nMARGARETE.\nAch! wenn ich etw"
+    },
+    {
+      "id": "c19-dense-004",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 477,
+      "source_end": 630,
+      "source_text": "\nDu ehrst auch nicht die heil’gen Sakramente.\n\nFAUST.\nIch ehre sie.\n\nMARGARETE.\nDoch ohne Verlangen.\nZur Messe, zur Beichte bist du lange nicht gegangen.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c19-dense-004.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 477,
+      "anchor": "Du ehrst auch nicht die heil’gen Sakramente.\n\nFAUST.\nIch ehre sie.\n\nMARGARETE.\nDoch ohne Verlangen.\n"
+    },
+    {
+      "id": "c19-dense-005",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 630,
+      "source_end": 835,
+      "source_text": "\nGlaubst du an Gott?\n\nFAUST.\nMein Liebchen, wer darf sagen:\nIch glaub an Gott?\nMagst Priester oder Weise fragen,\nUnd ihre Antwort scheint nur Spott\nÜber den Frager zu sein.\n\nMARGARETE.\nSo glaubst du nicht?",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c19-dense-005.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 630,
+      "anchor": "Glaubst du an Gott?\n\nFAUST.\nMein Liebchen, wer darf sagen:\nIch glaub an Gott?\nMagst Priester oder We"
+    },
+    {
+      "id": "c19-dense-006",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 835,
+      "source_end": 940,
+      "source_text": "\n\nFAUST.\nMißhör mich nicht, du holdes Angesicht!\nWer darf ihn nennen?\nUnd wer bekennen.\n“Ich glaub ihn!”?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c19-dense-006.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 835,
+      "anchor": "FAUST.\nMißhör mich nicht, du holdes Angesicht!\nWer darf ihn nennen?\nUnd wer bekennen.\n“Ich glaub ihn"
+    },
+    {
+      "id": "c19-dense-007",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 940,
+      "source_end": 1171,
+      "source_text": "\nWer empfinden,\nUnd sich unterwinden\nZu sagen: “Ich glaub ihn nicht!”?\nDer Allumfasser,\nDer Allerhalter,\nFaßt und erhält er nicht\nDich, mich, sich selbst?\nWölbt sich der Himmel nicht da droben?\nLiegt die Erde nicht hier unten fest?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c19-dense-007.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 940,
+      "anchor": "Wer empfinden,\nUnd sich unterwinden\nZu sagen: “Ich glaub ihn nicht!”?\nDer Allumfasser,\nDer Allerhalt"
+    },
+    {
+      "id": "c19-dense-008",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 1171,
+      "source_end": 1506,
+      "source_text": "\nUnd steigen freundlich blickend\nEwige Sterne nicht herauf?\nSchau ich nicht Aug in Auge dir,\nUnd drängt nicht alles\nNach Haupt und Herzen dir,\nUnd webt in ewigem Geheimnis\nUnsichtbar sichtbar neben dir?\nErfüll davon dein Herz, so groß es ist,\nUnd wenn du ganz in dem Gefühle selig bist,\nNenn es dann, wie du willst,\nNenn’s Glück! Herz!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c19-dense-008.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 1171,
+      "anchor": "Und steigen freundlich blickend\nEwige Sterne nicht herauf?\nSchau ich nicht Aug in Auge dir,\nUnd drän"
+    },
+    {
+      "id": "c19-dense-009",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 1506,
+      "source_end": 1733,
+      "source_text": " Liebe! Gott\nIch habe keinen Namen\nDafür! Gefühl ist alles;\nName ist Schall und Rauch,\nUmnebelnd Himmelsglut.\n\nMARGARETE.\nDas ist alles recht schön und gut;\nUngefähr sagt das der Pfarrer auch,\nNur mit ein bißchen andern Worten.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c19-dense-009.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 1506,
+      "anchor": "Liebe! Gott\nIch habe keinen Namen\nDafür! Gefühl ist alles;\nName ist Schall und Rauch,\nUmnebelnd Himm"
+    },
+    {
+      "id": "c19-dense-010",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 1733,
+      "source_end": 2083,
+      "source_text": "\n\nFAUST.\nEs sagen’s allerorten\nAlle Herzen unter dem himmlischen Tage,\nJedes in seiner Sprache;\nWarum nicht ich in der meinen?\n\nMARGARETE.\nWenn man’s so hört, möcht’s leidlich scheinen,\nSteht aber doch immer schief darum;\nDenn du hast kein Christentum.\n\nFAUST.\nLiebs Kind!\n\nMARGARETE.\nEs tut mir lange schon weh,\nDaß ich dich in der Gesellschaft seh.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c19-dense-010.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 1733,
+      "anchor": "FAUST.\nEs sagen’s allerorten\nAlle Herzen unter dem himmlischen Tage,\nJedes in seiner Sprache;\nWarum "
+    },
+    {
+      "id": "c19-dense-011",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 2083,
+      "source_end": 2373,
+      "source_text": "\n\nFAUST.\nWieso?\n\nMARGARETE.\nDer Mensch, den du da bei dir hast,\nIst mir in tiefer innrer Seele verhaßt;\nEs hat mir in meinem Leben\nSo nichts einen Stich ins Herz gegeben\nAls des Menschen widrig Gesicht.\n\nFAUST.\nLiebe Puppe, fürcht ihn nicht!\n\nMARGARETE.\nSeine Gegenwart bewegt mir das Blut.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c19-dense-011.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 2083,
+      "anchor": "FAUST.\nWieso?\n\nMARGARETE.\nDer Mensch, den du da bei dir hast,\nIst mir in tiefer innrer Seele verhaßt"
+    },
+    {
+      "id": "c19-dense-012",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 2373,
+      "source_end": 2667,
+      "source_text": "\nIch bin sonst allen Menschen gut;\nAber wie ich mich sehne, dich zu schauen,\nHab ich vor dem Menschen ein heimlich Grauen,\nUnd halt ihn für einen Schelm dazu!\nGott verzeih mir’s, wenn ich ihm unrecht tu!\n\nFAUST.\nEs muß auch solche Käuze geben.\n\nMARGARETE.\nWollte nicht mit seinesgleichen leben!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c19-dense-012.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 2373,
+      "anchor": "Ich bin sonst allen Menschen gut;\nAber wie ich mich sehne, dich zu schauen,\nHab ich vor dem Menschen"
+    },
+    {
+      "id": "c19-dense-013",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 2667,
+      "source_end": 3138,
+      "source_text": "\nKommt er einmal zur Tür herein,\nSieht er immer so spöttisch drein\nUnd halb ergrimmt;\nMan sieht, daß er an nichts keinen Anteil nimmt;\nEs steht ihm an der Stirn geschrieben,\nDaß er nicht mag eine Seele lieben.\nMir wird’s so wohl in deinem Arm,\nSo frei, so hingegeben warm,\nUnd seine Gegenwart schnürt mir das Innre zu.\n\nFAUST.\nDu ahnungsvoller Engel du!\n\nMARGARETE.\nDas übermannt mich so sehr,\nDaß, wo er nur mag zu uns treten,\nMein ich sogar, ich liebte dich nicht mehr.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c19-dense-013.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 2667,
+      "anchor": "Kommt er einmal zur Tür herein,\nSieht er immer so spöttisch drein\nUnd halb ergrimmt;\nMan sieht, daß "
+    },
+    {
+      "id": "c19-dense-014",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 3138,
+      "source_end": 3432,
+      "source_text": "\nAuch, wenn er da ist, könnt ich nimmer beten,\nUnd das frißt mir ins Herz hinein;\nDir, Heinrich, muß es auch so sein.\n\nFAUST.\nDu hast nun die Antipathie!\n\nMARGARETE.\nIch muß nun fort.\n\nFAUST.\nAch kann ich nie\nEin Stündchen ruhig dir am Busen hängen\nUnd Brust an Brust und Seel in Seele drängen?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST",
+        "MARGARETE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c19-dense-014.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 3138,
+      "anchor": "Auch, wenn er da ist, könnt ich nimmer beten,\nUnd das frißt mir ins Herz hinein;\nDir, Heinrich, muß "
+    },
+    {
+      "id": "c19-dense-015",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 3432,
+      "source_end": 3773,
+      "source_text": "\n\nMARGARETE.\nAch wenn ich nur alleine schlief!\nIch ließ dir gern heut nacht den Riegel offen;\nDoch meine Mutter schläft nicht tief,\nUnd würden wir von ihr betroffen,\nIch wär gleich auf der Stelle tot!\n\nFAUST.\nDu Engel, das hat keine Not.\nHier ist ein Fläschchen, drei Tropfen nur\nIn ihren Trank umhüllen\nMit tiefem Schlaf gefällig die Natur.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c19-dense-015.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 3432,
+      "anchor": "MARGARETE.\nAch wenn ich nur alleine schlief!\nIch ließ dir gern heut nacht den Riegel offen;\nDoch mei"
+    },
+    {
+      "id": "c19-dense-016",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 3773,
+      "source_end": 4085,
+      "source_text": "\n\nMARGARETE.\nWas tu ich nicht um deinetwillen?\nEs wird ihr hoffentlich nicht schaden!\n\nFAUST.\nWürd ich sonst, Liebchen, dir es raten?\n\nMARGARETE.\nSeh ich dich, bester Mann, nur an,\nWeiß nicht, was mich nach deinem Willen treibt,\nIch habe schon so viel für dich getan,\nDaß mir zu tun fast nichts mehr übrigbleibt.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MARGARETE",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-053",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-031",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c19-dense-016.webp",
+      "source_grid": "source_images/chapter19-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 3773,
+      "anchor": "MARGARETE.\nWas tu ich nicht um deinetwillen?\nEs wird ihr hoffentlich nicht schaden!\n\nFAUST.\nWürd ich"
+    },
+    {
+      "id": "c19-dense-017",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 4085,
+      "source_end": 4319,
+      "source_text": "\n(Ab.)\n\n(Mephistopheles tritt auf.)\n\nMEPHISTOPHELES.\nDer Grasaff! ist er weg?\n\nFAUST.\nHast wieder spioniert?\n\nMEPHISTOPHELES.\nIch hab’s ausführlich wohl vernommen,\nHerr Doktor wurden da katechisiert;\nHoff, es soll Ihnen wohl bekommen.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c19-dense-017.webp",
+      "source_grid": "source_images/chapter19-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        309,
+        311
+      ],
+      "native_grid_size": [
+        1250,
+        1258
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 4085,
+      "anchor": "(Ab.)\n\n(Mephistopheles tritt auf.)\n\nMEPHISTOPHELES.\nDer Grasaff! ist er weg?\n\nFAUST.\nHast wieder spi"
+    },
+    {
+      "id": "c19-dense-018",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 4,
+      "source_start": 4319,
+      "source_end": 4735,
+      "source_text": "\nDie Mädels sind doch sehr interessiert,\nOb einer fromm und schlicht nach altem Brauch.\nSie denken: duckt er da, folgt er uns eben auch.\n\nFAUST.\nDu Ungeheuer siehst nicht ein,\nWie diese treue liebe Seele\nVon ihrem Glauben voll,\nDer ganz allein\nIhr seligmachend ist, sich heilig quäle,\nDaß sie den liebsten Mann verloren halten soll.\n\nMEPHISTOPHELES.\nDu übersinnlicher sinnlicher Freier,\nEin Mägdelein nasführet dich.",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c19-dense-018.webp",
+      "source_grid": "source_images/chapter19-dense-002.png",
+      "crop_box": [
+        315,
+        3,
+        622,
+        311
+      ],
+      "native_grid_size": [
+        1250,
+        1258
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 4319,
+      "anchor": "Die Mädels sind doch sehr interessiert,\nOb einer fromm und schlicht nach altem Brauch.\nSie denken: d"
+    },
+    {
+      "id": "c19-dense-019",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 3,
+      "source_start": 4735,
+      "source_end": 5016,
+      "source_text": "\n\nFAUST.\nDu Spottgeburt von Dreck und Feuer!\n\nMEPHISTOPHELES.\nUnd die Physiognomie versteht sie meisterlich.\nIn meiner Gegenwart wird’s ihr, sie weiß nicht wie,\nMein Mäskchen da weissagt verborgnen Sinn;\nSie fühlt, daß ich ganz sicher ein Genie,\nVielleicht wohl gar der Teufel bin.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c19-dense-019.webp",
+      "source_grid": "source_images/chapter19-dense-002.png",
+      "crop_box": [
+        628,
+        3,
+        935,
+        311
+      ],
+      "native_grid_size": [
+        1250,
+        1258
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 4735,
+      "anchor": "FAUST.\nDu Spottgeburt von Dreck und Feuer!\n\nMEPHISTOPHELES.\nUnd die Physiognomie versteht sie meiste"
+    },
+    {
+      "id": "c19-dense-020",
+      "chapter": 19,
+      "chapter_title": "Marthens Garten",
+      "sentence_count": 3,
+      "source_start": 5016,
+      "source_end": 5112,
+      "source_text": "\nNun, heute nacht—?\n\nFAUST.\nWas geht dich’s an?\n\nMEPHISTOPHELES.\nHab ich doch meine Freude dran!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-014"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c19-dense-020.webp",
+      "source_grid": "source_images/chapter19-dense-002.png",
+      "crop_box": [
+        941,
+        3,
+        1247,
+        311
+      ],
+      "native_grid_size": [
+        1250,
+        1258
+      ],
+      "adaptation": "adaptations/chapter-19.json",
+      "char_offset": 5016,
+      "anchor": "Nun, heute nacht—?\n\nFAUST.\nWas geht dich’s an?\n\nMEPHISTOPHELES.\nHab ich doch meine Freude dran!"
+    },
+    {
+      "id": "c20-dense-001",
+      "chapter": 20,
+      "chapter_title": "Am Brunnen",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 133,
+      "source_text": "Gretchen und Lieschen mit Krügen.\n\nLIESCHEN.\nHast nichts von Bärbelchen gehört?\n\nGRETCHEN.\nKein Wort. Ich komm gar wenig unter Leute.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "LIESCHEN",
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "character-055",
+        "location-015"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c20-dense-001.webp",
+      "source_grid": "source_images/chapter20-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-20.json",
+      "char_offset": 0,
+      "anchor": "Gretchen und Lieschen mit Krügen.\n\nLIESCHEN.\nHast nichts von Bärbelchen gehört?\n\nGRETCHEN.\nKein Wort"
+    },
+    {
+      "id": "c20-dense-002",
+      "chapter": 20,
+      "chapter_title": "Am Brunnen",
+      "sentence_count": 4,
+      "source_start": 133,
+      "source_end": 254,
+      "source_text": "\n\nLIESCHEN.\nGewiß, Sibylle sagt’ mir’s heute.\nDie hat sich endlich auch betört.\nDas ist das Vornehmtun!\n\nGRETCHEN.\nWieso?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "LIESCHEN",
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "character-055",
+        "location-015"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c20-dense-002.webp",
+      "source_grid": "source_images/chapter20-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-20.json",
+      "char_offset": 133,
+      "anchor": "LIESCHEN.\nGewiß, Sibylle sagt’ mir’s heute.\nDie hat sich endlich auch betört.\nDas ist das Vornehmtun"
+    },
+    {
+      "id": "c20-dense-003",
+      "chapter": 20,
+      "chapter_title": "Am Brunnen",
+      "sentence_count": 4,
+      "source_start": 254,
+      "source_end": 387,
+      "source_text": "\n\nLIESCHEN.\nEs stinkt!\nSie füttert zwei, wenn sie nun ißt und trinkt.\n\nGRETCHEN.\nAch!\n\nLIESCHEN.\nSo ist’s ihr endlich recht ergangen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "LIESCHEN",
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "character-055",
+        "location-015"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c20-dense-003.webp",
+      "source_grid": "source_images/chapter20-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-20.json",
+      "char_offset": 254,
+      "anchor": "LIESCHEN.\nEs stinkt!\nSie füttert zwei, wenn sie nun ißt und trinkt.\n\nGRETCHEN.\nAch!\n\nLIESCHEN.\nSo is"
+    },
+    {
+      "id": "c20-dense-004",
+      "chapter": 20,
+      "chapter_title": "Am Brunnen",
+      "sentence_count": 4,
+      "source_start": 387,
+      "source_end": 762,
+      "source_text": "\nWie lange hat sie an dem Kerl gehangen!\nDas war ein Spazieren,\nAuf Dorf und Tanzplatz Führen,\nMußt überall die Erste sein,\nKurtesiert ihr immer mit Pastetchen und Wein;\nBildt sich was auf ihre Schönheit ein,\nWar doch so ehrlos, sich nicht zu schämen,\nGeschenke von ihm anzunehmen.\nWar ein Gekos und ein Geschleck;\nDa ist denn auch das Blümchen weg!\n\nGRETCHEN.\nDas arme Ding!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-015"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c20-dense-004.webp",
+      "source_grid": "source_images/chapter20-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-20.json",
+      "char_offset": 387,
+      "anchor": "Wie lange hat sie an dem Kerl gehangen!\nDas war ein Spazieren,\nAuf Dorf und Tanzplatz Führen,\nMußt ü"
+    },
+    {
+      "id": "c20-dense-005",
+      "chapter": 20,
+      "chapter_title": "Am Brunnen",
+      "sentence_count": 4,
+      "source_start": 762,
+      "source_end": 1082,
+      "source_text": "\n\nLIESCHEN.\nBedauerst sie noch gar!\nWenn unsereins am Spinnen war,\nUns nachts die Mutter nicht hinunterließ,\nStand sie bei ihrem Buhlen süß;\nAuf der Türbank und im dunkeln Gang\nWard ihnen keine Stunde zu lang.\nDa mag sie denn sich ducken nun,\nIm Sünderhemdchen Kirchbuß tun!\n\nGRETCHEN.\nEr nimmt sie gewiß zu seiner Frau.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "LIESCHEN",
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "character-055",
+        "location-015"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c20-dense-005.webp",
+      "source_grid": "source_images/chapter20-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-20.json",
+      "char_offset": 762,
+      "anchor": "LIESCHEN.\nBedauerst sie noch gar!\nWenn unsereins am Spinnen war,\nUns nachts die Mutter nicht hinunte"
+    },
+    {
+      "id": "c20-dense-006",
+      "chapter": 20,
+      "chapter_title": "Am Brunnen",
+      "sentence_count": 4,
+      "source_start": 1082,
+      "source_end": 1210,
+      "source_text": "\n\nLIESCHEN.\nEr wär ein Narr! Ein flinker Jung\nHat anderwärts noch Luft genung.\nEr ist auch fort.\n\nGRETCHEN.\nDas ist nicht schön!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "LIESCHEN",
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "character-055",
+        "location-015"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c20-dense-006.webp",
+      "source_grid": "source_images/chapter20-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-20.json",
+      "char_offset": 1082,
+      "anchor": "LIESCHEN.\nEr wär ein Narr! Ein flinker Jung\nHat anderwärts noch Luft genung.\nEr ist auch fort.\n\nGRET"
+    },
+    {
+      "id": "c20-dense-007",
+      "chapter": 20,
+      "chapter_title": "Am Brunnen",
+      "sentence_count": 4,
+      "source_start": 1210,
+      "source_end": 1515,
+      "source_text": "\n\nLIESCHEN.\nKriegt sie ihn, soll’s ihr übel gehn,\nDas Kränzel reißen die Buben ihr,\nUnd Häckerling streuen wir vor die Tür!\n(Ab.)\n\nGRETCHEN: (nach Hause gehend).\nWie konnt ich sonst so tapfer schmälen,\nWenn tät ein armes Mägdlein fehlen!\nWie konnt ich über andrer Sünden\nNicht Worte gnug der Zunge finden!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "LIESCHEN"
+      ],
+      "reference_ids": [
+        "character-055",
+        "location-015"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c20-dense-007.webp",
+      "source_grid": "source_images/chapter20-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-20.json",
+      "char_offset": 1210,
+      "anchor": "LIESCHEN.\nKriegt sie ihn, soll’s ihr übel gehn,\nDas Kränzel reißen die Buben ihr,\nUnd Häckerling str"
+    },
+    {
+      "id": "c20-dense-008",
+      "chapter": 20,
+      "chapter_title": "Am Brunnen",
+      "sentence_count": 4,
+      "source_start": 1515,
+      "source_end": 1744,
+      "source_text": "\nWie schien mir’s schwarz, und schwärzt’s noch gar,\nMir’s immer doch nicht schwarz gnug war,\nUnd segnet mich und tat so groß,\nUnd bin nun selbst der Sünde bloß!\nDoch—alles, was dazu mich trieb,\nGott! war so gut! ach, war so lieb!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-015"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c20-dense-008.webp",
+      "source_grid": "source_images/chapter20-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-20.json",
+      "char_offset": 1515,
+      "anchor": "Wie schien mir’s schwarz, und schwärzt’s noch gar,\nMir’s immer doch nicht schwarz gnug war,\nUnd segn"
+    },
+    {
+      "id": "c21-dense-001",
+      "chapter": 21,
+      "chapter_title": "Zwinger",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 262,
+      "source_text": "In der Mauerhöhle ein Andachtsbild der Mater dolorosa, Blumenkruge\ndavor.\nGretchen steckt frische Blumen in die Kruge.\n\nAch neige,\nDu Schmerzenreiche,\nDein Antlitz gnädig meiner Not!\n\nDas Schwert im Herzen,\nMit tausend Schmerzen\nBlickst auf zu deines Sohnes Tod.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-016"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c21-dense-001.webp",
+      "source_grid": "source_images/chapter21-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-21.json",
+      "char_offset": 0,
+      "anchor": "In der Mauerhöhle ein Andachtsbild der Mater dolorosa, Blumenkruge\ndavor.\nGretchen steckt frische Bl"
+    },
+    {
+      "id": "c21-dense-002",
+      "chapter": 21,
+      "chapter_title": "Zwinger",
+      "sentence_count": 4,
+      "source_start": 262,
+      "source_end": 557,
+      "source_text": "\n\nZum Vater blickst du,\nUnd Seufzer schickst du\nHinauf um sein’ und deine Not.\n\nWer fühlet,\nWie wühlet\nDer Schmerz mir im Gebein?\nWas mein armes Herz hier banget,\nWas es zittert, was verlanget,\nWeißt nur du, nur du allein!\n\nWohin ich immer gehe\nWie weh, wie weh, wie wehe\nWird mir im Busen hier!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-016"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c21-dense-002.webp",
+      "source_grid": "source_images/chapter21-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-21.json",
+      "char_offset": 262,
+      "anchor": "Zum Vater blickst du,\nUnd Seufzer schickst du\nHinauf um sein’ und deine Not.\n\nWer fühlet,\nWie wühlet"
+    },
+    {
+      "id": "c21-dense-003",
+      "chapter": 21,
+      "chapter_title": "Zwinger",
+      "sentence_count": 4,
+      "source_start": 557,
+      "source_end": 753,
+      "source_text": "\nIch bin, ach! kaum alleine,\nIch wein, ich wein, ich weine,\nDas Herz zerbricht in mir.\n\nDie Scherben vor meinem Fenster\nBetaut ich mit Tränen, ach!\nAls ich am frühen Morgen\nDir diese Blumen brach.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-016"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c21-dense-003.webp",
+      "source_grid": "source_images/chapter21-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-21.json",
+      "char_offset": 557,
+      "anchor": "Ich bin, ach! kaum alleine,\nIch wein, ich wein, ich weine,\nDas Herz zerbricht in mir.\n\nDie Scherben "
+    },
+    {
+      "id": "c21-dense-004",
+      "chapter": 21,
+      "chapter_title": "Zwinger",
+      "sentence_count": 4,
+      "source_start": 753,
+      "source_end": 957,
+      "source_text": "\n\nSchien hell in meine Kammer\nDie Sonne früh herauf,\nSaß ich in allem Jammer\nIn meinem Bett schon auf.\n\nHilf! rette mich von Schmach und Tod!\nAch neige,\nDu Schmerzenreiche,\nDein Antlitz gnädig meiner Not!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-016"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-032",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c21-dense-004.webp",
+      "source_grid": "source_images/chapter21-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-21.json",
+      "char_offset": 753,
+      "anchor": "Schien hell in meine Kammer\nDie Sonne früh herauf,\nSaß ich in allem Jammer\nIn meinem Bett schon auf."
+    },
+    {
+      "id": "c22-dense-001",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 504,
+      "source_text": "Valentin, Soldat, Gretchens Bruder.\n\nWenn ich so saß bei einem Gelag,\nWo mancher sich berühmen mag,\nUnd die Gesellen mir den Flor\nDer Mägdlein laut gepriesen vor,\nMit vollem Glas das Lob verschwemmt,\nDen Ellenbogen aufgestemmt,\nSaß ich in meiner sichern Ruh,\nHört all dem Schwadronieren zu\nUnd streiche lächelnd meinen Bart\nUnd kriege das volle Glas zur Hand\nUnd sage: “Alles nach seiner Art!\nAber ist eine im ganzen Land,\nDie meiner trauten Gretel gleicht,\nDie meiner Schwester das Wasser reicht?”\nTopp!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c22-dense-001.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 0,
+      "anchor": "Valentin, Soldat, Gretchens Bruder.\n\nWenn ich so saß bei einem Gelag,\nWo mancher sich berühmen mag,\n"
+    },
+    {
+      "id": "c22-dense-002",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 504,
+      "source_end": 616,
+      "source_text": " Topp! Kling! Klang! das ging herum;\nDie einen schrieen: “Er hat recht,\nSie ist die Zier vom ganzen Geschlecht.”",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c22-dense-002.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 504,
+      "anchor": "Topp! Kling! Klang! das ging herum;\nDie einen schrieen: “Er hat recht,\nSie ist die Zier vom ganzen G"
+    },
+    {
+      "id": "c22-dense-003",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 616,
+      "source_end": 934,
+      "source_text": "\nDa saßen alle die Lober stumm.\nUnd nun!—Um’s Haar sich auszuraufen\nUnd an den Wänden hinaufzulaufen!—\nMit Stichelreden, Naserümpfen\nSoll jeder Schurke mich beschimpfen!\nSoll wie ein böser Schuldner sitzen\nBei jedem Zufallswörtchen schwitzen!\nUnd möcht ich sie zusammenschmeißen\nKönnt ich sie doch nicht Lügner heißen.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c22-dense-003.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 616,
+      "anchor": "Da saßen alle die Lober stumm.\nUnd nun!—Um’s Haar sich auszuraufen\nUnd an den Wänden hinaufzulaufen!"
+    },
+    {
+      "id": "c22-dense-004",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 934,
+      "source_end": 1086,
+      "source_text": "\n\nWas kommt heran? Was schleicht herbei?\nIrr ich nicht, es sind ihrer zwei.\nIst er’s, gleich pack ich ihn beim Felle\nSoll nicht lebendig von der Stelle!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c22-dense-004.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 934,
+      "anchor": "Was kommt heran? Was schleicht herbei?\nIrr ich nicht, es sind ihrer zwei.\nIst er’s, gleich pack ich "
+    },
+    {
+      "id": "c22-dense-005",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 1086,
+      "source_end": 1323,
+      "source_text": "\n\nFaust. Mephistopheles.\n\nFAUST.\nWie von dem Fenster dort der Sakristei\nAufwärts der Schein des Ew’gen Lämpchens flämmert\nUnd schwach und schwächer seitwärts dämmert,\nUnd Finsternis drängt ringsum bei!\nSo sieht’s in meinem Busen nächtig.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c22-dense-005.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 1086,
+      "anchor": "Faust. Mephistopheles.\n\nFAUST.\nWie von dem Fenster dort der Sakristei\nAufwärts der Schein des Ew’gen"
+    },
+    {
+      "id": "c22-dense-006",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 1323,
+      "source_end": 1758,
+      "source_text": "\n\nMEPHISTOPHELES.\nUnd mir ist’s wie dem Kätzlein schmächtig,\nDas an den Feuerleitern schleicht,\nSich leis dann um die Mauern streicht;\nMir ist’s ganz tugendlich dabei,\nEin bißchen Diebsgelüst, ein bißchen Rammelei.\nSo spukt mir schon durch alle Glieder\nDie herrliche Walpurgisnacht.\nDie kommt uns übermorgen wieder,\nDa weiß man doch, warum man wacht.\n\nFAUST.\nRückt wohl der Schatz indessen in die Höh,\nDen ich dort hinten flimmern seh?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c22-dense-006.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 1323,
+      "anchor": "MEPHISTOPHELES.\nUnd mir ist’s wie dem Kätzlein schmächtig,\nDas an den Feuerleitern schleicht,\nSich l"
+    },
+    {
+      "id": "c22-dense-007",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 1758,
+      "source_end": 2072,
+      "source_text": "\n\nMEPHISTOPHELES.\nDu kannst die Freude bald erleben,\nDas Kesselchen herauszuheben.\nIch schielte neulich so hinein,\nSind herrliche Löwentaler drein.\n\nFAUST.\nNicht ein Geschmeide, nicht ein Ring,\nMeine liebe Buhle damit zu zieren?\n\nMEPHISTOPHELES.\nIch sah dabei wohl so ein Ding,\nAls wie eine Art von Perlenschnüren.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c22-dense-007.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 1758,
+      "anchor": "MEPHISTOPHELES.\nDu kannst die Freude bald erleben,\nDas Kesselchen herauszuheben.\nIch schielte neulic"
+    },
+    {
+      "id": "c22-dense-008",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 2072,
+      "source_end": 2316,
+      "source_text": "\n\nFAUST.\nSo ist es recht! Mir tut es weh,\nWenn ich ohne Geschenke zu ihr geh.\n\nMEPHISTOPHELES.\nEs sollt Euch eben nicht verdrießen,\nUmsonst auch etwas zu genießen.\nJetzt, da der Himmel voller Sterne glüht,\nSollt Ihr ein wahres Kunststück hören.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-010",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c22-dense-008.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 2072,
+      "anchor": "FAUST.\nSo ist es recht! Mir tut es weh,\nWenn ich ohne Geschenke zu ihr geh.\n\nMEPHISTOPHELES.\nEs soll"
+    },
+    {
+      "id": "c22-dense-009",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 2316,
+      "source_end": 2555,
+      "source_text": "\nIch sing ihr ein moralisch Lied,\nUm sie gewisser zu betören.\n(Singt zur Zither.)\nWas machst du mir\nVor Liebchens Tür,\nKathrinchen, hier\nBei frühem Tagesblicke?\nLaß, laß es sein!\nEr läßt dich ein\nAls Mädchen ein,\nAls Mädchen nicht zurücke.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c22-dense-009.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 2316,
+      "anchor": "Ich sing ihr ein moralisch Lied,\nUm sie gewisser zu betören.\n(Singt zur Zither.)\nWas machst du mir\nV"
+    },
+    {
+      "id": "c22-dense-010",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 2555,
+      "source_end": 2762,
+      "source_text": "\n\nNehmt euch in acht!\nIst es vollbracht,\nDann gute Nacht’\nIhr armen, armen Dinger!\nHabt ihr euch lieb,\nTut keinem Dieb\nNur nichts zulieb\nAls mit dem Ring am Finger.\n\nVALENTIN (tritt vor).\nWen lockst du hier?",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "VALENTIN "
+      ],
+      "reference_ids": [
+        "character-056",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c22-dense-010.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 2555,
+      "anchor": "Nehmt euch in acht!\nIst es vollbracht,\nDann gute Nacht’\nIhr armen, armen Dinger!\nHabt ihr euch lieb,"
+    },
+    {
+      "id": "c22-dense-011",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 2762,
+      "source_end": 2871,
+      "source_text": " beim Element!\nVermaledeiter Rattenfänger!\nZum Teufel erst das Instrument!\nZum Teufel hinterdrein den Sänger!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c22-dense-011.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 2762,
+      "anchor": "beim Element!\nVermaledeiter Rattenfänger!\nZum Teufel erst das Instrument!\nZum Teufel hinterdrein den"
+    },
+    {
+      "id": "c22-dense-012",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 2871,
+      "source_end": 3044,
+      "source_text": "\n\nMEPHISTOPHELES.\nDie Zither ist entzwei! an der ist nichts zu halten.\n\nVALENTIN.\nNun soll es an ein Schädelspalten!\n\nMEPHISTOPHELES (zu Faust).\nHerr Doktor, nicht gewichen!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "VALENTIN",
+        "MEPHISTOPHELES "
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-056",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c22-dense-012.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 2871,
+      "anchor": "MEPHISTOPHELES.\nDie Zither ist entzwei! an der ist nichts zu halten.\n\nVALENTIN.\nNun soll es an ein S"
+    },
+    {
+      "id": "c22-dense-013",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 3044,
+      "source_end": 3135,
+      "source_text": " Frisch!\nHart an mich an, wie ich Euch führe.\nHeraus mit Eurem Flederwisch!\nNur zugestoßen!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c22-dense-013.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 3044,
+      "anchor": "Frisch!\nHart an mich an, wie ich Euch führe.\nHeraus mit Eurem Flederwisch!\nNur zugestoßen!"
+    },
+    {
+      "id": "c22-dense-014",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 3135,
+      "source_end": 3228,
+      "source_text": " ich pariere.\n\nVALENTIN.\nPariere den!\n\nMEPHISTOPHELES.\nWarum denn nicht?\n\nVALENTIN.\nAuch den!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "VALENTIN",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-056",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c22-dense-014.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 3135,
+      "anchor": "ich pariere.\n\nVALENTIN.\nPariere den!\n\nMEPHISTOPHELES.\nWarum denn nicht?\n\nVALENTIN.\nAuch den!"
+    },
+    {
+      "id": "c22-dense-015",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 3228,
+      "source_end": 3340,
+      "source_text": "\n\nMEPHISTOPHELES.\nGewiß!\n\nVALENTIN.\nIch glaub, der Teufel ficht!\nWas ist denn das? Schon wird die Hand mir lahm.",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "VALENTIN"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-056",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c22-dense-015.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 3228,
+      "anchor": "MEPHISTOPHELES.\nGewiß!\n\nVALENTIN.\nIch glaub, der Teufel ficht!\nWas ist denn das? Schon wird die Hand"
+    },
+    {
+      "id": "c22-dense-016",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 3340,
+      "source_end": 3460,
+      "source_text": "\n\nMEPHISTOPHELES (zu Faust).\nStoß zu!\n\nVALENTIN (fällt).\nO weh!\n\nMEPHISTOPHELES.\nNun ist der Lümmel zahm!\nNun aber fort!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "VALENTIN ",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-056",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-033",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c22-dense-016.webp",
+      "source_grid": "source_images/chapter22-dense-001.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 3340,
+      "anchor": "MEPHISTOPHELES (zu Faust).\nStoß zu!\n\nVALENTIN (fällt).\nO weh!\n\nMEPHISTOPHELES.\nNun ist der Lümmel za"
+    },
+    {
+      "id": "c22-dense-017",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 3460,
+      "source_end": 3664,
+      "source_text": " Wir müssen gleich verschwinden;\nDenn schon entsteht ein mörderlich Geschrei.\nIch weiß mich trefflich mit der Polizei,\nDoch mit dem Blutbann schlecht mich abzufinden.\n\nMARTHE (am Fenster).\nHeraus! Heraus!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MARTHE "
+      ],
+      "reference_ids": [
+        "character-054",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c22-dense-017.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 3460,
+      "anchor": "Wir müssen gleich verschwinden;\nDenn schon entsteht ein mörderlich Geschrei.\nIch weiß mich trefflich"
+    },
+    {
+      "id": "c22-dense-018",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 3664,
+      "source_end": 3865,
+      "source_text": "\n\nGRETCHEN (am Fenster).\nHerbei ein Licht!\n\nMARTHE (wie oben).\nMan schilt und rauft, man schreit und ficht.\n\nVOLK.\nDa liegt schon einer tot!\n\nMARTHE (heraustretend).\nDie Mörder, sind sie denn entflohn?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "GRETCHEN ",
+        "MARTHE ",
+        "VOLK"
+      ],
+      "reference_ids": [
+        "character-053",
+        "character-054",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c22-dense-018.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 3664,
+      "anchor": "GRETCHEN (am Fenster).\nHerbei ein Licht!\n\nMARTHE (wie oben).\nMan schilt und rauft, man schreit und f"
+    },
+    {
+      "id": "c22-dense-019",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 3865,
+      "source_end": 3972,
+      "source_text": "\n\nGRETCHEN (heraustretend).\nWer liegt hier?\n\nVOLK.\nDeiner Mutter Sohn.\n\nGRETCHEN.\nAllmächtiger! welche Not!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "GRETCHEN ",
+        "VOLK",
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c22-dense-019.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 3865,
+      "anchor": "GRETCHEN (heraustretend).\nWer liegt hier?\n\nVOLK.\nDeiner Mutter Sohn.\n\nGRETCHEN.\nAllmächtiger! welche"
+    },
+    {
+      "id": "c22-dense-020",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 3972,
+      "source_end": 4105,
+      "source_text": "\n\nVALENTIN.\nIch sterbe! das ist bald gesagt\nUnd balder noch getan.\nWas steht ihr Weiber, heult und klagt?\nKommt her und hört mich an!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "VALENTIN"
+      ],
+      "reference_ids": [
+        "character-056",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c22-dense-020.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 3972,
+      "anchor": "VALENTIN.\nIch sterbe! das ist bald gesagt\nUnd balder noch getan.\nWas steht ihr Weiber, heult und kla"
+    },
+    {
+      "id": "c22-dense-021",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 4105,
+      "source_end": 4326,
+      "source_text": "\n(Alle treten um ihn.)\nMein Gretchen, sieh! du bist noch jung,\nBist gar noch nicht gescheit genung,\nMachst deine Sachen schlecht.\nIch sag dir’s im Vertrauen nur.\nDu bist doch nun einmal eine Hur,\nSo sei’s auch eben recht!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c22-dense-021.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 4105,
+      "anchor": "(Alle treten um ihn.)\nMein Gretchen, sieh! du bist noch jung,\nBist gar noch nicht gescheit genung,\nM"
+    },
+    {
+      "id": "c22-dense-022",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 4326,
+      "source_end": 4419,
+      "source_text": "\n\nGRETCHEN.\nMein Bruder! Gott! Was soll mir das?\n\nVALENTIN.\nLaß unsern Herrgott aus dem Spaß!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "GRETCHEN",
+        "VALENTIN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "character-056",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c22-dense-022.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 4326,
+      "anchor": "GRETCHEN.\nMein Bruder! Gott! Was soll mir das?\n\nVALENTIN.\nLaß unsern Herrgott aus dem Spaß!"
+    },
+    {
+      "id": "c22-dense-023",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 4419,
+      "source_end": 4899,
+      "source_text": "\nGeschehn ist leider nun geschehn\nUnd wie es gehn kann, so wird’s gehn.\nDu fingst mit einem heimlich an\nBald kommen ihrer mehre dran,\nUnd wenn dich erst ein Dutzend hat,\nSo hat dich auch die ganze Stadt.\n\nWenn erst die Schande wird geboren,\nWird sie heimlich zur Welt gebracht,\nUnd man zieht den Schleier der Nacht\nIhr über Kopf und Ohren;\nJa, man möchte sie gern ermorden.\nWächst sie aber und macht sich groß,\nDann geht sie auch bei Tage bloß\nUnd ist doch nicht schöner geworden.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c22-dense-023.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 4419,
+      "anchor": "Geschehn ist leider nun geschehn\nUnd wie es gehn kann, so wird’s gehn.\nDu fingst mit einem heimlich "
+    },
+    {
+      "id": "c22-dense-024",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 4899,
+      "source_end": 5168,
+      "source_text": "\nJe häßlicher wird ihr Gesicht,\nJe mehr sucht sie des Tages Licht.\n\nIch seh wahrhaftig schon die Zeit,\nDaß alle brave Bürgersleut,\nWie von einer angesteckten Leichen,\nVon dir, du Metze! seitab weichen.\nDir soll das Herz im Leib verzagen,\nWenn sie dir in die Augen sehn!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c22-dense-024.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 4899,
+      "anchor": "Je häßlicher wird ihr Gesicht,\nJe mehr sucht sie des Tages Licht.\n\nIch seh wahrhaftig schon die Zeit"
+    },
+    {
+      "id": "c22-dense-025",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 4,
+      "source_start": 5168,
+      "source_end": 5452,
+      "source_text": "\nSollst keine goldne Kette mehr tragen!\nIn der Kirche nicht mehr am Altar stehn!\nIn einem schönen Spitzenkragen\nDich nicht beim Tanze wohlbehagen!\nIn eine finstre Jammerecken\nUnter Bettler und Krüppel dich verstecken,\nUnd, wenn dir dann auch Gott verzeiht,\nAuf Erden sein vermaledeit!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c22-dense-025.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 5168,
+      "anchor": "Sollst keine goldne Kette mehr tragen!\nIn der Kirche nicht mehr am Altar stehn!\nIn einem schönen Spi"
+    },
+    {
+      "id": "c22-dense-026",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 3,
+      "source_start": 5452,
+      "source_end": 5619,
+      "source_text": "\n\nMARTHE.\nBefehlt Eure Seele Gott zu Gnaden!\nWollt Ihr noch Lästrung auf Euch laden?\n\nVALENTIN.\nKönnt ich dir nur an den dürren Leib,\nDu schändlich kupplerisches Weib!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MARTHE",
+        "VALENTIN"
+      ],
+      "reference_ids": [
+        "character-054",
+        "character-056",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c22-dense-026.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 5452,
+      "anchor": "MARTHE.\nBefehlt Eure Seele Gott zu Gnaden!\nWollt Ihr noch Lästrung auf Euch laden?\n\nVALENTIN.\nKönnt "
+    },
+    {
+      "id": "c22-dense-027",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 3,
+      "source_start": 5619,
+      "source_end": 5727,
+      "source_text": "\nDa hofft ich aller meiner Sünden\nVergebung reiche Maß zu finden.\n\nGRETCHEN.\nMein Bruder! Welche Höllenpein!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c22-dense-027.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 5619,
+      "anchor": "Da hofft ich aller meiner Sünden\nVergebung reiche Maß zu finden.\n\nGRETCHEN.\nMein Bruder! Welche Höll"
+    },
+    {
+      "id": "c22-dense-028",
+      "chapter": 22,
+      "chapter_title": "Nacht. Straße vor Gretchens Türe",
+      "sentence_count": 3,
+      "source_start": 5727,
+      "source_end": 5915,
+      "source_text": "\n\nVALENTIN.\nIch sage, laß die Tränen sein!\nDa du dich sprachst der Ehre los,\nGabst mir den schwersten Herzensstoß.\nIch gehe durch den Todesschlaf\nZu Gott ein als Soldat und brav.\n(Stirbt.)",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "VALENTIN"
+      ],
+      "reference_ids": [
+        "character-056",
+        "location-017"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c22-dense-028.webp",
+      "source_grid": "source_images/chapter22-dense-002.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-22.json",
+      "char_offset": 5727,
+      "anchor": "VALENTIN.\nIch sage, laß die Tränen sein!\nDa du dich sprachst der Ehre los,\nGabst mir den schwersten "
+    },
+    {
+      "id": "c23-dense-001",
+      "chapter": 23,
+      "chapter_title": "Dom",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 263,
+      "source_text": "Amt, Orgel und Gesang. Gretchen unter vielem Volke. Böser Geist hinter\nGretchen.\n\nBÖSER GEIST.\nWie anders, Gretchen, war dir’s,\nAls du noch voll Unschuld\nHier zum Altar tratst\nAus dem vergriffnen Büchelchen\nGebete lalltest,\nHalb Kinderspiele,\nHalb Gott im Herzen!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "BÖSER GEIST"
+      ],
+      "reference_ids": [
+        "location-018"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c23-dense-001.webp",
+      "source_grid": "source_images/chapter23-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        312,
+        309
+      ],
+      "native_grid_size": [
+        1259,
+        1249
+      ],
+      "adaptation": "adaptations/chapter-23.json",
+      "char_offset": 0,
+      "anchor": "Amt, Orgel und Gesang. Gretchen unter vielem Volke. Böser Geist hinter\nGretchen.\n\nBÖSER GEIST.\nWie a"
+    },
+    {
+      "id": "c23-dense-002",
+      "chapter": 23,
+      "chapter_title": "Dom",
+      "sentence_count": 4,
+      "source_start": 263,
+      "source_end": 416,
+      "source_text": "\nGretchen!\nWo steht dein Kopf?\nIn deinem Herzen\nWelche Missetat?\nBetst du für deiner Mutter Seele, die\nDurch dich zur langen, langen Pein hinüberschlief?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "location-018"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c23-dense-002.webp",
+      "source_grid": "source_images/chapter23-dense-001.png",
+      "crop_box": [
+        318,
+        3,
+        627,
+        309
+      ],
+      "native_grid_size": [
+        1259,
+        1249
+      ],
+      "adaptation": "adaptations/chapter-23.json",
+      "char_offset": 263,
+      "anchor": "Gretchen!\nWo steht dein Kopf?\nIn deinem Herzen\nWelche Missetat?\nBetst du für deiner Mutter Seele, di"
+    },
+    {
+      "id": "c23-dense-003",
+      "chapter": 23,
+      "chapter_title": "Dom",
+      "sentence_count": 4,
+      "source_start": 416,
+      "source_end": 583,
+      "source_text": "\nAuf deiner Schwelle wessen Blut?\n—Und unter deinem Herzen\nRegt sich’s nicht quillend schon\nUnd ängstet dich und sich\nMit ahnungsvoller Gegenwart?\n\nGRETCHEN.\nWeh! Weh!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-018"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c23-dense-003.webp",
+      "source_grid": "source_images/chapter23-dense-001.png",
+      "crop_box": [
+        633,
+        3,
+        941,
+        309
+      ],
+      "native_grid_size": [
+        1259,
+        1249
+      ],
+      "adaptation": "adaptations/chapter-23.json",
+      "char_offset": 416,
+      "anchor": "Auf deiner Schwelle wessen Blut?\n—Und unter deinem Herzen\nRegt sich’s nicht quillend schon\nUnd ängst"
+    },
+    {
+      "id": "c23-dense-004",
+      "chapter": 23,
+      "chapter_title": "Dom",
+      "sentence_count": 4,
+      "source_start": 583,
+      "source_end": 771,
+      "source_text": "\nWär ich der Gedanken los,\nDie mir herüber und hinüber gehen\nWider mich!\n\nCHOR.\nDies irae, dies illa\nSolvet saeclum in favilla.\n(Orgelton.)\n\nBÖSER GEIST.\nGrimm faßt dich!\nDie Posaune tönt!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "CHOR",
+        "BÖSER GEIST"
+      ],
+      "reference_ids": [
+        "location-018"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-034",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c23-dense-004.webp",
+      "source_grid": "source_images/chapter23-dense-001.png",
+      "crop_box": [
+        947,
+        3,
+        1256,
+        309
+      ],
+      "native_grid_size": [
+        1259,
+        1249
+      ],
+      "adaptation": "adaptations/chapter-23.json",
+      "char_offset": 583,
+      "anchor": "Wär ich der Gedanken los,\nDie mir herüber und hinüber gehen\nWider mich!\n\nCHOR.\nDies irae, dies illa\n"
+    },
+    {
+      "id": "c23-dense-005",
+      "chapter": 23,
+      "chapter_title": "Dom",
+      "sentence_count": 4,
+      "source_start": 771,
+      "source_end": 982,
+      "source_text": "\nDie Gräber beben!\nUnd dein Herz,\nAus Aschenruh\nZu Flammenqualen\nWieder aufgeschaffen,\nBebt auf!\n\nGRETCHEN.\nWär ich hier weg!\nMir ist, als ob die Orgel mir\nDen Atem versetzte,\nGesang mein Herz\nIm Tiefsten löste.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-018"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c23-dense-005.webp",
+      "source_grid": "source_images/chapter23-dense-001.png",
+      "crop_box": [
+        3,
+        315,
+        312,
+        621
+      ],
+      "native_grid_size": [
+        1259,
+        1249
+      ],
+      "adaptation": "adaptations/chapter-23.json",
+      "char_offset": 771,
+      "anchor": "Die Gräber beben!\nUnd dein Herz,\nAus Aschenruh\nZu Flammenqualen\nWieder aufgeschaffen,\nBebt auf!\n\nGRE"
+    },
+    {
+      "id": "c23-dense-006",
+      "chapter": 23,
+      "chapter_title": "Dom",
+      "sentence_count": 4,
+      "source_start": 982,
+      "source_end": 1154,
+      "source_text": "\n\nCHOR.\nJudex ergo cum sedebit,\nQuidquid latet adparebit,\nNil inultum remanebit.\n\nGRETCHEN.\nMir wird so eng!\nDie Mauernpfeiler\nBefangen mich!\nDas Gewölbe\nDrängt mich!—Luft!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "CHOR",
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-018"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c23-dense-006.webp",
+      "source_grid": "source_images/chapter23-dense-001.png",
+      "crop_box": [
+        318,
+        315,
+        627,
+        621
+      ],
+      "native_grid_size": [
+        1259,
+        1249
+      ],
+      "adaptation": "adaptations/chapter-23.json",
+      "char_offset": 982,
+      "anchor": "CHOR.\nJudex ergo cum sedebit,\nQuidquid latet adparebit,\nNil inultum remanebit.\n\nGRETCHEN.\nMir wird s"
+    },
+    {
+      "id": "c23-dense-007",
+      "chapter": 23,
+      "chapter_title": "Dom",
+      "sentence_count": 4,
+      "source_start": 1154,
+      "source_end": 1236,
+      "source_text": "\n\nBÖSER GEIST.\nVerbirg dich! Sünd und Schande\nBleibt nicht verborgen.\nLuft? Licht?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "BÖSER GEIST"
+      ],
+      "reference_ids": [
+        "location-018"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c23-dense-007.webp",
+      "source_grid": "source_images/chapter23-dense-001.png",
+      "crop_box": [
+        633,
+        315,
+        941,
+        621
+      ],
+      "native_grid_size": [
+        1259,
+        1249
+      ],
+      "adaptation": "adaptations/chapter-23.json",
+      "char_offset": 1154,
+      "anchor": "BÖSER GEIST.\nVerbirg dich! Sünd und Schande\nBleibt nicht verborgen.\nLuft? Licht?"
+    },
+    {
+      "id": "c23-dense-008",
+      "chapter": 23,
+      "chapter_title": "Dom",
+      "sentence_count": 4,
+      "source_start": 1236,
+      "source_end": 1335,
+      "source_text": "\nWeh dir!\n\nCHOR.\nQuid sum miser tunc dicturus?\nQuem patronum rogaturus?\nCum vix justus sit securus.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "CHOR"
+      ],
+      "reference_ids": [
+        "location-018"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c23-dense-008.webp",
+      "source_grid": "source_images/chapter23-dense-001.png",
+      "crop_box": [
+        947,
+        315,
+        1256,
+        621
+      ],
+      "native_grid_size": [
+        1259,
+        1249
+      ],
+      "adaptation": "adaptations/chapter-23.json",
+      "char_offset": 1236,
+      "anchor": "Weh dir!\n\nCHOR.\nQuid sum miser tunc dicturus?\nQuem patronum rogaturus?\nCum vix justus sit securus."
+    },
+    {
+      "id": "c23-dense-009",
+      "chapter": 23,
+      "chapter_title": "Dom",
+      "sentence_count": 3,
+      "source_start": 1335,
+      "source_end": 1444,
+      "source_text": "\n\nBÖSER GEIST.\nIhr Antlitz wenden\nVerklärte von dir ab.\nDie Hände dir zu reichen,\nSchauert’s den Reinen.\nWeh!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "BÖSER GEIST"
+      ],
+      "reference_ids": [
+        "location-018"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c23-dense-009.webp",
+      "source_grid": "source_images/chapter23-dense-001.png",
+      "crop_box": [
+        3,
+        627,
+        312,
+        934
+      ],
+      "native_grid_size": [
+        1259,
+        1249
+      ],
+      "adaptation": "adaptations/chapter-23.json",
+      "char_offset": 1335,
+      "anchor": "BÖSER GEIST.\nIhr Antlitz wenden\nVerklärte von dir ab.\nDie Hände dir zu reichen,\nSchauert’s den Reine"
+    },
+    {
+      "id": "c23-dense-010",
+      "chapter": 23,
+      "chapter_title": "Dom",
+      "sentence_count": 3,
+      "source_start": 1444,
+      "source_end": 1544,
+      "source_text": "\n\nCHOR.\nQuid sum miser tunc dicturus?\nGRETCHEN.\nNachbarin! Euer Fläschchen!\n(Sie fällt in Ohnmacht.)",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "CHOR",
+        "GRETCHEN"
+      ],
+      "reference_ids": [
+        "character-053",
+        "location-018"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-035",
+      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c23-dense-010.webp",
+      "source_grid": "source_images/chapter23-dense-001.png",
+      "crop_box": [
+        318,
+        627,
+        627,
+        934
+      ],
+      "native_grid_size": [
+        1259,
+        1249
+      ],
+      "adaptation": "adaptations/chapter-23.json",
+      "char_offset": 1444,
+      "anchor": "CHOR.\nQuid sum miser tunc dicturus?\nGRETCHEN.\nNachbarin! Euer Fläschchen!\n(Sie fällt in Ohnmacht.)"
     }
   ]
 }

@@ -10,7 +10,7 @@ lines=(r/'dist/faust.txt').read_text(encoding='utf-8-sig').splitlines();contents
 for title in titles:
  i=next(i for i in range(cursor,len(lines)) if lines[i].strip().rstrip('.')==title.rstrip('.'));positions.append(i);cursor=i+1
 reports=[]
-for ch in range(1,18):
+for ch in range(1,len(audit["chapters"])+1):
  s=BeautifulSoup((r/f'chapter-{ch:02}.html').read_text(encoding='utf-8'),'html.parser');d=json.loads((r/f'adaptations/chapter-{ch:02}.json').read_text(encoding='utf-8'));before=audit['chapters'][ch-1]['protected']
  actual=dict(source=[x.get_text() for x in s.select('article pre[lang="de"]')],translations=[x.get_text() for x in s.select('article .ko-translation')],images=[x['src'] for x in s.select('article figure img')],anchors=[x.get('data-scene') for x in s.select('.illustrated-scene')])
  assert actual==before and not s.select('details.source-fold[open]')
@@ -50,4 +50,4 @@ for ch in range(1,18):
 assert len({e['filename'] for e in index['segments']})==len(index['segments'])
 assert len(index['segments'])==sum(x['tts_segments'] for x in reports)
 (r/'dialogue-cast-verification.json').write_text(json.dumps(dict(status='passed',cast_profiles=len(cast['profiles']),reference_entries_covered=len(ids),chapters=reports,tts_segments=len(index['segments']),audio_generated=False,listening_test=False),ensure_ascii=False,indent=2),encoding='utf-8')
-print('PASS:17 chapters;128 reference entries covered;cast/role/effect/index aligned')
+print('PASS: completed chapters;128 reference entries covered;cast/role/effect/index aligned')

@@ -1,6 +1,6 @@
 # 파우스트 Gemini Canvas TTS
 
-현재 본문·배역 기준: dialogue-cast-v3 / CAST-2026-11-18. 모델은 `gemini-2.5-flash-preview-tts`. 1~17장 전체1188구간. 원문·대응 번역·메뉴·화자 라벨은 낭독하지 않는다.
+현재 본문·배역 기준: dialogue-cast-v3 / CAST-2026-11-18. 모델은 `gemini-2.5-flash-preview-tts`. 1~23장 전체1353구간. 원문·대응 번역·메뉴·화자 라벨은 낭독하지 않는다.
 
 [성우·연기 설정](../voice-cast.html) · [배역 원본 JSON](../voice-cast.json) · [제작 규칙](../FAUST_PRODUCTION_GUIDELINES.md)
 
@@ -49,6 +49,18 @@
 |16|27|14|1|[Canvas HTML](FAUST_C16_V04_GEMINI_CANVAS_TTS.html)|
 
 |17|67|26|2|[Canvas HTML](FAUST_C17_V04_GEMINI_CANVAS_TTS.html)|
+
+|18|5|0|2|[Canvas HTML](FAUST_C18_V04_GEMINI_CANVAS_TTS.html)|
+
+|19|70|50|0|[Canvas HTML](FAUST_C19_V04_GEMINI_CANVAS_TTS.html)|
+
+|20|23|14|1|[Canvas HTML](FAUST_C20_V04_GEMINI_CANVAS_TTS.html)|
+
+|21|5|1|0|[Canvas HTML](FAUST_C21_V04_GEMINI_CANVAS_TTS.html)|
+
+|22|46|18|0|[Canvas HTML](FAUST_C22_V04_GEMINI_CANVAS_TTS.html)|
+
+|23|16|6|0|[Canvas HTML](FAUST_C23_V04_GEMINI_CANVAS_TTS.html)|
 
 
 

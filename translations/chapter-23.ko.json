@@ -1,0 +1,78 @@
+{
+  "chapter": 23,
+  "status": "complete",
+  "source_total_chars": 1544,
+  "covered_end": 1544,
+  "segments": [
+    {
+      "id": "C23-T001",
+      "source_start": 0,
+      "source_end": 263,
+      "source": "Amt, Orgel und Gesang. Gretchen unter vielem Volke. Böser Geist hinter\nGretchen.\n\nBÖSER GEIST.\nWie anders, Gretchen, war dir’s,\nAls du noch voll Unschuld\nHier zum Altar tratst\nAus dem vergriffnen Büchelchen\nGebete lalltest,\nHalb Kinderspiele,\nHalb Gott im Herzen!",
+      "ko": "미사, 오르간과 노래. 많은 사람 사이에 그레첸이 있고, 뒤에는 악령이 있다.\n악령: 그레첸, 순수하던 네가 이 제단에 나왔을 때는 참 달랐지. 손때 묻은 작은 책을 보고 기도를 더듬었지. 반쯤은 아이의 놀이였고, 반쯤은 마음에 하느님을 품고 있었어!"
+    },
+    {
+      "id": "C23-T002",
+      "source_start": 263,
+      "source_end": 416,
+      "source": "\nGretchen!\nWo steht dein Kopf?\nIn deinem Herzen\nWelche Missetat?\nBetst du für deiner Mutter Seele, die\nDurch dich zur langen, langen Pein hinüberschlief?",
+      "ko": "그레첸! 정신은 어디 가 있지? 네 마음속에는 무슨 죄가 있지? 너 때문에 잠들어 길고 긴 고통에 들어간 어머니의 영혼을 위해 기도하니?"
+    },
+    {
+      "id": "C23-T003",
+      "source_start": 416,
+      "source_end": 583,
+      "source": "\nAuf deiner Schwelle wessen Blut?\n—Und unter deinem Herzen\nRegt sich’s nicht quillend schon\nUnd ängstet dich und sich\nMit ahnungsvoller Gegenwart?\n\nGRETCHEN.\nWeh! Weh!",
+      "ko": "네 문턱에 흐른 건 누구의 피지? 네 가슴 아래서 벌써 새 생명이 꿈틀거리며, 앞으로 닥칠 일을 예감하듯 너와 자신을 두렵게 하지 않니?\n그레첸: 아, 괴로워!"
+    },
+    {
+      "id": "C23-T004",
+      "source_start": 583,
+      "source_end": 771,
+      "source": "\nWär ich der Gedanken los,\nDie mir herüber und hinüber gehen\nWider mich!\n\nCHOR.\nDies irae, dies illa\nSolvet saeclum in favilla.\n(Orgelton.)\n\nBÖSER GEIST.\nGrimm faßt dich!\nDie Posaune tönt!",
+      "ko": "나를 공격하듯 이리저리 오가는 이 생각들에서 벗어날 수 있다면!\n합창: 분노의 날, 그날은 세상을 재로 녹이리라. (오르간 소리.)\n악령: 분노가 너를 덮친다! 나팔 소리가 울린다!"
+    },
+    {
+      "id": "C23-T005",
+      "source_start": 771,
+      "source_end": 982,
+      "source": "\nDie Gräber beben!\nUnd dein Herz,\nAus Aschenruh\nZu Flammenqualen\nWieder aufgeschaffen,\nBebt auf!\n\nGRETCHEN.\nWär ich hier weg!\nMir ist, als ob die Orgel mir\nDen Atem versetzte,\nGesang mein Herz\nIm Tiefsten löste.",
+      "ko": "무덤들이 떨고, 네 심장도 재의 안식에서 되살아나 불꽃의 고통 속에서 떨리리라!\n그레첸: 여기에서 벗어나고 싶어요! 오르간이 숨을 막고, 노래가 마음 깊은 곳을 뒤흔드는 것 같아요."
+    },
+    {
+      "id": "C23-T006",
+      "source_start": 982,
+      "source_end": 1154,
+      "source": "\n\nCHOR.\nJudex ergo cum sedebit,\nQuidquid latet adparebit,\nNil inultum remanebit.\n\nGRETCHEN.\nMir wird so eng!\nDie Mauernpfeiler\nBefangen mich!\nDas Gewölbe\nDrängt mich!—Luft!",
+      "ko": "합창: 재판관이 자리에 앉으면 숨겨진 모든 것이 드러나고, 벌받지 않은 것은 하나도 남지 않으리라.\n그레첸: 너무 답답해요! 기둥들이 나를 가두고, 둥근 천장이 나를 짓눌러요! 공기가 필요해요!"
+    },
+    {
+      "id": "C23-T007",
+      "source_start": 1154,
+      "source_end": 1236,
+      "source": "\n\nBÖSER GEIST.\nVerbirg dich! Sünd und Schande\nBleibt nicht verborgen.\nLuft? Licht?",
+      "ko": "악령: 숨어 봐! 죄와 치욕은 숨겨지지 않아. 공기? 빛?"
+    },
+    {
+      "id": "C23-T008",
+      "source_start": 1236,
+      "source_end": 1335,
+      "source": "\nWeh dir!\n\nCHOR.\nQuid sum miser tunc dicturus?\nQuem patronum rogaturus?\nCum vix justus sit securus.",
+      "ko": "너에게 화가 있으리라!\n합창: 가엾은 나는 그때 무슨 말을 하리? 누구에게 보호를 청하리? 의로운 사람조차 마음 놓기 어려울 때."
+    },
+    {
+      "id": "C23-T009",
+      "source_start": 1335,
+      "source_end": 1444,
+      "source": "\n\nBÖSER GEIST.\nIhr Antlitz wenden\nVerklärte von dir ab.\nDie Hände dir zu reichen,\nSchauert’s den Reinen.\nWeh!",
+      "ko": "악령: 영광을 얻은 이들이 너에게서 얼굴을 돌린다. 순결한 이들은 네게 손 내밀기를 소름 끼쳐 한다. 화가 있으리라!"
+    },
+    {
+      "id": "C23-T010",
+      "source_start": 1444,
+      "source_end": 1544,
+      "source": "\n\nCHOR.\nQuid sum miser tunc dicturus?\nGRETCHEN.\nNachbarin! Euer Fläschchen!\n(Sie fällt in Ohnmacht.)",
+      "ko": "합창: 가엾은 나는 그때 무슨 말을 하리?\n그레첸: 이웃 아주머니! 그 작은 병 좀 주세요! (기절한다.)"
+    }
+  ]
+}

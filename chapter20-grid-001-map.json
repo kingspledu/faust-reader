@@ -1,0 +1,130 @@
+[
+  {
+    "tile": 1,
+    "scene_id": "c20-dense-001",
+    "image": "illustrations/c20-dense-001.webp",
+    "source_grid": "source_images/chapter20-dense-001.png",
+    "crop_box": [
+      3,
+      3,
+      381,
+      253
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "tile": 2,
+    "scene_id": "c20-dense-002",
+    "image": "illustrations/c20-dense-002.webp",
+    "source_grid": "source_images/chapter20-dense-001.png",
+    "crop_box": [
+      387,
+      3,
+      765,
+      253
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "tile": 3,
+    "scene_id": "c20-dense-003",
+    "image": "illustrations/c20-dense-003.webp",
+    "source_grid": "source_images/chapter20-dense-001.png",
+    "crop_box": [
+      771,
+      3,
+      1149,
+      253
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "tile": 4,
+    "scene_id": "c20-dense-004",
+    "image": "illustrations/c20-dense-004.webp",
+    "source_grid": "source_images/chapter20-dense-001.png",
+    "crop_box": [
+      1155,
+      3,
+      1533,
+      253
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "tile": 5,
+    "scene_id": "c20-dense-005",
+    "image": "illustrations/c20-dense-005.webp",
+    "source_grid": "source_images/chapter20-dense-001.png",
+    "crop_box": [
+      3,
+      259,
+      381,
+      509
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "tile": 6,
+    "scene_id": "c20-dense-006",
+    "image": "illustrations/c20-dense-006.webp",
+    "source_grid": "source_images/chapter20-dense-001.png",
+    "crop_box": [
+      387,
+      259,
+      765,
+      509
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "tile": 7,
+    "scene_id": "c20-dense-007",
+    "image": "illustrations/c20-dense-007.webp",
+    "source_grid": "source_images/chapter20-dense-001.png",
+    "crop_box": [
+      771,
+      259,
+      1149,
+      509
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "tile": 8,
+    "scene_id": "c20-dense-008",
+    "image": "illustrations/c20-dense-008.webp",
+    "source_grid": "source_images/chapter20-dense-001.png",
+    "crop_box": [
+      1155,
+      259,
+      1533,
+      509
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "chapter": 21,
+  "status": "complete",
+  "source_total_chars": 957,
+  "covered_end": 957,
+  "segments": [
+    {
+      "id": "C21-T001",
+      "source_start": 0,
+      "source_end": 262,
+      "source": "In der Mauerhöhle ein Andachtsbild der Mater dolorosa, Blumenkruge\ndavor.\nGretchen steckt frische Blumen in die Kruge.\n\nAch neige,\nDu Schmerzenreiche,\nDein Antlitz gnädig meiner Not!\n\nDas Schwert im Herzen,\nMit tausend Schmerzen\nBlickst auf zu deines Sohnes Tod.",
+      "ko": "성벽의 벽감에 슬픔의 성모상이 있고, 그 앞에 꽃병들이 놓여 있다. 그레첸이 꽃병에 새 꽃을 꽂는다.\n\n아, 슬픔에 가득한 분이여,\n제 괴로움을 향해\n자비롭게 얼굴을 숙여 주세요!\n\n가슴에 칼을 품고\n수많은 고통 속에서\n아들의 죽음을 올려다보시는 분이여."
+    },
+    {
+      "id": "C21-T002",
+      "source_start": 262,
+      "source_end": 557,
+      "source": "\n\nZum Vater blickst du,\nUnd Seufzer schickst du\nHinauf um sein’ und deine Not.\n\nWer fühlet,\nWie wühlet\nDer Schmerz mir im Gebein?\nWas mein armes Herz hier banget,\nWas es zittert, was verlanget,\nWeißt nur du, nur du allein!\n\nWohin ich immer gehe\nWie weh, wie weh, wie wehe\nWird mir im Busen hier!",
+      "ko": "아버지를 올려다보며\n아들과 당신의 괴로움을 두고\n한숨을 위로 보내시는 분이여.\n\n누가 느낄까요,\n이 아픔이 어떻게\n제 뼛속까지 파고드는지?\n가엾은 제 마음이 무엇을 두려워하고\n무엇 때문에 떨며 무엇을 바라는지,\n당신만이, 오직 당신만이 아십니다!\n\n어디에 가든\n아프고, 아프고, 너무 아파요,\n제 가슴이!"
+    },
+    {
+      "id": "C21-T003",
+      "source_start": 557,
+      "source_end": 753,
+      "source": "\nIch bin, ach! kaum alleine,\nIch wein, ich wein, ich weine,\nDas Herz zerbricht in mir.\n\nDie Scherben vor meinem Fenster\nBetaut ich mit Tränen, ach!\nAls ich am frühen Morgen\nDir diese Blumen brach.",
+      "ko": "아, 혼자 있게 되기가 무섭게\n울고, 울고, 또 울어요.\n가슴이 무너져요.\n\n이른 아침 당신께 드릴\n이 꽃을 꺾을 때\n창 앞의 화분 조각들을\n눈물로 적셨어요."
+    },
+    {
+      "id": "C21-T004",
+      "source_start": 753,
+      "source_end": 957,
+      "source": "\n\nSchien hell in meine Kammer\nDie Sonne früh herauf,\nSaß ich in allem Jammer\nIn meinem Bett schon auf.\n\nHilf! rette mich von Schmach und Tod!\nAch neige,\nDu Schmerzenreiche,\nDein Antlitz gnädig meiner Not!",
+      "ko": "아침 해가 밝게\n제 방을 비추었을 때,\n저는 이미 온갖 괴로움 속에서\n침대에 일어나 앉아 있었어요.\n\n도와주세요! 치욕과 죽음에서 저를 구해 주세요!\n아, 슬픔에 가득한 분이여,\n제 괴로움을 향해\n자비롭게 얼굴을 숙여 주세요!"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "title": "대성당",
+  "prose_revision": "dialogue-cast-v3",
+  "voice_cast": "voice-cast.json",
+  "scenes": [
+    {
+      "id": "c23-dense-001",
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그레첸은 사람들이 가득한 대성당에 들어왔다. 예전에는 작은 책을 펴고 기도를 따라 하면 마음이 편해지곤 했다. 이번에는 그 뒤에서 악령이 말을 걸었다. 악령은 그 편안했던 시절부터 떠올리게 했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "악령",
+          "cast_id": "character-058",
+          "text": "그때는 여기 와서 기도하면 마음이 편했잖아, 그레첸. 지금은 어때?"
+        }
+      ]
+    },
+    {
+      "id": "c23-dense-002",
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "악령은 그레첸이 가장 두려워하는 일을 바로 꺼냈다. 그레첸은 기도로 위로를 얻고 싶었지만, 어머니를 떠올리자 자신이 하지 말았어야 할 일을 했다는 생각이 밀려왔다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "악령",
+          "cast_id": "character-058",
+          "text": "어머니를 위해 기도하니? 네가 한 일 때문에 그렇게 되셨는데."
+        }
+      ]
+    },
+    {
+      "id": "c23-dense-003",
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "악령은 집 앞에서 숨진 오빠와 그레첸이 품은 아이까지 언급했다. 그녀가 마음속에서 잠깐이라도 밀어내려던 걱정들이 한꺼번에 되살아났다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "그레첸",
+          "cast_id": "character-053",
+          "text": "아, 괴로워……."
+        }
+      ]
+    },
+    {
+      "id": "c23-dense-004",
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "합창은 마지막 심판의 날을 노래했다. 예배에 온 다른 사람들에게는 익숙한 노래였지만, 그레첸에게는 악령의 말에 모두가 맞장구치는 것처럼 들렸다."
+        }
+      ]
+    },
+    {
+      "id": "c23-dense-005",
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "성당을 채운 오르간과 합창 소리에 그레첸은 숨쉬기 어려워졌다. 조금만 버티면 마음을 가라앉힐 수 있을 줄 알았는데, 이제는 밖으로 나가고 싶었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "그레첸",
+          "cast_id": "character-053",
+          "text": "여기서 나가고 싶어요. 숨이 막혀요."
+        }
+      ]
+    },
+    {
+      "id": "c23-dense-006",
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "합창이 숨겼던 일이 모두 드러난다고 노래했다. 그레첸은 몸을 돌리고 싶었지만 사람들이 둘러선 자리에서 움직이기 어려웠다. 큰 기둥과 천장까지 자기 쪽으로 다가오는 것 같았다."
+        }
+      ]
+    },
+    {
+      "id": "c23-dense-007",
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "악령은 숨을 고르려는 그레첸에게 도망칠 곳이 없다고 말했다. 그레첸이 죄책감과 두려움에서 벗어날 틈을 주지 않으려는 말이었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "악령",
+          "cast_id": "character-058",
+          "text": "숨어 봐. 그래도 네가 한 일이 감춰지지는 않아."
+        }
+      ]
+    },
+    {
+      "id": "c23-dense-008",
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "합창은 심판 앞에서 누구에게 도움을 구할 수 있겠느냐고 노래했다. 그레첸은 옆에 사람이 있어도 자기에게 손을 내밀어 줄 사람이 없을까 봐 두려웠다."
+        }
+      ]
+    },
+    {
+      "id": "c23-dense-009",
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "악령은 사람들이 모두 그레첸에게서 돌아설 것처럼 말했다. 혼자 버티기 어려운 그 순간, 그레첸에게는 그 말이 사실처럼 들렸다."
+        }
+      ]
+    },
+    {
+      "id": "c23-dense-010",
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그레첸은 곁의 이웃에게 겨우 도움을 청했다. 말을 마치고 버텨 보려 했지만, 눈앞이 흐려지며 정신을 잃었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "그레첸",
+          "cast_id": "character-053",
+          "text": "아주머니, 그 작은 병 좀 주세요……."
+        }
+      ]
+    }
+  ]
+}

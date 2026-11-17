@@ -4,6 +4,7 @@ Read `FAUST_PRODUCTION_GUIDELINES.md` first. Its latest2026-11-18 rules and the 
 
 - Display names: 메피스토 / 그레첸. Preserve German and existing aligned Korean source translations verbatim inside closed source folds.
 - Friendly omniscient narration for middle-school readers, natural Korean dialogue based on source exchanges. No narrator labels or adaptation disclaimers. Keep inner thoughts only where needed, labelled with the character name.
+- Preserve existing dialogue and inner monologues verbatim when adding narration. Explain Mephisto's immediate intent and each character's competing wishes through the events of the scene.
 - Mephisto speaks relaxed informal Korean to Faust, enjoying his reactions; polite speech is an intentional social disguise with other people. No copied Death Note lines/actor imitation or repeated laugh syllables.
 - `adaptations/chapter-NN.json` structured `script` is canonical. Do not rerun legacy prose writers. Use `render_dialogue_script.py` to render existing structured scripts.
 - `voice-cast.json` is the single source for actor voice and persona. Model: `gemini-2.5-flash-preview-tts`. Never fall back silently for an unmapped speaker. Narration/dialogue are dry; only inner monologue gets the approved short echo and reverb with low but normally voiced delivery.

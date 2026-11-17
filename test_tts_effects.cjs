@@ -12,7 +12,7 @@ for(const [key,p] of Object.entries(ctx.presets)){
  results.push({preset:key,samples:out.length,tail_seconds:(out.length-signal.length)/rate,wav_bytes:wav.byteLength});
 }
 const loud=new Float32Array(5000).fill(1);for(const p of Object.values(ctx.presets).filter(p=>p.wet)){const out=ctx.process(loud,rate,p);for(const x of out)assert(Math.abs(x)<=.970001);}
-for(let ch=1;ch<=17;ch++){
+for(let ch=1;ch<=JSON.parse(fs.readFileSync('dialogue-cast-revision-audit.json','utf8')).chapters.length;ch++){
  const html=fs.readFileSync(`tts-canvas/FAUST_C${String(ch).padStart(2,'0')}_V04_GEMINI_CANVAS_TTS.html`,'utf8');
  assert(html.includes("turn.kind==='monologue')"));assert(html.includes('innerVoice ? faustProcess(resampledData,44100,FAUST_EFFECTS.echo)'));assert(html.includes("effect:turns[index].kind==='monologue'?'echo-v4':'dry'"));
  const episode=JSON.parse(html.match(/const originalEpisode = (.*?);\s*const originalStory =/s)[1]);
@@ -20,4 +20,4 @@ for(let ch=1;ch<=17;ch++){
  for(const scene of episode.scenes)for(const s of scene.segments)assert.equal(s.performance.audio_effect,s.kind==='monologue'?'echo-v4':'dry');
 }
 const lab=fs.readFileSync('tts-canvas/FAUST_MONOLOGUE_FX_LAB_V04.html','utf8');const js=lab.match(/<script>([\s\S]*?)<\/script>/)[1];new vm.Script(js);
-fs.writeFileSync('tts-canvas/effects-test-report.json',JSON.stringify({automated_dsp:'passed',presets:results,chapters:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],listening_test:'not performed',canvas_download:'not performed'},null,2));console.log('PASS: six presets, tail, dry bypass, clipping, deterministic WAV, seventeen chapter routes, lab syntax');
+fs.writeFileSync('tts-canvas/effects-test-report.json',JSON.stringify({automated_dsp:'passed',presets:results,chapters:JSON.parse(fs.readFileSync('dialogue-cast-revision-audit.json','utf8')).chapters.map(x=>x.chapter),listening_test:'not performed',canvas_download:'not performed'},null,2));console.log('PASS: six presets, tail, dry bypass, clipping, deterministic WAV, all completed chapter routes, lab syntax');

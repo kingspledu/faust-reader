@@ -1,0 +1,258 @@
+[
+  {
+    "tile": 1,
+    "scene_id": "c18-dense-001",
+    "image": "illustrations/c18-dense-001.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      3,
+      3,
+      312,
+      309
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 2,
+    "scene_id": "c18-dense-002",
+    "image": "illustrations/c18-dense-002.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      318,
+      3,
+      627,
+      309
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 3,
+    "scene_id": "c18-dense-003",
+    "image": "illustrations/c18-dense-003.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      633,
+      3,
+      943,
+      309
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 4,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-01.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      949,
+      3,
+      1258,
+      309
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 5,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-02.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      3,
+      315,
+      312,
+      621
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 6,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-03.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      318,
+      315,
+      627,
+      621
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 7,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-04.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      633,
+      315,
+      943,
+      621
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 8,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-05.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      949,
+      315,
+      1258,
+      621
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 9,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-06.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      3,
+      627,
+      312,
+      932
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 10,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-07.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      318,
+      627,
+      627,
+      932
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 11,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-08.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      633,
+      627,
+      943,
+      932
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 12,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-09.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      949,
+      627,
+      1258,
+      932
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 13,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-10.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      3,
+      938,
+      312,
+      1244
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 14,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-11.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      318,
+      938,
+      627,
+      1244
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 15,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-12.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      633,
+      938,
+      943,
+      1244
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  },
+  {
+    "tile": 16,
+    "scene_id": null,
+    "image": "illustrations/c18-alternative-13.webp",
+    "source_grid": "source_images/chapter18-dense-001.png",
+    "crop_box": [
+      949,
+      938,
+      1258,
+      1244
+    ],
+    "native_grid_size": [
+      1261,
+      1247
+    ]
+  }
+]

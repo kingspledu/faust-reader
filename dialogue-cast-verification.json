@@ -138,9 +138,57 @@
       "dialogue": 26,
       "monologues": 2,
       "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 18,
+      "scenes": 3,
+      "tts_segments": 5,
+      "dialogue": 0,
+      "monologues": 2,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 19,
+      "scenes": 20,
+      "tts_segments": 70,
+      "dialogue": 50,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 20,
+      "scenes": 8,
+      "tts_segments": 23,
+      "dialogue": 14,
+      "monologues": 1,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 21,
+      "scenes": 4,
+      "tts_segments": 5,
+      "dialogue": 1,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 22,
+      "scenes": 28,
+      "tts_segments": 46,
+      "dialogue": 18,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 23,
+      "scenes": 10,
+      "tts_segments": 16,
+      "dialogue": 6,
+      "monologues": 0,
+      "source_translation_images_preserved": true
     }
   ],
-  "tts_segments": 1188,
+  "tts_segments": 1353,
   "audio_generated": false,
   "listening_test": false
 }

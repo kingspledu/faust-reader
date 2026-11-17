@@ -5,7 +5,7 @@ root=Path(__file__).parent;out=root/'tts-canvas';out.mkdir(exist_ok=True)
 template=(root/'gemini_tts.html').read_text(encoding='utf-8');allindex=[]
 cast=json.loads((root/'voice-cast.json').read_text(encoding='utf-8'));profiles=cast['profiles'];model=cast['model'];cast_hash=hashlib.sha256(json.dumps(cast,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
 voice_names={name:profiles[id]['voice_name'] for name,id in cast['aliases'].items()}
-chapters_to_build=list(range(1,18))
+chapters_to_build=range(1,len(json.loads((root/"dialogue-cast-revision-audit.json").read_text(encoding="utf-8"))["chapters"])+1)
 for ch in chapters_to_build:
  soup=BeautifulSoup((root/f'chapter-{ch:02}.html').read_text(encoding='utf-8'),'html.parser');units=[]
  adaptation=json.loads((root/f'adaptations/chapter-{ch:02}.json').read_text(encoding='utf-8'))
