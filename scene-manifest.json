@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-8 complete; chapter9 first 32/46 scenes illustrated and adapted; later work pending.",
+  "scope": "Chapters 1-9 illustrated and adapted; later chapters pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -14854,6 +14854,637 @@
       "adaptation": "adaptations/chapter-09.json",
       "char_offset": 8153,
       "anchor": "(Er macht eine unanständige Gebärde.)\n\nDIE HEXE (lacht unmäßig).\nHa! Ha! Das ist in Eurer Art!\nIhr s"
+    },
+    {
+      "id": "c09-dense-033",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 4,
+      "source_start": 8293,
+      "source_end": 8503,
+      "source_text": "\n\nMEPHISTOPHELES (zu Faust).\nMein Freund, das lerne wohl verstehn!\nDies ist die Art, mit Hexen umzugehn.\n\nDIE HEXE.\nNun sagt, ihr Herren, was ihr schafft.\n\nMEPHISTOPHELES.\nEin gutes Glas von dem bekannten Saft!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "DIE HEXE",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-021",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-033.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 8293,
+      "anchor": "MEPHISTOPHELES (zu Faust).\nMein Freund, das lerne wohl verstehn!\nDies ist die Art, mit Hexen umzugeh"
+    },
+    {
+      "id": "c09-dense-034",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 4,
+      "source_start": 8503,
+      "source_end": 8841,
+      "source_text": "\nDoch muß ich Euch ums ältste bitten;\nDie Jahre doppeln seine Kraft.\n\nDIE HEXE.\nGar gern! Hier hab ich eine Flasche,\nAus der ich selbst zuweilen nasche,\nDie auch nicht mehr im mindsten stinkt;\nIch will euch gern ein Gläschen geben.\n(Leise.)\nDoch wenn es dieser Mann unvorbereitet trinkt\nSo kann er, wißt Ihr wohl, nicht eine Stunde leben.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "DIE HEXE"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-021",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-034.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 8503,
+      "anchor": "Doch muß ich Euch ums ältste bitten;\nDie Jahre doppeln seine Kraft.\n\nDIE HEXE.\nGar gern! Hier hab ic"
+    },
+    {
+      "id": "c09-dense-035",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 4,
+      "source_start": 8841,
+      "source_end": 9518,
+      "source_text": "\n\nMEPHISTOPHELES.\nEs ist ein guter Freund, dem es gedeihen soll;\nIch gönn ihm gern das Beste deiner Küche.\nZieh deinen Kreis, sprich deine Sprüche,\nUnd gib ihm eine Tasse voll!\n(Die Hexe, mit seltsamen Gebärden, zieht einen Kreis und stellt\nwunderbare\nSachen hinein; indessen fangen die Gläser an zu klingen, die Kessel zu\ntönen, und machen Musik. Zuletzt bringt sie ein großes Buch, stellt die\nMeerkatzen in den Kreis, die ihr zum Pult dienen und die Fackel halten\nmüssen. Sie winkt Fausten, zu ihr zu treten.)\n\nFAUST (zu Mephistopheles).\nNein, sage mir, was soll das werden?\nDas tolle Zeug, die rasenden Gebärden,\nDer abgeschmackteste Betrug,\nSind mir bekannt, verhaßt genug.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-021",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c09-dense-035.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 8841,
+      "anchor": "MEPHISTOPHELES.\nEs ist ein guter Freund, dem es gedeihen soll;\nIch gönn ihm gern das Beste deiner Kü"
+    },
+    {
+      "id": "c09-dense-036",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 4,
+      "source_start": 9518,
+      "source_end": 9819,
+      "source_text": "\n\nMEPHISTOPHELES.\nEi Possen! Das ist nur zum Lachen;\nSei nur nicht ein so strenger Mann!\nSie muß als Arzt ein Hokuspokus machen,\nDamit der Saft dir wohl gedeihen kann.\n(Er nötigt Fausten, in den Kreis zu treten.)\n\nDIE HEXE (mit großer Emphase fängt an, aus dem Buche zu deklamieren).\nDu mußt verstehn!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "DIE HEXE "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-021",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c09-dense-036.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 9518,
+      "anchor": "MEPHISTOPHELES.\nEi Possen! Das ist nur zum Lachen;\nSei nur nicht ein so strenger Mann!\nSie muß als A"
+    },
+    {
+      "id": "c09-dense-037",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 4,
+      "source_start": 9819,
+      "source_end": 10035,
+      "source_text": "\nAus Eins mach Zehn,\nUnd Zwei laß gehn,\nUnd Drei mach gleich,\nSo bist du reich.\nVerlier die Vier!\nAus Fünf und Sechs,\nSo sagt die Hex,\nMach Sieben und Acht,\nSo ist’s vollbracht.\nUnd Neun ist Eins,\nUnd Zehn ist keins.",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-021",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-037.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 9819,
+      "anchor": "Aus Eins mach Zehn,\nUnd Zwei laß gehn,\nUnd Drei mach gleich,\nSo bist du reich.\nVerlier die Vier!\nAus"
+    },
+    {
+      "id": "c09-dense-038",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 4,
+      "source_start": 10035,
+      "source_end": 10371,
+      "source_text": "\nDas ist das Hexen-Einmaleins!\n\nFAUST.\nMich dünkt, die Alte spricht im Fieber.\n\nMEPHISTOPHELES.\nDas ist noch lange nicht vorüber,\nIch kenn es wohl, so klingt das ganze Buch;\nIch habe manche Zeit damit verloren,\nDenn ein vollkommner Widerspruch\nBleibt gleich geheimnisvoll für Kluge wie für Toren.\nMein Freund, die Kunst ist alt und neu.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-021",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-038.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 10035,
+      "anchor": "Das ist das Hexen-Einmaleins!\n\nFAUST.\nMich dünkt, die Alte spricht im Fieber.\n\nMEPHISTOPHELES.\nDas i"
+    },
+    {
+      "id": "c09-dense-039",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 4,
+      "source_start": 10371,
+      "source_end": 10741,
+      "source_text": "\nEs war die Art zu allen Zeiten,\nDurch Drei und Eins, und Eins und Drei\nIrrtum statt Wahrheit zu verbreiten.\nSo schwätzt und lehrt man ungestört;\nWer will sich mit den Narrn befassen?\nGewöhnlich glaubt der Mensch, wenn er nur Worte hört,\nEs müsse sich dabei doch auch was denken lassen.\n\nDIE HEXE (fährt fort).\nDie hohe Kraft\nDer Wissenschaft,\nDer ganzen Welt verborgen!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "DIE HEXE "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-021",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c09-dense-039.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 10371,
+      "anchor": "Es war die Art zu allen Zeiten,\nDurch Drei und Eins, und Eins und Drei\nIrrtum statt Wahrheit zu verb"
+    },
+    {
+      "id": "c09-dense-040",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 4,
+      "source_start": 10741,
+      "source_end": 10963,
+      "source_text": "\nUnd wer nicht denkt,\nDem wird sie geschenkt,\nEr hat sie ohne Sorgen.\n\nFAUST.\nWas sagt sie uns für Unsinn vor?\nEs wird mir gleich der Kopf zerbrechen.\nMich dünkt, ich hör ein ganzes Chor\nVon hunderttausend Narren sprechen.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c09-dense-040.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 10741,
+      "anchor": "Und wer nicht denkt,\nDem wird sie geschenkt,\nEr hat sie ohne Sorgen.\n\nFAUST.\nWas sagt sie uns für Un"
+    },
+    {
+      "id": "c09-dense-041",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 4,
+      "source_start": 10963,
+      "source_end": 11366,
+      "source_text": "\n\nMEPHISTOPHELES.\nGenug, genug, o treffliche Sibylle!\nGib deinen Trank herbei, und fülle\nDie Schale rasch bis an den Rand hinan;\nDenn meinem Freund wird dieser Trunk nicht schaden.\nEr ist ein Mann von vielen Graden,\nDer manchen guten Schluck getan.\n(Die Hexe, mit vielen Zeremonien, schenkt den Trank in eine Schale,\nwie sie Faust an den Mund bringt, entsteht eine leichte Flamme.)\n\nNur frisch hinunter!",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-041.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 10963,
+      "anchor": "MEPHISTOPHELES.\nGenug, genug, o treffliche Sibylle!\nGib deinen Trank herbei, und fülle\nDie Schale ra"
+    },
+    {
+      "id": "c09-dense-042",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 4,
+      "source_start": 11366,
+      "source_end": 11552,
+      "source_text": " Immer zu!\nEs wird dir gleich das Herz erfreuen.\nBist mit dem Teufel du und du,\nUnd willst dich vor der Flamme scheuen?\n(Die Hexe löst den Kreis. Faust tritt heraus.)\n\nNun frisch hinaus!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-042.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 11366,
+      "anchor": "Immer zu!\nEs wird dir gleich das Herz erfreuen.\nBist mit dem Teufel du und du,\nUnd willst dich vor d"
+    },
+    {
+      "id": "c09-dense-043",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 4,
+      "source_start": 11552,
+      "source_end": 11764,
+      "source_text": " Du darfst nicht ruhn.\n\nDIE HEXE.\nMög Euch das Schlückchen wohl behagen!\n\nMEPHISTOPHELES (zur Hexe).\nUnd kann ich dir was zu Gefallen tun,\nSo darfst du mir’s nur auf Walpurgis sagen.\n\nDIE HEXE.\nHier ist ein Lied!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "DIE HEXE",
+        "MEPHISTOPHELES "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c09-dense-043.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 11552,
+      "anchor": "Du darfst nicht ruhn.\n\nDIE HEXE.\nMög Euch das Schlückchen wohl behagen!\n\nMEPHISTOPHELES (zur Hexe).\n"
+    },
+    {
+      "id": "c09-dense-044",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 3,
+      "source_start": 11764,
+      "source_end": 12122,
+      "source_text": " wenn Ihr’s zuweilen singt,\nSo werdet Ihr besondre Wirkung spüren.\n\nMEPHISTOPHELES (zu Faust).\nKomm nur geschwind und laß dich führen;\nDu mußt notwendig transpirieren,\nDamit die Kraft durch Inn- und Äußres dringt.\nDen edlen Müßiggang lehr ich hernach dich schätzen,\nUnd bald empfindest du mit innigem Ergetzen,\nWie sich Cupido regt und hin und wider springt.",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES "
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c09-dense-044.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 11764,
+      "anchor": "wenn Ihr’s zuweilen singt,\nSo werdet Ihr besondre Wirkung spüren.\n\nMEPHISTOPHELES (zu Faust).\nKomm n"
+    },
+    {
+      "id": "c09-dense-045",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 3,
+      "source_start": 12122,
+      "source_end": 12236,
+      "source_text": "\n\nFAUST.\nLaß mich nur schnell noch in den Spiegel schauen!\nDas Frauenbild war gar zu schön!\n\nMEPHISTOPHELES.\nNein!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c09-dense-045.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 12122,
+      "anchor": "FAUST.\nLaß mich nur schnell noch in den Spiegel schauen!\nDas Frauenbild war gar zu schön!\n\nMEPHISTOP"
+    },
+    {
+      "id": "c09-dense-046",
+      "chapter": 9,
+      "chapter_title": "Hexenküche",
+      "sentence_count": 3,
+      "source_start": 12236,
+      "source_end": 12387,
+      "source_text": " Nein! Du sollst das Muster aller Frauen\nNun bald leibhaftig vor dir sehn.\n(Leise.)\n\nDu siehst, mit diesem Trank im Leibe,\nBald Helenen in jedem Weibe.",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-050",
+        "character-123",
+        "character-052",
+        "location-006"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-022",
+      "review_note": "복약 전 노학자 상태 유지. 부엌 동물은 원숭이. 거울의 여인은 이름 없는 환영. 실제 생성 그림과 원문 의미 대조.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c09-dense-046.webp",
+      "source_grid": "source_images/chapter09-dense-003.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-09.json",
+      "char_offset": 12236,
+      "anchor": "Nein! Du sollst das Muster aller Frauen\nNun bald leibhaftig vor dir sehn.\n(Leise.)\n\nDu siehst, mit d"
     }
   ]
 }

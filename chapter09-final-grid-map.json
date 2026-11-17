@@ -1,0 +1,290 @@
+[
+  {
+    "tile": 1,
+    "scene_id": "c09-dense-033",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-033.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      3,
+      3,
+      381,
+      253
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 2,
+    "scene_id": "c09-dense-034",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-034.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      387,
+      3,
+      765,
+      253
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 3,
+    "scene_id": "c09-dense-035",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-035.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      771,
+      3,
+      1149,
+      253
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 4,
+    "scene_id": "c09-dense-036",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-036.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      1155,
+      3,
+      1533,
+      253
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 5,
+    "scene_id": "c09-dense-037",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-037.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      3,
+      259,
+      381,
+      509
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 6,
+    "scene_id": "c09-dense-038",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-038.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      387,
+      259,
+      765,
+      509
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 7,
+    "scene_id": "c09-dense-039",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-039.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      771,
+      259,
+      1149,
+      509
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 8,
+    "scene_id": "c09-dense-040",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-040.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      1155,
+      259,
+      1533,
+      509
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 9,
+    "scene_id": "c09-dense-041",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-041.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      3,
+      515,
+      381,
+      765
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 10,
+    "scene_id": "c09-dense-042",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-042.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      387,
+      515,
+      765,
+      765
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 11,
+    "scene_id": "c09-dense-043",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-043.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      771,
+      515,
+      1149,
+      765
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 12,
+    "scene_id": "c09-dense-044",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-044.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      1155,
+      515,
+      1533,
+      765
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 13,
+    "scene_id": "c09-dense-045",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-045.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      3,
+      771,
+      381,
+      1021
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 14,
+    "scene_id": "c09-dense-046",
+    "purpose": "reader_scene",
+    "image": "illustrations/c09-dense-046.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      387,
+      771,
+      765,
+      1021
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 15,
+    "scene_id": null,
+    "purpose": "unused_alternative",
+    "image": "illustrations/c09-final-alternative-01.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      771,
+      771,
+      1149,
+      1021
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  },
+  {
+    "tile": 16,
+    "scene_id": null,
+    "purpose": "unused_alternative",
+    "image": "illustrations/c09-final-alternative-02.webp",
+    "source_grid": "source_images/chapter09-dense-003.png",
+    "crop_box": [
+      1155,
+      771,
+      1533,
+      1021
+    ],
+    "native_grid_size": [
+      1536,
+      1024
+    ],
+    "status": "generated_draft"
+  }
+]

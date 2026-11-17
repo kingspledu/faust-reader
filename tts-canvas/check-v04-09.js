@@ -1,0 +1,734 @@
+
+        /* Shared, deterministic mono DSP. No network or external dependencies. */
+const FAUST_EFFECTS = {
+ dry: {label:'원음',wet:0,decay:0,pre:0,hp:0,lp:0,compress:false,delay:0},
+ intimate: {label:'가까운 속삭임 보정',wet:0,decay:0,pre:0,hp:85,lp:9000,compress:true,delay:0},
+ room: {label:'작은 방 리버브 · 추천',wet:0.20,decay:0.65,pre:25,hp:70,lp:10000,compress:false,delay:0},
+ inner: {label:'머릿속 울림',wet:0.30,decay:1.15,pre:40,hp:100,lp:6500,compress:true,delay:0},
+ echo: {label:'불안한 독백 · 짧은 에코',wet:0.15,decay:0.55,pre:30,hp:85,lp:7500,compress:false,delay:120},
+ dream: {label:'회상 · 긴 잔향',wet:0.35,decay:1.8,pre:55,hp:80,lp:6000,compress:false,delay:0}
+};
+function faustProcess(input, rate, settings) {
+ const p={...settings};
+ if (!input.length || !(rate>0)) throw Error('유효한 음성이 필요합니다.');
+ for(const x of input) if(!Number.isFinite(x)) throw Error('음성에 잘못된 샘플이 있습니다.');
+ if (p.wet===0 && !p.hp && !p.lp && !p.compress && !p.delay) return new Float32Array(input);
+ const wet=Math.max(0,Math.min(.6,p.wet||0)), decay=Math.max(.1,Math.min(3,p.decay||.65));
+ const tail=wet>0?Math.ceil((decay*1.5+(p.pre||0)/1000)*rate):p.delay?Math.ceil(.5*rate):0;
+ const out=new Float32Array(input.length+tail), clean=new Float32Array(out.length);
+ const hpA=p.hp?Math.exp(-2*Math.PI*p.hp/rate):0,lpA=p.lp?1-Math.exp(-2*Math.PI*p.lp/rate):1;
+ let previous=0,high=0,low=0,env=0;
+ for(let i=0;i<input.length;i++) {
+  let x=input[i]; if(p.hp){high=hpA*(high+x-previous);previous=x;x=high;}
+  low+=lpA*(x-low); x=low;
+  if(p.compress){env=Math.max(Math.abs(x),env*.999);if(env>.24)x*=Math.pow(.24/env,.5);x*=1.12;}
+  clean[i]=x; out[i]=x;
+ }
+ if(wet>0) {
+  // Parallel damped feedback combs; decay is approximate time to -60 dB.
+  const times=[.0297,.0371,.0411,.0437,.0531,.0617,.0713,.0797];
+  const pre=Math.round(Math.max(0,Math.min(100,p.pre||0))*rate/1000);
+  for(const time of times){
+   const len=Math.max(1,Math.round(time*rate)),ring=new Float32Array(len);
+   const feedback=Math.pow(.001,time/decay);let pos=0,damp=0;
+   for(let i=0;i<out.length;i++){
+    const y=ring[pos];damp=.65*y+.35*damp;
+    ring[pos]=(i>=pre?clean[i-pre]:0)+feedback*damp;
+    out[i]+=wet*y/times.length;pos=(pos+1)%len;
+   }
+  }
+ }
+ if(p.delay){const d=Math.round(rate*p.delay/1000);for(let i=d;i<out.length;i++)out[i]+=.15*clean[i-d];}
+ // A single global reduction prevents clipping while retaining relative dynamics.
+ let peak=0;for(const x of out)peak=Math.max(peak,Math.abs(x));
+ if(peak>.97)for(let i=0;i<out.length;i++)out[i]*=.97/peak;
+ return out;
+}
+function faustWav(samples,rate){
+ const b=new ArrayBuffer(44+samples.length*2),v=new DataView(b);
+ const str=(at,s)=>{for(let i=0;i<s.length;i++)v.setUint8(at+i,s.charCodeAt(i));};
+ str(0,'RIFF');v.setUint32(4,b.byteLength-8,true);str(8,'WAVE');str(12,'fmt ');
+ v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,1,true);v.setUint32(24,rate,true);
+ v.setUint32(28,rate*2,true);v.setUint16(32,2,true);v.setUint16(34,16,true);str(36,'data');v.setUint32(40,samples.length*2,true);
+ for(let i=0;i<samples.length;i++){const x=Math.max(-1,Math.min(1,samples[i]));v.setInt16(44+i*2,x<0?x*32768:x*32767,true);}
+ return b;
+}
+
+const apiKey = ""; 
+        const promptInput = document.getElementById('promptInput');
+        const processBtn = document.getElementById('processBtn');
+        const batchProcessBtn = document.getElementById('batchProcessBtn');
+        const resultsContainer = document.getElementById('resultsContainer');
+        const sentenceList = document.getElementById('sentenceList');
+        const voiceSelect = document.getElementById('voiceSelect');
+        const stats = document.getElementById('stats');
+        const batchStatus = document.getElementById('batchStatus');
+        const progressBarContainer = document.getElementById('progressBarContainer');
+        const progressBar = document.getElementById('progressBar');
+
+        const chooseFolderBtn = document.getElementById('chooseFolderBtn');
+        const verifyFolderBtn = document.getElementById('verifyFolderBtn');
+        const folderStatus = document.getElementById('folderStatus');
+        let retrySelection = null;
+        const retryReportStatus = document.getElementById('retryReportStatus');
+        let readOnlyFolder = false;
+        let directoryHandle = null;
+        let folderChecking = false;
+        let mergingAudio = false;
+        let fileEntries = [];
+        let currentLines = [];
+        let downloadStates = [];
+        let sentenceHandlers = []; // 개별 처리 함수 저장
+
+        // --- Audio Processing Helpers ---
+
+        // Convert PCM L16 to Float32 for resampling
+        function l16ToFloat32(uint8Array) {
+            const int16Array = new Int16Array(uint8Array.buffer);
+            const float32Array = new Float32Array(int16Array.length);
+            for (let i = 0; i < int16Array.length; i++) {
+                float32Array[i] = int16Array[i] / 32768.0;
+            }
+            return float32Array;
+        }
+
+        // Resample Audio using OfflineAudioContext
+        async function resampleAudio(floatData, fromRate, toRate) {
+            const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+            const tempCtx = new AudioContextClass();
+            const buffer = tempCtx.createBuffer(1, floatData.length, fromRate);
+            buffer.copyToChannel(floatData, 0);
+
+            await tempCtx.close();
+            const offlineCtx = new OfflineAudioContext(1, Math.ceil((buffer.length / fromRate) * toRate), toRate);
+            const source = offlineCtx.createBufferSource();
+            source.buffer = buffer;
+            source.connect(offlineCtx.destination);
+            source.start(0);
+
+            const resampledBuffer = await offlineCtx.startRendering();
+            return resampledBuffer.getChannelData(0);
+        }
+
+        // Create 16-bit PCM WAV from Float32 data
+        function float32ToWav(floatData, sampleRate) {
+            const bufferArray = new ArrayBuffer(44 + floatData.length * 2);
+            const view = new DataView(bufferArray);
+
+            const writeString = (offset, string) => {
+                for (let i = 0; i < string.length; i++) {
+                    view.setUint8(offset + i, string.charCodeAt(i));
+                }
+            };
+
+            // RIFF Header
+            writeString(0, 'RIFF');
+            view.setUint32(4, 36 + floatData.length * 2, true);
+            writeString(8, 'WAVE');
+            writeString(12, 'fmt ');
+            view.setUint32(16, 16, true);
+            view.setUint16(20, 1, true); // PCM format
+            view.setUint16(22, 1, true); // Mono
+            view.setUint32(24, sampleRate, true);
+            view.setUint32(28, sampleRate * 2, true); // Byte rate
+            view.setUint16(32, 2, true); // Block align
+            view.setUint16(34, 16, true); // Bits per sample
+            writeString(36, 'data');
+            view.setUint32(40, floatData.length * 2, true);
+
+            // PCM Data
+            let offset = 44;
+            for (let i = 0; i < floatData.length; i++) {
+                let s = Math.max(-1, Math.min(1, floatData[i]));
+                view.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+                offset += 2;
+            }
+
+            return new Blob([view], { type: 'audio/wav' });
+        }
+
+        async function generateTTS(text, voiceName, phone = false, pauseMs = 0, innerVoice = false) {
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=${apiKey}`;
+            
+            const payload = {
+                contents: [{ parts: [{ text: text }] }],
+                generationConfig: {
+                    responseModalities: ["AUDIO"],
+                    speechConfig: {
+                        voiceConfig: {
+                            prebuiltVoiceConfig: {
+                                voiceName: voiceName
+                            }
+                        }
+                    }
+                },
+                model: "gemini-2.5-flash-preview-tts"
+            };
+
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+
+            if (!response.ok) {
+                const err = await response.json();
+                throw new Error(err.error?.message || "음성 생성 실패");
+            }
+
+            const data = await response.json();
+            const inlineData = data.candidates?.[0]?.content?.parts?.find(part => part.inlineData)?.inlineData;
+            
+            if (!inlineData) throw new Error("데이터를 받지 못했습니다.");
+
+            const rawData = atob(inlineData.data);
+            const uint8Array = new Uint8Array(rawData.length);
+            for (let i = 0; i < rawData.length; i++) {
+                uint8Array[i] = rawData.charCodeAt(i);
+            }
+
+            // Extract original rate from mimeType
+            const sampleRateMatch = inlineData.mimeType.match(/rate=(\d+)/);
+            const originalRate = sampleRateMatch ? parseInt(sampleRateMatch[1]) : 24000;
+
+            // Step 1: Convert to Float32
+            const float32Data = l16ToFloat32(uint8Array);
+            
+            // Step 2: Resample to 44100Hz
+            const resampledData = await resampleAudio(float32Data, originalRate, 44100);
+
+            // Step 3: Create WAV blob
+            const outputData = innerVoice ? faustProcess(resampledData,44100,FAUST_EFFECTS.echo) : resampledData;
+            const wavBlob = float32ToWav(appendPause(outputData, 44100, pauseMs), 44100);
+            return URL.createObjectURL(wavBlob);
+        }
+
+        function showMessage(msg) {
+            document.getElementById('errorMessage').innerText = msg;
+            document.getElementById('errorModal').classList.remove('hidden');
+        }
+
+
+        const originalEpisode = {"schema_version": "faust-tts-1.0", "chapter": 9, "title": "거울 속 모습과 젊음의 약", "language": "ko-KR", "revision": "V04", "voices": {"나레이터": "Charon", "시인": "Charon", "지배인": "Orus", "희극 배우": "Puck", "라파엘": "Sulafat", "가브리엘": "Kore", "미카엘": "Orus", "메피스토펠레스": "Fenrir", "파우스트": "Orus", "바그너": "Puck", "직공 청년": "Puck", "세 번째 직공 청년": "Puck", "다섯 번째 직공 청년": "Orus", "첫 번째 하녀": "Kore", "다른 하녀": "Sulafat", "시민의 딸": "Kore", "두 번째 학생": "Puck", "첫 번째 학생": "Fenrir", "첫 번째 시민": "Orus", "거지": "Charon", "두 번째 시민": "Fenrir", "세 번째 시민": "Orus", "노파": "Sulafat", "아가테": "Kore", "군인": "Fenrir", "목동": "Puck", "춤추는 사람": "Puck", "춤추는 아가씨": "Kore", "늙은 농부": "Charon", "학생": "Puck", "프로슈": "Puck", "브란더": "Fenrir", "지벨": "Orus", "알트마이어": "Charon", "수컷 원숭이": "Puck", "암컷 원숭이": "Kore", "마녀": "Sulafat"}, "scenes": [{"scene_id": "C09", "title": "파우스트 9장", "segments": [{"id": "C09_0000", "speaker": "나레이터", "text": "술집을 나온 파우스트와 메피스토펠레스가 마녀의 부엌에 들어섰다. 낮은 화덕 위에서는 커다란 솥이 끓고 있었다. 암컷 원숭이가 솥의 거품을 걷어 냈고, 수컷 원숭이와 새끼들은 그 옆에서 몸을 녹였다. 솥에서 올라오는 김 사이로 알 수 없는 모습들이 나타났다 사라졌다.", "scene_id": "c09-dense-001", "filename": "FAUST_C09_V04_0000_c09-dense-001_NAR.wav", "voice": "Charon", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0001", "speaker": "암컷 원숭이", "text": "거품을 계속 걷어 내야 해. 잠깐만 한눈을 팔아도 넘치겠어.", "scene_id": "c09-dense-001", "filename": "FAUST_C09_V04_0001_c09-dense-001_MONF.wav", "voice": "Kore", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0002", "speaker": "나레이터", "text": "벽과 천장에는 쓰임을 짐작하기 어려운 도구들이 빼곡했다. 이곳은 마녀가 약을 만드는 부엌이었다. 젊음을 되찾게 해 주겠다던 메피스토펠레스가 데려온 곳이 하필 여기라니, 파우스트는 들어오자마자 얼굴을 찌푸렸다.", "scene_id": "c09-dense-002", "filename": "FAUST_C09_V04_0002_c09-dense-002_NAR.wav", "voice": "Charon", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0003", "speaker": "파우스트", "text": "내 몸을 저 솥에 맡기라는 건가? 이곳에서 무슨 제대로 된 약이 나오겠어.", "scene_id": "c09-dense-002", "filename": "FAUST_C09_V04_0003_c09-dense-002_FAU.wav", "voice": "Orus", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0004", "speaker": "나레이터", "text": "파우스트는 이렇게 어수선한 곳에서 몸이 나아질 수 있겠느냐고 따졌다. 자신이 바라는 것은 잃어버린 세월을 되돌려 젊어지는 일이었다. 그런데 눈앞에는 끓는 솥과 기묘한 도구들뿐이었다. 그는 서른 해나 젊어질 수 있다는 말을 쉽게 믿지 못했다.", "scene_id": "c09-dense-003", "filename": "FAUST_C09_V04_0004_c09-dense-003_NAR.wav", "voice": "Charon", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.4, "pace": "slow", "delivery": "warm_storytelling", "pause_after_ms": 650, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0005", "speaker": "파우스트", "text": "젊어지고는 싶어. 그렇다고 아무 약이나 마실 수는 없잖아.", "scene_id": "c09-dense-003", "filename": "FAUST_C09_V04_0005_c09-dense-003_FAU.wav", "voice": "Orus", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0006", "speaker": "나레이터", "text": "파우스트는 마법 말고 자연이나 학문이 찾아낸 방법은 없느냐고 물었다. 메피스토펠레스는 그런 방법도 있다고 답했다. 다만 전혀 다른 방식으로 살아야 한다며 말을 뜸 들였다. 파우스트가 그 말을 듣고 싶어 하는 것을 알았다.", "scene_id": "c09-dense-004", "filename": "FAUST_C09_V04_0006_c09-dense-004_NAR.wav", "voice": "Charon", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0007", "speaker": "메피스토펠레스", "text": "위험한 약은 싫지만 변화는 원하는군. 다른 방법을 말하면 어떤 표정을 지을까.", "scene_id": "c09-dense-004", "filename": "FAUST_C09_V04_0007_c09-dense-004_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0008", "speaker": "나레이터", "text": "메피스토펠레스가 내놓은 방법은 들로 나가 땅을 파며 사는 것이었다. 소박하게 먹고 가축과 지내며 몸을 쓰면 오래도록 젊게 살 수 있다는 말이었다. 돈도 마법도 필요 없다고 했지만, 파우스트에게는 익숙한 생활을 모두 바꾸라는 제안이었다. 그는 듣는 동안 점점 내키지 않는 표정이 되었다.", "scene_id": "c09-dense-005", "filename": "FAUST_C09_V04_0008_c09-dense-005_NAR.wav", "voice": "Charon", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0009", "speaker": "파우스트", "text": "내가 원한 건 다시 힘을 얻는 일이야. 평생 생각해 온 것들을 접고 밭만 갈라는 뜻은 아니었어.", "scene_id": "c09-dense-005", "filename": "FAUST_C09_V04_0009_c09-dense-005_FAU.wav", "voice": "Orus", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0010", "speaker": "나레이터", "text": "파우스트는 삽을 들고 사는 데 익숙하지도 않고 그런 답답한 생활은 싫다고 했다. 메피스토펠레스는 그렇다면 마녀를 찾아야 한다고 결론지었다. 다른 길을 들려준 뒤 파우스트 스스로 거절하게 한 것이다. 파우스트는 그래도 왜 꼭 그 여자여야 하느냐고 물었다.", "scene_id": "c09-dense-006", "filename": "FAUST_C09_V04_0010_c09-dense-006_NAR.wav", "voice": "Charon", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0011", "speaker": "메피스토펠레스", "text": "내가 억지로 고르라고 한 것은 아니지. 마음에 드는 길이 얼마나 남았는지 보시라고.", "scene_id": "c09-dense-006", "filename": "FAUST_C09_V04_0011_c09-dense-006_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0012", "speaker": "나레이터", "text": "파우스트는 메피스토펠레스가 직접 약을 만들면 되지 않느냐고 했다. 메피스토펠레스는 그 시간에 다리를 천 개라도 놓겠다고 과장했다. 약을 만들려면 아는 것만으로는 부족하고 오랫동안 기다릴 줄도 알아야 한다는 설명이었다. 파우스트는 원하는 일이 모두 악마의 손짓 한 번으로 되는 것은 아니라는 말을 들었다.", "scene_id": "c09-dense-007", "filename": "FAUST_C09_V04_0012_c09-dense-007_NAR.wav", "voice": "Charon", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0013", "speaker": "파우스트", "text": "무슨 일이든 해낼 듯 굴더니 이것은 못 한다는군. 결국 여기서 기다려야 하나?", "scene_id": "c09-dense-007", "filename": "FAUST_C09_V04_0013_c09-dense-007_FAU.wav", "voice": "Orus", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0014", "speaker": "나레이터", "text": "메피스토펠레스는 약이 제힘을 내려면 여러 해 동안 익어야 한다고 말했다. 악마가 만드는 법을 가르쳤어도 악마 자신이 대신할 수는 없다는 것이었다. 설명을 마친 그는 솥 옆의 원숭이들에게 눈을 돌렸다. 파우스트가 못마땅해하는 동안에도 그에게는 이곳의 소란이 재미있었다.", "scene_id": "c09-dense-008", "filename": "FAUST_C09_V04_0014_c09-dense-008_NAR.wav", "voice": "Charon", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0015", "speaker": "메피스토펠레스", "text": "저 친구들과 이야기나 나눠 볼까. 가만히 기다리는 것보다 훨씬 낫겠어.", "scene_id": "c09-dense-008", "filename": "FAUST_C09_V04_0015_c09-dense-008_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "불쾌함과 의심, 악마의 여유", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0016", "speaker": "나레이터", "text": "메피스토펠레스는 두 원숭이를 하녀와 하인처럼 부르며 주인이 없느냐고 물었다. 이들은 마녀의 부엌에서 일을 거드는 동물들이었다. 원숭이들은 주인이 잔치에 가느라 굴뚝으로 나갔다고 대답했다. 파우스트는 사람처럼 말을 주고받는 모습까지 낯설었다.", "scene_id": "c09-dense-009", "filename": "FAUST_C09_V04_0016_c09-dense-009_NAR.wav", "voice": "Charon", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0017", "speaker": "암컷 원숭이", "text": "주인님은 나가셨고 솥은 끓고 있어. 손님 질문에도 대답해야 하니 바쁘네.", "scene_id": "c09-dense-009", "filename": "FAUST_C09_V04_0017_c09-dense-009_MONF.wav", "voice": "Kore", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0018", "speaker": "나레이터", "text": "메피스토펠레스가 마녀는 얼마나 오래 돌아다니느냐고 물었다. 원숭이들은 자기들이 발을 녹이고 있는 동안이라고 답했다. 언제 돌아오는지 알 수 있는 대답은 아니었다. 메피스토펠레스는 오히려 그런 대화가 즐거운 듯 파우스트에게 동물들이 어떠냐고 물었다.", "scene_id": "c09-dense-010", "filename": "FAUST_C09_V04_0018_c09-dense-010_NAR.wav", "voice": "Charon", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0019", "speaker": "파우스트", "text": "묻는 말에 제대로 답하는 이가 하나도 없군. 언제까지 여기 있어야 하지?", "scene_id": "c09-dense-010", "filename": "FAUST_C09_V04_0019_c09-dense-010_FAU.wav", "voice": "Orus", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0020", "speaker": "나레이터", "text": "파우스트는 원숭이들이 몹시 우스꽝스럽다고 했다. 메피스토펠레스는 자신은 이런 대화가 가장 좋다며 솥에서는 무엇을 끓이느냐고 물었다. 동물들은 푸짐한 거지 수프를 만든다고 답했다. 엉뚱한 말이 오갈수록 메피스토펠레스는 더 흥미로워했다.", "scene_id": "c09-dense-011", "filename": "FAUST_C09_V04_0020_c09-dense-011_NAR.wav", "voice": "Charon", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0021", "speaker": "암컷 원숭이", "text": "저 붉은 옷 손님은 우리가 하는 말마다 받아 주네. 무서워하지도 않는군.", "scene_id": "c09-dense-011", "filename": "FAUST_C09_V04_0021_c09-dense-011_MONF.wav", "voice": "Kore", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0022", "speaker": "나레이터", "text": "수컷 원숭이가 메피스토펠레스 곁으로 다가와 아양을 부렸다. 주사위 놀이에서 이기게 해 자신을 부자로 만들어 달라는 부탁이었다. 형편이 나쁘니 돈만 생기면 괜찮아질 거라고 했다. 메피스토펠레스는 복권까지 살 수 있으면 얼마나 좋아하겠느냐며 웃었다.", "scene_id": "c09-dense-012", "filename": "FAUST_C09_V04_0022_c09-dense-012_NAR.wav", "voice": "Charon", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0023", "speaker": "수컷 원숭이", "text": "저 손님은 뭐든 할 수 있을 것 같은데. 딱 한 번만 이기게 해 주면 좋겠어.", "scene_id": "c09-dense-012", "filename": "FAUST_C09_V04_0023_c09-dense-012_MONM.wav", "voice": "Puck", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0024", "speaker": "나레이터", "text": "그사이 새끼 원숭이들이 커다란 공을 굴려 왔다. 수컷 원숭이는 그것을 세상이라고 부르며 올라가고 내려가고 쉬지 않고 구른다고 말했다. 반짝이는 공은 유리 같은 소리를 냈지만 속은 비어 있었다. 그는 장난감을 두고 세상 이야기를 늘어놓았다.", "scene_id": "c09-dense-013", "filename": "FAUST_C09_V04_0024_c09-dense-013_NAR.wav", "voice": "Charon", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0025", "speaker": "수컷 원숭이", "text": "반짝인다고 속까지 꽉 찬 것은 아니지. 저 작은 것들이 함부로 굴리면 깨질 텐데.", "scene_id": "c09-dense-013", "filename": "FAUST_C09_V04_0025_c09-dense-013_MONM.wav", "voice": "Puck", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0026", "speaker": "나레이터", "text": "수컷 원숭이는 새끼에게 공을 가까이하지 말라고 경고했다. 진흙으로 만든 것이라 깨지면 조각이 생긴다는 말이었다. 세상이라고 부르다가 금세 깨지기 쉬운 장난감처럼 다루는 모습이 우스웠다. 메피스토펠레스는 이번에는 걸려 있는 체가 무엇에 쓰는 물건인지 물었다.", "scene_id": "c09-dense-014", "filename": "FAUST_C09_V04_0026_c09-dense-014_NAR.wav", "voice": "Charon", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0027", "speaker": "수컷 원숭이", "text": "이 공은 내려놓고 다른 걸 보여 줘야겠군. 저 손님은 궁금한 것이 많은가 봐.", "scene_id": "c09-dense-014", "filename": "FAUST_C09_V04_0027_c09-dense-014_MONM.wav", "voice": "Puck", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0028", "speaker": "나레이터", "text": "수컷 원숭이가 체를 내려 들고 암컷 원숭이에게 달려갔다. 체는 작은 구멍 사이로 가루 같은 것을 거르는 도구였다. 그는 이것으로 도둑을 알아볼 수 있다며 체 너머를 보게 했다. 메피스토펠레스는 그 엉뚱한 장난을 보다가 불 가까이에 놓인 냄비도 가리켰다.", "scene_id": "c09-dense-015", "filename": "FAUST_C09_V04_0028_c09-dense-015_NAR.wav", "voice": "Charon", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0029", "speaker": "암컷 원숭이", "text": "체로 도둑을 알아본다고? 누굴 가리키는지 말도 안 하고 저러네.", "scene_id": "c09-dense-015", "filename": "FAUST_C09_V04_0029_c09-dense-015_MONF.wav", "voice": "Kore", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0030", "speaker": "나레이터", "text": "두 원숭이가 냄비도 모르느냐며 메피스토펠레스를 놀렸다. 그가 무례하다고 하자 수컷 원숭이는 털이개를 건네며 의자에 앉으라고 했다. 손님을 떠받드는 것인지 놀리는 것인지 분간하기 어려운 태도였다. 메피스토펠레스는 그런 버릇없는 대접도 재미있게 받아 주었다.", "scene_id": "c09-dense-016", "filename": "FAUST_C09_V04_0030_c09-dense-016_NAR.wav", "voice": "Charon", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0031", "speaker": "메피스토펠레스", "text": "나를 놀리는 데 제법 신이 났군. 어디까지 하는지 잠깐 지켜보지.", "scene_id": "c09-dense-016", "filename": "FAUST_C09_V04_0031_c09-dense-016_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "장난과 엉뚱한 호기심", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0032", "speaker": "나레이터", "text": "원숭이들이 메피스토펠레스를 의자로 이끄는 동안, 파우스트는 커다란 거울 앞에 멈춰 서 있었다. 거울에는 아름다운 여인의 모습이 나타났다. 가까이 다가가면 흐려지고, 조금 물러나야 다시 또렷해졌다. 그는 가장 잘 보이는 자리를 떠나지 못했다.", "scene_id": "c09-dense-017", "filename": "FAUST_C09_V04_0032_c09-dense-017_NAR.wav", "voice": "Charon", "performance": {"emotion": "아름다운 환영에 대한 갈망과 초조함", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0033", "speaker": "파우스트", "text": "누구지? 조금만 더 가까이 보고 싶은데, 다가갈수록 멀어지는 것 같아.", "scene_id": "c09-dense-017", "filename": "FAUST_C09_V04_0033_c09-dense-017_FAU.wav", "voice": "Orus", "performance": {"emotion": "아름다운 환영에 대한 갈망과 초조함", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0034", "speaker": "나레이터", "text": "파우스트는 정말 저렇게 아름다운 사람이 있을 수 있느냐고 거듭 물었다. 처음에 부엌을 둘러보며 느꼈던 불쾌함도 잠시 잊었다. 메피스토펠레스는 신이 엿새 동안 공들여 세상을 만들었으니 훌륭한 것이 나와야 한다며 농담했다. 파우스트는 그 말보다 거울 속 모습에 더 집중했다.", "scene_id": "c09-dense-018", "filename": "FAUST_C09_V04_0034_c09-dense-018_NAR.wav", "voice": "Charon", "performance": {"emotion": "아름다운 환영에 대한 갈망과 초조함", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0035", "speaker": "파우스트", "text": "이곳에 들어온 뒤로 처음 눈을 떼기 어려운 것을 보았어. 저 여인을 직접 만날 수 있을까?", "scene_id": "c09-dense-018", "filename": "FAUST_C09_V04_0035_c09-dense-018_FAU.wav", "voice": "Orus", "performance": {"emotion": "아름다운 환영에 대한 갈망과 초조함", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0036", "speaker": "나레이터", "text": "메피스토펠레스는 저런 연인을 찾아 줄 수 있다며 실컷 보라고 했다. 파우스트가 그대로 거울을 바라보자 그는 의자에 몸을 뻗었다. 털이개를 왕의 지팡이처럼 들고 왕관만 있으면 되겠다고 했다. 원숭이들은 그 말에 맞춰 왕관을 가져왔지만, 서툴게 다루다가 둘로 깨뜨렸다.", "scene_id": "c09-dense-019", "filename": "FAUST_C09_V04_0036_c09-dense-019_NAR.wav", "voice": "Charon", "performance": {"emotion": "아름다운 환영에 대한 갈망과 초조함", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0037", "speaker": "메피스토펠레스", "text": "한쪽은 거울에서 눈을 못 떼고 다른 쪽은 왕관 놀이에 빠졌군. 기다리는 시간이 지루하지는 않겠어.", "scene_id": "c09-dense-019", "filename": "FAUST_C09_V04_0037_c09-dense-019_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "아름다운 환영에 대한 갈망과 초조함", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0038", "speaker": "나레이터", "text": "원숭이들은 깨진 왕관 조각을 들고 뛰어다니며 말과 운을 맞췄다. 파우스트는 거울 앞에서 거의 미칠 것 같다고 중얼거렸다. 아무리 들여다보아도 여인에게 다가갈 수 없었기 때문이다. 메피스토펠레스는 동물들을 가리키며 자신도 어지러워진다고 농담했다.", "scene_id": "c09-dense-020", "filename": "FAUST_C09_V04_0038_c09-dense-020_NAR.wav", "voice": "Charon", "performance": {"emotion": "아름다운 환영에 대한 갈망과 초조함", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0039", "speaker": "파우스트", "text": "보이는데 닿을 수가 없어. 뒤에서는 계속 떠들고 있으니 더 마음이 급해져.", "scene_id": "c09-dense-020", "filename": "FAUST_C09_V04_0039_c09-dense-020_FAU.wav", "voice": "Orus", "performance": {"emotion": "아름다운 환영에 대한 갈망과 초조함", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0040", "speaker": "나레이터", "text": "원숭이들은 말이 잘 맞아떨어지면 생각이 된다는 식으로 떠들었다. 파우스트는 가슴이 타는 듯하다며 빨리 떠나자고 했다. 거울을 더 보고 싶으면서도 이대로 보고만 있기는 견디기 어려웠다. 메피스토펠레스는 원숭이들이 솔직한 시인들이라며 끝까지 장난을 이어 갔다.", "scene_id": "c09-dense-021", "filename": "FAUST_C09_V04_0040_c09-dense-021_NAR.wav", "voice": "Charon", "performance": {"emotion": "아름다운 환영에 대한 갈망과 초조함", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0041", "speaker": "파우스트", "text": "더 보고 있으면 달라질까? 아니, 차라리 이곳을 벗어나는 편이 낫겠어.", "scene_id": "c09-dense-021", "filename": "FAUST_C09_V04_0041_c09-dense-021_FAU.wav", "voice": "Orus", "performance": {"emotion": "아름다운 환영에 대한 갈망과 초조함", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0042", "speaker": "나레이터", "text": "소란이 이어지는 동안 암컷 원숭이가 솥을 돌보는 일을 놓쳤다. 끓던 내용물이 넘치더니 큰 불꽃이 굴뚝 위로 치솟았다. 곧 그 불길을 뚫고 마녀가 비명을 지르며 내려왔다. 부엌의 주인이 돌아오자 원숭이들의 장난이 뚝 멎었다.", "scene_id": "c09-dense-022", "filename": "FAUST_C09_V04_0042_c09-dense-022_NAR.wav", "voice": "Charon", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0043", "speaker": "암컷 원숭이", "text": "솥이 넘쳤어! 불까지 저렇게 커졌는데 주인님이 보셨잖아.", "scene_id": "c09-dense-022", "filename": "FAUST_C09_V04_0043_c09-dense-022_MONF.wav", "voice": "Kore", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0044", "speaker": "나레이터", "text": "마녀는 솥을 내버려 둬 자신을 그슬리게 했다며 암컷 원숭이를 호되게 꾸짖었다. 구부정한 몸에 낡은 겹옷을 걸친 노파는 이 부엌에서 약을 만드는 주인이었다. 돌아오자마자 불길과 소란을 만났으니 몹시 성이 나 있었다. 원숭이들은 조금 전의 기세를 잃고 움츠러들었다.", "scene_id": "c09-dense-023", "filename": "FAUST_C09_V04_0044_c09-dense-023_NAR.wav", "voice": "Charon", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.4, "pace": "slow", "delivery": "warm_storytelling", "pause_after_ms": 650, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0045", "speaker": "마녀", "text": "잠깐 집을 비운 사이에 무슨 짓을 한 거야? 솥 하나도 못 지킨단 말이냐.", "scene_id": "c09-dense-023", "filename": "FAUST_C09_V04_0045_c09-dense-023_WITCH.wav", "voice": "Sulafat", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0046", "speaker": "나레이터", "text": "그제야 마녀는 부엌 안의 두 남자를 보았다. 누구이며 무슨 일로 몰래 들어왔느냐고 다그쳤다. 붉은 옷을 입은 손님이 누구인지 아직 알아보지 못한 것이다. 파우스트는 마녀가 다가오자 더욱 이곳을 떠나고 싶어졌다.", "scene_id": "c09-dense-024", "filename": "FAUST_C09_V04_0046_c09-dense-024_NAR.wav", "voice": "Charon", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0047", "speaker": "마녀", "text": "주인도 없는 집에 마음대로 들어와 있었군. 대체 무슨 속셈이지?", "scene_id": "c09-dense-024", "filename": "FAUST_C09_V04_0047_c09-dense-024_WITCH.wav", "voice": "Sulafat", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0048", "speaker": "나레이터", "text": "마녀가 국자로 솥을 휘젓고 두 손님과 동물들에게 불꽃을 튀겼다. 원숭이들이 겁먹은 소리를 냈다. 메피스토펠레스는 털이개를 거꾸로 쥐더니 유리병과 냄비 사이를 내리쳤다. 파우스트가 질색하던 부엌은 깨지는 소리로 더 시끄러워졌다.", "scene_id": "c09-dense-025", "filename": "FAUST_C09_V04_0048_c09-dense-025_NAR.wav", "voice": "Charon", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0049", "speaker": "메피스토펠레스", "text": "나를 알아보지도 못하고 불부터 뿌리는군. 그럼 나도 네 박자에 맞춰 주지.", "scene_id": "c09-dense-025", "filename": "FAUST_C09_V04_0049_c09-dense-025_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0050", "speaker": "나레이터", "text": "메피스토펠레스는 유리가 깨지고 죽이 쏟아지는 것을 두고 그저 장난이라고 했다. 마녀의 노래에 박자를 넣는다는 빈정거림이었다. 그러다 마녀를 똑바로 보며 자신을 알아보겠느냐고 물었다. 마녀는 화가 나면서도 그의 태도에 놀라 한 걸음 물러섰다.", "scene_id": "c09-dense-026", "filename": "FAUST_C09_V04_0050_c09-dense-026_NAR.wav", "voice": "Charon", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0051", "speaker": "마녀", "text": "저렇게 태연하게 내 부엌을 부수다니. 단순히 길을 잘못 든 사람은 아닌가 봐.", "scene_id": "c09-dense-026", "filename": "FAUST_C09_V04_0051_c09-dense-026_WITCH.wav", "voice": "Sulafat", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0052", "speaker": "나레이터", "text": "메피스토펠레스는 자신이 네 주인이자 스승 아니냐며 목소리를 높였다. 마녀와 동물들을 부숴 버릴 수 있다고 위협하기까지 했다. 붉은 옷을 보고도 존중할 줄 모르느냐는 말에 마녀의 표정이 바뀌었다. 그가 누구인지 짐작하기 시작한 것이다.", "scene_id": "c09-dense-027", "filename": "FAUST_C09_V04_0052_c09-dense-027_NAR.wav", "voice": "Charon", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0053", "speaker": "메피스토펠레스", "text": "이제야 알아듣는 눈치군. 내게 성을 내기 전에 얼굴부터 살폈어야지.", "scene_id": "c09-dense-027", "filename": "FAUST_C09_V04_0053_c09-dense-027_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0054", "speaker": "나레이터", "text": "메피스토펠레스는 모자의 수탉 깃털도, 드러낸 얼굴도 못 알아보느냐고 몰아붙였다. 마녀는 마침내 자신이 누구에게 불꽃을 뿌렸는지 깨달았다. 곧장 거친 인사를 용서해 달라고 빌었다. 조금 전 손님들을 쫓아내려던 태도는 사라졌다.", "scene_id": "c09-dense-028", "filename": "FAUST_C09_V04_0054_c09-dense-028_NAR.wav", "voice": "Charon", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0055", "speaker": "마녀", "text": "이분이었어! 알아보지 못했다고 더 화내시면 어쩌지? 우선 용서를 빌어야 해.", "scene_id": "c09-dense-028", "filename": "FAUST_C09_V04_0055_c09-dense-028_WITCH.wav", "voice": "Sulafat", "performance": {"emotion": "갑작스러운 소란과 분노에서 두려움으로", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0056", "speaker": "나레이터", "text": "마녀는 말발굽도 보이지 않고 까마귀 두 마리도 없어 알아보지 못했다고 했다. 메피스토펠레스는 오래 못 만났으니 이번에는 넘어가 주겠다고 답했다. 세상이 바뀌는 동안 악마의 차림도 바뀌었다는 설명이었다. 옛이야기에 나오는 뿔과 꼬리, 발톱을 더는 드러내지 않는다고 했다.", "scene_id": "c09-dense-029", "filename": "FAUST_C09_V04_0056_c09-dense-029_NAR.wav", "voice": "Charon", "performance": {"emotion": "정체를 알아본 안도와 빈정거림", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0057", "speaker": "마녀", "text": "옷차림뿐 아니라 모습도 이렇게 바꾸셨다니. 예전 모습만 찾고 있었으니 놓칠 수밖에.", "scene_id": "c09-dense-029", "filename": "FAUST_C09_V04_0057_c09-dense-029_WITCH.wav", "voice": "Sulafat", "performance": {"emotion": "정체를 알아본 안도와 빈정거림", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0058", "speaker": "나레이터", "text": "메피스토펠레스는 없앨 수 없는 발도 가짜 종아리로 가린다고 했다. 사람들 사이에서 정체를 숨기기 위한 차림이었다. 마녀는 반가움에 춤추며 사탄이라는 이름을 불렀다. 그는 즉시 그 이름은 부르지 말라고 막았다.", "scene_id": "c09-dense-030", "filename": "FAUST_C09_V04_0058_c09-dense-030_NAR.wav", "voice": "Charon", "performance": {"emotion": "정체를 알아본 안도와 빈정거림", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0059", "speaker": "메피스토펠레스", "text": "그 이름을 크게 떠들면 인간들 틈에서 신사 행세를 하기 어렵잖아. 말귀를 알아들어야 할 텐데.", "scene_id": "c09-dense-030", "filename": "FAUST_C09_V04_0059_c09-dense-030_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "정체를 알아본 안도와 빈정거림", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0060", "speaker": "나레이터", "text": "마녀가 왜 그 이름을 싫어하느냐고 묻자, 그는 사람들은 악마를 옛이야기 속으로 밀어냈어도 악한 짓은 여전히 한다고 말했다. 자신은 다른 신사들처럼 보이고 싶으니 남작님이라고 부르라고 했다. 남작은 귀족에게 붙이는 칭호였다. 그는 귀족의 가문 표시를 보여 주는 척하며 장난을 쳤다.", "scene_id": "c09-dense-031", "filename": "FAUST_C09_V04_0060_c09-dense-031_NAR.wav", "voice": "Charon", "performance": {"emotion": "정체를 알아본 안도와 빈정거림", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0061", "speaker": "메피스토펠레스", "text": "악마라는 이름만 지우면 다 나아진 줄 알지. 겉으로 신사처럼 보이면 되는 세상이니까.", "scene_id": "c09-dense-031", "filename": "FAUST_C09_V04_0061_c09-dense-031_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "정체를 알아본 안도와 빈정거림", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0062", "speaker": "나레이터", "text": "메피스토펠레스가 상스러운 몸짓을 하자 마녀는 큰 소리로 웃었다. 여전히 짓궂다는 반응이었다. 자신을 위협하던 손님이 익숙한 주인임을 알아본 뒤로 긴장이 풀린 것이다. 파우스트는 두 사람의 거친 농담을 곁에서 지켜보았다.", "scene_id": "c09-dense-032", "filename": "FAUST_C09_V04_0062_c09-dense-032_NAR.wav", "voice": "Charon", "performance": {"emotion": "정체를 알아본 안도와 빈정거림", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0063", "speaker": "마녀", "text": "그래도 예전과 같은 구석이 있으시네. 이제 부엌을 더 부수지는 않으시겠지.", "scene_id": "c09-dense-032", "filename": "FAUST_C09_V04_0063_c09-dense-032_WITCH.wav", "voice": "Sulafat", "performance": {"emotion": "정체를 알아본 안도와 빈정거림", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0064", "speaker": "나레이터", "text": "메피스토펠레스는 파우스트에게 마녀를 상대하는 법을 잘 보아 두라고 했다. 마녀가 방문한 이유를 묻자 그는 그 유명한 약을 한 잔 달라고 했다. 부엌에 들어와 오랫동안 기다린 이유가 다시 분명해졌다. 파우스트를 젊게 만들 약이 필요했던 것이다.", "scene_id": "c09-dense-033", "filename": "FAUST_C09_V04_0064_c09-dense-033_NAR.wav", "voice": "Charon", "performance": {"emotion": "정체를 알아본 안도와 빈정거림", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0065", "speaker": "메피스토펠레스", "text": "이제 할 일을 해야겠군. 거울을 본 뒤라면 저 친구도 처음처럼 쉽게 돌아서지는 못할 거야.", "scene_id": "c09-dense-033", "filename": "FAUST_C09_V04_0065_c09-dense-033_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "정체를 알아본 안도와 빈정거림", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0066", "speaker": "나레이터", "text": "메피스토펠레스는 가장 오래된 약을 청했다. 시간이 지날수록 힘이 세진다는 이유였다. 마녀는 자신도 가끔 맛본다는 병을 내놓다가 목소리를 낮췄다. 아무 준비 없이 마시면 파우스트가 한 시간도 살지 못할 거라는 경고였다.", "scene_id": "c09-dense-034", "filename": "FAUST_C09_V04_0066_c09-dense-034_NAR.wav", "voice": "Charon", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0067", "speaker": "마녀", "text": "약은 있어. 하지만 저 사람에게 맞는 준비도 없이 건네면 큰일이 날 텐데.", "scene_id": "c09-dense-034", "filename": "FAUST_C09_V04_0067_c09-dense-034_WITCH.wav", "voice": "Sulafat", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0068", "speaker": "나레이터", "text": "메피스토펠레스는 좋은 친구에게 가장 좋은 약을 주고 싶다며 의식을 시작하라고 했다. 마녀가 바닥에 원을 그리고 물건들을 놓자 유리병과 솥이 울렸다. 원숭이들은 책을 받치고 횃불을 들도록 불려 나왔다. 파우스트는 그 광경을 보고 대체 무엇을 하려는 거냐며 다시 항의했다.", "scene_id": "c09-dense-035", "filename": "FAUST_C09_V04_0068_c09-dense-035_NAR.wav", "voice": "Charon", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.4, "pace": "slow", "delivery": "warm_storytelling", "pause_after_ms": 650, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0069", "speaker": "파우스트", "text": "약을 마시러 왔는데 왜 이런 일을 벌이지? 저 안으로 들어가도 괜찮은 건가?", "scene_id": "c09-dense-035", "filename": "FAUST_C09_V04_0069_c09-dense-035_FAU.wav", "voice": "Orus", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0070", "speaker": "나레이터", "text": "메피스토펠레스는 웃어넘길 장난이라며 너무 엄격하게 굴지 말라고 했다. 약이 잘 듣게 하려고 필요한 절차라는 설명이었다. 파우스트가 선뜻 움직이지 않자 그를 원 안으로 들어가게 했다. 마녀는 커다란 책을 펴고 힘을 주어 읽기 시작했다.", "scene_id": "c09-dense-036", "filename": "FAUST_C09_V04_0070_c09-dense-036_NAR.wav", "voice": "Charon", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0071", "speaker": "파우스트", "text": "아무렇지 않게 말한다고 믿어도 되는 건 아니야. 그래도 여기까지 와서 그냥 나갈 수 있을까?", "scene_id": "c09-dense-036", "filename": "FAUST_C09_V04_0071_c09-dense-036_FAU.wav", "voice": "Orus", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0072", "speaker": "나레이터", "text": "마녀는 하나를 열로 만들고 둘을 보내 버리라는 식의 주문을 외웠다. 넷을 잃고 다섯과 여섯을 일곱과 여덟로 바꾸라는 말도 이어졌다. 숫자는 익숙했지만 계산의 앞뒤는 맞지 않았다. 마녀는 마치 아주 중요한 지식을 가르치듯 당당하게 읊었다.", "scene_id": "c09-dense-037", "filename": "FAUST_C09_V04_0072_c09-dense-037_NAR.wav", "voice": "Charon", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.4, "pace": "slow", "delivery": "warm_storytelling", "pause_after_ms": 650, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0073", "speaker": "마녀", "text": "책을 펼쳤으니 끝까지 순서대로 해야지. 저 사람이 못마땅해해도 절차는 빼놓을 수 없어.", "scene_id": "c09-dense-037", "filename": "FAUST_C09_V04_0073_c09-dense-037_WITCH.wav", "voice": "Sulafat", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0074", "speaker": "나레이터", "text": "마녀가 그것을 마녀의 구구단이라고 부르자 파우스트는 열에 들떠 헛소리하는 것 같다고 했다. 메피스토펠레스는 책 전체가 그런 식이라며 자신도 시간을 낭비해 보았다고 답했다. 말이 완전히 모순되면 오히려 누구도 이해하지 못해 신비롭게 여긴다는 비꼼이었다. 파우스트는 지식처럼 들리는 말과 정말 뜻이 있는 말이 이렇게 다를 수 있다는 점에 짜증이 났다.", "scene_id": "c09-dense-038", "filename": "FAUST_C09_V04_0074_c09-dense-038_NAR.wav", "voice": "Charon", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0075", "speaker": "파우스트", "text": "못 알아듣는다고 모두 깊은 뜻이 있는 것은 아니지. 이 주문은 들을수록 앞뒤가 맞지 않아.", "scene_id": "c09-dense-038", "filename": "FAUST_C09_V04_0075_c09-dense-038_FAU.wav", "voice": "Orus", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0076", "speaker": "나레이터", "text": "메피스토펠레스는 하나와 셋, 셋과 하나를 내세워 진리 대신 잘못된 생각을 퍼뜨리는 수법이 오래되었다고 했다. 익숙한 종교의 숫자 표현까지 끌어와 빈정대는 말이었다. 사람들은 말만 들으면 그 안에 무슨 뜻이 있으리라 믿는다고도 했다. 마녀는 그 말과 상관없이 학문의 위대한 힘을 외쳤다.", "scene_id": "c09-dense-039", "filename": "FAUST_C09_V04_0076_c09-dense-039_NAR.wav", "voice": "Charon", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0077", "speaker": "메피스토펠레스", "text": "이해할 수 없다고 말하는 대신 더 깊은 뜻이 있겠거니 믿는 편이 편하지. 저 주문도 그렇게 버티는 거야.", "scene_id": "c09-dense-039", "filename": "FAUST_C09_V04_0077_c09-dense-039_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0078", "speaker": "나레이터", "text": "마녀는 생각하지 않는 사람에게 학문의 힘이 선물로 주어진다고 이어 갔다. 파우스트는 머리가 터질 것 같다며 불평했다. 오랫동안 생각하고 연구한 사람에게는 참기 어려운 말이었다. 그는 수많은 바보가 한꺼번에 떠드는 합창을 듣는 것 같다고 했다.", "scene_id": "c09-dense-040", "filename": "FAUST_C09_V04_0078_c09-dense-040_NAR.wav", "voice": "Charon", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0079", "speaker": "파우스트", "text": "생각하지 않아야 얻는 지식이라니. 내가 평생 해 온 일을 비웃는 것 같군.", "scene_id": "c09-dense-040", "filename": "FAUST_C09_V04_0079_c09-dense-040_FAU.wav", "voice": "Orus", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "입가의 미소가 들리는 밝은 호흡. 필요시 짧은 작은 웃음 한 번.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0080", "speaker": "나레이터", "text": "메피스토펠레스가 이제 충분하다며 주문을 끊었다. 그는 마녀를 여예언자라고 치켜세우고 약을 그릇 가득 따르라고 했다. 학위도 많고 술도 마셔 본 친구라 괜찮다는 농담까지 보탰다. 마녀가 약을 파우스트의 입 가까이 가져가자 작은 불꽃이 일었다.", "scene_id": "c09-dense-041", "filename": "FAUST_C09_V04_0080_c09-dense-041_NAR.wav", "voice": "Charon", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0081", "speaker": "파우스트", "text": "입에 대기만 해도 불이 붙잖아. 저걸 정말 삼켜도 되는 건가?", "scene_id": "c09-dense-041", "filename": "FAUST_C09_V04_0081_c09-dense-041_FAU.wav", "voice": "Orus", "performance": {"emotion": "위험한 약과 의식에 대한 불안, 모순된 주문에 대한 짜증", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0082", "speaker": "나레이터", "text": "메피스토펠레스는 악마와 허물없이 지내면서 이 정도 불꽃을 겁내느냐며 재촉했다. 파우스트는 마침내 약을 마셨다. 마녀가 의식의 원을 풀자 그는 그 밖으로 걸어 나왔다. 메피스토펠레스는 쉬지 말고 곧장 나가자고 했다.", "scene_id": "c09-dense-042", "filename": "FAUST_C09_V04_0082_c09-dense-042_NAR.wav", "voice": "Charon", "performance": {"emotion": "약을 마신 뒤의 기대와 유혹", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0083", "speaker": "파우스트", "text": "삼켰어. 이제는 돌아가기 전과 같을 수 없겠지. 몸이 어떻게 달라질까?", "scene_id": "c09-dense-042", "filename": "FAUST_C09_V04_0083_c09-dense-042_FAU.wav", "voice": "Orus", "performance": {"emotion": "약을 마신 뒤의 기대와 유혹", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0084", "speaker": "나레이터", "text": "마녀는 약이 몸에 잘 맞기를 바란다고 인사했다. 메피스토펠레스는 답례로 해 줄 일이 있으면 발푸르기스의 밤에 말하라고 했다. 마녀들이 모이는 그날 다시 만나자는 뜻이었다. 마녀는 가끔 부르면 효과가 있을 거라며 노래도 건넸다.", "scene_id": "c09-dense-043", "filename": "FAUST_C09_V04_0084_c09-dense-043_NAR.wav", "voice": "Charon", "performance": {"emotion": "약을 마신 뒤의 기대와 유혹", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0085", "speaker": "마녀", "text": "원하던 약은 드렸으니 이제 무사히 나가셨으면 좋겠어. 다음에 뵐 때 부탁할 일도 생기겠지.", "scene_id": "c09-dense-043", "filename": "FAUST_C09_V04_0085_c09-dense-043_WITCH.wav", "voice": "Sulafat", "performance": {"emotion": "약을 마신 뒤의 기대와 유혹", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0086", "speaker": "나레이터", "text": "메피스토펠레스는 약의 힘이 몸 안팎으로 퍼지려면 땀을 흘려야 한다며 파우스트를 이끌었다. 편히 쉬는 법은 나중에 배우면 된다고 했다. 사랑의 신 쿠피도가 몸속에서 뛰노는 것처럼 즐거워질 거라는 말도 덧붙였다. 파우스트는 그 말을 들으면서도 거울이 있는 쪽을 돌아보고 싶었다.", "scene_id": "c09-dense-044", "filename": "FAUST_C09_V04_0086_c09-dense-044_NAR.wav", "voice": "Charon", "performance": {"emotion": "약을 마신 뒤의 기대와 유혹", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0087", "speaker": "파우스트", "text": "약은 마셨는데 마음은 아직 저 거울 앞에 있어. 나가기 전에 한 번만 더 볼 수 없을까?", "scene_id": "c09-dense-044", "filename": "FAUST_C09_V04_0087_c09-dense-044_FAU.wav", "voice": "Orus", "performance": {"emotion": "약을 마신 뒤의 기대와 유혹", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0088", "speaker": "나레이터", "text": "파우스트는 여인의 모습이 너무 아름다웠다며 거울을 한 번만 더 보게 해 달라고 했다. 메피스토펠레스는 곧바로 거절했다. 이제 거울 속 모습 대신 실제 여인을 만나게 될 거라고 했다. 파우스트는 그 약속을 듣고도 쉽게 거울 쪽에서 몸을 돌리지 못했다.", "scene_id": "c09-dense-045", "filename": "FAUST_C09_V04_0088_c09-dense-045_NAR.wav", "voice": "Charon", "performance": {"emotion": "약을 마신 뒤의 기대와 유혹", "intensity": 0.4, "pace": "medium", "delivery": "warm_storytelling", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0089", "speaker": "파우스트", "text": "정말 저런 사람을 만날 수 있다는 걸까? 그 말이 사실이라면 따라가 보고 싶어.", "scene_id": "c09-dense-045", "filename": "FAUST_C09_V04_0089_c09-dense-045_FAU.wav", "voice": "Orus", "performance": {"emotion": "약을 마신 뒤의 기대와 유혹", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}, {"id": "C09_0090", "speaker": "나레이터", "text": "메피스토펠레스는 가장 아름다운 여인의 본보기 같은 사람을 곧 눈앞에서 보게 될 거라고 했다. 그러고는 파우스트에게 들리지 않게 말을 보탰다. 이 약을 마셨으니 누구를 보아도 헬레네처럼 보일 거라는 말이었다. 헬레네는 옛 그리스 이야기에서 뛰어난 미인으로 알려진 여인이었다. 메피스토펠레스는 파우스트가 앞으로 무엇을 보고 싶어 할지 자신이 알고 있다고 여겼다.", "scene_id": "c09-dense-046", "filename": "FAUST_C09_V04_0090_c09-dense-046_NAR.wav", "voice": "Charon", "performance": {"emotion": "약을 마신 뒤의 기대와 유혹", "intensity": 0.4, "pace": "slow", "delivery": "warm_storytelling", "pause_after_ms": 650, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "문장 앞 얕은 들숨, 끝에서 짧은 날숨. 말뜻을 덮지 않는다.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "편안한 거리의 깨끗한 나레이션. 안정된 보통 음량으로 친절하게 설명하며 속삭이지 않는다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "dry"}}, {"id": "C09_0091", "speaker": "메피스토펠레스", "text": "약이 바꾸는 것은 몸만이 아니지. 저 사람이 여인을 바라보는 눈도 달라질 거야.", "scene_id": "c09-dense-046", "filename": "FAUST_C09_V04_0091_c09-dense-046_MEP.wav", "voice": "Fenrir", "performance": {"emotion": "약을 마신 뒤의 기대와 유혹", "intensity": 0.65, "pace": "medium", "delivery": "quiet_intimate_natural_voiced_speech", "pause_after_ms": 420, "acting_notes": "중학생에게 이야기하듯 또렷하게. 의미 전환 앞에서 짧게 멈추고 핵심 단어를 살린다. 처음-중간-끝의 감정을 점차 바꾸되 고함은 피한다. 독백은 가까운 낮은 소리, 나레이션은 넓고 안정적인 호흡. 마녀는 거칠고 성급하다가 정체를 알아보면 조심스러워진다. 원숭이는 장난기 있으나 짐승 울음으로 본문을 대체하지 않는다. 파우스트의 목소리는 회춘에도 같은 인물의 음색을 유지한다. 주문을 새로 추가하거나 노래 가사를 만들어 부르지 않는다. 독백은 격한 장면에도 나직한 보통 말소리로 유지한다.", "nonverbal": "한 번의 낮고 짧은 숨 섞인 웃음. 정중한 말투 아래 장난기. 매 문장 반복 금지.", "cough_rule": "원문에 기침 사건이 없으면 기침을 넣지 않는다. 호흡·웃음·울음은 문맥에 맞을 때만 사용하며 지시문 자체는 발음하지 않는다.", "mic_direction": "가까운 사람에게 속마음을 털어놓듯 나직하고 차분하게 이야기한다. 성대를 자연스럽게 울리는 보통 말소리를 유지하고 음량만 조금 낮춘다. 속삭임으로 바꾸거나 숨만 섞인 소리를 내지 않는다. 같은 인물의 음색과 또렷한 자음, 안정적인 발성을 유지한다. 과도하게 마이크에 붙거나 귓가 ASMR처럼 숨소리·입소리를 강조하지 않는다. 감정에 맞는 웃음·울먹임은 절제하고 고함·무대 발성·전화 음질은 피한다. 낮은 음량 때문에 말끝이 사라지지 않도록 한다. 음성은 잔향 없이 깨끗하게 녹음한다. 독백의 짧은 에코는 생성 뒤 별도 후처리한다.", "audio_effect": "echo-v4"}}]}]};
+        const originalStory = JSON.stringify(originalEpisode, null, 2);
+
+        const hostVoiceSelect = document.getElementById('hostVoiceSelect');
+        let turns = [];
+        let batchRunning = false;
+        let activeRequests = 0;
+        let previewAudio = null;
+        let releaseUrls = [];
+        async function telephoneFilter(samples, rate) {
+            // Apply real telephone-band filtering only to Heo's audio, before WAV export.
+            const ctx = new OfflineAudioContext(1, samples.length, rate);
+            const buffer = ctx.createBuffer(1, samples.length, rate);
+            buffer.copyToChannel(samples, 0);
+            const source = ctx.createBufferSource(); source.buffer = buffer;
+            const high = ctx.createBiquadFilter(); high.type = 'highpass'; high.frequency.value = 300; high.Q.value = 0.707;
+            const low = ctx.createBiquadFilter(); low.type = 'lowpass'; low.frequency.value = 3400; low.Q.value = 0.707;
+            const compressor = ctx.createDynamicsCompressor();
+            compressor.threshold.value = -22; compressor.knee.value = 12; compressor.ratio.value = 3;
+            compressor.attack.value = 0.006; compressor.release.value = 0.18;
+            source.connect(high); high.connect(low); low.connect(compressor); compressor.connect(ctx.destination); source.start();
+            const rendered = await ctx.startRendering();
+            return rendered.getChannelData(0);
+        }
+        function appendPause(samples, rate, pauseMs) {
+            const count = Math.round(rate * Math.max(0, Math.min(3000, Number(pauseMs) || 0)) / 1000);
+            const output = new Float32Array(samples.length + count);
+            output.set(samples);
+            return output;
+        }
+        function lockControls() {
+            const locked = batchRunning || activeRequests > 0 || folderChecking || mergingAudio;
+            ['exportRetryBtn','importRetryBtn','clearRetryBtn','retryJsonInput','readFolderBtn','readFolderInput','loadMergeWavsBtn','loadMergeFolderBtn','mergeMp3Btn','mergeWavsInput','mergeFolderInput','mp3Bitrate','verifyFilesInput','directFolderBtn'].forEach(id => document.getElementById(id).disabled = locked);
+            chooseFolderBtn.disabled = verifyFolderBtn.disabled = document.getElementById('browserDownloadBtn').disabled = locked;
+            processBtn.disabled = batchProcessBtn.disabled = promptInput.disabled = voiceSelect.disabled = hostVoiceSelect.disabled = locked;
+            sentenceList.querySelectorAll('.play-btn, .retry-btn').forEach(button => button.disabled = locked);
+        }
+
+        const emotionNotes = {
+            neutral: '담백하고 편안하게. 정보를 전달하되 문장 안의 중요한 단어만 살짝 강조한다.',
+            surprised: '예상과 다른 답을 처음 듣는 실제 놀람. 첫 단어나 숫자에만 높낮이를 주고 곧 자연스럽게 내려온다. 비명이나 과장된 예능 리액션 금지.',
+            curious: '상대의 다음 이야기를 정말 알고 싶은 호기심. 의문문 끝을 기계적으로 올리지 말고 질문의 핵심에만 가볍게 힘을 준다.',
+            amused: '입가에 미소가 번지는 작은 재미. 말 속에 웃음기를 살짝 담되 대본에 없는 웃음은 추가하지 않는다.',
+            awkward_laugh: '본인도 조금 민망하고 우스운 듯 짧고 수줍게. 하하는 소리 내어 글자를 읽지 말고 작은 실제 웃음으로 표현한다.',
+            reflective: '잠시 기억을 더듬는 내면의 회고. 속도를 약간 낮추고 말끝에 생각이 남게 한다. 슬픈 연기를 일괄 적용하지 않는다.',
+            excited: '좋아하는 일을 설명할 때 자기도 모르게 생기는 생기. 핵심 단어에서만 속도가 조금 붙고 호흡은 유지한다. 영업 발표처럼 웅변하지 않는다.',
+            earnest: '개인 경험에서 우러난 솔직함과 진지함. 음정을 조금 낮추고 핵심 말에 무게를 싣는다. 단호함을 고함으로 표현하지 않는다.',
+            skeptical: '무례하지 않은 검증과 의문. 잠시 생각하고 차분하게 질문하며 비꼬거나 몰아붙이지 않는다.'
+        };
+        const sceneNotes = {
+            S00: '콜드 오픈. 원장은 열두 대라는 수를 아무렇지 않게 말하고 진행자는 한 박자 늦게 놀란다. 둘의 온도 차로 재미를 살린다. 웃음을 억지로 키우지 않는다.',
+            S01: '호기심을 차곡차곡 쌓는 도입. 장비 목록은 구분해서 읽고 마지막 동네 치과 원장이라는 반전은 짧게 호흡한 뒤 담백하게 밝힌다.',
+            S02: '어릴 적 컴퓨터 취미의 생기에서 접어야 했던 꿈의 씁쓸함, 생업의 현실과 개원 대출의 두려움으로 이동한다. 아버지 이야기는 무겁지만 담담하게, 진행자는 웃음기를 거둔다.',
+            S03: '비싼 견적에 대한 황당함, 몸으로 부딪힌 고생, 처음 해냈을 때의 작은 자신감 순서. 원장은 손가락 고생을 웃으며 돌아보고 이거 내가 할 수 있나에는 깨달음이 묻어난다.',
+            S04: '처음에는 생업에 대한 답답한 푸념. 친구의 한마디에서 가벼운 반전, 직접 시도하며 발견하는 재미로 전환한다. 코드를 누가 짜느냐는 질문에는 잠깐 여백. AI 협업 설명은 생생하게, 유지보수의 한계에서는 차분해진다.',
+            S05: '원장은 이미 쓰는 도구를 평범하게 설명하고 진행자는 규모를 점차 실감한다. 수치와 실제 효과는 또렷하게. 유료 소프트웨어 대체에 관한 서술은 흥분보다 관찰과 검증의 태도.',
+            S06: '돈 이야기는 민감하므로 정중하고 솔직하게. 과투자 질문을 공격적으로 읽지 않는다. 원장은 외부 시선을 떠올리며 잠시 머쓱하다가 그냥 재밌다는 진심에서 따뜻하고 편안해진다. 회수 여부 미확인은 확실하게 구분한다.',
+            S07: '차분한 회고에서 다시 찾은 취미와 주도성의 의미를 짚는다. 기술 찬양으로 부풀리지 않는다. 마지막 비용 질문에는 호기심을 다시 살리고 다음 편 예고는 가볍고 자연스럽게 여운을 남긴다.'
+        };
+        function parseTurns(text) {
+            const episode=JSON.parse(text);return episode.scenes.flatMap(scene=>scene.segments.map(segment=>({...segment,phase:scene.title,sceneId:segment.scene_id})));
+        }
+        function makePrompt(index) {
+            const turn=turns[index],p=turn.performance;
+            return `한국어 드라마 오디오북. 중학생 청자에게 친절하고 선명한 낭독. 화자: ${turn.speaker}. 목소리 정체성 고정. 전화 효과 없음.
+감정: ${p.emotion}; 강도 ${p.intensity}; 속도 ${p.pace}; 발성 ${p.delivery}.
+마이크 거리와 친밀감: ${p.mic_direction}
+연기: ${p.acting_notes}
+비언어 연기: ${p.nonverbal}
+기침/과잉 연기: ${p.cough_rule}
+앞 구간(읽지 않음): ${turns[index-1]?.text||'시작'}
+뒤 구간(읽지 않음): ${turns[index+1]?.text||'끝'}
+화자명, 괄호 지시, 메타데이터를 읽지 않는다. 본문의 단어를 추가하거나 생략하지 않는다. 비언어음은 단어가 아닌 짧은 실제 연기로만, 필요할 때만. 배경음악과 환경 효과음은 넣지 않는다. 끝 쉼 ${p.pause_after_ms}ms는 후처리한다.
+낭독 본문:
+${turn.text}`;
+        }
+        processBtn.addEventListener('click', () => {
+            if (batchRunning || activeRequests) return;
+            let parsed;
+            try { parsed = parseTurns(promptInput.value); } catch(error) { showMessage(error.message); return; }
+            if (!parsed.length) return showMessage('읽을 웹소설 대본이 없습니다.');
+            if (previewAudio) previewAudio.pause();
+            releaseUrls.forEach(url => URL.revokeObjectURL(url)); releaseUrls = [];
+            retrySelection = null; retryReportStatus.textContent = '대본 로드 완료 · 전체 항목 모드';
+            turns = parsed; currentLines = turns.map(t => t.text);
+            renderLines();
+        });
+        function renderLines() {
+            sentenceList.replaceChildren(); sentenceHandlers = []; downloadStates = []; fileEntries = [];
+            resultsContainer.classList.remove('hidden');
+            stats.textContent = `${turns.length}개 구간 · 화자 ${new Set(turns.map(t=>t.speaker)).size}명`;
+            turns.forEach((turn, index) => {
+                const card = document.createElement('div'); card.id = `card-${index}`;
+                card.className = 'bg-white p-4 rounded-xl border border-gray-200 space-y-3';
+                const label = document.createElement('div'); label.className = 'text-xs font-semibold text-blue-600';
+                label.textContent = `${turn.filename} · ${turn.speaker} · ${false?'전화 음질':'스튜디오 음질'} · ${turn.phase} · ${turn.performance.emotion || 'neutral'} · 쉼 ${turn.performance.pause_after_ms || 0}ms`;
+                const text = document.createElement('p'); text.textContent = turn.text;
+                const actions = document.createElement('div'); actions.className = 'flex gap-3 items-center';
+                const play = document.createElement('button'); play.className = 'play-btn bg-blue-50 text-blue-700 px-4 py-2 rounded-lg'; play.textContent = '생성 / 재생';
+                const download = document.createElement('a'); download.className = 'hidden bg-green-50 text-green-700 px-4 py-2 rounded-lg'; download.textContent = 'WAV 저장'; download.download = turn.filename; download.target = '_blank'; download.rel = 'noopener';
+                const status = document.createElement('span'); status.className = 'text-xs text-gray-500'; status.textContent = '대기';
+                const state = { requested: false, failed: false, voice: null, verified: false, reason: '아직 저장/검증하지 않음' };
+                downloadStates.push(state);
+                const retry = document.createElement('button');
+                retry.className = 'retry-btn bg-amber-50 text-amber-800 px-3 py-2 rounded-lg text-sm';
+                retry.textContent = '다운로드 안 됨';
+                retry.title = '실제로 저장되지 않은 파일을 다음 일괄 저장 대상으로 지정합니다.';
+                retry.addEventListener('click', () => {
+                    if (batchRunning || activeRequests) return;
+                    state.requested = false; state.verified = false; state.reason = '사용자가 미저장으로 지정';
+                    status.textContent = '재다운로드 대상 · 위 일괄 저장 버튼으로 다시 저장';
+                });
+                download.addEventListener('click', event => {
+                    if (directoryHandle && !readOnlyFolder) {
+                        event.preventDefault();
+                        if (!batchRunning && !activeRequests && !folderChecking) handler(true);
+                        return;
+                    }
+                    state.requested = true; state.failed = false;
+                    status.textContent = '다운로드 요청 완료 · 미저장 시 다운로드 안 됨 클릭';
+                });
+                actions.classList.add('flex-wrap');
+                actions.append(play,download,retry,status); card.append(label,text,actions); sentenceList.append(card);
+                let audioUrl = null, cachedVoice = null;
+                const handler = async (autoDownload = false) => {
+                    activeRequests++; lockControls();
+                    try {
+                        const voice = currentVoice(index);
+                        if (!audioUrl || cachedVoice !== voice) {
+                            state.requested = false; state.failed = false; state.verified = false;
+                            status.textContent = '생성 중…';
+                            const url = await generateTTS(makePrompt(index),voice,false,turn.performance.pause_after_ms,turn.speaker!=='나레이터');
+                            if (audioUrl) URL.revokeObjectURL(audioUrl);
+                            audioUrl = url; cachedVoice = voice; state.voice = voice; releaseUrls.push(url);
+                            download.href = url; download.classList.remove('hidden');
+                        }
+                        status.textContent = state.requested ? `다운로드 요청 완료 · ${voice}` : `생성 완료 · ${voice}`;
+                        if (autoDownload) {
+                            if (directoryHandle && !readOnlyFolder) {
+                                status.textContent = '폴더 저장 / 검증 중…';
+                                await saveVerified(index, audioUrl, voice);
+                                state.verified = state.requested = true; state.failed = false; state.reason = null;
+                                status.textContent = '폴더 저장 및 내용 검증 완료';
+                            } else { download.click(); status.textContent = '다운로드 요청 · 저장되지 않으면 WAV 저장을 직접 누르세요'; }
+                        }
+                        else {
+                            if (previewAudio) previewAudio.pause();
+                            previewAudio = new Audio(audioUrl);
+                            previewAudio.play().catch(() => { status.textContent = '음성 생성 완료 · WAV 저장 가능'; });
+                        }
+                        return audioUrl;
+                    } catch (error) { state.failed = true; state.requested = false; state.reason = error.message; status.textContent = '실패 · 재시도 가능'; showMessage(error.message); return null; }
+                    finally { activeRequests--; lockControls(); }
+                };
+                play.addEventListener('click', () => { if (!batchRunning && !activeRequests) handler(false); });
+                fileEntries.push({state, status, filename: download.download, getUrl: () => cachedVoice === currentVoice(index) ? audioUrl : null});
+                sentenceHandlers.push(handler);
+            });
+        }
+        batchProcessBtn.addEventListener('click', async () => {
+            if (batchRunning || activeRequests || folderChecking || !turns.length) return;
+            if (directoryHandle) { try { await verifyDirectory(); } catch(error) { showMessage(error.message); return; } }
+            const targets = turns.map((turn,index) => index).filter(index => {
+                if (retrySelection) return retrySelection.has(index);
+                const state = downloadStates[index];
+                const voice = turns[index].voice || hostVoiceSelect.value;
+                return (directoryHandle ? !state.verified : !state.requested) || state.failed || state.voice !== voice;
+            });
+            batchStatus.classList.remove('hidden');
+            if (!targets.length) {
+                batchStatus.textContent = '모든 항목의 다운로드를 요청했습니다. 저장되지 않은 파일은 다운로드 안 됨으로 지정하세요.';
+                return;
+            }
+            batchRunning = true; lockControls();
+            if (previewAudio) previewAudio.pause();
+            progressBarContainer.classList.remove('hidden'); progressBar.style.width = '0%';
+            let completed = 0, failed = 0;
+            try {
+                for (const index of targets) {
+                    batchStatus.textContent = `재처리 대상 ${completed+1} / ${targets.length} · ${turns[index].filename} · ${turns[index].speaker}`;
+                    document.getElementById(`card-${index}`).scrollIntoView({behavior:'smooth',block:'center'});
+                    const result = await sentenceHandlers[index](true);
+                    if (!result) failed++;
+                    else if (retrySelection) retrySelection.delete(index);
+                    completed++;
+                    progressBar.style.width = `${completed/targets.length*100}%`;
+                    await new Promise(resolve => setTimeout(resolve,800));
+                }
+                batchStatus.textContent = `${directoryHandle ? '폴더 저장·검증' : '다운로드 요청'} ${completed-failed}개 · 실패 ${failed}개 · 기존 요청 완료 ${turns.length-targets.length}개 건너뜀`;
+            } finally { batchRunning = false; lockControls(); }
+        });
+
+        function currentVoice(index) { return turns[index].voice || hostVoiceSelect.value; }
+        async function sha256(buffer) {
+            if (!globalThis.crypto?.subtle) throw new Error('이 환경은 파일 내용 검증을 지원하지 않습니다. HTTPS 환경에서 실행해 주세요.');
+            return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',buffer)), x=>x.toString(16).padStart(2,'0')).join('');
+        }
+        async function fingerprint(index) {
+            return sha256(new TextEncoder().encode(JSON.stringify({prompt:makePrompt(index),voice:currentVoice(index),phone:false,pause:turns[index].performance.pause_after_ms,format:'44100-mono-16bit-short-echo-v4',effect:turns[index].speaker!=='나레이터'?'echo-v4':'dry'})));
+        }
+        function validWav(bytes) {
+            if (bytes.byteLength <= 44) return false;
+            const v = new DataView(bytes);
+            const tag = off => String.fromCharCode(...new Uint8Array(bytes,off,4));
+            return tag(0)==='RIFF' && tag(8)==='WAVE' && tag(12)==='fmt ' && tag(36)==='data'
+                && v.getUint16(20,true)===1 && v.getUint16(22,true)===1 && v.getUint32(24,true)===44100
+                && v.getUint16(34,true)===16 && v.getUint32(40,true)===bytes.byteLength-44
+                && v.getUint32(4,true)===bytes.byteLength-8;
+        }
+        async function writeFile(name, data) {
+            if (readOnlyFolder) throw new Error('읽기 전용 폴더입니다. 기존 다운로드 방식으로 저장해 주세요.');
+            const handle = await directoryHandle.getFileHandle(name,{create:true});
+            const writable = await handle.createWritable();
+            try { await writable.write(data); await writable.close(); }
+            catch(error) { try { await writable.abort(); } catch {} throw error; }
+        }
+        async function readBytes(name) {
+            return (await (await directoryHandle.getFileHandle(name)).getFile()).arrayBuffer();
+        }
+        async function saveVerified(index,url,voice) {
+            const entry = fileEntries[index];
+            const response = await fetch(url);
+            if (!response.ok) throw new Error('생성된 음성을 읽을 수 없습니다.');
+            const bytes = await response.arrayBuffer();
+            if (!validWav(bytes)) throw new Error('생성된 WAV 형식이 올바르지 않습니다.');
+            const expectedHash = await sha256(bytes);
+            await writeFile(entry.filename, bytes);
+            const stored = await readBytes(entry.filename);
+            if (!validWav(stored) || stored.byteLength!==bytes.byteLength || await sha256(stored)!==expectedHash) throw new Error(entry.filename+' 저장 검증 실패');
+            const receipt = {version:1,fingerprint:await fingerprint(index),sha256:expectedHash,size:stored.byteLength,voice};
+            await writeFile(entry.filename+'.verified.json',JSON.stringify(receipt));
+            const reread = JSON.parse(new TextDecoder().decode(await readBytes(entry.filename+'.verified.json')));
+            if (reread.sha256!==receipt.sha256 || reread.fingerprint!==receipt.fingerprint) throw new Error('검증 기록 저장 실패');
+        }
+        async function verifyDirectory() {
+            if (!directoryHandle) return;
+            folderChecking = true; lockControls();
+            let present=0,missing=0,errors=0;
+            try {
+                for (const entry of fileEntries) {
+                    entry.state.verified=false;
+                    try {
+                        // Presence check only: no audio upload, decoding, hashes or receipt requirement.
+                        await (await directoryHandle.getFileHandle(entry.filename)).getFile();
+                        entry.state.verified=true; entry.state.requested=true; entry.state.failed=false;
+                        entry.state.voice=currentVoice(fileEntries.indexOf(entry)); entry.state.reason=null;
+                        entry.status.textContent='파일 있음 · 누락 검사 통과'; present++;
+                    } catch(error) {
+                        entry.state.requested=false;
+                        if(error.name==='NotFoundError') {
+                            entry.state.failed=true; entry.state.reason='파일 누락';
+                            entry.status.textContent='파일 없음 · 재다운로드 대상'; missing++;
+                        } else {
+                            entry.state.failed=false; entry.state.reason='폴더 접근 오류 · '+error.message;
+                            entry.status.textContent=entry.state.reason; errors++;
+                        }
+                    }
+                }
+                folderStatus.textContent=`${directoryHandle.name} · 파일 있음 ${present} / 누락 ${missing} / 접근 오류 ${errors} · 파일명 기준 검사`;
+                if(errors) throw new Error('폴더 접근 오류로 누락 검사를 완료하지 못했습니다. 폴더 접근 권한을 확인해 주세요.');
+            } finally { folderChecking=false; lockControls(); }
+        }
+        document.getElementById('browserDownloadBtn').addEventListener('click',()=>{
+            if(batchRunning || activeRequests || folderChecking) return;
+            directoryHandle=null; readOnlyFolder=false;
+            downloadStates.forEach(state=>{ state.requested=false; state.verified=false; });
+            folderStatus.textContent='폴더 미지정 · 기존 브라우저 다운로드 사용';
+        });
+        async function chooseDirectDirectory() {
+            if(batchRunning || activeRequests || folderChecking) return;
+            if(!window.showDirectoryPicker) { showMessage('이 실행 환경에서는 업로드 없는 폴더 접근을 지원하지 않습니다. 누락 검사를 하려면 폴더 접근을 지원하는 브라우저 환경에서 실행해야 합니다.'); return; }
+            try {
+                const chosen=await window.showDirectoryPicker({mode:'readwrite'});
+                directoryHandle=chosen; readOnlyFolder=false;
+                await verifyDirectory();
+            } catch(error) { if(error.name!=='AbortError') showMessage('폴더 접근 실패: '+error.message+' · 기존 다운로드 방식은 폴더 미지정 상태에서 사용할 수 있습니다.'); }
+        }
+        document.getElementById('directFolderBtn').addEventListener('click',chooseDirectDirectory);
+        verifyFolderBtn.addEventListener('click',async()=>{
+            if(batchRunning || activeRequests || folderChecking) return;
+            if(!directoryHandle) return showMessage('먼저 저장 폴더를 지정해 주세요.');
+            try { await verifyDirectory(); } catch(error) { showMessage(error.message); }
+        });
+
+        async function buildRetryReport() {
+            const items = [];
+            for (let index=0; index<fileEntries.length; index++) {
+                const entry=fileEntries[index];
+                const state=entry.state;
+                const selected = directoryHandle ? !state.verified : retrySelection ? retrySelection.has(index) : !state.requested || state.failed;
+                if (!selected) continue;
+                items.push({filename:entry.filename,segment_id:turns[index].id,speaker:turns[index].speaker,
+                    text:turns[index].text,voice:currentVoice(index),fingerprint:await fingerprint(index),
+                    reason:state.reason || (state.voice!==currentVoice(index)?'목소리 변경':'재다운로드 지정')});
+            }
+            return {schema:'tts-retry-list',version:1,created_at:new Date().toISOString(),
+                verification:directoryHandle?'filename-presence-only':'browser-request-status-only',
+                folder_name:directoryHandle?.name || null,total_segments:turns.length,items};
+        }
+        async function applyRetryReport(report) {
+            if (report?.schema!=='tts-retry-list' || report.version!==1 || !Array.isArray(report.items)) throw new Error('지원하는 재다운로드 JSON 형식이 아닙니다.');
+            const selected=new Set(); const updates=[];
+            for (const item of report.items) {
+                const index=fileEntries.findIndex(entry=>entry.filename===item.filename);
+                if(index<0) throw new Error('현재 대본에 없는 파일: '+String(item.filename));
+                if(item.segment_id!==turns[index].id || item.text!==turns[index].text || item.speaker!==turns[index].speaker || item.voice!==currentVoice(index) || item.fingerprint!==await fingerprint(index))
+                    throw new Error(item.filename+'의 대본·화자·목소리·연출 설정이 현재와 다릅니다. JSON을 만들 때의 대본과 목소리로 맞춰 주세요.');
+                selected.add(index); updates.push({index,reason:typeof item.reason==='string'?item.reason:'JSON에서 재다운로드 지정'});
+            }
+            // Validate the complete list before changing the current selection.
+            retrySelection=selected;
+            for(const {index,reason} of updates) {
+                const entry=fileEntries[index];
+                entry.state.requested=false; entry.state.verified=false; entry.state.reason=reason;
+                entry.status.textContent='JSON 재다운로드 대상 · '+reason;
+            }
+            retryReportStatus.textContent=`JSON 불러옴 · ${selected.size}개만 재처리합니다. 위 미저장 / 실패 항목 버튼을 누르세요.`;
+        }
+        document.getElementById('exportRetryBtn').addEventListener('click',async()=>{
+            if(batchRunning || activeRequests || folderChecking) return;
+            try {
+                if(directoryHandle) await verifyDirectory();
+                folderChecking=true; lockControls();
+                const report=await buildRetryReport();
+                const data=JSON.stringify(report,null,2);
+                const name='FAUST_C09_V04_RETRY.json';
+                if(directoryHandle && !readOnlyFolder) {
+                    await writeFile(name,data);
+                    const reread=JSON.parse(new TextDecoder().decode(await readBytes(name)));
+                    if(JSON.stringify(reread)!==JSON.stringify(report)) throw new Error('재다운로드 JSON 저장 검증 실패');
+                } else {
+                    const url=URL.createObjectURL(new Blob([data],{type:'application/json;charset=utf-8'}));
+                    const link=document.createElement('a');link.href=url;link.download=name;
+                    document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);
+                }
+                retryReportStatus.textContent=`재다운로드 JSON ${report.items.length}개 항목 ${directoryHandle && !readOnlyFolder?'폴더 저장 및 검증 완료':'다운로드 요청 완료'}${directoryHandle?'':' · 폴더 미지정으로 실제 파일 저장 여부는 미검증'}`;
+            } catch(error) { showMessage(error.message); }
+            finally { folderChecking=false;lockControls(); }
+        });
+        document.getElementById('importRetryBtn').addEventListener('click',()=>{
+            if(batchRunning || activeRequests || folderChecking) return;
+            document.getElementById('retryJsonInput').click();
+        });
+        document.getElementById('retryJsonInput').addEventListener('change',async event=>{
+            const file=event.target.files?.[0]; if(!file) return;
+            if(batchRunning || activeRequests || folderChecking) {event.target.value='';return;}
+            folderChecking=true;lockControls();
+            try { await applyRetryReport(JSON.parse((await file.text()).replace(/^\uFEFF/,''))); }
+            catch(error) {showMessage(error.message);}
+            finally {event.target.value='';folderChecking=false;lockControls();}
+        });
+        document.getElementById('clearRetryBtn').addEventListener('click',()=>{
+            if(batchRunning || activeRequests || folderChecking) return;
+            retrySelection=null;retryReportStatus.textContent='전체 항목 모드 · 저장/검증 상태에 따라 미저장 및 실패 항목을 선택합니다.';
+        });
+
+        document.getElementById('readFolderBtn').addEventListener('click',()=>{
+            if(batchRunning || activeRequests || folderChecking) return;
+            document.getElementById('readFolderInput').click();
+        });
+        document.getElementById('readFolderInput').addEventListener('change',async event=>{
+            if(batchRunning || activeRequests || folderChecking) return;
+            const files=Array.from(event.target.files || []);
+            if(!files.length) return;
+            const folderName=(files[0].webkitRelativePath || '').split('/')[0] || '선택 폴더';
+            const map=new Map();
+            for(const file of files) {
+                const path=file.webkitRelativePath.split('/');
+                // Inspect the chosen directory itself, not similarly named files in nested directories.
+                if(path.length===2) map.set(file.name,file);
+            }
+            readOnlyFolder=true;
+            directoryHandle={name:folderName,getFileHandle:async name=>{
+                const file=map.get(name);
+                if(!file) throw new DOMException('파일 없음','NotFoundError');
+                return {getFile:async()=>file};
+            }};
+            try {
+                await verifyDirectory();
+                folderStatus.textContent+=' · 읽기 전용 · WAV/JSON은 기존 다운로드로 저장';
+                selectMergeFiles(Array.from(map.values()));
+                retryReportStatus.textContent='폴더의 WAV를 검증하고 MP3 합치기에 불러왔습니다. 재다운로드 JSON 저장 또는 단일 MP3 만들기를 누르세요. 검증 기록이 없는 WAV는 대본 일치 여부가 미확인으로 표시됩니다.';
+            } catch(error) {showMessage(error.message);}
+            finally {event.target.value='';}
+        });
+
+        let mergeFiles = [];
+        let mergedMp3Url = null;
+        let mp3EncoderPromise = null;
+        const mergeStatus = document.getElementById('mergeStatus');
+        function orderedWavs(files) {
+            const wavs=Array.from(files).filter(file=>/\.wav$/i.test(file.name));
+            const names=new Set();
+            for(const file of wavs) {
+                const name=file.name.toLowerCase();
+                if(names.has(name)) throw new Error('같은 파일명이 여러 개입니다: '+file.name+' · 합칠 파일만 한 폴더에 모아 선택하세요.');
+                names.add(name);
+            }
+            return wavs.sort((a,b)=>a.name.localeCompare(b.name,'en',{numeric:true,sensitivity:'base'}));
+        }
+        function selectMergeFiles(files) {
+            if(mergingAudio || batchRunning || activeRequests || folderChecking) return;
+            try {
+                const selected=orderedWavs(files);
+                if(!selected.length) throw new Error('선택한 파일에 WAV가 없습니다.');
+                mergeFiles=selected;
+                const numbered=selected.map(f=>f.name.match(/^(\d+)\.wav$/i));
+                const gaps=[];
+                if(numbered.every(Boolean)) {
+                    const nums=numbered.map(m=>Number(m[1]));
+                    for(let i=1;i<nums.length;i++) if(nums[i]>nums[i-1]+1) gaps.push(`${nums[i-1]+1}~${nums[i]-1}`);
+                }
+                mergeStatus.textContent=`WAV ${selected.length}개 선택 · ${selected[0].name} → ${selected.at(-1).name}${gaps.length?' · 번호 누락 구간: '+gaps.join(', ')+' (선택한 파일만 합침)':''}`;
+            } catch(error) {showMessage(error.message);}
+        }
+        function loadMp3Encoder() {
+            if(globalThis.lamejs?.Mp3Encoder) return Promise.resolve(globalThis.lamejs);
+            if(mp3EncoderPromise) return mp3EncoderPromise;
+            mp3EncoderPromise=new Promise((resolve,reject)=>{
+                const script=document.createElement('script');
+                script.src='https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js';
+                const timer=setTimeout(()=>{script.remove();mp3EncoderPromise=null;reject(new Error('MP3 변환 라이브러리 로드 시간 초과. 인터넷 연결 또는 캔버스의 외부 스크립트 허용 여부를 확인해 주세요.'));},20000);
+                script.onload=()=>{clearTimeout(timer);if(globalThis.lamejs?.Mp3Encoder) resolve(globalThis.lamejs);else {mp3EncoderPromise=null;reject(new Error('MP3 인코더를 초기화하지 못했습니다.'));}};
+                script.onerror=()=>{clearTimeout(timer);script.remove();mp3EncoderPromise=null;reject(new Error('MP3 변환 라이브러리를 불러오지 못했습니다. 인터넷 연결 또는 외부 스크립트 차단 여부를 확인해 주세요.'));};
+                document.head.append(script);
+            });
+            return mp3EncoderPromise;
+        }
+        async function decodeMonoWav(file, audioContext) {
+            const bytes=await file.arrayBuffer();
+            if(bytes.byteLength<12 || new DataView(bytes).getUint32(0,false)!==0x52494646 || new DataView(bytes).getUint32(8,false)!==0x57415645) throw new Error(file.name+': WAV 형식이 아닙니다.');
+            let decoded;
+            try { decoded=await audioContext.decodeAudioData(bytes); }
+            catch {throw new Error(file.name+': 손상되었거나 지원하지 않는 WAV입니다.');}
+            if(!decoded.length) throw new Error(file.name+': 빈 오디오입니다.');
+            const offline=new OfflineAudioContext(1,Math.ceil(decoded.duration*44100),44100);
+            const source=offline.createBufferSource(); source.buffer=decoded;
+            source.connect(offline.destination);source.start();
+            return (await offline.startRendering()).getChannelData(0);
+        }
+        function pcm16(samples) {
+            const result=new Int16Array(samples.length);
+            for(let i=0;i<samples.length;i++) {const n=Math.max(-1,Math.min(1,samples[i]));result[i]=Math.round(n<0?n*32768:n*32767);}
+            return result;
+        }
+        // Keep one encoder across all files so there are no MP3 padding gaps at each boundary.
+        async function encodeMergedWavs(files,encoder,context,onProgress) {
+            const chunks=[]; const blockSize=1152;
+            let frames=0;
+            for(let index=0;index<files.length;index++) {
+                const samples=await decodeMonoWav(files[index],context);
+                for(let offset=0;offset<samples.length;offset+=blockSize) {
+                    const data=encoder.encodeBuffer(pcm16(samples.subarray(offset,offset+blockSize)));
+                    if(data.length) chunks.push(new Uint8Array(data));
+                    if(++frames%160===0) {onProgress(index,files.length,files[index].name,Math.min(1,(offset+blockSize)/samples.length));await new Promise(resolve=>setTimeout(resolve,0));}
+                }
+                onProgress(index+1,files.length,files[index].name,0);
+                await new Promise(resolve=>setTimeout(resolve,0));
+            }
+            const tail=encoder.flush();if(tail.length) chunks.push(new Uint8Array(tail));
+            return new Blob(chunks,{type:'audio/mpeg'});
+        }
+        document.getElementById('loadMergeWavsBtn').addEventListener('click',()=>document.getElementById('mergeWavsInput').click());
+        document.getElementById('loadMergeFolderBtn').addEventListener('click',()=>document.getElementById('mergeFolderInput').click());
+        for(const id of ['mergeWavsInput','mergeFolderInput']) document.getElementById(id).addEventListener('change',event=>{
+            selectMergeFiles(event.target.files || []);event.target.value='';
+        });
+        document.getElementById('mergeMp3Btn').addEventListener('click',async()=>{
+            if(mergingAudio || batchRunning || activeRequests || folderChecking) return;
+            if(!mergeFiles.length) return showMessage('합칠 WAV 파일이나 WAV 폴더를 먼저 불러오세요.');
+            mergingAudio=true;lockControls();
+            let context=null;
+            try {
+                mergeStatus.textContent='MP3 인코더 준비 중…';
+                const library=await loadMp3Encoder();
+                context=new (window.AudioContext || window.webkitAudioContext)({sampleRate:44100});
+                const encoder=new library.Mp3Encoder(1,44100,Number(document.getElementById('mp3Bitrate').value));
+                const blob=await encodeMergedWavs(mergeFiles,encoder,context,(done,total,name,fraction)=>{
+                    mergeStatus.textContent=`MP3 변환 ${Math.floor((done+fraction)/total*100)}% · ${done}/${total} · ${name}`;
+                });
+                if(!blob.size) throw new Error('MP3 결과가 비어 있습니다.');
+                if(mergedMp3Url) URL.revokeObjectURL(mergedMp3Url);
+                mergedMp3Url=URL.createObjectURL(blob);
+                const link=document.getElementById('mergedMp3Download');
+                link.href=mergedMp3Url;link.download='FAUST_C09_V04_FULL.mp3';link.classList.remove('hidden');
+                link.textContent=`전체 MP3 다운로드 (${(blob.size/1024/1024).toFixed(1)}MB)`;
+                if(directoryHandle && !readOnlyFolder) {
+                    await writeFile(link.download,blob);
+                    const saved=await readBytes(link.download);
+                    if(saved.byteLength!==blob.size || await sha256(saved)!==await sha256(await blob.arrayBuffer())) throw new Error('MP3 폴더 저장 검증 실패 · 완성된 MP3 다운로드 링크로 저장할 수 있습니다.');
+                    mergeStatus.textContent=`WAV ${mergeFiles.length}개 → 단일 MP3 폴더 저장 및 검증 완료`;
+                } else {link.click();mergeStatus.textContent=`WAV ${mergeFiles.length}개 → 단일 MP3 완성 · 다운로드 요청 완료`;} 
+            } catch(error) {mergeStatus.textContent='MP3 처리 실패 · '+error.message;showMessage(error.message);}
+            finally {if(context) await context.close().catch(()=>{});mergingAudio=false;lockControls();}
+        });
+
+        chooseFolderBtn.addEventListener('click',chooseDirectDirectory);
+        document.getElementById('verifyFilesInput').addEventListener('change',async event=>{
+            if(batchRunning || activeRequests || folderChecking || mergingAudio) return;
+            const files=Array.from(event.target.files || []);
+            if(!files.length) return;
+            const map=new Map();
+            try {
+                for(const file of files) {
+                    if(map.has(file.name)) throw new Error('중복 파일명: '+file.name);
+                    map.set(file.name,file);
+                }
+                readOnlyFolder=true;
+                directoryHandle={name:'선택한 파일',getFileHandle:async name=>{
+                    const file=map.get(name);
+                    if(!file) throw new DOMException('선택한 파일에 없음','NotFoundError');
+                    return {getFile:async()=>file};
+                }};
+                await verifyDirectory();
+                folderStatus.textContent+=' · 선택한 파일만 검사 · 저장은 기존 다운로드 사용';
+                selectMergeFiles(files);
+                retryReportStatus.textContent='WAV와 해당 .verified.json을 함께 선택하면 내용까지 검증합니다. 선택하지 않은 파일은 누락으로 표시됩니다. MP3 합치기에도 선택한 WAV를 자동으로 넣었습니다.';
+            } catch(error) {showMessage(error.message);}
+            finally {event.target.value='';}
+        });
+        promptInput.value = originalStory;
+        processBtn.click();
+    
