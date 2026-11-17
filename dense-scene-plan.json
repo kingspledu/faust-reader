@@ -16363,15 +16363,31 @@
       "composition": "인물과 주변 공간을 위에서 관찰",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
         "location-008"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-024",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c11-dense-017.webp",
+      "source_grid": "source_images/chapter11-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json"
     },
     {
       "id": "c11-dense-018",
@@ -16386,15 +16402,31 @@
       "composition": "낮은 시점에서 인물·건축의 긴장감",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
         "location-008"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-024",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c11-dense-018.webp",
+      "source_grid": "source_images/chapter11-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json"
     },
     {
       "id": "c11-dense-019",
@@ -16409,15 +16441,31 @@
       "composition": "표정과 시선의 변화를 포착",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
         "location-008"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-024",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c11-dense-019.webp",
+      "source_grid": "source_images/chapter11-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json"
     },
     {
       "id": "c11-dense-020",
@@ -16432,15 +16480,31 @@
       "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
         "location-008"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-024",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c11-dense-020.webp",
+      "source_grid": "source_images/chapter11-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json"
     },
     {
       "id": "c11-dense-021",
@@ -16455,15 +16519,31 @@
       "composition": "대화 상대와 몸짓의 관계",
       "source_speaker_cues": [],
       "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
         "location-008"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-024",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c11-dense-021.webp",
+      "source_grid": "source_images/chapter11-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json"
     },
     {
       "id": "c12-dense-001",

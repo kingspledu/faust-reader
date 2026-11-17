@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-10 complete; chapter11 first 16/21 scenes illustrated and adapted; later work pending.",
+  "scope": "Chapters 1-11 illustrated and adapted; later chapters pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -16680,6 +16680,211 @@
       "adaptation": "adaptations/chapter-11.json",
       "char_offset": 3823,
       "anchor": "Er saß beim Königsmahle,\nDie Ritter um ihn her,\nAuf hohem Vätersaale,\nDort auf dem Schloß am Meer.\n\n"
+    },
+    {
+      "id": "c11-dense-017",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 4273,
+      "source_end": 4434,
+      "source_text": "\nIch schloß doch ganz gewiß den Schrein.\nEs ist doch wunderbar! Was mag wohl drinne sein?\nVielleicht bracht’s jemand als ein Pfand,\nUnd meine Mutter lieh darauf.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 3,
+      "image": "illustrations/c11-dense-017.webp",
+      "source_grid": "source_images/chapter11-dense-002.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 4273,
+      "anchor": "Ich schloß doch ganz gewiß den Schrein.\nEs ist doch wunderbar! Was mag wohl drinne sein?\nVielleicht "
+    },
+    {
+      "id": "c11-dense-018",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 4434,
+      "source_end": 4577,
+      "source_text": "\nDa hängt ein Schlüsselchen am Band\nIch denke wohl, ich mach es auf!\nWas ist das? Gott im Himmel! Schau,\nSo was hab ich mein Tage nicht gesehn!",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 0,
+      "image": "illustrations/c11-dense-018.webp",
+      "source_grid": "source_images/chapter11-dense-002.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 4434,
+      "anchor": "Da hängt ein Schlüsselchen am Band\nIch denke wohl, ich mach es auf!\nWas ist das? Gott im Himmel! Sch"
+    },
+    {
+      "id": "c11-dense-019",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 4,
+      "source_start": 4577,
+      "source_end": 4712,
+      "source_text": "\nEin Schmuck! Mit dem könnt eine Edelfrau\nAm höchsten Feiertage gehn.\nWie sollte mir die Kette stehn?\nWem mag die Herrlichkeit gehören?",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 1,
+      "image": "illustrations/c11-dense-019.webp",
+      "source_grid": "source_images/chapter11-dense-002.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 4577,
+      "anchor": "Ein Schmuck! Mit dem könnt eine Edelfrau\nAm höchsten Feiertage gehn.\nWie sollte mir die Kette stehn?"
+    },
+    {
+      "id": "c11-dense-020",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 3,
+      "source_start": 4712,
+      "source_end": 4882,
+      "source_text": "\n\n(Sie putzt sich damit auf und tritt vor den Spiegel.)\n\nWenn nur die Ohrring meine wären!\nMan sieht doch gleich ganz anders drein.\nWas hilft euch Schönheit, junges Blut?",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2,
+      "image": "illustrations/c11-dense-020.webp",
+      "source_grid": "source_images/chapter11-dense-002.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 4712,
+      "anchor": "(Sie putzt sich damit auf und tritt vor den Spiegel.)\n\nWenn nur die Ohrring meine wären!\nMan sieht d"
+    },
+    {
+      "id": "c11-dense-021",
+      "chapter": 11,
+      "chapter_title": "Abend",
+      "sentence_count": 3,
+      "source_start": 4882,
+      "source_end": 5045,
+      "source_text": "\nDas ist wohl alles schön und gut,\nAllein man läßt’s auch alles sein;\nMan lobt euch halb mit Erbarmen.\nNach Golde drängt,\nAm Golde hängt\nDoch alles. Ach wir Armen!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "character-053",
+        "location-008"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트. 과거 가족은 상상으로 구분. 왕은 노래 속 인물. 상자 발견 전후 시간대·완전한 착의 유지.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3,
+      "image": "illustrations/c11-dense-021.webp",
+      "source_grid": "source_images/chapter11-dense-002.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-11.json",
+      "char_offset": 4882,
+      "anchor": "Das ist wohl alles schön und gut,\nAllein man läßt’s auch alles sein;\nMan lobt euch halb mit Erbarmen"
     }
   ]
 }
