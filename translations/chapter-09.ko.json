@@ -1,0 +1,155 @@
+{
+  "chapter": 9,
+  "status": "complete_draft_translation",
+  "source_total_chars": 12387,
+  "covered_end": 12387,
+  "segments": [
+    {
+      "id": "C09-T001",
+      "source_start": 0,
+      "source_end": 754,
+      "source": "Auf einem niedrigen Herd steht ein großer Kessel über dem Feuer. In dem\nDampfe, der davon in die Höhe steigt, zeigen sich verschiedene\nGestalten.\nEine Meerkatze sitzt bei dem Kessel und schäumt ihn und sorgt, daß er\nnicht\nüberläuft. Der Meerkater mit den Jungen sitzt darneben und wärmt sich.\nWände und Decke sind mit dem seltsamsten Hexenhausrat geschmückt.\n\nFaust. Mephistopheles.\n\nFAUST.\nMir widersteht das tolle Zauberwesen!\nVersprichst du mir, ich soll genesen\nIn diesem Wust von Raserei?\nVerlang ich Rat von einem alten Weibe?\nUnd schafft die Sudelköcherei\nWohl dreißig Jahre mir vom Leibe?\nWeh mir, wenn du nichts Bessers weißt!\nSchon ist die Hoffnung mir verschwunden.\nHat die Natur und hat ein edler Geist\nNicht irgendeinen Balsam ausgefunden?\n\n",
+      "ko": "낮은 화덕의 불 위에 커다란 솥이 놓여 있다. 솟아오르는 김 속에 여러 모습이 나타난다.\n암컷 원숭이가 솥 곁에 앉아 거품을 걷어 내고 넘치지 않게 살핀다. 수컷 원숭이는 새끼들과 그 옆에서 몸을 녹인다. 벽과 천장에는 아주 기묘한 마녀의 살림 도구들이 걸려 있다.\n\n파우스트와 메피스토펠레스.\n\n파우스트\n이 미친 마법 놀음은 정말 역겹군!\n자네는 이 광기 어린 난장판에서 내가 나아질 거라고 약속하는 건가?\n늙은 여자에게 조언을 구하라고?\n이 지저분한 요리로 내 나이를 서른 해나 덜어 낼 수 있겠나?\n이보다 나은 방법을 모른다면 큰일이군!\n벌써 희망이 사라졌네.\n자연이나 고귀한 정신이 어떤 치료제도 찾아내지 못했단 말인가?"
+    },
+    {
+      "id": "C09-T002",
+      "source_start": 754,
+      "source_end": 1379,
+      "source": "MEPHISTOPHELES.\nMein Freund, nun sprichst du wieder klug!\nDich zu verjüngen, gibt’s auch ein natürlich Mittel;\nAllein es steht in einem andern Buch,\nUnd ist ein wunderlich Kapitel.\n\nFAUST.\nIch will es wissen.\n\nMEPHISTOPHELES.\nGut! Ein Mittel, ohne Geld\nUnd Arzt und Zauberei zu haben.\nBegib dich gleich hinaus aufs Feld,\nFang an zu hacken und zu graben\nErhalte dich und deinen Sinn\nIn einem ganz beschränkten Kreise,\nErnähre dich mit ungemischter Speise,\nLeb mit dem Vieh als Vieh, und acht es nicht für Raub,\nDen Acker, den du erntest, selbst zu düngen;\nDas ist das beste Mittel, glaub,\nAuf achtzig Jahr dich zu verjüngen!\n\n",
+      "ko": "메피스토펠레스\n친구여, 이제 다시 똑똑한 소리를 하는군요!\n젊어지는 자연스러운 방법도 있습니다.\n다만 다른 책에 실린, 좀 별난 내용이지요.\n\n파우스트\n알고 싶네.\n\n메피스토펠레스\n좋습니다! 돈도 의사도 마법도 필요 없는 방법입니다.\n곧장 들로 나가 괭이질하고 땅을 파십시오.\n생활과 생각의 범위를 아주 좁게 두고, 손대지 않은 소박한 음식을 드십시오.\n가축과 더불어 가축처럼 살고, 거둬들일 밭에 직접 거름을 주는 일도 꺼리지 마십시오.\n믿으세요. 여든 살까지 젊게 사는 가장 좋은 방법입니다!"
+    },
+    {
+      "id": "C09-T003",
+      "source_start": 1379,
+      "source_end": 2191,
+      "source": "FAUST.\nDas bin ich nicht gewöhnt, ich kann mich nicht bequemen,\nDen Spaten in die Hand zu nehmen.\nDas enge Leben steht mir gar nicht an.\n\nMEPHISTOPHELES.\nSo muß denn doch die Hexe dran.\n\nFAUST.\nWarum denn just das alte Weib!\nKannst du den Trank nicht selber brauen?\n\nMEPHISTOPHELES.\nDas wär ein schöner Zeitvertreib!\nIch wollt indes wohl tausend Brücken bauen.\nNicht Kunst und Wissenschaft allein,\nGeduld will bei dem Werke sein.\nEin stiller Geist ist jahrelang geschäftig,\nDie Zeit nur macht die feine Gärung kräftig.\nUnd alles, was dazu gehört,\nEs sind gar wunderbare Sachen!\nDer Teufel hat sie’s zwar gelehrt;\nAllein der Teufel kann’s nicht machen.\n(Die Tiere erblickend.)\nSieh, welch ein zierliches Geschlecht!\nDas ist die Magd! das ist der Knecht!\n(Zu den Tieren.)\nEs scheint, die Frau ist nicht zu Hause?\n\n",
+      "ko": "파우스트\n그런 일은 익숙하지 않아. 삽을 손에 쥘 마음도 들지 않네.\n그런 답답한 생활은 나에게 맞지 않아.\n\n메피스토펠레스\n그렇다면 역시 마녀의 힘을 빌려야겠군요.\n\n파우스트\n왜 하필 그 늙은 여자여야 하나!\n자네가 직접 약을 끓일 수는 없나?\n\n메피스토펠레스\n참 좋은 소일거리겠군요!\n그 시간에 저는 다리를 천 개라도 놓겠습니다.\n그 일에는 기술과 학문뿐 아니라 참을성도 필요합니다.\n차분한 마음으로 여러 해를 들여야 하며, 시간이 지나야 잘 익은 약의 힘이 생깁니다.\n들어가는 재료도 아주 기묘한 것들입니다!\n악마가 가르쳐 주기는 했지만, 악마 자신은 만들 수 없지요.\n(동물들을 보고.)\n저 귀여운 식구들 좀 보십시오!\n이쪽은 하녀, 저쪽은 하인이군요!\n(동물들에게.)\n주인아주머니가 집에 안 계신 모양이구나?"
+    },
+    {
+      "id": "C09-T004",
+      "source_start": 2191,
+      "source_end": 2743,
+      "source": "DIE TIERE.\nBeim Schmause,\nAus dem Haus\nZum Schornstein hinaus!\n\nMEPHISTOPHELES.\nWie lange pflegt sie wohl zu schwärmen?\n\nDIE TIERE.\nSo lange wir uns die Pfoten wärmen.\n\nMEPHISTOPHELES. (zu Faust).\nWie findest du die zarten Tiere?\n\nFAUST.\nSo abgeschmackt, als ich nur jemand sah!\n\nMEPHISTOPHELES.\nNein, ein Discours wie dieser da\nIst grade der, den ich am liebsten führe!\n(zu den Tieren.)\nSo sagt mir doch, verfluchte Puppen,\nWas quirlt ihr in dem Brei herum?\n\nDIE TIERE.\nWir kochen breite Bettelsuppen.\n\nMEPHISTOPHELES.\nDa habt ihr ein groß Publikum.\n\n",
+      "ko": "동물들\n잔치에 갔지요. 집을 나가 굴뚝 밖으로!\n\n메피스토펠레스\n보통 얼마나 오래 돌아다니시니?\n\n동물들\n우리가 발을 녹이고 있는 동안이지요.\n\n메피스토펠레스가 파우스트에게\n이 귀여운 동물들이 어떻습니까?\n\n파우스트\n내가 본 것 중 가장 우스꽝스럽군!\n\n메피스토펠레스\n아닙니다. 저는 바로 이런 대화가 가장 좋습니다!\n(동물들에게.)\n자, 이 망할 인형들아. 그 죽을 무엇으로 휘젓고 있니?\n\n동물들\n우리는 푸짐한 거지 수프를 끓이고 있어요.\n\n메피스토펠레스\n그렇다면 손님이 아주 많겠구나."
+    },
+    {
+      "id": "C09-T005",
+      "source_start": 2743,
+      "source_end": 3425,
+      "source": "DER KATER (macht sich herbei und schmeichelt dem Mephistopheles).\nO würfle nur gleich,\nUnd mache mich reich,\nUnd laß mich gewinnen!\nGar schlecht ist’s bestellt,\nUnd wär ich bei Geld,\nSo wär ich bei Sinnen.\n\nMEPHISTOPHELES.\nWie glücklich würde sich der Affe schätzen,\nKönnt er nur auch ins Lotto setzen!\n(Indessen haben die jungen Meerkätzchen mit einer großen Kugel gespielt\nund\nrollen sie hervor.)\n\nDER KATER.\nDas ist die Welt;\nSie steigt und fällt\nUnd rollt beständig;\nSie klingt wie Glas;\nWie bald bricht das!\nIst hohl inwendig.\nHier glänzt sie sehr,\nUnd hier noch mehr.\n“Ich bin lebendig!”\nMein lieber Sohn,\nHalt dich davon!\nDu mußt sterben!\nSie ist von Ton,\nEs gibt Scherben.\n\n",
+      "ko": "수컷 원숭이가 다가와 메피스토펠레스에게 아양을 부린다.\n어서 주사위를 던져 나를 부자로 만들어 주세요. 내가 이기게 해 주세요!\n형편이 아주 나빠요. 돈만 있다면 정신도 멀쩡해질 텐데.\n\n메피스토펠레스\n복권까지 살 수 있다면 이 원숭이는 얼마나 행복하다고 생각할까!\n\n(그동안 커다란 공을 가지고 놀던 새끼 원숭이들이 그것을 굴려 온다.)\n\n수컷 원숭이\n이것은 세상이야. 올라가고 내려가며 쉬지 않고 구르지.\n유리처럼 소리가 나니 얼마나 쉽게 깨지겠어! 속은 비었지.\n여기도 빛나고 저기는 더 빛나네.\n“나는 살아 있다!”\n사랑하는 아들아, 가까이하지 마라!\n너는 죽을 수 있어!\n이건 진흙으로 만들었으니 깨지면 조각이 생긴단다."
+    },
+    {
+      "id": "C09-T006",
+      "source_start": 3425,
+      "source_end": 3946,
+      "source": "MEPHISTOPHELES.\nWas soll das Sieb?\n\nDER KATER (holt es herunter).\nWärst du ein Dieb,\nWollt ich dich gleich erkennen.\n(Er lauft zur Kätzin und läßt sie durchsehen.)\nSieh durch das Sieb!\nErkennst du den Dieb,\nUnd darfst ihn nicht nennen?\n\nMEPHISTOPHELES (sich dem Feuer nähernd).\nUnd dieser Topf?\n\nKATER UND KÄTZIN.\nDer alberne Tropf!\nEr kennt nicht den Topf,\nEr kennt nicht den Kessel!\n\nMEPHISTOPHELES.\nUnhöfliches Tier!\n\nDER KATER.\nDen Wedel nimm hier,\nUnd setz dich in Sessel!\n(Er nötigt den Mephistopheles zu sitzen.)\n\n",
+      "ko": "메피스토펠레스\n그 체는 무엇에 쓰는 거니?\n\n수컷 원숭이가 체를 내려 가져온다.\n당신이 도둑이라면 당장 알아볼 수 있지요.\n(암컷 원숭이에게 달려가 체 너머를 보게 한다.)\n체 너머를 봐!\n도둑이 누군지 알겠는데도 이름은 말하지 못하겠니?\n\n메피스토펠레스가 불 가까이 가며\n이 냄비는?\n\n수컷과 암컷 원숭이\n이 바보 같은 양반!\n냄비도 모르고 솥도 모르네!\n\n메피스토펠레스\n무례한 동물이구나!\n\n수컷 원숭이\n이 털이개를 들고 의자에 앉으세요!\n(메피스토펠레스를 억지로 앉힌다.)"
+    },
+    {
+      "id": "C09-T007",
+      "source_start": 3946,
+      "source_end": 4517,
+      "source": "FAUST (welcher diese Zeit über vor einem Spiegel gestanden, sich ihm\nbald genähert, bald sich von ihm entfernt hat).\nWas seh ich? Welch ein himmlisch Bild\nZeigt sich in diesem Zauberspiegel!\nO Liebe, leihe mir den schnellsten deiner Flügel,\nUnd führe mich in ihr Gefild!\nAch wenn ich nicht auf dieser Stelle bleibe,\nWenn ich es wage, nah zu gehn,\nKann ich sie nur als wie im Nebel sehn!—\nDas schönste Bild von einem Weibe!\nIst’s möglich, ist das Weib so schön?\nMuß ich an diesem hingestreckten Leibe\nDen Inbegriff von allen Himmeln sehn?\nSo etwas findet sich auf Erden?\n\n",
+      "ko": "파우스트는 그동안 거울 앞에 서서 가까이 갔다가 멀어졌다가 했다.\n무엇이 보이는 거지? 이 마법 거울에 얼마나 천상 같은 모습이 나타나는가!\n사랑이여, 가장 빠른 날개를 빌려 나를 저 여인이 있는 곳으로 데려가 다오!\n아, 이 자리를 떠나 가까이 가려고 하면 안개 속에 있는 것처럼만 보이는구나!\n이토록 아름다운 여인의 모습이라니!\n여자가 정말 저렇게 아름다울 수 있나?\n저 누워 있는 몸에서 온 하늘의 아름다움을 모두 보아야 한단 말인가?\n저런 사람이 땅 위에도 있단 말인가?"
+    },
+    {
+      "id": "C09-T008",
+      "source_start": 4517,
+      "source_end": 5850,
+      "source": "MEPHISTOPHELES.\nNatürlich, wenn ein Gott sich erst sechs Tage plagt,\nUnd selbst am Ende Bravo sagt,\nDa muß es was Gescheites werden.\nFür diesmal sieh dich immer satt;\nIch weiß dir so ein Schätzchen auszuspüren,\nUnd selig, wer das gute Schicksal hat,\nAls Bräutigam sie heim zu führen!\n(Faust sieht immerfort in den Spiegel. Mephistopheles, sich in dem\nSessel\ndehnend und mit dem Wedel spielend, fährt fort zu sprechen.)\n\nHier sitz ich wie der König auf dem Throne,\nDen Zepter halt ich hier, es fehlt nur noch die Krone.\n\nDIE TIERE (welche bisher allerlei wunderliche Bewegungen durcheinander\ngemacht haben, bringen dem Mephistopheles eine Krone mit großem\nGeschrei).\nO sei doch so gut,\nMit Schweiß und mit Blut\nDie Krone zu leimen!\n(Sie gehn ungeschickt mit der Krone um und zerbrechen sie in zwei\nStücke,\nmit welchen sie herumspringen.)\n\nNun ist es geschehn!\nWir reden und sehn,\nWir hören und reimen.\n\nFAUST (gegen den Spiegel).\nWeh mir! ich werde schier verrückt.\n\nMEPHISTOPHELES (auf die Tiere deutend).\nNun fängt mir an fast selbst der Kopf zu schwanken.\n\nDIE TIERE.\nUnd wenn es uns glückt,\nUnd wenn es sich schickt,\nSo sind es Gedanken!\n\nFAUST (wie oben).\nMein Busen fängt mir an zu brennen!\nEntfernen wir uns nur geschwind!\n\nMEPHISTOPHELES (in obiger Stellung).\nNun, wenigstens muß man bekennen,\nDaß es aufrichtige Poeten sind.\n",
+      "ko": "메피스토펠레스\n물론이지요. 신이 엿새 동안 애쓴 뒤 끝에 스스로 잘했다고 외쳤다면 훌륭한 것이 나와야 하지 않겠습니까.\n이번에는 실컷 보십시오. 저런 연인을 찾아 드릴 수 있습니다.\n신랑이 되어 그녀를 집으로 데려갈 행운을 얻는 이는 행복하겠지요!\n(파우스트는 계속 거울을 들여다본다. 메피스토펠레스는 의자에 몸을 뻗고 털이개를 가지고 놀며 말을 잇는다.)\n여기 앉으니 왕좌에 오른 왕 같군.\n왕의 지팡이도 들었으니 이제 왕관만 있으면 되겠어.\n\n동물들은 그동안 기묘한 몸짓으로 뒤섞여 움직이다가 큰 소리를 지르며 왕관을 가져온다.\n부디 땀과 피를 들여 이 왕관을 붙여 주세요!\n(서툴게 다루다가 왕관을 두 조각으로 깨뜨리고, 조각들을 들고 뛰어다닌다.)\n이제 일이 벌어졌네!\n우리는 말하고 보고, 듣고 운을 맞추지요.\n\n파우스트가 거울을 향해\n아, 거의 미칠 것 같아.\n\n메피스토펠레스가 동물들을 가리키며\n나까지 머리가 어지러워지기 시작하는군.\n\n동물들\n운이 좋고 잘 들어맞으면 그것이 생각이 되지요!\n\n파우스트가 앞서처럼\n가슴이 타오르기 시작하네!\n어서 이곳을 떠나세!\n\n메피스토펠레스가 그대로 앉아\n적어도 솔직한 시인들이라는 점은 인정해야겠군요."
+    },
+    {
+      "id": "C09-T009",
+      "source_start": 5850,
+      "source_end": 6479,
+      "source": "(Der Kessel, welchen die Katzin bisher außer acht gelassen, fängt an\nüberzulaufen, es entsteht eine große Flamme, welche zum Schornstein\nhinaus\nschlägt. Die Hexe kommt durch die Flamme mit entsetzlichem Geschrei\nherunter gefahren.)\n\nDIE HEXE.\nAu! Au! Au! Au!\nVerdammtes Tier! verfluchte Sau!\nVersäumst den Kessel, versengst die Frau!\nVerfluchtes Tier!\n(Faust und Mephistopheles erblickend.)\nWas ist das hier?\nWer seid ihr hier?\nWas wollt ihr da?\nWer schlich sich ein?\nDie Feuerpein\nEuch ins Gebein!\n(Sie fahrt mit dem Schaumlöffel in den Kessel und spritzt Flammen nach\nFaust, Mephistopheles und den Tieren. Die Tiere winseln.)\n\n",
+      "ko": "암컷 원숭이가 돌보지 않은 솥이 넘치기 시작한다. 커다란 불꽃이 일어나 굴뚝 밖으로 치솟는다. 마녀가 끔찍한 비명을 지르며 그 불꽃을 뚫고 내려온다.\n\n마녀\n아이고! 아이고! 아이고! 아이고!\n망할 짐승! 저주받을 돼지 같은 것!\n솥을 내버려 둬서 주인 몸을 그슬려 놓는구나!\n망할 짐승!\n(파우스트와 메피스토펠레스를 보고.)\n이게 무슨 일이야?\n너희는 누구냐?\n무엇을 하러 왔지?\n누가 몰래 들어왔어?\n불의 고통이 너희 뼛속까지 파고들어라!\n(거품 걷는 국자를 솥에 넣고 파우스트, 메피스토펠레스, 동물들에게 불꽃을 튀긴다. 동물들이 낑낑거린다.)"
+    },
+    {
+      "id": "C09-T010",
+      "source_start": 6479,
+      "source_end": 7065,
+      "source": "MEPHISTOPHELES (welcher den Wedel, den er in der Hand hält, umkehrt und\nunter die Gläser und Töpfe schlägt).\nEntzwei! entzwei!\nDa liegt der Brei!\nDa liegt das Glas!\nEs ist nur Spaß,\nDer Takt, du Aas,\nZu deiner Melodei.\n(Indem die Hexe voll Grimm und Entsetzen zurücktritt.)\nErkennst du mich? Gerippe! Scheusal du!\nErkennst du deinen Herrn und Meister?\nWas hält mich ab, so schlag ich zu,\nZerschmettre dich und deine Katzengeister!\nHast du vorm roten Wams nicht mehr Respekt?\nKannst du die Hahnenfeder nicht erkennen?\nHab ich dies Angesicht versteckt?\nSoll ich mich etwa selber nennen?\n\n",
+      "ko": "메피스토펠레스는 손에 든 털이개를 거꾸로 쥐고 유리병과 냄비들을 때린다.\n깨져라! 깨져라!\n죽은 저기 쏟아지고 유리는 저기 흩어졌네!\n그저 장난이야. 네 가락에 맞춰 박자를 넣는 거지, 이 고약한 것아.\n(마녀가 분노와 두려움에 물러서는 동안.)\n나를 알아보겠느냐? 뼈다귀 같은 괴물아!\n네 주인과 스승을 알아보겠어?\n뭘 망설이겠어? 너와 네 원숭이 정령들을 두들겨 부술 수도 있어!\n붉은 옷이 이제는 두렵지도 않으냐?\n수탉 깃털을 알아보지 못하겠어?\n내가 이 얼굴을 가렸느냐?\n내 이름까지 직접 말해야겠어?"
+    },
+    {
+      "id": "C09-T011",
+      "source_start": 7065,
+      "source_end": 7820,
+      "source": "DIE HEXE.\nO Herr, verzeiht den rohen Gruß!\nSeh ich doch keinen Pferdefuß.\nWo sind denn Eure beiden Raben?\n\nMEPHISTOPHELES.\nFür diesmal kommst du so davon;\nDenn freilich ist es eine Weile schon,\nDaß wir uns nicht gesehen haben.\nAuch die Kultur, die alle Welt beleckt,\nHat auf den Teufel sich erstreckt;\nDas nordische Phantom ist nun nicht mehr zu schauen;\nWo siehst du Hörner, Schweif und Klauen?\nUnd was den Fuß betrifft, den ich nicht missen kann,\nDer würde mir bei Leuten schaden;\nDarum bedien ich mich, wie mancher junge Mann,\nSeit vielen Jahren falscher Waden.\n\nDIE HEXE (tanzend).\nSinn und Verstand verlier ich schier,\nSeh ich den Junker Satan wieder hier!\n\nMEPHISTOPHELES.\nDen Namen, Weib, verbitt ich mir!\n\nDIE HEXE.\nWarum? Was hat er Euch getan?\n\n",
+      "ko": "마녀\n주인님, 거친 인사를 용서해 주세요!\n말발굽이 보이지 않아서 그랬어요.\n까마귀 두 마리는 어디 있나요?\n\n메피스토펠레스\n이번에는 넘어가 주지.\n우리가 못 본 지 꽤 오래되기는 했으니까.\n온 세상을 핥고 다니는 문명이 악마에게까지 미쳤단다.\n옛 북쪽의 괴물 같은 모습은 이제 볼 수 없지.\n뿔이나 꼬리, 발톱이 어디 보이니?\n없앨 수 없는 그 발은 사람들 사이에서 곤란하겠지.\n그래서 여러 젊은 남자들처럼 나도 오래전부터 가짜 종아리를 쓰고 있단다.\n\n마녀가 춤추며\n귀공자 사탄님을 여기서 다시 뵈니 정신을 잃을 것 같아요!\n\n메피스토펠레스\n이봐, 그 이름은 부르지 마라!\n\n마녀\n왜요? 그 이름이 무슨 잘못을 했나요?"
+    },
+    {
+      "id": "C09-T012",
+      "source_start": 7820,
+      "source_end": 8399,
+      "source": "MEPHISTOPHELES.\nEr ist schon lang ins Fabelbuch geschrieben;\nAllein die Menschen sind nichts besser dran,\nDen Bösen sind sie los, die Bösen sind geblieben.\nDu nennst mich Herr Baron, so ist die Sache gut;\nIch bin ein Kavalier, wie andre Kavaliere.\nDu zweifelst nicht an meinem edlen Blut;\nSieh her, das ist das Wappen, das ich führe!\n(Er macht eine unanständige Gebärde.)\n\nDIE HEXE (lacht unmäßig).\nHa! Ha! Das ist in Eurer Art!\nIhr seid ein Schelm, wie Ihr nur immer wart!\n\nMEPHISTOPHELES (zu Faust).\nMein Freund, das lerne wohl verstehn!\nDies ist die Art, mit Hexen umzugehn.\n\n",
+      "ko": "메피스토펠레스\n그 이름은 오래전에 우화책에 실렸지.\n그렇다고 사람들이 나아진 것은 아니야.\n악마는 없앴어도 악한 자들은 그대로 남았거든.\n나를 남작님이라고 부르면 돼.\n나는 다른 신사들과 같은 신사야.\n내가 귀족 집안 출신이라는 데 의심은 없겠지.\n자, 내가 쓰는 가문의 문장을 보아라!\n(상스러운 몸짓을 한다.)\n\n마녀가 마구 웃는다.\n하! 하! 주인님다운 장난이에요!\n여전히 짓궂으시군요!\n\n메피스토펠레스가 파우스트에게\n친구여, 잘 알아 두십시오!\n마녀를 대하는 법은 이렇습니다."
+    },
+    {
+      "id": "C09-T013",
+      "source_start": 8399,
+      "source_end": 9354,
+      "source": "DIE HEXE.\nNun sagt, ihr Herren, was ihr schafft.\n\nMEPHISTOPHELES.\nEin gutes Glas von dem bekannten Saft!\nDoch muß ich Euch ums ältste bitten;\nDie Jahre doppeln seine Kraft.\n\nDIE HEXE.\nGar gern! Hier hab ich eine Flasche,\nAus der ich selbst zuweilen nasche,\nDie auch nicht mehr im mindsten stinkt;\nIch will euch gern ein Gläschen geben.\n(Leise.)\nDoch wenn es dieser Mann unvorbereitet trinkt\nSo kann er, wißt Ihr wohl, nicht eine Stunde leben.\n\nMEPHISTOPHELES.\nEs ist ein guter Freund, dem es gedeihen soll;\nIch gönn ihm gern das Beste deiner Küche.\nZieh deinen Kreis, sprich deine Sprüche,\nUnd gib ihm eine Tasse voll!\n(Die Hexe, mit seltsamen Gebärden, zieht einen Kreis und stellt\nwunderbare\nSachen hinein; indessen fangen die Gläser an zu klingen, die Kessel zu\ntönen, und machen Musik. Zuletzt bringt sie ein großes Buch, stellt die\nMeerkatzen in den Kreis, die ihr zum Pult dienen und die Fackel halten\nmüssen. Sie winkt Fausten, zu ihr zu treten.)\n\n",
+      "ko": "마녀\n자, 두 분은 무슨 일로 오셨나요?\n\n메피스토펠레스\n그 잘 알려진 약을 한 잔 주게!\n다만 가장 오래된 것으로 부탁하지.\n해가 지날수록 힘이 배로 강해지니까.\n\n마녀\n기꺼이요! 여기 제가 가끔 맛보는 병이 있어요.\n이제 냄새도 전혀 나지 않지요.\n기꺼이 한 잔 드릴게요.\n(낮게.)\n하지만 이 사람이 준비 없이 마시면 한 시간도 살지 못한다는 건 아시겠지요.\n\n메피스토펠레스\n그 약이 잘 들어야 할 좋은 친구야.\n네 부엌의 가장 좋은 것을 주고 싶어.\n원을 그리고 주문을 외운 뒤 한 잔 가득 주게!\n(마녀는 기묘한 몸짓으로 원을 그리고 신기한 물건들을 그 안에 놓는다. 그동안 유리병과 솥이 소리를 내어 음악을 이룬다. 마녀는 마지막으로 커다란 책을 가져오고, 원숭이들을 원 안에 세워 책 받침이 되고 횃불을 들게 한다. 파우스트에게 오라고 손짓한다.)"
+    },
+    {
+      "id": "C09-T014",
+      "source_start": 9354,
+      "source_end": 9732,
+      "source": "FAUST (zu Mephistopheles).\nNein, sage mir, was soll das werden?\nDas tolle Zeug, die rasenden Gebärden,\nDer abgeschmackteste Betrug,\nSind mir bekannt, verhaßt genug.\n\nMEPHISTOPHELES.\nEi Possen! Das ist nur zum Lachen;\nSei nur nicht ein so strenger Mann!\nSie muß als Arzt ein Hokuspokus machen,\nDamit der Saft dir wohl gedeihen kann.\n(Er nötigt Fausten, in den Kreis zu treten.)\n\n",
+      "ko": "파우스트가 메피스토펠레스에게\n아니, 말해 보게. 이게 무슨 일이 되려는 건가?\n저 미친 물건들과 몸짓, 터무니없는 속임수는 충분히 알고 있으며 정말 싫다네.\n\n메피스토펠레스\n아이, 장난일 뿐입니다! 웃어넘길 일이지요.\n그렇게 엄격하게 굴지 마십시오!\n약이 잘 듣도록 의사 노릇을 하며 요란한 주문을 좀 외워야 하는 겁니다.\n(파우스트를 원 안으로 억지로 들어가게 한다.)"
+    },
+    {
+      "id": "C09-T015",
+      "source_start": 9732,
+      "source_end": 10067,
+      "source": "DIE HEXE (mit großer Emphase fängt an, aus dem Buche zu deklamieren).\nDu mußt verstehn!\nAus Eins mach Zehn,\nUnd Zwei laß gehn,\nUnd Drei mach gleich,\nSo bist du reich.\nVerlier die Vier!\nAus Fünf und Sechs,\nSo sagt die Hex,\nMach Sieben und Acht,\nSo ist’s vollbracht.\nUnd Neun ist Eins,\nUnd Zehn ist keins.\nDas ist das Hexen-Einmaleins!\n\n",
+      "ko": "마녀가 힘을 잔뜩 주어 책을 읽기 시작한다.\n알아들어야 한다!\n하나를 열로 만들고, 둘은 보내 버리고,\n셋을 같게 만들면 부자가 되리라.\n넷은 잃어라!\n마녀가 말하노니, 다섯과 여섯을 일곱과 여덟로 만들어라.\n그러면 이루어진다.\n아홉은 하나이고 열은 아무것도 아니다.\n이것이 마녀의 구구단이다!"
+    },
+    {
+      "id": "C09-T016",
+      "source_start": 10067,
+      "source_end": 10659,
+      "source": "FAUST.\nMich dünkt, die Alte spricht im Fieber.\n\nMEPHISTOPHELES.\nDas ist noch lange nicht vorüber,\nIch kenn es wohl, so klingt das ganze Buch;\nIch habe manche Zeit damit verloren,\nDenn ein vollkommner Widerspruch\nBleibt gleich geheimnisvoll für Kluge wie für Toren.\nMein Freund, die Kunst ist alt und neu.\nEs war die Art zu allen Zeiten,\nDurch Drei und Eins, und Eins und Drei\nIrrtum statt Wahrheit zu verbreiten.\nSo schwätzt und lehrt man ungestört;\nWer will sich mit den Narrn befassen?\nGewöhnlich glaubt der Mensch, wenn er nur Worte hört,\nEs müsse sich dabei doch auch was denken lassen.\n\n",
+      "ko": "파우스트\n노파가 열병에 걸려 헛소리하는 것 같네.\n\n메피스토펠레스\n아직 한참 멀었습니다. 그 책은 처음부터 끝까지 저런 식이지요.\n저도 그것 때문에 시간을 꽤 낭비했습니다.\n완전히 앞뒤가 맞지 않는 말은 똑똑한 사람에게나 어리석은 사람에게나 똑같이 신비롭게 남거든요.\n친구여, 이 수법은 오래되었으면서도 새롭습니다.\n셋과 하나, 하나와 셋을 가지고 진리 대신 잘못된 생각을 퍼뜨리는 일은 언제나 있었지요.\n그렇게 아무 방해 없이 떠들고 가르칩니다. 누가 그런 바보들과 상대하려 하겠습니까?\n사람은 대개 말이 들리기만 하면 그 안에 무슨 뜻이 있으리라고 믿지요."
+    },
+    {
+      "id": "C09-T017",
+      "source_start": 10659,
+      "source_end": 10965,
+      "source": "DIE HEXE (fährt fort).\nDie hohe Kraft\nDer Wissenschaft,\nDer ganzen Welt verborgen!\nUnd wer nicht denkt,\nDem wird sie geschenkt,\nEr hat sie ohne Sorgen.\n\nFAUST.\nWas sagt sie uns für Unsinn vor?\nEs wird mir gleich der Kopf zerbrechen.\nMich dünkt, ich hör ein ganzes Chor\nVon hunderttausend Narren sprechen.\n\n",
+      "ko": "마녀가 계속한다.\n온 세상에 감추어진 학문의 드높은 힘!\n생각하지 않는 사람에게는 그것이 선물로 주어지니,\n그는 아무 걱정 없이 그것을 얻으리라.\n\n파우스트\n우리에게 무슨 헛소리를 하는 건가?\n곧 머리가 터지겠네.\n십만 명이나 되는 바보들의 합창을 듣는 것 같아."
+    },
+    {
+      "id": "C09-T018",
+      "source_start": 10965,
+      "source_end": 11576,
+      "source": "MEPHISTOPHELES.\nGenug, genug, o treffliche Sibylle!\nGib deinen Trank herbei, und fülle\nDie Schale rasch bis an den Rand hinan;\nDenn meinem Freund wird dieser Trunk nicht schaden.\nEr ist ein Mann von vielen Graden,\nDer manchen guten Schluck getan.\n(Die Hexe, mit vielen Zeremonien, schenkt den Trank in eine Schale,\nwie sie Faust an den Mund bringt, entsteht eine leichte Flamme.)\n\nNur frisch hinunter! Immer zu!\nEs wird dir gleich das Herz erfreuen.\nBist mit dem Teufel du und du,\nUnd willst dich vor der Flamme scheuen?\n(Die Hexe löst den Kreis. Faust tritt heraus.)\n\nNun frisch hinaus! Du darfst nicht ruhn.\n\n",
+      "ko": "메피스토펠레스\n충분해, 충분해, 훌륭한 여예언자여!\n약을 가져와 그릇 가장자리까지 어서 채우게.\n이 친구에게는 그 약이 해가 되지 않을 거야.\n학위도 많이 가진 사람이니 좋은 술도 여러 잔 마셔 보았지.\n(마녀가 온갖 의식을 치르며 약을 그릇에 따른다. 파우스트의 입에 가져가자 작은 불꽃이 인다.)\n\n어서 삼키십시오! 자, 계속!\n곧 마음이 즐거워질 겁니다.\n악마와 허물없이 지내면서 불꽃을 무서워하십니까?\n(마녀가 원을 풀고 파우스트가 밖으로 나온다.)\n\n이제 어서 나갑시다! 쉬어서는 안 됩니다."
+    },
+    {
+      "id": "C09-T019",
+      "source_start": 11576,
+      "source_end": 12124,
+      "source": "DIE HEXE.\nMög Euch das Schlückchen wohl behagen!\n\nMEPHISTOPHELES (zur Hexe).\nUnd kann ich dir was zu Gefallen tun,\nSo darfst du mir’s nur auf Walpurgis sagen.\n\nDIE HEXE.\nHier ist ein Lied! wenn Ihr’s zuweilen singt,\nSo werdet Ihr besondre Wirkung spüren.\n\nMEPHISTOPHELES (zu Faust).\nKomm nur geschwind und laß dich führen;\nDu mußt notwendig transpirieren,\nDamit die Kraft durch Inn- und Äußres dringt.\nDen edlen Müßiggang lehr ich hernach dich schätzen,\nUnd bald empfindest du mit innigem Ergetzen,\nWie sich Cupido regt und hin und wider springt.\n\n",
+      "ko": "마녀\n그 한 모금이 몸에 잘 맞기를 바라요!\n\n메피스토펠레스가 마녀에게\n내가 해 줄 일이 있다면 발푸르기스의 밤에 말해 주게.\n\n마녀\n여기 노래가 있어요! 가끔 부르시면 특별한 효과를 느끼실 거예요.\n\n메피스토펠레스가 파우스트에게\n어서 따라오십시오.\n약의 힘이 몸 안팎으로 퍼지려면 꼭 땀을 흘려야 합니다.\n고상하게 빈둥거리며 즐기는 법은 나중에 가르쳐 드리지요.\n곧 사랑의 신 쿠피도가 안에서 이리저리 뛰노는 것을 큰 기쁨으로 느끼실 겁니다."
+    },
+    {
+      "id": "C09-T020",
+      "source_start": 12124,
+      "source_end": 12387,
+      "source": "FAUST.\nLaß mich nur schnell noch in den Spiegel schauen!\nDas Frauenbild war gar zu schön!\n\nMEPHISTOPHELES.\nNein! Nein! Du sollst das Muster aller Frauen\nNun bald leibhaftig vor dir sehn.\n(Leise.)\n\nDu siehst, mit diesem Trank im Leibe,\nBald Helenen in jedem Weibe.",
+      "ko": "파우스트\n잠깐만 더 거울을 보게 해 주게!\n여인의 모습이 너무나 아름다웠네!\n\n메피스토펠레스\n안 됩니다! 안 돼요! 곧 모든 여인의 본보기 같은 사람을 직접 보시게 될 겁니다.\n(낮게.)\n이 약을 몸에 들이면 곧 모든 여자에게서 헬레네가 보일 테니까."
+    }
+  ],
+  "notes": [
+    "Meerkatze/Meerkater는 원숭이. 고양이·미어캣으로 번역하지 않음.",
+    "80년 회춘 표현은 여든까지 젊게 사는 농담으로 옮김.",
+    "거울의 이름 없는 여인을 그레트헨으로 확정하지 않음.",
+    "3과1 발언의 종교 풍자·구구단의 부조리와 학위/술의 말장난 보존.",
+    "약효는 극 중 주장이며 현실의 치료 지침으로 서술하지 않음."
+  ]
+}

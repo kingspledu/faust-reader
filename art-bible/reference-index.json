@@ -1548,12 +1548,16 @@
       "image": null,
       "status": "research_only",
       "visual_locks": [],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "canonical_note": "9장 원숭이들의 집단 또는 공동 발화. 개별 시각 참조는 character-050과 character-123을 사용. 독립적인 새 개체가 아님.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "reference_ids": [
+        "character-050",
+        "character-123"
+      ]
     },
     {
       "id": "character-050",
@@ -1567,13 +1571,17 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-09.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "image": "character-monkey-male.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "회올리브색 털·크림색 볼 털·짙은 얼굴·긴 꼬리",
+        "황토색 조끼·버건디 허리끈은 연출용 의상",
+        "체·속 빈 점토 공·털이개"
+      ],
+      "canonical_note": "9장 Meerkater. 원문 Affe와 Meerkatze 문맥에 따라 수컷 원숭이. 고양이·미어캣이 아님.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "외형·의상·구멍 있는 공은 시각화 선택이며 원문 사실로 확정하지 않음."
       ],
       "menu_group": "witches"
     },
@@ -1592,12 +1600,16 @@
       "image": null,
       "status": "research_only",
       "visual_locks": [],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "canonical_note": "9장 원숭이들의 집단 또는 공동 발화. 개별 시각 참조는 character-050과 character-123을 사용. 독립적인 새 개체가 아님.",
       "variants_note": "",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "reference_ids": [
+        "character-050",
+        "character-123"
+      ]
     },
     {
       "id": "character-052",
@@ -3206,13 +3218,17 @@
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-09.html"
       ],
-      "image": null,
-      "status": "research_only",
-      "visual_locks": [],
-      "canonical_note": "원문 대조 항목",
+      "image": "character-monkey-female-young.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "암컷: 적갈색 털·크림색 볼 털·짙은 얼굴·긴 꼬리",
+        "이끼 녹색 조끼·갈색 끈은 연출용 의상",
+        "거품 걷는 국자·새끼는 작은 밝은 갈색 원숭이"
+      ],
+      "canonical_note": "9장 무대지시의 암컷 원숭이와 새끼들. 시트의 두 새끼는 연출 예시이며 원문은 수를 확정하지 않음.",
       "variants_note": "",
       "unresolved": [
-        "외형·팔레트·소품 미확정"
+        "개체 외형·옷·새끼 수는 시각화 설정. 공동 발화와 별도 인물로 중복 계산하지 않음."
       ],
       "menu_group": "witches"
     },
