@@ -1,3 +1,8 @@
+from pathlib import Path as _CastPath
+import json as _CastJSON
+if _CastJSON.loads((_CastPath(__file__).parent/'adaptations/chapter-13.json').read_text(encoding='utf-8')).get('prose_revision')=='dialogue-cast-v3':
+ from render_dialogue_script import render
+ render(13);raise SystemExit(0)
 from pathlib import Path
 from bs4 import BeautifulSoup
 import json
@@ -34,7 +39,7 @@ for e,b in zip(all_scenes[:n],a['scenes'][:n]):
  for u in t['segments']:
   if e['source_start']<=u['source_start']<e['source_end']:fold(u,sec)
  nav.insert_before(sec)
- e.update(status='illustrated_adapted',adaptation='adaptations/chapter-13.json',reference_ids=['character-008','character-053','character-054','location-010'],review_note='현장은 마르테·그레트헨·귀족복 메피스토펠레스. 남편 사망·보물·다른 여자 이야기는 악마의 주장으로 구분. 파우스트는 아직 등장하지 않음.')
+ e.update(status='illustrated_adapted',adaptation='adaptations/chapter-13.json',reference_ids=['character-008','character-053','character-054','location-010'],review_note='현장은 마르테·그레첸·귀족복 메피스토. 남편 사망·보물·다른 여자 이야기는 악마의 주장으로 구분. 파우스트는 아직 등장하지 않음.')
 for u in t['segments']:
  if u['id'] not in placed:fold(u)
 old=s.find(id='chapter13-adaptation-style')

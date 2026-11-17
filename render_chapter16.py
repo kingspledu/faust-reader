@@ -1,3 +1,8 @@
+from pathlib import Path as _CastPath
+import json as _CastJSON
+if _CastJSON.loads((_CastPath(__file__).parent/'adaptations/chapter-16.json').read_text(encoding='utf-8')).get('prose_revision')=='dialogue-cast-v3':
+ from render_dialogue_script import render
+ render(16);raise SystemExit(0)
 from pathlib import Path
 from bs4 import BeautifulSoup
 import json
@@ -34,7 +39,7 @@ for e,b in zip(all_scenes[:n],a['scenes'][:n]):
  for u in t['segments']:
   if e['source_start']<=u['source_start']<e['source_end']:fold(u,sec)
  nav.insert_before(sec)
- e.update(status='illustrated_adapted',adaptation='adaptations/chapter-16.json',reference_ids=['character-010','character-008','character-053','character-054','location-012'],review_note='정원의 작은 집. 그레트헨의 장난과 상호 입맞춤, 메피스토펠레스의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.')
+ e.update(status='illustrated_adapted',adaptation='adaptations/chapter-16.json',reference_ids=['character-010','character-008','character-053','character-054','location-012'],review_note='정원의 작은 집. 그레첸의 장난과 상호 입맞춤, 메피스토의 노크, 작별과 혼자 남은 생각. 어머니의 현장 등장·발각·처벌은 없음. 공간 배치는 연출용.')
 for u in t['segments']:
  if u['id'] not in placed:fold(u)
 old=s.find(id='chapter16-adaptation-style')

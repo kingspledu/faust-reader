@@ -1,3 +1,7 @@
+from pathlib import Path as _CastPath
+import runpy as _CastRun
+if (_CastPath(__file__).parent/'dialogue-cast-revision-audit.json').exists():
+ _CastRun.run_path(str(_CastPath(__file__).parent/'verify_dialogue_cast.py'),run_name='__main__');raise SystemExit(0)
 from pathlib import Path as _ModernPath
 import json as _ModernJSON
 if _ModernJSON.loads((_ModernPath(__file__).parent / 'adaptations/chapter-10.json').read_text(encoding='utf-8')).get('prose_revision') == 'modern-dialogue-2026-11-17':

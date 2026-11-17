@@ -1,0 +1,189 @@
+{
+  "changed": [
+    "chapter-01.html",
+    "chapter-02.html",
+    "chapter-03.html",
+    "chapter-04.html",
+    "chapter-05.html",
+    "chapter-06.html",
+    "chapter-07.html",
+    "chapter-08.html",
+    "chapter-09.html",
+    "chapter-10.html",
+    "chapter-11.html",
+    "chapter-12.html",
+    "chapter-13.html",
+    "chapter-14.html",
+    "chapter-15.html",
+    "chapter-16.html",
+    "chapter-17.html",
+    "chapter-18.html",
+    "chapter-19.html",
+    "chapter-20.html",
+    "chapter-21.html",
+    "chapter-22.html",
+    "chapter-23.html",
+    "chapter-24.html",
+    "chapter-25.html",
+    "chapter-26.html",
+    "chapter-27.html",
+    "chapter-28.html",
+    "adaptations/chapter-03.json",
+    "adaptations/chapter-06.json",
+    "adaptations/chapter-07.json",
+    "adaptations/chapter-08.json",
+    "adaptations/chapter-09.json",
+    "adaptations/chapter-10.json",
+    "adaptations/chapter-11.json",
+    "adaptations/chapter-12.json",
+    "adaptations/chapter-13.json",
+    "adaptations/chapter-14.json",
+    "adaptations/chapter-15.json",
+    "adaptations/chapter-16.json",
+    "adaptations/chapter-17.json",
+    "dense-scene-plan.json",
+    "scene-manifest.json",
+    "art-bible/reference-index.json",
+    "art-bible/index.html",
+    "art-bible/README.md",
+    "index.html",
+    "FAUST_PRODUCTION_GUIDELINES.md",
+    "build_tts_canvas.py",
+    "render_chapter10.py",
+    "render_chapter12.py",
+    "render_chapter13.py",
+    "render_chapter14.py",
+    "render_chapter15.py",
+    "render_chapter16.py",
+    "render_chapter17.py",
+    "write_chapter06_adaptation.py",
+    "write_chapter07_opening.py",
+    "write_chapter07_rest.py",
+    "write_chapter09_opening.py",
+    "write_chapter10.py",
+    "write_chapter11.py",
+    "write_chapter12.py",
+    "write_chapter13_opening.py",
+    "write_chapter14.py",
+    "write_chapter15.py",
+    "write_chapter17.py",
+    "review/write_chapter11_v3_sample.py",
+    "review/HUMANIZER_RESEARCH_AND_REVIEW.md",
+    "FAUST_PRODUCTION_GUIDELINES.md"
+  ],
+  "protected_chapters": [
+    {
+      "file": "chapter-01.html",
+      "source_translation_sha256": "8f19132ad793c36480b23e66823afab6b32b6b091cadd1adfe2a5a1e1896f323"
+    },
+    {
+      "file": "chapter-02.html",
+      "source_translation_sha256": "ddec64cef7d8b84ec9a43d9d4c422848f4940b5128e29a73f75e683fbfc433d6"
+    },
+    {
+      "file": "chapter-03.html",
+      "source_translation_sha256": "92ac3d84fa679cfd18d6cd957ee0b3e4128c80e1b35f510bc1daab34cd50efcb"
+    },
+    {
+      "file": "chapter-04.html",
+      "source_translation_sha256": "3911de1ee065f25e305c6f50401e9b3e76f17c7f7cacf4c2f80694a683d5fbe5"
+    },
+    {
+      "file": "chapter-05.html",
+      "source_translation_sha256": "eb06f1ca9bbdaff55fe8c140cbbe3b3751bf5d6ad4060736d977c7ff80575f93"
+    },
+    {
+      "file": "chapter-06.html",
+      "source_translation_sha256": "71aa065d6941bed736abccf2439a9b4f72605da77eb16a89b770020495769849"
+    },
+    {
+      "file": "chapter-07.html",
+      "source_translation_sha256": "57d4c5cc06529d220c9ed16143e06f4aec2cb32485d7a19ee3bcdb5503ea87c3"
+    },
+    {
+      "file": "chapter-08.html",
+      "source_translation_sha256": "39ec937f20a911e4bce6c71528cced197d1c650d41cfb33294792f6a8101ae1f"
+    },
+    {
+      "file": "chapter-09.html",
+      "source_translation_sha256": "8a01e3fd0eb2673ae721b8fd07863d4ab6ef4d992e6554c59110a154b6e2c87d"
+    },
+    {
+      "file": "chapter-10.html",
+      "source_translation_sha256": "f93d47f36fbc286255d30b57934702b44240f6dc898e388103849c29e2196f13"
+    },
+    {
+      "file": "chapter-11.html",
+      "source_translation_sha256": "16d6a2d7513a3c6900f8773c8b48e38d2f0b58ab1d7adf262b6fc67c6ee18ddd"
+    },
+    {
+      "file": "chapter-12.html",
+      "source_translation_sha256": "515992ac438937af33356b0d223f01566ceca055a955071f7178a9feef8071f3"
+    },
+    {
+      "file": "chapter-13.html",
+      "source_translation_sha256": "8874827b58df3a92e7649a8c80494a15d4ad793df7ef345a02cac34f138536ef"
+    },
+    {
+      "file": "chapter-14.html",
+      "source_translation_sha256": "c00eadcd5329f2ac24a62644cf213a45b551cb01b5e5ace26c2cc11433849fd6"
+    },
+    {
+      "file": "chapter-15.html",
+      "source_translation_sha256": "c59da0435f4ad52ba6326afff593b46f7d92dcbe05a77c3f07c468ff0468199c"
+    },
+    {
+      "file": "chapter-16.html",
+      "source_translation_sha256": "a21fbcb5e9e96c06ca162c768890106c967e8da4304661c2c7dab716877a8502"
+    },
+    {
+      "file": "chapter-17.html",
+      "source_translation_sha256": "8176239e1aad14b8e5a326c3fa5abff6a0ec6014ea925642b49039c8691814e6"
+    },
+    {
+      "file": "chapter-18.html",
+      "source_translation_sha256": "15740c380af1f3c67183ea9af435e411628b1d014a1cb9045c91a7609b9628ce"
+    },
+    {
+      "file": "chapter-19.html",
+      "source_translation_sha256": "11fbd0ab27edb6aa839b48f97c2929f79c36728c6ac0b6706d4e4e52170bce87"
+    },
+    {
+      "file": "chapter-20.html",
+      "source_translation_sha256": "362688ed67976c2f8fbb557d24f9a40260f74cefbd822594c939831cbe3adb80"
+    },
+    {
+      "file": "chapter-21.html",
+      "source_translation_sha256": "f59da00c1efa81baa6228a787c0109639c442e4f50cf7970104b1f6c97ee97c8"
+    },
+    {
+      "file": "chapter-22.html",
+      "source_translation_sha256": "62a3f01bfca13fd01843ed80b19512ba6850287d190efa7b478dcaf0c138327b"
+    },
+    {
+      "file": "chapter-23.html",
+      "source_translation_sha256": "9007242c5145dcbd90b5f69339566ed752553ea9f27e68cb090d23935ee0908c"
+    },
+    {
+      "file": "chapter-24.html",
+      "source_translation_sha256": "758f1736a9c5d8c2c6c5e6754f3ade0fa4035c368b6d82b060fc706baea58468"
+    },
+    {
+      "file": "chapter-25.html",
+      "source_translation_sha256": "f7baba912d882884d37c79669a0086ff4e0b2cedbb579f40605ae04bdbb58364"
+    },
+    {
+      "file": "chapter-26.html",
+      "source_translation_sha256": "4e7d330ca49959ee6c3c9a24c56806f4ffe40fc30f770232793dc0a331464436"
+    },
+    {
+      "file": "chapter-27.html",
+      "source_translation_sha256": "a7e52c5de2fb9a085f635da3d43263e2fc94cd5ab3a44cbd11ddaac6fb707f8b"
+    },
+    {
+      "file": "chapter-28.html",
+      "source_translation_sha256": "8e30cf30163cd60b6fd864b1351ee8420416a7b9d09c335b44380248e4dc68cd"
+    }
+  ],
+  "notes": "German source and existing Korean translation preserved; image pixels and stable IDs unchanged."
+}

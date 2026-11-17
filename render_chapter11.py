@@ -1,3 +1,8 @@
+from pathlib import Path as _CastPath
+import json as _CastJSON
+if _CastJSON.loads((_CastPath(__file__).parent/'adaptations/chapter-11.json').read_text(encoding='utf-8')).get('prose_revision')=='dialogue-cast-v3':
+ from render_dialogue_script import render
+ render(11);raise SystemExit(0)
 from pathlib import Path
 from bs4 import BeautifulSoup
 import json

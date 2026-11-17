@@ -1,3 +1,8 @@
+from pathlib import Path as _CastPath
+import json as _CastJSON
+if _CastJSON.loads((_CastPath(__file__).parent/'adaptations/chapter-10.json').read_text(encoding='utf-8')).get('prose_revision')=='dialogue-cast-v3':
+ from render_dialogue_script import render
+ render(10);raise SystemExit(0)
 from pathlib import Path
 from bs4 import BeautifulSoup
 import json
@@ -34,7 +39,7 @@ for e,b in zip(all_scenes[:n],a['scenes'][:n]):
  for u in t['segments']:
   if e['source_start']<=u['source_start']<e['source_end']:fold(u,sec)
  nav.insert_before(sec)
- e.update(status='illustrated_adapted',adaptation='adaptations/chapter-10.json',reference_ids=['character-010','character-008','character-053','location-007'],review_note='회춘 이후 파우스트. 그레트헨의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.')
+ e.update(status='illustrated_adapted',adaptation='adaptations/chapter-10.json',reference_ids=['character-010','character-008','character-053','location-007'],review_note='회춘 이후 파우스트. 그레첸의 거절을 호의로 서술하지 않음. 원문 속 계획을 실제 침입·선물 전달로 앞당기지 않음.')
 for u in t['segments']:
  if u['id'] not in placed:fold(u)
 old=s.find(id='chapter10-adaptation-style')

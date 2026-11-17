@@ -27,7 +27,9 @@
       "unresolved": [
         "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선."
       ],
-      "menu_group": "scholars"
+      "menu_group": "scholars",
+      "voice_cast_id": "character-001",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-002",
@@ -53,7 +55,9 @@
         "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선.",
         "이미지의 파우스트와 교유한다는 소개는 근거 없는 생성 문구이므로 참조 제외."
       ],
-      "menu_group": "scholars"
+      "menu_group": "scholars",
+      "voice_cast_id": "character-002",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-003",
@@ -78,7 +82,9 @@
       "unresolved": [
         "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선."
       ],
-      "menu_group": "scholars"
+      "menu_group": "scholars",
+      "voice_cast_id": "character-003",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-004",
@@ -104,7 +110,9 @@
         "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선.",
         "머리·눈 색, 날개, 의상과 소품은 창작 설정. 서곡의 우주 질서를 찬양하는 역할을 기준으로 사용."
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "voice_cast_id": "character-004",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-005",
@@ -130,7 +138,9 @@
         "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선.",
         "머리·눈 색, 날개, 의상과 소품은 창작 설정. 서곡의 우주 질서를 찬양하는 역할을 기준으로 사용."
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "voice_cast_id": "character-005",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-006",
@@ -156,7 +166,9 @@
         "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선.",
         "머리·눈 색, 날개, 의상과 소품은 창작 설정. 서곡의 우주 질서를 찬양하는 역할을 기준으로 사용."
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "voice_cast_id": "character-006",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-007",
@@ -178,12 +190,14 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "voice_cast_id": "character-007",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-008",
       "kind": "character",
-      "name": "메피스토펠레스",
+      "name": "메피스토",
       "source_name": "MEPHISTOPHELES",
       "category": "대사 배역 / 집단",
       "chapter_numbers": [
@@ -261,7 +275,9 @@
           "note": "7장 학생을 만날 때: 파우스트에게 빌린 긴 학자 옷과 모자. 젊은 악마의 얼굴이며 파우스트로 회춘·변신한 것이 아님.",
           "status": "draft_visual"
         }
-      ]
+      ],
+      "voice_cast_id": "character-008",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-009",
@@ -283,7 +299,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "voice_cast_id": "character-009",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-010",
@@ -349,7 +367,9 @@
         "image": "character-faust-old.png",
         "note": "회춘 전 노학자: 마른 얼굴·주름·회갈색 머리. 기존 로브 색과 자수 유지.",
         "status": "draft_visual"
-      }
+      },
+      "voice_cast_id": "character-010",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-011",
@@ -368,7 +388,7 @@
       "visual_locks": [
         "움직이는 붉은 불꽃·금빛 중심",
         "거대한 정령의 위압감",
-        "인간 의복·메피스토펠레스 뿔 없음"
+        "인간 의복·메피스토 뿔 없음"
       ],
       "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
       "variants_note": "",
@@ -380,7 +400,9 @@
         "image": "reference-earthspirit-wagner-night.png",
         "note": "지령: 불꽃 속 유동적 존재. 시트 왼쪽을 참조한다. 구체적 불꽃 얼굴은 시각적 해석이다.",
         "status": "draft_visual"
-      }
+      },
+      "voice_cast_id": "character-011",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-012",
@@ -407,7 +429,9 @@
         "image": "reference-earthspirit-wagner-night.png",
         "note": "밤옷 바그너: 시트 오른쪽 참조. 기존 인물의 안경·갈색 머리, 소박한 밤옷·잠모자·등불.",
         "status": "draft_visual"
-      }
+      },
+      "voice_cast_id": "character-012",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-013",
@@ -429,7 +453,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "voice_cast_id": "character-013",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-014",
@@ -451,7 +477,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "voice_cast_id": "character-014",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-015",
@@ -473,7 +501,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "voice_cast_id": "character-015",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-016",
@@ -495,7 +525,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "voice_cast_id": "character-016",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-017",
@@ -536,7 +568,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님. 이 시트는 하녀 대화의 다른 하녀에만 해당하며 다른 장면의 ANDRE 전체와 동일 인물로 보지 않는다."
-      }
+      },
+      "voice_cast_id": "character-017",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-018",
@@ -558,7 +592,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "voice_cast_id": "character-018",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-019",
@@ -580,7 +616,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "voice_cast_id": "character-019",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-020",
@@ -602,7 +640,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "voice_cast_id": "character-020",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-021",
@@ -624,7 +664,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "voice_cast_id": "character-021",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-022",
@@ -665,7 +707,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-022",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-023",
@@ -706,7 +750,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-023",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-024",
@@ -747,7 +793,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-024",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-025",
@@ -774,7 +822,9 @@
         "image": "character-026-chapter05.webp",
         "same_local_role_as": "character-026",
         "note": "같은 하녀 대화 안에서 첫 번째 하녀에 해당."
-      }
+      },
+      "voice_cast_id": "character-025",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-026",
@@ -815,7 +865,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-026",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-027",
@@ -837,7 +889,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "voice_cast_id": "character-027",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-028",
@@ -878,7 +932,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-028",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-029",
@@ -918,7 +974,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-029",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-030",
@@ -958,7 +1016,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-030",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-031",
@@ -999,7 +1059,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-031",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-032",
@@ -1040,7 +1102,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-032",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-033",
@@ -1081,7 +1145,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-033",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-034",
@@ -1122,7 +1188,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-034",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-035",
@@ -1163,7 +1231,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-035",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-036",
@@ -1204,7 +1274,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-036",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-037",
@@ -1245,7 +1317,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-037",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-038",
@@ -1286,7 +1360,9 @@
           1261
         ],
         "note": "5장 실제 장면 제작을 위한 외형 초안. 복식·머리·색은 시각적 해석이며 원문이 정한 사실이 아님."
-      }
+      },
+      "voice_cast_id": "character-038",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-039",
@@ -1308,7 +1384,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "voice_cast_id": "character-039",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-040",
@@ -1331,7 +1409,9 @@
         "외형·팔레트·소품 미확정"
       ],
       "menu_group": "heaven",
-      "chapter06_staging_note": "복도 목소리와 환상을 부르는 무리. 개별 얼굴·인간 이름을 임의로 확정하지 않고 흐릿한 기운과 노래가 보여 주는 풍경으로 연출."
+      "chapter06_staging_note": "복도 목소리와 환상을 부르는 무리. 개별 얼굴·인간 이름을 임의로 확정하지 않고 흐릿한 기운과 노래가 보여 주는 풍경으로 연출.",
+      "voice_cast_id": "character-040",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-041",
@@ -1353,7 +1433,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "scholars"
+      "menu_group": "scholars",
+      "voice_cast_id": "character-041",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-042",
@@ -1385,7 +1467,9 @@
           "note": "7장에 처음 온 대학생: 갈색 짧은 머리·청록빛 옷·갈색 가방·기념 수첩. 구체적 외형은 시각적 해석이며 5장의 학생들과 다른 배역.",
           "status": "draft_visual"
         }
-      ]
+      ],
+      "voice_cast_id": "character-042",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-043",
@@ -1412,7 +1496,9 @@
       "unresolved": [
         "시각 초안 · 세부 글자와 시점별 배치 대조 필요"
       ],
-      "menu_group": "tavern"
+      "menu_group": "tavern",
+      "voice_cast_id": "character-043",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-044",
@@ -1437,7 +1523,9 @@
       "unresolved": [
         "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
       ],
-      "menu_group": "tavern"
+      "menu_group": "tavern",
+      "voice_cast_id": "character-044",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-045",
@@ -1462,7 +1550,9 @@
       "unresolved": [
         "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
       ],
-      "menu_group": "tavern"
+      "menu_group": "tavern",
+      "voice_cast_id": "character-045",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-046",
@@ -1487,7 +1577,9 @@
       "unresolved": [
         "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
       ],
-      "menu_group": "tavern"
+      "menu_group": "tavern",
+      "voice_cast_id": "character-046",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-047",
@@ -1509,7 +1601,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "tavern"
+      "menu_group": "tavern",
+      "voice_cast_id": "character-047",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-048",
@@ -1531,7 +1625,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "tavern"
+      "menu_group": "tavern",
+      "voice_cast_id": "character-048",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-049",
@@ -1557,7 +1653,9 @@
       "reference_ids": [
         "character-050",
         "character-123"
-      ]
+      ],
+      "voice_cast_id": "character-049",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-050",
@@ -1583,7 +1681,9 @@
       "unresolved": [
         "외형·의상·구멍 있는 공은 시각화 선택이며 원문 사실로 확정하지 않음."
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-050",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-051",
@@ -1609,7 +1709,9 @@
       "reference_ids": [
         "character-050",
         "character-123"
-      ]
+      ],
+      "voice_cast_id": "character-051",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-052",
@@ -1636,12 +1738,14 @@
       "unresolved": [
         "시각 초안 · 세부 글자와 시점별 배치 대조 필요"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-052",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-053",
       "kind": "character",
-      "name": "마르가레테 / 그레트헨",
+      "name": "마르가레테 / 그레첸",
       "source_name": "MARGARETE / GRETCHEN",
       "category": "대사 배역 / 집단",
       "chapter_numbers": [
@@ -1676,7 +1780,9 @@
       "canonical_note": "동일 인물의 본명과 애칭. 별도 인물로 세지 않음.",
       "variants_note": "",
       "unresolved": [],
-      "menu_group": "main"
+      "menu_group": "main",
+      "voice_cast_id": "character-053",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-054",
@@ -1699,10 +1805,12 @@
       "image": "character-marthe.png",
       "status": "draft_visual",
       "visual_locks": [],
-      "canonical_note": "그레트헨의 이웃.",
+      "canonical_note": "그레첸의 이웃.",
       "variants_note": "",
       "unresolved": [],
-      "menu_group": "neighbors"
+      "menu_group": "neighbors",
+      "voice_cast_id": "character-054",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-055",
@@ -1729,7 +1837,9 @@
       "unresolved": [
         "시각 초안 · 세부 글자와 시점별 배치 대조 필요"
       ],
-      "menu_group": "neighbors"
+      "menu_group": "neighbors",
+      "voice_cast_id": "character-055",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-056",
@@ -1746,10 +1856,12 @@
       "image": "character-valentin.png",
       "status": "draft_visual",
       "visual_locks": [],
-      "canonical_note": "그레트헨의 오빠인 군인.",
+      "canonical_note": "그레첸의 오빠인 군인.",
       "variants_note": "",
       "unresolved": [],
-      "menu_group": "neighbors"
+      "menu_group": "neighbors",
+      "voice_cast_id": "character-056",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-057",
@@ -1771,7 +1883,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "forms"
+      "menu_group": "forms",
+      "voice_cast_id": "character-057",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-058",
@@ -1793,7 +1907,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "voice_cast_id": "character-058",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-059",
@@ -1815,7 +1931,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "forms"
+      "menu_group": "forms",
+      "voice_cast_id": "character-059",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-060",
@@ -1837,12 +1955,14 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-060",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-061",
       "kind": "character",
-      "name": "파우스트·메피스토펠레스·도깨비불 공동 발화",
+      "name": "파우스트·메피스토·도깨비불 공동 발화",
       "source_name": "FAUST, MEPHISTOPHELES, IRRLICHT",
       "category": "공동 발화 · 독립 인물 아님",
       "chapter_numbers": [
@@ -1859,7 +1979,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-061",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-062",
@@ -1881,7 +2003,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-062",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-063",
@@ -1903,7 +2027,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-063",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-064",
@@ -1925,7 +2051,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-064",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-065",
@@ -1947,7 +2075,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-065",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-066",
@@ -1969,7 +2099,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-066",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-067",
@@ -1991,7 +2123,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-067",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-068",
@@ -2013,7 +2147,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-068",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-069",
@@ -2035,7 +2171,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-069",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-070",
@@ -2057,7 +2195,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-070",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-071",
@@ -2079,7 +2219,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-071",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-072",
@@ -2101,7 +2243,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-072",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-073",
@@ -2123,7 +2267,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-073",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-074",
@@ -2145,7 +2291,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-074",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-075",
@@ -2167,7 +2315,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-075",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-076",
@@ -2189,7 +2339,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-076",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-077",
@@ -2211,7 +2363,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-077",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-078",
@@ -2233,7 +2387,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-078",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-079",
@@ -2255,7 +2411,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-079",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-080",
@@ -2277,7 +2435,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-080",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-081",
@@ -2299,7 +2459,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-081",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-082",
@@ -2321,7 +2483,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-082",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-083",
@@ -2343,7 +2507,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-083",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-084",
@@ -2365,7 +2531,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-084",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-085",
@@ -2387,7 +2555,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-085",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-086",
@@ -2409,7 +2579,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-086",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-087",
@@ -2431,7 +2603,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-087",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-088",
@@ -2453,7 +2627,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-088",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-089",
@@ -2475,7 +2651,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-089",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-090",
@@ -2497,7 +2675,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-090",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-091",
@@ -2519,7 +2699,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-091",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-092",
@@ -2541,7 +2723,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-092",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-093",
@@ -2563,7 +2747,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-093",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-094",
@@ -2585,7 +2771,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-094",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-095",
@@ -2607,7 +2795,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-095",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-096",
@@ -2629,7 +2819,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-096",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-097",
@@ -2651,7 +2843,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-097",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-098",
@@ -2673,7 +2867,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-098",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-099",
@@ -2695,7 +2891,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-099",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-100",
@@ -2717,7 +2915,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-100",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-101",
@@ -2739,7 +2939,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-101",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-102",
@@ -2761,7 +2963,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-102",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-103",
@@ -2783,7 +2987,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-103",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-104",
@@ -2805,7 +3011,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-104",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-105",
@@ -2827,7 +3035,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-105",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-106",
@@ -2849,7 +3059,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-106",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-107",
@@ -2871,7 +3083,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-107",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-108",
@@ -2893,7 +3107,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-108",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-109",
@@ -2915,7 +3131,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-109",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-110",
@@ -2937,7 +3155,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-110",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-111",
@@ -2959,7 +3179,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-111",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-112",
@@ -2981,7 +3203,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-112",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-113",
@@ -3003,7 +3227,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-113",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-114",
@@ -3025,7 +3251,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-114",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-115",
@@ -3047,7 +3275,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-115",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-116",
@@ -3069,7 +3299,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-116",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-117",
@@ -3091,7 +3323,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-117",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-118",
@@ -3113,7 +3347,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "dream"
+      "menu_group": "dream",
+      "voice_cast_id": "character-118",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-119",
@@ -3135,7 +3371,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "forms"
+      "menu_group": "forms",
+      "voice_cast_id": "character-119",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-120",
@@ -3157,14 +3395,16 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-120",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-121",
       "kind": "character",
-      "name": "그레트헨의 환영",
-      "source_name": "그레트헨의 환영",
-      "category": "마법의 환영 · 실제 그레트헨과 구분",
+      "name": "그레첸의 환영",
+      "source_name": "그레첸의 환영",
+      "category": "마법의 환영 · 실제 그레첸과 구분",
       "chapter_numbers": [
         24
       ],
@@ -3179,14 +3419,16 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-121",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-122",
       "kind": "character",
       "name": "검은 푸들",
       "source_name": "검은 푸들",
-      "category": "메피스토펠레스의 변신 형태 · 별도 인물 아님",
+      "category": "메피스토의 변신 형태 · 별도 인물 아님",
       "chapter_numbers": [
         5
       ],
@@ -3200,11 +3442,13 @@
         "자연스러운 개의 몸과 행동; 뿔·붉은 눈·의복·현대식 장식 없음"
       ],
       "canonical_note": "원문 대조 항목",
-      "variants_note": "메피스토펠레스의 푸들 형태. 새 독립 인간 인물로 세지 않는다. 크기·털 모양은 시각적 해석이며 원문 확정값이 아님.",
+      "variants_note": "메피스토의 푸들 형태. 새 독립 인간 인물로 세지 않는다. 크기·털 모양은 시각적 해석이며 원문 확정값이 아님.",
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "voice_cast_id": "character-122",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-123",
@@ -3230,7 +3474,9 @@
       "unresolved": [
         "개체 외형·옷·새끼 수는 시각화 설정. 공동 발화와 별도 인물로 중복 계산하지 않음."
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-123",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-124",
@@ -3252,7 +3498,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "voice_cast_id": "character-124",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-125",
@@ -3274,7 +3522,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "town"
+      "menu_group": "town",
+      "voice_cast_id": "character-125",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-126",
@@ -3296,7 +3546,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "forms"
+      "menu_group": "forms",
+      "voice_cast_id": "character-126",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-127",
@@ -3318,7 +3570,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-127",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "character-128",
@@ -3340,7 +3594,9 @@
       "unresolved": [
         "외형·팔레트·소품 미확정"
       ],
-      "menu_group": "witches"
+      "menu_group": "witches",
+      "voice_cast_id": "character-128",
+      "voice_cast_reference": "../voice-cast.json"
     },
     {
       "id": "location-001",
@@ -3380,9 +3636,9 @@
       "status": "draft_visual",
       "visual_locks": [
         "구름 단과 별이 보이는 우주 궁륭·중앙의 빛",
-        "천사 3인의 자리와 주변부 메피스토펠레스 위치는 상징적 연출"
+        "천사 3인의 자리와 주변부 메피스토 위치는 상징적 연출"
       ],
-      "canonical_note": "주와 천사들, 메피스토펠레스의 대화",
+      "canonical_note": "주와 천사들, 메피스토의 대화",
       "unresolved": [
         "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선."
       ],
@@ -3504,8 +3760,8 @@
     {
       "id": "location-008",
       "kind": "place",
-      "name": "그레트헨의 방",
-      "source_name": "그레트헨의 방",
+      "name": "그레첸의 방",
+      "source_name": "그레첸의 방",
       "chapter_numbers": [
         11,
         18
@@ -3680,7 +3936,7 @@
         "석조 우물·목재 지붕·도르래·물통",
         "주변 목골조 집과 돌 포장 광장"
       ],
-      "canonical_note": "리스헨과 그레트헨의 대화",
+      "canonical_note": "리스헨과 그레첸의 대화",
       "unresolved": [
         "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
       ],
@@ -3712,8 +3968,8 @@
     {
       "id": "location-017",
       "kind": "place",
-      "name": "그레트헨 집 앞 밤거리",
-      "source_name": "그레트헨 집 앞 밤거리",
+      "name": "그레첸 집 앞 밤거리",
+      "source_name": "그레첸 집 앞 밤거리",
       "chapter_numbers": [
         22
       ],
@@ -3723,7 +3979,7 @@
       "image": "location-gretchen-night-street.png",
       "status": "draft_visual",
       "visual_locks": [
-        "그레트헨 집 출입문·상부 창·돌 포장 밤거리",
+        "그레첸 집 출입문·상부 창·돌 포장 밤거리",
         "차가운 달빛과 출입문 등불의 대비"
       ],
       "canonical_note": "발렌틴과 충돌하는 외부 공간",
@@ -3819,7 +4075,7 @@
         "어두운 구름·진흙 길·드문 나무와 울타리",
         "구체적 지형과 도시 위치는 창작 설정"
       ],
-      "canonical_note": "그레트헨의 투옥을 두고 벌어지는 대화",
+      "canonical_note": "그레첸의 투옥을 두고 벌어지는 대화",
       "unresolved": [
         "시각 초안 · 가상 배치도이며 실제 지리·축척 아님. 원근도와 지도 대조 필요."
       ],

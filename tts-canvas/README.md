@@ -1,46 +1,55 @@
-﻿# 파우스트 Gemini Canvas TTS
+# 파우스트 Gemini Canvas TTS
 
-최신 형식은V04,최신 본문은2026-11-17 현대 한국어 문체 수정본입니다.1~17장 전체1339구간이며 독일어 원문·대응 번역·메뉴·화자 라벨은 낭독하지 않습니다.
+현재 본문·배역 기준: dialogue-cast-v3 / CAST-2026-11-18. 모델은 `gemini-2.5-flash-preview-tts`. 1~17장 전체1136구간. 원문·대응 번역·메뉴·화자 라벨은 낭독하지 않는다.
 
-독백은 나직한 보통 말소리로,지나친 속삭임·숨소리를 피하도록 지시합니다. 생성 뒤에는 불안한 독백·짧은 에코 프리셋의 리버브와 에코를 실제 후처리합니다. 나레이션은 원음을 유지합니다. 프리셋 이름과 별개로 감정은 장면에 맞춥니다.
+[성우·연기 설정](../voice-cast.html) · [배역 원본 JSON](../voice-cast.json) · [제작 규칙](../FAUST_PRODUCTION_GUIDELINES.md)
 
-각 장의 FAUST_CNN_V04_GEMINI_CANVAS_TTS.html을 Canvas에서 실행합니다. 참조 gemini_tts.html의 빈apiKey 구조를 유지했으며 네트워크 호출과 인증 처리는 실행 환경에 따릅니다. 여기서 실제 음성을 생성하거나 다운로드하지 않았습니다.
+발화마다 narration/dialogue/monologue를 구분한다. 일반 대사는 해당 인물의 고정 음색과 보통 말소리로 읽으며 원음이다. 나레이션은 Charon 원음, 독백만 같은 인물 음색의 낮고 또렷한 보통 발성과 리버브·짧은 에코를 적용한다. 속삭임·과한 웃음·숨소리 금지.
 
-개별WAV: FAUST_CNN_V04_전체순번_장면ID_화자코드.wav
-전체MP3: FAUST_CNN_V04_FULL.mp3
+각 장의 `FAUST_CNN_V04_GEMINI_CANVAS_TTS.html`을 Canvas에서 실행한다. 참조 `gemini_tts.html`의 빈 apiKey 구조와 WAV/전체MP3/재다운로드 흐름을 유지했다. 실제 음성 생성·다운로드·청취는 미실행이며 모델 가용성·인증·브라우저 저장은 실행 환경에서 확인해야 한다.
 
-문체 수정과 문단 분할 때문에 일부 파일 순번이 바뀌었습니다. 이전에 다운로드한 음성과 새 색인을 혼용하지 마세요. 파일명이 같아도 내용이 달라질 수 있으며 HTML의 본문·연기지침 지문으로 캐시를 구분합니다. 최신 FAUST_AUDIO_INDEX_V04.json 또는CSV를 기준으로 정리합니다.실제음성 업로드를 요청하면 그때 장면ID·본문해시·누락을 대조합니다.
+이번 변경으로 배역 코드·발화 순서·본문이 바뀌었다. V04 이름이 같아도 이전 다운로드·캐시·색인과 혼용하지 않는다. 새 `FAUST_AUDIO_INDEX_V04.json/csv`의 filename·segment_id·본문 해시와 배역표를 기준으로 정리한다.
 
-|장|낭독 구간|
-|---|---:|
-|1|56|
-|2|70|
-|3|44|
-|4|108|
-|5|99|
-|6|87|
-|7|127|
-|8|127|
-|9|103|
-|10|28|
-|11|80|
-|12|26|
-|13|118|
-|14|40|
-|15|109|
-|16|28|
-|17|89|
+파일명: `FAUST_CNN_V04_전체순번_장면ID_배역ID.wav` / 전체MP3: `FAUST_CNN_V04_FULL.mp3`. 배역표·본문·효과 변경은 프롬프트와 파일 지문에 반영한다.
 
-독백 효과 비교실: FAUST_MONOLOGUE_FX_LAB_V04.html.이전V01~V03과 전용 리소스는 삭제한 상태를 유지합니다.
+|장|전체|일반 발화|마음속 독백|HTML|
 
-검증: python verify_modern_dialogue.py / node test_tts_effects.cjs / node test_tts_batch_v04.cjs. 자동검사와 실제음성 청취는 다르며 Canvas의 실제 생성·다운로드·청취 검증은 아직 하지 않았습니다.
+|---|---:|---:|---:|---|
 
-13장: [Canvas TTS HTML](FAUST_C13_V04_GEMINI_CANVAS_TTS.html) · [대본](FAUST_C13_V04_SCRIPT.json).나레이션87·독백31,총118구간.
+|1|44|0|5|[Canvas HTML](FAUST_C01_V04_GEMINI_CANVAS_TTS.html)|
 
-14장: [Canvas TTS HTML](FAUST_C14_V04_GEMINI_CANVAS_TTS.html) · [대본](FAUST_C14_V04_SCRIPT.json). 나레이션30·독백10, 총40구간.
+|2|49|25|0|[Canvas HTML](FAUST_C02_V04_GEMINI_CANVAS_TTS.html)|
 
-15장: [Canvas TTS HTML](FAUST_C15_V04_GEMINI_CANVAS_TTS.html) · [대본](FAUST_C15_V04_SCRIPT.json). 나레이션85·독백24, 총109구간.
+|3|35|17|0|[Canvas HTML](FAUST_C03_V04_GEMINI_CANVAS_TTS.html)|
 
-16장: [Canvas TTS HTML](FAUST_C16_V04_GEMINI_CANVAS_TTS.html) · [대본](FAUST_C16_V04_SCRIPT.json). 나레이션22·독백6, 총28구간.
+|4|78|21|5|[Canvas HTML](FAUST_C04_V04_GEMINI_CANVAS_TTS.html)|
 
-17장: [Canvas TTS HTML](FAUST_C17_V04_GEMINI_CANVAS_TTS.html) · [대본](FAUST_C17_V04_SCRIPT.json). 나레이션68·독백21, 총89구간.
+|5|62|11|0|[Canvas HTML](FAUST_C05_V04_GEMINI_CANVAS_TTS.html)|
+
+|6|86|35|4|[Canvas HTML](FAUST_C06_V04_GEMINI_CANVAS_TTS.html)|
+
+|7|129|61|3|[Canvas HTML](FAUST_C07_V04_GEMINI_CANVAS_TTS.html)|
+
+|8|105|33|0|[Canvas HTML](FAUST_C08_V04_GEMINI_CANVAS_TTS.html)|
+
+|9|100|47|2|[Canvas HTML](FAUST_C09_V04_GEMINI_CANVAS_TTS.html)|
+
+|10|37|25|0|[Canvas HTML](FAUST_C10_V04_GEMINI_CANVAS_TTS.html)|
+
+|11|71|21|3|[Canvas HTML](FAUST_C11_V04_GEMINI_CANVAS_TTS.html)|
+
+|12|28|17|0|[Canvas HTML](FAUST_C12_V04_GEMINI_CANVAS_TTS.html)|
+
+|13|105|47|2|[Canvas HTML](FAUST_C13_V04_GEMINI_CANVAS_TTS.html)|
+
+|14|29|17|0|[Canvas HTML](FAUST_C14_V04_GEMINI_CANVAS_TTS.html)|
+
+|15|91|45|2|[Canvas HTML](FAUST_C15_V04_GEMINI_CANVAS_TTS.html)|
+
+|16|25|14|1|[Canvas HTML](FAUST_C16_V04_GEMINI_CANVAS_TTS.html)|
+
+|17|62|26|2|[Canvas HTML](FAUST_C17_V04_GEMINI_CANVAS_TTS.html)|
+
+
+
+검증: `python verify_dialogue_cast.py`, `node test_tts_effects.cjs`, `node test_cast_routing.cjs`, `node test_tts_batch_v04.cjs`. 자동·모의검사는 실제 청취와 다르다. V01~V03은 삭제 상태를 유지한다.

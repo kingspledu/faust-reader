@@ -1,0 +1,14 @@
+{
+  "chapter": 11,
+  "scenes": 21,
+  "monologues_before": 21,
+  "monologues_after": 3,
+  "quoted_turns_before": 12,
+  "quoted_turns_after": 21,
+  "source_preserved": true,
+  "translations_preserved": true,
+  "images_preserved": true,
+  "public_chapter_sha256": "ec64f4a891eb2b1d5508bbcc067fe01df82cd194b629849e5a78edd61a326a62",
+  "tts_changed": false,
+  "quality_judgment": "editorial review; no AI-detector score or human-user evaluation"
+}

@@ -1,3 +1,8 @@
+from pathlib import Path as _CastPath
+import json as _CastJSON
+if _CastJSON.loads((_CastPath(__file__).parent/'adaptations/chapter-12.json').read_text(encoding='utf-8')).get('prose_revision')=='dialogue-cast-v3':
+ from render_dialogue_script import render
+ render(12);raise SystemExit(0)
 from pathlib import Path
 from bs4 import BeautifulSoup
 import json
@@ -34,7 +39,7 @@ for e,b in zip(all_scenes[:n],a['scenes'][:n]):
  for u in t['segments']:
   if e['source_start']<=u['source_start']<e['source_end']:fold(u,sec)
  nav.insert_before(sec)
- e.update(status='illustrated_adapted',adaptation='adaptations/chapter-12.json',reference_ids=['character-010','character-008','location-009'],review_note='회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.')
+ e.update(status='illustrated_adapted',adaptation='adaptations/chapter-12.json',reference_ids=['character-010','character-008','location-009'],review_note='회춘 이후 파우스트와 귀족복 메피스토. 어머니·신부·그레첸 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.')
 for u in t['segments']:
  if u['id'] not in placed:fold(u)
 old=s.find(id='chapter12-adaptation-style')

@@ -1,0 +1,2218 @@
+{
+  "schema": "faust-voice-cast-1",
+  "revision": "CAST-2026-11-18",
+  "model": "gemini-2.5-flash-preview-tts",
+  "language": "ko-KR",
+  "verified_date": "2026-11-18",
+  "documentation": [
+    "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
+    "https://ai.google.dev/gemini-api/docs/speech-generation#voices"
+  ],
+  "prebuilt_voices": {
+    "Zephyr": "밝음",
+    "Puck": "활기",
+    "Charon": "설명에 적합",
+    "Kore": "단단함",
+    "Fenrir": "흥분감",
+    "Leda": "젊음",
+    "Orus": "단단함",
+    "Aoede": "산뜻함",
+    "Callirrhoe": "느긋함",
+    "Autonoe": "밝음",
+    "Enceladus": "숨결",
+    "Iapetus": "명료함",
+    "Umbriel": "느긋함",
+    "Algieba": "매끈함",
+    "Despina": "매끈함",
+    "Erinome": "명료함",
+    "Algenib": "거침",
+    "Rasalgethi": "설명에 적합",
+    "Laomedeia": "활기",
+    "Achernar": "부드러움",
+    "Alnilam": "단단함",
+    "Schedar": "균일함",
+    "Gacrux": "성숙함",
+    "Pulcherrima": "적극적",
+    "Achird": "친근함",
+    "Zubenelgenubi": "편안함",
+    "Vindemiatrix": "온화함",
+    "Sadachbia": "생동감",
+    "Sadaltager": "박식함",
+    "Sulafat": "따뜻함"
+  },
+  "profiles": {
+    "character-001": {
+      "id": "character-001",
+      "display_name": "극장 지배인",
+      "source_name": "DIREKTOR",
+      "chapters": [
+        2
+      ],
+      "voice_name": "Rasalgethi",
+      "persona": "중저음, 빠른 판단과 실무 감각. 관객과 공연 준비를 챙기며 짧게 재촉한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-002": {
+      "id": "character-002",
+      "display_name": "극작가 / 시인",
+      "source_name": "DICHTER",
+      "chapters": [
+        2
+      ],
+      "voice_name": "Algieba",
+      "persona": "차분한 중음, 작품을 소중히 여기는 작가. 설명할 때 천천히, 자존심을 건드리면 분명하게 말한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-003": {
+      "id": "character-003",
+      "display_name": "희극 배우",
+      "source_name": "LUSTIGE PERSON",
+      "chapters": [
+        2
+      ],
+      "voice_name": "Puck",
+      "persona": "가벼운 중음, 재치 있는 현장 배우. 상대의 진지함을 깨지 않으면서 짧게 받아친다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-004": {
+      "id": "character-004",
+      "display_name": "대천사 라파엘",
+      "source_name": "RAPHAEL",
+      "chapters": [
+        3
+      ],
+      "voice_name": "Iapetus",
+      "persona": "맑고 안정된 중음. 태양과 질서를 경이롭게 바라보며 긴 문장도 또렷하게 전한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-005": {
+      "id": "character-005",
+      "display_name": "대천사 가브리엘",
+      "source_name": "GABRIEL",
+      "chapters": [
+        3
+      ],
+      "voice_name": "Erinome",
+      "persona": "밝고 투명한 중음. 지구와 바다의 움직임을 넓은 호흡으로 전한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-006": {
+      "id": "character-006",
+      "display_name": "대천사 미카엘",
+      "source_name": "MICHAEL",
+      "chapters": [
+        3
+      ],
+      "voice_name": "Alnilam",
+      "persona": "단단한 중저음. 폭풍의 힘을 장중하게 전하되 고함을 쓰지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-007": {
+      "id": "character-007",
+      "display_name": "세 대천사의 공동 발화",
+      "source_name": "ZU DREI",
+      "chapters": [
+        3
+      ],
+      "voice_name": "Iapetus",
+      "persona": "대천사 셋의 공동 발화. 라파엘·가브리엘·미카엘 배역을 유지하고 임의의 새 인물로 만들지 않는다.",
+      "mode": "joint_existing",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-008": {
+      "id": "character-008",
+      "display_name": "메피스토",
+      "source_name": "MEPHISTOPHELES",
+      "chapters": [
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        22,
+        24,
+        26,
+        27,
+        28
+      ],
+      "voice_name": "Fenrir",
+      "persona": "거칠지 않은 중저음, 여유 있고 능청스러운 관찰자. 파우스트에게는 느긋한 반말로 약점을 찌른다. 마르테·낯선 사람에게는 예의 있는 척하는 해요체. 주 앞에서는 정중하되 빈정거린다. 웃음은 가끔 작게, 킬킬킬 반복·괴물 포효·특정 배우 성대모사 금지.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-009": {
+      "id": "character-009",
+      "display_name": "주 / 하느님",
+      "source_name": "DER HERR",
+      "chapters": [
+        3
+      ],
+      "voice_name": "Sadaltager",
+      "persona": "낮고 따뜻한 권위. 판단을 서두르지 않으며 차분하게 질문하고 단언한다. 웅장한 효과음 없이 보통 발성.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-010": {
+      "id": "character-010",
+      "display_name": "파우스트",
+      "source_name": "FAUST",
+      "chapters": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19,
+        22,
+        24,
+        26,
+        27,
+        28
+      ],
+      "voice_name": "Orus",
+      "persona": "지적이고 또렷한 중저음. 파고드는 질문과 조급한 감정이 공존한다. 메피스토에게는 반말, 낯선 사람에게는 존댓말. 그레첸에게는 관계가 가까워지는 정도에 따라 부드럽게 변한다. 회춘 전후에도 같은 배우를 유지한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-011": {
+      "id": "character-011",
+      "display_name": "지령 · 대지의 정령",
+      "source_name": "GEIST",
+      "chapters": [
+        4
+      ],
+      "voice_name": "Alnilam",
+      "persona": "깊고 단단한 저음. 인간과 다른 규모의 존재를 느리게 표현하되 악마 포효·기계 변조 금지.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-012": {
+      "id": "character-012",
+      "display_name": "바그너",
+      "source_name": "WAGNER",
+      "chapters": [
+        4,
+        5
+      ],
+      "voice_name": "Achird",
+      "persona": "친근한 중음, 배우려는 열의가 앞선 조수. 존중하는 해요체와 조심스러운 질문, 설명에서는 약간 빨라진다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-013": {
+      "id": "character-013",
+      "display_name": "천사들의 합창",
+      "source_name": "CHOR DER ENGEL",
+      "chapters": [
+        4
+      ],
+      "voice_name": "Vindemiatrix",
+      "persona": "밝고 부드러운 천사 합창 대표 낭독. 가사로 표시된 부분만 리듬을 주고 합창 음원을 가장하지 않는다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-014": {
+      "id": "character-014",
+      "display_name": "여인들의 합창",
+      "source_name": "CHOR DER WEIBER",
+      "chapters": [
+        4
+      ],
+      "voice_name": "Sulafat",
+      "persona": "따뜻한 여인들 공동 낭독. 상실과 놀람을 또렷하게, 과한 울음 없이.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-015": {
+      "id": "character-015",
+      "display_name": "제자들의 합창",
+      "source_name": "CHOR DER JÜNGER",
+      "chapters": [
+        4
+      ],
+      "voice_name": "Gacrux",
+      "persona": "낮고 절제된 제자들 공동 낭독. 남겨진 슬픔과 그리움을 천천히 전한다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-016": {
+      "id": "character-016",
+      "display_name": "직공 청년들",
+      "source_name": "EINIGE HANDWERKSBURSCHE",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Puck",
+      "persona": "일에서 벗어난 청년 무리. 밝고 편안한 반말, 서로 길을 권하며 짧게 끊는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-017": {
+      "id": "character-017",
+      "display_name": "다른 이 / 다른 무리 · 문맥별 상이",
+      "source_name": "ANDRE",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Achird",
+      "persona": "5장 익명 응답 무리. 주변 무리와 대조되는 가벼운 반응. 문맥별 다른 사람이며 고유 인물로 합치지 않는다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-018": {
+      "id": "character-018",
+      "display_name": "첫 번째 무리",
+      "source_name": "DIE ERSTEN",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Puck",
+      "persona": "첫 나들이 무리, 들뜬 중음. 행선지를 자신 있게 권한다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-019": {
+      "id": "character-019",
+      "display_name": "첫 직공 청년",
+      "source_name": "EIN HANDWERKSBURSCH",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Puck",
+      "persona": "첫 직공 청년. 활기 있는 중음과 빠른 제안, 장난기.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-020": {
+      "id": "character-020",
+      "display_name": "두 번째 직공 청년",
+      "source_name": "ZWEITER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Achird",
+      "persona": "두 번째 직공 청년. 편안한 중음, 현실적인 반박과 길 사정에 대한 투덜거림.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-021": {
+      "id": "character-021",
+      "display_name": "두 번째 무리",
+      "source_name": "DIE ZWEITEN",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Sadachbia",
+      "persona": "두 번째 나들이 무리. 첫 무리보다 높고 빠른 반응.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-022": {
+      "id": "character-022",
+      "display_name": "세 번째 직공 청년",
+      "source_name": "EIN DRITTER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Zubenelgenubi",
+      "persona": "세 번째 직공 청년. 느긋한 중음, 남들과 함께 가고 싶은 마음이 앞선다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-023": {
+      "id": "character-023",
+      "display_name": "네 번째 직공 청년",
+      "source_name": "VIERTER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Iapetus",
+      "persona": "네 번째 직공 청년. 짧고 명료하게 장소를 확인한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-024": {
+      "id": "character-024",
+      "display_name": "다섯 번째 직공 청년",
+      "source_name": "FÜNFTER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Orus",
+      "persona": "다섯 번째 직공 청년. 약간 낮고 호기로운 목소리, 허세와 장난을 구별한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-025": {
+      "id": "character-025",
+      "display_name": "하녀",
+      "source_name": "DIENSTMÄDCHEN",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Laomedeia",
+      "persona": "하녀 역할. 생기 있는 중음, 친구를 설득하며 일상적인 말투.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-026": {
+      "id": "character-026",
+      "display_name": "첫 번째 하녀",
+      "source_name": "ERSTE",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Kore",
+      "persona": "첫 번째 하녀. 단단하고 또렷한 말끝, 서운함과 고집을 감추지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-027": {
+      "id": "character-027",
+      "display_name": "학생",
+      "source_name": "SCHÜLER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Puck",
+      "persona": "5장의 학생 무리. 들뜬 나들이 말투이며 7장 신입생과 별개 배역.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-028": {
+      "id": "character-028",
+      "display_name": "시민 집안의 처녀",
+      "source_name": "BÜRGERMÄDCHEN",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Autonoe",
+      "persona": "시민 집안의 처녀. 자존심이 상해 툴툴대는 중음, 계층 편견을 서술자의 판단처럼 낭독하지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-029": {
+      "id": "character-029",
+      "display_name": "두 번째 학생",
+      "source_name": "ZWEITER SCHÜLER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Achird",
+      "persona": "두 번째 학생. 조심스럽고 친근한 중음, 마음에 둔 사람 앞에서 속도가 늦어진다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-030": {
+      "id": "character-030",
+      "display_name": "첫 번째 학생",
+      "source_name": "ERSTER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Fenrir",
+      "persona": "첫 번째 학생. 들뜬 중음, 친구를 재촉하는 짧은 반말. 메피스토와 달리 조급하고 가벼운 리듬.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-031": {
+      "id": "character-031",
+      "display_name": "첫 번째 시민",
+      "source_name": "BÜRGER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Rasalgethi",
+      "persona": "첫 번째 시민. 시장과 도시 사정을 불평하는 중저음, 생활인의 투덜거림.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-032": {
+      "id": "character-032",
+      "display_name": "거지",
+      "source_name": "BETTLER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Achernar",
+      "persona": "거지. 지친 낮은 발성으로 부탁하되 힘없는 속삭임이나 희화화 금지.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-033": {
+      "id": "character-033",
+      "display_name": "두 번째 시민",
+      "source_name": "ANDRER BÜRGER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Schedar",
+      "persona": "두 번째 시민. 균일한 중저음, 전쟁 소문을 한발 떨어져 이야기한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-034": {
+      "id": "character-034",
+      "display_name": "세 번째 시민",
+      "source_name": "DRITTER BÜRGER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Alnilam",
+      "persona": "세 번째 시민. 단단한 중음, 멀리서 벌어지는 전쟁을 자기 안락과 대비한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-035": {
+      "id": "character-035",
+      "display_name": "늙은 여자",
+      "source_name": "ALTE",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Gacrux",
+      "persona": "늙은 여자. 성숙한 중저음, 친근하게 다가가며 예언을 흥정하듯 말한다. 목을 긁는 과장 금지.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-036": {
+      "id": "character-036",
+      "display_name": "또 다른 시민 처녀 · 아가테로 불림",
+      "source_name": "DIE ANDRE",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Laomedeia",
+      "persona": "아가테. 친구와 속마음을 나누는 밝은 중음, 기대와 경계가 교차한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-037": {
+      "id": "character-037",
+      "display_name": "군인들",
+      "source_name": "SOLDATEN",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Alnilam",
+      "persona": "군인들 대표. 힘 있는 중저음과 행진 리듬, 전쟁의 허세를 과도한 고함 없이 표현한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-038": {
+      "id": "character-038",
+      "display_name": "늙은 농부",
+      "source_name": "ALTER BAUER",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Gacrux",
+      "persona": "늙은 농부. 느리고 따뜻한 중저음, 감사의 뜻을 소박하게 전한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-039": {
+      "id": "character-039",
+      "display_name": "모두 함께",
+      "source_name": "ALLE",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Achird",
+      "persona": "5장의 공동 발화. 해당 군중의 반응이며 새 한 사람으로 만들지 않는다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-040": {
+      "id": "character-040",
+      "display_name": "정령들",
+      "source_name": "GEISTER",
+      "chapters": [
+        6
+      ],
+      "voice_name": "Callirrhoe",
+      "persona": "6장의 정령들. 부드러운 중음과 은근한 유혹. 속삭임만으로 발성하지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-041": {
+      "id": "character-041",
+      "display_name": "정령들의 합창",
+      "source_name": "GEISTERCHOR",
+      "chapters": [
+        7
+      ],
+      "voice_name": "Vindemiatrix",
+      "persona": "7장의 정령 합창. 위로하는 듯 다정한 리듬, 악마의 제안과 이어지는 모호함.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-042": {
+      "id": "character-042",
+      "display_name": "학생",
+      "source_name": "SCHÜLER",
+      "chapters": [
+        7
+      ],
+      "voice_name": "Leda",
+      "persona": "7장의 신입 학생. 젊고 맑은 중음, 기대에서 혼란으로. 모르는 것을 묻는 존댓말.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-043": {
+      "id": "character-043",
+      "display_name": "프로슈",
+      "source_name": "FROSCH",
+      "chapters": [
+        8
+      ],
+      "voice_name": "Puck",
+      "persona": "프로슈. 빠르고 장난기 많은 중음, 분위기를 띄우며 남을 놀린다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-044": {
+      "id": "character-044",
+      "display_name": "브란더",
+      "source_name": "BRANDER",
+      "chapters": [
+        8
+      ],
+      "voice_name": "Rasalgethi",
+      "persona": "브란더. 묵직한 중저음, 노래를 주도하고 웃음 뒤에 불쾌함을 숨기지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-045": {
+      "id": "character-045",
+      "display_name": "지벨",
+      "source_name": "SIEBEL",
+      "chapters": [
+        8
+      ],
+      "voice_name": "Algenib",
+      "persona": "지벨. 거친 중저음과 툭툭 던지는 말, 놀라면 짧고 강해진다. 포효하지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-046": {
+      "id": "character-046",
+      "display_name": "알트마이어",
+      "source_name": "ALTMAYER",
+      "chapters": [
+        8
+      ],
+      "voice_name": "Schedar",
+      "persona": "알트마이어. 비교적 느리고 낮은 목소리, 투덜거리는 농담과 어지러움을 구분한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-047": {
+      "id": "character-047",
+      "display_name": "술집 손님들의 합창",
+      "source_name": "CHORUS",
+      "chapters": [
+        8
+      ],
+      "voice_name": "Puck",
+      "persona": "술집 합창 대표. 흥에 겨운 리듬, 실제 다중 합창을 생성한 것으로 간주하지 않는다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-048": {
+      "id": "character-048",
+      "display_name": "모두 함께",
+      "source_name": "ALLE",
+      "chapters": [
+        8
+      ],
+      "voice_name": "Rasalgethi",
+      "persona": "술집 모두의 반응. 기존 네 배역의 공동 반응이며 별개 인격이 아니다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-049": {
+      "id": "character-049",
+      "display_name": "마녀 부엌의 동물들",
+      "source_name": "DIE TIERE",
+      "chapters": [
+        9
+      ],
+      "voice_name": "Sadachbia",
+      "persona": "마녀 부엌 동물들의 공동 발화. 빠르고 엉뚱한 리듬, 알아들을 수 있게 발음한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-050": {
+      "id": "character-050",
+      "display_name": "수컷 원숭이 · Kater 표기",
+      "source_name": "DER KATER",
+      "chapters": [
+        9
+      ],
+      "voice_name": "Puck",
+      "persona": "수컷 원숭이. 재잘거리고 계산적인 중음, 엉뚱한 말도 당당히 한다. 동물 소리로 단어를 덮지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-051": {
+      "id": "character-051",
+      "display_name": "수컷·암컷 원숭이 공동 발화",
+      "source_name": "KATER UND KÄTZIN",
+      "chapters": [
+        9
+      ],
+      "voice_name": "Sadachbia",
+      "persona": "수컷·암컷 원숭이 공동 발화. 두 배역의 정체성을 유지하며 함께 하는 반응만 담당한다.",
+      "mode": "joint_existing",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-052": {
+      "id": "character-052",
+      "display_name": "마녀",
+      "source_name": "DIE HEXE",
+      "chapters": [
+        9
+      ],
+      "voice_name": "Gacrux",
+      "persona": "마녀. 낮고 까칠한 목소리, 호통에서 비굴한 환대로 급변한다. 주문은 단어를 정확히, 과한 비명 금지.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-053": {
+      "id": "character-053",
+      "display_name": "마르가레테 / 그레첸",
+      "source_name": "MARGARETE / GRETCHEN",
+      "chapters": [
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        19,
+        20,
+        22,
+        23,
+        28
+      ],
+      "voice_name": "Leda",
+      "persona": "그레첸. 맑고 자연스러운 중음, 어린아이 흉내 금지. 처음에는 조심스러운 해요체, 친밀해지며 부드러워진다. 감정이 깊어져도 말뜻을 또렷하게 유지한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-054": {
+      "id": "character-054",
+      "display_name": "마르테 슈베르트라인",
+      "source_name": "MARTHE",
+      "chapters": [
+        13,
+        15,
+        16,
+        22
+      ],
+      "voice_name": "Sulafat",
+      "persona": "마르테. 성숙하고 따뜻한 중음, 생활감 있는 빠른 질문. 슬픔·분노·호기심의 전환이 뚜렷하다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-055": {
+      "id": "character-055",
+      "display_name": "리스헨",
+      "source_name": "LIESCHEN",
+      "chapters": [
+        20
+      ],
+      "voice_name": "Laomedeia",
+      "persona": "리스헨. 빠르고 호기심 많은 중음, 소문을 신나게 전하며 상대 반응을 떠본다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-056": {
+      "id": "character-056",
+      "display_name": "발렌틴",
+      "source_name": "VALENTIN",
+      "chapters": [
+        22
+      ],
+      "voice_name": "Alnilam",
+      "persona": "발렌틴. 단단한 중저음, 군인의 자존심과 가족에 대한 분노. 고함보다 눌러 말하는 힘.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-057": {
+      "id": "character-057",
+      "display_name": "민중 / 군중",
+      "source_name": "VOLK",
+      "chapters": [
+        22
+      ],
+      "voice_name": "Achird",
+      "persona": "거리 민중 대표. 놀람과 수군거림을 구분하며 대사를 명확히.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-058": {
+      "id": "character-058",
+      "display_name": "악령",
+      "source_name": "BÖSER GEIST",
+      "chapters": [
+        23
+      ],
+      "voice_name": "Algenib",
+      "persona": "악령. 낮고 건조하며 집요한 추궁, 지나친 공포 효과나 속삭임 금지.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-059": {
+      "id": "character-059",
+      "display_name": "합창",
+      "source_name": "CHOR",
+      "chapters": [
+        23
+      ],
+      "voice_name": "Rasalgethi",
+      "persona": "대성당 합창 대표. 장중하고 균일한 리듬, 라틴어는 본문이 있을 때만.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-060": {
+      "id": "character-060",
+      "display_name": "도깨비불 · 산길 안내자",
+      "source_name": "IRRLICHT",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Sadachbia",
+      "persona": "도깨비불. 가볍고 빠르게 방향을 바꾸는 중고음. 길 안내는 분명하게 말한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-061": {
+      "id": "character-061",
+      "display_name": "파우스트·메피스토·도깨비불 공동 발화",
+      "source_name": "FAUST, MEPHISTOPHELES, IRRLICHT",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Orus",
+      "persona": "파우스트·메피스토·도깨비불 공동 발화. 구성원 기존 목소리를 순서대로 배정하는 그룹이며 새 인물이 아니다.",
+      "mode": "joint_existing",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-062": {
+      "id": "character-062",
+      "display_name": "마녀들",
+      "source_name": "HEXEN",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Gacrux",
+      "persona": "마녀들 대표. 들뜬 거친 리듬, 발음이 뭉개지지 않게 한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-063": {
+      "id": "character-063",
+      "display_name": "목소리",
+      "source_name": "STIMME",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Iapetus",
+      "persona": "24장 익명 목소리. 또렷하고 짧은 호출, 정체를 임의로 확정하지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-064": {
+      "id": "character-064",
+      "display_name": "합창",
+      "source_name": "CHOR",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Callirrhoe",
+      "persona": "24장 합창 대표. 산길의 집단 리듬, 앞뒤 마녀 무리와 문맥을 구분한다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-065": {
+      "id": "character-065",
+      "display_name": "마녀 합창",
+      "source_name": "HEXEN, CHOR",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Autonoe",
+      "persona": "마녀 합창 대표. 날카롭고 활기찬 중음, 가사와 지시문을 구분한다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-066": {
+      "id": "character-066",
+      "display_name": "마법사들 · 반쪽 합창",
+      "source_name": "HEXENMEISTER, HALBER CHOR",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Algenib",
+      "persona": "마법사들 반쪽 합창. 낮고 거친 리듬, 다른 반쪽과 대비한다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-067": {
+      "id": "character-067",
+      "display_name": "나머지 반쪽 합창",
+      "source_name": "ANDERE HÄLFTE",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Laomedeia",
+      "persona": "나머지 반쪽 합창. 밝고 빠른 응답 리듬.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-068": {
+      "id": "character-068",
+      "display_name": "여러 목소리",
+      "source_name": "STIMMEN",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Sadachbia",
+      "persona": "여러 목소리 대표. 짧은 호출을 선명하게, 가짜 다중 합성 효과 금지.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-069": {
+      "id": "character-069",
+      "display_name": "두 합창단 함께",
+      "source_name": "BEIDE CHÖRE",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Alnilam",
+      "persona": "두 합창단 공동 발화. 낮은 안정감으로 합쳐지는 구절을 전달한다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-070": {
+      "id": "character-070",
+      "display_name": "반쪽 마녀",
+      "source_name": "HALBHEXE",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Zephyr",
+      "persona": "반쪽 마녀. 급하고 조급한 중고음, 뒤따라가려는 마음.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-071": {
+      "id": "character-071",
+      "display_name": "마녀들의 합창",
+      "source_name": "CHOR DER HEXEN",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Autonoe",
+      "persona": "마녀들의 합창. 들뜬 리듬과 정확한 자음, 끊임없는 비명 금지.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-072": {
+      "id": "character-072",
+      "display_name": "장군",
+      "source_name": "GENERAL",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Alnilam",
+      "persona": "장군. 명령에 익숙한 낮은 목소리, 지난 권위를 아쉬워한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-073": {
+      "id": "character-073",
+      "display_name": "대신",
+      "source_name": "MINISTER",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Sadaltager",
+      "persona": "대신. 점잖고 계산적인 중저음, 자기 이익을 당연하게 말한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-074": {
+      "id": "character-074",
+      "display_name": "벼락출세자",
+      "source_name": "PARVENÜ",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Pulcherrima",
+      "persona": "벼락출세자. 과시하는 중음과 앞서는 말, 잘난 척을 살린다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-075": {
+      "id": "character-075",
+      "display_name": "작가",
+      "source_name": "AUTOR",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Algieba",
+      "persona": "작가. 자의식 강한 중음, 불만을 논리처럼 늘어놓는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-076": {
+      "id": "character-076",
+      "display_name": "잡동사니 파는 마녀",
+      "source_name": "TRÖDELHEXE",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Gacrux",
+      "persona": "잡동사니 파는 마녀. 낮고 재빠른 장사 말투, 물건을 권할 때 신이 난다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-077": {
+      "id": "character-077",
+      "display_name": "젊고 아름다운 춤 상대",
+      "source_name": "DIE SCHÖNE",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Aoede",
+      "persona": "젊은 춤 상대. 산뜻한 중음, 짓궂게 응수한다. 유혹을 과도하게 성적 발성으로 표현하지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-078": {
+      "id": "character-078",
+      "display_name": "늙은 춤 상대",
+      "source_name": "DIE ALTE",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Gacrux",
+      "persona": "늙은 춤 상대. 성숙한 낮은 목소리, 농담을 익숙하게 받아친다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-079": {
+      "id": "character-079",
+      "display_name": "프로크토판타스미스트 · 유령 비판자",
+      "source_name": "PROKTOPHANTASMIST",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Sadaltager",
+      "persona": "프로크토판타스미스트. 권위적인 중저음, 믿지 않는 것을 길게 따지는 말투.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-080": {
+      "id": "character-080",
+      "display_name": "세르비빌리스 · 공연 안내자",
+      "source_name": "SERVIBILIS",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Achird",
+      "persona": "세르비빌리스. 손님을 이끄는 공손하고 빠른 안내 말투.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-081": {
+      "id": "character-081",
+      "display_name": "극장 감독",
+      "source_name": "THEATERMEISTER",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Rasalgethi",
+      "persona": "극장 감독. 실무적인 중저음, 공연 진행을 짧고 명료하게 지시한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-082": {
+      "id": "character-082",
+      "display_name": "전령",
+      "source_name": "HEROLD",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Iapetus",
+      "persona": "전령. 맑은 중음, 청중에게 전달할 공지를 또렷하게.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-083": {
+      "id": "character-083",
+      "display_name": "오베론",
+      "source_name": "OBERON",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Orus",
+      "persona": "오베론. 왕다운 차분한 중저음, 명령보다 확신으로 이끈다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-084": {
+      "id": "character-084",
+      "display_name": "퍽",
+      "source_name": "PUCK",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Puck",
+      "persona": "퍽. 장난기 많은 빠른 중음, 짧은 풍자를 즐긴다. 특정 작품 캐릭터 흉내 금지.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-085": {
+      "id": "character-085",
+      "display_name": "아리엘",
+      "source_name": "ARIEL",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Aoede",
+      "persona": "아리엘. 가볍고 유려한 중음, 공기처럼 이어지는 리듬.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-086": {
+      "id": "character-086",
+      "display_name": "티타니아",
+      "source_name": "TITANIA",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Kore",
+      "persona": "티타니아. 단단하고 명료한 중음, 여왕의 자신감과 장난기.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-087": {
+      "id": "character-087",
+      "display_name": "오케스트라 총주",
+      "source_name": "ORCHESTER TUTTI",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Rasalgethi",
+      "persona": "오케스트라 총주 표제의 의인화된 발언. 대사가 있을 때만 장중히 낭독하며 음악 음원을 대신 만들지 않는다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-088": {
+      "id": "character-088",
+      "display_name": "독주 / 독창",
+      "source_name": "SOLO",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Erinome",
+      "persona": "독주·독창 표제의 발언. 맑은 중음으로 단독 구절을 낭독한다. 악기 소리를 흉내 내지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-089": {
+      "id": "character-089",
+      "display_name": "형성되고 있는 정령",
+      "source_name": "GEIST, DER SICH ERST BILDET",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Zephyr",
+      "persona": "형성 중인 정령. 조심스럽고 가벼운 중고음, 막 모습을 찾는 불확실함.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-090": {
+      "id": "character-090",
+      "display_name": "한 쌍의 연인",
+      "source_name": "EIN PÄRCHEN",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Leda",
+      "persona": "한 쌍의 연인 대표. 다정하고 젊은 중음, 서로 다른 발화로 나뉘면 별도 구성원 ID를 쓴다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-091": {
+      "id": "character-091",
+      "display_name": "호기심 많은 여행자",
+      "source_name": "NEUGIERIGER REISENDER",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Achird",
+      "persona": "호기심 많은 여행자. 친근한 중음, 새로운 광경을 보고 바로 질문한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-092": {
+      "id": "character-092",
+      "display_name": "정통주의자",
+      "source_name": "ORTHODOX",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Alnilam",
+      "persona": "정통주의자. 흔들림 없는 단정적인 중저음, 권위를 의심하지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-093": {
+      "id": "character-093",
+      "display_name": "북방 예술가",
+      "source_name": "NORDISCHER KÜNSTLER",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Algieba",
+      "persona": "북방 예술가. 약간 느린 중음, 자기 취향을 진지하게 평가한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-094": {
+      "id": "character-094",
+      "display_name": "순수주의자",
+      "source_name": "PURIST",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Erinome",
+      "persona": "순수주의자. 선명하고 깐깐한 말끝, 기준에 어긋나는 것을 못마땅해한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-095": {
+      "id": "character-095",
+      "display_name": "젊은 마녀",
+      "source_name": "JUNGE HEXE",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Laomedeia",
+      "persona": "젊은 마녀. 빠르고 밝은 중음, 들뜬 자신감.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-096": {
+      "id": "character-096",
+      "display_name": "나이 든 부인",
+      "source_name": "MATRONE",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Gacrux",
+      "persona": "나이 든 부인. 성숙한 중저음, 세태를 평가하는 단정한 말투.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-097": {
+      "id": "character-097",
+      "display_name": "악장",
+      "source_name": "KAPELLMEISTER",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Schedar",
+      "persona": "악장. 균일하고 정확한 중저음, 박자와 질서를 챙긴다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-098": {
+      "id": "character-098",
+      "display_name": "풍향계 · 변덕의 의인화",
+      "source_name": "WINDFAHNE",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Zubenelgenubi",
+      "persona": "풍향계. 말의 방향이 쉽게 바뀌는 편안한 중음, 변덕을 리듬으로 표현한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-099": {
+      "id": "character-099",
+      "display_name": "크세니엔 · 풍자시들의 의인화",
+      "source_name": "XENIEN",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Iapetus",
+      "persona": "크세니엔. 짧고 날카로운 풍자 구절, 또렷하게 말하고 설명을 덧붙이지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-100": {
+      "id": "character-100",
+      "display_name": "헤닝스 · 풍자극 배역",
+      "source_name": "HENNINGS",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Rasalgethi",
+      "persona": "헤닝스. 자기 평가에 확신이 강한 중저음, 풍자극 배역임을 유지한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-101": {
+      "id": "character-101",
+      "display_name": "무사게트 · 뮤즈의 인도자",
+      "source_name": "MUSAGET",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Algieba",
+      "persona": "무사게트. 예술을 이끄는 듯 우아한 중음, 과장된 노래 발성 금지.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-102": {
+      "id": "character-102",
+      "display_name": "한때 시대의 천재였던 자",
+      "source_name": "CI-DEVANT GENIUS DER ZEIT",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Sadaltager",
+      "persona": "지난 시대의 천재. 성숙한 중저음, 인정받던 시절의 자부심과 불만.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-103": {
+      "id": "character-103",
+      "display_name": "두루미",
+      "source_name": "KRANICH",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Iapetus",
+      "persona": "두루미 의인화. 가늘고 또렷한 중고음, 실제 새 울음으로 대사를 덮지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-104": {
+      "id": "character-104",
+      "display_name": "세속의 자식",
+      "source_name": "WELTKIND",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Zubenelgenubi",
+      "persona": "세속의 자식. 느긋하고 실용적인 중음, 거창한 논쟁을 가볍게 받아친다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-105": {
+      "id": "character-105",
+      "display_name": "무용수",
+      "source_name": "TÄNZER",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Aoede",
+      "persona": "무용수. 산뜻한 중음과 유연한 리듬, 움직임에 맞춘 짧은 말.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-106": {
+      "id": "character-106",
+      "display_name": "무용 교사",
+      "source_name": "TANZMEISTER",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Kore",
+      "persona": "무용 교사. 또렷하고 단호한 중음, 동작을 가르치듯 정확히 끊는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-107": {
+      "id": "character-107",
+      "display_name": "바이올린 연주자",
+      "source_name": "FIEDLER",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Erinome",
+      "persona": "바이올린 연주자. 맑고 예민한 중음, 악기 소리를 대신 흉내 내지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-108": {
+      "id": "character-108",
+      "display_name": "독단주의자",
+      "source_name": "DOGMATIKER",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Alnilam",
+      "persona": "독단주의자. 낮고 단정적인 말끝, 자기 전제를 의심하지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-109": {
+      "id": "character-109",
+      "display_name": "관념론자",
+      "source_name": "IDEALIST",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Algieba",
+      "persona": "관념론자. 사색적인 중음, 머릿속 생각을 따라 차근차근 말한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-110": {
+      "id": "character-110",
+      "display_name": "실재론자",
+      "source_name": "REALIST",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Orus",
+      "persona": "실재론자. 단단한 중저음, 손에 잡히는 근거를 강조한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-111": {
+      "id": "character-111",
+      "display_name": "초자연주의자",
+      "source_name": "SUPERNATURALIST",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Vindemiatrix",
+      "persona": "초자연주의자. 온화하고 경이로운 중음, 보이지 않는 힘을 확신한다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-112": {
+      "id": "character-112",
+      "display_name": "회의론자",
+      "source_name": "SKEPTIKER",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Schedar",
+      "persona": "회의론자. 건조한 중저음, 질문 끝을 짧게 끊으며 판단을 미룬다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-113": {
+      "id": "character-113",
+      "display_name": "재주 좋은 무리",
+      "source_name": "DIE GEWANDTEN",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Sadachbia",
+      "persona": "재주 좋은 무리. 활기차고 빠른 공동 반응, 리듬이 가볍다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-114": {
+      "id": "character-114",
+      "display_name": "서투른 무리",
+      "source_name": "DIE UNBEHILFLICHEN",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Zubenelgenubi",
+      "persona": "서투른 무리. 조금 늦고 머뭇거리는 공동 반응, 지적 능력을 희화화하지 않는다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-115": {
+      "id": "character-115",
+      "display_name": "도깨비불들",
+      "source_name": "IRRLICHTER",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Zephyr",
+      "persona": "도깨비불 무리. 가벼운 중고음과 빠른 리듬, 24장 안내자와 별도 그룹.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-116": {
+      "id": "character-116",
+      "display_name": "별똥별",
+      "source_name": "STERNSCHNUPPE",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Autonoe",
+      "persona": "별똥별. 밝고 짧게 튀는 중고음, 긴 잔향으로 단어를 흐리지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-117": {
+      "id": "character-117",
+      "display_name": "육중한 무리",
+      "source_name": "DIE MASSIVEN",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Algenib",
+      "persona": "육중한 무리. 낮고 느린 공동 반응, 과도한 괴물 소리 금지.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-118": {
+      "id": "character-118",
+      "display_name": "오케스트라",
+      "source_name": "ORCHESTER",
+      "chapters": [
+        25
+      ],
+      "voice_name": "Schedar",
+      "persona": "오케스트라 표제의 의인화 발언. 본문이 있는 구절만 명료하게 낭독하고 음악을 생성하지 않는다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-119": {
+      "id": "character-119",
+      "display_name": "목소리",
+      "source_name": "STIMME",
+      "chapters": [
+        28
+      ],
+      "voice_name": "Vindemiatrix",
+      "persona": "28장 위에서 들리는 목소리. 따뜻하고 확고한 구원의 말, 메피스토와 대비되는 안정감.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-120": {
+      "id": "character-120",
+      "display_name": "릴리트 · Lilith",
+      "source_name": "릴리트 · Lilith",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Despina",
+      "persona": "릴리트. 차분하고 매끈한 중저음의 연출안. 원문에 직접 발언이 없으면 새 대사를 만들지 않는다.",
+      "mode": "non_speaking",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-121": {
+      "id": "character-121",
+      "display_name": "그레첸의 환영",
+      "source_name": "그레첸의 환영",
+      "chapters": [
+        24
+      ],
+      "voice_name": "Leda",
+      "persona": "그레첸의 환영. 실제 그레첸과 같은 음색. 원문에 직접 대사가 없는 환영에 새 목소리를 주지 않는다.",
+      "mode": "non_speaking",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-122": {
+      "id": "character-122",
+      "display_name": "검은 푸들",
+      "source_name": "검은 푸들",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Fenrir",
+      "persona": "메피스토의 푸들 형태. 인간 대사 없음. 짖음·신음은 원문에 필요할 때 별도 효과 자산으로 다룬다.",
+      "mode": "non_speaking",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-123": {
+      "id": "character-123",
+      "display_name": "암컷 원숭이와 새끼들 · Kätzin / Junge",
+      "source_name": "암컷 원숭이와 새끼들 · Kätzin / Junge",
+      "chapters": [
+        9
+      ],
+      "voice_name": "Laomedeia",
+      "persona": "암컷 원숭이. 빠르고 명료한 중고음, 장난과 당황이 쉽게 바뀐다. 새끼들은 별도 대사가 없으면 목소리를 추가하지 않는다.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-124": {
+      "id": "character-124",
+      "display_name": "천상의 군대 · himmlische Heerscharen",
+      "source_name": "천상의 군대 · himmlische Heerscharen",
+      "chapters": [
+        3
+      ],
+      "voice_name": "Vindemiatrix",
+      "persona": "천상의 군대. 직접 가사가 있을 때만 부드러운 대표 낭독, 배경 군중 소리를 임의로 생성하지 않는다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-125": {
+      "id": "character-125",
+      "display_name": "성문 밖 농민들과 춤추는 사람들",
+      "source_name": "성문 밖 농민들과 춤추는 사람들",
+      "chapters": [
+        5
+      ],
+      "voice_name": "Achird",
+      "persona": "농민들과 춤추는 사람들. 친근한 중음과 춤의 리듬, 원문 무리별 구분 유지.",
+      "mode": "individual",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-126": {
+      "id": "character-126",
+      "display_name": "대성당의 회중",
+      "source_name": "대성당의 회중",
+      "chapters": [
+        23
+      ],
+      "voice_name": "Rasalgethi",
+      "persona": "대성당 회중. 조용하고 장중한 공동 낭독, 실제 다중 합창 음원으로 간주하지 않는다.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-127": {
+      "id": "character-127",
+      "display_name": "검은 말 두 마리",
+      "source_name": "검은 말 두 마리",
+      "chapters": [
+        27
+      ],
+      "voice_name": "Orus",
+      "persona": "검은 말 두 마리. 인간 대사 없음. 원문에 없는 말소리나 의인화 독백 금지.",
+      "mode": "non_speaking",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "character-128": {
+      "id": "character-128",
+      "display_name": "처형장 주변 마녀 무리",
+      "source_name": "처형장 주변 마녀 무리",
+      "chapters": [
+        27
+      ],
+      "voice_name": "Gacrux",
+      "persona": "처형장 주변 마녀 무리. 원문에 발언이 있을 때만 거친 중저음, 배경 공포 음원 생성 금지.",
+      "mode": "collective_representative",
+      "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
+      "pace": "medium",
+      "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
+      "audition_status": "not_auditioned"
+    },
+    "narrator": {
+      "id": "narrator",
+      "display_name": "나레이터",
+      "voice_name": "Charon",
+      "persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+      "mode": "narrator",
+      "audition_status": "not_auditioned"
+    },
+    "dedication-poet": {
+      "id": "dedication-poet",
+      "display_name": "헌시의 시인",
+      "voice_name": "Algieba",
+      "persona": "지난 삶과 사람들을 돌아보는 이름 없는 창작자. 조용하고 절제된 그리움. 2장 극작가와 같은 인물이라고 단정하지 않는다.",
+      "mode": "individual",
+      "audition_status": "not_auditioned"
+    },
+    "extra-shepherd": {
+      "id": "extra-shepherd",
+      "display_name": "목동",
+      "voice_name": "Achird",
+      "persona": "소박하고 친근한 중음, 들판의 춤 노래를 자연스럽게 전달한다.",
+      "mode": "individual",
+      "audition_status": "not_auditioned"
+    },
+    "extra-dancer": {
+      "id": "extra-dancer",
+      "display_name": "춤추는 사람",
+      "voice_name": "Achird",
+      "persona": "친근하고 들뜬 중음, 상대의 반응에 맞춰 짧게 말한다.",
+      "mode": "individual",
+      "audition_status": "not_auditioned"
+    },
+    "extra-dancer-woman": {
+      "id": "extra-dancer-woman",
+      "display_name": "춤추는 아가씨",
+      "voice_name": "Aoede",
+      "persona": "산뜻하고 또렷한 중음, 춤 상대에게 재치 있게 응수한다.",
+      "mode": "individual",
+      "audition_status": "not_auditioned"
+    }
+  },
+  "aliases": {
+    "나레이터": "narrator",
+    "시인": "character-002",
+    "지배인": "character-001",
+    "희극 배우": "character-003",
+    "라파엘": "character-004",
+    "가브리엘": "character-005",
+    "미카엘": "character-006",
+    "메피스토": "character-008",
+    "메피스토펠레스": "character-008",
+    "주": "character-009",
+    "하느님": "character-009",
+    "파우스트": "character-010",
+    "지령": "character-011",
+    "바그너": "character-012",
+    "천사들의 합창": "character-013",
+    "여인들의 합창": "character-014",
+    "제자들의 합창": "character-015",
+    "직공 청년": "character-019",
+    "두 번째 직공 청년": "character-020",
+    "세 번째 직공 청년": "character-022",
+    "네 번째 직공 청년": "character-023",
+    "다섯 번째 직공 청년": "character-024",
+    "다른 하녀": "character-025",
+    "첫 번째 하녀": "character-026",
+    "시민의 딸": "character-028",
+    "두 번째 학생": "character-029",
+    "첫 번째 학생": "character-030",
+    "첫 번째 시민": "character-031",
+    "거지": "character-032",
+    "두 번째 시민": "character-033",
+    "세 번째 시민": "character-034",
+    "노파": "character-035",
+    "아가테": "character-036",
+    "군인": "character-037",
+    "늙은 농부": "character-038",
+    "정령들": "character-040",
+    "정령들의 합창": "character-041",
+    "학생": "character-042",
+    "프로슈": "character-043",
+    "브란더": "character-044",
+    "지벨": "character-045",
+    "알트마이어": "character-046",
+    "수컷 원숭이": "character-050",
+    "마녀": "character-052",
+    "그레첸": "character-053",
+    "그레트헨": "character-053",
+    "마르가레테": "character-053",
+    "마르테": "character-054",
+    "암컷 원숭이": "character-123",
+    "목동": "extra-shepherd",
+    "춤추는 사람": "extra-dancer",
+    "춤추는 아가씨": "extra-dancer-woman",
+    "극장 지배인": "character-001",
+    "극작가 / 시인": "character-002",
+    "대천사 라파엘": "character-004",
+    "대천사 가브리엘": "character-005",
+    "대천사 미카엘": "character-006",
+    "세 대천사의 공동 발화": "character-007",
+    "주 / 하느님": "character-009",
+    "지령 · 대지의 정령": "character-011",
+    "직공 청년들": "character-016",
+    "다른 이 / 다른 무리 · 문맥별 상이": "character-017",
+    "첫 번째 무리": "character-018",
+    "첫 직공 청년": "character-019",
+    "두 번째 무리": "character-021",
+    "하녀": "character-025",
+    "시민 집안의 처녀": "character-028",
+    "늙은 여자": "character-035",
+    "또 다른 시민 처녀 · 아가테로 불림": "character-036",
+    "군인들": "character-037",
+    "모두 함께": "character-039",
+    "술집 손님들의 합창": "character-047",
+    "마녀 부엌의 동물들": "character-049",
+    "수컷 원숭이 · Kater 표기": "character-050",
+    "수컷·암컷 원숭이 공동 발화": "character-051",
+    "마르가레테 / 그레첸": "character-053",
+    "마르테 슈베르트라인": "character-054",
+    "리스헨": "character-055",
+    "발렌틴": "character-056",
+    "민중 / 군중": "character-057",
+    "악령": "character-058",
+    "합창": "character-059",
+    "도깨비불 · 산길 안내자": "character-060",
+    "파우스트·메피스토·도깨비불 공동 발화": "character-061",
+    "마녀들": "character-062",
+    "목소리": "character-063",
+    "마녀 합창": "character-065",
+    "마법사들 · 반쪽 합창": "character-066",
+    "나머지 반쪽 합창": "character-067",
+    "여러 목소리": "character-068",
+    "두 합창단 함께": "character-069",
+    "반쪽 마녀": "character-070",
+    "마녀들의 합창": "character-071",
+    "장군": "character-072",
+    "대신": "character-073",
+    "벼락출세자": "character-074",
+    "작가": "character-075",
+    "잡동사니 파는 마녀": "character-076",
+    "젊고 아름다운 춤 상대": "character-077",
+    "늙은 춤 상대": "character-078",
+    "프로크토판타스미스트 · 유령 비판자": "character-079",
+    "세르비빌리스 · 공연 안내자": "character-080",
+    "극장 감독": "character-081",
+    "전령": "character-082",
+    "오베론": "character-083",
+    "퍽": "character-084",
+    "아리엘": "character-085",
+    "티타니아": "character-086",
+    "오케스트라 총주": "character-087",
+    "독주 / 독창": "character-088",
+    "형성되고 있는 정령": "character-089",
+    "한 쌍의 연인": "character-090",
+    "호기심 많은 여행자": "character-091",
+    "정통주의자": "character-092",
+    "북방 예술가": "character-093",
+    "순수주의자": "character-094",
+    "젊은 마녀": "character-095",
+    "나이 든 부인": "character-096",
+    "악장": "character-097",
+    "풍향계 · 변덕의 의인화": "character-098",
+    "크세니엔 · 풍자시들의 의인화": "character-099",
+    "헤닝스 · 풍자극 배역": "character-100",
+    "무사게트 · 뮤즈의 인도자": "character-101",
+    "한때 시대의 천재였던 자": "character-102",
+    "두루미": "character-103",
+    "세속의 자식": "character-104",
+    "무용수": "character-105",
+    "무용 교사": "character-106",
+    "바이올린 연주자": "character-107",
+    "독단주의자": "character-108",
+    "관념론자": "character-109",
+    "실재론자": "character-110",
+    "초자연주의자": "character-111",
+    "회의론자": "character-112",
+    "재주 좋은 무리": "character-113",
+    "서투른 무리": "character-114",
+    "도깨비불들": "character-115",
+    "별똥별": "character-116",
+    "육중한 무리": "character-117",
+    "오케스트라": "character-118",
+    "릴리트 · Lilith": "character-120",
+    "그레첸의 환영": "character-121",
+    "검은 푸들": "character-122",
+    "암컷 원숭이와 새끼들 · Kätzin / Junge": "character-123",
+    "천상의 군대 · himmlische Heerscharen": "character-124",
+    "성문 밖 농민들과 춤추는 사람들": "character-125",
+    "대성당의 회중": "character-126",
+    "검은 말 두 마리": "character-127",
+    "처형장 주변 마녀 무리": "character-128"
+  },
+  "chapter_alias_overrides": {
+    "1": {
+      "시인": "dedication-poet"
+    }
+  },
+  "notes": [
+    "128개 참조 항목에는 집단·공동발화·비발화 형상도 포함되며128명의 독립 인물이 아님.",
+    "음색은30종을 재사용한다. 동시 장면의 주요인물은 구별되는 음색을 우선 배정한다.",
+    "구간별 단일 화자 생성 후 합쳐 다수 화자를 지원한다. 합창은 대표 낭독이며 실제 합창 생성 아님.",
+    "API 모델의 음색 이름과 페르소나는 성우 연출안이며 실존 성우·배우를 지정하거나 복제하지 않는다.",
+    "실제 모델 호출·음성 생성·청취는 미실행. 계정·환경별 가용성과 발음·음색은 실제 청취 후 확인해야 함."
+  ]
+}

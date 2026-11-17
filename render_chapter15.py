@@ -1,3 +1,8 @@
+from pathlib import Path as _CastPath
+import json as _CastJSON
+if _CastJSON.loads((_CastPath(__file__).parent/'adaptations/chapter-15.json').read_text(encoding='utf-8')).get('prose_revision')=='dialogue-cast-v3':
+ from render_dialogue_script import render
+ render(15);raise SystemExit(0)
 from pathlib import Path
 from bs4 import BeautifulSoup
 import json
@@ -34,7 +39,7 @@ for e,b in zip(all_scenes[:n],a['scenes'][:n]):
  for u in t['segments']:
   if e['source_start']<=u['source_start']<e['source_end']:fold(u,sec)
  nav.insert_before(sec)
- e.update(status='illustrated_adapted',adaptation='adaptations/chapter-15.json',reference_ids=['character-010','character-008','character-053','character-054','location-011'],review_note='두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레트헨이 먼저 달려감. 정원 배치는 연출용 가상 설정.')
+ e.update(status='illustrated_adapted',adaptation='adaptations/chapter-15.json',reference_ids=['character-010','character-008','character-053','character-054','location-011'],review_note='두 쌍의 대화가 번갈아 등장. 여동생은 대화 속 과거이며 현장에 없음. 꽃잎 점은 후반부, 손잡기 후 그레첸이 먼저 달려감. 정원 배치는 연출용 가상 설정.')
 for u in t['segments']:
  if u['id'] not in placed:fold(u)
 old=s.find(id='chapter15-adaptation-style')

@@ -1,0 +1,146 @@
+{
+  "status": "passed",
+  "cast_profiles": 133,
+  "reference_entries_covered": 128,
+  "chapters": [
+    {
+      "chapter": 1,
+      "scenes": 16,
+      "tts_segments": 44,
+      "dialogue": 0,
+      "monologues": 5,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 2,
+      "scenes": 23,
+      "tts_segments": 49,
+      "dialogue": 25,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 3,
+      "scenes": 14,
+      "tts_segments": 35,
+      "dialogue": 17,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 4,
+      "scenes": 52,
+      "tts_segments": 78,
+      "dialogue": 21,
+      "monologues": 5,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 5,
+      "scenes": 48,
+      "tts_segments": 62,
+      "dialogue": 11,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 6,
+      "scenes": 43,
+      "tts_segments": 86,
+      "dialogue": 35,
+      "monologues": 4,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 7,
+      "scenes": 62,
+      "tts_segments": 129,
+      "dialogue": 61,
+      "monologues": 3,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 8,
+      "scenes": 60,
+      "tts_segments": 105,
+      "dialogue": 33,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 9,
+      "scenes": 46,
+      "tts_segments": 100,
+      "dialogue": 47,
+      "monologues": 2,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 10,
+      "scenes": 12,
+      "tts_segments": 37,
+      "dialogue": 25,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 11,
+      "scenes": 21,
+      "tts_segments": 71,
+      "dialogue": 21,
+      "monologues": 3,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 12,
+      "scenes": 9,
+      "tts_segments": 28,
+      "dialogue": 17,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 13,
+      "scenes": 31,
+      "tts_segments": 105,
+      "dialogue": 47,
+      "monologues": 2,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 14,
+      "scenes": 10,
+      "tts_segments": 29,
+      "dialogue": 17,
+      "monologues": 0,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 15,
+      "scenes": 24,
+      "tts_segments": 91,
+      "dialogue": 45,
+      "monologues": 2,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 16,
+      "scenes": 6,
+      "tts_segments": 25,
+      "dialogue": 14,
+      "monologues": 1,
+      "source_translation_images_preserved": true
+    },
+    {
+      "chapter": 17,
+      "scenes": 21,
+      "tts_segments": 62,
+      "dialogue": 26,
+      "monologues": 2,
+      "source_translation_images_preserved": true
+    }
+  ],
+  "tts_segments": 1136,
+  "audio_generated": false,
+  "listening_test": false
+}
