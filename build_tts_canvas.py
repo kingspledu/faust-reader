@@ -9,7 +9,7 @@ voice_codes.update({'파우스트':'FAU','바그너':'WAG'})
 crowd_voices={'직공 청년':('Puck','ART'),'세 번째 직공 청년':('Puck','ART3'),'다섯 번째 직공 청년':('Orus','ART5'),'첫 번째 하녀':('Kore','MAID1'),'다른 하녀':('Sulafat','MAID2'),'시민의 딸':('Kore','DAU'),'두 번째 학생':('Puck','STU2'),'첫 번째 학생':('Fenrir','STU1'),'첫 번째 시민':('Orus','CIT1'),'거지':('Charon','BEG'),'두 번째 시민':('Fenrir','CIT2'),'세 번째 시민':('Orus','CIT3'),'노파':('Sulafat','OLDW'),'아가테':('Kore','AGA'),'군인':('Fenrir','SOL'),'목동':('Puck','SHEP'),'춤추는 사람':('Puck','DAN'),'춤추는 아가씨':('Kore','DANW'),'늙은 농부':('Charon','FARM')}
 voice_names.update({k:v[0] for k,v in crowd_voices.items()});voice_codes.update({k:v[1] for k,v in crowd_voices.items()})
 voice_names.update({'학생':'Puck'});voice_codes.update({'학생':'STU7'})
-chapters_to_build=[1,2,3,4,5,6,7,8,9,10,11]
+chapters_to_build=[1,2,3,4,5,6,7,8,9,10,11,12]
 for ch in chapters_to_build:
  if ch==8:
   voice_names.update({'프로슈':'Puck','브란더':'Fenrir','지벨':'Orus','알트마이어':'Charon'})
@@ -60,9 +60,12 @@ for ch in chapters_to_build:
     no=int(sid[-3:])
     seg['performance']['emotion']='첫 만남 뒤의 궁금함' if no==1 else '조용한 방에서 느끼는 감동과 망설임' if no<=6 else '자신의 행동을 돌아보는 부끄러움과 혼란' if no<=10 else '재촉과 유혹, 파우스트의 주저함' if no<=13 else '이유를 모르는 불안에서 노래로 마음을 진정함' if no<=16 else '낯선 상자에 대한 의심과 호기심' if no<=19 else '달라진 모습에 대한 기쁨과 가난에 대한 씁쓸함'
     seg['performance']['acting_notes']+=' 왕의 노래는 본문에 쓰인 서술만 읽고 별도 가사나 노래를 추가하지 않는다. 파우스트의 상상은 실제 회상처럼 확신에 차서 읽지 않는다. 그레트헨의 호기심은 선정적인 유혹으로 표현하지 않는다. 독백은 나직한 보통 말소리를 유지한다.'
+   if ch==12:
+    seg['performance']['emotion']='분노와 빈정거림, 마지막에는 냉소적인 복종' if speaker=='메피스토펠레스' else '의아함에서 걱정과 조급한 요구로' if speaker=='파우스트' else '소식의 경위를 친절하게 설명하되 보고와 확정된 사실을 구분'
+    seg['performance']['acting_notes']+=' 신부와 어머니의 이야기는 메피스토펠레스가 전한 내용으로 읽는다. 나레이션이 갑자기 신부나 어머니 목소리로 변하지 않는다. 악마의 분노도 독백에서는 나직한 보통 말소리로 표현하고 고함·과도한 속삭임을 피한다. 없는 웃음이나 욕설을 새로 넣지 않는다.'
    units.append(seg);allindex.append({'chapter':ch,'order':idx,'scene_id':sid,'segment_id':seg['id'],'speaker':speaker,'filename':filename,'voice':seg['voice'],'text_sha256':hashlib.sha256(text.encode()).hexdigest(),'text':text})
  assert units, f'Chapter {ch}: completed adaptation prose is required before TTS generation'
- episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기','술집에서 벌어진 눈속임','거울 속 모습과 젊음의 약','거리에서 마주친 소녀','방에 남겨진 보석 상자'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
+ episode={'schema_version':'faust-tts-1.0','chapter':ch,'title':['돌아오지 않는 이들에게','같은 무대, 다른 생각','아직 끝나지 않은 사람','닫힌 방에 돌아온 노래','봄빛 속의 두 마음','푸들 속의 낯선 손님','멈추지 않겠다는 내기','술집에서 벌어진 눈속임','거울 속 모습과 젊음의 약','거리에서 마주친 소녀','방에 남겨진 보석 상자','사라진 보석과 새로운 부탁'][ch-1],'language':'ko-KR','revision':'V04','voices':voice_names,'scenes':[{'scene_id':f'C{ch:02}','title':f'파우스트 {ch}장','segments':units}]}
  s=re.sub(r'const originalEpisode = .*?;\s*const originalStory =',lambda m:'const originalEpisode = '+json.dumps(episode,ensure_ascii=False)+';\n        const originalStory =',template,flags=re.S)
  a=s.index('        function parseTurns(');b=s.index("        processBtn.addEventListener",a)
  s=s[:a]+'''        function parseTurns(text) {

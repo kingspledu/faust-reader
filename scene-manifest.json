@@ -4,7 +4,7 @@
     4
   ],
   "reading_order": "row-major",
-  "scope": "Chapters 1-11 illustrated and adapted; later chapters pending.",
+  "scope": "Chapters 1-12 illustrated and adapted; later chapters pending.",
   "scenes": [
     {
       "id": "c01-s001",
@@ -16885,6 +16885,384 @@
       "adaptation": "adaptations/chapter-11.json",
       "char_offset": 4882,
       "anchor": "Das ist wohl alles schön und gut,\nAllein man läßt’s auch alles sein;\nMan lobt euch halb mit Erbarmen"
+    },
+    {
+      "id": "c12-dense-001",
+      "chapter": 12,
+      "chapter_title": "Spaziergang",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 132,
+      "source_text": "Faust in Gedanken auf und ab gehend. Zu ihm Mephistopheles.\n\nMEPHISTOPHELES.\nBei aller verschmähten Liebe! Beim höllischen Elemente!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-009"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 0,
+      "image": "illustrations/c12-dense-001.webp",
+      "source_grid": "source_images/chapter12-dense-001.png",
+      "crop_box": [
+        3,
+        3,
+        309,
+        312
+      ],
+      "native_grid_size": [
+        1248,
+        1260
+      ],
+      "adaptation": "adaptations/chapter-12.json",
+      "char_offset": 0,
+      "anchor": "Faust in Gedanken auf und ab gehend. Zu ihm Mephistopheles.\n\nMEPHISTOPHELES.\nBei aller verschmähten "
+    },
+    {
+      "id": "c12-dense-002",
+      "chapter": 12,
+      "chapter_title": "Spaziergang",
+      "sentence_count": 4,
+      "source_start": 132,
+      "source_end": 280,
+      "source_text": "\nIch wollt, ich wüßte was Ärgers, daß ich’s fluchen könnte!\n\nFAUST.\nWas hast? was kneipt dich denn so sehr?\nSo kein Gesicht sah ich in meinem Leben!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-009"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1,
+      "image": "illustrations/c12-dense-002.webp",
+      "source_grid": "source_images/chapter12-dense-001.png",
+      "crop_box": [
+        315,
+        3,
+        621,
+        312
+      ],
+      "native_grid_size": [
+        1248,
+        1260
+      ],
+      "adaptation": "adaptations/chapter-12.json",
+      "char_offset": 132,
+      "anchor": "Ich wollt, ich wüßte was Ärgers, daß ich’s fluchen könnte!\n\nFAUST.\nWas hast? was kneipt dich denn so"
+    },
+    {
+      "id": "c12-dense-003",
+      "chapter": 12,
+      "chapter_title": "Spaziergang",
+      "sentence_count": 4,
+      "source_start": 280,
+      "source_end": 565,
+      "source_text": "\n\nMEPHISTOPHELES.\nIch möcht mich gleich dem Teufel übergeben,\nWenn ich nur selbst kein Teufel wär!\n\nFAUST.\nHat sich dir was im Kopf verschoben?\nDich kleidet’s wie ein Rasender zu toben!\n\nMEPHISTOPHELES.\nDenkt nur, den Schmuck, für Gretchen angeschafft,\nDen hat ein Pfaff hinweggerafft!",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-009"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2,
+      "image": "illustrations/c12-dense-003.webp",
+      "source_grid": "source_images/chapter12-dense-001.png",
+      "crop_box": [
+        627,
+        3,
+        933,
+        312
+      ],
+      "native_grid_size": [
+        1248,
+        1260
+      ],
+      "adaptation": "adaptations/chapter-12.json",
+      "char_offset": 280,
+      "anchor": "MEPHISTOPHELES.\nIch möcht mich gleich dem Teufel übergeben,\nWenn ich nur selbst kein Teufel wär!\n\nFA"
+    },
+    {
+      "id": "c12-dense-004",
+      "chapter": 12,
+      "chapter_title": "Spaziergang",
+      "sentence_count": 4,
+      "source_start": 565,
+      "source_end": 1099,
+      "source_text": "\nDie Mutter kriegt das Ding zu schauen\nGleich fängt’s ihr heimlich an zu grauen,\nDie Frau hat gar einen feinen Geruch,\nSchnuffelt immer im Gebetbuch\nUnd riecht’s einem jeden Möbel an,\nOb das Ding heilig ist oder profan;\nUnd an dem Schmuck da spürt sie’s klar,\nDaß dabei nicht viel Segen war.\n“Mein Kind”, rief sie, “ungerechtes Gut\nBefängt die Seele, zehrt auf das Blut.\nWollen’s der Mutter Gottes weihen,\nWird uns mit Himmelsmanna erfreuen!”\nMargretlein zog ein schiefes Maul,\nIst halt, dacht sie, ein geschenkter Gaul,\nUnd wahrlich!",
+      "shot": "wide",
+      "shot_ko": "전경",
+      "composition": "장소 전체와 인물의 상대 위치",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-009"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 3,
+      "image": "illustrations/c12-dense-004.webp",
+      "source_grid": "source_images/chapter12-dense-001.png",
+      "crop_box": [
+        939,
+        3,
+        1245,
+        312
+      ],
+      "native_grid_size": [
+        1248,
+        1260
+      ],
+      "adaptation": "adaptations/chapter-12.json",
+      "char_offset": 565,
+      "anchor": "Die Mutter kriegt das Ding zu schauen\nGleich fängt’s ihr heimlich an zu grauen,\nDie Frau hat gar ein"
+    },
+    {
+      "id": "c12-dense-005",
+      "chapter": 12,
+      "chapter_title": "Spaziergang",
+      "sentence_count": 4,
+      "source_start": 1099,
+      "source_end": 1332,
+      "source_text": " gottlos ist nicht der,\nDer ihn so fein gebracht hierher.\nDie Mutter ließ einen Pfaffen kommen;\nDer hatte kaum den Spaß vernommen,\nLieß sich den Anblick wohl behagen.\nEr sprach: “So ist man recht gesinnt!\nWer überwindet, der gewinnt.",
+      "shot": "high-angle",
+      "shot_ko": "하이 앵글",
+      "composition": "인물과 주변 공간을 위에서 관찰",
+      "source_speaker_cues": [],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-009"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 0,
+      "image": "illustrations/c12-dense-005.webp",
+      "source_grid": "source_images/chapter12-dense-001.png",
+      "crop_box": [
+        3,
+        318,
+        309,
+        627
+      ],
+      "native_grid_size": [
+        1248,
+        1260
+      ],
+      "adaptation": "adaptations/chapter-12.json",
+      "char_offset": 1099,
+      "anchor": "gottlos ist nicht der,\nDer ihn so fein gebracht hierher.\nDie Mutter ließ einen Pfaffen kommen;\nDer h"
+    },
+    {
+      "id": "c12-dense-006",
+      "chapter": 12,
+      "chapter_title": "Spaziergang",
+      "sentence_count": 4,
+      "source_start": 1332,
+      "source_end": 1829,
+      "source_text": "\nDie Kirche hat einen guten Magen,\nHat ganze Länder aufgefressen\nUnd doch noch nie sich übergessen;\nDie Kirch allein, meine lieben Frauen,\nKann ungerechtes Gut verdauen.”\n\nFAUST.\nDas ist ein allgemeiner Brauch,\nEin Jud und König kann es auch.\n\nMEPHISTOPHELES.\nStrich drauf ein Spange, Kett und Ring’,\nAls wären’s eben Pfifferling’,\nDankt’ nicht weniger und nicht mehr,\nAls ob’s ein Korb voll Nüsse wär,\nVersprach ihnen allen himmlischen Lohn—\nUnd sie waren sehr erbaut davon.\n\nFAUST.\nUnd Gretchen?",
+      "shot": "low-angle",
+      "shot_ko": "로우 앵글",
+      "composition": "낮은 시점에서 인물·건축의 긴장감",
+      "source_speaker_cues": [
+        "FAUST",
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-009"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 1,
+      "image": "illustrations/c12-dense-006.webp",
+      "source_grid": "source_images/chapter12-dense-001.png",
+      "crop_box": [
+        315,
+        318,
+        621,
+        627
+      ],
+      "native_grid_size": [
+        1248,
+        1260
+      ],
+      "adaptation": "adaptations/chapter-12.json",
+      "char_offset": 1332,
+      "anchor": "Die Kirche hat einen guten Magen,\nHat ganze Länder aufgefressen\nUnd doch noch nie sich übergessen;\nD"
+    },
+    {
+      "id": "c12-dense-007",
+      "chapter": 12,
+      "chapter_title": "Spaziergang",
+      "sentence_count": 3,
+      "source_start": 1829,
+      "source_end": 2060,
+      "source_text": "\n\nMEPHISTOPHELES.\nSitzt nun unruhvoll,\nWeiß weder, was sie will noch soll,\nDenkt ans Geschmeide Tag und Nacht,\nNoch mehr an den, der’s ihr gebracht.\n\nFAUST.\nDes Liebchens Kummer tut mir leid.\nSchaff du ihr gleich ein neu Geschmeid!",
+      "shot": "close-up",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-009"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 2,
+      "image": "illustrations/c12-dense-007.webp",
+      "source_grid": "source_images/chapter12-dense-001.png",
+      "crop_box": [
+        627,
+        318,
+        933,
+        627
+      ],
+      "native_grid_size": [
+        1248,
+        1260
+      ],
+      "adaptation": "adaptations/chapter-12.json",
+      "char_offset": 1829,
+      "anchor": "MEPHISTOPHELES.\nSitzt nun unruhvoll,\nWeiß weder, was sie will noch soll,\nDenkt ans Geschmeide Tag un"
+    },
+    {
+      "id": "c12-dense-008",
+      "chapter": 12,
+      "chapter_title": "Spaziergang",
+      "sentence_count": 3,
+      "source_start": 2060,
+      "source_end": 2225,
+      "source_text": "\nAm ersten war ja so nicht viel.\n\nMEPHISTOPHELES.\nO ja, dem Herrn ist alles Kinderspiel!\n\nFAUST.\nUnd mach, und richt’s nach meinem Sinn,\nHäng dich an ihre Nachbarin!",
+      "shot": "prop-detail",
+      "shot_ko": "소품 디테일",
+      "composition": "원문에 등장한 손·책·의복·공간 재질 등 세부. 새 소품을 발명하지 않음",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES",
+        "FAUST"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-009"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-024",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 3,
+      "tile_column": 3,
+      "image": "illustrations/c12-dense-008.webp",
+      "source_grid": "source_images/chapter12-dense-001.png",
+      "crop_box": [
+        939,
+        318,
+        1245,
+        627
+      ],
+      "native_grid_size": [
+        1248,
+        1260
+      ],
+      "adaptation": "adaptations/chapter-12.json",
+      "char_offset": 2060,
+      "anchor": "Am ersten war ja so nicht viel.\n\nMEPHISTOPHELES.\nO ja, dem Herrn ist alles Kinderspiel!\n\nFAUST.\nUnd "
+    },
+    {
+      "id": "c12-dense-009",
+      "chapter": 12,
+      "chapter_title": "Spaziergang",
+      "sentence_count": 3,
+      "source_start": 2225,
+      "source_end": 2482,
+      "source_text": "\nSei, Teufel, doch nur nicht wie Brei,\nUnd schaff einen neuen Schmuck herbei!\n\nMEPHISTOPHELES.\nJa, gnäd’ger Herr, von Herzen gerne.\n(Faust ab.)\n\nSo ein verliebter Tor verpufft\nEuch Sonne, Mond und alle Sterne\nZum Zeitvertreib dem Liebchen in die Luft.\n(Ab.)",
+      "shot": "medium",
+      "shot_ko": "중경",
+      "composition": "대화 상대와 몸짓의 관계",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES"
+      ],
+      "reference_ids": [
+        "character-010",
+        "character-008",
+        "location-009"
+      ],
+      "existing_images": [],
+      "status": "illustrated_adapted",
+      "batch": "dense-batch-025",
+      "review_note": "회춘 이후 파우스트와 귀족복 메피스토펠레스. 어머니·신부·그레트헨 사건은 보고로 구분. 새 보석 획득·전달을 앞당기지 않음.",
+      "exception": false,
+      "tile_row": 0,
+      "tile_column": 0,
+      "image": "illustrations/c12-dense-009.webp",
+      "source_grid": "source_images/chapter12-dense-001.png",
+      "crop_box": [
+        3,
+        633,
+        309,
+        942
+      ],
+      "native_grid_size": [
+        1248,
+        1260
+      ],
+      "adaptation": "adaptations/chapter-12.json",
+      "char_offset": 2225,
+      "anchor": "Sei, Teufel, doch nur nicht wie Brei,\nUnd schaff einen neuen Schmuck herbei!\n\nMEPHISTOPHELES.\nJa, gn"
     }
   ]
 }

@@ -9428,6 +9428,204 @@
       "voice": "Kore",
       "text_sha256": "705007f526083e7bce818b07079783165e196cc753df8cfb3defb195cc3cdc78",
       "text": "예뻐 보이는 것보다 가진 것이 더 중요하다는 걸까? 갖고 싶어도 내 것이라고 할 수는 없는데."
+    },
+    {
+      "chapter": 12,
+      "order": 0,
+      "scene_id": "c12-dense-001",
+      "segment_id": "C12_0000",
+      "speaker": "나레이터",
+      "filename": "FAUST_C12_V04_0000_c12-dense-001_NAR.wav",
+      "voice": "Charon",
+      "text_sha256": "8e6c22a11fc5c357790fd5c6e6726db802dffbe42363f2e94e14482a596a7ace",
+      "text": "파우스트는 생각에 잠겨 산책길을 오갔다. 그레트헨의 방을 나온 뒤에도 그곳에서 느낀 일을 쉽게 떨칠 수 없었다. 그때 메피스토펠레스가 잔뜩 화가 난 얼굴로 다가왔다. 평소에는 남을 놀리며 여유를 부리던 사람이 이번에는 저주할 말부터 쏟아냈다."
+    },
+    {
+      "chapter": 12,
+      "order": 1,
+      "scene_id": "c12-dense-001",
+      "segment_id": "C12_0001",
+      "speaker": "파우스트",
+      "filename": "FAUST_C12_V04_0001_c12-dense-001_FAU.wav",
+      "voice": "Orus",
+      "text_sha256": "9c08196fd65b1e69547d5364594887544dcf106d67b5422c08728afb7a403276",
+      "text": "저렇게 성을 내는 모습은 처음이군. 상자를 두고 온 뒤에 무슨 일이 있었나?"
+    },
+    {
+      "chapter": 12,
+      "order": 2,
+      "scene_id": "c12-dense-002",
+      "segment_id": "C12_0002",
+      "speaker": "나레이터",
+      "filename": "FAUST_C12_V04_0002_c12-dense-002_NAR.wav",
+      "voice": "Charon",
+      "text_sha256": "df5a1d0f1a677cad0876b2d64927198d87f5ff1d8761319f6a3c41ff8310bbbc",
+      "text": "메피스토펠레스는 더 지독한 욕을 안다면 좋겠다며 투덜거렸다. 파우스트는 무엇 때문에 그런 얼굴을 하느냐고 물었다. 아직 사정을 듣지 못한 그는 메피스토펠레스가 이토록 화내는 이유를 짐작하기 어려웠다. 메피스토펠레스는 대답하기 전에도 분을 삭이지 못했다."
+    },
+    {
+      "chapter": 12,
+      "order": 3,
+      "scene_id": "c12-dense-002",
+      "segment_id": "C12_0003",
+      "speaker": "메피스토펠레스",
+      "filename": "FAUST_C12_V04_0003_c12-dense-002_MEP.wav",
+      "voice": "Fenrir",
+      "text_sha256": "401822a7e76a0e81a531f652c815de3989f31b24ec3a8f5746553115e8047c40",
+      "text": "힘들여 갖다 놓았는데 이렇게 허무하게 끝나다니. 어디에 대고 욕을 해야 속이 풀릴까?"
+    },
+    {
+      "chapter": 12,
+      "order": 4,
+      "scene_id": "c12-dense-003",
+      "segment_id": "C12_0004",
+      "speaker": "나레이터",
+      "filename": "FAUST_C12_V04_0004_c12-dense-003_NAR.wav",
+      "voice": "Charon",
+      "text_sha256": "eaf73ec8126a042e74a10dc52fba2c5aa2d2f0e78713f15984dad31db74f0680",
+      "text": "메피스토펠레스는 자신이 악마만 아니면 악마에게 몸을 넘기고 싶다고까지 말했다. 파우스트가 정신이 어떻게 된 것이냐고 비꼬자 그제야 이유를 꺼냈다. 그레트헨을 위해 둔 보석을 신부가 가져가 버렸다는 것이다. 보석으로 그녀의 관심을 끌려던 계획이 어긋난 셈이었다."
+    },
+    {
+      "chapter": 12,
+      "order": 5,
+      "scene_id": "c12-dense-003",
+      "segment_id": "C12_0005",
+      "speaker": "메피스토펠레스",
+      "filename": "FAUST_C12_V04_0005_c12-dense-003_MEP.wav",
+      "voice": "Fenrir",
+      "text_sha256": "53b7e728ea4192dd730793e40fb9811c2fdbe97faabfcc886a6d10240e364abf",
+      "text": "그 아이 마음을 흔들려고 고른 보석인데 신부 손에 들어갔어. 저 사람은 듣고도 태연하겠지."
+    },
+    {
+      "chapter": 12,
+      "order": 6,
+      "scene_id": "c12-dense-004",
+      "segment_id": "C12_0006",
+      "speaker": "나레이터",
+      "filename": "FAUST_C12_V04_0006_c12-dense-004_NAR.wav",
+      "voice": "Charon",
+      "text_sha256": "18e3a1369f512ef5f4bf3db74bf6c9bb8b9760614a3e465ee4f585139192f5c7",
+      "text": "메피스토펠레스의 설명에 따르면 그레트헨의 어머니는 보석을 보자 불안해했다. 누구에게서 왔는지 모르는 귀한 물건에 문제가 있다고 여긴 것이다. 어머니는 부정한 재물이 사람을 해친다며 성모께 바치자고 했다. 그레트헨은 아쉬워하면서도 보석을 준 사람이 나쁜 사람은 아닐 거라고 생각했다는 이야기였다."
+    },
+    {
+      "chapter": 12,
+      "order": 7,
+      "scene_id": "c12-dense-004",
+      "segment_id": "C12_0007",
+      "speaker": "메피스토펠레스",
+      "filename": "FAUST_C12_V04_0007_c12-dense-004_MEP.wav",
+      "voice": "Fenrir",
+      "text_sha256": "da9d20df204e1bdf5cb50abfeba83b31f39f477e1015b4735f61cfa0555d6b00",
+      "text": "그 어머니가 걸림돌이었군. 물건이 아름답다는 것만으로는 넘어가지 않다니."
+    },
+    {
+      "chapter": 12,
+      "order": 8,
+      "scene_id": "c12-dense-005",
+      "segment_id": "C12_0008",
+      "speaker": "나레이터",
+      "filename": "FAUST_C12_V04_0008_c12-dense-005_NAR.wav",
+      "voice": "Charon",
+      "text_sha256": "7d93dbcfc34e2aa2d502dc4428c001d9ad83195dcf8b33f4c24b97fc46ac3e7e",
+      "text": "어머니가 부른 신부는 사정을 듣고 보석을 받는 일을 칭찬했다고 했다. 욕심을 이겨야 한다는 말과 달리, 메피스토펠레스가 흉내 내는 신부는 보석을 흐뭇하게 바라보는 모습이었다. 메피스토펠레스는 그 말투를 과장하며 빈정거렸다. 파우스트는 화가 난 악마가 전하는 이야기를 듣고 있었다."
+    },
+    {
+      "chapter": 12,
+      "order": 9,
+      "scene_id": "c12-dense-005",
+      "segment_id": "C12_0009",
+      "speaker": "메피스토펠레스",
+      "filename": "FAUST_C12_V04_0009_c12-dense-005_MEP.wav",
+      "voice": "Fenrir",
+      "text_sha256": "80840020fe814f54c91423f4ccc25c8a39891582e7bebf246cb4a84166f2ea48",
+      "text": "그렇게 좋은 일이라면서 보석은 자기가 챙겼다는 말이지. 내 수고를 생각하면 더 화가 나는군."
+    },
+    {
+      "chapter": 12,
+      "order": 10,
+      "scene_id": "c12-dense-006",
+      "segment_id": "C12_0010",
+      "speaker": "나레이터",
+      "filename": "FAUST_C12_V04_0010_c12-dense-006_NAR.wav",
+      "voice": "Charon",
+      "text_sha256": "367f1d2e4c3a31a3bb8bde5f774739ae0c56cb7901c4d3b573d184d347c00e48",
+      "text": "메피스토펠레스는 신부가 교회는 부정한 재물도 소화할 수 있다며 보석을 가져갔다고 말했다. 파우스트는 권력이나 재물을 가진 이들도 흔히 하는 일이라는 식으로 냉소했다. 메피스토펠레스는 감사 인사도 대수롭지 않았고 하늘의 보상만 약속했다고 덧붙였다. 파우스트가 정작 궁금한 것은 그레트헨이 어떻게 되었느냐는 점이었다."
+    },
+    {
+      "chapter": 12,
+      "order": 11,
+      "scene_id": "c12-dense-006",
+      "segment_id": "C12_0011",
+      "speaker": "파우스트",
+      "filename": "FAUST_C12_V04_0011_c12-dense-006_FAU.wav",
+      "voice": "Orus",
+      "text_sha256": "faa8ebe76387026500c3f62538338bc85c7c377c783442ed72a1814124eb7989",
+      "text": "보석을 누가 챙겼는지는 알겠네. 그래서 그 아이는 지금 어떤 마음으로 있는 거지?"
+    },
+    {
+      "chapter": 12,
+      "order": 12,
+      "scene_id": "c12-dense-007",
+      "segment_id": "C12_0012",
+      "speaker": "나레이터",
+      "filename": "FAUST_C12_V04_0012_c12-dense-007_NAR.wav",
+      "voice": "Charon",
+      "text_sha256": "484e9df64d387efebff72430396b69c3fcb229c4534c1d834eaff36b7452348f",
+      "text": "메피스토펠레스는 그레트헨이 보석과 그것을 준 사람을 생각하며 마음을 잡지 못한다고 했다. 파우스트는 그녀가 괴롭다니 안타깝다고 말했다. 그러나 곧바로 내놓은 해결책은 새 보석을 가져오라는 요구였다. 그녀에게 무슨 일이 필요한지 직접 물어보려는 말은 없었다."
+    },
+    {
+      "chapter": 12,
+      "order": 13,
+      "scene_id": "c12-dense-007",
+      "segment_id": "C12_0013",
+      "speaker": "파우스트",
+      "filename": "FAUST_C12_V04_0013_c12-dense-007_FAU.wav",
+      "voice": "Orus",
+      "text_sha256": "86377f318bafb4e2da26b46c73da8f193f30d7f57c613b818776e3ed2efd120d",
+      "text": "그렇게 아쉬워한다면 다른 보석을 주면 되지 않을까? 이번에는 빼앗기지 않게 하면 되겠군."
+    },
+    {
+      "chapter": 12,
+      "order": 14,
+      "scene_id": "c12-dense-008",
+      "segment_id": "C12_0014",
+      "speaker": "나레이터",
+      "filename": "FAUST_C12_V04_0014_c12-dense-008_NAR.wav",
+      "voice": "Charon",
+      "text_sha256": "32c43c6e6174da1e545d06274380c9d9988953788d94c4263055735b9d390470",
+      "text": "파우스트는 첫 보석도 그리 대단한 것은 아니었다고 말했다. 메피스토펠레스는 나리에게는 모든 것이 장난이라며 빈정거렸다. 파우스트는 아랑곳하지 않고 그레트헨의 이웃 여인에게 접근하라고 지시했다. 보석을 다시 마련하는 것뿐 아니라 어머니에게 막힌 길을 돌아갈 방법도 찾으려 했다."
+    },
+    {
+      "chapter": 12,
+      "order": 15,
+      "scene_id": "c12-dense-008",
+      "segment_id": "C12_0015",
+      "speaker": "메피스토펠레스",
+      "filename": "FAUST_C12_V04_0015_c12-dense-008_MEP.wav",
+      "voice": "Fenrir",
+      "text_sha256": "65616e8dc5bcd5f8767726aa1cd59252170ac2e4cd3b4ee2c3a8b790d4a9160a",
+      "text": "물건을 다시 구하는 수고는 전부 내 몫이군. 이제는 이웃까지 끌어들이라고 하네."
+    },
+    {
+      "chapter": 12,
+      "order": 16,
+      "scene_id": "c12-dense-009",
+      "segment_id": "C12_0016",
+      "speaker": "나레이터",
+      "filename": "FAUST_C12_V04_0016_c12-dense-009_NAR.wav",
+      "voice": "Charon",
+      "text_sha256": "625c0c95dc819db3cfe2c7179ea37909108638d45bf888b4206e7c1e51d181ec",
+      "text": "파우스트는 물러터지게 굴지 말고 새 보석을 가져오라고 다그쳤다. 메피스토펠레스는 공손한 척 따르겠다고 답했다. 파우스트가 떠나자 그는 연인을 잠깐 즐겁게 하려고 해와 달과 별까지 터뜨릴 바보라며 비웃었다. 원하는 것만 보느라 수고와 대가는 생각하지 않는다는 조롱이었다."
+    },
+    {
+      "chapter": 12,
+      "order": 17,
+      "scene_id": "c12-dense-009",
+      "segment_id": "C12_0017",
+      "speaker": "메피스토펠레스",
+      "filename": "FAUST_C12_V04_0017_c12-dense-009_MEP.wav",
+      "voice": "Fenrir",
+      "text_sha256": "f139a7878bfd094f3db73ef03d7e551a144293eaf186d1144daa3356fcab1383",
+      "text": "좋아, 다시 구해 주지. 저렇게 조급한 사람은 다음 부탁도 금방 꺼낼 테니까."
     }
   ],
   "full_mp3": [
@@ -9441,7 +9639,8 @@
     "FAUST_C08_V04_FULL.mp3",
     "FAUST_C09_V04_FULL.mp3",
     "FAUST_C10_V04_FULL.mp3",
-    "FAUST_C11_V04_FULL.mp3"
+    "FAUST_C11_V04_FULL.mp3",
+    "FAUST_C12_V04_FULL.mp3"
   ],
   "future_target": "audio/chapter-NN/",
   "source": "Published adaptation prose only; source/translation excluded"
