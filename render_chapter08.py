@@ -44,5 +44,5 @@ assert ''.join(x.get_text() for x in s.select('article pre[lang="de"]'))==de
 assert [x.get_text() for x in s.select('article .ko-translation')]==[u['ko'] for u in t['segments']]
 assert len(s.select('details.source-fold'))==11 and not s.select('details[open]')
 p.write_text(str(s),encoding='utf-8');pp.write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf-8')
-mp=r/'scene-manifest.json';m=json.loads(mp.read_text(encoding='utf-8'));m['scenes']=[e for e in m['scenes'] if e.get('chapter')!=8]+[{**e,'char_offset':e['source_start'],'anchor':e['source_text'].strip()[:100]} for e in all_scenes[:n]];m['scope']=f'Chapters 1–7 complete; chapter8 first {n}/55 scenes illustrated and adapted; later work pending.';mp.write_text(json.dumps(m,ensure_ascii=False,indent=2),encoding='utf-8')
-print(f'Chapter8 {n}/55 scenes inserted; all 11 bilingual units preserved and closed')
+mp=r/'scene-manifest.json';m=json.loads(mp.read_text(encoding='utf-8'));m['scenes']=[e for e in m['scenes'] if e.get('chapter')!=8]+[{**e,'char_offset':e['source_start'],'anchor':e['source_text'].strip()[:100]} for e in all_scenes[:n]];m['scope']='Chapters 1-8 illustrated and adapted; later chapters pending.' if n==60 else f'Chapters 1-7 complete; chapter8 first {n}/60 scenes illustrated and adapted; later work pending.';mp.write_text(json.dumps(m,ensure_ascii=False,indent=2),encoding='utf-8')
+print(f'Chapter8 {n}/60 scenes inserted; all 11 bilingual units preserved and closed')

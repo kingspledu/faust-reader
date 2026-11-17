@@ -11962,18 +11962,34 @@
         "ALTMAYER"
       ],
       "reference_ids": [
+        "character-043",
         "character-044",
         "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-033.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        3,
+        3,
+        381,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-034",
@@ -11991,17 +12007,34 @@
         "SIEBEL"
       ],
       "reference_ids": [
-        "character-008",
+        "character-043",
+        "character-044",
         "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-034.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        387,
+        3,
+        765,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-035",
@@ -12020,16 +12053,33 @@
       ],
       "reference_ids": [
         "character-043",
+        "character-044",
         "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-035.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        771,
+        3,
+        1149,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-036",
@@ -12048,18 +12098,34 @@
         "BRANDER"
       ],
       "reference_ids": [
-        "character-008",
+        "character-043",
         "character-044",
+        "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-036.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        1155,
+        3,
+        1533,
+        253
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-037",
@@ -12078,18 +12144,34 @@
         "FROSCH"
       ],
       "reference_ids": [
-        "character-008",
         "character-043",
+        "character-044",
+        "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-037.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        3,
+        259,
+        381,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-038",
@@ -12108,18 +12190,34 @@
         "FROSCH"
       ],
       "reference_ids": [
-        "character-008",
         "character-043",
+        "character-044",
+        "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 1,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-038.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        387,
+        259,
+        765,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-039",
@@ -12137,17 +12235,34 @@
         "ALTMAYER"
       ],
       "reference_ids": [
-        "character-008",
+        "character-043",
+        "character-044",
+        "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-039.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        771,
+        259,
+        1149,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-040",
@@ -12165,17 +12280,34 @@
         "BRANDER"
       ],
       "reference_ids": [
-        "character-008",
+        "character-043",
         "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-040.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        1155,
+        259,
+        1533,
+        509
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-041",
@@ -12194,18 +12326,34 @@
         "ALTMAYER"
       ],
       "reference_ids": [
-        "character-008",
+        "character-043",
+        "character-044",
         "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-041.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        3,
+        515,
+        381,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-042",
@@ -12222,16 +12370,34 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
         "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 2,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-042.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        387,
+        515,
+        765,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-043",
@@ -12248,16 +12414,34 @@
         "ALTMAYER"
       ],
       "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
         "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-043.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        771,
+        515,
+        1149,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-044",
@@ -12274,16 +12458,34 @@
         "MEPHISTOPHELES "
       ],
       "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
         "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-044.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        1155,
+        515,
+        1533,
+        765
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-045",
@@ -12301,16 +12503,34 @@
         "MEPHISTOPHELES"
       ],
       "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
         "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 2
+      "tile_column": 2,
+      "image": "illustrations/c08-dense-045.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        3,
+        771,
+        381,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-046",
@@ -12329,18 +12549,34 @@
         "SIEBEL "
       ],
       "reference_ids": [
-        "character-008",
-        "character-010",
+        "character-043",
+        "character-044",
         "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-018",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 3,
-      "tile_column": 3
+      "tile_column": 3,
+      "image": "illustrations/c08-dense-046.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        387,
+        771,
+        765,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-047",
@@ -12357,16 +12593,34 @@
         "MEPHISTOPHELES "
       ],
       "reference_ids": [
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "character-010",
         "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 0
+      "tile_column": 0,
+      "image": "illustrations/c08-dense-047.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        771,
+        771,
+        1149,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-048",
@@ -12383,16 +12637,34 @@
         "SIEBEL"
       ],
       "reference_ids": [
+        "character-043",
+        "character-044",
         "character-045",
+        "character-046",
+        "character-010",
+        "character-008",
         "location-005"
       ],
       "existing_images": [],
-      "status": "needs_image",
+      "status": "illustrated_adapted",
       "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "review_note": "노학자 상태 유지. 쥐·벼룩은 노래 속 이야기. 농담과 추측은 발언자의 판단으로 구분. 실제 생성 구도와 인물 확인 후 삽입.",
       "exception": false,
       "tile_row": 0,
-      "tile_column": 1
+      "tile_column": 1,
+      "image": "illustrations/c08-dense-048.webp",
+      "source_grid": "source_images/chapter08-dense-003.png",
+      "crop_box": [
+        1155,
+        771,
+        1533,
+        1021
+      ],
+      "native_grid_size": [
+        1536,
+        1024
+      ],
+      "adaptation": "adaptations/chapter-08.json"
     },
     {
       "id": "c08-dense-049",
@@ -12570,8 +12842,78 @@
       "chapter_title": "Auerbachs Keller in Leipzig",
       "sentence_count": 3,
       "source_start": 11285,
-      "source_end": 12279,
-      "source_text": " Seht, welche Traube!\n(Er faßt Siebeln bei der Nase. Die andern tun es wechselseitig und\nheben\ndie Messer.)\n\nMEPHISTOPHELES (wie oben).\nIrrtum, laß los der Augen Band!\nUnd merkt euch, wie der Teufel spaße!\n(Er verschwindet mit Faust, die Gesellen fahren auseinander.\n\nSIEBEL.\nWas gibt’s?\n\nALTMAYER.\nWie?\n\nFROSCH.\nWar das deine Nase?\n\nBRANDER (zu Siebel).\nUnd deine hab ich in der Hand!\n\nALTMAYER.\nEs war ein Schlag, der ging durch alle Glieder!\nSchafft einen Stuhl, ich sinke nieder!\n\nFROSCH.\nNein, sagt mir nur, was ist geschehn?\n\nFROSCH.\nWo ist der Kerl? Wenn ich ihn spüre,\nEr soll mir nicht lebendig gehn!\n\nALTMAYER.\nIch hab ihn selbst hinaus zur Kellertüre—\nAuf einem Fasse reiten sehn—\nEs liegt mir bleischwer in den Füßen.\n(Sich nach dem Tische wendend.)\nMein! Sollte wohl der Wein noch fließen?\n\nSIEBEL.\nBetrug war alles, Lug und Schein.\n\nFROSCH.\nMir deuchte doch, als tränk ich Wein.\n\nBRANDER.\nAber wie war es mit den Trauben?\n\nALTMAYER.\nNun sag mir eins, man soll kein Wunder glauben!",
+      "source_end": 11553,
+      "source_text": " Seht, welche Traube!\n(Er faßt Siebeln bei der Nase. Die andern tun es wechselseitig und\nheben\ndie Messer.)\n\nMEPHISTOPHELES (wie oben).\nIrrtum, laß los der Augen Band!\nUnd merkt euch, wie der Teufel spaße!\n(Er verschwindet mit Faust, die Gesellen fahren auseinander.\n\n",
+      "shot": "wide",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SIEBEL",
+        "ALTMAYER",
+        "FROSCH",
+        "BRANDER ",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "needs_image",
+      "batch": "chapter08-final",
+      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 2
+    },
+    {
+      "id": "c08-dense-056",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 11553,
+      "source_end": 11672,
+      "source_text": "SIEBEL.\nWas gibt’s?\n\nALTMAYER.\nWie?\n\nFROSCH.\nWar das deine Nase?\n\nBRANDER (zu Siebel).\nUnd deine hab ich in der Hand!\n\n",
+      "shot": "medium",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SIEBEL",
+        "ALTMAYER",
+        "FROSCH",
+        "BRANDER ",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "needs_image",
+      "batch": "chapter08-final",
+      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
+      "exception": false,
+      "tile_row": 1,
+      "tile_column": 3
+    },
+    {
+      "id": "c08-dense-057",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 3,
+      "source_start": 11672,
+      "source_end": 11817,
+      "source_text": "ALTMAYER.\nEs war ein Schlag, der ging durch alle Glieder!\nSchafft einen Stuhl, ich sinke nieder!\n\nFROSCH.\nNein, sagt mir nur, was ist geschehn?\n\n",
       "shot": "close-up",
       "shot_ko": "클로즈업",
       "composition": "표정과 시선의 변화를 포착",
@@ -12593,11 +12935,116 @@
       ],
       "existing_images": [],
       "status": "needs_image",
-      "batch": "dense-batch-019",
-      "review_note": "운문 느낌표·줄임표·인용부호로 인한 경계는 생성 전에 문맥 검토. 발화 표제와 괄호 무대지시는 문장 수 제외.",
+      "batch": "chapter08-final",
+      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
       "exception": false,
       "tile_row": 2,
       "tile_column": 0
+    },
+    {
+      "id": "c08-dense-058",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 11817,
+      "source_end": 12015,
+      "source_text": "FROSCH.\nWo ist der Kerl? Wenn ich ihn spüre,\nEr soll mir nicht lebendig gehn!\n\nALTMAYER.\nIch hab ihn selbst hinaus zur Kellertüre—\nAuf einem Fasse reiten sehn—\nEs liegt mir bleischwer in den Füßen.\n",
+      "shot": "wide",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SIEBEL",
+        "ALTMAYER",
+        "FROSCH",
+        "BRANDER ",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "needs_image",
+      "batch": "chapter08-final",
+      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 1
+    },
+    {
+      "id": "c08-dense-059",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 4,
+      "source_start": 12015,
+      "source_end": 12179,
+      "source_text": "(Sich nach dem Tische wendend.)\nMein! Sollte wohl der Wein noch fließen?\n\nSIEBEL.\nBetrug war alles, Lug und Schein.\n\nFROSCH.\nMir deuchte doch, als tränk ich Wein.\n\n",
+      "shot": "detail",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SIEBEL",
+        "ALTMAYER",
+        "FROSCH",
+        "BRANDER ",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "needs_image",
+      "batch": "chapter08-final",
+      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
+      "exception": false,
+      "tile_row": 2,
+      "tile_column": 2
+    },
+    {
+      "id": "c08-dense-060",
+      "chapter": 8,
+      "chapter_title": "Auerbachs Keller in Leipzig",
+      "sentence_count": 2,
+      "source_start": 12179,
+      "source_end": 12279,
+      "source_text": "BRANDER.\nAber wie war es mit den Trauben?\n\nALTMAYER.\nNun sag mir eins, man soll kein Wunder glauben!",
+      "shot": "medium",
+      "shot_ko": "클로즈업",
+      "composition": "표정과 시선의 변화를 포착",
+      "source_speaker_cues": [
+        "MEPHISTOPHELES ",
+        "SIEBEL",
+        "ALTMAYER",
+        "FROSCH",
+        "BRANDER ",
+        "BRANDER"
+      ],
+      "reference_ids": [
+        "character-008",
+        "character-043",
+        "character-044",
+        "character-045",
+        "character-046",
+        "location-005"
+      ],
+      "existing_images": [],
+      "status": "needs_image",
+      "batch": "chapter08-final",
+      "review_note": "마지막 긴 잔여 구간을 수동 분할. 발화자·무대지시 제외, 감탄 Mein은 후속 질문과 함께 해석. 마지막 2문장은 장 끝 예외.",
+      "exception": true,
+      "tile_row": 2,
+      "tile_column": 3
     },
     {
       "id": "c09-dense-001",

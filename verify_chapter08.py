@@ -11,7 +11,7 @@ for title in titles:
 assert de=='\n'.join(lines[positions[7]+1:positions[8]]).strip()
 assert [x.get_text() for x in s.select('article .ko-translation')]==[u['ko'] for u in t['segments']]
 assert len(s.select('details.source-fold'))==11 and not s.select('details[open]')
-sections=s.select('article > .illustrated-scene');n=len(sections);assert n in (16,32,48,55)
+sections=s.select('article > .illustrated-scene');n=len(sections);assert n in (16,32,48,60)
 for sec,b in zip(sections,a['scenes']):
  assert sec['data-scene']==b['id'] and sec.find(recursive=False).name=='figure'
  assert sec.figure.find_next_sibling()['class']==['adaptation-prose']
@@ -20,5 +20,5 @@ for sec,b in zip(sections,a['scenes']):
  assert (r/sec.img['src']).is_file()
 assert len({x.img['src'] for x in sections})==n
 assert not any(p.get_text().startswith('[나레이션:') for p in s.select('article p'))
-report=dict(chapter=8,status='partial' if n<55 else 'complete',illustrations=n,planned=55,narration=n,monologues=n,closed_bilingual_units=11,source_chars=len(de),independent_gutenberg_match=True,source_sha256=hashlib.sha256(de.encode()).hexdigest(),tts_generated=False)
+report=dict(chapter=8,status='partial' if n<60 else 'complete',illustrations=n,planned=60,narration=n,monologues=n,closed_bilingual_units=11,source_chars=len(de),independent_gutenberg_match=True,source_sha256=hashlib.sha256(de.encode()).hexdigest(),tts_generated=False)
 (r/'chapter08-production-audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(report))
