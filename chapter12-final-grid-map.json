@@ -150,10 +150,10 @@
     "image": "illustrations/c12-dense-009.webp",
     "source_grid": "source_images/chapter12-dense-001.png",
     "crop_box": [
-      3,
-      633,
-      309,
-      942
+      7,
+      644,
+      355,
+      924
     ],
     "native_grid_size": [
       1248,

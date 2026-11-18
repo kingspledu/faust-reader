@@ -79,9 +79,9 @@
     "source_grid": "source_images/chapter15-dense-002.png",
     "crop_box": [
       3,
-      259,
+      310,
       381,
-      509
+      575
     ],
     "native_grid_size": [
       1536,
@@ -97,9 +97,9 @@
     "source_grid": "source_images/chapter15-dense-002.png",
     "crop_box": [
       387,
-      259,
+      310,
       765,
-      509
+      575
     ],
     "native_grid_size": [
       1536,
@@ -115,9 +115,9 @@
     "source_grid": "source_images/chapter15-dense-002.png",
     "crop_box": [
       771,
-      259,
+      310,
       1149,
-      509
+      575
     ],
     "native_grid_size": [
       1536,
@@ -133,9 +133,9 @@
     "source_grid": "source_images/chapter15-dense-002.png",
     "crop_box": [
       1155,
-      259,
+      310,
       1533,
-      509
+      575
     ],
     "native_grid_size": [
       1536,
