@@ -8,6 +8,7 @@ button { background: transparent; border: 1px solid #b8b3a6; padding: 10px; colo
 main { display: grid; grid-template-columns: 280px 1fr; max-width: 1300px; margin: auto; }
 aside { padding: 35px 25px; border-right: 1px solid #cfc9bb; }
 aside a { display: block; padding: 9px 8px; font: 14px/1.4 system-ui; text-decoration: none; }
+.story-act a { display: block; padding: .25rem .5rem; }
 aside details { margin: 0 0 .75rem; border-color: #cfc9bb; }
 article { padding: 55px clamp(24px, 6vw, 100px); min-width: 0; }
 h1, h2 { line-height: 1.35; }

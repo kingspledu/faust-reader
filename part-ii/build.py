@@ -6,6 +6,7 @@ from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+SECTIONS = json.loads((ROOT / "reading-sections.json").read_text(encoding="utf-8"))
 TITLES = ["꽃이 핀 골짜기", "고딕 양식의 좁은 방", "스파르타의 메넬라오스 궁전 앞", "높은 산악 지대", "탁 트인 들판"]
 FIRST_SCENE = [61, 70, 74, 83, 88, 90, 94, 102, 111, 120, 129, 138, 152, 159, 177, 188, 215]
 COURT = [215, 222, 226, 234, 242, 248, 253, 258, 264, 272, 278, 291, 303, 312, 320, 328, 333]
@@ -13,8 +14,21 @@ COURT_REPORTS = [333, 338, 342, 346, 355, 359, 366, 374, 378, 388, 393, 396, 404
 SOURCE = "https://www.gutenberg.org/ebooks/2230"
 
 
-def page(title, content):
-    acts = "".join(f'<a href="act-{i:02}.html">{i}막 · {label}</a>' for i, label in enumerate(TITLES, 1))
+def section_toc(prefix="", active=None):
+    groups = []
+    for act, sections in enumerate(SECTIONS, 1):
+        opened = " open" if active == act else ""
+        links = "".join(
+            f'<a href="{prefix}act-{act:02}-{number:02}.html">{act}-{number}막 · {escape(label)}</a>'
+            for number, (_, label) in enumerate(sections, 1)
+        )
+        groups.append(f'<details class="story-act"{opened}><summary>{act}막</summary>{links}'
+                      f'<a href="{prefix}act-{act:02}.html">{act}막 전체 읽기</a></details>')
+    return "".join(groups)
+
+
+def page(title, content, active=None):
+    acts = section_toc(active=active)
     return f"""<!doctype html>
 <html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{escape(title)} · 파우스트 제2부</title><link rel="stylesheet" href="reader.css">
@@ -79,15 +93,14 @@ def build():
     end = next(i for i, line in enumerate(lines) if line.startswith("End of the Project Gutenberg EBook"))
     assert starts[0] == FIRST_SCENE[0] and lines[FIRST_SCENE[-1]].strip() == "KAISERLICHE PFALZ"
     assert len(starts) == len(TITLES)
+    assert starts == [sections[0][0] for sections in SECTIONS]
     opening = render_scene(lines, "opening", FIRST_SCENE)
     court = render_scene(lines, "court", COURT)
     reports = render_scene(lines, "reports", COURT_REPORTS)
     assert not court or opening
     assert not reports or court
-    toc = []
     for index, (start, stop, title) in enumerate(zip(starts, starts[1:] + [end], TITLES), 1):
         filename = f"act-{index:02}.html"
-        toc.append(f'<li><a href="{filename}">{index}막 · {title}</a></li>')
         content = ""
         if index == 1 and opening:
             content = '<h2>꽃이 핀 골짜기 <span lang="de">Anmutige Gegend</span></h2>' + opening
@@ -105,11 +118,53 @@ def build():
         if index < len(TITLES):
             links.append(f'<a href="act-{index+1:02}.html">다음 막</a>')
         content += '<nav aria-label="막 이동">' + " · ".join(links) + "</nav>"
-        (ROOT / filename).write_text(page(f"{index}막 · {title}", content), encoding="utf-8")
+        (ROOT / filename).write_text(page(f"{index}막 · {title}", content, index), encoding="utf-8")
+    divisions = [
+        (act, number, start, label)
+        for act, sections in enumerate(SECTIONS, 1)
+        for number, (start, label) in enumerate(sections, 1)
+    ]
+    assert [item[2] for item in divisions] == sorted({item[2] for item in divisions})
+    filenames = [f"act-{act:02}-{number:02}.html" for act, number, _, _ in divisions]
+    stops = [item[2] for item in divisions[1:]] + [end]
+    for position, ((act, number, start, label), stop) in enumerate(zip(divisions, stops)):
+        content = ""
+        if act == 1 and number == 1 and opening:
+            content = '<p><a href="illustration-review.html">이 구간의 삽화·원문·번역 대조</a></p>' + opening
+            start = FIRST_SCENE[-1]
+        if act == 1 and number == 2 and court and reports:
+            content = court + reports
+            start = COURT_REPORTS[-1]
+        if start < stop:
+            content += source_block(lines, start, stop)
+        links = []
+        if position:
+            links.append(f'<a rel="prev" href="{filenames[position-1]}">이전 구간</a>')
+        links.append(f'<a href="act-{act:02}.html">{act}막 전체</a>')
+        if position + 1 < len(filenames):
+            links.append(f'<a rel="next" href="{filenames[position+1]}">다음 구간</a>')
+        content += '<nav aria-label="구간 이동">' + " · ".join(links) + "</nav>"
+        (ROOT / filenames[position]).write_text(page(f"{act}-{number}막 · {label}", content, act), encoding="utf-8")
     review = render_illustration_review(lines)
     (ROOT / "illustration-review.html").write_text(page("1막 삽화·원문·번역 대조", review), encoding="utf-8")
-    index_content = '<p>요한 볼프강 폰 괴테</p><p><a href="illustration-review.html">1막 원문·번역 대조</a></p><ol>' + "".join(toc) + "</ol>"
+    index_content = '<p>요한 볼프강 폰 괴테</p><p><a href="illustration-review.html">1막 원문·번역 대조</a></p>' + section_toc()
     (ROOT / "index.html").write_text(page("파우스트 제2부", index_content), encoding="utf-8")
+    home = ROOT.parent / "index.html"
+    markup = home.read_text(encoding="utf-8")
+    navigation = section_toc("part-ii/")
+    review_link = '<a href="part-ii/illustration-review.html">1막 원문·번역 대조</a>'
+    for location, pattern in (
+        ("sidebar", r'(<details><summary>제2부 · 5막</summary>).*?(</aside>)'),
+        ("main", r'(<details class="part" id="part-2"><summary>.*?</summary>).*?(<footer>)'),
+    ):
+        markup, count = re.subn(
+            pattern, lambda m: m[1] + navigation + review_link + "</details>" + m[2],
+            markup, count=1, flags=re.S,
+        )
+        assert count == 1, location
+    if ".part .story-act a{" not in markup:
+        markup = markup.replace("</style>", ".part .story-act a{display:block;padding:.35rem .5rem}</style>", 1)
+    home.write_text(markup, encoding="utf-8")
 
 
 if __name__ == "__main__":
