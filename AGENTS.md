@@ -1,5 +1,7 @@
 # Faust reader project rules
 
+- When replacing an illustration, remove its superseded file and obsolete alternatives or source sheets from the working tree and published site. Keep shared source sheets that still provide active panels, and update provenance to the replacement.
+
 - From Part II Act 1 onward, count each printed German verse line, even across a single sentence. Place one illustration per 3–4 lines, excluding speaker labels, headings, blank lines, and stage directions. Register each new character sheet in the art bible page and reference index before generating the scene. Attach the existing reference images directly when generating returning characters.
 
 Read the latest rules in `FAUST_PRODUCTION_GUIDELINES.md` first, including the section on scene context and illustration alignment.
