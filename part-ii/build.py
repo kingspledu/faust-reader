@@ -14,13 +14,26 @@ SOURCE = "https://www.gutenberg.org/ebooks/2230"
 
 
 def page(title, content):
+    acts = "".join(f'<a href="act-{i:02}.html">{i}막 · {label}</a>' for i, label in enumerate(TITLES, 1))
     return f"""<!doctype html>
 <html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{escape(title)} · 파우스트 제2부</title><link rel="stylesheet" href="reader.css">
-<body><main><nav aria-label="이동"><a href="../">파우스트 제1부</a> · <a href="./">제2부 목차</a></nav>
+<body><header><a href="../"><b>FAUST</b></a><span>괴테 · 파우스트 제2부</span>
+<div><button aria-label="글자 축소" onclick="resize(-2)">A−</button> <button aria-label="글자 확대" onclick="resize(2)">A+</button></div>
+<a href="../art-bible/index.html">캐릭터·배경 설정집</a><a href="../voice-cast.html">성우·연기 설정</a></header>
+<main><aside aria-label="목차"><details><summary>제1부 · 28장</summary><a href="../#part-1">제1부 목차</a></details>
+<details open><summary>제2부 · 5막</summary>{acts}<a href="illustration-review.html">1막 원문·번역 대조</a></details></aside><article>
 <h1>{escape(title)}</h1>{content}
 <footer><a href="{SOURCE}">Project Gutenberg · 독일어 원문</a> · <a href="faust-ii-de.txt">원문 텍스트</a></footer>
-</main></body></html>"""
+</article></main><script>
+let size = Number(localStorage.getItem('faust-size')) || 20;
+function resize(amount) {{
+  size = Math.max(14, Math.min(32, size + amount));
+  document.documentElement.style.setProperty('--size', size + 'px');
+  localStorage.setItem('faust-size', size);
+}}
+resize(0);
+</script></body></html>"""
 
 
 def source_block(lines, start, end):

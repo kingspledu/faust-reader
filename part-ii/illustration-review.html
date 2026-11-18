@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>1막 원문·번역 대조 · 파우스트 제2부</title><link rel="stylesheet" href="reader.css">
-<body><main><nav aria-label="이동"><a href="../">파우스트 제1부</a> · <a href="./">제2부 목차</a></nav>
+<body><header><a href="../"><b>FAUST</b></a><span>괴테 · 파우스트 제2부</span>
+<div><button aria-label="글자 축소" onclick="resize(-2)">A−</button> <button aria-label="글자 확대" onclick="resize(2)">A+</button></div>
+<a href="../art-bible/index.html">캐릭터·배경 설정집</a><a href="../voice-cast.html">성우·연기 설정</a></header>
+<main><aside aria-label="목차"><details><summary>제1부 · 28장</summary><a href="../#part-1">제1부 목차</a></details>
+<details open><summary>제2부 · 5막</summary><a href="act-01.html">1막 · 꽃이 핀 골짜기</a><a href="act-02.html">2막 · 고딕 양식의 좁은 방</a><a href="act-03.html">3막 · 스파르타의 메넬라오스 궁전 앞</a><a href="act-04.html">4막 · 높은 산악 지대</a><a href="act-05.html">5막 · 탁 트인 들판</a><a href="illustration-review.html">1막 원문·번역 대조</a></details></aside><article>
 <h1>1막 원문·번역 대조</h1><p>1막 · 꽃이 핀 골짜기부터 메피스토가 땅속의 금을 제안하는 대목까지</p><nav aria-label="검토 구간"><a href="#review-opening">꽃이 핀 골짜기</a> · <a href="#review-court">황제의 궁정</a> · <a href="#review-reports">대신들의 보고와 메피스토의 제안</a></nav><h2 id="review-opening">꽃이 핀 골짜기</h2><section id="opening-01"><h3><a href="#opening-01">구간 01</a></h3><div class="comparison"><div><h4>독일어 원문</h4><pre lang="de">    1.  Akt--Anmutige Gegend
 
   Faust auf blumigen Rasen gebettet, ermüdet, unruhig,
@@ -332,4 +336,12 @@
   Und fragt ihr mich, wer es zutage schafft:
   Begabten Manns Natur--und Geisteskraft.</pre></div><div><h4>한국어 번역</h4><p class="translation" lang="ko">메피스토. 세상 어디에 부족한 것이 없겠습니까? 누구는 이것, 누구는 저것이 부족하지만 여기서는 돈이 부족합니다. 바닥에서 주울 수는 없어도 지혜가 있으면 가장 깊은 곳에서도 가져올 수 있습니다. 산의 광맥과 담 밑의 기초에는 주화로 찍은 금도, 찍지 않은 금도 있습니다. 누가 그것을 세상에 꺼내 놓느냐고요? 재능 있는 사람의 타고난 힘과 정신의 힘이지요.</p></div></div></section>
 <footer><a href="https://www.gutenberg.org/ebooks/2230">Project Gutenberg · 독일어 원문</a> · <a href="faust-ii-de.txt">원문 텍스트</a></footer>
-</main></body></html>
+</article></main><script>
+let size = Number(localStorage.getItem('faust-size')) || 20;
+function resize(amount) {
+  size = Math.max(14, Math.min(32, size + amount));
+  document.documentElement.style.setProperty('--size', size + 'px');
+  localStorage.setItem('faust-size', size);
+}
+resize(0);
+</script></body></html>

@@ -1,7 +1,17 @@
-:root { color-scheme: light dark; }
-body { margin: 0; font-family: system-ui, "Malgun Gothic", sans-serif; line-height: 1.8; }
-main { max-width: 46rem; margin: auto; padding: 1.5rem; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f6f2e9; color: #292a25; font: var(--size, 20px)/1.8 Georgia, "Times New Roman", serif; }
+a { color: inherit; }
+header { padding: 27px 5vw; border-bottom: 1px solid #cfc9bb; display: flex; justify-content: space-between; align-items: center; gap: 15px; flex-wrap: wrap; }
+header b { letter-spacing: .3em; }
+header a { text-decoration: none; }
+button { background: transparent; border: 1px solid #b8b3a6; padding: 10px; color: inherit; cursor: pointer; }
+main { display: grid; grid-template-columns: 280px 1fr; max-width: 1300px; margin: auto; }
+aside { padding: 35px 25px; border-right: 1px solid #cfc9bb; }
+aside a { display: block; padding: 9px 8px; font: 14px/1.4 system-ui; text-decoration: none; }
+aside details { margin: 0 0 .75rem; border-color: #cfc9bb; }
+article { padding: 55px clamp(24px, 6vw, 100px); min-width: 0; }
 h1, h2 { line-height: 1.35; }
+h1 { font-weight: normal; font-size: clamp(40px, 6vw, 70px); margin: 15px 0; }
 h2 span { display: block; font-size: .7em; font-weight: normal; }
 pre { white-space: pre-wrap; overflow-wrap: anywhere; font-family: Georgia, serif; }
 section { margin: 2rem 0 3rem; }
@@ -13,4 +23,9 @@ summary { cursor: pointer; }
 .comparison h4 { margin: .5rem 0; }
 .comparison pre, .comparison p { margin-top: 0; }
 @media (max-width: 42rem) { .comparison { grid-template-columns: 1fr; gap: .5rem; } }
-footer { margin-top: 2rem; }
+footer { margin-top: 2rem; font: 13px/1.8 system-ui; color: #62564a; }
+@media (max-width: 760px) {
+  main { display: block; }
+  aside { max-height: 220px; overflow: auto; border-bottom: 1px solid #cfc9bb; }
+  article { padding-top: 30px; }
+}

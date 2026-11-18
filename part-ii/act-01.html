@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>1막 · 꽃이 핀 골짜기 · 파우스트 제2부</title><link rel="stylesheet" href="reader.css">
-<body><main><nav aria-label="이동"><a href="../">파우스트 제1부</a> · <a href="./">제2부 목차</a></nav>
+<body><header><a href="../"><b>FAUST</b></a><span>괴테 · 파우스트 제2부</span>
+<div><button aria-label="글자 축소" onclick="resize(-2)">A−</button> <button aria-label="글자 확대" onclick="resize(2)">A+</button></div>
+<a href="../art-bible/index.html">캐릭터·배경 설정집</a><a href="../voice-cast.html">성우·연기 설정</a></header>
+<main><aside aria-label="목차"><details><summary>제1부 · 28장</summary><a href="../#part-1">제1부 목차</a></details>
+<details open><summary>제2부 · 5막</summary><a href="act-01.html">1막 · 꽃이 핀 골짜기</a><a href="act-02.html">2막 · 고딕 양식의 좁은 방</a><a href="act-03.html">3막 · 스파르타의 메넬라오스 궁전 앞</a><a href="act-04.html">4막 · 높은 산악 지대</a><a href="act-05.html">5막 · 탁 트인 들판</a><a href="illustration-review.html">1막 원문·번역 대조</a></details></aside><article>
 <h1>1막 · 꽃이 핀 골짜기</h1><h2>꽃이 핀 골짜기 <span lang="de">Anmutige Gegend</span></h2><section id="opening-01"><p>감옥에서 그레첸과 헤어진 뒤, 파우스트가 다시 모습을 드러낸 곳은 꽃이 핀 산골짜기였다. 등 뒤로 풀밭이 푹 꺼질 만큼 몸이 무거웠는데도 좀처럼 잠이 오지 않았다. 팔을 들어 눈을 가려 봤지만, 눈을 감는다고 마음까지 조용해지지는 않았다.</p><p>산 너머로 해가 지고 있었다. 그가 누운 자리 위로 작은 정령들이 하나둘 모여들더니, 허공을 빙빙 돌았다. 파우스트는 그들이 온 줄도 몰랐다.</p><details><summary>독일어 원문 · 한국어 번역</summary><pre lang="de">    1.  Akt--Anmutige Gegend
 
   Faust auf blumigen Rasen gebettet, ermüdet, unruhig,
@@ -2583,4 +2587,12 @@
 
 </pre><nav aria-label="막 이동"><a href="act-02.html">다음 막</a></nav>
 <footer><a href="https://www.gutenberg.org/ebooks/2230">Project Gutenberg · 독일어 원문</a> · <a href="faust-ii-de.txt">원문 텍스트</a></footer>
-</main></body></html>
+</article></main><script>
+let size = Number(localStorage.getItem('faust-size')) || 20;
+function resize(amount) {
+  size = Math.max(14, Math.min(32, size + amount));
+  document.documentElement.style.setProperty('--size', size + 'px');
+  localStorage.setItem('faust-size', size);
+}
+resize(0);
+</script></body></html>
