@@ -29,6 +29,4 @@ for name in ['index.html','art-bible/index.html']:
  if not s.find('a',href=target):
   a=s.new_tag('a',href=target);a.string='성우·연기 설정';(s.header or s.body or s).append(a)
  p.write_text(str(s),encoding='utf-8')
-p=r/'K-FAUST_META_PERSONA_v1.0.md';s=p.read_text(encoding='utf-8').replace('메피스토펠레스','메피스토').replace('그레트헨','그레첸');prefix='> 이 프로젝트에서는 FAUST_PRODUCTION_GUIDELINES.md의2026-11-18 확정 규칙이 우선한다. 전지적 서술·원문 기반 인물 대화·선택적 독백과 voice-cast.json의 고정 배역을 적용한다.\n\n'
-if prefix not in s:p.write_text(prefix+s,encoding='utf-8')
 print('Documentation updated:',dialogue,'spoken turns,',mono,'inner thoughts,',v['tts_segments'],'total TTS segments')
