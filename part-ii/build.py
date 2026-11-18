@@ -27,7 +27,7 @@ def source_block(lines, start, end):
     return '<pre lang="de">' + escape("\n".join(lines[start:end])) + '</pre>'
 
 
-def illustrated_scene(lines, key, boundaries, *, review=False):
+def render_scene(lines, key, boundaries, *, review=False):
     manuscript = ROOT / f"act-01-{key}.json"
     if not manuscript.exists():
         return ""
@@ -36,13 +36,11 @@ def illustrated_scene(lines, key, boundaries, *, review=False):
     content = ""
     for number, (begin, finish, scene) in enumerate(zip(boundaries, boundaries[1:], scenes), 1):
         scene_id = f"{key}-{number:02}"
-        image_path = f"images/{scene_id}.webp"
-        assert (ROOT / image_path).is_file()
-        content += f'<section id="{scene_id}"><img src="{image_path}" alt="{escape(scene["alt"], quote=True)}" loading="lazy">'
+        content += f'<section id="{scene_id}">'
         original = source_block(lines, begin, finish)
         translation = f'<p class="translation" lang="ko">{escape(scene["translation"])}</p>'
         if review:
-            content += f'<h3><a href="#{scene_id}">{number:02} · {escape(scene["alt"])}</a></h3>'
+            content += f'<h3><a href="#{scene_id}">구간 {number:02}</a></h3>'
             content += f'<div class="comparison"><div><h4>독일어 원문</h4>{original}</div><div><h4>한국어 번역</h4>{translation}</div></div>'
         else:
             content += "".join(f"<p>{escape(paragraph)}</p>" for paragraph in scene["prose"])
@@ -57,9 +55,9 @@ def build():
     end = next(i for i, line in enumerate(lines) if line.startswith("End of the Project Gutenberg EBook"))
     assert starts[0] == FIRST_SCENE[0] and lines[FIRST_SCENE[-1]].strip() == "KAISERLICHE PFALZ"
     assert len(starts) == len(TITLES)
-    opening = illustrated_scene(lines, "opening", FIRST_SCENE)
-    court = illustrated_scene(lines, "court", COURT)
-    reports = illustrated_scene(lines, "reports", COURT_REPORTS)
+    opening = render_scene(lines, "opening", FIRST_SCENE)
+    court = render_scene(lines, "court", COURT)
+    reports = render_scene(lines, "reports", COURT_REPORTS)
     assert not court or opening
     assert not reports or court
     toc = []
@@ -93,9 +91,9 @@ def build():
     review = '<p>1막 · 꽃이 핀 골짜기부터 메피스토가 땅속의 금을 제안하는 대목까지</p>'
     review += f'<nav aria-label="검토 구간">{review_links}</nav>'
     for key, title, boundaries in review_groups:
-        review += f'<h2 id="review-{key}">{title}</h2>' + illustrated_scene(lines, key, boundaries, review=True)
-    (ROOT / "illustration-review.html").write_text(page("삽화 배치 검토", review), encoding="utf-8")
-    index_content = '<p>요한 볼프강 폰 괴테</p><p><a href="illustration-review.html">1막 삽화 배치 검토</a></p><ol>' + "".join(toc) + "</ol>"
+        review += f'<h2 id="review-{key}">{title}</h2>' + render_scene(lines, key, boundaries, review=True)
+    (ROOT / "illustration-review.html").write_text(page("1막 원문·번역 대조", review), encoding="utf-8")
+    index_content = '<p>요한 볼프강 폰 괴테</p><p><a href="illustration-review.html">1막 원문·번역 대조</a></p><ol>' + "".join(toc) + "</ol>"
     (ROOT / "index.html").write_text(page("파우스트 제2부", index_content), encoding="utf-8")
 
 
