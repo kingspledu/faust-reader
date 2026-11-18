@@ -6,9 +6,9 @@
     {
       "chapter": 1,
       "scenes": 16,
-      "tts_segments": 16,
+      "tts_segments": 18,
       "dialogue": 0,
-      "monologues": 0,
+      "monologues": 1,
       "source_translation_images_preserved": true
     },
     {
@@ -228,7 +228,7 @@
       "source_translation_images_preserved": true
     }
   ],
-  "tts_segments": 210,
+  "tts_segments": 212,
   "audio_generated": false,
   "listening_test": false
 }
