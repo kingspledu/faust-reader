@@ -1,5 +1,7 @@
 # Faust reader project rules
 
+- From Part II Act 1 onward, count each printed German verse line, even across a single sentence. Place one illustration per 3–4 lines, excluding speaker labels, headings, blank lines, and stage directions. Register each new character sheet in the art bible page and reference index before generating the scene. Attach the existing reference images directly when generating returning characters.
+
 Read the latest rules in `FAUST_PRODUCTION_GUIDELINES.md` first, including the section on scene context and illustration alignment.
 
 - Display names: 메피스토 / 그레첸. Preserve German and existing aligned Korean source translations verbatim inside closed source folds.
@@ -14,5 +16,5 @@ Read the latest rules in `FAUST_PRODUCTION_GUIDELINES.md` first, including the s
 - Edit `cleanroom-novel.txt` and run `install_cleanroom_novel.py` to rebuild structured scripts and chapter pages. Use the Gutenberg German text as the writing source.
 - `voice-cast.json` is the single source for actor voice and persona. Model: `gemini-2.5-flash-preview-tts`. Never fall back silently for an unmapped speaker. Narration/dialogue are dry; only inner monologue gets the approved short echo and reverb with low but normally voiced delivery.
 - Regenerate `build_tts_canvas.py` outputs and indexes after script/cast changes. Run `verify_dialogue_cast.py`, `node test_tts_effects.cjs`, and `node test_tts_batch_v04.cjs`. Real generation/listening is separate from static/mock tests.
-- Keep all original chapter URLs, image anchors and protected source/translation pairs. Character/location sheets are generated only on demand, with existing reference identities checked first. User requests exact4x4 grids, unique row-major crops and varied compositions every3–4 source sentences.
+- Keep all original chapter URLs, image anchors and protected source/translation pairs. Character/location sheets are generated only on demand, with existing reference identities checked first. User requests exact4x4 grids, unique row-major crops and varied compositions every 3–4 printed source lines.
 - Existing authorized deployment: kingspledu/faust-reader main root GitHub Pages. Publish only scoped changes and confirm expected build SHA and public files. Do not stage unrelated review experiments or downloads.

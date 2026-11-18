@@ -15,6 +15,7 @@ h1 { font-weight: normal; font-size: clamp(40px, 6vw, 70px); margin: 15px 0; }
 h2 span { display: block; font-size: .7em; font-weight: normal; }
 pre { white-space: pre-wrap; overflow-wrap: anywhere; font-family: Georgia, serif; }
 section { margin: 2rem 0 3rem; }
+section img { display: block; width: 100%; height: auto; }
 details { margin-top: 1rem; padding: .5rem .8rem; border: 1px solid GrayText; }
 summary { cursor: pointer; }
 .translation { white-space: pre-line; }

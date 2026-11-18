@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Goethe Faust Part I only",
+  "scope": "Goethe Faust Part I and registered Part II references",
   "source": "https://www.gutenberg.org/ebooks/2229",
   "authority": "Source text for canonical facts; attached references for visual adaptation. Generated sheets are draft visuals, not user-approved canon.",
   "entries": [
@@ -4127,6 +4127,62 @@
         "그림의 창 방향 이동 화살표는 탈옥 경로로 사용하지 않음. 원문 구출 시도는 출입문 기준."
       ],
       "menu_group": "places"
+    },
+    {
+      "id": "character-ii-ariel",
+      "kind": "character",
+      "name": "아리엘",
+      "source_name": "ARIEL",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01.html#opening-01"
+      ],
+      "image": "character-ii-ariel.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "진주빛 은발 단발과 가운데 가르마",
+        "이끼색 눈",
+        "아이보리 튜닉과 옅은 세이지색 비대칭 망토",
+        "황동 잎 브로치",
+        "날개 없음"
+      ],
+      "canonical_note": "파우스트를 돌보는 정령들에게 노래로 일을 맡긴다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "group-ii-elf-chorus",
+      "kind": "character",
+      "name": "작은 정령 합창",
+      "source_name": "CHOR",
+      "category": "합창 집단",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01.html#opening-01"
+      ],
+      "image": "group-ii-elf-chorus.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "날개 없는 작은 정령들",
+        "이끼색·리넨색·회청색 튜닉",
+        "은은한 금빛 입자",
+        "아리엘과 구분되는 작은 크기"
+      ],
+      "canonical_note": "작은 정령들이 한 명씩, 둘씩, 여럿이 번갈아 또는 함께 노래한다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
     }
-  ]
+  ],
+  "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
 }

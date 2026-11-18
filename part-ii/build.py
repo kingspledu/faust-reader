@@ -40,7 +40,7 @@ def source_block(lines, start, end):
     return '<pre lang="de">' + escape("\n".join(lines[start:end])) + '</pre>'
 
 
-def render_scene(lines, key, boundaries, *, review=False):
+def render_scene(lines, key, boundaries):
     manuscript = ROOT / f"act-01-{key}.json"
     if not manuscript.exists():
         return ""
@@ -52,13 +52,24 @@ def render_scene(lines, key, boundaries, *, review=False):
         content += f'<section id="{scene_id}">'
         original = source_block(lines, begin, finish)
         translation = f'<p class="translation" lang="ko">{escape(scene["translation"])}</p>'
-        if review:
-            content += f'<h3><a href="#{scene_id}">구간 {number:02}</a></h3>'
-            content += f'<div class="comparison"><div><h4>독일어 원문</h4>{original}</div><div><h4>한국어 번역</h4>{translation}</div></div>'
-        else:
-            content += "".join(f"<p>{escape(paragraph)}</p>" for paragraph in scene["prose"])
-            content += f'<details><summary>독일어 원문 · 한국어 번역</summary>{original}{translation}</details>'
+        content += "".join(f"<p>{escape(paragraph)}</p>" for paragraph in scene["prose"])
+        content += f'<details><summary>독일어 원문 · 한국어 번역</summary>{original}{translation}</details>'
         content += '</section>'
+    return content
+
+
+def render_illustration_review(lines):
+    plan = json.loads((ROOT / "act-01-illustration-plan.json").read_text(encoding="utf-8"))
+    content = '<p>1막 · 꽃이 핀 골짜기</p>'
+    for number, (begin, end, label, translation) in enumerate(plan, 1):
+        scene_id = f"valley-{number:02}"
+        image_path = f"images/{scene_id}.webp"
+        image = ""
+        if (ROOT / image_path).is_file():
+            image = f'<img src="{image_path}" alt="{escape(label, quote=True)}" loading="lazy">'
+        content += f'<section id="{scene_id}">{image}<h2>{number:02} · {escape(label)}</h2>'
+        content += f'<div class="comparison"><div><h4>독일어 원문</h4>{source_block(lines, begin, end)}</div>'
+        content += f'<div><h4>한국어 번역</h4><p class="translation">{escape(translation)}</p></div></div></section>'
     return content
 
 
@@ -95,17 +106,8 @@ def build():
             links.append(f'<a href="act-{index+1:02}.html">다음 막</a>')
         content += '<nav aria-label="막 이동">' + " · ".join(links) + "</nav>"
         (ROOT / filename).write_text(page(f"{index}막 · {title}", content), encoding="utf-8")
-    review_groups = [
-        ("opening", "꽃이 핀 골짜기", FIRST_SCENE),
-        ("court", "황제의 궁정", COURT),
-        ("reports", "대신들의 보고와 메피스토의 제안", COURT_REPORTS),
-    ]
-    review_links = " · ".join(f'<a href="#review-{key}">{title}</a>' for key, title, _ in review_groups)
-    review = '<p>1막 · 꽃이 핀 골짜기부터 메피스토가 땅속의 금을 제안하는 대목까지</p>'
-    review += f'<nav aria-label="검토 구간">{review_links}</nav>'
-    for key, title, boundaries in review_groups:
-        review += f'<h2 id="review-{key}">{title}</h2>' + render_scene(lines, key, boundaries, review=True)
-    (ROOT / "illustration-review.html").write_text(page("1막 원문·번역 대조", review), encoding="utf-8")
+    review = render_illustration_review(lines)
+    (ROOT / "illustration-review.html").write_text(page("1막 삽화·원문·번역 대조", review), encoding="utf-8")
     index_content = '<p>요한 볼프강 폰 괴테</p><p><a href="illustration-review.html">1막 원문·번역 대조</a></p><ol>' + "".join(toc) + "</ol>"
     (ROOT / "index.html").write_text(page("파우스트 제2부", index_content), encoding="utf-8")
 

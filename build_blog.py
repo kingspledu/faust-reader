@@ -176,3 +176,7 @@ for e in entries:
  assert f'id="{e["id"]}"' in page
  if e['image']:assert (out/e['image']).exists()
 print('Verified blog posts, stable anchors, source links and machine index:',len(entries))
+
+from runpy import run_path
+
+run_path(str(out / "build_part_ii.py"), run_name="__main__")
