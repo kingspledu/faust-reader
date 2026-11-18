@@ -46,7 +46,7 @@ for ch in range(1,len(audit["chapters"])+1):
  assert 'character_persona' in html and '배역 음성 누락' in html and 'const apiKey = ""' in html
  embedded=json.loads(re.search(r'const originalEpisode = (.*?);\s*const originalStory =',html,re.S).group(1));assert embedded==episode
  items=[e for e in index['segments'] if e['chapter']==ch];assert [e['filename'] for e in items]==[u['filename'] for u in units]
- reports.append(dict(chapter=ch,scenes=len(s.select('.adaptation-prose')),tts_segments=len(units),dialogue=sum(u['kind']=='dialogue' for u in units),monologues=sum(u['kind']=='monologue' for u in units),source_translation_images_preserved=True))
+ reports.append(dict(chapter=ch,scenes=len(s.select('.adaptation-prose:not([hidden])')),tts_segments=len(units),dialogue=sum(u['kind']=='dialogue' for u in units),monologues=sum(u['kind']=='monologue' for u in units),source_translation_images_preserved=True))
  print('PASS chapter',ch,'segments',len(units))
 assert len({e['filename'] for e in index['segments']})==len(index['segments'])
 assert len(index['segments'])==sum(x['tts_segments'] for x in reports)

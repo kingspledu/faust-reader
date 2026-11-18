@@ -1,266 +1,84 @@
 {
-  "title": "사라진 보석과 새로운 부탁",
-  "persona": "K-FAUST_META_PERSONA_v1.0.md",
-  "audience": "중학생",
-  "viewpoint": "third-person omniscient",
-  "status": "illustration_aligned_reviewed",
+  "title": "Spaziergang 산책길",
+  "prose_revision": "cleanroom-v1",
+  "voice_cast": "voice-cast.json",
   "scenes": [
     {
       "id": "c12-dense-001",
-      "speaker": "파우스트",
-      "narration": "메피스토가 씩씩거리며 나타났다. 파우스트가 무슨 일이냐고 묻자 욕부터 나왔다.\n“사랑이고 뭐고 다 지긋지긋하네!”\n“왜 그래? 무슨 일이야?”",
-      "monologue": "",
       "script": [
         {
           "role": "narration",
           "speaker": "나레이터",
-          "text": "메피스토가 씩씩거리며 나타났다. 파우스트가 무슨 일이냐고 묻자 욕부터 나왔다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "text": "사랑이고 뭐고 다 지긋지긋하네!",
-          "cast_id": "character-008"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "왜 그래? 무슨 일이야?",
-          "cast_id": "character-010"
+          "cast_id": "narrator",
+          "text": "산책길에 나타난 메피스토는 파우스트가 한마디 묻기도 전에 화부터 냈다. 애써 갖다 놓은 상자가 그레첸의 목에 걸려 있기는커녕, 교회에 넘어갔다는 것이었다."
         }
       ]
     },
     {
       "id": "c12-dense-002",
-      "speaker": "메피스토",
-      "narration": "메피스토는 자기도 악마지만 당장 악마에게 넘기고 싶을 만큼 화가 난다고 했다.\n“너도 악마면서 누구한테 넘긴다는 거야?”\n“생각만 해도 미치겠어.”",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "메피스토는 자기도 악마지만 당장 악마에게 넘기고 싶을 만큼 화가 난다고 했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "너도 악마면서 누구한테 넘긴다는 거야?",
-          "cast_id": "character-010"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "text": "생각만 해도 미치겠어.",
-          "cast_id": "character-008"
-        }
-      ]
+      "script": []
     },
     {
       "id": "c12-dense-003",
-      "speaker": "메피스토",
-      "narration": "마침내 메피스토가 이유를 말했다.\n“그레첸한테 마련해 준 보석. 신부가 전부 가져갔어!”\n“그게 어떻게 된 거야?”",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "마침내 메피스토가 이유를 말했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "text": "그레첸한테 마련해 준 보석. 신부가 전부 가져갔어!",
-          "cast_id": "character-008"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "그게 어떻게 된 거야?",
-          "cast_id": "character-010"
-        }
-      ]
+      "script": []
     },
     {
       "id": "c12-dense-004",
-      "speaker": "메피스토",
-      "narration": "메피스토는 그레첸의 어머니가 출처를 알 수 없는 보석을 불안해했다고 전했다.\n“어머니가 보더니, 떳떳하지 못한 물건은 사람을 망친다며 성모께 바치자고 했대. 딸은 좋은 걸 준 사람이 나쁜 사람은 아닐 거라고 생각했고.”\n그레첸과 어머니는 이 자리에 없었다. 파우스트는 메피스토의 설명을 듣고 있었다.",
-      "monologue": "",
       "script": [
         {
           "role": "narration",
           "speaker": "나레이터",
-          "text": "메피스토는 그레첸의 어머니가 출처를 알 수 없는 보석을 불안해했다고 전했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "text": "어머니가 보더니, 떳떳하지 못한 물건은 사람을 망친다며 성모께 바치자고 했대. 딸은 좋은 걸 준 사람이 나쁜 사람은 아닐 거라고 생각했고.",
-          "cast_id": "character-008"
-        },
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "그레첸과 어머니는 이 자리에 없었다. 파우스트는 메피스토의 설명을 듣고 있었다.",
-          "cast_id": "narrator"
+          "cast_id": "narrator",
+          "text": "그레첸의 어머니는 출처를 모르는 보석을 보고 가까이 두면 안 되겠다고 판단했다. 불려 온 신부는 그 마음을 돌려놓지 않았다. 오히려 상자를 교회에 맡기면 그 일로 마음을 썩일 필요가 없다고 했다."
         }
       ]
     },
     {
       "id": "c12-dense-005",
-      "speaker": "메피스토",
-      "narration": "어머니가 신부를 부르자 그는 욕심을 이긴 일을 칭찬했다고 했다. 메피스토는 그 말투를 흉내 내며 빈정거렸다.\n“마음은 참 훌륭하다더래. 그러면서 보석은 아주 흐뭇하게 보더라고.”",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "어머니가 신부를 부르자 그는 욕심을 이긴 일을 칭찬했다고 했다. 메피스토는 그 말투를 흉내 내며 빈정거렸다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "text": "마음은 참 훌륭하다더래. 그러면서 보석은 아주 흐뭇하게 보더라고.",
-          "cast_id": "character-008"
-        }
-      ]
+      "script": []
     },
     {
       "id": "c12-dense-006",
-      "speaker": "파우스트",
-      "narration": "메피스토는 신부가 부정한 재물도 교회는 받아들일 수 있다며 보석을 가져갔다고 했다.\n“감사 인사는 호두 한 바구니 받은 정도였어. 보상은 하늘에서 받으라던데.”\n“가진 사람들이 늘 하는 일이지. 그래서 그레첸은?”",
-      "monologue": "",
       "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "메피스토는 신부가 부정한 재물도 교회는 받아들일 수 있다며 보석을 가져갔다고 했다.",
-          "cast_id": "narrator"
-        },
         {
           "role": "dialogue",
           "speaker": "메피스토",
-          "text": "감사 인사는 호두 한 바구니 받은 정도였어. 보상은 하늘에서 받으라던데.",
-          "cast_id": "character-008"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "가진 사람들이 늘 하는 일이지. 그래서 그레첸은?",
-          "cast_id": "character-010"
+          "cast_id": "character-008",
+          "text": "그렇게 가져가 버렸어. 잘 쓰겠다는 말은 잊지도 않더라."
         }
       ]
     },
     {
       "id": "c12-dense-007",
-      "speaker": "파우스트",
-      "narration": "보석을 잃은 그레첸의 마음이 궁금했다.\n“밤낮 보석 생각, 선물한 사람 생각만 해.”\n“속상하겠네. 새 보석을 구해 줘.”\n파우스트는 그레첸이 속상하다는 말에 마음이 쓰였다. 하지만 그녀와 직접 이야기할 수는 없었기에, 다시 선물을 주는 일이 당장 할 수 있는 해결책처럼 느껴졌다.",
-      "monologue": "",
       "script": [
         {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "보석을 잃은 그레첸의 마음이 궁금했다.",
-          "cast_id": "narrator"
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "그레첸은 뭐래?"
         },
         {
           "role": "dialogue",
           "speaker": "메피스토",
-          "text": "밤낮 보석 생각, 선물한 사람 생각만 해.",
-          "cast_id": "character-008"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "속상하겠네. 새 보석을 구해 줘.",
-          "cast_id": "character-010"
-        },
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "파우스트는 그레첸이 속상하다는 말에 마음이 쓰였다. 하지만 그녀와 직접 이야기할 수는 없었기에, 다시 선물을 주는 일이 당장 할 수 있는 해결책처럼 느껴졌다.",
-          "editorial_tag": "friendly-motivation-2026-11-18"
+          "cast_id": "character-008",
+          "text": "내색은 안 하는데, 상자 생각이 계속 나는 모양이야. 누가 놓고 갔는지도 모르잖아."
         }
       ]
     },
     {
       "id": "c12-dense-008",
-      "speaker": "메피스토",
-      "narration": "메피스토는 또 일을 시키는 파우스트를 못마땅하게 봤다.\n“첫 번째 것도 그렇게 대단한 건 아니었잖아.”\n“너한텐 다 장난이지.”\n“이웃 여인한테도 접근해 봐. 말만 하지 말고.”\n메피스토는 일이 늘어나는 게 못마땅했지만, 파우스트가 계속 자기를 찾는 상황은 나쁘지 않았다. 선물을 구하고 만날 길을 여는 일을 자신에게 맡길수록 파우스트는 그에게 더 의지하게 됐다.",
-      "monologue": "",
+      "script": []
+    },
+    {
+      "id": "c12-dense-009",
       "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "메피스토는 또 일을 시키는 파우스트를 못마땅하게 봤다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "첫 번째 것도 그렇게 대단한 건 아니었잖아.",
-          "cast_id": "character-010"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "text": "너한텐 다 장난이지.",
-          "cast_id": "character-008"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "이웃 여인한테도 접근해 봐. 말만 하지 말고.",
-          "cast_id": "character-010"
-        },
         {
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "메피스토는 일이 늘어나는 게 못마땅했지만, 파우스트가 계속 자기를 찾는 상황은 나쁘지 않았다. 선물을 구하고 만날 길을 여는 일을 자신에게 맡길수록 파우스트는 그에게 더 의지하게 됐다.",
-          "editorial_tag": "friendly-motivation-2026-11-18"
-        }
-      ]
-    },
-    {
-      "id": "c12-dense-009",
-      "speaker": "메피스토",
-      "narration": "파우스트는 새 보석을 구하라고 거듭 재촉했다.\n“알았어. 기꺼이 해 드리지.”\n파우스트가 떠나자 메피스토는 혼자 비웃었다.\n“연인 잠깐 기쁘게 해 주려고 해와 달과 별이라도 터뜨리겠네.”",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "파우스트는 새 보석을 구하라고 거듭 재촉했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "text": "알았어. 기꺼이 해 드리지.",
-          "cast_id": "character-008"
-        },
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "파우스트가 떠나자 메피스토는 혼자 비웃었다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "text": "연인 잠깐 기쁘게 해 주려고 해와 달과 별이라도 터뜨리겠네.",
-          "cast_id": "character-008"
+          "text": "파우스트는 두 번째 선물을 마련해서 이번에는 이웃 여인과도 이야기를 해 보자고 했다. 그레첸이 보석을 보고 무슨 마음이 들었는지보다, 다시 만나려면 다음에 뭘 해야 하는지가 더 급했다."
         }
       ]
     }
-  ],
-  "prose_revision": "dialogue-cast-v3",
-  "voice_cast": "voice-cast.json",
-  "reader_editorial_policy": "친절한 전지적 서술, 원문에 근거한 인물 간 대화, 필요한 자리의 독백만 유지. 메피스토·그레첸 표기. 메피스토는 파우스트에게 느긋한 반말."
+  ]
 }

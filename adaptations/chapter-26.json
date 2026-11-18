@@ -1,6 +1,6 @@
 {
-  "title": "흐린 날, 들판",
-  "prose_revision": "dialogue-cast-v3",
+  "title": "Trüber Tag. Feld 흐린 날, 들판",
+  "prose_revision": "cleanroom-v1",
   "voice_cast": "voice-cast.json",
   "scenes": [
     {
@@ -10,58 +10,26 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "잔치가 끝나고, 구름이 낮게 깔린 들에서 파우스트는 그레첸이 감옥에 갇혔다는 사실을 알았다. 그가 즐기고 있는 동안 그레첸에게 무슨 일이 일어났는지 이제야 알게 된 것이다."
+          "text": "흐린 들판에서 마주 선 파우스트는 그레첸이 감옥에 갇혔다는 사실을 알고 있었다. 그가 산에서 낯선 사람들과 춤을 출 때 그레첸은 혼자 무너지고 있었다. 그 차이가 너무 커서, 그는 먼저 메피스토에게 화를 쏟았다."
         }
       ]
     },
     {
       "id": "c26-dense-002",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "파우스트는 메피스토가 자신을 산으로 데려갔던 일을 떠올렸다. 그레첸이 그사이 혼자였다는 생각에 걷잡을 수 없이 화가 났다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "cast_id": "character-010",
-          "text": "감옥에 갇힐 때까지, 넌 다 알고 있었어?"
-        }
-      ]
+      "script": []
     },
     {
       "id": "c26-dense-003",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "메피스토는 변명도 사과도 하지 않았다. 파우스트는 그 얼굴을 마주 보니 오히려 숨이 막혔다. 당장 뛰어가고 싶었지만 아무것도 되돌릴 수 없을까 봐 겁이 났다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c26-dense-004",
       "script": [
         {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "메피스토는 비슷한 일이 숱하게 있었다는 말로 파우스트의 항의를 눌러 보려 했다. 그러나 파우스트에게 그레첸은 다른 누구로도 대신할 수 없는 사람이었다."
-        },
-        {
           "role": "dialogue",
           "speaker": "메피스토",
           "cast_id": "character-008",
-          "text": "그런 일을 겪은 사람이 걔 하나인 줄 알아?"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "cast_id": "character-010",
-          "text": "그래서 별일 아니라는 거야?"
+          "text": "그런 일을 겪는 사람이 걔 하나인 줄 알았어?"
         }
       ]
     },
@@ -72,75 +40,30 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "처음 만났을 때 메피스토는 검은 개의 모습으로 파우스트를 따라왔다. 파우스트는 이제 그때의 일을 떠올리기만 해도 화를 참을 수 없었다."
+          "text": "파우스트는 그 말을 듣고 더 화가 났다. 메피스토에게는 수많은 사람 중 한 명일지 몰라도, 자신에게는 지금 어떻게 해서든 만나야 하는 사람이었다."
         }
       ]
     },
     {
       "id": "c26-dense-006",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "파우스트의 분노는 그레첸 같은 일을 겪은 다른 사람들에게까지 번졌다. 메피스토는 그 감정에 답하는 대신, 처음에 자기 손을 잡은 쪽이 누구였는지 따졌다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "cast_id": "character-008",
-          "text": "끝까지 감당도 못 할 거면서, 왜 나한테 손을 내밀었어?"
-        }
-      ]
+      "script": []
     },
     {
       "id": "c26-dense-007",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "메피스토는 파우스트가 자기 몫의 책임을 인정하길 기다렸다. 파우스트는 한때 자기 앞에 나타났던 대지의 정령을 불렀다. 어떻게 이런 상대와 여기까지 왔는지 스스로도 견디기 어려웠다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c26-dense-008",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "두 사람은 더 이상 같은 일을 두고 이야기하고 있지 않았다. 메피스토에게는 계약과 책임의 문제였고, 파우스트에게는 그레첸을 감옥에서 꺼내 올 시간만 남아 있었다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "cast_id": "character-008",
-          "text": "할 말 다 했어?"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "cast_id": "character-010",
-          "text": "그레첸부터 구해. 지금."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c26-dense-009",
       "script": [
         {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "메피스토의 질문에 파우스트는 바로 답하지 못했다. 그레첸에게 다가간 것도, 어머니에게 약을 먹이라고 한 것도 자신이었다."
-        },
-        {
           "role": "dialogue",
           "speaker": "메피스토",
           "cast_id": "character-008",
-          "text": "네가 시작한 일이잖아. 이제 와서 나 혼자 한 일처럼 굴 거야?"
+          "text": "내가 네 앞에서 사라지면 그 애가 자유로워져? 그 애한테 약을 건넨 사람은 너야."
         }
       ]
     },
@@ -151,19 +74,7 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "파우스트는 그제야 메피스토에게 구해 오라고만 해서는 아무 일도 달라지지 않는다는 걸 인정했다. 이번엔 자신이 감옥에 들어가겠다고 했다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "cast_id": "character-010",
-          "text": "감옥으로 데려가. 내가 데리고 나올게."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "cast_id": "character-008",
-          "text": "네가 그 도시에 다시 들어가도 될 것 같아?"
+          "text": "파우스트는 반박할 말이 없었다. 그렇다고 여기 남아 있을 수는 없었다. 그는 도시로 돌아가 그레첸을 감옥에서 데리고 나오겠다고 했다."
         }
       ]
     },
@@ -174,41 +85,28 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "메피스토가 가리키는 죽은 자는 그레첸의 오빠 발렌틴이었다. 파우스트가 도시로 돌아가면 그날 밤의 일도 다시 따라붙을 터였다. 그래도 돌아가지 않을 수는 없었다."
+          "text": "메피스토는 발렌틴의 죽음 때문에 파우스트도 붙잡힐 수 있다고 일러 주었다. 파우스트가 마음을 바꾸지 않자 메피스토는 경비가 열쇠를 지키지 못하도록 머리를 흐리게 해 주겠다고 했다."
         }
       ]
     },
     {
       "id": "c26-dense-012",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "메피스토는 길을 열어 주되 그레첸을 데리고 나오는 일은 파우스트에게 맡기기로 했다. 두 사람은 처음으로 누가 무엇을 할지 정했다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "cast_id": "character-008",
-          "text": "경비는 내가 맡아. 열쇠를 가져가서 문을 여는 건 네가 해."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c26-dense-013",
       "script": [
         {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "문은 네가 열어. 그 뒤에 탈 말은 내가 준비해 둘게."
+        },
+        {
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "파우스트는 일이 잘못되면 자신도 그레첸도 붙잡힐 수 있다는 걸 알았다. 그래도 말에 올랐다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "cast_id": "character-010",
-          "text": "좋아. 바로 가."
+          "text": "파우스트는 더 묻지 않고 검은 말에 올랐다."
         }
       ]
     }

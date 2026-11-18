@@ -1,6 +1,6 @@
 {
-  "title": "밤, 그레첸 집 앞 거리",
-  "prose_revision": "dialogue-cast-v3",
+  "title": "Nacht. Straße vor Gretchens Türe 밤, 그레첸 집 앞 거리",
+  "prose_revision": "cleanroom-v1",
   "voice_cast": "voice-cast.json",
   "scenes": [
     {
@@ -10,53 +10,25 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "그레첸의 오빠이자 군인인 발렌틴은 밤거리에서 예전 술자리를 떠올렸다. 친구들이 저마다 아는 아가씨를 칭찬할 때마다, 그는 여동생만큼 훌륭한 사람이 어디 있느냐며 잔을 들곤 했다."
+          "text": "군인 발렌틴은 그레첸의 오빠였다. 전에는 동료들이 각자 아는 여자를 자랑할 때면 자기 동생 이야기를 빼놓지 않았다. 이제는 사람들이 그 얘기를 꺼낼까 봐 먼저 자리를 피할 만큼 소문이 무서웠다."
         }
       ]
     },
     {
       "id": "c22-dense-002",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "친구들이 맞장구를 치며 잔을 부딪치던 소리도 기억났다. 그들에게 누이를 칭찬받으면 발렌틴 자신도 덩달아 자랑스러웠다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-003",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "이제 발렌틴은 사람들이 동생 일을 입에 올릴 때마다 자기가 모욕당한다고 느꼈다. 소문을 퍼뜨리는 이들에게 화가 났지만, 그 말이 전부 거짓이라고 자신 있게 나설 수도 없었다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-004",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "어두운 길을 따라 두 사람이 오는 것이 보였다. 발렌틴은 그중 하나가 그레첸을 만나던 남자라면 그냥 보내지 않겠다고 마음먹었다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-005",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "다가오는 이는 파우스트와 메피스토였다. 파우스트는 교회 안의 작은 불빛을 바라봤다. 희미한 빛 주위로 어둠이 몰려드는 모습이 자기 마음 같았다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-006",
@@ -65,95 +37,25 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "메피스토는 밤거리를 거니는 일을 장난처럼 즐겼다. 모레면 마녀들이 모여든다는 발푸르기스의 밤도 기다리고 있었다. 파우스트의 관심은 그레첸에게 가져갈 선물에 가 있었다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "cast_id": "character-008",
-          "text": "난 이 밤이 꽤 좋은데. 모레면 발푸르기스의 밤이잖아."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "cast_id": "character-010",
-          "text": "저기서 반짝이는 보물은 꺼낼 수 있어?"
+          "text": "그레첸의 집 쪽으로 파우스트와 메피스토가 다가왔다. 메피스토는 문 앞에서 노골적인 노래를 불렀다. 파우스트는 그레첸과 만나고 싶었지만, 그 노래는 집 안에 있던 사람보다 밖에서 기다리던 사람을 먼저 움직였다."
         }
       ]
     },
     {
       "id": "c22-dense-007",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "돈이 있다는 말에도 파우스트는 먼저 장신구를 찾았다. 그레첸에게 선물을 건네면 다시 만나는 일이 조금은 쉬울 것 같았다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "cast_id": "character-010",
-          "text": "장신구나 반지는 없어?"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "cast_id": "character-008",
-          "text": "진주 목걸이처럼 생긴 게 있긴 하더라."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-008",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "파우스트가 선물 없이는 찾아가기 어렵다고 하자, 메피스토는 그 진지한 고민을 농담으로 받아쳤다. 그러고는 노래를 들려주겠다고 나섰다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "cast_id": "character-010",
-          "text": "빈손으로 찾아가기는 마음이 쓰여."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "cast_id": "character-008",
-          "text": "선물이 꼭 있어야 해? 별도 좋은데, 노래나 한 곡 들어 봐."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-009",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "메피스토는 치터라는 줄악기를 타며 노래했다. 조심하라고 충고하는 겉모습에 비해, 노랫말은 그레첸이 가장 두려워할 소문을 떠올리게 했다. 메피스토는 그 불편함까지 장난으로 삼았다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-010",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "노래가 상대를 믿지 말라는 말로 끝나려던 참에 발렌틴이 앞으로 나섰다. 그에게는 누이 집 앞에서 그 노래를 부르는 일 자체가 모욕이었다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "발렌틴",
-          "cast_id": "character-056",
-          "text": "여기서 누굴 꾀는 거야?"
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-011",
@@ -162,59 +64,25 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "발렌틴이 노래 부르던 메피스토에게 달려들었다. 노래를 그만두게 하는 것만으로는 이미 차오른 화가 가라앉지 않았다."
+          "text": "발렌틴은 연주를 끊고 두 사람과 맞섰다. 동생에게 무슨 일이 있었는지 확인할 여유는 없었다. 그에게는 당장 눈앞의 남자를 막는 것이 동생을 지키는 일처럼 느껴졌다."
         }
       ]
     },
     {
       "id": "c22-dense-012",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "악기가 부서지자 가벼운 말장난도 끝났다. 메피스토는 파우스트를 떠나게 하지 않고 자기 곁에 세웠다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "cast_id": "character-008",
-          "text": "악기가 깨졌네. 박사님, 물러서지 마."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-013",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "메피스토가 앞장서자 파우스트도 다툼에 들어갔다. 그레첸을 보러 왔던 일이 그녀의 오빠와 맞서는 일로 바뀌고 있었다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-014",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "발렌틴은 번번이 나오는 메피스토의 태연한 대답에 더 화가 났다. 메피스토는 아직도 상대가 뜻대로 움직이는 모습을 보는 듯 여유로웠다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-015",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "발렌틴은 갑자기 손에 힘이 빠지는 것을 느꼈다. 조금 전까지는 두 사람을 몰아붙일 수 있다고 생각했지만 이제는 그 자신감이 흔들렸다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-016",
@@ -223,77 +91,25 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "메피스토가 재촉하자 파우스트가 발렌틴을 찔렀다. 발렌틴이 쓰러지는 것을 보고도 메피스토는 그를 살피기보다 파우스트부터 데려가려 했다."
+          "text": "메피스토가 신호를 보내자 파우스트가 칼을 내질렀다. 발렌틴이 쓰러지고 나서야 파우스트는 자기가 누구를 찔렀는지 제대로 보았다. 메피스토는 잡히기 전에 가자며 그를 재촉했다."
         }
       ]
     },
     {
       "id": "c22-dense-017",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "밖에서 나는 소리에 이웃들이 깨어났다. 메피스토는 소란 정도는 넘길 수 있어도 사람이 쓰러진 일은 더 위험하다고 보고 떠날 채비를 했다. 마르테가 창문에서 사람을 불렀다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-018",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "그레첸과 마르테는 창문을 열었다. 어두워서 무슨 일이 났는지 확인하기 어려웠지만, 누군가 쓰러졌다는 말에 마르테가 밖으로 나왔다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-019",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "길에 나온 그레첸은 쓰러진 사람이 누군지 물었다. 어머니의 아들이라는 말을 듣고 나서야 자기 오빠라는 것을 깨달았다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "그레첸",
-          "cast_id": "character-053",
-          "text": "여기 누가 쓰러져 있어요?"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "군중",
-          "cast_id": "character-057",
-          "text": "네 오빠야."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "그레첸",
-          "cast_id": "character-053",
-          "text": "오빠가요? 하느님, 이게 무슨 일이에요!"
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-020",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "발렌틴은 자기가 오래 버티지 못할 것을 알았다. 사람들의 울음을 위로로 받아들이지 못하고, 가까이 와서 자기 말을 들으라고 했다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "발렌틴",
-          "cast_id": "character-056",
-          "text": "울고만 있지 말고 이리 와. 내 말 좀 들어 봐."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-021",
@@ -302,71 +118,25 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "사람들이 둘러섰는데도 발렌틴은 모두가 듣는 앞에서 동생을 모욕했다. 그에게는 그레첸이 앞으로 어떻게 살아갈지보다 자기 집안이 어떤 말을 듣게 될지가 더 크게 느껴졌다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "발렌틴",
-          "cast_id": "character-056",
-          "text": "그레첸, 넌 아직 어려서 일을 그르쳤어. 이제 사람들이 널 뭐라고 부르겠어?"
+          "text": "사람들이 모이자 그레첸도 집을 나왔다. 발렌틴은 동생이 가까이 오기를 기다렸다. 그레첸은 오빠를 살릴 길이 있는지 보려고 몸을 숙였지만, 오빠는 듣고 싶지 않은 말부터 꺼냈다."
         }
       ]
     },
     {
       "id": "c22-dense-022",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "그레첸은 오빠를 걱정해 달려왔는데 오히려 자기 탓이라는 말을 듣고 얼어붙었다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "그레첸",
-          "cast_id": "character-053",
-          "text": "오빠, 나한테 왜 그런 말을 해?"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "발렌틴",
-          "cast_id": "character-056",
-          "text": "하느님은 끌어들이지 마."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-023",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "발렌틴은 한번 퍼진 소문은 더는 숨길 수 없다고 몰아붙였다. 그는 실제로 본 일과 앞으로 벌어지리라 짐작하는 일을 가리지 않고 동생에게 쏟아냈다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-024",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "오빠는 이웃이 그레첸을 피하게 될 거라고 했다. 우물에서 베르벨헨 이야기를 들었을 때부터 두려워하던 일이 이제 사람들 앞에서 자기 일로 거론되고 있었다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-025",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "발렌틴은 그레첸이 일상에서 누리던 자리까지 하나씩 빼앗기는 모습을 그려 말했다. 교회에서조차 설 곳이 없을 거라는 말이 그레첸에게는 특히 아팠다."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-026",
@@ -375,49 +145,17 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "마르테는 그가 마지막까지 남을 모욕하며 시간을 보내지 않기를 바랐다. 하지만 발렌틴은 말을 멈추지 않고 마르테에게까지 화를 돌렸다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "마르테",
-          "cast_id": "character-054",
-          "text": "마지막까지 이러실 거예요? 하느님께 마음을 맡기세요."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "발렌틴",
-          "cast_id": "character-056",
-          "text": "당신이 중간에서 무슨 짓을 했는지 내가 모를 줄 알아?"
+          "text": "마르테가 죽어 가는 사람이 할 말이 아니라고 말렸는데도 발렌틴은 멈추지 않았다. 그는 자신의 수치와 분노를 동생에게 쏟아 냈다. 그레첸은 온 동네가 지켜보는 가운데 오빠의 마지막 말을 들었다."
         }
       ]
     },
     {
       "id": "c22-dense-027",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "발렌틴은 마르테를 탓하는 말을 이어 갔다. 그레첸은 오빠를 잃게 된 슬픔과 오빠에게 모욕당한 고통을 한꺼번에 견뎌야 했다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "그레첸",
-          "cast_id": "character-053",
-          "text": "오빠, 그만해. 너무 괴로워."
-        }
-      ]
+      "script": []
     },
     {
       "id": "c22-dense-028",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "발렌틴은 동생에게 울지 말라고 했다. 자기 삶을 떳떳한 군인의 삶으로 기억하고 싶었던 그는, 마지막 순간까지 그레첸을 탓하다 숨을 거뒀다."
-        }
-      ]
+      "script": []
     }
   ]
 }

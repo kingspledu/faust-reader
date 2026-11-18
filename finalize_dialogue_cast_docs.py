@@ -22,7 +22,7 @@ md+=['','검증: `python verify_dialogue_cast.py`, `node test_tts_effects.cjs`, 
 completed=rows[-1]['chapter']
 for name in ['tts-canvas/README.md','PRODUCTION_PROGRESS.md']:
  p=r/name
- s=p.read_text(encoding='utf-8').replace('1~17장',f'1~{completed}장').replace('18~28장은 원문 페이지 유지, 다음 제작은18장.',f'{completed+1}~28장은 원문 페이지를 제공한다.' if completed<28 else '제1부 전편 제작 완료.')
+ s=p.read_text(encoding='utf-8').replace('dialogue-cast-v3', 'cleanroom-v1').replace('1~17장',f'1~{completed}장').replace('18~28장은 원문 페이지 유지, 다음 제작은18장.',f'{completed+1}~28장은 원문 페이지를 제공한다.' if completed<28 else '제1부 28장 클린룸 재작성 완료.')
  p.write_text(s,encoding='utf-8')
 for name in ['index.html','art-bible/index.html']:
  p=r/name;s=BeautifulSoup(p.read_text(encoding='utf-8'),'html.parser');target='voice-cast.html' if name=='index.html' else '../voice-cast.html'

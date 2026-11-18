@@ -1,6 +1,6 @@
 {
-  "title": "밤, 탁 트인 들판",
-  "prose_revision": "dialogue-cast-v3",
+  "title": "Nacht, offen Feld 밤, 탁 트인 들판",
+  "prose_revision": "cleanroom-v1",
   "voice_cast": "voice-cast.json",
   "scenes": [
     {
@@ -10,19 +10,7 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "두 사람이 말을 달리는데, 길가의 처형대 주위를 정체 모를 그림자들이 떠돌았다. 파우스트는 그레첸이 갇힌 감옥으로 가는 길이라, 평소 같으면 지나쳤을 광경에도 눈을 떼지 못했다."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "cast_id": "character-010",
-          "text": "잠깐. 저기 처형대 옆에 뭐가 움직여."
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "cast_id": "character-008",
-          "text": "나도 저것들이 뭘 꾸미는지는 몰라."
+          "text": "달빛 아래 두 마리 검은 말이 들판을 달렸다. 길가에 처형대가 보이자 파우스트는 고삐를 당길 뻔했다. 위쪽에서 그림자 여럿이 들떴다가 낮게 내려와 몸을 숙이고 있었다."
         }
       ]
     },
@@ -30,16 +18,22 @@
       "id": "c27-dense-002",
       "script": [
         {
-          "role": "narration",
-          "speaker": "나레이터",
-          "cast_id": "narrator",
-          "text": "메피스토는 마녀들의 정체를 알아보고도 말의 속도를 늦추지 않았다. 저들을 살필 시간에 감옥에 먼저 닿아야 했다. 파우스트도 고삐를 꽉 잡았다."
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "저기서 뭘 하는 거야?"
         },
         {
           "role": "dialogue",
           "speaker": "메피스토",
           "cast_id": "character-008",
-          "text": "마녀들이야. 멈추지 말고 달려!"
+          "text": "마녀들이야. 무슨 일을 벌이는지는 몰라. 우리 갈 길이나 가자."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트는 고개를 돌렸다. 처형대는 어둠 속으로 물러났고, 두 사람은 속도를 줄이지 않았다."
         }
       ]
     }

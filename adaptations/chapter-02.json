@@ -1,499 +1,152 @@
 {
-  "title": "같은 무대, 다른 생각",
-  "persona": "K-FAUST_META_PERSONA_v1.0.md",
-  "viewpoint": "전지적 서술자, 독백 화자 명시",
-  "audience": "중학생",
-  "intro_html": "<section class=\"adaptation-intro\" lang=\"ko\"><p>공연 날짜가 가까워진 극장에서는 무슨 이야기를 어떻게 보여 줄지를 두고 의견이 갈렸다. 객석을 채워야 하는 지배인과 글을 맡은 시인, 무대에서 관객을 만날 희극 배우가 이야기를 나누려 했다.</p></section>",
+  "title": "Vorspiel auf dem Theater 극장 서막",
+  "prose_revision": "cleanroom-v1",
+  "voice_cast": "voice-cast.json",
   "scenes": [
     {
-      "scene_id": "c02-dense-001",
-      "narration": "공연을 앞두고 극장을 운영하는 지배인, 글을 쓰는 시인, 관객을 웃기는 희극 배우가 무대에 모였다.\n“두 분 다 어려울 때마다 도와주셨죠. 이번 공연은 어떻게 하면 좋을까요?”",
-      "monologue_speaker": "지배인",
-      "monologue": "",
+      "id": "c02-dense-001",
       "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "공연을 앞두고 극장을 운영하는 지배인, 글을 쓰는 시인, 관객을 웃기는 희극 배우가 무대에 모였다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "지배인",
-          "text": "두 분 다 어려울 때마다 도와주셨죠. 이번 공연은 어떻게 하면 좋을까요?",
-          "cast_id": "character-001"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-002",
-      "narration": "지배인은 준비된 무대를 둘러봤다. 빈 객석을 사람들로 채우는 게 그의 걱정이었다.\n“무대는 준비됐어요. 문제는 관객이죠. 다들 놀라운 걸 기대할 텐데, 뭘 보여 줘야 할까요?”",
-      "monologue_speaker": "지배인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "지배인은 준비된 무대를 둘러봤다. 빈 객석을 사람들로 채우는 게 그의 걱정이었다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "지배인",
-          "text": "무대는 준비됐어요. 문제는 관객이죠. 다들 놀라운 걸 기대할 텐데, 뭘 보여 줘야 할까요?",
-          "cast_id": "character-001"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-003",
-      "narration": "지배인은 표를 사려고 몰려들 관객을 떠올렸다. 시인은 그 말에 선뜻 호응하지 않았다.\n“사람들이 입구에서부터 밀려드는 모습을 보고 싶어요. 그걸 해 줄 분이 당신이잖아요.”\n“관객 얘기는 잠깐 그만하면 안 될까요?”\n지배인은 시인의 능력을 칭찬하며 도움을 끌어내려 했다. 시인도 공연이 잘되기를 바랐지만, 인기를 얻는 일부터 생각하라는 말에는 쉽게 동의할 수 없었다.",
-      "monologue_speaker": "시인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "지배인은 표를 사려고 몰려들 관객을 떠올렸다. 시인은 그 말에 선뜻 호응하지 않았다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "지배인",
-          "text": "사람들이 입구에서부터 밀려드는 모습을 보고 싶어요. 그걸 해 줄 분이 당신이잖아요.",
-          "cast_id": "character-001"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "시인",
-          "text": "관객 얘기는 잠깐 그만하면 안 될까요?",
-          "cast_id": "character-002"
-        },
         {
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "지배인은 시인의 능력을 칭찬하며 도움을 끌어내려 했다. 시인도 공연이 잘되기를 바랐지만, 인기를 얻는 일부터 생각하라는 말에는 쉽게 동의할 수 없었다.",
-          "editorial_tag": "friendly-motivation-2026-11-18"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-004",
-      "narration": "시인은 인기를 얻을 방법부터 정하고 글을 쓰고 싶지 않았다.\n“그 소란을 생각하면 마음이 멀어져요. 조용히 사랑과 우정을 생각하며 글을 쓰고 싶어요.”",
-      "monologue_speaker": "시인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "시인은 인기를 얻을 방법부터 정하고 글을 쓰고 싶지 않았다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "시인",
-          "text": "그 소란을 생각하면 마음이 멀어져요. 조용히 사랑과 우정을 생각하며 글을 쓰고 싶어요.",
-          "cast_id": "character-002"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-005",
-      "narration": "시인은 오래 남을 작품을 바랐다. 희극 배우는 그 말을 듣고 끼어들었다.\n“당장 반짝이는 건 금방 사라져요. 좋은 글은 시간이 지나도 남고요.”\n“나중 사람들만 생각하면 어떡해요? 지금 공연 보러 온 사람들도 있잖아요.”",
-      "monologue_speaker": "희극 배우",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "시인은 오래 남을 작품을 바랐다. 희극 배우는 그 말을 듣고 끼어들었다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "시인",
-          "text": "당장 반짝이는 건 금방 사라져요. 좋은 글은 시간이 지나도 남고요.",
-          "cast_id": "character-002"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "희극 배우",
-          "text": "나중 사람들만 생각하면 어떡해요? 지금 공연 보러 온 사람들도 있잖아요.",
-          "cast_id": "character-003"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-006",
-      "narration": "희극 배우는 웃음도 공연에 꼭 필요하다고 생각했다.\n“상상력도, 생각도, 감정도 다 넣어요. 거기에 웃길 만한 장난도 조금 넣고요.”",
-      "monologue_speaker": "희극 배우",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "희극 배우는 웃음도 공연에 꼭 필요하다고 생각했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "희극 배우",
-          "text": "상상력도, 생각도, 감정도 다 넣어요. 거기에 웃길 만한 장난도 조금 넣고요.",
-          "cast_id": "character-003"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-007",
-      "narration": "지배인은 공연에 활기가 필요하다는 말에 힘을 얻었다.\n“맞아요. 무엇보다 일이 벌어져야 해요. 관객은 눈앞에서 벌어지는 걸 보러 오는 거니까요.”",
-      "monologue_speaker": "지배인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "지배인은 공연에 활기가 필요하다는 말에 힘을 얻었다.",
-          "cast_id": "narrator"
+          "text": "극장의 문이 열리기 전, 지배인은 새 공연을 준비할 두 사람을 불렀다. 한 명은 대본을 쓰는 시인이고, 다른 한 명은 관객을 웃기는 데 익숙한 배우였다. 지배인에게 제일 급한 건 오늘도 사람들이 표를 사서 들어오게 하는 일이었다."
         },
         {
           "role": "dialogue",
           "speaker": "지배인",
-          "text": "맞아요. 무엇보다 일이 벌어져야 해요. 관객은 눈앞에서 벌어지는 걸 보러 오는 거니까요.",
-          "cast_id": "character-001"
+          "cast_id": "character-001",
+          "text": "문 앞에 줄이 생기게 해 봅시다. 들어온 사람들이 끝까지 앉아 있을 만한 걸로요."
         }
       ]
     },
     {
-      "scene_id": "c02-dense-008",
-      "narration": "지배인은 여러 취향의 관객을 한꺼번에 만족시키고 싶었다. 시인은 이야기의 흐름이 무너질까 걱정했다.\n“볼거리를 많이 넣으면 누구나 하나쯤 마음에 드는 걸 찾겠죠. 여러 가지를 섞는 거예요.”",
-      "monologue_speaker": "지배인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "지배인은 여러 취향의 관객을 한꺼번에 만족시키고 싶었다. 시인은 이야기의 흐름이 무너질까 걱정했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "지배인",
-          "text": "볼거리를 많이 넣으면 누구나 하나쯤 마음에 드는 걸 찾겠죠. 여러 가지를 섞는 거예요.",
-          "cast_id": "character-001"
-        }
-      ]
+      "id": "c02-dense-002",
+      "script": []
     },
     {
-      "scene_id": "c02-dense-009",
-      "narration": "관객은 작품을 제멋대로 나누어 본다는 말에 시인이 발끈했다.\n“그게 예술가에게 할 말인가요? 제대로 된 작품은 생각하지 말라는 거예요?”",
-      "monologue_speaker": "시인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "관객은 작품을 제멋대로 나누어 본다는 말에 시인이 발끈했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "시인",
-          "text": "그게 예술가에게 할 말인가요? 제대로 된 작품은 생각하지 말라는 거예요?",
-          "cast_id": "character-002"
-        }
-      ]
+      "id": "c02-dense-003",
+      "script": []
     },
     {
-      "scene_id": "c02-dense-010",
-      "narration": "지배인에게는 작품의 가치만큼 실제 관객도 중요했다.\n“이해가 안 되시면 제가 먼저 말해 볼게요. 누구를 위해 쓰고 계신지 생각해 보세요.”",
-      "monologue_speaker": "지배인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "지배인에게는 작품의 가치만큼 실제 관객도 중요했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "지배인",
-          "text": "이해가 안 되시면 제가 먼저 말해 볼게요. 누구를 위해 쓰고 계신지 생각해 보세요.",
-          "cast_id": "character-001"
-        }
-      ]
+      "id": "c02-dense-004",
+      "script": []
     },
     {
-      "scene_id": "c02-dense-011",
-      "narration": "지배인은 관객들이 극장에 오는 이유도 제각각이라고 했다.\n“심심해서 오는 사람도 있고, 남 만나러 오는 사람도 있어요. 옷 자랑하러 오는 분들도 있고요.”",
-      "monologue_speaker": "지배인",
-      "monologue": "",
+      "id": "c02-dense-005",
       "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "지배인은 관객들이 극장에 오는 이유도 제각각이라고 했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "지배인",
-          "text": "심심해서 오는 사람도 있고, 남 만나러 오는 사람도 있어요. 옷 자랑하러 오는 분들도 있고요.",
-          "cast_id": "character-001"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-012",
-      "narration": "지배인은 공연이 끝나면 다른 놀잇거리로 향할 관객을 떠올렸다.\n“그런데 뭘 꿈꾸세요? 사람들이 다 감탄해 주길 바라세요? 얼굴을 좀 보세요. 반쯤은 차갑고 반쯤은 거칠어요.”",
-      "monologue_speaker": "지배인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "지배인은 공연이 끝나면 다른 놀잇거리로 향할 관객을 떠올렸다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "지배인",
-          "text": "그런데 뭘 꿈꾸세요? 사람들이 다 감탄해 주길 바라세요? 얼굴을 좀 보세요. 반쯤은 차갑고 반쯤은 거칠어요.",
-          "cast_id": "character-001"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-013",
-      "narration": "시인은 이제 단호하게 거절했다. 글을 쓰는 이유까지 버리고 싶지는 않았다.\n“그런 식으로 쓰라면 다른 사람을 구하세요. 당신 말대로만 하면 안 된다고 생각해요.”",
-      "monologue_speaker": "시인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "시인은 이제 단호하게 거절했다. 글을 쓰는 이유까지 버리고 싶지는 않았다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "시인",
-          "text": "그런 식으로 쓰라면 다른 사람을 구하세요. 당신 말대로만 하면 안 된다고 생각해요.",
-          "cast_id": "character-002"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-014",
-      "narration": "시인에게 글은 흩어진 삶에서 연결을 찾아내는 일이었다. 그가 말하는 조화는 여러 소리가 어울려 음악이 되는 것과 같았다.\n“제각각인 일을 이어 주고, 서로 다른 것들이 어울리게 하는 건 누가 하나요? 작가는 그 일을 하는 사람이에요.”",
-      "monologue_speaker": "시인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "시인에게 글은 흩어진 삶에서 연결을 찾아내는 일이었다. 그가 말하는 조화는 여러 소리가 어울려 음악이 되는 것과 같았다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "시인",
-          "text": "제각각인 일을 이어 주고, 서로 다른 것들이 어울리게 하는 건 누가 하나요? 작가는 그 일을 하는 사람이에요.",
-          "cast_id": "character-002"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-015",
-      "narration": "시인은 폭풍과 저녁놀, 봄꽃을 차례로 떠올렸다.\n“같은 풍경에도 사람의 마음이 담길 수 있어요. 저녁빛에 어떤 뜻을 주고, 봄꽃을 사랑하는 사람 앞에 놓는 거죠.”",
-      "monologue_speaker": "시인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "시인은 폭풍과 저녁놀, 봄꽃을 차례로 떠올렸다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "시인",
-          "text": "같은 풍경에도 사람의 마음이 담길 수 있어요. 저녁빛에 어떤 뜻을 주고, 봄꽃을 사랑하는 사람 앞에 놓는 거죠.",
-          "cast_id": "character-002"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-016",
-      "narration": "작은 잎 하나도 시에서는 특별한 뜻을 지닐 수 있었다. 올림포스는 그리스 신화의 신들이 사는 곳이었다.\n“흔한 잎으로도 공을 세운 사람의 왕관을 만들죠. 작은 무대에서도 신들의 세상을 불러올 수 있어요.”",
-      "monologue_speaker": "시인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "작은 잎 하나도 시에서는 특별한 뜻을 지닐 수 있었다. 올림포스는 그리스 신화의 신들이 사는 곳이었다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "시인",
-          "text": "흔한 잎으로도 공을 세운 사람의 왕관을 만들죠. 작은 무대에서도 신들의 세상을 불러올 수 있어요.",
-          "cast_id": "character-002"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-017",
-      "narration": "희극 배우는 그 열정을 사람들의 삶에 써 보자고 권했다.\n“그 힘으로 이야기를 해 봐요. 우연히 만나고, 좋아하다가, 어려움도 겪고요. 그런 일은 우리 삶에 이미 있잖아요.”\n희극 배우는 두 사람 가운데 한쪽을 꺾으려 하지 않았다. 시인이 지키려는 작품의 힘을 관객도 즐길 수 있게 쓰자며, 함께 일할 방법을 찾고 있었다.",
-      "monologue_speaker": "희극 배우",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "희극 배우는 그 열정을 사람들의 삶에 써 보자고 권했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "희극 배우",
-          "text": "그 힘으로 이야기를 해 봐요. 우연히 만나고, 좋아하다가, 어려움도 겪고요. 그런 일은 우리 삶에 이미 있잖아요.",
-          "cast_id": "character-003"
-        },
         {
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "희극 배우는 두 사람 가운데 한쪽을 꺾으려 하지 않았다. 시인이 지키려는 작품의 힘을 관객도 즐길 수 있게 쓰자며, 함께 일할 방법을 찾고 있었다.",
-          "editorial_tag": "friendly-motivation-2026-11-18"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-018",
-      "narration": "배우는 관객이 무대에서 자기 마음을 발견할 거라 믿었다.\n“조금은 진실하게, 조금은 상상해서요. 그러면 누구나 자기 얘기를 찾아낼 거예요. 특히 젊은 사람들은 더 잘 웃고 울죠.”",
-      "monologue_speaker": "희극 배우",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "배우는 관객이 무대에서 자기 마음을 발견할 거라 믿었다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "희극 배우",
-          "text": "조금은 진실하게, 조금은 상상해서요. 그러면 누구나 자기 얘기를 찾아낼 거예요. 특히 젊은 사람들은 더 잘 웃고 울죠.",
-          "cast_id": "character-003"
-        }
-      ]
-    },
-    {
-      "scene_id": "c02-dense-019",
-      "narration": "젊은 관객 이야기에 시인은 자기 젊은 날을 떠올렸다.\n“그렇다면 내 젊은 날도 돌려줘요. 뭐든 새롭고, 한 줄만 써도 마음이 뛰던 때를요.”",
-      "monologue_speaker": "시인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "젊은 관객 이야기에 시인은 자기 젊은 날을 떠올렸다.",
-          "cast_id": "narrator"
+          "text": "시인은 객석의 소란을 생각하면 아직 쓰지도 않은 문장이 흩어지는 기분이었다. 사람들의 눈길을 잠깐 붙드는 장면보다, 집에 돌아간 뒤에도 문득 떠오르는 이야기를 쓰고 싶었다."
         },
         {
           "role": "dialogue",
           "speaker": "시인",
-          "text": "그렇다면 내 젊은 날도 돌려줘요. 뭐든 새롭고, 한 줄만 써도 마음이 뛰던 때를요.",
-          "cast_id": "character-002"
+          "cast_id": "character-002",
+          "text": "내일 잊힐 이야기를 오늘 굳이 서둘러 올려야 합니까?"
         }
       ]
     },
     {
-      "scene_id": "c02-dense-020",
-      "narration": "희극 배우는 나이가 들어도 창작할 힘까지 사라지는 건 아니라고 생각했다.\n“젊음이 꼭 필요한 일도 있죠. 그래도 잘 아는 일을 자신 있게 해 나가는 건 나이 든 분들의 몫 아닌가요?”",
-      "monologue_speaker": "희극 배우",
-      "monologue": "",
+      "id": "c02-dense-006",
+      "script": []
+    },
+    {
+      "id": "c02-dense-007",
+      "script": []
+    },
+    {
+      "id": "c02-dense-008",
+      "script": []
+    },
+    {
+      "id": "c02-dense-009",
+      "script": [
+        {
+          "role": "dialogue",
+          "speaker": "지배인",
+          "cast_id": "character-001",
+          "text": "내일까지 기다리려면 오늘 극장 문부터 열어야죠. 긴 이야기라도 한 장면쯤은 제 얘기 같아야 사람들이 듣지 않겠어요?"
+        }
+      ]
+    },
+    {
+      "id": "c02-dense-010",
+      "script": []
+    },
+    {
+      "id": "c02-dense-011",
+      "script": []
+    },
+    {
+      "id": "c02-dense-012",
+      "script": []
+    },
+    {
+      "id": "c02-dense-013",
       "script": [
         {
           "role": "narration",
           "speaker": "나레이터",
-          "text": "희극 배우는 나이가 들어도 창작할 힘까지 사라지는 건 아니라고 생각했다.",
-          "cast_id": "narrator"
+          "cast_id": "narrator",
+          "text": "배우는 두 사람의 말이 모두 일리가 있다고 생각했다. 하지만 무대에서 사람들이 언제 웃고 언제 고개를 숙이는지는 직접 맞닥뜨려 봐야 알 수 있었다."
         },
         {
           "role": "dialogue",
           "speaker": "희극 배우",
-          "text": "젊음이 꼭 필요한 일도 있죠. 그래도 잘 아는 일을 자신 있게 해 나가는 건 나이 든 분들의 몫 아닌가요?",
-          "cast_id": "character-003"
+          "cast_id": "character-003",
+          "text": "어려운 일만 겪고 사는 사람이 어디 있어요? 사랑도 하고 실수도 하죠. 그걸 한 사람한테 다 겪게 해 봅시다."
         }
       ]
     },
     {
-      "scene_id": "c02-dense-021",
-      "narration": "지배인은 두 사람의 말을 듣다가 준비할 시간이 줄어드는 것을 떠올렸다.\n“말은 충분히 했어요. 이제 행동으로 보여 줍시다. 뭘 만들지 정했다면 시작해야죠.”",
-      "monologue_speaker": "지배인",
-      "monologue": "",
+      "id": "c02-dense-014",
+      "script": []
+    },
+    {
+      "id": "c02-dense-015",
+      "script": []
+    },
+    {
+      "id": "c02-dense-016",
+      "script": []
+    },
+    {
+      "id": "c02-dense-017",
+      "script": []
+    },
+    {
+      "id": "c02-dense-018",
+      "script": []
+    },
+    {
+      "id": "c02-dense-019",
+      "script": []
+    },
+    {
+      "id": "c02-dense-020",
+      "script": []
+    },
+    {
+      "id": "c02-dense-021",
       "script": [
         {
           "role": "narration",
           "speaker": "나레이터",
-          "text": "지배인은 두 사람의 말을 듣다가 준비할 시간이 줄어드는 것을 떠올렸다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "지배인",
-          "text": "말은 충분히 했어요. 이제 행동으로 보여 줍시다. 뭘 만들지 정했다면 시작해야죠.",
-          "cast_id": "character-001"
+          "cast_id": "narrator",
+          "text": "지배인은 무대 담당자에게 쓸 수 있는 장치를 모두 준비하라고 했다. 그 좁은 무대에서 하늘까지 올라갔다가 지옥까지 내려가는 공연을 올릴 생각이었다."
         }
       ]
     },
     {
-      "scene_id": "c02-dense-022",
-      "narration": "지배인은 영감만 기다리다가는 공연을 올릴 수 없다고 재촉했다.\n“영감이 올 때까지 기다리기만 할 건가요? 오늘 안 하면 내일도 못 해요. 지금부터 만들어요.”",
-      "monologue_speaker": "지배인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "지배인은 영감만 기다리다가는 공연을 올릴 수 없다고 재촉했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "지배인",
-          "text": "영감이 올 때까지 기다리기만 할 건가요? 오늘 안 하면 내일도 못 해요. 지금부터 만들어요.",
-          "cast_id": "character-001"
-        }
-      ]
+      "id": "c02-dense-022",
+      "script": []
     },
     {
-      "scene_id": "c02-dense-023",
-      "narration": "지배인은 무대 장치와 배경, 빛을 마음껏 써 보라고 했다. 작은 무대라도 하늘과 세상, 지옥까지 보여 줄 수 있었다.\n“빛도 아끼지 말고요. 별도, 물도, 불도 준비됐어요. 하늘에서 세상을 거쳐 지옥까지 가 봅시다.”",
-      "monologue_speaker": "지배인",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "지배인은 무대 장치와 배경, 빛을 마음껏 써 보라고 했다. 작은 무대라도 하늘과 세상, 지옥까지 보여 줄 수 있었다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "지배인",
-          "text": "빛도 아끼지 말고요. 별도, 물도, 불도 준비됐어요. 하늘에서 세상을 거쳐 지옥까지 가 봅시다.",
-          "cast_id": "character-001"
-        }
-      ]
+      "id": "c02-dense-023",
+      "script": []
     }
-  ],
-  "reader_introduction_html": "<section class=\"adaptation-intro\" lang=\"ko\"><p>공연 날짜가 가까워진 극장에서는 무슨 이야기를 어떻게 보여 줄지를 두고 의견이 갈렸다. 객석을 채워야 하는 지배인과 글을 맡은 시인, 무대에서 관객을 만날 희극 배우가 이야기를 나누려 했다.</p></section>",
-  "reader_editorial_policy": "친절한 전지적 서술, 원문에 근거한 인물 간 대화, 필요한 자리의 독백만 유지. 메피스토·그레첸 표기. 메피스토는 파우스트에게 느긋한 반말.",
-  "prose_revision": "dialogue-cast-v3",
-  "voice_cast": "voice-cast.json"
+  ]
 }

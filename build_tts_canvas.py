@@ -35,7 +35,7 @@ for ch in chapters_to_build:
    seg=dict(id=f'C{ch:02}_{idx:04}',speaker=speaker,kind=role,cast_id=cid,text=text,scene_id=sid,filename=filename,voice=voice,model=model,cast_revision=cast['revision'],cast_sha256=cast_hash,performance=performance)
    units.append(seg);allindex.append(dict(chapter=ch,order=idx,scene_id=sid,segment_id=seg['id'],speaker=speaker,kind=role,cast_id=cid,filename=filename,voice=voice,model=model,cast_revision=cast['revision'],text_sha256=hashlib.sha256(text.encode()).hexdigest(),text=text))
  assert units,f'Chapter{ch}: missing adaptation'
- episode=dict(schema_version='faust-tts-2.0',chapter=ch,title=adaptation['title'],language='ko-KR',revision='V04',script_revision='dialogue-cast-v3',model=model,cast_revision=cast['revision'],cast_sha256=cast_hash,voices=voice_names,scenes=[dict(scene_id=f'C{ch:02}',title=f'파우스트 {ch}장',segments=units)])
+ episode=dict(schema_version='faust-tts-2.0',chapter=ch,title=adaptation['title'],language='ko-KR',revision='V04',script_revision=adaptation['prose_revision'],model=model,cast_revision=cast['revision'],cast_sha256=cast_hash,voices=voice_names,scenes=[dict(scene_id=f'C{ch:02}',title=f'파우스트 {ch}장',segments=units)])
  s=re.sub(r'const originalEpisode = .*?;\s*const originalStory =',lambda m:'const originalEpisode = '+json.dumps(episode,ensure_ascii=False)+';\n        const originalStory =',template,flags=re.S)
  a=s.index('        function parseTurns(');b=s.index("        processBtn.addEventListener",a)
  s=s[:a]+'''        function parseTurns(text) {

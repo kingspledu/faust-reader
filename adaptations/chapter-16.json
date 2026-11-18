@@ -1,224 +1,58 @@
 {
-  "title": "문 뒤의 웃음과 짧은 작별",
-  "persona": "K-FAUST_META_PERSONA_v1.0.md",
-  "audience": "중학생",
-  "viewpoint": "third-person omniscient",
-  "status": "reviewed",
-  "prose_revision": "dialogue-cast-v3",
+  "title": "Ein Gartenhäuschen 정원의 작은 집",
+  "prose_revision": "cleanroom-v1",
+  "voice_cast": "voice-cast.json",
   "scenes": [
     {
       "id": "c16-dense-001",
-      "speaker": "그레첸",
-      "narration": "그레첸은 정원의 작은 집으로 뛰어 들어갔다. 문 뒤에 숨어 손가락을 입술에 댄 채 문틈으로 밖을 살폈다.\n“온다!”\n뒤따라온 파우스트는 그레첸을 찾아내고 웃었다.\n“나 놀리려고 숨은 거야? 이제 찾았다.”",
-      "monologue": "",
       "script": [
         {
           "role": "narration",
           "speaker": "나레이터",
-          "text": "그레첸은 정원의 작은 집으로 뛰어 들어갔다. 문 뒤에 숨어 손가락을 입술에 댄 채 문틈으로 밖을 살폈다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "그레첸",
-          "text": "온다!",
-          "cast_id": "character-053"
-        },
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "뒤따라온 파우스트는 그레첸을 찾아내고 웃었다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "나 놀리려고 숨은 거야? 이제 찾았다.",
-          "cast_id": "character-010"
+          "cast_id": "narrator",
+          "text": "작은 정원 집에 먼저 들어간 그레첸이 문 뒤에 섰다. 파우스트가 들어왔을 때 서로의 얼굴이 가까웠다. 그레첸은 그가 입을 맞추자 이번에는 먼저 그의 팔을 붙들었다."
         }
       ]
     },
     {
       "id": "c16-dense-002",
-      "speaker": "파우스트",
-      "narration": "파우스트가 그레첸에게 입을 맞췄다. 그레첸도 그를 붙잡고 입맞춤을 돌려주었다.\n“진심으로 사랑해요.”\n그때 문 두드리는 소리가 났다. 파우스트가 못마땅해 발을 한 번 굴렀다.\n“누구야?”\n“친구지!”",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "파우스트가 그레첸에게 입을 맞췄다. 그레첸도 그를 붙잡고 입맞춤을 돌려주었다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "그레첸",
-          "text": "진심으로 사랑해요.",
-          "cast_id": "character-053"
-        },
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "그때 문 두드리는 소리가 났다. 파우스트가 못마땅해 발을 한 번 굴렀다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "누구야?",
-          "cast_id": "character-010"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "메피스토",
-          "text": "친구지!",
-          "cast_id": "character-008"
-        }
-      ]
+      "script": []
     },
     {
       "id": "c16-dense-003",
-      "speaker": "파우스트",
-      "narration": "파우스트는 둘만의 시간을 방해받아 짜증이 났다.\n“진짜 눈치도 없네.”\n“이제 헤어질 시간이야.”\n“맞아요. 늦었어요.”\n“집까지 바래다줄까?”\n파우스트에게는 방해가 반갑지 않았지만, 마르테는 늦은 시간까지 붙잡아 둘 수 없었다. 메피스토는 아쉬워하는 파우스트와 달리 작별을 재촉했다. 두 사람의 시간은 자신이 끼어들면 끝낼 수 있었다.",
-      "monologue": "",
       "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "파우스트는 둘만의 시간을 방해받아 짜증이 났다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "진짜 눈치도 없네.",
-          "cast_id": "character-010"
-        },
         {
           "role": "dialogue",
           "speaker": "메피스토",
-          "text": "이제 헤어질 시간이야.",
-          "cast_id": "character-008"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "마르테",
-          "text": "맞아요. 늦었어요.",
-          "cast_id": "character-054"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "집까지 바래다줄까?",
-          "cast_id": "character-010"
+          "cast_id": "character-008",
+          "text": "미안한데, 이쯤에서 그만 가야겠어."
         },
         {
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "파우스트에게는 방해가 반갑지 않았지만, 마르테는 늦은 시간까지 붙잡아 둘 수 없었다. 메피스토는 아쉬워하는 파우스트와 달리 작별을 재촉했다. 두 사람의 시간은 자신이 끼어들면 끝낼 수 있었다.",
-          "editorial_tag": "friendly-motivation-2026-11-18"
+          "text": "메피스토 뒤로 마르테도 들어왔다. 파우스트는 더 머물고 싶었지만, 그레첸은 어머니가 이 일을 알게 되면 뭐라고 할지부터 생각났다."
         }
       ]
     },
     {
       "id": "c16-dense-004",
-      "speaker": "그레첸",
-      "narration": "그레첸은 어머니를 떠올렸다. 파우스트와 함께 집에 가는 건 곤란했다.\n“어머니가 저를 보면…… 아니에요. 안녕히 가세요.”\n“정말 가야 해? 잘 가.”\n그레첸도 더 함께 있고 싶었다. 그렇지만 집에서 어머니를 마주할 일을 생각하니, 지금의 기쁨만 따라 배웅을 받아들일 수는 없었다.",
-      "monologue": "",
+      "script": []
+    },
+    {
+      "id": "c16-dense-005",
       "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "그레첸은 어머니를 떠올렸다. 파우스트와 함께 집에 가는 건 곤란했다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "그레첸",
-          "text": "어머니가 저를 보면…… 아니에요. 안녕히 가세요.",
-          "cast_id": "character-053"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "파우스트",
-          "text": "정말 가야 해? 잘 가.",
-          "cast_id": "character-010"
-        },
         {
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "그레첸도 더 함께 있고 싶었다. 그렇지만 집에서 어머니를 마주할 일을 생각하니, 지금의 기쁨만 따라 배웅을 받아들일 수는 없었다.",
-          "editorial_tag": "friendly-motivation-2026-11-18"
-        }
-      ]
-    },
-    {
-      "id": "c16-dense-005",
-      "speaker": "그레첸",
-      "narration": "마르테도 작별 인사를 건넸다. 그레첸은 떠나는 파우스트를 바라봤다.\n“잘 가세요.”\n“곧 또 만나요.”\n파우스트와 메피스토가 떠난 뒤, 그레첸은 그와 나눴던 이야기를 떠올렸다.",
-      "monologue": "",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "마르테도 작별 인사를 건넸다. 그레첸은 떠나는 파우스트를 바라봤다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "마르테",
-          "text": "잘 가세요.",
-          "cast_id": "character-054"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "그레첸",
-          "text": "곧 또 만나요.",
-          "cast_id": "character-053"
-        },
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "파우스트와 메피스토가 떠난 뒤, 그레첸은 그와 나눴던 이야기를 떠올렸다.",
-          "cast_id": "narrator"
+          "text": "그레첸은 또 보자고 인사했다. 손님들이 사라지자 그 짧은 만남이 길게 느껴졌다. 파우스트 앞에서는 말 한마디 꺼내기도 어렵던 자기 마음을 그가 얼마나 알고 있는지 궁금했다."
         }
       ]
     },
     {
       "id": "c16-dense-006",
-      "speaker": "그레첸",
-      "narration": "파우스트는 아는 것도 많고 생각도 깊어 보였다. 그레첸은 그와 이야기할 때마다 자신이 모르는 게 많다는 생각에 부끄러웠다.\n“나는 옆에서 그렇다고만 했네. 저 사람은 내 어떤 점이 좋을까?”\n자기를 좋아한다고 말해 준 건 기뻤지만, 왜 그런지는 여전히 잘 알 수 없었다. 그레첸도 그곳을 떠났다.",
-      "monologue": "아는 것도 별로 없고 말도 잘 못하는데. 그래도 내 얘기 들을 때는 정말 좋아 보였어.",
-      "script": [
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "파우스트는 아는 것도 많고 생각도 깊어 보였다. 그레첸은 그와 이야기할 때마다 자신이 모르는 게 많다는 생각에 부끄러웠다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "dialogue",
-          "speaker": "그레첸",
-          "text": "나는 옆에서 그렇다고만 했네. 저 사람은 내 어떤 점이 좋을까?",
-          "cast_id": "character-053"
-        },
-        {
-          "role": "narration",
-          "speaker": "나레이터",
-          "text": "자기를 좋아한다고 말해 준 건 기뻤지만, 왜 그런지는 여전히 잘 알 수 없었다. 그레첸도 그곳을 떠났다.",
-          "cast_id": "narrator"
-        },
-        {
-          "role": "monologue",
-          "speaker": "그레첸",
-          "text": "아는 것도 별로 없고 말도 잘 못하는데. 그래도 내 얘기 들을 때는 정말 좋아 보였어.",
-          "cast_id": "character-053"
-        }
-      ]
+      "script": []
     }
-  ],
-  "voice_cast": "voice-cast.json",
-  "reader_editorial_policy": "친절한 전지적 서술, 원문에 근거한 인물 간 대화, 필요한 자리의 독백만 유지. 메피스토·그레첸 표기. 메피스토는 파우스트에게 느긋한 반말."
+  ]
 }
