@@ -9,6 +9,7 @@ from render_dialogue_script import render
 
 root = Path(__file__).parent
 cast = json.loads((root / "voice-cast.json").read_text(encoding="utf-8"))
+cast["aliases"]["군중"] = cast["aliases"]["민중 / 군중"]
 manuscript = (root / "cleanroom-novel.txt").read_text(encoding="utf-8")
 chapters = {}
 for line in manuscript.splitlines():

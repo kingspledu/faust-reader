@@ -10,17 +10,97 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "마을 우물에서 그레첸은 물동이를 든 리스헨을 만났다. 리스헨은 그레첸과 말을 나누던 마을 여인이었다. 그날은 바르벨이라는 또 다른 여인이 결혼 전에 아이를 가졌다는 소문을 이야기했다."
+          "text": "정원에서 약병을 받아 든 뒤, 그레첸을 둘러싼 세상은 여전히 어제처럼 보였다. 우물가에서 마을 여인 리스헨과 나란히 물동이를 들 때까지만 해도 그랬다. 리스헨이 바르벨이라는 여인의 이야기를 꺼내자, 평소라면 그냥 흘려들었을 소문이 다르게 들렸다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "리스헨",
+          "cast_id": "character-055",
+          "text": "베르벨헨 소식 못 들었어?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그레첸이 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "그레첸",
+          "cast_id": "character-053",
+          "text": "한마디도. 요즘 사람들을 거의 못 만나서."
         }
       ]
     },
     {
       "id": "c20-dense-002",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "리스헨은 오늘 지빌레에게 들은 말을 바로 옮겼다. 사정부터 말하기도 전에 베르벨헨이 잘난 척했다며 흉을 봤다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "리스헨",
+          "cast_id": "character-055",
+          "text": "걔도 결국 일을 저질렀더라. 그렇게 잘난 척하더니."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그레첸이 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "그레첸",
+          "cast_id": "character-053",
+          "text": "무슨 일인데?"
+        }
+      ]
     },
     {
       "id": "c20-dense-003",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "두 사람 몫을 먹는다는 말은 베르벨헨이 아이를 가졌다는 뜻이었다. 그레첸은 놀랐고, 리스헨은 그 일이 베르벨헨 탓이라는 듯 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "리스헨",
+          "cast_id": "character-055",
+          "text": "이제 먹을 때 두 사람 몫을 먹는대."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그레첸이 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "그레첸",
+          "cast_id": "character-053",
+          "text": "아……."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "리스헨이 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "리스헨",
+          "cast_id": "character-055",
+          "text": "그러게, 결국 그런 꼴을 당하지."
+        }
+      ]
     },
     {
       "id": "c20-dense-004",
@@ -29,7 +109,25 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "리스헨은 바르벨과 만나던 남자가 이제 와서 책임질 리 없다고 했다. 그레첸은 그런 일을 겪는 사람에게 모두가 손가락질부터 하면 누구에게 도움을 청할 수 있겠느냐는 생각이 들었다."
+          "text": "리스헨은 두 사람이 춤추러 다니고 선물을 주고받던 일을 하나씩 들춰냈다. 그레첸은 그런 이야기보다 베르벨헨이 이제 혼자 어떻게 지낼지가 걱정됐다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "리스헨",
+          "cast_id": "character-055",
+          "text": "어딜 가든 그 남자랑 붙어 다녔잖아. 춤추러 가고, 선물도 받고. 다들 보고 있었는데."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그레첸이 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "그레첸",
+          "cast_id": "character-053",
+          "text": "가엾기도 하지."
         }
       ]
     },
@@ -37,20 +135,82 @@
       "id": "c20-dense-005",
       "script": [
         {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "리스헨은 자신들이 어머니 말씀을 듣고 집에 있을 때 베르벨헨만 밤에 애인을 만난 일이 못마땅했다. 그레첸은 그래도 남자가 곁에 남아 주지 않을까 기대했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "리스헨",
+          "cast_id": "character-055",
+          "text": "우린 밤에 나가지도 못했는데 걔는 몇 시간씩 그 남자랑 있었잖아. 이제 교회에서 사람들 앞에 나서 봐야지."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그레첸이 말했다."
+        },
+        {
           "role": "dialogue",
           "speaker": "그레첸",
           "cast_id": "character-053",
-          "text": "그 사람은 지금 혼자잖아. 나는 그게 제일 마음에 걸려."
+          "text": "그 남자가 결혼해 줄 거야."
         }
       ]
     },
     {
       "id": "c20-dense-006",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "리스헨은 남자가 벌써 떠났다고 했다. 베르벨헨만 손가락질을 받고 남자는 떠날 수 있다는 사실에 그레첸은 화가 났다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "리스헨",
+          "cast_id": "character-055",
+          "text": "뭐 하러 그러겠어. 딴 데서도 얼마든지 잘 지낼 텐데. 벌써 떠났대."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그레첸이 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "그레첸",
+          "cast_id": "character-053",
+          "text": "그건 너무하잖아!"
+        }
+      ]
     },
     {
       "id": "c20-dense-007",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "리스헨은 결혼을 하더라도 사람들 앞에서 망신을 줄 거라며 떠났다. 집으로 향하던 그레첸은 예전 같았으면 자기 역시 그런 이야기에 맞장구쳤을 거라는 생각에 걸음을 늦췄다."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "리스헨이 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "리스헨",
+          "cast_id": "character-055",
+          "text": "결혼해도 가만 안 둘걸. 남자애들은 화관을 찢고, 우린 문 앞에 쭉정이를 뿌리자고."
+        }
+      ]
     },
     {
       "id": "c20-dense-008",
@@ -59,7 +219,13 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "혼자 돌아오는 동안 그레첸은 자기 또한 얼마 전까지만 해도 그런 소문을 듣고 쉽게 남을 판단했다는 걸 떠올렸다. 이제는 자신이 같은 말을 듣게 될까 두려웠다. 집으로 들어가기 전에 들르고 싶은 곳이 생겼다."
+          "text": "그레첸은 베르벨헨을 나무라던 사람들이 자신에게도 똑같이 말할 수 있다는 걸 깨달았다. 남들의 말은 두려웠지만, 파우스트를 좋아했던 마음까지 나빴다고 여기기에는 함께한 시간이 너무 소중했다."
+        },
+        {
+          "role": "monologue",
+          "speaker": "그레첸",
+          "cast_id": "character-053",
+          "text": "나도 예전에는 저렇게 말했잖아. 그때는 그 사람 마음을 한 번도 생각해 보지 않았어."
         }
       ]
     }

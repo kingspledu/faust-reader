@@ -10,26 +10,88 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "골목에서 기다리던 파우스트는 메피스토를 보자 만나게 됐는지부터 물었다. 메피스토는 정원에 가면 된다고 했다. 대신 파우스트가 마르테의 남편이 죽었다는 말에 증인으로 서 줘야 했다."
+          "text": "마르테의 집에서 나온 메피스토가 골목을 걸어오자, 기다리던 파우스트가 문가에서 고개를 내밀었다. 그레첸을 만날 자리만 생기면 될 줄 알았는데, 메피스토가 마련한 자리에서 파우스트도 해야 할 일이 하나 있었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "잘됐어? 이제 만날 수 있어?"
         }
       ]
     },
     {
       "id": "c14-dense-002",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 조급해하는 파우스트의 얼굴을 보고 웃었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "아주 기다렸네. 곧 그레첸을 만나게 될 거야."
+        }
+      ]
     },
     {
       "id": "c14-dense-003",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "오늘 저녁 마르테의 집에서 만난다는 말에 파우스트가 반색했다. 메피스토는 한 가지 조건을 덧붙였다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "그 대신 마르테 부탁도 들어줘야지."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트가 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "도움을 받았으면 도와줘야지. 뭔데?"
+        }
+      ]
     },
     {
       "id": "c14-dense-004",
       "script": [
         {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마르테는 남편의 죽음을 확인할 두 번째 증인이 필요했다. 메피스토가 파우스트에게 그 일을 시키려 했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "남편이 파도바에 묻혔다고 증언해 주면 돼."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트가 물었다."
+        },
+        {
           "role": "dialogue",
           "speaker": "파우스트",
           "cast_id": "character-010",
-          "text": "파도바에 가 본 적도 없는데, 무슨 수로 거기 묻힌 걸 봤다고 해?"
+          "text": "그러려면 먼저 가서 확인해야겠네?"
         }
       ]
     },
@@ -37,16 +99,71 @@
       "id": "c14-dense-005",
       "script": [
         {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 파우스트의 확인 절차가 우습다는 듯 말했다."
+        },
+        {
           "role": "dialogue",
           "speaker": "메피스토",
           "cast_id": "character-008",
-          "text": "본 척하면 돼. 네가 만나고 싶은 애도 그 자리에 올 거고."
+          "text": "그럴 필요 없어. 그냥 그렇다고 하면 되지."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "그것밖에 방법이 없으면 그 약속은 취소해."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "갑자기 왜 그렇게 고결해졌어?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트는 그레첸을 만나고 싶었지만, 확인하지도 않은 죽음을 사실이라고 말하는 데는 거부감이 들었다. 메피스토는 그 망설임을 존중하기보다 유난히 까다롭게 구는 일처럼 취급했다."
         }
       ]
     },
     {
       "id": "c14-dense-006",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 파우스트가 신과 세상, 사람의 마음을 자신 있게 설명하던 일을 들춰냈다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "그때는 다 확인하고 말했어? 정말 속속들이 알고 있었냐고."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트가 평소에도 모르는 것을 아는 것처럼 말하지 않았느냐는 공격이었다."
+        }
+      ]
     },
     {
       "id": "c14-dense-007",
@@ -55,13 +172,62 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "파우스트가 거짓말을 할 수 없다고 하자, 메피스토는 그가 학자로서 직접 보지 않은 일도 자신 있게 가르치지 않았느냐고 물었다. 그레첸에게 사랑을 고백할 때도 지금의 마음이 영원할지 어떻게 아느냐고 짚었다."
+          "text": "파우스트는 학문 이야기를 거짓 증언에 갖다 붙이는 게 못마땅했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "넌 늘 말을 비틀어서 사람을 속이지."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "조금 더 생각해 봐. 그레첸한테는 온 마음으로 사랑한다고 맹세할 거잖아?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "학문 이야기에 파우스트가 화를 내자 메피스토는 사랑 이야기로 옮겨 갔다. 그레첸에게 할 말까지 거짓말과 나란히 놓으면, 파우스트가 증언만 따로 떼어 거절하기 어려워질 거라 본 것이다."
         }
       ]
     },
     {
       "id": "c14-dense-008",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트는 그레첸을 향한 마음만은 의심받고 싶지 않았다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "그건 진심으로 말할 거야."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "영원히 사랑하고, 절대 변하지 않겠다고? 그것도 진심이야?"
+        }
+      ]
     },
     {
       "id": "c14-dense-009",
@@ -70,13 +236,56 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "파우스트는 적어도 지금 느끼는 마음은 꾸며 낸 것이 아니라고 대꾸했다. 그 대답이 마르테에게 할 말을 정직하게 만들어 주지는 않았다. 그래도 그는 그날 정원에 가기로 했다."
+          "text": "파우스트는 감정이 너무 크고 복잡해서 꼭 맞는 말을 찾을 수 없다고 했다. 그래서 무한하다거나 영원하다는 말을 고르는 것이라고 설명했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "그게 전부 거짓말이야?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "봐. 내 말이 맞잖아."
         }
       ]
     },
     {
       "id": "c14-dense-010",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트는 더 말해 봐야 끝나지 않을 것 같았다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "그래, 네가 맞다고 해. 계속 우기면 결국 네 말이 맞겠지. 이제 그만하고 가자."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그는 메피스토의 도움이 있어야 그레첸을 만날 수 있었다. 그걸 포기하지 못해 대화를 끝냈지만, 거짓 증언이 옳다고 납득한 것은 아니었다."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트는 거짓 증언이 옳다는 데 동의한 것이 아니었다. 다만 메피스토와 등을 돌리면 그레첸을 만날 기회도 놓칠까 봐, 자기 불편한 마음을 끝까지 밀고 나가지 못했다."
+        }
+      ]
     }
   ]
 }

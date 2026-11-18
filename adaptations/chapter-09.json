@@ -10,21 +10,66 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "솥에서 연기가 오르고 난롯불 앞에서 원숭이들이 움직였다. 마녀가 없는 사이 부엌을 지키는 동물들이었다. 메피스토는 파우스트의 나이 든 몸에 다시 젊은 기운을 돌려주려고 이곳을 찾았다."
+          "text": "술집을 나온 파우스트가 이번에 들른 곳에는 잔 대신 큰 솥이 걸려 있었다. 원숭이들이 불과 솥을 돌보는 마녀의 부엌이었다. 메피스토가 찾는 것은 술처럼 한때 기분만 바꿔 놓는 물건보다, 파우스트가 세상을 보는 방식까지 바꿀 수 있는 약이었다."
         }
       ]
     },
     {
       "id": "c09-dense-002",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "벽과 천장에는 쓰임을 짐작하기 어려운 도구들이 빼곡했다. 이곳은 마녀가 약을 만드는 부엌이었다. 젊음을 되찾게 해 주겠다던 메피스토가 데려온 곳이 하필 여기라니, 파우스트는 들어오자마자 얼굴을 찌푸렸다."
+        }
+      ]
     },
     {
       "id": "c09-dense-003",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트는 끓는 솥과 기묘한 도구를 보며 얼굴을 찌푸렸다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "이런 데서 정말 젊어질 수 있다고? 서른 해나?"
+        }
+      ]
     },
     {
       "id": "c09-dense-004",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트는 마법 말고 다른 방법을 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "자연이나 학문으로 하는 방법은 없어?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "있지. 다르게 살면 돼."
+        }
+      ]
     },
     {
       "id": "c09-dense-005",
@@ -33,45 +78,270 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "파우스트는 이런 곳에서 나온 약을 마셔야 한다는 게 마음에 걸렸다. 메피스토는 밭을 일구고 소박하게 살면 마법 없이도 달라질 수 있다고 했다. 파우스트가 그런 일에 평생을 걸 생각은 없다는 걸 이미 알고 있었다."
+          "text": "메피스토가 내놓은 방법은 소박하게 먹고 몸을 쓰며 사는 것이었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "들로 나가서 땅을 파. 가축하고 살고, 소박하게 먹고. 마법 없이도 오래 젊게 살 수 있어."
         }
       ]
     },
     {
       "id": "c09-dense-006",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트는 익숙하지 않은 생활을 시작할 마음이 없었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "삽질하면서 사는 건 싫어. 그런 답답한 생활은 못 해."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "그럼 역시 마녀가 필요하겠네."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트가 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "왜 꼭 저 여자여야 해?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 다른 방법도 있다는 말로 선택권을 주는 척했다. 파우스트가 고된 생활을 거절하면, 결국 마녀의 약을 택하도록 이끌 수 있었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-007",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트는 악마가 직접 만들면 간단할 것 같았다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "네가 만들면 되잖아."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "그 시간에 다리를 천 개라도 놓겠다. 아는 것만으로 되는 일이 아니야. 기다릴 줄도 알아야지."
+        }
+      ]
     },
     {
       "id": "c09-dense-008",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 약이 제힘을 내려면 여러 해 동안 익어야 한다고 말했다. 악마가 만드는 법을 가르쳤어도 악마 자신이 대신할 수는 없다는 것이었다. 설명을 마친 그는 솥 옆의 원숭이들에게 눈을 돌렸다. 파우스트가 못마땅해하는 동안에도 그에게는 이곳의 소란이 재미있었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-009",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 솥을 돌보는 원숭이들에게 말을 걸었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "주인은 없어?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "수컷 원숭이가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "수컷 원숭이",
+          "cast_id": "character-050",
+          "text": "잔치에 갔어. 굴뚝으로 나갔지."
+        }
+      ]
     },
     {
       "id": "c09-dense-010",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "언제 돌아오느냐는 질문에도 원숭이들은 엉뚱하게 답했다."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "얼마나 돌아다니는데?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "수컷 원숭이가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "수컷 원숭이",
+          "cast_id": "character-050",
+          "text": "우리 발이 따뜻해질 동안!"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "어때, 이런 동물들?"
+        }
+      ]
     },
     {
       "id": "c09-dense-011",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트는 이 부엌의 모든 것이 못마땅했다. 메피스토는 오히려 즐거웠다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "정말 우스꽝스럽네."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "난 이런 대화가 제일 좋아. 솥에는 뭘 끓여?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "암컷 원숭이가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "암컷 원숭이",
+          "cast_id": "character-123",
+          "text": "푸짐한 거지 수프!"
+        }
+      ]
     },
     {
       "id": "c09-dense-012",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "수컷 원숭이가 메피스토 곁으로 와서 아양을 부렸다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "수컷 원숭이",
+          "cast_id": "character-050",
+          "text": "주사위에서 이기게 해 줘. 부자가 되면 다 괜찮아질 거야."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "복권이라도 살 수 있으면 얼마나 좋아하겠어."
+        }
+      ]
     },
     {
       "id": "c09-dense-013",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그사이 새끼 원숭이들이 커다란 공을 굴려 왔다. 수컷 원숭이는 그것을 세상이라고 부르며 올라가고 내려가고 쉬지 않고 구른다고 말했다. 반짝이는 공은 유리 같은 소리를 냈지만 속은 비어 있었다. 그는 장난감을 두고 세상 이야기를 늘어놓았다."
+        }
+      ]
     },
     {
       "id": "c09-dense-014",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "수컷 원숭이는 새끼에게 공을 가까이하지 말라고 경고했다. 진흙으로 만든 것이라 깨지면 조각이 생긴다는 말이었다. 세상이라고 부르다가 금세 깨지기 쉬운 장난감처럼 다루는 모습이 우스웠다. 메피스토는 이번에는 걸려 있는 체가 무엇에 쓰는 물건인지 물었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-015",
@@ -80,41 +350,157 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "솥을 기다리던 파우스트는 거울 속 여인에게 눈을 빼앗겼다. 가까이서 보고 싶어 앞으로 움직일수록 오히려 그 모습은 흐려졌다. 메피스토는 그가 거울을 오래 볼수록, 앞으로 보게 될 사람이 더 대단해 보일 거라 생각했다."
+          "text": "수컷 원숭이가 체를 내려 들고 암컷 원숭이에게 달려갔다. 체는 작은 구멍 사이로 가루 같은 것을 거르는 도구였다. 그는 이것으로 도둑을 알아볼 수 있다며 체 너머를 보게 했다. 메피스토는 그 엉뚱한 장난을 보다가 불 가까이에 놓인 냄비도 가리켰다."
         }
       ]
     },
     {
       "id": "c09-dense-016",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "두 원숭이가 냄비도 모르느냐며 메피스토를 놀렸다. 그가 무례하다고 하자 수컷 원숭이는 털이개를 건네며 의자에 앉으라고 했다. 손님을 떠받드는 것인지 놀리는 것인지 분간하기 어려운 태도였다. 메피스토는 그런 버릇없는 대접도 재미있게 받아 주었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-017",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "원숭이들이 메피스토를 의자로 이끄는 동안, 파우스트는 커다란 거울 앞에 멈춰 서 있었다. 거울에는 아름다운 여인의 모습이 나타났다. 가까이 다가가면 흐려지고, 조금 물러나야 다시 또렷해졌다. 그는 가장 잘 보이는 자리를 떠나지 못했다."
+        },
+        {
+          "role": "monologue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "누구지? 조금만 더 가까이 보고 싶은데, 다가갈수록 멀어지는 것 같아."
+        }
+      ]
     },
     {
       "id": "c09-dense-018",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트는 거울 속 여인에게 눈을 빼앗겼다. 가까이 가면 흐려져 물러나야 했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "정말 저렇게 아름다운 사람이 있을 수 있어?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "세상을 엿새나 공들여 만들었잖아. 훌륭한 것도 나와야지."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트가 거울에서 눈을 떼지 못하자 메피스토는 더 설득할 필요가 줄었다고 느꼈다. 젊어지고 싶은 마음에 아름다운 사람을 만나고 싶은 마음까지 더해지고 있었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-019",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 거울 앞의 파우스트를 보다가 의자에 기대앉았다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "실컷 봐. 저런 연인도 찾아 줄 수 있어."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그는 털이개를 지팡이처럼 들고 원숭이들에게 왕관을 청했다."
+        }
+      ]
     },
     {
       "id": "c09-dense-020",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "원숭이들은 깨진 왕관 조각을 들고 뛰어다니며 말과 운을 맞췄다. 파우스트는 거울 앞에서 거의 미칠 것 같다고 중얼거렸다. 아무리 들여다보아도 여인에게 다가갈 수 없었기 때문이다. 메피스토는 동물들을 가리키며 자신도 어지러워진다고 농담했다."
+        }
+      ]
     },
     {
       "id": "c09-dense-021",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "거울 속 여인에게 다가갈 수 없어 파우스트는 괴로웠다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "가슴이 타는 것 같아. 빨리 가자."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "저 동물들 좀 봐. 솔직한 시인들이네."
+        }
+      ]
     },
     {
       "id": "c09-dense-022",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "소란이 이어지는 동안 암컷 원숭이가 솥을 돌보는 일을 놓쳤다. 끓던 내용물이 넘치더니 큰 불꽃이 굴뚝 위로 치솟았다. 곧 그 불길을 뚫고 마녀가 비명을 지르며 내려왔다. 부엌의 주인이 돌아오자 원숭이들의 장난이 뚝 멎었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-023",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀는 솥을 내버려 둬 자신을 그슬리게 했다며 암컷 원숭이를 호되게 꾸짖었다. 구부정한 몸에 낡은 겹옷을 걸친 노파는 이 부엌에서 약을 만드는 주인이었다. 돌아오자마자 불길과 소란을 만났으니 몹시 성이 나 있었다. 원숭이들은 조금 전의 기세를 잃고 움츠러들었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-024",
@@ -123,61 +509,320 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "마녀가 돌아와 낯선 사람들을 쫓으려다 메피스토를 알아보고 멈췄다. 그는 옛날 악마에게서 찾던 뿔이나 겉모습만 찾으면 앞으로도 알아보기 어려울 거라고 했다."
+          "text": "솥을 돌보지 않은 원숭이를 혼내던 마녀가 낯선 두 남자를 발견했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "마녀",
+          "cast_id": "character-052",
+          "text": "너희는 누구야? 누가 들어오래?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "그녀는 붉은 옷의 손님이 메피스토인 줄 아직 몰랐다."
         }
       ]
     },
     {
       "id": "c09-dense-025",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀가 국자로 솥을 휘젓고 두 손님과 동물들에게 불꽃을 튀겼다. 원숭이들이 겁먹은 소리를 냈다. 메피스토는 털이개를 거꾸로 쥐더니 유리병과 냄비 사이를 내리쳤다. 파우스트가 질색하던 부엌은 깨지는 소리로 더 시끄러워졌다."
+        }
+      ]
     },
     {
       "id": "c09-dense-026",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 털이개로 병과 냄비를 깨뜨리고도 장난처럼 웃었다. 그러다 마녀를 똑바로 봤다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "왜 그렇게 화를 내? 네 장난에 맞춰 준 건데. 내가 누군지 모르겠어?"
+        }
+      ]
     },
     {
       "id": "c09-dense-027",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀가 멈칫했다. 메피스토는 자기 옷을 가리키며 몰아붙였다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "네 주인이자 스승도 몰라? 이 붉은 옷을 보고도?"
+        }
+      ]
     },
     {
       "id": "c09-dense-028",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "깃털 모자와 얼굴을 알아본 마녀가 태도를 바꿨다."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "이 깃털도, 내 얼굴도 못 알아봐?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "마녀",
+          "cast_id": "character-052",
+          "text": "용서해 주세요. 못 알아봤어요!"
+        }
+      ]
     },
     {
       "id": "c09-dense-029",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀는 옛이야기 속 악마의 모습만 떠올리고 있었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "마녀",
+          "cast_id": "character-052",
+          "text": "말발굽도 안 보이고 까마귀도 없어서요."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "오래 못 봤으니 봐줄게. 세상이 바뀌었는데 우리도 달라져야지."
+        }
+      ]
     },
     {
       "id": "c09-dense-030",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 발도 가짜 종아리로 가린다고 했다. 마녀가 반가워 옛 이름을 부르자 바로 막았다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "마녀",
+          "cast_id": "character-052",
+          "text": "사탄님이셨네요!"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "그 이름 부르지 마."
+        }
+      ]
     },
     {
       "id": "c09-dense-031",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 다른 신사처럼 보이고 싶었다. 남작은 귀족에게 붙이는 칭호였다."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀가 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "마녀",
+          "cast_id": "character-052",
+          "text": "왜 그 이름이 싫으세요?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "악한 짓은 그대로인데 악마는 옛이야기 취급이거든. 그냥 남작님이라고 불러."
+        }
+      ]
     },
     {
       "id": "c09-dense-032",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 상스러운 몸짓으로 장난을 치자 마녀가 큰 소리로 웃었다. 여전히 짓궂다며 반가워했다."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "누군지 몰라 겁을 먹던 때와는 달랐다. 파우스트는 곁에서 두 사람이 거친 농담을 주고받는 모습을 지켜보았다."
+        }
+      ]
     },
     {
       "id": "c09-dense-033",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "한바탕 장난을 마친 뒤 마녀가 용건을 물었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "마녀",
+          "cast_id": "character-052",
+          "text": "무슨 일로 오셨어요?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "이 친구를 젊게 만들 약 한 잔. 오래된 걸로 줘."
+        }
+      ]
     },
     {
       "id": "c09-dense-034",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀는 병을 꺼내다가 파우스트를 보고 목소리를 낮췄다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "마녀",
+          "cast_id": "character-052",
+          "text": "이걸 그냥 마시면 한 시간도 못 버틸 텐데요."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "좋은 친구한테 좋은 걸 주고 싶어. 의식을 시작해."
+        }
+      ]
     },
     {
       "id": "c09-dense-035",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀가 바닥에 원을 그리고 도구를 놓자 병과 솥이 울렸다. 파우스트는 더 불안해졌다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "대체 뭘 하려는 거야?"
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "너무 심각하게 굴지 마. 약이 잘 듣게 하려는 거야."
+        }
+      ]
     },
     {
       "id": "c09-dense-036",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 웃어넘길 장난이라며 너무 엄격하게 굴지 말라고 했다. 약이 잘 듣게 하려고 필요한 절차라는 설명이었다. 파우스트가 선뜻 움직이지 않자 그를 원 안으로 들어가게 했다. 마녀는 커다란 책을 펴고 힘을 주어 읽기 시작했다."
+        }
+      ]
     },
     {
       "id": "c09-dense-037",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀는 하나를 열로 만들고 둘을 보내 버리라는 식의 주문을 외웠다. 넷을 잃고 다섯과 여섯을 일곱과 여덟로 바꾸라는 말도 이어졌다. 숫자는 익숙했지만 계산의 앞뒤는 맞지 않았다. 마녀는 마치 아주 중요한 지식을 가르치듯 당당하게 읊었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-038",
@@ -186,37 +831,164 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "마녀는 원을 그려 파우스트를 앉히고, 숫자가 제멋대로 뒤집히는 주문을 읊었다. 알아들을 수 없는 말이 길어지자 파우스트는 답답해했다. 그래도 젊어진다는 약이 건네지자 잔을 비웠다."
+          "text": "마녀의 숫자 주문은 앞뒤가 맞지 않았다. 그런데도 그녀는 대단한 지식처럼 읽었다."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "열에 들떠서 헛소리하는 것 같아."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "책 전체가 그래. 완전히 모순되면 이해 못 하는 쪽에서 신비롭다고 생각하거든."
         }
       ]
     },
     {
       "id": "c09-dense-039",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 하나와 셋, 셋과 하나를 내세워 진리 대신 잘못된 생각을 퍼뜨리는 수법이 오래되었다고 했다. 익숙한 종교의 숫자 표현까지 끌어와 빈정대는 말이었다. 사람들은 말만 들으면 그 안에 무슨 뜻이 있으리라 믿는다고도 했다. 마녀는 그 말과 상관없이 학문의 위대한 힘을 외쳤다."
+        }
+      ]
     },
     {
       "id": "c09-dense-040",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀는 생각하지 않는 사람에게 학문의 힘이 주어진다고 외쳤다. 오래 연구한 파우스트에게는 참기 어려운 말이었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "머리가 터질 것 같아. 수많은 바보가 한꺼번에 떠드는 것 같다고."
+        }
+      ]
     },
     {
       "id": "c09-dense-041",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 이제 충분하다며 주문을 끊었다. 그는 마녀를 여예언자라고 치켜세우고 약을 그릇 가득 따르라고 했다. 학위도 많고 술도 마셔 본 친구라 괜찮다는 농담까지 보탰다. 마녀가 약을 파우스트의 입 가까이 가져가자 작은 불꽃이 일었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-042",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "약그릇에서 작은 불꽃이 일자 파우스트가 머뭇거렸다."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "악마하고는 잘 지내면서 이 정도 불이 무서워? 마셔."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "파우스트가 약을 마시자 마녀가 원을 풀었다. 이제 밖으로 나갈 수 있었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-043",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀는 약이 잘 듣기를 바란다고 인사했다. 메피스토는 해 줄 일이 있으면 발푸르기스의 밤에 말하라고 답했다. 마녀들이 모이는 날에 다시 만나자는 말이었다."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "마녀는 가끔 부르면 특별한 효과가 있을 거라며 노래도 건넸다."
+        }
+      ]
     },
     {
       "id": "c09-dense-044",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 약의 힘이 몸 안팎으로 퍼지려면 땀을 흘려야 한다며 파우스트를 이끌었다. 편히 쉬는 법은 나중에 배우면 된다고 했다. 사랑의 신 쿠피도가 몸속에서 뛰노는 것처럼 즐거워질 거라는 말도 덧붙였다. 파우스트는 그 말을 들으면서도 거울이 있는 쪽을 돌아보고 싶었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-045",
-      "script": []
+      "script": [
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "떠나면서도 파우스트는 거울을 돌아보고 싶었다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "파우스트",
+          "cast_id": "character-010",
+          "text": "한 번만 더 보게 해 줘. 정말 아름다웠어."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토가 말했다."
+        },
+        {
+          "role": "dialogue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "안 돼. 이제 실제 여인을 보게 될 거야."
+        },
+        {
+          "role": "narration",
+          "speaker": "나레이터",
+          "cast_id": "narrator",
+          "text": "메피스토는 거울을 다시 보게 하는 대신 실제로 만날 사람을 약속했다. 눈앞의 환상에 머무르려는 파우스트를 밖으로 움직이게 하려는 말이었다."
+        }
+      ]
     },
     {
       "id": "c09-dense-046",
@@ -225,7 +997,13 @@
           "role": "narration",
           "speaker": "나레이터",
           "cast_id": "narrator",
-          "text": "방을 나서면서도 파우스트는 거울을 한 번 더 보고 싶었다. 메피스토는 이미 그 거울이 할 일을 다했다고 여겼다. 다음에 마주칠 여자가 파우스트에게 어떤 모습으로 보일지 지켜볼 참이었다."
+          "text": "메피스토는 가장 아름다운 여인의 본보기 같은 사람을 곧 눈앞에서 보게 될 거라고 했다. 그러고는 파우스트에게 들리지 않게 말을 보탰다. 이 약을 마셨으니 누구를 보아도 헬레네처럼 보일 거라는 말이었다. 헬레네는 옛 그리스 이야기에서 뛰어난 미인으로 알려진 여인이었다. 메피스토는 파우스트가 앞으로 무엇을 보고 싶어 할지 자신이 알고 있다고 여겼다."
+        },
+        {
+          "role": "monologue",
+          "speaker": "메피스토",
+          "cast_id": "character-008",
+          "text": "몸만 달라지는 게 아니야. 이제 여자를 보는 눈도 달라지겠지."
         }
       ]
     }
