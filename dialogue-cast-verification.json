@@ -6,16 +6,16 @@
     {
       "chapter": 1,
       "scenes": 16,
-      "tts_segments": 17,
+      "tts_segments": 18,
       "dialogue": 0,
-      "monologues": 1,
+      "monologues": 2,
       "source_translation_images_preserved": true
     },
     {
       "chapter": 2,
-      "scenes": 14,
-      "tts_segments": 16,
-      "dialogue": 6,
+      "scenes": 23,
+      "tts_segments": 59,
+      "dialogue": 35,
       "monologues": 0,
       "source_translation_images_preserved": true
     },
@@ -228,7 +228,7 @@
       "source_translation_images_preserved": true
     }
   ],
-  "tts_segments": 200,
+  "tts_segments": 244,
   "audio_generated": false,
   "listening_test": false
 }

@@ -1,6 +1,6 @@
 # 파우스트 Gemini Canvas TTS
 
-현재 본문·배역 기준: cleanroom-v1 / CAST-2026-11-18. 모델은 `gemini-2.5-flash-preview-tts`. 1~28장 전체200구간. 원문·대응 번역·메뉴·화자 라벨은 낭독하지 않는다.
+현재 본문·배역 기준: cleanroom-v1 / CAST-2026-11-18. 모델은 `gemini-2.5-flash-preview-tts`. 1~28장 전체244구간. 원문·대응 번역·메뉴·화자 라벨은 낭독하지 않는다.
 
 [성우·연기 설정](../voice-cast.html) · [배역 원본 JSON](../voice-cast.json) · [제작 규칙](../FAUST_PRODUCTION_GUIDELINES.md)
 
@@ -16,9 +16,9 @@
 
 |---|---:|---:|---:|---|
 
-|1|17|0|1|[Canvas HTML](FAUST_C01_V04_GEMINI_CANVAS_TTS.html)|
+|1|18|0|2|[Canvas HTML](FAUST_C01_V04_GEMINI_CANVAS_TTS.html)|
 
-|2|16|6|0|[Canvas HTML](FAUST_C02_V04_GEMINI_CANVAS_TTS.html)|
+|2|59|35|0|[Canvas HTML](FAUST_C02_V04_GEMINI_CANVAS_TTS.html)|
 
 |3|13|4|0|[Canvas HTML](FAUST_C03_V04_GEMINI_CANVAS_TTS.html)|
 
