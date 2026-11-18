@@ -1,0 +1,17 @@
+:root { color-scheme: light dark; }
+body { margin: 0; font-family: system-ui, "Malgun Gothic", sans-serif; line-height: 1.8; }
+main { max-width: 46rem; margin: auto; padding: 1.5rem; }
+h1, h2 { line-height: 1.35; }
+h2 span { display: block; font-size: .7em; font-weight: normal; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; font-family: Georgia, serif; }
+section { margin: 2rem 0 3rem; }
+section img { width: 100%; height: auto; display: block; }
+details { margin-top: 1rem; padding: .5rem .8rem; border: 1px solid GrayText; }
+summary { cursor: pointer; }
+.translation { white-space: pre-line; }
+.comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+.comparison > div { min-width: 0; }
+.comparison h4 { margin: .5rem 0; }
+.comparison pre, .comparison p { margin-top: 0; }
+@media (max-width: 42rem) { .comparison { grid-template-columns: 1fr; gap: .5rem; } }
+footer { margin-top: 2rem; }
