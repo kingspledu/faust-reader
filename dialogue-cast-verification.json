@@ -5,8 +5,8 @@
   "chapters": [
     {
       "chapter": 1,
-      "scenes": 4,
-      "tts_segments": 4,
+      "scenes": 16,
+      "tts_segments": 16,
       "dialogue": 0,
       "monologues": 0,
       "source_translation_images_preserved": true
@@ -228,7 +228,7 @@
       "source_translation_images_preserved": true
     }
   ],
-  "tts_segments": 198,
+  "tts_segments": 210,
   "audio_generated": false,
   "listening_test": false
 }
