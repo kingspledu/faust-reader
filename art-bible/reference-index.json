@@ -4942,6 +4942,72 @@
       "variants_note": "",
       "unresolved": [],
       "menu_group": "places"
+    },
+    {
+      "id": "character-ii-carnival-mother",
+      "kind": "character",
+      "name": "MUTTER",
+      "source_name": "MUTTER",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-carnival-mother.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Carnival performer, Act I.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-carnival-daughter",
+      "kind": "character",
+      "name": "TOCHTER",
+      "source_name": "TOCHTER",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-carnival-daughter.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Carnival performer, Act I.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "group-ii-woodcutters",
+      "kind": "character",
+      "name": "HOLZHAUER",
+      "source_name": "HOLZHAUER",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "group-ii-woodcutters.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Carnival performer, Act I.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
