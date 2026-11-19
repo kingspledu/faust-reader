@@ -73,17 +73,28 @@ def render_scene(lines, key, boundaries):
     return content
 
 
-def render_valley(lines):
+def valley_passages():
     illustrated = json.loads((ROOT / "act-01-illustration-plan.json").read_text(encoding="utf-8"))
     tail = json.loads((ROOT / "act-01-valley-tail.json").read_text(encoding="utf-8"))
-    passages = [(start, end, translation) for start, end, _, translation in illustrated] + tail
+    passages = illustrated + tail
     assert passages[0][0] == 61 and passages[-1][1] == 215
     assert all(left[1] == right[0] for left, right in zip(passages, passages[1:]))
+    return passages
+
+
+def valley_image(number, label):
+    path = f"images/valley-{number:02}.webp"
+    if (ROOT / path).is_file():
+        return f'<img src="{path}" alt="{escape(label, quote=True)}" loading="lazy">'
+    return ""
+
+
+def render_valley(lines):
     return "".join(
-        f'<section class="panel-text" id="opening-{n:02}"><div class="comparison"><div>'
+        f'<section class="panel-text" id="opening-{n:02}">{valley_image(n, label)}<div class="comparison"><div>'
         f'{source_block(lines, start, end)}</div><div><p class="translation" lang="ko">'
         f'{escape(translation)}</p></div></div></section>'
-        for n, (start, end, translation) in enumerate(passages, 1)
+        for n, (start, end, label, translation) in enumerate(valley_passages(), 1)
     )
 
 
@@ -120,14 +131,10 @@ def render_source_panels(lines, start, end, *, ranges=None):
 
 
 def render_illustration_review(lines):
-    plan = json.loads((ROOT / "act-01-illustration-plan.json").read_text(encoding="utf-8"))
     content = '<p>1막 · 꽃이 핀 골짜기</p>'
-    for number, (begin, end, label, translation) in enumerate(plan, 1):
+    for number, (begin, end, label, translation) in enumerate(valley_passages(), 1):
         scene_id = f"valley-{number:02}"
-        image_path = f"images/{scene_id}.webp"
-        image = ""
-        if (ROOT / image_path).is_file():
-            image = f'<img src="{image_path}" alt="{escape(label, quote=True)}" loading="lazy">'
+        image = valley_image(number, label)
         content += f'<section id="{scene_id}">{image}<h2>{number:02} · {escape(label)}</h2>'
         content += f'<div class="comparison"><div><h4>독일어 원문</h4>{source_block(lines, begin, end)}</div>'
         content += f'<div><h4>한국어 번역</h4><p class="translation">{escape(translation)}</p></div></div></section>'
