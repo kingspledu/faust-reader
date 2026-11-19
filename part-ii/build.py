@@ -61,14 +61,17 @@ def render_scene(lines, key, boundaries):
     if not manuscript.exists():
         return ""
     scenes = json.loads(manuscript.read_text(encoding="utf-8"))
+    novel = json.loads((ROOT / "act-01-02-novel.json").read_text(encoding="utf-8"))[key]
     assert len(scenes) == len(boundaries) - 1
+    assert len(novel) == len(scenes)
     content = ""
     for number, (begin, finish, scene) in enumerate(zip(boundaries, boundaries[1:], scenes), 1):
         scene_id = f"{key}-{number:02}"
         content += f'<section class="panel-text" id="{scene_id}">{reference_image(scene_id, scene["alt"])}'
         original = source_block(lines, begin, finish)
         translation = f'<p class="translation" lang="ko">{escape(scene["translation"])}</p>'
-        content += f'<div class="comparison"><div>{original}</div><div>{translation}</div></div>'
+        content += "".join(f'<p class="novel">{escape(p)}</p>' for p in novel[number-1])
+        content += f'<details class="source-fold"><summary>독일어 원문 · 한국어 번역</summary><div class="comparison"><div>{original}</div><div>{translation}</div></div></details>'
         content += '</section>'
     return content
 
@@ -230,7 +233,7 @@ def build():
             pattern, lambda m: m[1] + navigation + review_link + "</details>" + m[2],
             markup, count=1, flags=re.S,
         )
-        assert count == 1, location
+        assert count == 1 or 'class="reader-menu"' in markup, location
     if ".part .story-act a{" not in markup:
         markup = markup.replace("</style>", ".part .story-act a{display:block;padding:.35rem .5rem}</style>", 1)
     home.write_text(markup, encoding="utf-8")
