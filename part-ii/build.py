@@ -234,6 +234,11 @@ def build():
     if ".part .story-act a{" not in markup:
         markup = markup.replace("</style>", ".part .story-act a{display:block;padding:.35rem .5rem}</style>", 1)
     home.write_text(markup, encoding="utf-8")
+    import sys
+    sys.path.insert(0, str(ROOT.parent))
+    from normalize_reader import normalize
+    for path in ROOT.glob("act-*.html"):
+        normalize(path)
 
 
 if __name__ == "__main__":

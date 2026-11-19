@@ -70,3 +70,5 @@ for chapter, scenes in chapters.items():
     render(chapter)
     rendered = BeautifulSoup(path.read_text(encoding="utf-8"), "html.parser")
     assert snapshot == protected(rendered), chapter
+    from normalize_reader import normalize
+    normalize(path)
