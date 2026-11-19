@@ -5008,6 +5008,270 @@
       "variants_note": "",
       "unresolved": [],
       "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-pulcinella",
+      "kind": "character",
+      "name": "pulcinella",
+      "source_name": "PULCINELLA",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-pulcinella.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-parasites",
+      "kind": "character",
+      "name": "parasites",
+      "source_name": "PARASITES",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-parasites.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-drunk",
+      "kind": "character",
+      "name": "drunk",
+      "source_name": "DRUNK",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-drunk.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-drinking-chorus",
+      "kind": "character",
+      "name": "drinking-chorus",
+      "source_name": "DRINKING-CHORUS",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-drinking-chorus.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-satirist",
+      "kind": "character",
+      "name": "satirist",
+      "source_name": "SATIRIST",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-satirist.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-aglaia",
+      "kind": "character",
+      "name": "aglaia",
+      "source_name": "AGLAIA",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-aglaia.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-hegemone",
+      "kind": "character",
+      "name": "hegemone",
+      "source_name": "HEGEMONE",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-hegemone.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-euphrosyne",
+      "kind": "character",
+      "name": "euphrosyne",
+      "source_name": "EUPHROSYNE",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-euphrosyne.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-atropos",
+      "kind": "character",
+      "name": "atropos",
+      "source_name": "ATROPOS",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-atropos.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-clotho",
+      "kind": "character",
+      "name": "clotho",
+      "source_name": "CLOTHO",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-clotho.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-lachesis",
+      "kind": "character",
+      "name": "lachesis",
+      "source_name": "LACHESIS",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-lachesis.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-alekto",
+      "kind": "character",
+      "name": "alekto",
+      "source_name": "ALEKTO",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-alekto.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Faust II carnival performer.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
