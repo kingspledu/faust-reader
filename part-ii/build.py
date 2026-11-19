@@ -90,10 +90,14 @@ def reference_image(scene_id, label):
 
 
 def render_valley(lines):
+    novel = json.loads((ROOT / "act-01-01-novel.json").read_text(encoding="utf-8"))
+    assert len(novel) == len(valley_passages()) == 30
     return "".join(
-        f'<section class="panel-text" id="opening-{n:02}">{reference_image(f"valley-{n:02}", label)}<div class="comparison"><div>'
+        f'<section class="panel-text" id="opening-{n:02}">{reference_image(f"valley-{n:02}", label)}'
+        + "".join(f'<p class="novel">{escape(paragraph)}</p>' for paragraph in novel[n-1])
+        + '<details><summary>독일어 원문 · 한국어 번역</summary><div class="comparison"><div>'
         f'{source_block(lines, start, end)}</div><div><p class="translation" lang="ko">'
-        f'{escape(translation)}</p></div></div></section>'
+        f'{escape(translation)}</p></div></div></details></section>'
         for n, (start, end, label, translation) in enumerate(valley_passages(), 1)
     )
 
