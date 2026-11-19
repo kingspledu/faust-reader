@@ -37,7 +37,8 @@ def register():
     data = json.loads(index.read_text(encoding="utf-8"))
     markup = page.read_text(encoding="utf-8")
     posts = []
-    references = REFERENCES + COURT_REFERENCES + NEW_MASK_REFERENCES
+    carnival = json.loads((ROOT / "carnival-references.json").read_text(encoding="utf-8"))
+    references = REFERENCES + COURT_REFERENCES + NEW_MASK_REFERENCES + carnival
     known_ids = {ref[0] for ref in references}
     data["entries"] = [entry for entry in data["entries"] if entry["id"] not in known_ids]
     for key, name, german, note, locks in references:
@@ -47,7 +48,7 @@ def register():
         mask = (key, name, german, note, locks) in NEW_MASK_REFERENCES
         kind = "place" if key.startswith("place") else "character"
         group = "places" if kind == "place" else "forms" if court else "heaven"
-        scene = COURT_SCENE if court or mask else SCENE
+        scene = "../part-ii/act-01-06.html" if [key, name, german, note, locks] in carnival else COURT_SCENE if court or mask else SCENE
         data["entries"].append({
             "id": key, "kind": kind, "name": name, "source_name": german,
             "category": "궁정" if court else "정령", "part": 2,
