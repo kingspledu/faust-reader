@@ -66,8 +66,7 @@ def render_scene(lines, key, boundaries):
         content += f'<section id="{scene_id}">'
         original = source_block(lines, begin, finish)
         translation = f'<p class="translation" lang="ko">{escape(scene["translation"])}</p>'
-        content += "".join(f"<p>{escape(paragraph)}</p>" for paragraph in scene["prose"])
-        content += f'<details><summary>독일어 원문 · 한국어 번역</summary>{original}{translation}</details>'
+        content += f'<div class="comparison"><div>{original}</div><div>{translation}</div></div>'
         content += '</section>'
     return content
 
