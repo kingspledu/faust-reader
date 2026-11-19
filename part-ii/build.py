@@ -200,7 +200,7 @@ def build():
             content = court + reports
             start = COURT_REPORTS[-1]
         if start < stop:
-            image_prefix = "debate" if act == 1 and number == 3 else None
+            image_prefix = "debate" if act == 1 and number == 3 else "festival" if act == 1 and number == 4 else None
             content += render_source_panels(lines, start, stop, image_prefix=image_prefix)
         links = []
         if position:
