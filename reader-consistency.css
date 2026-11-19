@@ -7,3 +7,5 @@
 .source-fold pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.9 Georgia,serif;margin:0}
 .source-fold .translation,.source-fold .ko-translation{white-space:pre-wrap;font:17px/1.95 system-ui,sans-serif;margin:0;padding:0;border:0;background:transparent;color:#62564a}
 @media(max-width:42rem){.source-fold .comparison{grid-template-columns:1fr}}
+
+.reader-menu details{margin:0 0 10px;padding:8px 10px;border:1px solid #cfc9bb}.reader-menu summary{cursor:pointer;font:16px/1.5 Georgia,serif;padding:0}.reader-menu .story-act{margin-top:8px}.reader-menu a{display:block;padding:7px 8px;font:14px/1.4 system-ui;text-decoration:none;color:inherit}.reader-menu{max-height:calc(100vh - 100px);overflow:auto}
