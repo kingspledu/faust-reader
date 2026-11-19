@@ -40,7 +40,29 @@ def normalize_menu(soup, path):
             markup += f'<a href="{target}act-{number:02}-{sub:02}.html">{number}-{sub}막 · {escape(title)}</a>'
         markup += f'<a href="{target}act-{number:02}.html">{number}막 전체 읽기</a></details>'
     markup += f'<a href="{target}illustration-review.html">1막 원문·번역 대조</a></details></aside>'
-    sidebar.replace_with(BeautifulSoup(markup, "html.parser").aside)
+    menu = BeautifulSoup(markup, "html.parser").aside
+    parts = menu.find_all("details", recursive=False)
+    for index, part in enumerate(parts):
+        part["name"] = "reader-parts"
+        part.attrs.pop("open", None)
+        if index == int(nested):
+            part["open"] = ""
+        for group in part.find_all("details", recursive=False):
+            group["name"] = f"reader-acts-{index+1}"
+    sidebar.replace_with(menu)
+    old = soup.find("script", id="reader-accordion")
+    if old:
+        old.decompose()
+    script = soup.new_tag("script", id="reader-accordion")
+    script.string = """document.querySelectorAll('.reader-menu details').forEach(item => {
+  item.addEventListener('toggle', () => {
+    if (!item.open) return;
+    Array.from(item.parentElement.children).forEach(sibling => {
+      if (sibling !== item && sibling.tagName === 'DETAILS') sibling.open = false;
+    });
+  });
+});"""
+    soup.append(script)
 
 
 def normalize(path):
