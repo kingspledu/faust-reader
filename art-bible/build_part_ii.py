@@ -12,6 +12,7 @@ REFERENCES = [
 ]
 SCENE = "../part-ii/act-01.html#opening-01"
 COURT_SCENE = "../part-ii/act-01-02.html"
+NEW_MASK_REFERENCES = [("character-ii-furies","??? ???","FURIES","?? ??? ???? ?? ??? ? ??.",["?? ??? ??? ??","?? ??"]),("character-ii-charioteer","?? ??","KNABE WAGENLENKER","??? ??? ?? ?? ??.",["?? ???? ?? ??","???","?? ?? ??"]) ]
 COURT_REFERENCES = [
     ("character-ii-emperor", "황제", "KAISER", "궁정 회의를 주재한다.", ["적갈색 머리와 각진 수염", "아이보리 금실 예복", "작은 금관"]),
     ("character-ii-astrologer", "점성술사", "ASTROLOG", "황제의 오른편에 선다.", ["길고 가는 회색 머리", "연보라 예복", "황동 천구의"]),
@@ -36,16 +37,17 @@ def register():
     data = json.loads(index.read_text(encoding="utf-8"))
     markup = page.read_text(encoding="utf-8")
     posts = []
-    references = REFERENCES + COURT_REFERENCES
+    references = REFERENCES + COURT_REFERENCES + NEW_MASK_REFERENCES
     known_ids = {ref[0] for ref in references}
     data["entries"] = [entry for entry in data["entries"] if entry["id"] not in known_ids]
     for key, name, german, note, locks in references:
         asset = key + ".webp"
         assert (ROOT / asset).is_file(), asset
         court = (key, name, german, note, locks) in COURT_REFERENCES
+        mask = (key, name, german, note, locks) in NEW_MASK_REFERENCES
         kind = "place" if key.startswith("place") else "character"
         group = "places" if kind == "place" else "forms" if court else "heaven"
-        scene = COURT_SCENE if court else SCENE
+        scene = COURT_SCENE if court or mask else SCENE
         data["entries"].append({
             "id": key, "kind": kind, "name": name, "source_name": german,
             "category": "궁정" if court else "정령", "part": 2,

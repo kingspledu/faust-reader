@@ -4541,6 +4541,57 @@
       "variants_note": "",
       "unresolved": [],
       "menu_group": "places"
+    },
+    {
+      "id": "character-ii-furies",
+      "kind": "character",
+      "name": "??? ???",
+      "source_name": "FURIES",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "character-ii-furies.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "?? ??? ??? ??",
+        "?? ??"
+      ],
+      "canonical_note": "?? ??? ???? ?? ??? ? ??.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-charioteer",
+      "kind": "character",
+      "name": "?? ??",
+      "source_name": "KNABE WAGENLENKER",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "character-ii-charioteer.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "?? ???? ?? ??",
+        "???",
+        "?? ?? ??"
+      ],
+      "canonical_note": "??? ??? ?? ?? ??.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
