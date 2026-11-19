@@ -4161,7 +4161,7 @@
       "kind": "character",
       "name": "작은 정령 합창",
       "source_name": "CHOR",
-      "category": "합창 집단",
+      "category": "정령",
       "part": 2,
       "act_numbers": [
         1
@@ -4182,6 +4182,365 @@
       "variants_note": "",
       "unresolved": [],
       "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-emperor",
+      "kind": "character",
+      "name": "황제",
+      "source_name": "KAISER",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "character-ii-emperor.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "적갈색 머리와 각진 수염",
+        "아이보리 금실 예복",
+        "작은 금관"
+      ],
+      "canonical_note": "궁정 회의를 주재한다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "character-ii-astrologer",
+      "kind": "character",
+      "name": "점성술사",
+      "source_name": "ASTROLOG",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "character-ii-astrologer.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "길고 가는 회색 머리",
+        "연보라 예복",
+        "황동 천구의"
+      ],
+      "canonical_note": "황제의 오른편에 선다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "character-ii-courtier-one",
+      "kind": "character",
+      "name": "첫 번째 궁정 신하",
+      "source_name": "JUNKER",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "character-ii-courtier-one.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "짧고 곧은 갈색 앞머리",
+        "남색 더블릿"
+      ],
+      "canonical_note": "기존 광대가 계단에서 쓰러졌다고 보고한다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "character-ii-courtier-two",
+      "kind": "character",
+      "name": "두 번째 궁정 신하",
+      "source_name": "ZWEITER JUNKER",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "character-ii-courtier-two.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "곱슬곱슬한 밝은 머리",
+        "짙은 녹색 더블릿"
+      ],
+      "canonical_note": "새 광대가 들어오는 모습을 전한다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "character-ii-old-jester",
+      "kind": "character",
+      "name": "기존 궁정 광대",
+      "source_name": "NARR",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "character-ii-old-jester.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "큰 체구",
+        "둥근 회색 수염",
+        "노랑과 파랑이 섞인 광대옷"
+      ],
+      "canonical_note": "황제가 입장할 때 계단에서 쓰러진 광대.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "group-ii-palace-guards",
+      "kind": "character",
+      "name": "궁정 경비대",
+      "source_name": "WACHE",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "group-ii-palace-guards.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "철제 투구",
+        "짙은 버건디 겉옷",
+        "도끼창"
+      ],
+      "canonical_note": "도끼창을 엇갈려 새 광대를 막는다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "group-ii-palace-attendants",
+      "kind": "character",
+      "name": "궁정 시종들",
+      "source_name": "HOFGESINDE",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "group-ii-palace-attendants.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "회색 리넨",
+        "궁정 문장이 달린 장식"
+      ],
+      "canonical_note": "황제의 입장에 앞서 모습을 드러낸다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "variant-ii-mephisto-jester",
+      "kind": "character",
+      "name": "메피스토 · 궁정 광대 차림",
+      "source_name": "MEPHISTOPHELES",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "variant-ii-mephisto-jester.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "제1부와 같은 검은 머리와 붉은 눈",
+        "검정·버건디 광대 모자와 금빛 방울",
+        "검은 장갑과 붉은 보석"
+      ],
+      "canonical_note": "쓰러진 광대를 대신해 황제 곁에 자리를 잡는다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms",
+      "variant_of": "character-008"
+    },
+    {
+      "id": "character-ii-chancellor",
+      "kind": "character",
+      "name": "재상",
+      "source_name": "KANZLER",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "character-ii-chancellor.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "각진 회색 수염",
+        "붉은 벨벳 예복"
+      ],
+      "canonical_note": "제국의 법과 재판이 무너진 상황을 보고한다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "character-ii-commander",
+      "kind": "character",
+      "name": "총사령관",
+      "source_name": "HEERMEISTER",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "character-ii-commander.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "관자놀이에 센 머리",
+        "회색 판금 갑옷",
+        "짙은 갈색 망토"
+      ],
+      "canonical_note": "제국의 군사 상황과 용병의 체불 봉급을 보고한다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "character-ii-treasurer",
+      "kind": "character",
+      "name": "재무관",
+      "source_name": "SCHATZMEISTER",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "character-ii-treasurer.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "쓸어 올린 회색 머리와 안경",
+        "겨자색 조끼와 파란 겉옷"
+      ],
+      "canonical_note": "동맹국의 지원금이 끊기고 국고가 비었다고 말한다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "character-ii-court-marshal",
+      "kind": "character",
+      "name": "궁정 살림을 맡은 대신",
+      "source_name": "MARSCHALK",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "character-ii-court-marshal.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "짙은 곱슬머리와 짧은 수염",
+        "보라색 예복",
+        "열쇠 고리"
+      ],
+      "canonical_note": "궁정의 살림과 외상 문제를 보고한다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "group-ii-court-council",
+      "kind": "character",
+      "name": "궁정 대신들",
+      "source_name": "STAATSRAT / GEMURMEL",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "group-ii-court-council.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "색을 절제한 궁정 예복",
+        "고딕 양식의 옷깃과 장식"
+      ],
+      "canonical_note": "황제를 기다리고 새 광대가 들어오자 서로 수군거린다.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "forms"
+    },
+    {
+      "id": "place-ii-throne-room",
+      "kind": "place",
+      "name": "황제의 알현실",
+      "source_name": "SAAL DES THRONES",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "place-ii-throne-room.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "붉은 장막 앞 3단 단상의 금빛 왕좌",
+        "맞은편의 청동 양문",
+        "짙은 석재 천장과 주황빛 조명"
+      ],
+      "canonical_note": "황제와 대신들의 회의가 열리는 궁정 공간.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "places"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"

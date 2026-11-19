@@ -65,7 +65,7 @@ def render_scene(lines, key, boundaries):
     content = ""
     for number, (begin, finish, scene) in enumerate(zip(boundaries, boundaries[1:], scenes), 1):
         scene_id = f"{key}-{number:02}"
-        content += f'<section id="{scene_id}">'
+        content += f'<section class="panel-text" id="{scene_id}">{reference_image(scene_id, scene["alt"])}'
         original = source_block(lines, begin, finish)
         translation = f'<p class="translation" lang="ko">{escape(scene["translation"])}</p>'
         content += f'<div class="comparison"><div>{original}</div><div>{translation}</div></div>'
@@ -82,8 +82,8 @@ def valley_passages():
     return passages
 
 
-def valley_image(number, label):
-    path = f"images/valley-{number:02}.webp"
+def reference_image(scene_id, label):
+    path = f"images/{scene_id}.webp"
     if (ROOT / path).is_file():
         return f'<img src="{path}" alt="{escape(label, quote=True)}" loading="lazy">'
     return ""
@@ -91,7 +91,7 @@ def valley_image(number, label):
 
 def render_valley(lines):
     return "".join(
-        f'<section class="panel-text" id="opening-{n:02}">{valley_image(n, label)}<div class="comparison"><div>'
+        f'<section class="panel-text" id="opening-{n:02}">{reference_image(f"valley-{n:02}", label)}<div class="comparison"><div>'
         f'{source_block(lines, start, end)}</div><div><p class="translation" lang="ko">'
         f'{escape(translation)}</p></div></div></section>'
         for n, (start, end, label, translation) in enumerate(valley_passages(), 1)
@@ -134,7 +134,7 @@ def render_illustration_review(lines):
     content = '<p>1막 · 꽃이 핀 골짜기</p>'
     for number, (begin, end, label, translation) in enumerate(valley_passages(), 1):
         scene_id = f"valley-{number:02}"
-        image = valley_image(number, label)
+        image = reference_image(scene_id, label)
         content += f'<section id="{scene_id}">{image}<h2>{number:02} · {escape(label)}</h2>'
         content += f'<div class="comparison"><div><h4>독일어 원문</h4>{source_block(lines, begin, end)}</div>'
         content += f'<div><h4>한국어 번역</h4><p class="translation">{escape(translation)}</p></div></div></section>'
