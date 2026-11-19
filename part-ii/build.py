@@ -116,17 +116,22 @@ def panel_ranges(lines, start, end):
     return list(zip(boundaries, boundaries[1:]))
 
 
-def render_source_panels(lines, start, end, *, ranges=None):
+def render_source_panels(lines, start, end, *, ranges=None, image_prefix=None):
     content = []
     if KOREAN_DRAFT:
         content.append('<p>한국어 번역은 독일어 원문에 대응하는 자동 번역 초안입니다.</p>')
-    for left, right in ranges if ranges is not None else panel_ranges(lines, start, end):
+    for number, (left, right) in enumerate(ranges if ranges is not None else panel_ranges(lines, start, end), 1):
         original = source_block(lines, left, right)
+        image = ""
+        if image_prefix:
+            path = f"images/{image_prefix}-{number:02}.webp"
+            if (ROOT / path).is_file():
+                image = f'<img src="{path}" alt="제2부 원문 장면 {number}" loading="lazy">'
         if KOREAN_DRAFT:
             translation = escape(KOREAN_DRAFT[f"{left}:{right}"])
             original = (f'<div class="comparison"><div>{original}</div>'
                         f'<div><p class="translation" lang="ko">{translation}</p></div></div>')
-        content.append(f'<section class="panel-text" id="source-{left + 1}">{original}</section>')
+        content.append(f'<section class="panel-text" id="source-{left + 1}">{image}{original}</section>')
     return "".join(content)
 
 
@@ -195,7 +200,8 @@ def build():
             content = court + reports
             start = COURT_REPORTS[-1]
         if start < stop:
-            content += render_source_panels(lines, start, stop)
+            image_prefix = "debate" if act == 1 and number == 3 else None
+            content += render_source_panels(lines, start, stop, image_prefix=image_prefix)
         links = []
         if position:
             links.append(f'<a rel="prev" href="{filenames[position-1]}">이전 구간</a>')
