@@ -12,6 +12,8 @@ FIRST_SCENE = [61, 70, 74, 83, 88, 90, 94, 102, 111, 120, 129, 138, 152, 159, 17
 COURT = [215, 222, 226, 234, 242, 248, 253, 258, 264, 272, 278, 291, 303, 312, 320, 328, 333]
 COURT_REPORTS = [333, 338, 342, 346, 355, 359, 366, 374, 378, 388, 393, 396, 404, 407, 417, 423, 432]
 SOURCE = "https://www.gutenberg.org/ebooks/2230"
+TRANSLATION_FILE = ROOT / "korean-draft.json"
+KOREAN_DRAFT = json.loads(TRANSLATION_FILE.read_text(encoding="utf-8")) if TRANSLATION_FILE.exists() else {}
 
 
 def section_toc(prefix="", active=None):
@@ -71,6 +73,52 @@ def render_scene(lines, key, boundaries):
     return content
 
 
+def render_valley(lines):
+    illustrated = json.loads((ROOT / "act-01-illustration-plan.json").read_text(encoding="utf-8"))
+    tail = json.loads((ROOT / "act-01-valley-tail.json").read_text(encoding="utf-8"))
+    passages = [(start, end, translation) for start, end, _, translation in illustrated] + tail
+    assert passages[0][0] == 61 and passages[-1][1] == 215
+    assert all(left[1] == right[0] for left, right in zip(passages, passages[1:]))
+    return "".join(
+        f'<section class="panel-text" id="opening-{n:02}"><div class="comparison"><div>'
+        f'{source_block(lines, start, end)}</div><div><p class="translation" lang="ko">'
+        f'{escape(translation)}</p></div></div></section>'
+        for n, (start, end, translation) in enumerate(passages, 1)
+    )
+
+
+def panel_ranges(lines, start, end):
+    # Count printed text lines; uppercase cues and bracketed directions travel
+    # with the neighboring text. A block with a short remainder is balanced.
+    counted = [
+        i for i in range(start, end)
+        if (line := lines[i].strip()) and not line.isupper() and not line.startswith("(")
+    ]
+    groups = max(1, (len(counted) + 3) // 4)
+    width, extra = divmod(len(counted), groups)
+    boundaries = [start]
+    offset = 0
+    for n in range(groups - 1):
+        offset += width + (n < extra)
+        boundaries.append(counted[offset - 1] + 1)
+    boundaries.append(end)
+    return list(zip(boundaries, boundaries[1:]))
+
+
+def render_source_panels(lines, start, end, *, ranges=None):
+    content = []
+    if KOREAN_DRAFT:
+        content.append('<p>한국어 번역은 독일어 원문에 대응하는 자동 번역 초안입니다.</p>')
+    for left, right in ranges if ranges is not None else panel_ranges(lines, start, end):
+        original = source_block(lines, left, right)
+        if KOREAN_DRAFT:
+            translation = escape(KOREAN_DRAFT[f"{left}:{right}"])
+            original = (f'<div class="comparison"><div>{original}</div>'
+                        f'<div><p class="translation" lang="ko">{translation}</p></div></div>')
+        content.append(f'<section class="panel-text" id="source-{left + 1}">{original}</section>')
+    return "".join(content)
+
+
 def render_illustration_review(lines):
     plan = json.loads((ROOT / "act-01-illustration-plan.json").read_text(encoding="utf-8"))
     content = '<p>1막 · 꽃이 핀 골짜기</p>'
@@ -93,7 +141,7 @@ def build():
     assert starts[0] == FIRST_SCENE[0] and lines[FIRST_SCENE[-1]].strip() == "KAISERLICHE PFALZ"
     assert len(starts) == len(TITLES)
     assert starts == [sections[0][0] for sections in SECTIONS]
-    opening = render_scene(lines, "opening", FIRST_SCENE)
+    opening = render_valley(lines)
     court = render_scene(lines, "court", COURT)
     reports = render_scene(lines, "reports", COURT_REPORTS)
     assert not court or opening
@@ -110,7 +158,12 @@ def build():
             if reports:
                 content += '<h3 id="court-reports">대신들의 보고와 메피스토의 제안</h3>' + reports
                 start = COURT_REPORTS[-1]
-        content += source_block(lines, start, stop)
+        if start < stop:
+            ranges = [
+                pair for (left, _), (right, _) in zip(SECTIONS[index-1], SECTIONS[index-1][1:] + [[stop, ""]])
+                if right > start for pair in panel_ranges(lines, max(left, start), right)
+            ]
+            content += render_source_panels(lines, start, stop, ranges=ranges)
         links = []
         if index > 1:
             links.append(f'<a href="act-{index-1:02}.html">이전 막</a>')
@@ -135,7 +188,7 @@ def build():
             content = court + reports
             start = COURT_REPORTS[-1]
         if start < stop:
-            content += source_block(lines, start, stop)
+            content += render_source_panels(lines, start, stop)
         links = []
         if position:
             links.append(f'<a rel="prev" href="{filenames[position-1]}">이전 구간</a>')
