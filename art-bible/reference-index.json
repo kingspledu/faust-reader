@@ -203,6 +203,36 @@
       "appearance_frequency": 11
     },
     {
+      "id": "character-012",
+      "kind": "character",
+      "name": "바그너",
+      "source_name": "WAGNER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        4,
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-04.html",
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": "character-wagner.png",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "파우스트의 학문적 조수.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "scholars",
+      "chapter04_reference": {
+        "image": "reference-earthspirit-wagner-night.png",
+        "note": "밤옷 바그너: 시트 오른쪽 참조. 기존 인물의 안경·갈색 머리, 소박한 밤옷·잠모자·등불.",
+        "status": "draft_visual"
+      },
+      "voice_cast_id": "character-012",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 2
+    },
+    {
       "id": "character-054",
       "kind": "character",
       "name": "마르테 슈베르트라인",
@@ -253,36 +283,6 @@
       "voice_cast_id": "character-056",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 1
-    },
-    {
-      "id": "character-012",
-      "kind": "character",
-      "name": "바그너",
-      "source_name": "WAGNER",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        4,
-        5
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-04.html",
-        "https://kingspledu.github.io/faust-reader/chapter-05.html"
-      ],
-      "image": "character-wagner.png",
-      "status": "draft_visual",
-      "visual_locks": [],
-      "canonical_note": "파우스트의 학문적 조수.",
-      "variants_note": "",
-      "unresolved": [],
-      "menu_group": "scholars",
-      "chapter04_reference": {
-        "image": "reference-earthspirit-wagner-night.png",
-        "note": "밤옷 바그너: 시트 오른쪽 참조. 기존 인물의 안경·갈색 머리, 소박한 밤옷·잠모자·등불.",
-        "status": "draft_visual"
-      },
-      "voice_cast_id": "character-012",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 2
     },
     {
       "id": "character-052",
