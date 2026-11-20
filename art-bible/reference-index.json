@@ -2132,7 +2132,7 @@
       "voice_cast_id": "character-122",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 1,
-      "sheet_scope": "group"
+      "sheet_scope": "individual"
     },
     {
       "id": "character-109",
