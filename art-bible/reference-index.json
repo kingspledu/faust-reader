@@ -1345,7 +1345,11 @@
       "unresolved": [],
       "menu_group": "heaven",
       "appearance_frequency": 3,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "a107437c448b4e35556d05293707bd4d7d927d652c5d71177f85d056fa3387eb",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "variant-ii-mephisto-jester",
@@ -1427,7 +1431,11 @@
       "unresolved": [],
       "menu_group": "heaven",
       "appearance_frequency": 3,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "18c410a7e35d3051f8fcc0c2cf1239e74c74438285cf83d669ab23926399ec1a",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "character-ii-adder",
@@ -1481,7 +1489,11 @@
       "unresolved": [],
       "menu_group": "heaven",
       "appearance_frequency": 3,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "970814852ad7dcf2bd55c104dc47c3773e621988ad56c7387bbcbdd66d34c21f",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "character-ii-ariel",
@@ -1867,7 +1879,11 @@
       "unresolved": [],
       "menu_group": "heaven",
       "appearance_frequency": 3,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "b9ac4c603a3f458547170b698423b8b68f1594ce57fc3500fdf2a573a6411c15",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "place-ii-festival-hall",
