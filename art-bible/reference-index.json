@@ -5,6 +5,75 @@
   "authority": "Source text for canonical facts; attached references for visual adaptation. Generated sheets are draft visuals, not user-approved canon.",
   "entries": [
     {
+      "id": "character-010",
+      "kind": "character",
+      "name": "파우스트",
+      "source_name": "FAUST",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19,
+        22,
+        24,
+        26,
+        27,
+        28
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-04.html",
+        "https://kingspledu.github.io/faust-reader/chapter-05.html",
+        "https://kingspledu.github.io/faust-reader/chapter-06.html",
+        "https://kingspledu.github.io/faust-reader/chapter-07.html",
+        "https://kingspledu.github.io/faust-reader/chapter-08.html",
+        "https://kingspledu.github.io/faust-reader/chapter-09.html",
+        "https://kingspledu.github.io/faust-reader/chapter-10.html",
+        "https://kingspledu.github.io/faust-reader/chapter-11.html",
+        "https://kingspledu.github.io/faust-reader/chapter-12.html",
+        "https://kingspledu.github.io/faust-reader/chapter-14.html",
+        "https://kingspledu.github.io/faust-reader/chapter-15.html",
+        "https://kingspledu.github.io/faust-reader/chapter-16.html",
+        "https://kingspledu.github.io/faust-reader/chapter-17.html",
+        "https://kingspledu.github.io/faust-reader/chapter-19.html",
+        "https://kingspledu.github.io/faust-reader/chapter-22.html",
+        "https://kingspledu.github.io/faust-reader/chapter-24.html",
+        "https://kingspledu.github.io/faust-reader/chapter-26.html",
+        "https://kingspledu.github.io/faust-reader/chapter-27.html",
+        "https://kingspledu.github.io/faust-reader/chapter-28.html"
+      ],
+      "image": "character-faust.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "갈색 흐트러진 머리",
+        "얇은 둥근 안경",
+        "아이보리 셔츠",
+        "검정 로브·버건디 안감·금색 자수"
+      ],
+      "canonical_note": "학자. 노학자 시기와 회춘 이후 외형을 구분하되 동일 인물로 관리.",
+      "variants_note": "노학자/회춘 이후는 별도 변형 필요",
+      "unresolved": [],
+      "menu_group": "main",
+      "chapter04_reference": {
+        "image": "character-faust-old.png",
+        "note": "회춘 전 노학자: 마른 얼굴·주름·회갈색 머리. 기존 로브 색과 자수 유지.",
+        "status": "draft_visual"
+      },
+      "voice_cast_id": "character-010",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 19
+    },
+    {
       "id": "character-008",
       "kind": "character",
       "name": "메피스토",
@@ -91,75 +160,6 @@
       "appearance_frequency": 19
     },
     {
-      "id": "character-010",
-      "kind": "character",
-      "name": "파우스트",
-      "source_name": "FAUST",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        14,
-        15,
-        16,
-        17,
-        19,
-        22,
-        24,
-        26,
-        27,
-        28
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-04.html",
-        "https://kingspledu.github.io/faust-reader/chapter-05.html",
-        "https://kingspledu.github.io/faust-reader/chapter-06.html",
-        "https://kingspledu.github.io/faust-reader/chapter-07.html",
-        "https://kingspledu.github.io/faust-reader/chapter-08.html",
-        "https://kingspledu.github.io/faust-reader/chapter-09.html",
-        "https://kingspledu.github.io/faust-reader/chapter-10.html",
-        "https://kingspledu.github.io/faust-reader/chapter-11.html",
-        "https://kingspledu.github.io/faust-reader/chapter-12.html",
-        "https://kingspledu.github.io/faust-reader/chapter-14.html",
-        "https://kingspledu.github.io/faust-reader/chapter-15.html",
-        "https://kingspledu.github.io/faust-reader/chapter-16.html",
-        "https://kingspledu.github.io/faust-reader/chapter-17.html",
-        "https://kingspledu.github.io/faust-reader/chapter-19.html",
-        "https://kingspledu.github.io/faust-reader/chapter-22.html",
-        "https://kingspledu.github.io/faust-reader/chapter-24.html",
-        "https://kingspledu.github.io/faust-reader/chapter-26.html",
-        "https://kingspledu.github.io/faust-reader/chapter-27.html",
-        "https://kingspledu.github.io/faust-reader/chapter-28.html"
-      ],
-      "image": "character-faust.png",
-      "status": "draft_visual",
-      "visual_locks": [
-        "갈색 흐트러진 머리",
-        "얇은 둥근 안경",
-        "아이보리 셔츠",
-        "검정 로브·버건디 안감·금색 자수"
-      ],
-      "canonical_note": "학자. 노학자 시기와 회춘 이후 외형을 구분하되 동일 인물로 관리.",
-      "variants_note": "노학자/회춘 이후는 별도 변형 필요",
-      "unresolved": [],
-      "menu_group": "main",
-      "chapter04_reference": {
-        "image": "character-faust-old.png",
-        "note": "회춘 전 노학자: 마른 얼굴·주름·회갈색 머리. 기존 로브 색과 자수 유지.",
-        "status": "draft_visual"
-      },
-      "voice_cast_id": "character-010",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 19
-    },
-    {
       "id": "character-053",
       "kind": "character",
       "name": "마르가레테 / 그레첸",
@@ -230,6 +230,323 @@
       "voice_cast_id": "character-054",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 4
+    },
+    {
+      "id": "character-056",
+      "kind": "character",
+      "name": "발렌틴",
+      "source_name": "VALENTIN",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        22
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-22.html"
+      ],
+      "image": "character-valentin.png",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "그레첸의 오빠인 군인.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "neighbors",
+      "voice_cast_id": "character-056",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 1
+    },
+    {
+      "id": "character-012",
+      "kind": "character",
+      "name": "바그너",
+      "source_name": "WAGNER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        4,
+        5
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-04.html",
+        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+      ],
+      "image": "character-wagner.png",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "파우스트의 학문적 조수.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "scholars",
+      "chapter04_reference": {
+        "image": "reference-earthspirit-wagner-night.png",
+        "note": "밤옷 바그너: 시트 오른쪽 참조. 기존 인물의 안경·갈색 머리, 소박한 밤옷·잠모자·등불.",
+        "status": "draft_visual"
+      },
+      "voice_cast_id": "character-012",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 2
+    },
+    {
+      "id": "character-052",
+      "kind": "character",
+      "name": "마녀",
+      "source_name": "DIE HEXE",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        9
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-09.html"
+      ],
+      "image": "character-witch.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "구부정한 실루엣·매부리코",
+        "은빛 헝클어진 머리·검은 두건",
+        "이끼 갈색 겹옷·낡은 앞치마",
+        "철제 국자·약병"
+      ],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "시각 초안 · 세부 글자와 시점별 배치 대조 필요"
+      ],
+      "menu_group": "witches",
+      "voice_cast_id": "character-052",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 1
+    },
+    {
+      "id": "character-045",
+      "kind": "character",
+      "name": "지벨",
+      "source_name": "SIEBEL",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        8
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-08.html"
+      ],
+      "image": "character-siebel.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "사각 얼굴·짧은 짙은 적갈색 머리·수염 없음",
+        "튼튼한 체형·머스터드 갈색 가죽옷"
+      ],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
+      ],
+      "menu_group": "tavern",
+      "voice_cast_id": "character-045",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 1
+    },
+    {
+      "id": "character-046",
+      "kind": "character",
+      "name": "알트마이어",
+      "source_name": "ALTMAYER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        8
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-08.html"
+      ],
+      "image": "character-altmayer.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "뒤로 묶은 회갈색 머리·작은 회색 콧수염",
+        "가늘고 나이 든 얼굴·짙은 자주색 조끼"
+      ],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
+      ],
+      "menu_group": "tavern",
+      "voice_cast_id": "character-046",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 1
+    },
+    {
+      "id": "character-044",
+      "kind": "character",
+      "name": "브란더",
+      "source_name": "BRANDER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        8
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-08.html"
+      ],
+      "image": "character-brander.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "긴 얼굴·검은 단발·뾰족한 턱수염",
+        "마른 체형·짙은 청록 더블릿"
+      ],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
+      ],
+      "menu_group": "tavern",
+      "voice_cast_id": "character-044",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 1
+    },
+    {
+      "id": "character-043",
+      "kind": "character",
+      "name": "프로슈",
+      "source_name": "FROSCH",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        8
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-08.html"
+      ],
+      "image": "character-frosch.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "둥근 얼굴·붉은 볼",
+        "모래빛 곱슬머리·짧은 콧수염",
+        "적갈색 더블릿",
+        "큼직한 술잔"
+      ],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "시각 초안 · 세부 글자와 시점별 배치 대조 필요"
+      ],
+      "menu_group": "tavern",
+      "voice_cast_id": "character-043",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 1
+    },
+    {
+      "id": "character-042",
+      "kind": "character",
+      "name": "학생",
+      "source_name": "SCHÜLER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        7
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-07.html"
+      ],
+      "image": "character-student07.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "갈색 짧은 머리·안경 없음",
+        "청록빛 긴 학생 옷·갈색 가방·기념 수첩"
+      ],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "외형·팔레트·소품 미확정"
+      ],
+      "menu_group": "scholars",
+      "chapter07_references": [
+        {
+          "image": "character-student07.png",
+          "note": "7장에 처음 온 대학생: 갈색 짧은 머리·청록빛 옷·갈색 가방·기념 수첩. 구체적 외형은 시각적 해석이며 5장의 학생들과 다른 배역.",
+          "status": "draft_visual"
+        }
+      ],
+      "voice_cast_id": "character-042",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 1
+    },
+    {
+      "id": "character-001",
+      "kind": "character",
+      "name": "극장 지배인",
+      "source_name": "DIREKTOR",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        2
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-02.html"
+      ],
+      "image": "character-director.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "중후하고 둥근 체형·회색 관자놀이·단정한 콧수염",
+        "버건디 짧은 코트·갈색 조끼·장부·열쇠"
+      ],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선."
+      ],
+      "menu_group": "scholars",
+      "voice_cast_id": "character-001",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 1
+    },
+    {
+      "id": "character-002",
+      "kind": "character",
+      "name": "극작가 / 시인",
+      "source_name": "DICHTER",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        2
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-02.html"
+      ],
+      "image": "character-poet.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "마른 체형·물결치는 회갈색 어깨 머리·수염 없음",
+        "인디고 코트·원고·깃펜·안경 없음"
+      ],
+      "canonical_note": "극장 서막에서 지배인·희극 배우와 예술과 공연에 관해 대화하는 시인.",
+      "variants_note": "",
+      "unresolved": [
+        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선.",
+        "이미지의 파우스트와 교유한다는 소개는 근거 없는 생성 문구이므로 참조 제외."
+      ],
+      "menu_group": "scholars",
+      "voice_cast_id": "character-002",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 1
+    },
+    {
+      "id": "character-003",
+      "kind": "character",
+      "name": "희극 배우",
+      "source_name": "LUSTIGE PERSON",
+      "category": "대사 배역 / 집단",
+      "chapter_numbers": [
+        2
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-02.html"
+      ],
+      "image": "character-comic.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "짧은 구리빛 곱슬머리·활발한 얼굴·녹색 눈",
+        "오커와 숲색 의상·부드러운 부츠·광대 분장 없음"
+      ],
+      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
+      "variants_note": "",
+      "unresolved": [
+        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선."
+      ],
+      "menu_group": "scholars",
+      "voice_cast_id": "character-003",
+      "voice_cast_reference": "../voice-cast.json",
+      "appearance_frequency": 1
     },
     {
       "id": "character-ii-charioteer",
@@ -1518,33 +1835,132 @@
       "appearance_frequency": 3
     },
     {
-      "id": "character-012",
-      "kind": "character",
-      "name": "바그너",
-      "source_name": "WAGNER",
-      "category": "대사 배역 / 집단",
+      "id": "place-ii-festival-hall",
+      "kind": "place",
+      "name": "궁정 축제장",
+      "source_name": "MASKERADE",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "place-ii-festival-hall.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "고딕 아치와 위층 회랑",
+        "걸개와 청동문",
+        "연출용 가상 배치도"
+      ],
+      "canonical_note": "궁정의 가면 행렬을 무대화한 공간.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "places",
+      "appearance_frequency": 3
+    },
+    {
+      "id": "location-003",
+      "kind": "place",
+      "name": "파우스트의 서재",
+      "source_name": "파우스트의 서재",
       "chapter_numbers": [
         4,
-        5
+        6,
+        7
       ],
       "source_urls": [
         "https://kingspledu.github.io/faust-reader/chapter-04.html",
-        "https://kingspledu.github.io/faust-reader/chapter-05.html"
+        "https://kingspledu.github.io/faust-reader/chapter-06.html",
+        "https://kingspledu.github.io/faust-reader/chapter-07.html"
       ],
-      "image": "character-wagner.png",
+      "image": "location-study.png",
       "status": "draft_visual",
       "visual_locks": [],
-      "canonical_note": "파우스트의 학문적 조수.",
+      "canonical_note": "높은 궁륭의 좁은 고딕 방. 연구·소환·계약 공간",
+      "unresolved": [
+        "지도는 가상 배치도이며 축척 없음",
+        "원근 컷과 평면도의 출입구·창 위치 대조 필요"
+      ],
+      "menu_group": "places",
+      "appearance_frequency": 3
+    },
+    {
+      "id": "place-ii-throne-room",
+      "kind": "place",
+      "name": "황제의 알현실",
+      "source_name": "SAAL DES THRONES",
+      "category": "궁정",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-02.html"
+      ],
+      "image": "place-ii-throne-room.webp",
+      "status": "draft_visual",
+      "visual_locks": [
+        "붉은 장막 앞 3단 단상의 금빛 왕좌",
+        "맞은편의 청동 양문",
+        "짙은 석재 천장과 주황빛 조명"
+      ],
+      "canonical_note": "황제와 대신들의 회의가 열리는 궁정 공간.",
       "variants_note": "",
       "unresolved": [],
-      "menu_group": "scholars",
-      "chapter04_reference": {
-        "image": "reference-earthspirit-wagner-night.png",
-        "note": "밤옷 바그너: 시트 오른쪽 참조. 기존 인물의 안경·갈색 머리, 소박한 밤옷·잠모자·등불.",
-        "status": "draft_visual"
-      },
-      "voice_cast_id": "character-012",
-      "voice_cast_reference": "../voice-cast.json",
+      "menu_group": "places",
+      "appearance_frequency": 3
+    },
+    {
+      "id": "location-008",
+      "kind": "place",
+      "name": "그레첸의 방",
+      "source_name": "그레첸의 방",
+      "chapter_numbers": [
+        11,
+        18
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-11.html",
+        "https://kingspledu.github.io/faust-reader/chapter-18.html"
+      ],
+      "image": "location-gretchen-room.png",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "작은 정돈된 방과 물레. 재등장 공간으로 통합",
+      "unresolved": [
+        "공간 배치·조명·팔레트 미확정"
+      ],
+      "menu_group": "places",
+      "appearance_frequency": 2
+    },
+    {
+      "id": "location-007",
+      "kind": "place",
+      "name": "도시의 거리",
+      "source_name": "도시의 거리",
+      "chapter_numbers": [
+        10,
+        14
+      ],
+      "source_urls": [
+        "https://kingspledu.github.io/faust-reader/chapter-10.html",
+        "https://kingspledu.github.io/faust-reader/chapter-14.html"
+      ],
+      "image": "location-city-street.png",
+      "status": "draft_visual",
+      "visual_locks": [
+        "돌 포장 골목·목골조 집·분기점·주택 출입문",
+        "두 거리 장면의 동일 장소 여부는 미확정"
+      ],
+      "canonical_note": "첫 만남 및 두 번째 거리. 정확히 같은 지점인지는 미확정",
+      "unresolved": [
+        "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선."
+      ],
+      "menu_group": "places",
       "appearance_frequency": 2
     },
     {
@@ -1739,35 +2155,6 @@
       "appearance_frequency": 1
     },
     {
-      "id": "character-002",
-      "kind": "character",
-      "name": "극작가 / 시인",
-      "source_name": "DICHTER",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        2
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-02.html"
-      ],
-      "image": "character-poet.png",
-      "status": "draft_visual",
-      "visual_locks": [
-        "마른 체형·물결치는 회갈색 어깨 머리·수염 없음",
-        "인디고 코트·원고·깃펜·안경 없음"
-      ],
-      "canonical_note": "극장 서막에서 지배인·희극 배우와 예술과 공연에 관해 대화하는 시인.",
-      "variants_note": "",
-      "unresolved": [
-        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선.",
-        "이미지의 파우스트와 교유한다는 소개는 근거 없는 생성 문구이므로 참조 제외."
-      ],
-      "menu_group": "scholars",
-      "voice_cast_id": "character-002",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 1
-    },
-    {
       "id": "character-081",
       "kind": "character",
       "name": "극장 감독",
@@ -1789,34 +2176,6 @@
       ],
       "menu_group": "dream",
       "voice_cast_id": "character-081",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 1
-    },
-    {
-      "id": "character-001",
-      "kind": "character",
-      "name": "극장 지배인",
-      "source_name": "DIREKTOR",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        2
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-02.html"
-      ],
-      "image": "character-director.png",
-      "status": "draft_visual",
-      "visual_locks": [
-        "중후하고 둥근 체형·회색 관자놀이·단정한 콧수염",
-        "버건디 짧은 코트·갈색 조끼·장부·열쇠"
-      ],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
-      "variants_note": "",
-      "unresolved": [
-        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선."
-      ],
-      "menu_group": "scholars",
-      "voice_cast_id": "character-001",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 1
     },
@@ -2639,36 +2998,6 @@
       "appearance_frequency": 1
     },
     {
-      "id": "character-052",
-      "kind": "character",
-      "name": "마녀",
-      "source_name": "DIE HEXE",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        9
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-09.html"
-      ],
-      "image": "character-witch.png",
-      "status": "draft_visual",
-      "visual_locks": [
-        "구부정한 실루엣·매부리코",
-        "은빛 헝클어진 머리·검은 두건",
-        "이끼 갈색 겹옷·낡은 앞치마",
-        "철제 국자·약병"
-      ],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
-      "variants_note": "",
-      "unresolved": [
-        "시각 초안 · 세부 글자와 시점별 배치 대조 필요"
-      ],
-      "menu_group": "witches",
-      "voice_cast_id": "character-052",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 1
-    },
-    {
       "id": "character-049",
       "kind": "character",
       "name": "마녀 부엌의 동물들",
@@ -3048,29 +3377,6 @@
       "appearance_frequency": 1
     },
     {
-      "id": "character-056",
-      "kind": "character",
-      "name": "발렌틴",
-      "source_name": "VALENTIN",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        22
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-22.html"
-      ],
-      "image": "character-valentin.png",
-      "status": "draft_visual",
-      "visual_locks": [],
-      "canonical_note": "그레첸의 오빠인 군인.",
-      "variants_note": "",
-      "unresolved": [],
-      "menu_group": "neighbors",
-      "voice_cast_id": "character-056",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 1
-    },
-    {
       "id": "character-074",
       "kind": "character",
       "name": "벼락출세자",
@@ -3142,34 +3448,6 @@
       ],
       "menu_group": "dream",
       "voice_cast_id": "character-093",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 1
-    },
-    {
-      "id": "character-044",
-      "kind": "character",
-      "name": "브란더",
-      "source_name": "BRANDER",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        8
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-08.html"
-      ],
-      "image": "character-brander.png",
-      "status": "draft_visual",
-      "visual_locks": [
-        "긴 얼굴·검은 단발·뾰족한 턱수염",
-        "마른 체형·짙은 청록 더블릿"
-      ],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
-      "variants_note": "",
-      "unresolved": [
-        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
-      ],
-      "menu_group": "tavern",
-      "voice_cast_id": "character-044",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 1
     },
@@ -3635,34 +3913,6 @@
       ],
       "menu_group": "dream",
       "voice_cast_id": "character-097",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 1
-    },
-    {
-      "id": "character-046",
-      "kind": "character",
-      "name": "알트마이어",
-      "source_name": "ALTMAYER",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        8
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-08.html"
-      ],
-      "image": "character-altmayer.png",
-      "status": "draft_visual",
-      "visual_locks": [
-        "뒤로 묶은 회갈색 머리·작은 회색 콧수염",
-        "가늘고 나이 든 얼굴·짙은 자주색 조끼"
-      ],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
-      "variants_note": "",
-      "unresolved": [
-        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
-      ],
-      "menu_group": "tavern",
-      "voice_cast_id": "character-046",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 1
     },
@@ -4181,34 +4431,6 @@
       "appearance_frequency": 1
     },
     {
-      "id": "character-045",
-      "kind": "character",
-      "name": "지벨",
-      "source_name": "SIEBEL",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        8
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-08.html"
-      ],
-      "image": "character-siebel.png",
-      "status": "draft_visual",
-      "visual_locks": [
-        "사각 얼굴·짧은 짙은 적갈색 머리·수염 없음",
-        "튼튼한 체형·머스터드 갈색 가죽옷"
-      ],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
-      "variants_note": "",
-      "unresolved": [
-        "시각 초안 · 이미지 세부 글자와 시점별 형태·배치를 대조할 것"
-      ],
-      "menu_group": "tavern",
-      "voice_cast_id": "character-045",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 1
-    },
-    {
       "id": "character-016",
       "kind": "character",
       "name": "직공 청년들",
@@ -4640,36 +4862,6 @@
       "appearance_frequency": 1
     },
     {
-      "id": "character-043",
-      "kind": "character",
-      "name": "프로슈",
-      "source_name": "FROSCH",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        8
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-08.html"
-      ],
-      "image": "character-frosch.png",
-      "status": "draft_visual",
-      "visual_locks": [
-        "둥근 얼굴·붉은 볼",
-        "모래빛 곱슬머리·짧은 콧수염",
-        "적갈색 더블릿",
-        "큼직한 술잔"
-      ],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
-      "variants_note": "",
-      "unresolved": [
-        "시각 초안 · 세부 글자와 시점별 배치 대조 필요"
-      ],
-      "menu_group": "tavern",
-      "voice_cast_id": "character-043",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 1
-    },
-    {
       "id": "character-079",
       "kind": "character",
       "name": "프로크토판타스미스트 · 유령 비판자",
@@ -4746,41 +4938,6 @@
       ],
       "menu_group": "town",
       "voice_cast_id": "character-027",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 1
-    },
-    {
-      "id": "character-042",
-      "kind": "character",
-      "name": "학생",
-      "source_name": "SCHÜLER",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        7
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-07.html"
-      ],
-      "image": "character-student07.png",
-      "status": "draft_visual",
-      "visual_locks": [
-        "갈색 짧은 머리·안경 없음",
-        "청록빛 긴 학생 옷·갈색 가방·기념 수첩"
-      ],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
-      "variants_note": "",
-      "unresolved": [
-        "외형·팔레트·소품 미확정"
-      ],
-      "menu_group": "scholars",
-      "chapter07_references": [
-        {
-          "image": "character-student07.png",
-          "note": "7장에 처음 온 대학생: 갈색 짧은 머리·청록빛 옷·갈색 가방·기념 수첩. 구체적 외형은 시각적 해석이며 5장의 학생들과 다른 배역.",
-          "status": "draft_visual"
-        }
-      ],
-      "voice_cast_id": "character-042",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 1
     },
@@ -4983,163 +5140,6 @@
       "voice_cast_id": "character-112",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 1
-    },
-    {
-      "id": "character-003",
-      "kind": "character",
-      "name": "희극 배우",
-      "source_name": "LUSTIGE PERSON",
-      "category": "대사 배역 / 집단",
-      "chapter_numbers": [
-        2
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-02.html"
-      ],
-      "image": "character-comic.png",
-      "status": "draft_visual",
-      "visual_locks": [
-        "짧은 구리빛 곱슬머리·활발한 얼굴·녹색 눈",
-        "오커와 숲색 의상·부드러운 부츠·광대 분장 없음"
-      ],
-      "canonical_note": "원문 표제 및 무대지시에 따른 배역. 아래 장면 링크에서 대사와 문맥을 확인할 수 있습니다.",
-      "variants_note": "",
-      "unresolved": [
-        "시각 초안 · 원문 사실과 창작 외형·배치 구분. 이미지 내 설명보다 원문 링크를 우선."
-      ],
-      "menu_group": "scholars",
-      "voice_cast_id": "character-003",
-      "voice_cast_reference": "../voice-cast.json",
-      "appearance_frequency": 1
-    },
-    {
-      "id": "place-ii-festival-hall",
-      "kind": "place",
-      "name": "궁정 축제장",
-      "source_name": "MASKERADE",
-      "category": "정령",
-      "part": 2,
-      "act_numbers": [
-        1
-      ],
-      "chapter_numbers": [],
-      "source_urls": [
-        "../part-ii/act-01-06.html"
-      ],
-      "image": "place-ii-festival-hall.webp",
-      "status": "draft_visual",
-      "visual_locks": [
-        "고딕 아치와 위층 회랑",
-        "걸개와 청동문",
-        "연출용 가상 배치도"
-      ],
-      "canonical_note": "궁정의 가면 행렬을 무대화한 공간.",
-      "variants_note": "",
-      "unresolved": [],
-      "menu_group": "places",
-      "appearance_frequency": 3
-    },
-    {
-      "id": "location-003",
-      "kind": "place",
-      "name": "파우스트의 서재",
-      "source_name": "파우스트의 서재",
-      "chapter_numbers": [
-        4,
-        6,
-        7
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-04.html",
-        "https://kingspledu.github.io/faust-reader/chapter-06.html",
-        "https://kingspledu.github.io/faust-reader/chapter-07.html"
-      ],
-      "image": "location-study.png",
-      "status": "draft_visual",
-      "visual_locks": [],
-      "canonical_note": "높은 궁륭의 좁은 고딕 방. 연구·소환·계약 공간",
-      "unresolved": [
-        "지도는 가상 배치도이며 축척 없음",
-        "원근 컷과 평면도의 출입구·창 위치 대조 필요"
-      ],
-      "menu_group": "places",
-      "appearance_frequency": 3
-    },
-    {
-      "id": "place-ii-throne-room",
-      "kind": "place",
-      "name": "황제의 알현실",
-      "source_name": "SAAL DES THRONES",
-      "category": "궁정",
-      "part": 2,
-      "act_numbers": [
-        1
-      ],
-      "chapter_numbers": [],
-      "source_urls": [
-        "../part-ii/act-01-02.html"
-      ],
-      "image": "place-ii-throne-room.webp",
-      "status": "draft_visual",
-      "visual_locks": [
-        "붉은 장막 앞 3단 단상의 금빛 왕좌",
-        "맞은편의 청동 양문",
-        "짙은 석재 천장과 주황빛 조명"
-      ],
-      "canonical_note": "황제와 대신들의 회의가 열리는 궁정 공간.",
-      "variants_note": "",
-      "unresolved": [],
-      "menu_group": "places",
-      "appearance_frequency": 3
-    },
-    {
-      "id": "location-008",
-      "kind": "place",
-      "name": "그레첸의 방",
-      "source_name": "그레첸의 방",
-      "chapter_numbers": [
-        11,
-        18
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-11.html",
-        "https://kingspledu.github.io/faust-reader/chapter-18.html"
-      ],
-      "image": "location-gretchen-room.png",
-      "status": "draft_visual",
-      "visual_locks": [],
-      "canonical_note": "작은 정돈된 방과 물레. 재등장 공간으로 통합",
-      "unresolved": [
-        "공간 배치·조명·팔레트 미확정"
-      ],
-      "menu_group": "places",
-      "appearance_frequency": 2
-    },
-    {
-      "id": "location-007",
-      "kind": "place",
-      "name": "도시의 거리",
-      "source_name": "도시의 거리",
-      "chapter_numbers": [
-        10,
-        14
-      ],
-      "source_urls": [
-        "https://kingspledu.github.io/faust-reader/chapter-10.html",
-        "https://kingspledu.github.io/faust-reader/chapter-14.html"
-      ],
-      "image": "location-city-street.png",
-      "status": "draft_visual",
-      "visual_locks": [
-        "돌 포장 골목·목골조 집·분기점·주택 출입문",
-        "두 거리 장면의 동일 장소 여부는 미확정"
-      ],
-      "canonical_note": "첫 만남 및 두 번째 거리. 정확히 같은 지점인지는 미확정",
-      "unresolved": [
-        "시각 초안 · 원문 사실과 창작 외형·배치를 구분. 작은 이미지 글자보다 원문 링크를 우선."
-      ],
-      "menu_group": "places",
-      "appearance_frequency": 2
     },
     {
       "id": "location-023",
@@ -5621,4 +5621,4 @@
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
-}\n
+}
