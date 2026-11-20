@@ -2093,7 +2093,11 @@
       "voice_cast_id": "character-032",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 1,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "beb1587a01d66f070a0b4bc94dcd6bce07c31fc83d04f400042322874a65d34e",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "character-127",
@@ -2413,7 +2417,11 @@
       "voice_cast_id": "character-038",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 1,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "6759a4249db6f468cbd36a98e90f11b1c693481cf26f74349d591c3687e15bd6",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "character-035",
@@ -2458,7 +2466,11 @@
       "voice_cast_id": "character-035",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 1,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "32d61bab8945b4936e305aea85f3da37d6b21366fa1d3fcdc68ee4eb8d6eb41e",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "character-078",
@@ -2891,7 +2903,11 @@
       "voice_cast_id": "character-033",
       "voice_cast_reference": "../voice-cast.json",
       "appearance_frequency": 1,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "b671f22c229857f043d7ddb6c41a1eef2a22e30702767ec5159f8d0487d2d57b",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "character-020",
