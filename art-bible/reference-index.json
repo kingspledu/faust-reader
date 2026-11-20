@@ -5316,6 +5316,50 @@
       "variants_note": "",
       "unresolved": [],
       "menu_group": "heaven"
+    },
+    {
+      "id": "character-ii-avarice",
+      "kind": "character",
+      "name": "DER ABGEMAGERTE / GEIZ",
+      "source_name": "DER ABGEMAGERTE / GEIZ",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "character-ii-avarice.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Act I carnival allegory and chorus.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
+    },
+    {
+      "id": "group-ii-carnival-women",
+      "kind": "character",
+      "name": "HAUPTWEIB / WEIBER",
+      "source_name": "HAUPTWEIB / WEIBER",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "group-ii-carnival-women.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Act I carnival allegory and chorus.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
