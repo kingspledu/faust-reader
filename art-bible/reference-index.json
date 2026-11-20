@@ -4582,7 +4582,7 @@
         "../part-ii/act-01-02.html"
       ],
       "image": "character-ii-charioteer.webp",
-      "status": "draft_visual",
+      "status": "superseded_visual",
       "visual_locks": [
         "?? ???? ?? ??",
         "???",
@@ -4590,8 +4590,11 @@
       ],
       "canonical_note": "??? ??? ?? ?? ??.",
       "variants_note": "",
-      "unresolved": [],
-      "menu_group": "heaven"
+      "unresolved": [
+        "기존 밝은 머리 디자인은 원문과 충돌하므로 새 삽화에 사용하지 않는다."
+      ],
+      "menu_group": "heaven",
+      "superseded_by": "character-ii-charioteer-source"
     },
     {
       "id": "character-ii-megaera",
@@ -5289,11 +5292,17 @@
       ],
       "image": "character-ii-charioteer-source.webp",
       "status": "draft_visual",
-      "visual_locks": [],
+      "visual_locks": [
+        "검은 곱슬머리",
+        "검은 눈",
+        "보석 머리띠",
+        "보라색 가장자리의 긴 아이보리 옷"
+      ],
       "canonical_note": "Act I carnival allegory; costume and props follow original passage.",
       "variants_note": "",
       "unresolved": [],
-      "menu_group": "heaven"
+      "menu_group": "heaven",
+      "same_identity_as": "character-ii-charioteer"
     },
     {
       "id": "character-ii-plutus",
@@ -5382,7 +5391,7 @@
       "variants_note": "",
       "unresolved": [],
       "menu_group": "heaven",
-      "variant_of": "character-008"
+      "variant_of": "character-ii-emperor"
     },
     {
       "id": "group-ii-fauns",

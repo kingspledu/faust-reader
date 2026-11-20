@@ -57,13 +57,25 @@ def register():
             "canonical_note": note, "variants_note": "", "unresolved": [],
             "menu_group": group,
         })
-        if key.startswith("variant"):
+        if key == "variant-ii-mephisto-jester":
             data["entries"][-1]["variant_of"] = "character-008"
+        if key == "variant-ii-emperor-pan":
+            data["entries"][-1]["variant_of"] = "character-ii-emperor"
+        if key == "character-ii-charioteer":
+            data["entries"][-1]["status"] = "superseded_visual"
+            data["entries"][-1]["superseded_by"] = "character-ii-charioteer-source"
+            data["entries"][-1]["unresolved"] = ["기존 밝은 머리 디자인은 원문과 충돌하므로 새 삽화에 사용하지 않는다."]
+            markup_note = "이전 디자인 · 새 삽화에는 원문 기준 시트를 사용"
+        else:
+            markup_note = ""
+        if key == "character-ii-charioteer-source":
+            data["entries"][-1]["visual_locks"] = ["검은 곱슬머리", "검은 눈", "보석 머리띠", "보라색 가장자리의 긴 아이보리 옷"]
+            data["entries"][-1]["same_identity_as"] = "character-ii-charioteer"
         markup = re.sub(rf'<article class="post" id="{key}".*?</article>', "", markup, flags=re.S)
         rules = "".join(f"<li>{escape(rule)}</li>" for rule in locks)
         posts.append(
             f'<article class="post" id="{key}" data-group="{group}" data-kind="{kind}">'
-            f'<p class="meta">제2부 · 1막 · 시각 초안</p><h2><a href="#{key}">{name}</a></h2>'
+            f'<p class="meta">제2부 · 1막 · 시각 초안 {markup_note}</p><h2><a href="#{key}">{name}</a></h2>'
             f'<p class="de">{german}</p><figure><a href="{asset}"><img loading="lazy" src="{asset}" alt="{name} 설정 시트"></a></figure>'
             f'<p>{note}</p><details><summary>일관성 규칙과 원문 근거</summary><ul>{rules}</ul>'
             f'<p><a href="{scene}">제2부 1막 원문</a></p></details></article>'
