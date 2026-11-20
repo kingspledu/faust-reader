@@ -207,7 +207,7 @@ def build():
             content = court + reports
             start = COURT_REPORTS[-1]
         if start < stop:
-            image_prefix = {3: "debate", 4: "festival", 5: "masque", 6: "procession", 7: "chariot"}.get(number) if act == 1 else None
+            image_prefix = {3: "debate", 4: "festival", 5: "masque", 6: "procession", 7: "chariot", 8: "treasure"}.get(number) if act == 1 else None
             content += render_source_panels(lines, start, stop, image_prefix=image_prefix)
         links = []
         if position:
