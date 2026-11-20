@@ -566,7 +566,7 @@
     {
       "id": "character-ii-charioteer-source",
       "kind": "character",
-      "name": "?? ?? ? ?? ??",
+      "name": "?? ??",
       "source_name": "KNABE WAGENLENKER",
       "category": "정령",
       "part": 2,
@@ -589,9 +589,12 @@
       "variants_note": "",
       "unresolved": [],
       "menu_group": "heaven",
-      "same_identity_as": "character-ii-charioteer",
       "appearance_frequency": 3,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "78d2841f1e0cfe6ad4dd06022aaed4b98e0dee9e4a0e2bfdf8d9e59abef9c298",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "character-ii-furies",
@@ -1523,7 +1526,11 @@
       "unresolved": [],
       "menu_group": "heaven",
       "appearance_frequency": 3,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "f7b293a01f5dd5bdc5348bce006f145493b3a27f66ef9ea792c224153ffa673f",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "group-ii-elf-chorus",
@@ -1701,7 +1708,11 @@
       "unresolved": [],
       "menu_group": "heaven",
       "appearance_frequency": 3,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "c0807e083107f43f672f96a7777909da88d661a5d0295face465dad5acf661e9",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "character-ii-courtier-one",
@@ -1813,7 +1824,11 @@
       "unresolved": [],
       "menu_group": "heaven",
       "appearance_frequency": 3,
-      "sheet_scope": "individual"
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "sheet_rebuilt_on": "2026-11-20",
+      "sheet_sha256": "bbd41bb4c4b9e24a9d6bf7dceff771b43fc1bd78bd80dcedd6a5cdc5d6c52f11",
+      "sheet_review": "Visual review of identity, three views, six expressions, four gestures, details, costume layers, props and palette."
     },
     {
       "id": "character-ii-elephant",
