@@ -564,37 +564,6 @@
       "sheet_scope": "individual"
     },
     {
-      "id": "character-ii-charioteer",
-      "kind": "character",
-      "name": "?? ??",
-      "source_name": "KNABE WAGENLENKER",
-      "category": "정령",
-      "part": 2,
-      "act_numbers": [
-        1
-      ],
-      "chapter_numbers": [],
-      "source_urls": [
-        "../part-ii/act-01-02.html"
-      ],
-      "image": "character-ii-charioteer.webp",
-      "status": "superseded_visual",
-      "visual_locks": [
-        "?? ???? ?? ??",
-        "???",
-        "?? ?? ??"
-      ],
-      "canonical_note": "??? ??? ?? ?? ??.",
-      "variants_note": "",
-      "unresolved": [
-        "기존 밝은 머리 디자인은 원문과 충돌하므로 새 삽화에 사용하지 않는다."
-      ],
-      "menu_group": "heaven",
-      "superseded_by": "character-ii-charioteer-source",
-      "appearance_frequency": 3,
-      "sheet_scope": "individual"
-    },
-    {
       "id": "character-ii-charioteer-source",
       "kind": "character",
       "name": "?? ?? ? ?? ??",
