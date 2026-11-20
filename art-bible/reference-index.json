@@ -5360,6 +5360,51 @@
       "variants_note": "",
       "unresolved": [],
       "menu_group": "heaven"
+    },
+    {
+      "id": "variant-ii-emperor-pan",
+      "kind": "character",
+      "name": "PAN / KAISER",
+      "source_name": "PAN / KAISER",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "variant-ii-emperor-pan.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Act I woodland masquerade procession.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven",
+      "variant_of": "character-008"
+    },
+    {
+      "id": "group-ii-fauns",
+      "kind": "character",
+      "name": "FAUNEN",
+      "source_name": "FAUNEN",
+      "category": "정령",
+      "part": 2,
+      "act_numbers": [
+        1
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-01-06.html"
+      ],
+      "image": "group-ii-fauns.webp",
+      "status": "draft_visual",
+      "visual_locks": [],
+      "canonical_note": "Act I woodland masquerade procession.",
+      "variants_note": "",
+      "unresolved": [],
+      "menu_group": "heaven"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
