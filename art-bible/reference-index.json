@@ -6219,6 +6219,31 @@
         "../part-ii/act-02-06.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-chiron",
+      "kind": "character",
+      "name": "케이론",
+      "source_name": "CHIRON",
+      "image": "character-ii-chiron.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "철회색 긴 머리와 수염",
+        "올리브색·상아색 고전 튜닉",
+        "인간 상반신과 흰 말 몸통의 연결",
+        "네 개의 말 다리·별도 말 머리 없음"
+      ],
+      "canonical_note": "발굽 소리를 듣고 돌아본 파우스트는 케이론을 알아본다. 케이론은 멈추지 않는 대신 등에 타라고 권하고 강을 건너 준다. 영웅들을 가르치고 치료한 경험을 칭찬받아도 스스로 대단하다고 말하지 않는다. 흰 말의 몸과 인간의 상반신을 지닌 켄타우로스로 통일했다. 머리와 수염, 의상 색상은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-06.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"

@@ -1,0 +1,284 @@
+{
+  "source_image": "source_images/act-02-06-grid-002.png",
+  "source_size": [
+    1774,
+    887
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-faust",
+    "character-ii-chiron",
+    "group-ii-nymphs",
+    "group-ii-swans"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-faust.png",
+    "art-bible/character-ii-chiron.png",
+    "art-bible/group-ii-nymphs.png",
+    "art-bible/group-ii-swans.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3703",
+      "description": "한 백조가 깃털을 부풀리고 수면을 가르며 잎에 가려진 곳으로 향한다. 여왕은 보이지 않는다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        443,
+        221
+      ],
+      "image": "images/chiron-meeting-01.webp",
+      "sha256": "46387dd4393fcf7f20f3a15157d71fdf1d39021033778d77d525cd398ddbf07c"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3707",
+      "description": "다른 백조들이 깃털을 빛내며 헤엄치다가 부산하게 움직여 님프들의 시선을 끈다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        445,
+        1,
+        886,
+        221
+      ],
+      "image": "images/chiron-meeting-02.webp",
+      "sha256": "370af2cf98822d5da80073a8de82663638d6c6ec3ce3f831776458614c167c6e"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3711",
+      "description": "성인 님프가 초록 강둑에 귀를 가까이 대고 다가오는 소리를 듣는다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        888,
+        1,
+        1329,
+        221
+      ],
+      "image": "images/chiron-meeting-03.webp",
+      "sha256": "39b624c72d7211d75dc94f9cbace290e687efcbdbd51a5f144fb9c35d5089434"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3717",
+      "description": "님프들이 말발굽 소리를 듣고 파우스트도 땅의 울림을 느낀다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1331,
+        1,
+        1773,
+        221
+      ],
+      "image": "images/chiron-meeting-04.webp",
+      "sha256": "40ec35b868bfa790ae1498df456fd71114f3864fc857c0fd8f87751906fdd6cc"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3723",
+      "description": "파우스트가 다가오는 발굽 소리 쪽을 기대하며 바라본다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        223,
+        443,
+        443
+      ],
+      "image": "images/chiron-meeting-05.webp",
+      "sha256": "d3fcc8ed4a99de71c7280cdc7d1462b70f536a9eddb0d8eeebadcde66007297a"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3727",
+      "description": "멀리 흰 말의 몸을 가진 케이론이 달려온다. 별도 말과 기수가 아니라 켄타우로스로 표현한다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        445,
+        223,
+        886,
+        443
+      ],
+      "image": "images/chiron-meeting-06.webp",
+      "sha256": "3098b2c43266ba63189975ee0b5d03d93709c731b0e1d81ca20d8addad76a59b"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3731",
+      "description": "파우스트가 케이론을 알아보고 멈춰 달라고 부른다. 케이론이 고개를 돌린다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        888,
+        223,
+        1329,
+        443
+      ],
+      "image": "images/chiron-meeting-07.webp",
+      "sha256": "4973e6ee013fb17533512757a0ba11fd22c23fc6a314302708a1672b42e3f40d"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3737",
+      "description": "멈추지 않는 케이론에게 파우스트가 태워 달라고 청하고 등에 올라탄다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1331,
+        223,
+        1773,
+        443
+      ],
+      "image": "images/chiron-meeting-08.webp",
+      "sha256": "c248967bba2aee54bd25a4e0847cde28f32be5e69f00885cbfcc307ef8c70d7d"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3749",
+      "description": "파우스트를 태운 케이론이 강을 건너며 어디로 가는지 묻는다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        445,
+        443,
+        664
+      ],
+      "image": "images/chiron-meeting-09.webp",
+      "sha256": "63dfe5ed310963ed03c3be4305dfd30afb676f12731091747de4a09745eac3ef"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3755",
+      "description": "파우스트가 영웅들을 가르쳤던 케이론을 칭찬한다. 영웅들을 실제 등장시키지 않는다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        445,
+        445,
+        886,
+        664
+      ],
+      "image": "images/chiron-meeting-10.webp",
+      "sha256": "ab9e71fd06b48db53538f61b8ded7bc07b6a82a90deb84a090b5982374453be9"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3761",
+      "description": "케이론이 제자들은 결국 제 뜻대로 행동한다며 담담히 답한다. 파우스트가 귀를 기울인다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        888,
+        445,
+        1329,
+        664
+      ],
+      "image": "images/chiron-meeting-11.webp",
+      "sha256": "897fee5360b3a437427da07ca4b75c231157c596b90fecc2c521fe85f28c791a"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3767",
+      "description": "파우스트가 식물과 뿌리를 알고 상처를 치료하는 케이론의 지식을 칭찬한다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1331,
+        445,
+        1773,
+        664
+      ],
+      "image": "images/chiron-meeting-12.webp",
+      "sha256": "55268ceb79d86047cd68f12ece2d813a8776290a13cad847f1fba3f104874a10"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3773",
+      "description": "케이론이 예전에 치료를 도왔지만 이제는 다른 이들에게 맡겼다고 답한다. 실제 부상자를 추가하지 않는다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        666,
+        443,
+        886
+      ],
+      "image": "images/chiron-meeting-13.webp",
+      "sha256": "0e5e7ec90d2c2d8d60f06e10392ccc922a2ae0df9f08e3a20d94be168c30347f"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3779",
+      "description": "파우스트가 칭찬을 피하는 태도까지 칭찬하자 케이론이 아첨을 잘한다며 받아친다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        445,
+        666,
+        886,
+        886
+      ],
+      "image": "images/chiron-meeting-14.webp",
+      "sha256": "5d1bbd0838eef5553977c446403691a94a570930c5f8aa5600cd6aee7a38c3fd"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3785",
+      "description": "케이론이 아첨을 지적해도 파우스트는 위대한 영웅들과 함께한 경험에 대해 질문을 이어 간다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        888,
+        666,
+        1329,
+        886
+      ],
+      "image": "images/chiron-meeting-15.webp",
+      "sha256": "390483ed22c34f9c1531e35182d6d644fb43bbd8fcf0000f5dfa3e1b36dd3be3"
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3791",
+      "description": "파우스트가 그 영웅들 가운데 누가 가장 뛰어났는지 묻는다. 케이론은 강을 건너며 듣는다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1331,
+        666,
+        1773,
+        886
+      ],
+      "image": "images/chiron-meeting-16.webp",
+      "sha256": "7eb18fa34788e801618f6c2d58d24aff95deaab768e1f5313016609a4fff211e"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
