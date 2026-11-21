@@ -474,10 +474,247 @@
           "sha256": "683aee58ee563b79c7ec2a5a0239d0b70d3226e4ea33ddc472882217734db877"
         }
       ]
+    },
+    {
+      "source_image": "source_images/act-02-03-grid-003.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "records": [
+        {
+          "scene_id": "source-3177",
+          "panel": 1,
+          "row": 1,
+          "column": 1,
+          "crop": [
+            1,
+            1,
+            383,
+            255
+          ],
+          "image": "images/laboratory-003-01.webp",
+          "sha256": "e962aa8629337a7015e6ce31905abab96459d26267bddc82718e4edcc31f1ee7"
+        },
+        {
+          "scene_id": "source-3181",
+          "panel": 2,
+          "row": 1,
+          "column": 2,
+          "crop": [
+            385,
+            1,
+            767,
+            255
+          ],
+          "image": "images/laboratory-003-02.webp",
+          "sha256": "b2c8fb68261b7e69a4d2cdc5caf5b7fe9af611110e34c37c65faf2572c74e75e"
+        },
+        {
+          "scene_id": "source-3189",
+          "panel": 3,
+          "row": 1,
+          "column": 3,
+          "crop": [
+            769,
+            1,
+            1151,
+            255
+          ],
+          "image": "images/laboratory-003-03.webp",
+          "sha256": "60b51de0bcaf58f8fd052b7638ba415d297ae75dae67d6a5fec54162d6d8464b"
+        },
+        {
+          "scene_id": "source-3197",
+          "panel": 4,
+          "row": 1,
+          "column": 4,
+          "crop": [
+            1153,
+            1,
+            1535,
+            255
+          ],
+          "image": "images/laboratory-003-04.webp",
+          "sha256": "997d28c6bfe7bdbdbf2f5992803b51dd617dfa6d09a6155bae8f29d804ca8205"
+        },
+        {
+          "scene_id": "source-3201",
+          "panel": 5,
+          "row": 2,
+          "column": 1,
+          "crop": [
+            1,
+            257,
+            383,
+            511
+          ],
+          "image": "images/laboratory-003-05.webp",
+          "sha256": "d44d706ebfb3bc2200f42973a74af182b386993f82733faf53ad59af22ed8490"
+        },
+        {
+          "scene_id": "source-3207",
+          "panel": 6,
+          "row": 2,
+          "column": 2,
+          "crop": [
+            385,
+            257,
+            767,
+            511
+          ],
+          "image": "images/laboratory-003-06.webp",
+          "sha256": "64393c9ac384dab234c9a0edfccdcecfd96b0aa04945928d89c5685b98d9a53d"
+        },
+        {
+          "scene_id": "source-3211",
+          "panel": 7,
+          "row": 2,
+          "column": 3,
+          "crop": [
+            769,
+            257,
+            1151,
+            511
+          ],
+          "image": "images/laboratory-003-07.webp",
+          "sha256": "25f55a0aca5469840b1c6d396357acfec0ec5c40038f2f0a70b9106965fd4850"
+        },
+        {
+          "scene_id": "source-3217",
+          "panel": 8,
+          "row": 2,
+          "column": 4,
+          "crop": [
+            1153,
+            257,
+            1535,
+            511
+          ],
+          "image": "images/laboratory-003-08.webp",
+          "sha256": "b6110e2532cc17dd1814d1916d444c8bd7f06ac24e8e2cfe0c5a74ac50b6f0c7"
+        },
+        {
+          "scene_id": "source-3223",
+          "panel": 9,
+          "row": 3,
+          "column": 1,
+          "crop": [
+            1,
+            513,
+            383,
+            767
+          ],
+          "image": "images/laboratory-003-09.webp",
+          "sha256": "5a2ec249c0f294a5ed9411e2e17bb2933165f94d04eca56bc1835c17d58ceb50"
+        },
+        {
+          "scene_id": "source-3227",
+          "panel": 10,
+          "row": 3,
+          "column": 2,
+          "crop": [
+            385,
+            513,
+            767,
+            767
+          ],
+          "image": "images/laboratory-003-10.webp",
+          "sha256": "af09d998a2f79fa760b5112b2c6b542eb25090009a00102057e7a7fe074512f6"
+        },
+        {
+          "scene_id": "source-3233",
+          "panel": 11,
+          "row": 3,
+          "column": 3,
+          "crop": [
+            769,
+            513,
+            1151,
+            767
+          ],
+          "image": "images/laboratory-003-11.webp",
+          "sha256": "fffd44e42f3c3547411e81fa55394b88dbf2435eabb95ab42987d3ef092f47cd"
+        },
+        {
+          "scene_id": "source-3239",
+          "panel": 12,
+          "row": 3,
+          "column": 4,
+          "crop": [
+            1153,
+            513,
+            1535,
+            767
+          ],
+          "image": "images/laboratory-003-12.webp",
+          "sha256": "f73b0913db923050e0afca6275f429c90ccd5ec39fe9ddee7dcba90bffae9460"
+        },
+        {
+          "scene_id": "source-3245",
+          "panel": 13,
+          "row": 4,
+          "column": 1,
+          "crop": [
+            1,
+            769,
+            383,
+            1023
+          ],
+          "image": "images/laboratory-003-13.webp",
+          "sha256": "a27bc5b9b96876ac73eafcba4d1f861820f6ae503df70bbe7b91189f046c0b1d"
+        },
+        {
+          "scene_id": "source-3253",
+          "panel": 14,
+          "row": 4,
+          "column": 2,
+          "crop": [
+            385,
+            769,
+            767,
+            1023
+          ],
+          "image": "images/laboratory-003-14.webp",
+          "sha256": "10af962b7b6bb9a6132b3a585c40f3eebec34bfa831f5823048cda77e7a7bcce"
+        },
+        {
+          "scene_id": "source-3257",
+          "panel": 15,
+          "row": 4,
+          "column": 3,
+          "crop": [
+            769,
+            769,
+            1151,
+            1023
+          ],
+          "image": "images/laboratory-003-15.webp",
+          "sha256": "b806fd8bcd408a90af80601487e9bbc91a5f06539115c7bdc7f027c45ae9c8b9"
+        },
+        {
+          "scene_id": "source-3261",
+          "panel": 16,
+          "row": 4,
+          "column": 4,
+          "crop": [
+            1153,
+            769,
+            1535,
+            1023
+          ],
+          "image": "images/laboratory-003-16.webp",
+          "sha256": "1ee4bf160be79cc8551e22b384119b51fc4c3f3b9d3fb1f6670c8119dce6a187"
+        }
+      ]
     }
   ],
-  "completed_source_panels": 32,
+  "completed_source_panels": 48,
   "total_source_panels": 50,
-  "remaining_source_panels": 18,
+  "remaining_source_panels": 2,
   "source_translation_preserved": true
 }
