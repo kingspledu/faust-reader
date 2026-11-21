@@ -1,0 +1,27 @@
+{
+  "batch_id": "pharsalus-peneios",
+  "grid": [4, 4],
+  "source_image": "source_images/act-02-transition-004-005-grid-001.png",
+  "references": ["character-faust", "character-mephistopheles-scholar", "character-ii-homunculus", "place-ii-pharsalus", "character-ii-sphinx", "character-ii-griffin", "group-ii-gold-ants", "group-ii-arimaspians"],
+  "generation_reference_images": ["part-ii/source_images/act-02-transition-003-004-grid-001.png", "art-bible/character-ii-sphinx.png", "art-bible/character-ii-griffin.png", "art-bible/group-ii-gold-ants.png", "art-bible/group-ii-arimaspians.png"],
+  "generation_reference_note": "입력 이미지 최대 5장 제한에 따라 기존 세 인물과 장소는 직전 확정 장면 그리드로 참조하고 새 존재 네 종류는 각각의 시트를 직접 첨부했다.",
+  "correction": "6번 컷의 파우스트에게 메피스토 차림이 섞여 파우스트 기준 시트를 직접 첨부해 모자를 제거하고 검정·버건디 의상으로 수정했다.",
+  "scenes": [
+    {"section":"act-02-04","scene_id":"source-3350","description":"파우스트가 불빛 사이에서 헬레네를 찾기로 마음먹는다. 메피스토는 곁에서 주위를 살핀다.","framing":"파우스트 중경·불길 사이 시선"},
+    {"section":"act-02-04","scene_id":"source-3356","description":"메피스토가 각자 불길 사이로 자기 모험을 찾고 다시 모이자고 제안한다.","framing":"메피스토 손짓과 세 인물 전경"},
+    {"section":"act-02-04","scene_id":"source-3360","description":"다시 모일 표지로 호문쿨루스의 밀폐 유리병이 빛난다. 파우스트는 헬레네 찾기에 마음을 둔다.","framing":"유리병 소품 클로즈업"},
+    {"section":"act-02-04","scene_id":"source-3368","description":"파우스트가 그녀가 살았던 땅과 물결과 말을 전한 공기를 생각한다. 헬레네를 실제로 그리지 않는다.","framing":"파우스트 옆얼굴·멀리 강·바람에 날리는 머리"},
+    {"section":"act-02-04","scene_id":"source-3371","description":"그리스 땅에 와 있음을 깨달은 파우스트가 땅을 딛고 기운을 되찾는다.","framing":"로우 앵글·발과 자세"},
+    {"section":"act-02-04","scene_id":"source-3374","description":"파우스트가 불길의 미궁으로 걸어 들어간다. 안타이오스라는 별도 인물을 추가하지 않는다.","framing":"하이 앵글·넓은 들판"},
+    {"section":"act-02-05","scene_id":"source-3380","description":"페네이오스 상류의 불빛 사이를 홀로 걷는 메피스토가 낯선 풍경을 본다.","framing":"강변으로 향하는 와이드 숏"},
+    {"section":"act-02-05","scene_id":"source-3386","description":"스핑크스와 그리핀 등 고대 존재들의 날개와 몸을 바라보며 메피스토가 당황한다. 노출은 비성적이고 단정하게 처리한다.","framing":"메피스토 어깨 너머 두 종의 중경"},
+    {"section":"act-02-05","scene_id":"source-3390","description":"고대의 생생함을 낯설어하는 메피스토가 표정을 누르고 예의를 차릴 준비를 한다.","framing":"메피스토 표정 클로즈업"},
+    {"section":"act-02-05","scene_id":"source-3394","description":"메피스토가 공손하게 인사하지만 노인과 그리핀의 말장난 때문에 그리핀이 발끈한다.","framing":"메피스토와 그리핀 대화 투 숏"},
+    {"section":"act-02-05","scene_id":"source-3400","description":"그리핀이 싫어하는 단어들의 소리를 이야기하며 불쾌한 표정을 짓는다. 묘지를 실제 사건으로 그리지 않는다.","framing":"그리핀 부리·눈·깃털 클로즈업"},
+    {"section":"act-02-05","scene_id":"source-3404","description":"메피스토가 그리핀의 이름을 두고 다시 묻고 그리핀이 자신만만하게 답한다.","framing":"그리핀 낮은 시점·메피스토 측면"},
+    {"section":"act-02-05","scene_id":"source-3412","description":"그리핀이 움켜쥐는 자의 행운을 말한다. 개미들은 바위틈에 모은 금을 이야기한다.","framing":"개미·바위틈 금알갱이 디테일"},
+    {"section":"act-02-05","scene_id":"source-3418","description":"개미들이 도난당한 금을 호소하고 그리핀들이 캐묻겠다고 한다. 외눈의 아리마스포이족이 멀리서 금주머니를 들고 웃는다.","framing":"바위·개미·그리핀·외눈 무리의 깊이 있는 전경"},
+    {"section":"act-02-05","scene_id":"source-3426","description":"아리마스포이족이 금을 다 써버리겠다고 즐거워하고 메피스토가 그들의 욕심을 알아보며 익숙함을 느낀다.","framing":"메피스토 미소 전경·금주머니를 든 축제 무리 배경"},
+    {"section":"act-02-05","scene_id":"source-3432","description":"스핑크스가 메피스토에게 이름을 묻고 메피스토가 여러 이름으로 불린다며 답한다.","framing":"스핑크스와 메피스토 마주 보는 중경"}
+  ]
+}

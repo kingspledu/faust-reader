@@ -5944,6 +5944,107 @@
         "../part-ii/act-02-04.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-sphinx",
+      "kind": "character",
+      "name": "스핑크스",
+      "source_name": "SPHINX / SPHINXE",
+      "image": "character-ii-sphinx.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "어두운 곱슬머리의 성인 여성 얼굴",
+        "황갈색 사자 몸",
+        "청동빛 날개",
+        "상아색 가슴 드레이프"
+      ],
+      "canonical_note": "페네이오스 상류에서 메피스토에게 이름을 묻는 존재다. 말로 상대를 시험하는 장면에 맞춰 차분하고 또렷한 눈빛으로 그렸다. 인간의 얼굴과 사자의 몸, 날개가 결합된 고대의 낯선 모습을 유지하며 얼굴과 색상은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-05.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-griffin",
+      "kind": "character",
+      "name": "그리핀",
+      "source_name": "GREIF / GREIFE",
+      "image": "character-ii-griffin.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "상아빛 독수리 머리",
+        "황갈색 사자 몸",
+        "금갈색 날개",
+        "독수리 앞발"
+      ],
+      "canonical_note": "메피스토의 인사를 듣자 이름부터 바로잡는다. 그리핀은 단어의 소리를 따지다가 움켜쥐는 자의 행운을 말한다. 독수리 부리와 날개, 사자의 몸을 결합하고 눈과 부리의 움직임으로 자존심과 불쾌함을 보여 준다. 세부 색상은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-05.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-gold-ants",
+      "kind": "character",
+      "name": "금을 모으는 개미",
+      "source_name": "AMEISEN",
+      "image": "group-ii-gold-ants.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "적갈색 외골격",
+        "여섯 다리",
+        "더듬이",
+        "바위틈에 모은 금알갱이"
+      ],
+      "canonical_note": "작은 개미들이 끼어드는 까닭은 대화에서 금 이야기가 나왔기 때문이다. 개미들은 바위와 동굴에 모아 둔 금을 빼앗겼다고 호소한다. 이름 붙인 새 인물을 만들지 않고 같은 형태의 개미들이 함께 움직이도록 정했다. 크기와 색상은 연출을 위한 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-05.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-arimaspians",
+      "kind": "character",
+      "name": "아리마스포이족",
+      "source_name": "ARIMASPEN",
+      "image": "group-ii-arimaspians.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "외눈",
+        "짙은 곱슬머리",
+        "회녹색 고대 튜닉",
+        "갈색 망토",
+        "금주머니"
+      ],
+      "canonical_note": "개미들이 도둑을 지목하자 아리마스포이족은 축제의 밤을 방해하지 말라며 받아친다. 금주머니를 손에 쥔 태도에서 개미들의 다급함과 이들의 느긋함이 대비된다. 외눈은 신화적 도상을 참고한 시각화이며 실제 민족의 복식이나 외모를 재현한 것이 아니다. 집단의 대표 형태로 통일한다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-05.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
