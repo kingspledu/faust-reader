@@ -1,0 +1,25 @@
+{
+ "batch_id":"peneios-riddles",
+ "grid":[4,4],
+ "source_image":"source_images/act-02-05-grid-002.png",
+ "references":["character-mephistopheles-scholar","character-ii-sphinx","character-ii-griffin","group-ii-sirens","place-ii-pharsalus"],
+ "generation_reference_images":["art-bible/character-mephistopheles-scholar.png","art-bible/character-ii-sphinx.png","art-bible/character-ii-griffin.png","art-bible/group-ii-sirens.png","art-bible/place-ii-pharsalus.png"],
+ "scenes":[
+  {"section":"act-02-05","scene_id":"source-3440","description":"메피스토가 스핑크스에게 영국 여행자들이 이곳에도 오는지 묻는다. 실제 관광객을 추가하지 않는다.","framing":"강변 배경 대화 중경"},
+  {"section":"act-02-05","scene_id":"source-3444","description":"메피스토가 옛 연극에서 불렸던 이름을 이야기하자 스핑크스가 이유를 묻는다.","framing":"메피스토 어깨 너머 스핑크스 얼굴"},
+  {"section":"act-02-05","scene_id":"source-3452","description":"스핑크스가 별과 지금의 시간을 묻는다. 메피스토가 별똥별과 밝은 달을 바라본다.","framing":"별똥별 밤하늘·두 인물 실루엣"},
+  {"section":"act-02-05","scene_id":"source-3460","description":"메피스토가 사자 털 가까이 앉아 수수께끼를 청한다. 스핑크스는 그 자신이 수수께끼라고 응수한다.","framing":"사자 털 전경·메피스토 중경"},
+  {"section":"act-02-05","scene_id":"source-3466","description":"스핑크스가 착한 이에게도 악한 이에게도 필요한 존재라는 수수께끼를 말한다.","framing":"스핑크스 차분한 얼굴 클로즈업"},
+  {"section":"act-02-05","scene_id":"source-3470","description":"스핑크스의 말 뒤에 두 그리핀이 메피스토를 못마땅해한다. 제우스를 실제로 등장시키지 않는다.","framing":"두 그리핀의 불쾌한 반응"},
+  {"section":"act-02-05","scene_id":"source-3480","description":"메피스토가 자신의 손톱도 날카롭다며 맞서고 스핑크스가 대화를 이어 간다.","framing":"손톱과 그리핀 앞발의 디테일·공격 없음"},
+  {"section":"act-02-05","scene_id":"source-3488","description":"스핑크스가 메피스토의 불편함을 짚자 메피스토가 인간 얼굴을 보고 말한다.","framing":"두 얼굴 대화 투 숏"},
+  {"section":"act-02-05","scene_id":"source-3494","description":"메피스토가 사자 몸을 꺼리자 스핑크스가 자신의 튼튼한 앞발을 내보이며 받아친다.","framing":"사자 앞발 로우 앵글"},
+  {"section":"act-02-05","scene_id":"source-3500","description":"메피스토가 포플러 가지의 새들을 가리키고 스핑크스가 주의를 준다.","framing":"가지를 향하는 손·멀리 세이렌 실루엣"},
+  {"section":"act-02-05","scene_id":"source-3508","description":"세이렌들이 가지 위에서 노래하며 초대한다. 메피스토와 스핑크스는 아래에 있다.","framing":"나무와 강의 와이드 숏"},
+  {"section":"act-02-05","scene_id":"source-3514","description":"세이렌의 노래가 이어지고 스핑크스들이 가지에서 내려오게 하라고 말한다.","framing":"노래하는 세이렌·아래 스핑크스의 시선"},
+  {"section":"act-02-05","scene_id":"source-3520","description":"스핑크스가 가지에 숨겨진 세이렌의 매 발톱을 경계한다. 실제 습격은 그리지 않는다.","framing":"잎 뒤 가지를 움켜쥔 발톱 클로즈업"},
+  {"section":"act-02-05","scene_id":"source-3526","description":"세이렌들이 물과 땅의 즐거움을 노래하며 날개를 펼친다.","framing":"강물 반사와 날개 전경"},
+  {"section":"act-02-05","scene_id":"source-3530","description":"메피스토가 겹쳐 들리는 노래를 비꼬며 바라본다.","framing":"노래하는 세이렌 배경·메피스토 옆얼굴"},
+  {"section":"act-02-05","scene_id":"source-3536","description":"메피스토가 노래는 귀에만 맴돈다며 무심하게 반응하고 스핑크스가 말을 받는다.","framing":"메피스토 무심한 표정 클로즈업·스핑크스 곁얼굴"}
+ ]
+}

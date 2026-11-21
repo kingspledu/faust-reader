@@ -5946,6 +5946,32 @@
       "status": "draft_visual"
     },
     {
+      "id": "group-ii-sirens",
+      "kind": "character",
+      "name": "세이렌",
+      "source_name": "SIRENEN",
+      "image": "group-ii-sirens.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "성인 여성 얼굴",
+        "짙은 청록 곱슬머리",
+        "청록 날개",
+        "상아색 드레이프",
+        "매의 발톱"
+      ],
+      "canonical_note": "강가의 나뭇가지에서 노래가 들려온다. 세이렌은 즐거운 밤을 함께하자고 초대하지만 스핑크스는 가지에 숨은 발톱을 조심하라고 경고한다. 아름다운 얼굴과 새의 몸을 함께 그려 초대와 경계가 부딪치는 장면을 보여 준다. 원문의 발톱과 나뭇가지 묘사를 바탕으로 삼았으며 색상과 의상은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-05.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
       "id": "character-ii-sphinx",
       "kind": "character",
       "name": "스핑크스",

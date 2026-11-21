@@ -1,0 +1,302 @@
+{
+  "source_image": "source_images/act-02-05-grid-002.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-mephistopheles-scholar",
+    "character-ii-sphinx",
+    "character-ii-griffin",
+    "group-ii-sirens",
+    "place-ii-pharsalus"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-mephistopheles-scholar.png",
+    "art-bible/character-ii-sphinx.png",
+    "art-bible/character-ii-griffin.png",
+    "art-bible/group-ii-sirens.png",
+    "art-bible/place-ii-pharsalus.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3440",
+      "description": "메피스토가 스핑크스에게 영국 여행자들이 이곳에도 오는지 묻는다. 실제 관광객을 추가하지 않는다.",
+      "framing": "강변 배경 대화 중경",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/peneios-riddles-01.webp",
+      "sha256": "5f7396611d30562db9a06bc95b9014ebe89c7a36e3209cf50cf4ad2fb3c18cb3"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3444",
+      "description": "메피스토가 옛 연극에서 불렸던 이름을 이야기하자 스핑크스가 이유를 묻는다.",
+      "framing": "메피스토 어깨 너머 스핑크스 얼굴",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/peneios-riddles-02.webp",
+      "sha256": "ecd23c93bcbdd737c2d686ebaf92d02df9cbf0c9b166144df0567379f305fd2b"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3452",
+      "description": "스핑크스가 별과 지금의 시간을 묻는다. 메피스토가 별똥별과 밝은 달을 바라본다.",
+      "framing": "별똥별 밤하늘·두 인물 실루엣",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/peneios-riddles-03.webp",
+      "sha256": "6d92908309281e3f1321cb716140d11b1a6da48e5e30432374d5ce2a81f2b65e"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3460",
+      "description": "메피스토가 사자 털 가까이 앉아 수수께끼를 청한다. 스핑크스는 그 자신이 수수께끼라고 응수한다.",
+      "framing": "사자 털 전경·메피스토 중경",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/peneios-riddles-04.webp",
+      "sha256": "9485f320b0b6a8d6b230f9fc4f699c94292c23cb7b5cc3469e40ee1ae9132b59"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3466",
+      "description": "스핑크스가 착한 이에게도 악한 이에게도 필요한 존재라는 수수께끼를 말한다.",
+      "framing": "스핑크스 차분한 얼굴 클로즈업",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/peneios-riddles-05.webp",
+      "sha256": "63511e4b363c6fd529e804c6c02ebe698e5ede76e0d772c22846e8b38730f839"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3470",
+      "description": "스핑크스의 말 뒤에 두 그리핀이 메피스토를 못마땅해한다. 제우스를 실제로 등장시키지 않는다.",
+      "framing": "두 그리핀의 불쾌한 반응",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/peneios-riddles-06.webp",
+      "sha256": "8180c2338797f1df57462292685f3cc82a2dd9b60b00962735bef2b6a1f9426a"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3480",
+      "description": "메피스토가 자신의 손톱도 날카롭다며 맞서고 스핑크스가 대화를 이어 간다.",
+      "framing": "손톱과 그리핀 앞발의 디테일·공격 없음",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/peneios-riddles-07.webp",
+      "sha256": "f5cff8094ca402b79a5b508a9d10333fc4760807f7a710e08590f88b67257137"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3488",
+      "description": "스핑크스가 메피스토의 불편함을 짚자 메피스토가 인간 얼굴을 보고 말한다.",
+      "framing": "두 얼굴 대화 투 숏",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/peneios-riddles-08.webp",
+      "sha256": "a7cef1e4c4b89b3d87fa6949d06141c23de946b1a9a6f929009b8cf14c36c4cd"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3494",
+      "description": "메피스토가 사자 몸을 꺼리자 스핑크스가 자신의 튼튼한 앞발을 내보이며 받아친다.",
+      "framing": "사자 앞발 로우 앵글",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/peneios-riddles-09.webp",
+      "sha256": "93632ba365989425e5b85f0c8470556b3698e0f12b684f36e9c2fef638f9fdff"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3500",
+      "description": "메피스토가 포플러 가지의 새들을 가리키고 스핑크스가 주의를 준다.",
+      "framing": "가지를 향하는 손·멀리 세이렌 실루엣",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/peneios-riddles-10.webp",
+      "sha256": "9dfe1f3f5760498021dab7f7ee56c4a9625f4903ca9130d1c484ae771576d2ca"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3508",
+      "description": "세이렌들이 가지 위에서 노래하며 초대한다. 메피스토와 스핑크스는 아래에 있다.",
+      "framing": "나무와 강의 와이드 숏",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/peneios-riddles-11.webp",
+      "sha256": "0a4a47b1b42aef7126199414d557a1018faf840561a5b0f9b0ae41a4a87b9bfd"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3514",
+      "description": "세이렌의 노래가 이어지고 스핑크스들이 가지에서 내려오게 하라고 말한다.",
+      "framing": "노래하는 세이렌·아래 스핑크스의 시선",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/peneios-riddles-12.webp",
+      "sha256": "e0950db315d5cc0a00a505829e28dfc91372388491a1f1696e704c507754d049"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3520",
+      "description": "스핑크스가 가지에 숨겨진 세이렌의 매 발톱을 경계한다. 실제 습격은 그리지 않는다.",
+      "framing": "잎 뒤 가지를 움켜쥔 발톱 클로즈업",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/peneios-riddles-13.webp",
+      "sha256": "4e76dda3d90a562a4e78a0afb1f47c3cc86360c9e5d233d47b39658da784ffe7"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3526",
+      "description": "세이렌들이 물과 땅의 즐거움을 노래하며 날개를 펼친다.",
+      "framing": "강물 반사와 날개 전경",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/peneios-riddles-14.webp",
+      "sha256": "60a691af519ceddbb96d9a277a70215f17aaa3bb6cd4b882dcca69ad7a04e9c9"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3530",
+      "description": "메피스토가 겹쳐 들리는 노래를 비꼬며 바라본다.",
+      "framing": "노래하는 세이렌 배경·메피스토 옆얼굴",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/peneios-riddles-15.webp",
+      "sha256": "8e4df11458cd2430cc0c2893a50a7b55b1b14ba1f894c5d35fde4c3bcb9d4885"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3536",
+      "description": "메피스토가 노래는 귀에만 맴돈다며 무심하게 반응하고 스핑크스가 말을 받는다.",
+      "framing": "메피스토 무심한 표정 클로즈업·스핑크스 곁얼굴",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/peneios-riddles-16.webp",
+      "sha256": "921986feb76d7bfb025eb32ecd832a6a7f1f60f837604862639a84d133e03646"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
