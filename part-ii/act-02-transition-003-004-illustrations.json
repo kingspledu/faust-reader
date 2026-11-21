@@ -1,0 +1,254 @@
+{
+  "source_image": "source_images/act-02-transition-003-004-grid-001.png",
+  "source_size": [
+    1672,
+    941
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "records": [
+    {
+      "section": "act-02-03",
+      "scene_id": "source-3265",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        417,
+        234
+      ],
+      "image": "images/lab-pharsalus-01.webp",
+      "sha256": "83fd04b4d1295af169bc98f2c2440a12c083f04d459e96e487419d6e6031c59a"
+    },
+    {
+      "section": "act-02-03",
+      "scene_id": "source-3272",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        419,
+        1,
+        835,
+        234
+      ],
+      "image": "images/lab-pharsalus-02.webp",
+      "sha256": "5d656ea561c720950e94915cf88e5c56a5e78a5a53a686fe8aea127bd8c44072"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3278",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        837,
+        1,
+        1253,
+        234
+      ],
+      "image": "images/lab-pharsalus-03.webp",
+      "sha256": "0187a0d76a3b01addd875ec806f072d6a165a780d811771243b4efa063216ef0"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3284",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1255,
+        1,
+        1671,
+        234
+      ],
+      "image": "images/lab-pharsalus-04.webp",
+      "sha256": "4914904da4cc70cbad8b62c3f87b1c135b451534e08b9b2828bdb7795d455ac0"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3288",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        236,
+        417,
+        469
+      ],
+      "image": "images/lab-pharsalus-05.webp",
+      "sha256": "67266a1648f7c3fb61b8faff7fd61b0935bcc13cdc73876af5bbe6f34c39fa05"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3292",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        419,
+        236,
+        835,
+        469
+      ],
+      "image": "images/lab-pharsalus-06.webp",
+      "sha256": "682290511b46b76c4b0862cefd196fe600c0a67568b654623d645fc63b8d2df4"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3296",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        837,
+        236,
+        1253,
+        469
+      ],
+      "image": "images/lab-pharsalus-07.webp",
+      "sha256": "6086f9a96f4692529d64faadbce642accef5df1bca4b062f9adedd7ba3de491d"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3300",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1255,
+        236,
+        1671,
+        469
+      ],
+      "image": "images/lab-pharsalus-08.webp",
+      "sha256": "b40713c5092c8331c61480cca9866a443e07570309b3b75225e3e18e9d339608"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3304",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        471,
+        417,
+        705
+      ],
+      "image": "images/lab-pharsalus-09.webp",
+      "sha256": "8a37facf59c141a06da7794f0a5bd2beb31ebc34aa2e910ed5fcd0c4d79cd711"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3308",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        419,
+        471,
+        835,
+        705
+      ],
+      "image": "images/lab-pharsalus-10.webp",
+      "sha256": "43d147d312381df7fac79845bedd237cc0bfeab1827f467d6b0ef26a69f5583f"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3312",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        837,
+        471,
+        1253,
+        705
+      ],
+      "image": "images/lab-pharsalus-11.webp",
+      "sha256": "4453962a9717383549693175eaadc4cbfedd8bbcba607f44be5e60c0c7c43e16"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3316",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1255,
+        471,
+        1671,
+        705
+      ],
+      "image": "images/lab-pharsalus-12.webp",
+      "sha256": "2bcfb9379ec12dca10df13e224cea9c501a1a6821bafbf25a30d05f5f67da692"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3322",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        707,
+        417,
+        940
+      ],
+      "image": "images/lab-pharsalus-13.webp",
+      "sha256": "3e31ecc0f8837e2d3d626b0bad0400da0be7e4bc7bde7c61da9b6956e9e55488"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3328",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        419,
+        707,
+        835,
+        940
+      ],
+      "image": "images/lab-pharsalus-14.webp",
+      "sha256": "fa8d78b3266638875e98783a3bc27c872b3a239b2dd7786be97e903d7ac3bf04"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3336",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        837,
+        707,
+        1253,
+        940
+      ],
+      "image": "images/lab-pharsalus-15.webp",
+      "sha256": "2b95b8f3b9d8cb1fa8fd4b8acc765c37378494c7805134504e3641869553e645"
+    },
+    {
+      "section": "act-02-04",
+      "scene_id": "source-3342",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1255,
+        707,
+        1671,
+        940
+      ],
+      "image": "images/lab-pharsalus-16.webp",
+      "sha256": "0397d8339a5c672b21574561c6bfabe1d38b67dc382a0862a0f3fef55036b0f6"
+    }
+  ],
+  "source_translation_preserved": true
+}

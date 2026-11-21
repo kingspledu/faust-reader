@@ -1,0 +1,315 @@
+{
+  "scope": "Part II source panels without any image; existing image suitability not re-audited",
+  "batch_capacity": 16,
+  "remaining_source_panels": 1456,
+  "minimum_remaining_batches": 91,
+  "reference_sheets_excluded": true,
+  "sections": [
+    {
+      "section": "act-01-01",
+      "total": 30,
+      "illustrated": 30,
+      "unillustrated": 0
+    },
+    {
+      "section": "act-01-02",
+      "total": 32,
+      "illustrated": 32,
+      "unillustrated": 0
+    },
+    {
+      "section": "act-01-03",
+      "total": 43,
+      "illustrated": 43,
+      "unillustrated": 0
+    },
+    {
+      "section": "act-01-04",
+      "total": 38,
+      "illustrated": 38,
+      "unillustrated": 0
+    },
+    {
+      "section": "act-01-05",
+      "total": 39,
+      "illustrated": 39,
+      "unillustrated": 0
+    },
+    {
+      "section": "act-01-06",
+      "total": 38,
+      "illustrated": 38,
+      "unillustrated": 0
+    },
+    {
+      "section": "act-01-07",
+      "total": 39,
+      "illustrated": 39,
+      "unillustrated": 0
+    },
+    {
+      "section": "act-01-08",
+      "total": 39,
+      "illustrated": 39,
+      "unillustrated": 0
+    },
+    {
+      "section": "act-01-09",
+      "total": 40,
+      "illustrated": 16,
+      "unillustrated": 24
+    },
+    {
+      "section": "act-01-10",
+      "total": 47,
+      "illustrated": 16,
+      "unillustrated": 31
+    },
+    {
+      "section": "act-01-11",
+      "total": 54,
+      "illustrated": 16,
+      "unillustrated": 38
+    },
+    {
+      "section": "act-01-12",
+      "total": 49,
+      "illustrated": 16,
+      "unillustrated": 33
+    },
+    {
+      "section": "act-02-01",
+      "total": 32,
+      "illustrated": 16,
+      "unillustrated": 16
+    },
+    {
+      "section": "act-02-02",
+      "total": 33,
+      "illustrated": 16,
+      "unillustrated": 17
+    },
+    {
+      "section": "act-02-03",
+      "total": 50,
+      "illustrated": 50,
+      "unillustrated": 0
+    },
+    {
+      "section": "act-02-04",
+      "total": 20,
+      "illustrated": 14,
+      "unillustrated": 6
+    },
+    {
+      "section": "act-02-05",
+      "total": 44,
+      "illustrated": 0,
+      "unillustrated": 44
+    },
+    {
+      "section": "act-02-06",
+      "total": 30,
+      "illustrated": 0,
+      "unillustrated": 30
+    },
+    {
+      "section": "act-02-07",
+      "total": 34,
+      "illustrated": 0,
+      "unillustrated": 34
+    },
+    {
+      "section": "act-02-08",
+      "total": 46,
+      "illustrated": 0,
+      "unillustrated": 46
+    },
+    {
+      "section": "act-02-09",
+      "total": 46,
+      "illustrated": 0,
+      "unillustrated": 46
+    },
+    {
+      "section": "act-02-10",
+      "total": 46,
+      "illustrated": 0,
+      "unillustrated": 46
+    },
+    {
+      "section": "act-02-11",
+      "total": 39,
+      "illustrated": 0,
+      "unillustrated": 39
+    },
+    {
+      "section": "act-02-12",
+      "total": 39,
+      "illustrated": 0,
+      "unillustrated": 39
+    },
+    {
+      "section": "act-02-13",
+      "total": 39,
+      "illustrated": 0,
+      "unillustrated": 39
+    },
+    {
+      "section": "act-03-01",
+      "total": 40,
+      "illustrated": 0,
+      "unillustrated": 40
+    },
+    {
+      "section": "act-03-02",
+      "total": 42,
+      "illustrated": 0,
+      "unillustrated": 42
+    },
+    {
+      "section": "act-03-03",
+      "total": 41,
+      "illustrated": 0,
+      "unillustrated": 41
+    },
+    {
+      "section": "act-03-04",
+      "total": 41,
+      "illustrated": 0,
+      "unillustrated": 41
+    },
+    {
+      "section": "act-03-05",
+      "total": 37,
+      "illustrated": 0,
+      "unillustrated": 37
+    },
+    {
+      "section": "act-03-06",
+      "total": 38,
+      "illustrated": 0,
+      "unillustrated": 38
+    },
+    {
+      "section": "act-03-07",
+      "total": 39,
+      "illustrated": 0,
+      "unillustrated": 39
+    },
+    {
+      "section": "act-03-08",
+      "total": 40,
+      "illustrated": 0,
+      "unillustrated": 40
+    },
+    {
+      "section": "act-03-09",
+      "total": 39,
+      "illustrated": 0,
+      "unillustrated": 39
+    },
+    {
+      "section": "act-03-10",
+      "total": 39,
+      "illustrated": 0,
+      "unillustrated": 39
+    },
+    {
+      "section": "act-04-01",
+      "total": 39,
+      "illustrated": 0,
+      "unillustrated": 39
+    },
+    {
+      "section": "act-04-02",
+      "total": 39,
+      "illustrated": 0,
+      "unillustrated": 39
+    },
+    {
+      "section": "act-04-03",
+      "total": 37,
+      "illustrated": 0,
+      "unillustrated": 37
+    },
+    {
+      "section": "act-04-04",
+      "total": 38,
+      "illustrated": 0,
+      "unillustrated": 38
+    },
+    {
+      "section": "act-04-05",
+      "total": 37,
+      "illustrated": 0,
+      "unillustrated": 37
+    },
+    {
+      "section": "act-04-06",
+      "total": 34,
+      "illustrated": 0,
+      "unillustrated": 34
+    },
+    {
+      "section": "act-04-07",
+      "total": 32,
+      "illustrated": 0,
+      "unillustrated": 32
+    },
+    {
+      "section": "act-05-01",
+      "total": 26,
+      "illustrated": 0,
+      "unillustrated": 26
+    },
+    {
+      "section": "act-05-02",
+      "total": 37,
+      "illustrated": 0,
+      "unillustrated": 37
+    },
+    {
+      "section": "act-05-03",
+      "total": 25,
+      "illustrated": 0,
+      "unillustrated": 25
+    },
+    {
+      "section": "act-05-04",
+      "total": 34,
+      "illustrated": 0,
+      "unillustrated": 34
+    },
+    {
+      "section": "act-05-05",
+      "total": 25,
+      "illustrated": 0,
+      "unillustrated": 25
+    },
+    {
+      "section": "act-05-06",
+      "total": 31,
+      "illustrated": 0,
+      "unillustrated": 31
+    },
+    {
+      "section": "act-05-07",
+      "total": 30,
+      "illustrated": 0,
+      "unillustrated": 30
+    },
+    {
+      "section": "act-05-08",
+      "total": 35,
+      "illustrated": 0,
+      "unillustrated": 35
+    },
+    {
+      "section": "act-05-09",
+      "total": 33,
+      "illustrated": 0,
+      "unillustrated": 33
+    }
+  ]
+}

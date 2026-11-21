@@ -711,10 +711,53 @@
           "sha256": "1ee4bf160be79cc8551e22b384119b51fc4c3f3b9d3fb1f6670c8119dce6a187"
         }
       ]
+    },
+    {
+      "source_image": "source_images/act-02-transition-003-004-grid-001.png",
+      "source_size": [
+        1672,
+        941
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "records": [
+        {
+          "section": "act-02-03",
+          "scene_id": "source-3265",
+          "panel": 1,
+          "row": 1,
+          "column": 1,
+          "crop": [
+            1,
+            1,
+            417,
+            234
+          ],
+          "image": "images/lab-pharsalus-01.webp",
+          "sha256": "83fd04b4d1295af169bc98f2c2440a12c083f04d459e96e487419d6e6031c59a"
+        },
+        {
+          "section": "act-02-03",
+          "scene_id": "source-3272",
+          "panel": 2,
+          "row": 1,
+          "column": 2,
+          "crop": [
+            419,
+            1,
+            835,
+            234
+          ],
+          "image": "images/lab-pharsalus-02.webp",
+          "sha256": "5d656ea561c720950e94915cf88e5c56a5e78a5a53a686fe8aea127bd8c44072"
+        }
+      ]
     }
   ],
-  "completed_source_panels": 48,
+  "completed_source_panels": 50,
   "total_source_panels": 50,
-  "remaining_source_panels": 2,
+  "remaining_source_panels": 0,
   "source_translation_preserved": true
 }
