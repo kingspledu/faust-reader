@@ -1,242 +1,483 @@
 {
   "section": "act-02-03",
-  "source_image": "source_images/act-02-03-grid-001.png",
-  "source_size": [
-    1536,
-    1024
-  ],
-  "grid": [
-    4,
-    4
-  ],
-  "completed_source_panels": 16,
-  "total_source_panels": 50,
-  "remaining_source_panels": 34,
-  "source_translation_preserved": true,
-  "records": [
+  "batches": [
     {
-      "scene_id": "source-3009",
-      "panel": 1,
-      "row": 1,
-      "column": 1,
-      "crop": [
-        1,
-        1,
-        383,
-        255
+      "source_image": "source_images/act-02-03-grid-001.png",
+      "source_size": [
+        1536,
+        1024
       ],
-      "image": "images/laboratory-001-01.webp",
-      "sha256": "6f0805e9a4b7ea684d22d0c17cd9ddfef5b869c6703e3d71b7af5d7c0f110d70"
+      "grid": [
+        4,
+        4
+      ],
+      "records": [
+        {
+          "scene_id": "source-3009",
+          "panel": 1,
+          "row": 1,
+          "column": 1,
+          "crop": [
+            1,
+            1,
+            383,
+            255
+          ],
+          "image": "images/laboratory-001-01.webp",
+          "sha256": "6f0805e9a4b7ea684d22d0c17cd9ddfef5b869c6703e3d71b7af5d7c0f110d70"
+        },
+        {
+          "scene_id": "source-3015",
+          "panel": 2,
+          "row": 1,
+          "column": 2,
+          "crop": [
+            385,
+            1,
+            767,
+            255
+          ],
+          "image": "images/laboratory-001-02.webp",
+          "sha256": "b729674117f61eff7c2819ca47e158d22d0ee0d173b4e32336e46abd040530ad"
+        },
+        {
+          "scene_id": "source-3019",
+          "panel": 3,
+          "row": 1,
+          "column": 3,
+          "crop": [
+            769,
+            1,
+            1151,
+            255
+          ],
+          "image": "images/laboratory-001-03.webp",
+          "sha256": "a2442d7ef01cd5df18979d8bd81be7514f7eeadfcf908f24221d8280ea7aedb3"
+        },
+        {
+          "scene_id": "source-3023",
+          "panel": 4,
+          "row": 1,
+          "column": 4,
+          "crop": [
+            1153,
+            1,
+            1535,
+            255
+          ],
+          "image": "images/laboratory-001-04.webp",
+          "sha256": "b5e92991b454ea16ee09da27d64312a34edc8ef57cd7e911eb1e399fc9275458"
+        },
+        {
+          "scene_id": "source-3031",
+          "panel": 5,
+          "row": 2,
+          "column": 1,
+          "crop": [
+            1,
+            257,
+            383,
+            511
+          ],
+          "image": "images/laboratory-001-05.webp",
+          "sha256": "f0018f0c2e3211542e030b5027b8595815edee27d702dd3cf1afa21b3c5e01a5"
+        },
+        {
+          "scene_id": "source-3041",
+          "panel": 6,
+          "row": 2,
+          "column": 2,
+          "crop": [
+            385,
+            257,
+            767,
+            511
+          ],
+          "image": "images/laboratory-001-06.webp",
+          "sha256": "b85bbddcc6ceeee04d4f94864982bdf732be75ede4f83b5c6ea09d4422d89f3f"
+        },
+        {
+          "scene_id": "source-3047",
+          "panel": 7,
+          "row": 2,
+          "column": 3,
+          "crop": [
+            769,
+            257,
+            1151,
+            511
+          ],
+          "image": "images/laboratory-001-07.webp",
+          "sha256": "6e734a56be62a5c0df9a2f2adb489b3f8e82e473b7360b76e7c8f897fff9c056"
+        },
+        {
+          "scene_id": "source-3051",
+          "panel": 8,
+          "row": 2,
+          "column": 4,
+          "crop": [
+            1153,
+            257,
+            1535,
+            511
+          ],
+          "image": "images/laboratory-001-08.webp",
+          "sha256": "ae5814de74b964b902b22292011932dcd31da712adf3013b329e892ddd8ca81b"
+        },
+        {
+          "scene_id": "source-3055",
+          "panel": 9,
+          "row": 3,
+          "column": 1,
+          "crop": [
+            1,
+            513,
+            383,
+            767
+          ],
+          "image": "images/laboratory-001-09.webp",
+          "sha256": "ee001c87f5f7b0c96d03b29ec75f6bfb8df0c8fece094089329c3ff2e7704ccf"
+        },
+        {
+          "scene_id": "source-3059",
+          "panel": 10,
+          "row": 3,
+          "column": 2,
+          "crop": [
+            385,
+            513,
+            767,
+            767
+          ],
+          "image": "images/laboratory-001-10.webp",
+          "sha256": "8b8190eedf03052fecf809c208af85264c8a2b9afc8faa0edc3e851dfce8e1fd"
+        },
+        {
+          "scene_id": "source-3063",
+          "panel": 11,
+          "row": 3,
+          "column": 3,
+          "crop": [
+            769,
+            513,
+            1151,
+            767
+          ],
+          "image": "images/laboratory-001-11.webp",
+          "sha256": "ed112a03306d03f5fc368410b93e4633f0f392c1c887852696f917529f67412b"
+        },
+        {
+          "scene_id": "source-3067",
+          "panel": 12,
+          "row": 3,
+          "column": 4,
+          "crop": [
+            1153,
+            513,
+            1535,
+            767
+          ],
+          "image": "images/laboratory-001-12.webp",
+          "sha256": "9f54f2d5cd2619c53543aee15cd2a2bddcc9bbf2b307c46cd9f8936039e1c8b5"
+        },
+        {
+          "scene_id": "source-3073",
+          "panel": 13,
+          "row": 4,
+          "column": 1,
+          "crop": [
+            1,
+            769,
+            383,
+            1023
+          ],
+          "image": "images/laboratory-001-13.webp",
+          "sha256": "72a236dd32797717f009adf47170c0f504a944eef799b317c3c6592f4a9539a8"
+        },
+        {
+          "scene_id": "source-3079",
+          "panel": 14,
+          "row": 4,
+          "column": 2,
+          "crop": [
+            385,
+            769,
+            767,
+            1023
+          ],
+          "image": "images/laboratory-001-14.webp",
+          "sha256": "312406e27a41562d8c7ba8ec35e48296229bacf74a10f69a19781dc5133e2619"
+        },
+        {
+          "scene_id": "source-3083",
+          "panel": 15,
+          "row": 4,
+          "column": 3,
+          "crop": [
+            769,
+            769,
+            1151,
+            1023
+          ],
+          "image": "images/laboratory-001-15.webp",
+          "sha256": "556e67b2a78d2005deebbd16a71aaa7c4bc90eca15352ff3dba6b3c847721164"
+        },
+        {
+          "scene_id": "source-3087",
+          "panel": 16,
+          "row": 4,
+          "column": 4,
+          "crop": [
+            1153,
+            769,
+            1535,
+            1023
+          ],
+          "image": "images/laboratory-001-16.webp",
+          "sha256": "bd197de050503d0702aa86875b7e04115cc84318e14851374a968d2fc5d557ef"
+        }
+      ]
     },
     {
-      "scene_id": "source-3015",
-      "panel": 2,
-      "row": 1,
-      "column": 2,
-      "crop": [
-        385,
-        1,
-        767,
-        255
+      "source_image": "source_images/act-02-03-grid-002.png",
+      "source_size": [
+        1261,
+        1247
       ],
-      "image": "images/laboratory-001-02.webp",
-      "sha256": "b729674117f61eff7c2819ca47e158d22d0ee0d173b4e32336e46abd040530ad"
-    },
-    {
-      "scene_id": "source-3019",
-      "panel": 3,
-      "row": 1,
-      "column": 3,
-      "crop": [
-        769,
-        1,
-        1151,
-        255
+      "grid": [
+        4,
+        4
       ],
-      "image": "images/laboratory-001-03.webp",
-      "sha256": "a2442d7ef01cd5df18979d8bd81be7514f7eeadfcf908f24221d8280ea7aedb3"
-    },
-    {
-      "scene_id": "source-3023",
-      "panel": 4,
-      "row": 1,
-      "column": 4,
-      "crop": [
-        1153,
-        1,
-        1535,
-        255
-      ],
-      "image": "images/laboratory-001-04.webp",
-      "sha256": "b5e92991b454ea16ee09da27d64312a34edc8ef57cd7e911eb1e399fc9275458"
-    },
-    {
-      "scene_id": "source-3031",
-      "panel": 5,
-      "row": 2,
-      "column": 1,
-      "crop": [
-        1,
-        257,
-        383,
-        511
-      ],
-      "image": "images/laboratory-001-05.webp",
-      "sha256": "f0018f0c2e3211542e030b5027b8595815edee27d702dd3cf1afa21b3c5e01a5"
-    },
-    {
-      "scene_id": "source-3041",
-      "panel": 6,
-      "row": 2,
-      "column": 2,
-      "crop": [
-        385,
-        257,
-        767,
-        511
-      ],
-      "image": "images/laboratory-001-06.webp",
-      "sha256": "b85bbddcc6ceeee04d4f94864982bdf732be75ede4f83b5c6ea09d4422d89f3f"
-    },
-    {
-      "scene_id": "source-3047",
-      "panel": 7,
-      "row": 2,
-      "column": 3,
-      "crop": [
-        769,
-        257,
-        1151,
-        511
-      ],
-      "image": "images/laboratory-001-07.webp",
-      "sha256": "6e734a56be62a5c0df9a2f2adb489b3f8e82e473b7360b76e7c8f897fff9c056"
-    },
-    {
-      "scene_id": "source-3051",
-      "panel": 8,
-      "row": 2,
-      "column": 4,
-      "crop": [
-        1153,
-        257,
-        1535,
-        511
-      ],
-      "image": "images/laboratory-001-08.webp",
-      "sha256": "ae5814de74b964b902b22292011932dcd31da712adf3013b329e892ddd8ca81b"
-    },
-    {
-      "scene_id": "source-3055",
-      "panel": 9,
-      "row": 3,
-      "column": 1,
-      "crop": [
-        1,
-        513,
-        383,
-        767
-      ],
-      "image": "images/laboratory-001-09.webp",
-      "sha256": "ee001c87f5f7b0c96d03b29ec75f6bfb8df0c8fece094089329c3ff2e7704ccf"
-    },
-    {
-      "scene_id": "source-3059",
-      "panel": 10,
-      "row": 3,
-      "column": 2,
-      "crop": [
-        385,
-        513,
-        767,
-        767
-      ],
-      "image": "images/laboratory-001-10.webp",
-      "sha256": "8b8190eedf03052fecf809c208af85264c8a2b9afc8faa0edc3e851dfce8e1fd"
-    },
-    {
-      "scene_id": "source-3063",
-      "panel": 11,
-      "row": 3,
-      "column": 3,
-      "crop": [
-        769,
-        513,
-        1151,
-        767
-      ],
-      "image": "images/laboratory-001-11.webp",
-      "sha256": "ed112a03306d03f5fc368410b93e4633f0f392c1c887852696f917529f67412b"
-    },
-    {
-      "scene_id": "source-3067",
-      "panel": 12,
-      "row": 3,
-      "column": 4,
-      "crop": [
-        1153,
-        513,
-        1535,
-        767
-      ],
-      "image": "images/laboratory-001-12.webp",
-      "sha256": "9f54f2d5cd2619c53543aee15cd2a2bddcc9bbf2b307c46cd9f8936039e1c8b5"
-    },
-    {
-      "scene_id": "source-3073",
-      "panel": 13,
-      "row": 4,
-      "column": 1,
-      "crop": [
-        1,
-        769,
-        383,
-        1023
-      ],
-      "image": "images/laboratory-001-13.webp",
-      "sha256": "72a236dd32797717f009adf47170c0f504a944eef799b317c3c6592f4a9539a8"
-    },
-    {
-      "scene_id": "source-3079",
-      "panel": 14,
-      "row": 4,
-      "column": 2,
-      "crop": [
-        385,
-        769,
-        767,
-        1023
-      ],
-      "image": "images/laboratory-001-14.webp",
-      "sha256": "312406e27a41562d8c7ba8ec35e48296229bacf74a10f69a19781dc5133e2619"
-    },
-    {
-      "scene_id": "source-3083",
-      "panel": 15,
-      "row": 4,
-      "column": 3,
-      "crop": [
-        769,
-        769,
-        1151,
-        1023
-      ],
-      "image": "images/laboratory-001-15.webp",
-      "sha256": "556e67b2a78d2005deebbd16a71aaa7c4bc90eca15352ff3dba6b3c847721164"
-    },
-    {
-      "scene_id": "source-3087",
-      "panel": 16,
-      "row": 4,
-      "column": 4,
-      "crop": [
-        1153,
-        769,
-        1535,
-        1023
-      ],
-      "image": "images/laboratory-001-16.webp",
-      "sha256": "bd197de050503d0702aa86875b7e04115cc84318e14851374a968d2fc5d557ef"
+      "records": [
+        {
+          "scene_id": "source-3093",
+          "panel": 1,
+          "row": 1,
+          "column": 1,
+          "crop": [
+            1,
+            1,
+            314,
+            311
+          ],
+          "image": "images/laboratory-002-01.webp",
+          "sha256": "bcea3323f45a4a915f601269adbc6a3aef9e3f2a5b220b160495ffd0941fbbf9"
+        },
+        {
+          "scene_id": "source-3097",
+          "panel": 2,
+          "row": 1,
+          "column": 2,
+          "crop": [
+            316,
+            1,
+            629,
+            311
+          ],
+          "image": "images/laboratory-002-02.webp",
+          "sha256": "a891c36c34f982122fd068c35d33092816a8978f34d393943c70f8d564429d32"
+        },
+        {
+          "scene_id": "source-3101",
+          "panel": 3,
+          "row": 1,
+          "column": 3,
+          "crop": [
+            631,
+            1,
+            945,
+            311
+          ],
+          "image": "images/laboratory-002-03.webp",
+          "sha256": "b78fb59f6c2fd04f0e3ab997724ffedcb6601401cbd17d1fa405c2745deb7fc8"
+        },
+        {
+          "scene_id": "source-3107",
+          "panel": 4,
+          "row": 1,
+          "column": 4,
+          "crop": [
+            947,
+            1,
+            1260,
+            311
+          ],
+          "image": "images/laboratory-002-04.webp",
+          "sha256": "981e1441c15aa250ea3b60d3cc6d05e62ba19e15799cdb0a1c67affc8169e07b"
+        },
+        {
+          "scene_id": "source-3111",
+          "panel": 5,
+          "row": 2,
+          "column": 1,
+          "crop": [
+            1,
+            313,
+            314,
+            623
+          ],
+          "image": "images/laboratory-002-05.webp",
+          "sha256": "b7aa529e5c0f391bfa17842a965799c50d8b8df6c8c9f32e2f6ffc9124204354"
+        },
+        {
+          "scene_id": "source-3117",
+          "panel": 6,
+          "row": 2,
+          "column": 2,
+          "crop": [
+            316,
+            313,
+            629,
+            623
+          ],
+          "image": "images/laboratory-002-06.webp",
+          "sha256": "ca657073d0a3fc01c7aa723d007e31427f2f2b953c00803161c236aed3b903a0"
+        },
+        {
+          "scene_id": "source-3127",
+          "panel": 7,
+          "row": 2,
+          "column": 3,
+          "crop": [
+            631,
+            313,
+            945,
+            623
+          ],
+          "image": "images/laboratory-002-07.webp",
+          "sha256": "9230683a3313b14b4732d6c539bfadf9fa2a138e34a39e85f441ffb4ddd0542f"
+        },
+        {
+          "scene_id": "source-3133",
+          "panel": 8,
+          "row": 2,
+          "column": 4,
+          "crop": [
+            947,
+            313,
+            1260,
+            623
+          ],
+          "image": "images/laboratory-002-08.webp",
+          "sha256": "ad5fffc8fba06d59a122ccf5e5b207b28720b0ac728b9d684a440a197ebba3e2"
+        },
+        {
+          "scene_id": "source-3137",
+          "panel": 9,
+          "row": 3,
+          "column": 1,
+          "crop": [
+            1,
+            625,
+            314,
+            934
+          ],
+          "image": "images/laboratory-002-09.webp",
+          "sha256": "d083be05c6ce4a20ebc4cee29edb51eca93e963f443b55a990a2eb87eafb76ee"
+        },
+        {
+          "scene_id": "source-3141",
+          "panel": 10,
+          "row": 3,
+          "column": 2,
+          "crop": [
+            316,
+            625,
+            629,
+            934
+          ],
+          "image": "images/laboratory-002-10.webp",
+          "sha256": "376c779e5541cc0f5b4653b7a405546386bc6ca177897468a9d3f6e1b1d1c1d3"
+        },
+        {
+          "scene_id": "source-3145",
+          "panel": 11,
+          "row": 3,
+          "column": 3,
+          "crop": [
+            631,
+            625,
+            945,
+            934
+          ],
+          "image": "images/laboratory-002-11.webp",
+          "sha256": "4d0061576685bd3b2fe348180b84fcc4497260dac30f06e1b736a4de73519918"
+        },
+        {
+          "scene_id": "source-3151",
+          "panel": 12,
+          "row": 3,
+          "column": 4,
+          "crop": [
+            947,
+            625,
+            1260,
+            934
+          ],
+          "image": "images/laboratory-002-12.webp",
+          "sha256": "22b60aae4c107724e7ebae8315b47208f717927b6eae726b39b482651803abe1"
+        },
+        {
+          "scene_id": "source-3157",
+          "panel": 13,
+          "row": 4,
+          "column": 1,
+          "crop": [
+            1,
+            936,
+            314,
+            1246
+          ],
+          "image": "images/laboratory-002-13.webp",
+          "sha256": "a8052052489282cf32e95bcb4aac0aae85f8e215bd62233411b6e452aa4587d6"
+        },
+        {
+          "scene_id": "source-3161",
+          "panel": 14,
+          "row": 4,
+          "column": 2,
+          "crop": [
+            316,
+            936,
+            629,
+            1246
+          ],
+          "image": "images/laboratory-002-14.webp",
+          "sha256": "2b6a231de6f088af171d938d17feaa27d252869e1c75bfb1d27c7f0da0c907f1"
+        },
+        {
+          "scene_id": "source-3165",
+          "panel": 15,
+          "row": 4,
+          "column": 3,
+          "crop": [
+            631,
+            936,
+            945,
+            1246
+          ],
+          "image": "images/laboratory-002-15.webp",
+          "sha256": "2219a9c5a3c36da026524af5e57be9ac6486a2ad1fe028873ad156087e4ac9c2"
+        },
+        {
+          "scene_id": "source-3169",
+          "panel": 16,
+          "row": 4,
+          "column": 4,
+          "crop": [
+            947,
+            936,
+            1260,
+            1246
+          ],
+          "image": "images/laboratory-002-16.webp",
+          "sha256": "683aee58ee563b79c7ec2a5a0239d0b70d3226e4ea33ddc472882217734db877"
+        }
+      ]
     }
-  ]
+  ],
+  "completed_source_panels": 32,
+  "total_source_panels": 50,
+  "remaining_source_panels": 18,
+  "source_translation_preserved": true
 }
