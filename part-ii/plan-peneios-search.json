@@ -1,0 +1,25 @@
+{
+ "batch_id":"peneios-search", "grid":[4,4],
+ "source_image":"source_images/act-02-05-grid-003.png",
+ "references":["character-faust","character-mephistopheles-scholar","character-ii-sphinx","group-ii-sirens","group-ii-stymphalides","group-ii-hydra-heads","group-ii-lamiae"],
+ "generation_reference_images":["part-ii/source_images/act-02-transition-004-005-grid-001.png","part-ii/source_images/act-02-05-grid-002.png","art-bible/group-ii-stymphalides.png","art-bible/group-ii-hydra-heads.png","art-bible/group-ii-lamiae.png"],
+ "generation_reference_note":"기존 인물은 직전 확정 그리드로 참조하고 새 존재 세 종류는 기준 시트를 직접 첨부한다. 입력 이미지 최대 5장.",
+ "scenes":[
+ {"section":"act-02-05","scene_id":"source-3542","description":"스핑크스의 비꼬는 말 뒤로 파우스트가 돌아와 기이한 존재들을 감탄하며 바라본다.","framing":"파우스트 등장 중경"},
+ {"section":"act-02-05","scene_id":"source-3548","description":"파우스트가 스핑크스와 세이렌을 바라보며 옛 신화의 기억을 떠올린다. 오이디푸스나 오디세우스를 실제로 추가하지 않는다.","framing":"파우스트 어깨 너머 신화 존재들"},
+ {"section":"act-02-05","scene_id":"source-3552","description":"옛 형상과 기억에 힘을 얻은 파우스트가 기대에 찬 눈빛으로 주위를 살핀다.","framing":"파우스트 얼굴 클로즈업"},
+ {"section":"act-02-05","scene_id":"source-3556","description":"메피스토가 사랑하는 이를 찾는 파우스트라면 괴물도 반갑겠다며 놀린다.","framing":"두 남자의 대화 투 숏"},
+ {"section":"act-02-05","scene_id":"source-3562","description":"파우스트가 헬레네를 본 적 있는지 묻는다. 스핑크스들이 자신들의 시대와 다르다고 답한다.","framing":"파우스트와 스핑크스 중경"},
+ {"section":"act-02-05","scene_id":"source-3570","description":"스핑크스가 케이론에게 물어보라며 길을 알려 주고 가지 위 세이렌도 끼어든다. 케이론은 아직 그리지 않는다.","framing":"스핑크스의 길 안내 손짓 대신 앞발·멀리 나무"},
+ {"section":"act-02-05","scene_id":"source-3576","description":"세이렌이 오디세우스와 나누었던 이야기를 내세워 파우스트를 유혹한다. 회상 인물을 새로 그리지 않는다.","framing":"가지 위 세이렌 노래 클로즈업"},
+ {"section":"act-02-05","scene_id":"source-3580","description":"세이렌이 바다 쪽으로 오라고 초대하지만 스핑크스가 파우스트에게 속지 말라고 경고한다.","framing":"상하 깊이감·세이렌과 스핑크스"},
+ {"section":"act-02-05","scene_id":"source-3586","description":"스핑크스가 케이론을 찾으라고 조언하고 메피스토는 날갯소리에 고개를 든다.","framing":"메피스토 올려다보는 얼굴"},
+ {"section":"act-02-05","scene_id":"source-3592","description":"빠른 새들이 잇달아 날아가는 모습을 메피스토가 쫓아본다.","framing":"하늘의 연속 비행 와이드"},
+ {"section":"act-02-05","scene_id":"source-3598","description":"독수리 부리와 거위 발을 지닌 스팀팔로스의 새를 스핑크스가 설명한다.","framing":"새 부리와 물갈퀴 발 디테일"},
+ {"section":"act-02-05","scene_id":"source-3602","description":"새들의 인사 사이로 쉭쉭거리는 다른 존재가 끼어든다. 메피스토가 바라본다.","framing":"메피스토와 먼 뱀 머리 환영"},
+ {"section":"act-02-05","scene_id":"source-3610","description":"몸에서 떨어진 레르나 뱀의 머리들이 안개처럼 떠다닌다. 피나 상처는 그리지 않는다.","framing":"뱀 머리 환영 클로즈업"},
+ {"section":"act-02-05","scene_id":"source-3614","description":"스핑크스가 메피스토의 돌아가는 시선을 알아차리고 관심 가는 무리에 가 보라고 한다.","framing":"메피스토 돌아보는 중경"},
+ {"section":"act-02-05","scene_id":"source-3618","description":"멀리 라미아들이 웃으며 모여 있다. 스핑크스가 그 무리를 설명한다.","framing":"라미아 무리 전경"},
+ {"section":"act-02-05","scene_id":"source-3622","description":"메피스토가 돌아와도 여기 있을지 묻자 스핑크스들은 자리를 지키겠다고 답한다.","framing":"떠나려는 메피스토와 앉은 스핑크스 와이드"}
+ ]
+}

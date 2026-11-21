@@ -5946,6 +5946,81 @@
       "status": "draft_visual"
     },
     {
+      "id": "group-ii-stymphalides",
+      "kind": "character",
+      "name": "스팀팔로스의 새",
+      "source_name": "STYMPHALIDEN",
+      "image": "group-ii-stymphalides.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "독수리 부리",
+        "거위 물갈퀴 발",
+        "먹빛 청동 깃털",
+        "빠른 비행"
+      ],
+      "canonical_note": "메피스토의 시선 위로 새들이 잇달아 날아간다. 스핑크스는 독수리 같은 부리와 거위 같은 발을 지닌 스팀팔로스의 새라고 설명한다. 날개의 속도와 길게 이어지는 비행으로 등장 순간을 잡았다. 깃털의 색과 세부 형태는 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-05.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-hydra-heads",
+      "kind": "character",
+      "name": "레르나 뱀의 머리",
+      "source_name": "LERNÄISCHE SCHLANGE",
+      "image": "group-ii-hydra-heads.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "녹흑색 비늘",
+        "금빛 눈",
+        "갈라진 혀",
+        "안개로 끝나는 짧은 목"
+      ],
+      "canonical_note": "빠른 날갯소리 사이로 이번에는 쉭쉭거리는 소리가 들린다. 원문은 몸에서 떨어진 레르나 뱀의 머리들이라고 설명한다. 밤의 환영처럼 떠다니는 머리와 안개로 표현해 피나 상처 없이 구별할 수 있도록 했다. 색과 안개 처리 방식은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-05.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-lamiae",
+      "kind": "character",
+      "name": "라미아",
+      "source_name": "LAMIEN",
+      "image": "group-ii-lamiae.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "성인 여성",
+        "긴 적갈색 웨이브 머리",
+        "금빛 눈",
+        "자주색 고전 드레이프 의상"
+      ],
+      "canonical_note": "메피스토는 대화를 하다가도 다른 쪽으로 자꾸 고개를 돌린다. 스핑크스가 그 시선을 따라가며 라미아들의 무리라고 알려 준다. 웃는 얼굴과 당당한 자세를 중심으로 그려 메피스토가 무엇에 관심을 빼앗겼는지 보여 준다. 머리와 의상 색상은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-05.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
       "id": "group-ii-sirens",
       "kind": "character",
       "name": "세이렌",

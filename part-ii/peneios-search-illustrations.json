@@ -1,0 +1,304 @@
+{
+  "source_image": "source_images/act-02-05-grid-003.png",
+  "source_size": [
+    1670,
+    941
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-faust",
+    "character-mephistopheles-scholar",
+    "character-ii-sphinx",
+    "group-ii-sirens",
+    "group-ii-stymphalides",
+    "group-ii-hydra-heads",
+    "group-ii-lamiae"
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/act-02-transition-004-005-grid-001.png",
+    "part-ii/source_images/act-02-05-grid-002.png",
+    "art-bible/group-ii-stymphalides.png",
+    "art-bible/group-ii-hydra-heads.png",
+    "art-bible/group-ii-lamiae.png"
+  ],
+  "generation_reference_note": "기존 인물은 직전 확정 그리드로 참조하고 새 존재 세 종류는 기준 시트를 직접 첨부한다. 입력 이미지 최대 5장.",
+  "records": [
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3542",
+      "description": "스핑크스의 비꼬는 말 뒤로 파우스트가 돌아와 기이한 존재들을 감탄하며 바라본다.",
+      "framing": "파우스트 등장 중경",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        417,
+        234
+      ],
+      "image": "images/peneios-search-01.webp",
+      "sha256": "6d07c1ae84c75b1bdd8ba99d605292244e89dc6e99d559124b3f53c30591ded7"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3548",
+      "description": "파우스트가 스핑크스와 세이렌을 바라보며 옛 신화의 기억을 떠올린다. 오이디푸스나 오디세우스를 실제로 추가하지 않는다.",
+      "framing": "파우스트 어깨 너머 신화 존재들",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        419,
+        1,
+        834,
+        234
+      ],
+      "image": "images/peneios-search-02.webp",
+      "sha256": "ff7475d45fe6cc0bede849b5e56a66cff135dd103d83043b3a250fefe017b1c3"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3552",
+      "description": "옛 형상과 기억에 힘을 얻은 파우스트가 기대에 찬 눈빛으로 주위를 살핀다.",
+      "framing": "파우스트 얼굴 클로즈업",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        836,
+        1,
+        1251,
+        234
+      ],
+      "image": "images/peneios-search-03.webp",
+      "sha256": "3b8dc4e713517233c7d9917c8ae0fcf40d6ab91d023820a0c25a80c64fc69a8d"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3556",
+      "description": "메피스토가 사랑하는 이를 찾는 파우스트라면 괴물도 반갑겠다며 놀린다.",
+      "framing": "두 남자의 대화 투 숏",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1253,
+        1,
+        1669,
+        234
+      ],
+      "image": "images/peneios-search-04.webp",
+      "sha256": "808795b22bcb12b2a72e6adf0393787c4e8323ecf9e607e17cb4ca4e5c28efde"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3562",
+      "description": "파우스트가 헬레네를 본 적 있는지 묻는다. 스핑크스들이 자신들의 시대와 다르다고 답한다.",
+      "framing": "파우스트와 스핑크스 중경",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        236,
+        417,
+        469
+      ],
+      "image": "images/peneios-search-05.webp",
+      "sha256": "16595502a5d3ac407bd96c1377e1dfbb90fed8499b7a9eb40e2028e536a1f8d9"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3570",
+      "description": "스핑크스가 케이론에게 물어보라며 길을 알려 주고 가지 위 세이렌도 끼어든다. 케이론은 아직 그리지 않는다.",
+      "framing": "스핑크스의 길 안내 손짓 대신 앞발·멀리 나무",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        419,
+        236,
+        834,
+        469
+      ],
+      "image": "images/peneios-search-06.webp",
+      "sha256": "3461deaa0ef1d8dbb3ae21922863140d21d939e4ec576be16a34d612ec41407e"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3576",
+      "description": "세이렌이 오디세우스와 나누었던 이야기를 내세워 파우스트를 유혹한다. 회상 인물을 새로 그리지 않는다.",
+      "framing": "가지 위 세이렌 노래 클로즈업",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        836,
+        236,
+        1251,
+        469
+      ],
+      "image": "images/peneios-search-07.webp",
+      "sha256": "6f35949c1772be7ec01c039991a6595fe8a46bbe12bdbbdc86215c436faed114"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3580",
+      "description": "세이렌이 바다 쪽으로 오라고 초대하지만 스핑크스가 파우스트에게 속지 말라고 경고한다.",
+      "framing": "상하 깊이감·세이렌과 스핑크스",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1253,
+        236,
+        1669,
+        469
+      ],
+      "image": "images/peneios-search-08.webp",
+      "sha256": "d30ad79da195fa515a4ccaa47b4fd876e53f919d673c33fee2491e218fbf9f4c"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3586",
+      "description": "스핑크스가 케이론을 찾으라고 조언하고 메피스토는 날갯소리에 고개를 든다.",
+      "framing": "메피스토 올려다보는 얼굴",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        471,
+        417,
+        705
+      ],
+      "image": "images/peneios-search-09.webp",
+      "sha256": "1b9b26c44ce3b1f6877919b333f9d3a1a85f60e7ded6ea2be6cd5b032cc3e2fa"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3592",
+      "description": "빠른 새들이 잇달아 날아가는 모습을 메피스토가 쫓아본다.",
+      "framing": "하늘의 연속 비행 와이드",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        419,
+        471,
+        834,
+        705
+      ],
+      "image": "images/peneios-search-10.webp",
+      "sha256": "83b1558947b0d6da9b5a00a9c89e81fce1c79ef5541454a485be5ff52d7c5989"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3598",
+      "description": "독수리 부리와 거위 발을 지닌 스팀팔로스의 새를 스핑크스가 설명한다.",
+      "framing": "새 부리와 물갈퀴 발 디테일",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        836,
+        471,
+        1251,
+        705
+      ],
+      "image": "images/peneios-search-11.webp",
+      "sha256": "31f9dcf9d5db8ff5c7e1ec63ce28699c273300b7b5e49ff8695fc7310ea284ac"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3602",
+      "description": "새들의 인사 사이로 쉭쉭거리는 다른 존재가 끼어든다. 메피스토가 바라본다.",
+      "framing": "메피스토와 먼 뱀 머리 환영",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1253,
+        471,
+        1669,
+        705
+      ],
+      "image": "images/peneios-search-12.webp",
+      "sha256": "c451ea6f973df29d36e1f24c862dec7f1f68b10a166bb9c816a5ac770ee834df"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3610",
+      "description": "몸에서 떨어진 레르나 뱀의 머리들이 안개처럼 떠다닌다. 피나 상처는 그리지 않는다.",
+      "framing": "뱀 머리 환영 클로즈업",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        707,
+        417,
+        940
+      ],
+      "image": "images/peneios-search-13.webp",
+      "sha256": "d64187f5482f6638a727a9213bf451f740b1e8c0e9390b18574b045fc1f55c53"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3614",
+      "description": "스핑크스가 메피스토의 돌아가는 시선을 알아차리고 관심 가는 무리에 가 보라고 한다.",
+      "framing": "메피스토 돌아보는 중경",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        419,
+        707,
+        834,
+        940
+      ],
+      "image": "images/peneios-search-14.webp",
+      "sha256": "5203f94b8263fded872ca63ddc0d7dfad1130371ef8470f441a8daaca8499c81"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3618",
+      "description": "멀리 라미아들이 웃으며 모여 있다. 스핑크스가 그 무리를 설명한다.",
+      "framing": "라미아 무리 전경",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        836,
+        707,
+        1251,
+        940
+      ],
+      "image": "images/peneios-search-15.webp",
+      "sha256": "ca930b41813f17018675d86043035c410fbe725907a1fab1a21dcad15112cb30"
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3622",
+      "description": "메피스토가 돌아와도 여기 있을지 묻자 스핑크스들은 자리를 지키겠다고 답한다.",
+      "framing": "떠나려는 메피스토와 앉은 스핑크스 와이드",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1253,
+        707,
+        1669,
+        940
+      ],
+      "image": "images/peneios-search-16.webp",
+      "sha256": "5a4d64832befdf37eb38a4679b29198fb0ee34b64d582d70e0d167a3182a70c2"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
