@@ -9,7 +9,7 @@ from urllib.request import urlopen
 root=Path(__file__).resolve().parents[1]
 manifest_path=Path(sys.argv[1])
 manifest=json.loads(manifest_path.read_text(encoding='utf-8'))
-revision=subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip()
+revision=subprocess.check_output(['git','-c','safe.directory='+root.as_posix(),'rev-parse','HEAD'],cwd=root,text=True).strip()
 paths=['part-ii/'+r['image'] for r in manifest['records']]
 paths+=['part-ii/'+s+'.html' for s in sorted({r['section'] for r in manifest['records']})]
 paths+=['part-ii/illustration-progress.json','art-bible/reference-index.json','art-bible/index.html']
