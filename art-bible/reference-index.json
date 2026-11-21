@@ -6146,6 +6146,79 @@
         "../part-ii/act-02-05.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-peneios",
+      "kind": "character",
+      "name": "페네이오스",
+      "source_name": "PENEIOS",
+      "image": "character-ii-peneios.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "은회색 머리와 짧은 수염",
+        "청록 드레이프",
+        "갈대 관"
+      ],
+      "canonical_note": "강가의 갈대와 버드나무가 속삭이는 곳에서 페네이오스가 말을 건넨다. 고요히 쉬고 싶지만 수면 아래로 전해지는 떨림 때문에 잠에서 깬다. 강과 이어진 옷자락과 차분한 색상은 창작 시각화이며 원문은 목소리와 주변의 움직임을 기준으로 삼았다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-06.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-nymphs",
+      "kind": "character",
+      "name": "님프",
+      "source_name": "NYMPHEN",
+      "image": "group-ii-nymphs.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "성인 여성",
+        "긴 청록 머리",
+        "상아색과 옅은 물빛의 단정한 드레이프"
+      ],
+      "canonical_note": "님프들은 지친 파우스트에게 쉬라고 권한다. 물소리와 속삭임이 겹치는 분위기를 부드러운 자세와 흐르는 옷자락으로 그렸다. 얼굴과 색상은 창작 시각화다. 목욕 장면도 성인 인물의 단정한 차림과 물의 반사로 표현한다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-06.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-swans",
+      "kind": "character",
+      "name": "백조",
+      "source_name": "SCHWÄNE",
+      "image": "group-ii-swans.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "흰 깃털",
+        "긴 목",
+        "주황색과 검은색 부리",
+        "물갈퀴 발"
+      ],
+      "canonical_note": "파우스트가 무성한 잎 너머를 바라볼 때 백조들이 만에서 헤엄쳐 나온다. 그중 한 마리가 가슴을 세우고 무리 사이를 빠르게 지난다. 신화적 정체를 확정하지 않고 원문에 보이는 백조의 자세와 움직임을 기준으로 삼았다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-06.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"

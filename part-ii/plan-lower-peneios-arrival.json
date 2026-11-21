@@ -1,0 +1,104 @@
+{
+  "batch_id": "lower-peneios-arrival",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/act-02-transition-005-006-grid-001.png",
+  "references": [
+    "character-ii-sphinx",
+    "character-faust",
+    "character-ii-peneios",
+    "group-ii-nymphs",
+    "group-ii-swans"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-ii-sphinx.png",
+    "art-bible/character-faust.png",
+    "art-bible/character-ii-peneios.png",
+    "art-bible/group-ii-nymphs.png",
+    "art-bible/group-ii-swans.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3630",
+      "description": "스핑크스가 움직이지 않고 달과 해의 시간을 말한다. 피라미드는 대화 속 설명이므로 현재 강가를 유지한다."
+    },
+    {
+      "section": "act-02-05",
+      "scene_id": "source-3633",
+      "description": "스핑크스가 홍수와 전쟁과 평화에도 표정을 바꾸지 않는 태도로 강가에 앉아 있다. 실제 전쟁을 추가하지 않는다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3639",
+      "description": "페네이오스가 갈대와 버드나무에 조용히 속삭이라고 말한다. 강의 신과 하류의 갈대숲을 보여 준다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3645",
+      "description": "포플러 잎이 떨리고 페네이오스가 불안한 기운에 잠에서 깬다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3649",
+      "description": "파우스트가 덤불과 나뭇가지 너머에서 들리는 소리에 귀를 기울인다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3655",
+      "description": "물결과 바람이 사람 목소리처럼 들리는 가운데 님프가 파우스트에게 말을 건다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3661",
+      "description": "님프가 서늘한 강가에서 피곤한 몸을 쉬라고 파우스트를 초대한다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3665",
+      "description": "님프들이 물소리와 함께 속삭이지만 파우스트는 깨어 있다고 답한다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3671",
+      "description": "파우스트가 강가의 형상을 바라보며 꿈인지 기억인지 생각한다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3675",
+      "description": "천천히 흐르는 물이 무성한 덤불 사이를 지난다. 잎과 물의 디테일을 담는다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3679",
+      "description": "작은 샘들이 맑은 얕은 물가로 모인다. 성인 님프는 단정한 드레이프 차림으로 물에 있다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3683",
+      "description": "단정한 드레이프 차림의 성인 님프들이 물을 헤엄치거나 얕은 곳을 걷고 수면에 비친다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3687",
+      "description": "성인 님프들의 물장난에도 파우스트의 시선은 더 먼 곳으로 향한다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3691",
+      "description": "잎이 무성한 곳에 가려진 여왕을 찾는 파우스트의 시선과 다가오는 백조를 보여 준다. 여왕의 얼굴은 드러내지 않는다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3695",
+      "description": "백조들이 만에서 고요하고 우아하게 헤엄쳐 나온다."
+    },
+    {
+      "section": "act-02-06",
+      "scene_id": "source-3699",
+      "description": "한 백조가 목과 가슴을 당당히 세우고 무리 사이를 빠르게 지나간다."
+    }
+  ]
+}
