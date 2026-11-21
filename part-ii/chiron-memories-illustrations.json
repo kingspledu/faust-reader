@@ -1,0 +1,280 @@
+{
+  "source_image": "source_images/act-02-07-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-faust",
+    "character-ii-chiron"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-faust.png",
+    "art-bible/character-ii-chiron.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3795",
+      "description": "케이론이 영웅들은 각자의 장점으로 서로 부족한 곳을 채웠다고 말한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/chiron-memories-01.webp",
+      "sha256": "296528d4848512cc13959160cf1244a97b5b758c3ec113d257667f10ee1373cc"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3800",
+      "description": "케이론이 두 형제와 보레아스의 아들들의 장점을 설명하고 파우스트가 귀를 기울인다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/chiron-memories-02.webp",
+      "sha256": "113ca90162bdef8c4c765fba12eb33cb7f21c4ae7a0454845dc5841aaf94ba98"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3804",
+      "description": "케이론이 이아손과 오르페우스를 이야기한다. 회상 인물을 실제로 등장시키지 않는다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/chiron-memories-03.webp",
+      "sha256": "043beecd3e7f2c675dc1e881be9eadcebcbfb4b33537814933301cc23b7e1326"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3808",
+      "description": "케이론이 항해와 협력의 가치를 이야기하며 강을 건넌다. 실제 아르고호를 추가하지 않는다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/chiron-memories-04.webp",
+      "sha256": "f9f57388d603ca1b5d0a554f524c96e549c648e77bbd3fa7016765eb2937f14e"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3812",
+      "description": "파우스트가 헤라클레스에 대해 묻자 케이론의 얼굴에 그리움이 어린다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/chiron-memories-05.webp",
+      "sha256": "cb91f57939af227d92fe3317a1e884c961d760bc04e327459e88de5e0611d521"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3820",
+      "description": "케이론이 헤라클레스에게서 느꼈던 위대함을 진지하게 말한다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/chiron-memories-06.webp",
+      "sha256": "b6f48ed6dc7635ab13467c1dd5e8515106bd75f55919806cc751b3696530e3ae"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3824",
+      "description": "케이론이 다시 보기 힘든 인물이었다며 회상을 이어 간다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/chiron-memories-07.webp",
+      "sha256": "a28759ebef992ef790f44cd98e6e24448d363e5ccdebfc1ea01635c709272743"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3828",
+      "description": "파우스트가 조각도 그 위대함을 충분히 보여 주지 못한다고 말한다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/chiron-memories-08.webp",
+      "sha256": "dbf4d8373ea35f1f02ee6477ed3ca88093b00b0be895e581f693c75491d87487"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3834",
+      "description": "파우스트가 가장 아름다운 여인에 대해 묻고 케이론이 되묻는다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/chiron-memories-09.webp",
+      "sha256": "a3c29e63b918d2d345e3b25dea8ccb105b13f11dafcaab3eb515c436405d4dd2"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3840",
+      "description": "케이론이 굳은 외모보다 생기와 우아함을 이야기한다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/chiron-memories-10.webp",
+      "sha256": "bc7a250874ed0c30b3c0080405be88c09373b9842974c8bc32b0fbdba2ca40b2"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3844",
+      "description": "케이론이 헬레네를 태운 적 있다고 밝히자 파우스트가 놀란다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/chiron-memories-11.webp",
+      "sha256": "501effb0debfaa467a82967bd6b1c0f681dc9c70c606606ad545445fd0cc5f47"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3854",
+      "description": "파우스트가 케이론의 갈기 같은 머리카락을 조심스레 잡고 같은 자리에 탔다는 말에 마음이 흔들린다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/chiron-memories-12.webp",
+      "sha256": "d18f4ef4b3e75d9aa6e846146834e3ca443d1c637b1fc694c5133fa5b8b78500"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3862",
+      "description": "파우스트가 어디에서 어디로 헬레네를 태웠는지 다급하게 묻는다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/chiron-memories-13.webp",
+      "sha256": "0e332457accc1b2b3142c9e20aea6a45128c4ea5ae01cce779b01856923725f7"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3868",
+      "description": "케이론이 헬레네의 형제들이 그녀를 구했던 일을 이야기한다. 어린 헬레네나 추격자는 그림에 추가하지 않는다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/chiron-memories-14.webp",
+      "sha256": "574d99cd09ffd0c1d1785c9ff36d9f2bab4628ba32c162b2d6f9ecc8977fed6a"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3872",
+      "description": "케이론이 늪과 강을 건넜던 기억을 설명한다. 현재 발굽 아래 물결로 장면을 잇는다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/chiron-memories-15.webp",
+      "sha256": "0ce7756752748f0cb69b1d0c43b33fde3e8606b1b20bc2c16379e5f2a2c23a6b"
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3876",
+      "description": "케이론이 그때의 감사 인사를 회상하고 파우스트가 나이를 듣고 놀란다. 어린 헬레네는 그리지 않는다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/chiron-memories-16.webp",
+      "sha256": "686a54b028b6702190bc19cf43b63a1699051f5320bf30c63e338480113b6411"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
