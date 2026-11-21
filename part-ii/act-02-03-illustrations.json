@@ -1,0 +1,242 @@
+{
+  "section": "act-02-03",
+  "source_image": "source_images/act-02-03-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "completed_source_panels": 16,
+  "total_source_panels": 50,
+  "remaining_source_panels": 34,
+  "source_translation_preserved": true,
+  "records": [
+    {
+      "scene_id": "source-3009",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/laboratory-001-01.webp",
+      "sha256": "6f0805e9a4b7ea684d22d0c17cd9ddfef5b869c6703e3d71b7af5d7c0f110d70"
+    },
+    {
+      "scene_id": "source-3015",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/laboratory-001-02.webp",
+      "sha256": "b729674117f61eff7c2819ca47e158d22d0ee0d173b4e32336e46abd040530ad"
+    },
+    {
+      "scene_id": "source-3019",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/laboratory-001-03.webp",
+      "sha256": "a2442d7ef01cd5df18979d8bd81be7514f7eeadfcf908f24221d8280ea7aedb3"
+    },
+    {
+      "scene_id": "source-3023",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/laboratory-001-04.webp",
+      "sha256": "b5e92991b454ea16ee09da27d64312a34edc8ef57cd7e911eb1e399fc9275458"
+    },
+    {
+      "scene_id": "source-3031",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/laboratory-001-05.webp",
+      "sha256": "f0018f0c2e3211542e030b5027b8595815edee27d702dd3cf1afa21b3c5e01a5"
+    },
+    {
+      "scene_id": "source-3041",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/laboratory-001-06.webp",
+      "sha256": "b85bbddcc6ceeee04d4f94864982bdf732be75ede4f83b5c6ea09d4422d89f3f"
+    },
+    {
+      "scene_id": "source-3047",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/laboratory-001-07.webp",
+      "sha256": "6e734a56be62a5c0df9a2f2adb489b3f8e82e473b7360b76e7c8f897fff9c056"
+    },
+    {
+      "scene_id": "source-3051",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/laboratory-001-08.webp",
+      "sha256": "ae5814de74b964b902b22292011932dcd31da712adf3013b329e892ddd8ca81b"
+    },
+    {
+      "scene_id": "source-3055",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/laboratory-001-09.webp",
+      "sha256": "ee001c87f5f7b0c96d03b29ec75f6bfb8df0c8fece094089329c3ff2e7704ccf"
+    },
+    {
+      "scene_id": "source-3059",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/laboratory-001-10.webp",
+      "sha256": "8b8190eedf03052fecf809c208af85264c8a2b9afc8faa0edc3e851dfce8e1fd"
+    },
+    {
+      "scene_id": "source-3063",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/laboratory-001-11.webp",
+      "sha256": "ed112a03306d03f5fc368410b93e4633f0f392c1c887852696f917529f67412b"
+    },
+    {
+      "scene_id": "source-3067",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/laboratory-001-12.webp",
+      "sha256": "9f54f2d5cd2619c53543aee15cd2a2bddcc9bbf2b307c46cd9f8936039e1c8b5"
+    },
+    {
+      "scene_id": "source-3073",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/laboratory-001-13.webp",
+      "sha256": "72a236dd32797717f009adf47170c0f504a944eef799b317c3c6592f4a9539a8"
+    },
+    {
+      "scene_id": "source-3079",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/laboratory-001-14.webp",
+      "sha256": "312406e27a41562d8c7ba8ec35e48296229bacf74a10f69a19781dc5133e2619"
+    },
+    {
+      "scene_id": "source-3083",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/laboratory-001-15.webp",
+      "sha256": "556e67b2a78d2005deebbd16a71aaa7c4bc90eca15352ff3dba6b3c847721164"
+    },
+    {
+      "scene_id": "source-3087",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/laboratory-001-16.webp",
+      "sha256": "bd197de050503d0702aa86875b7e04115cc84318e14851374a968d2fc5d557ef"
+    }
+  ]
+}
