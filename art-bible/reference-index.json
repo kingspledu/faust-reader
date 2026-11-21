@@ -6244,6 +6244,30 @@
         "../part-ii/act-02-06.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-manto",
+      "kind": "character",
+      "name": "만토",
+      "source_name": "MANTO",
+      "image": "character-ii-manto.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "짙은 잿빛 갈색 땋은 머리",
+        "회녹색 눈과 온화한 표정",
+        "상아색 고전 드레이프·세이지 숄"
+      ],
+      "canonical_note": "케이론이 멈춘 곳에는 달빛을 받은 신전이 있다. 계단에 울리는 발굽 소리를 들은 만토는 익숙한 방문객을 맞이하고 낯선 파우스트를 바라본다. 케이론은 파우스트를 치료받아야 할 사람으로 소개하지만 만토는 불가능한 것을 바라는 마음에 주목한다. 차분한 눈빛과 단정한 옷차림으로 두 사람의 말을 듣는 태도를 담았다. 머리와 의상, 색상은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-07.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"

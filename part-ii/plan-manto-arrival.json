@@ -1,0 +1,100 @@
+{
+  "batch_id": "manto-arrival",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/act-02-07-grid-002.png",
+  "references": [
+    "character-faust",
+    "character-ii-chiron",
+    "character-ii-manto"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-faust.png",
+    "art-bible/character-ii-chiron.png",
+    "art-bible/character-ii-manto.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3882",
+      "description": "케이론이 신화 속 인물의 시간은 시인의 필요에 따라 달라진다고 설명한다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3888",
+      "description": "케이론이 시인에게는 시간이 구속이 되지 않는다고 말을 잇는다. 헬레네의 모습을 새로 그리지 않는다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3892",
+      "description": "파우스트가 헬레네 또한 시간에 묶이지 않기를 바라며 반응한다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3898",
+      "description": "파우스트가 헬레네를 삶으로 불러오고 싶다는 열망을 말한다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3902",
+      "description": "파우스트가 그녀를 얻지 못하면 살 수 없다며 집착을 드러낸다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3906",
+      "description": "케이론이 파우스트의 격한 상태를 걱정하며 도울 방법을 말한다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3912",
+      "description": "케이론이 만토를 찾아가는 일을 설명한다. 아직 만토를 현재 장면에 넣지 않는다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3916",
+      "description": "케이론이 만토의 온화함을 말하며 앞으로 향한다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3920",
+      "description": "케이론이 치유를 권하지만 파우스트는 낫고 싶지 않다고 거절한다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3928",
+      "description": "강을 건너 도착한 케이론이 파우스트에게 내리라고 하고 파우스트가 강둑에 선다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3936",
+      "description": "케이론이 강과 산 사이의 옛 전투에 대해 설명한다. 현재 전쟁 장면으로 만들지 않는다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3940",
+      "description": "달빛 아래 신전이 드러나고 만토가 계단에서 발굽 소리를 듣는다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3946",
+      "description": "만토가 케이론을 맞이하고 케이론이 답한다. 파우스트는 곁에 서 있다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3956",
+      "description": "돌아다니는 케이론과 자리를 지키는 만토가 서로의 생활을 이야기한다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3966",
+      "description": "만토가 파우스트를 묻자 케이론이 그가 헬레네를 찾고 있다고 설명한다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3972",
+      "description": "케이론이 치유가 필요하다고 말하지만 만토는 불가능한 것을 바라는 파우스트에게 관심을 보인다."
+    }
+  ]
+}
