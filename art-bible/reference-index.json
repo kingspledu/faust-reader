@@ -5870,6 +5870,32 @@
       "menu_group": "places",
       "appearance_frequency": 1,
       "sheet_scope": "group"
+    },
+    {
+      "id": "character-ii-homunculus",
+      "kind": "character",
+      "name": "호문쿨루스",
+      "source_name": "HOMUNCULUS",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "image": "character-ii-homunculus.png",
+      "status": "draft_visual",
+      "sheet_scope": "individual",
+      "sheet_template": "character-faust.png",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "밀폐된 투명 유리병 속 작은 인간 형상",
+        "은발과 아이보리 튜닉은 시각화 설정",
+        "백금빛 발광과 금빛 눈",
+        "병 밖에 독립적으로 서 있는 인간으로 그리지 않음"
+      ],
+      "canonical_note": "바그너가 만든 존재. 유리 용기 안에서 말하며 잠든 파우스트의 꿈을 읽는다. 외형·복식·장식은 창작 시각화.",
+      "source_urls": [
+        "../part-ii/act-02-03.html"
+      ]
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
