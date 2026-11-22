@@ -1,8 +1,8 @@
 {
   "scope": "Part II source panels without any image; existing image suitability not re-audited",
   "batch_capacity": 16,
-  "remaining_source_panels": 1344,
-  "minimum_remaining_batches": 84,
+  "remaining_source_panels": 1328,
+  "minimum_remaining_batches": 83,
   "reference_sheets_excluded": true,
   "sections": [
     {
@@ -116,14 +116,14 @@
     {
       "section": "act-02-07",
       "total": 34,
-      "illustrated": 32,
-      "unillustrated": 2
+      "illustrated": 34,
+      "unillustrated": 0
     },
     {
       "section": "act-02-08",
       "total": 46,
-      "illustrated": 0,
-      "unillustrated": 46
+      "illustrated": 14,
+      "unillustrated": 32
     },
     {
       "section": "act-02-09",

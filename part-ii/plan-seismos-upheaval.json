@@ -1,0 +1,104 @@
+{
+  "batch_id": "seismos-upheaval",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/act-02-transition-007-008-grid-001.png",
+  "references": [
+    "character-faust",
+    "character-ii-manto",
+    "group-ii-sirens",
+    "character-ii-sphinx",
+    "character-ii-seismos"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-faust.png",
+    "art-bible/character-ii-manto.png",
+    "art-bible/group-ii-sirens.png",
+    "art-bible/character-ii-sphinx.png",
+    "art-bible/character-ii-seismos.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3978",
+      "description": "만토가 파우스트에게 어두운 통로로 들어오라고 권한다. 페르세포네는 아직 보이지 않는다."
+    },
+    {
+      "section": "act-02-07",
+      "scene_id": "source-3983",
+      "description": "만토가 예전에 오르페우스를 도왔던 길이라고 말하며 파우스트를 안내한다. 오르페우스를 실제로 추가하지 않는다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-3989",
+      "description": "페네이오스 상류에서 세이렌들이 물과 노래로 초대한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-3995",
+      "description": "세이렌들이 에게해로 향하자며 날개를 펼친다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-3999",
+      "description": "물결이 거꾸로 밀려오고 지면이 떨리기 시작한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4005",
+      "description": "자갈과 강둑이 갈라지고 세이렌들이 떠나라고 재촉한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4009",
+      "description": "세이렌들이 달빛이 비치는 물길 쪽으로 향한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4013",
+      "description": "떨리는 땅을 뒤로하고 세이렌들이 서둘러 물가를 떠난다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4017",
+      "description": "세이스모스가 땅 아래에서 어깨로 지면을 밀어 올린다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4023",
+      "description": "스핑크스들이 떨리는 지면을 불쾌하게 느끼며 내려다본다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4029",
+      "description": "스핑크스들은 큰 진동에도 자리를 바꾸지 않는다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4033",
+      "description": "땅이 둥글게 솟아오르고 늙은 거인의 형상이 드러난다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4037",
+      "description": "세이스모스가 팔에 힘을 주고 등을 굽혀 땅을 민다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4041",
+      "description": "세이스모스가 흙과 잔디와 자갈을 들어 올린다. 아틀라스를 별도로 등장시키지 않는다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4045",
+      "description": "골짜기를 가로질러 지층이 찢어지고 돌 구조물이 솟는다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4049",
+      "description": "가슴까지 땅에 묻힌 세이스모스가 돌을 떠받치고 스핑크스들은 위에 자리를 잡는다."
+    }
+  ]
+}

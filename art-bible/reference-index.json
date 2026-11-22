@@ -6268,6 +6268,31 @@
         "../part-ii/act-02-07.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-seismos",
+      "kind": "character",
+      "name": "세이스모스",
+      "source_name": "SEISMOS",
+      "image": "character-ii-seismos.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "늙은 회색 머리와 수염",
+        "강한 어깨와 팔·굽은 등",
+        "황토색·회색 거친 천",
+        "가슴까지 땅에 묻혀 지면을 떠받침"
+      ],
+      "canonical_note": "강의 물결이 밀려오고 자갈밭이 갈라지자 땅 아래에서 늙은 거인의 형상이 드러난다. 세이스모스는 팔과 어깨에 힘을 주어 지면을 들어 올린다. 떠나려는 세이렌들과 자리를 지키는 스핑크스 사이에서, 풍경 자체를 바꾸는 힘을 보여 주는 존재다. 회색 피부와 거친 천, 돌가루가 묻은 모습은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-08.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
