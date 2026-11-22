@@ -1,0 +1,77 @@
+{
+  "schema_version": "canvas-tts-1",
+  "chapter": 1,
+  "title": "여인들의 합창 오디션",
+  "language": "ko-KR",
+  "revision": "AUD02",
+  "model": "gemini-2.5-flash-preview-tts",
+  "execution_mode": "canvas-host",
+  "cast_revision": "AUD02",
+  "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
+  "voices": {
+    "Sulafat": "Sulafat",
+    "Kore": "Kore"
+  },
+  "scenes": [
+    {
+      "scene_id": "character-014",
+      "title": "여인들의 합창",
+      "segments": [
+        {
+          "id": "character-014_Sulafat_Q01",
+          "speaker": "여인들의 합창",
+          "kind": "dialogue",
+          "cast_id": "character-014",
+          "text": "우리는 향을 바르고 깨끗한 천으로 감싸 그분을 눕혔어요. 그런데 이제 무덤 어디에도 그분이 계시지 않아요.",
+          "scene_id": "c04-dense-048",
+          "filename": "FAUST_P1_AUD02_CHARACTER_014_SULAFAT_Q01_T01_DRY.wav",
+          "voice": "Sulafat",
+          "model": "gemini-2.5-flash-preview-tts",
+          "cast_revision": "AUD02",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
+          "performance": {
+            "emotion": "본문에서 상대에게 무엇을 말하려는지 분명히 전달한다. 앞뒤 장면과 배역의 페르소나를 따른다.",
+            "intensity": 0.45,
+            "pace": "medium",
+            "delivery": "natural voiced speech",
+            "pause_after_ms": 0,
+            "character_persona": "따뜻한 여인들 공동 낭독. 상실과 놀람을 또렷하게, 과한 울음 없이.",
+            "character_state": "오디션: 같은 배우의 음색 유지",
+            "acting_notes": "본문에서 상대에게 무엇을 말하려는지 분명히 전달한다. 앞뒤 장면과 배역의 페르소나를 따른다. 본문 단어를 추가·생략·반복하지 않는다.",
+            "mic_direction": "잔향 없는 보통 발성. 독백은 나직하되 속삭임·ASMR·과도한 숨소리 금지.",
+            "nonverbal": "의미에 맞는 자연스러운 호흡만. 웃음·기침·울음·비명·음악을 임의로 추가하지 않는다.",
+            "cough_rule": "화자 이름·연기 지시문을 낭독하지 않는다.",
+            "audio_effect": "dry"
+          }
+        },
+        {
+          "id": "character-014_Kore_Q01",
+          "speaker": "여인들의 합창",
+          "kind": "dialogue",
+          "cast_id": "character-014",
+          "text": "우리는 향을 바르고 깨끗한 천으로 감싸 그분을 눕혔어요. 그런데 이제 무덤 어디에도 그분이 계시지 않아요.",
+          "scene_id": "c04-dense-048",
+          "filename": "FAUST_P1_AUD02_CHARACTER_014_KORE_Q01_T01_DRY.wav",
+          "voice": "Kore",
+          "model": "gemini-2.5-flash-preview-tts",
+          "cast_revision": "AUD02",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
+          "performance": {
+            "emotion": "본문에서 상대에게 무엇을 말하려는지 분명히 전달한다. 앞뒤 장면과 배역의 페르소나를 따른다.",
+            "intensity": 0.45,
+            "pace": "medium",
+            "delivery": "natural voiced speech",
+            "pause_after_ms": 0,
+            "character_persona": "따뜻한 여인들 공동 낭독. 상실과 놀람을 또렷하게, 과한 울음 없이.",
+            "character_state": "오디션: 같은 배우의 음색 유지",
+            "acting_notes": "본문에서 상대에게 무엇을 말하려는지 분명히 전달한다. 앞뒤 장면과 배역의 페르소나를 따른다. 본문 단어를 추가·생략·반복하지 않는다.",
+            "mic_direction": "잔향 없는 보통 발성. 독백은 나직하되 속삭임·ASMR·과도한 숨소리 금지.",
+            "nonverbal": "의미에 맞는 자연스러운 호흡만. 웃음·기침·울음·비명·음악을 임의로 추가하지 않는다.",
+            "cough_rule": "화자 이름·연기 지시문을 낭독하지 않는다.",
+            "audio_effect": "dry"
+          }
+        }
+      ]
+    }
+  ]
+}

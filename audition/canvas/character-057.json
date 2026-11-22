@@ -1,0 +1,77 @@
+{
+  "schema_version": "canvas-tts-1",
+  "chapter": 1,
+  "title": "민중 / 군중 오디션",
+  "language": "ko-KR",
+  "revision": "AUD02",
+  "model": "gemini-2.5-flash-preview-tts",
+  "execution_mode": "canvas-host",
+  "cast_revision": "AUD02",
+  "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
+  "voices": {
+    "Achird": "Achird",
+    "Iapetus": "Iapetus"
+  },
+  "scenes": [
+    {
+      "scene_id": "character-057",
+      "title": "민중 / 군중",
+      "segments": [
+        {
+          "id": "character-057_Achird_Q01",
+          "speaker": "민중 / 군중",
+          "kind": "dialogue",
+          "cast_id": "character-057",
+          "text": "네 오빠야.",
+          "scene_id": "c22-dense-019",
+          "filename": "FAUST_P1_AUD02_CHARACTER_057_ACHIRD_Q01_T01_DRY.wav",
+          "voice": "Achird",
+          "model": "gemini-2.5-flash-preview-tts",
+          "cast_revision": "AUD02",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
+          "performance": {
+            "emotion": "본문에서 상대에게 무엇을 말하려는지 분명히 전달한다. 앞뒤 장면과 배역의 페르소나를 따른다.",
+            "intensity": 0.45,
+            "pace": "medium",
+            "delivery": "natural voiced speech",
+            "pause_after_ms": 0,
+            "character_persona": "거리 민중 대표. 놀람과 수군거림을 구분하며 대사를 명확히.",
+            "character_state": "오디션: 같은 배우의 음색 유지",
+            "acting_notes": "본문에서 상대에게 무엇을 말하려는지 분명히 전달한다. 앞뒤 장면과 배역의 페르소나를 따른다. 본문 단어를 추가·생략·반복하지 않는다.",
+            "mic_direction": "잔향 없는 보통 발성. 독백은 나직하되 속삭임·ASMR·과도한 숨소리 금지.",
+            "nonverbal": "의미에 맞는 자연스러운 호흡만. 웃음·기침·울음·비명·음악을 임의로 추가하지 않는다.",
+            "cough_rule": "화자 이름·연기 지시문을 낭독하지 않는다.",
+            "audio_effect": "dry"
+          }
+        },
+        {
+          "id": "character-057_Iapetus_Q01",
+          "speaker": "민중 / 군중",
+          "kind": "dialogue",
+          "cast_id": "character-057",
+          "text": "네 오빠야.",
+          "scene_id": "c22-dense-019",
+          "filename": "FAUST_P1_AUD02_CHARACTER_057_IAPETUS_Q01_T01_DRY.wav",
+          "voice": "Iapetus",
+          "model": "gemini-2.5-flash-preview-tts",
+          "cast_revision": "AUD02",
+          "cast_sha256": "37f593d8bca2eaf53225443bc621734c87dc6405ac238412065bdde8df0a6ca9",
+          "performance": {
+            "emotion": "본문에서 상대에게 무엇을 말하려는지 분명히 전달한다. 앞뒤 장면과 배역의 페르소나를 따른다.",
+            "intensity": 0.45,
+            "pace": "medium",
+            "delivery": "natural voiced speech",
+            "pause_after_ms": 0,
+            "character_persona": "거리 민중 대표. 놀람과 수군거림을 구분하며 대사를 명확히.",
+            "character_state": "오디션: 같은 배우의 음색 유지",
+            "acting_notes": "본문에서 상대에게 무엇을 말하려는지 분명히 전달한다. 앞뒤 장면과 배역의 페르소나를 따른다. 본문 단어를 추가·생략·반복하지 않는다.",
+            "mic_direction": "잔향 없는 보통 발성. 독백은 나직하되 속삭임·ASMR·과도한 숨소리 금지.",
+            "nonverbal": "의미에 맞는 자연스러운 호흡만. 웃음·기침·울음·비명·음악을 임의로 추가하지 않는다.",
+            "cough_rule": "화자 이름·연기 지시문을 낭독하지 않는다.",
+            "audio_effect": "dry"
+          }
+        }
+      ]
+    }
+  ]
+}

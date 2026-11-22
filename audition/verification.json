@@ -1,0 +1,204 @@
+{
+  "source_text_checks": [
+    {
+      "cast_id": "character-001",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-002",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-003",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-008",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 4
+    },
+    {
+      "cast_id": "character-009",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-010",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 4
+    },
+    {
+      "cast_id": "character-011",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-012",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-013",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-014",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-015",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-038",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-042",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-043",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-044",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-045",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-046",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-050",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-052",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-053",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 4
+    },
+    {
+      "cast_id": "character-054",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-055",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-056",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-057",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-058",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 2
+    },
+    {
+      "cast_id": "character-060",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-082",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-083",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-084",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-086",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-092",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-097",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-098",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-109",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-119",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "character-123",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "narrator",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 4
+    },
+    {
+      "cast_id": "dedication-poet",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    },
+    {
+      "cast_id": "extra-dancer-woman",
+      "status": "selected-transcripts-match-published-prose",
+      "checked": 1
+    }
+  ],
+  "roles": 39,
+  "pending": 94,
+  "requests": 202,
+  "unique_files": 202,
+  "actual_audio_generated": false
+}
