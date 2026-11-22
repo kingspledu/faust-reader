@@ -1,0 +1,10 @@
+{
+  "sentences": 60,
+  "narration": 57,
+  "monologue": 3,
+  "paragraph_reconstruction": true,
+  "unique_sentence_ids": true,
+  "user_review_pending": [],
+  "actual_canvas_generation": false,
+  "actual_listening": false
+}

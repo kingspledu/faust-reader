@@ -1,0 +1,15 @@
+{
+  "schema": "canvas-code-copy-1",
+  "title": "파우스트 · 문장별 TTS HTML 코드 복사",
+  "template_sha256": "725e44beff1c64aa74f4831c1bf8a743c19dc688e0185dd5af254e6e2c859e04",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "헌시 · 문장별 60구간",
+      "file": "chapters/FAUST_P1_C01_S01_GEMINI_CANVAS_TTS.html",
+      "bytes": 282534,
+      "sha256": "11d858b11a683da28a574d6bc6704167041c9a19ccf6e0f806d48668b86ac6e9",
+      "segments": 60
+    }
+  ]
+}

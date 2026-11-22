@@ -1,0 +1,740 @@
+{
+  "baseline_id": "FAUST-P1-TTS-BASELINE-2026-11-23",
+  "scope": "Part I chapters 1–28; published Korean adaptation only",
+  "source_commit": "6e0f28e41c164ead9f2697d941a092af141954f3",
+  "cast_revision": "CAST-2026-11-23-AUD02",
+  "model": "gemini-2.5-flash-preview-tts",
+  "files": {
+    "cleanroom-novel.txt": "75d2c939e6dafdca06425146e9769621a4a6af4bb1664dcb59d31e6a46cf24d6",
+    "voice-cast.json": "045b09a3a95475eb4626cccf1a872681d6dc5c601354391281449d7cb3567086",
+    "FAUST_PRODUCTION_GUIDELINES.md": "97399b8a1ba7c98c9b9e1735ade21f2351bfd7a81d838145c72d7630d711ddd1",
+    "audition/approved-cast.json": "301c739688ec21f69942d604c8aeeee74c4f36cb985f13825c6c54408c760774",
+    "chapter-01.html": "b1414dc3b0571b31cd448baada8f5753d9a35a1e7de8b4b60ba3ec0a2f55eff2",
+    "adaptations/chapter-01.json": "5b04e59fcdaf6920ec369829522716172b719bba5b40cb0f9b053e9e804b5a0c",
+    "chapter-02.html": "d1ab1581ed00a2d8a991191afd7b016f559f5f02341025fb03a2785222db8407",
+    "adaptations/chapter-02.json": "f3a6dee96c517390ed3aeda295f5ae999c1600bca15cf09b6f82929c94eb7f8a",
+    "chapter-03.html": "60bb54dab654cc3498a94ee91d44bd4cdd2205a6392fdaf6dd8dc088c6100656",
+    "adaptations/chapter-03.json": "0bb20c165f94d2065ad2b8d3b786c9fa1141b54b31d13b00ee14defa09d9109a",
+    "chapter-04.html": "88f4311831ae56c40a6baa986788e9d236cbb0d380e4041b901b17cf48ad9caf",
+    "adaptations/chapter-04.json": "89dee9e874ffb20af19fbd5dcd177aaa45eb41ac2aa82da7fc697368d6f74254",
+    "chapter-05.html": "631651e23d0a3e812ef7bb3ff6f689e78c31f988d8bcbdfcc250b0b630861755",
+    "adaptations/chapter-05.json": "3a704d6d993148b3f740020c0e36ef2bf0386d12c007e71c17a93f484923026d",
+    "chapter-06.html": "5cc371322b42f35e38a2d32e8613ca9e06fa3d693571c11df0a44b9b30ccebe2",
+    "adaptations/chapter-06.json": "27e0d68518076ecab389e520d357f9461d7d223cb00d21ecd29b90dd00e3715b",
+    "chapter-07.html": "77daa211441bf8df861dba1c1c244d783a74528357fe7f5baf0c464df87ea44d",
+    "adaptations/chapter-07.json": "9028bae532073dbdfaf58e52f28baa7b854f6f1392fea797da9b52f6ab986f4a",
+    "chapter-08.html": "0647ff84567a9524c3942647ab5d7bc9be80fece536d2292e19b3514455f51d8",
+    "adaptations/chapter-08.json": "2fce5d07bca18ea4b0bbf24495c294ec09654e71bc305ecc084e5c42fad53335",
+    "chapter-09.html": "5357607c8e82bc7cb6fbb8e816d35a1fc6657a4560c4136f0d50c7fcf57985e8",
+    "adaptations/chapter-09.json": "e6baa96fa604e871a5a5c5ad2bf28243ccc466537fd774efc90d242a15885962",
+    "chapter-10.html": "e0e4267bc648159c85494c1fdb1581d2b6a6e14d20184febc4cc0f1060899c04",
+    "adaptations/chapter-10.json": "4b5246b7f728ef8c199ca4203100dd9f7fc135d06a8c23316c699b01f905fbcf",
+    "chapter-11.html": "195e2dd7bd1d6d5510b7ff887cf82da1b649e6f50221dce60757fdaf2a5f2872",
+    "adaptations/chapter-11.json": "c11c32e2be18637644e819cfe1326957077f0a7f72d33fc3e5d9c52b1359cfa4",
+    "chapter-12.html": "6d3cd87e39c4481d8ed6e43358b35f926d1af10958eb4b9e6afbca649c43dd27",
+    "adaptations/chapter-12.json": "51ec0378162da919c7020870981758958d46a7b21bbbd3b2e604d0aaccdfed5b",
+    "chapter-13.html": "d4d83d6f419f1bb6e5d1b54a756c41b30f33ee3cbad86d7cf5d4d95a43649ecd",
+    "adaptations/chapter-13.json": "6a978c5bef2af4c7ee44f34a13d4d238957c6da2e156ad245232244438c4ad68",
+    "chapter-14.html": "47c4c96b4980a9f325f322cf39627f3f9358f1249a797ceb103bc27d15a15b89",
+    "adaptations/chapter-14.json": "aa4acbc88f8308c5af6a401c817188ff2df82bce9d341077a309758109a727d5",
+    "chapter-15.html": "9cad934053c49cf0963b0c416b53512413ff1f650eca6794a667b85ee25ce07d",
+    "adaptations/chapter-15.json": "37a3a2c674f395d4c01665640805aa1b5d775e7ea355dee6c122e7a3f37c2694",
+    "chapter-16.html": "87b270718f22f8fc85a2b944cca61c14c3e640137cec41ba0b68547074b36e54",
+    "adaptations/chapter-16.json": "ad8dcc0c50b76e0dd605ece6ee855c88c09f96a8a94ce8b808d2ba456da2c7b1",
+    "chapter-17.html": "e268c0cdb8487569edfb5e2558f2d0704bc1af07c8c4532c5618eab880fca073",
+    "adaptations/chapter-17.json": "00ccbe4dc11af1cef17957f2545e21f1c43cd3163720a7f2e306b9d34e374285",
+    "chapter-18.html": "68909068f977bc41521259f6aae7a2f9c644af0668907e0a43941d1d93c786a8",
+    "adaptations/chapter-18.json": "a12ec4b211561fd86db2ffd20f7d762fbc26aa2535f78c0a956e52a820f39bcf",
+    "chapter-19.html": "a587795bb8039a487b8609056d2f2240c80445caa7bd03614d2e11db2234b1b8",
+    "adaptations/chapter-19.json": "510e7b7bce6b2587669bf71ec1a792b4e07895f967df51e8261abcf4a9cfe9c9",
+    "chapter-20.html": "8a1f62c57a14a70ef2b3e4e123e505eb67c3d1cd540c03f1c2a241ecbbabedc7",
+    "adaptations/chapter-20.json": "488855bd81253af0cd759d7922ff9c76559281c4c011a8c795e751ba4df2ae63",
+    "chapter-21.html": "bbd1db93983f78bb8990e4f787a82efad591dfd19a4e61ed254e800ea5518e1a",
+    "adaptations/chapter-21.json": "ac93e3ac22f935b18bdd48dce52d733a173eacd734b8b8ba46007fd266cc4cb3",
+    "chapter-22.html": "8cce034daf6ebb6d391ac6eadfbadb8b1d1ed1fb2ebc2a1f23ad71e4d2a7ff37",
+    "adaptations/chapter-22.json": "35ae2d80067f975aba3abaee6f516886179623557f9482105ab51e4f0ad2ffde",
+    "chapter-23.html": "20dba76ce62bc5f3a50f244b8ca8cc3dd62821fa61f4eb7206a6cefdd89cd015",
+    "adaptations/chapter-23.json": "dd0c089f6e76e0e0bb5f4bd7182b875c37241e9d1f55e3011c4334819f49074f",
+    "chapter-24.html": "7a072fafc5866d40c469ed19b4962b6ff576db60851fad92c85f2b864b88a81d",
+    "adaptations/chapter-24.json": "6e82e8962c168715bb9dcdef5faba6532f0f3f256f77ccb8b0f872ad72ef6819",
+    "chapter-25.html": "74ed4104bb12e5fe364037be45443bed15c5eeefa6f1b966e561fae2732425b9",
+    "adaptations/chapter-25.json": "2a465f175c436bc286c6188073c7fcd06b293d037db3b23e410c4c8f2199b441",
+    "chapter-26.html": "675e2fb679d56f5e6b76005a3b93f0ca92c994df3c34e672b5c19a3de9ffac27",
+    "adaptations/chapter-26.json": "f3e255aaabd9407ddea8efe72e8ed33c0fe9c9d4336a7d3fcddeea17c383664c",
+    "chapter-27.html": "b307f1ab56395d86ed8e489841d2187b944a7808f00757f4b2299d52a4f7f325",
+    "adaptations/chapter-27.json": "2b746b418359a05ec130e31ed2b2d9d7f9bbdf240aeefeed8dcb50afad1ae040",
+    "chapter-28.html": "45ed2af9e8f7d3d4469650d431eb84e706c9a693b89bb6c23e286d4891e2ba94",
+    "adaptations/chapter-28.json": "798a68eea300964146a50e44e801f982a95305ae60a27bce9861a8964000413f"
+  },
+  "selected_roles": {
+    "character-001": {
+      "voice": "Sadaltager",
+      "persona": "중저음, 빠른 판단과 실무 감각. 관객과 공연 준비를 챙기며 짧게 재촉한다.",
+      "audition_status": "user_selected"
+    },
+    "character-002": {
+      "voice": "Algieba",
+      "persona": "차분한 중음, 작품을 소중히 여기는 작가. 설명할 때 천천히, 자존심을 건드리면 분명하게 말한다.",
+      "audition_status": "user_selected"
+    },
+    "character-003": {
+      "voice": "Umbriel",
+      "persona": "가벼운 중음, 재치 있는 현장 배우. 상대의 진지함을 깨지 않으면서 짧게 받아친다.",
+      "audition_status": "user_selected"
+    },
+    "character-004": {
+      "voice": "Iapetus",
+      "persona": "맑고 안정된 중음. 태양과 질서를 경이롭게 바라보며 긴 문장도 또렷하게 전한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-005": {
+      "voice": "Erinome",
+      "persona": "밝고 투명한 중음. 지구와 바다의 움직임을 넓은 호흡으로 전한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-006": {
+      "voice": "Alnilam",
+      "persona": "단단한 중저음. 폭풍의 힘을 장중하게 전하되 고함을 쓰지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-007": {
+      "voice": "Iapetus",
+      "persona": "대천사 셋의 공동 발화. 라파엘·가브리엘·미카엘 배역을 유지하고 임의의 새 인물로 만들지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-008": {
+      "voice": "Algieba",
+      "persona": "거칠지 않은 중저음, 여유 있고 능청스러운 관찰자. 파우스트에게는 느긋한 반말로 약점을 찌른다. 마르테·낯선 사람에게는 예의 있는 척하는 해요체. 주 앞에서는 정중하되 빈정거린다. 웃음은 가끔 작게, 킬킬킬 반복·괴물 포효·특정 배우 성대모사 금지.",
+      "audition_status": "user_selected"
+    },
+    "character-009": {
+      "voice": "Alnilam",
+      "persona": "낮고 따뜻한 권위. 판단을 서두르지 않으며 차분하게 질문하고 단언한다. 웅장한 효과음 없이 보통 발성.",
+      "audition_status": "user_selected"
+    },
+    "character-010": {
+      "voice": "Orus",
+      "persona": "지적이고 또렷한 중저음. 파고드는 질문과 조급한 감정이 공존한다. 메피스토에게는 반말, 낯선 사람에게는 존댓말. 그레첸에게는 관계가 가까워지는 정도에 따라 부드럽게 변한다. 회춘 전후에도 같은 배우를 유지한다.",
+      "audition_status": "user_selected"
+    },
+    "character-011": {
+      "voice": "Alnilam",
+      "persona": "깊고 단단한 저음. 인간과 다른 규모의 존재를 느리게 표현하되 악마 포효·기계 변조 금지.",
+      "audition_status": "user_selected"
+    },
+    "character-012": {
+      "voice": "Schedar",
+      "persona": "친근한 중음, 배우려는 열의가 앞선 조수. 존중하는 해요체와 조심스러운 질문, 설명에서는 약간 빨라진다.",
+      "audition_status": "user_selected"
+    },
+    "character-013": {
+      "voice": "Vindemiatrix",
+      "persona": "밝고 부드러운 천사 합창 대표 낭독. 가사로 표시된 부분만 리듬을 주고 합창 음원을 가장하지 않는다.",
+      "audition_status": "user_selected"
+    },
+    "character-014": {
+      "voice": "Sulafat",
+      "persona": "따뜻한 여인들 공동 낭독. 상실과 놀람을 또렷하게, 과한 울음 없이.",
+      "audition_status": "user_selected"
+    },
+    "character-015": {
+      "voice": "Algenib",
+      "persona": "낮고 절제된 제자들 공동 낭독. 남겨진 슬픔과 그리움을 천천히 전한다.",
+      "audition_status": "user_selected"
+    },
+    "character-016": {
+      "voice": "Puck",
+      "persona": "일에서 벗어난 청년 무리. 밝고 편안한 반말, 서로 길을 권하며 짧게 끊는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-017": {
+      "voice": "Achird",
+      "persona": "5장 익명 응답 무리. 주변 무리와 대조되는 가벼운 반응. 문맥별 다른 사람이며 고유 인물로 합치지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-018": {
+      "voice": "Puck",
+      "persona": "첫 나들이 무리, 들뜬 중음. 행선지를 자신 있게 권한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-019": {
+      "voice": "Puck",
+      "persona": "첫 직공 청년. 활기 있는 중음과 빠른 제안, 장난기.",
+      "audition_status": "not_auditioned"
+    },
+    "character-020": {
+      "voice": "Achird",
+      "persona": "두 번째 직공 청년. 편안한 중음, 현실적인 반박과 길 사정에 대한 투덜거림.",
+      "audition_status": "not_auditioned"
+    },
+    "character-021": {
+      "voice": "Sadachbia",
+      "persona": "두 번째 나들이 무리. 첫 무리보다 높고 빠른 반응.",
+      "audition_status": "not_auditioned"
+    },
+    "character-022": {
+      "voice": "Zubenelgenubi",
+      "persona": "세 번째 직공 청년. 느긋한 중음, 남들과 함께 가고 싶은 마음이 앞선다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-023": {
+      "voice": "Iapetus",
+      "persona": "네 번째 직공 청년. 짧고 명료하게 장소를 확인한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-024": {
+      "voice": "Orus",
+      "persona": "다섯 번째 직공 청년. 약간 낮고 호기로운 목소리, 허세와 장난을 구별한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-025": {
+      "voice": "Laomedeia",
+      "persona": "하녀 역할. 생기 있는 중음, 친구를 설득하며 일상적인 말투.",
+      "audition_status": "not_auditioned"
+    },
+    "character-026": {
+      "voice": "Kore",
+      "persona": "첫 번째 하녀. 단단하고 또렷한 말끝, 서운함과 고집을 감추지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-027": {
+      "voice": "Puck",
+      "persona": "5장의 학생 무리. 들뜬 나들이 말투이며 7장 신입생과 별개 배역.",
+      "audition_status": "not_auditioned"
+    },
+    "character-028": {
+      "voice": "Autonoe",
+      "persona": "시민 집안의 처녀. 자존심이 상해 툴툴대는 중음, 계층 편견을 서술자의 판단처럼 낭독하지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-029": {
+      "voice": "Achird",
+      "persona": "두 번째 학생. 조심스럽고 친근한 중음, 마음에 둔 사람 앞에서 속도가 늦어진다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-030": {
+      "voice": "Fenrir",
+      "persona": "첫 번째 학생. 들뜬 중음, 친구를 재촉하는 짧은 반말. 메피스토와 달리 조급하고 가벼운 리듬.",
+      "audition_status": "not_auditioned"
+    },
+    "character-031": {
+      "voice": "Rasalgethi",
+      "persona": "첫 번째 시민. 시장과 도시 사정을 불평하는 중저음, 생활인의 투덜거림.",
+      "audition_status": "not_auditioned"
+    },
+    "character-032": {
+      "voice": "Achernar",
+      "persona": "거지. 지친 낮은 발성으로 부탁하되 힘없는 속삭임이나 희화화 금지.",
+      "audition_status": "not_auditioned"
+    },
+    "character-033": {
+      "voice": "Schedar",
+      "persona": "두 번째 시민. 균일한 중저음, 전쟁 소문을 한발 떨어져 이야기한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-034": {
+      "voice": "Alnilam",
+      "persona": "세 번째 시민. 단단한 중음, 멀리서 벌어지는 전쟁을 자기 안락과 대비한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-035": {
+      "voice": "Gacrux",
+      "persona": "늙은 여자. 성숙한 중저음, 친근하게 다가가며 예언을 흥정하듯 말한다. 목을 긁는 과장 금지.",
+      "audition_status": "not_auditioned"
+    },
+    "character-036": {
+      "voice": "Laomedeia",
+      "persona": "아가테. 친구와 속마음을 나누는 밝은 중음, 기대와 경계가 교차한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-037": {
+      "voice": "Alnilam",
+      "persona": "군인들 대표. 힘 있는 중저음과 행진 리듬, 전쟁의 허세를 과도한 고함 없이 표현한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-038": {
+      "voice": "Algenib",
+      "persona": "늙은 농부. 느리고 따뜻한 중저음, 감사의 뜻을 소박하게 전한다.",
+      "audition_status": "user_selected"
+    },
+    "character-039": {
+      "voice": "Achird",
+      "persona": "5장의 공동 발화. 해당 군중의 반응이며 새 한 사람으로 만들지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-040": {
+      "voice": "Callirrhoe",
+      "persona": "6장의 정령들. 부드러운 중음과 은근한 유혹. 속삭임만으로 발성하지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-041": {
+      "voice": "Vindemiatrix",
+      "persona": "7장의 정령 합창. 위로하는 듯 다정한 리듬, 악마의 제안과 이어지는 모호함.",
+      "audition_status": "not_auditioned"
+    },
+    "character-042": {
+      "voice": "Aoede",
+      "persona": "7장의 신입 학생. 젊고 맑은 중음, 기대에서 혼란으로. 모르는 것을 묻는 존댓말.",
+      "audition_status": "user_selected"
+    },
+    "character-043": {
+      "voice": "Puck",
+      "persona": "프로슈. 빠르고 장난기 많은 중음, 분위기를 띄우며 남을 놀린다.",
+      "audition_status": "user_selected"
+    },
+    "character-044": {
+      "voice": "Schedar",
+      "persona": "브란더. 묵직한 중저음, 노래를 주도하고 웃음 뒤에 불쾌함을 숨기지 않는다.",
+      "audition_status": "user_selected"
+    },
+    "character-045": {
+      "voice": "Algenib",
+      "persona": "지벨. 거친 중저음과 툭툭 던지는 말, 놀라면 짧고 강해진다. 포효하지 않는다.",
+      "audition_status": "user_selected"
+    },
+    "character-046": {
+      "voice": "Charon",
+      "persona": "알트마이어. 비교적 느리고 낮은 목소리, 투덜거리는 농담과 어지러움을 구분한다.",
+      "audition_status": "user_selected"
+    },
+    "character-047": {
+      "voice": "Puck",
+      "persona": "술집 합창 대표. 흥에 겨운 리듬, 실제 다중 합창을 생성한 것으로 간주하지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-048": {
+      "voice": "Rasalgethi",
+      "persona": "술집 모두의 반응. 기존 네 배역의 공동 반응이며 별개 인격이 아니다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-049": {
+      "voice": "Sadachbia",
+      "persona": "마녀 부엌 동물들의 공동 발화. 빠르고 엉뚱한 리듬, 알아들을 수 있게 발음한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-050": {
+      "voice": "Puck",
+      "persona": "수컷 원숭이. 재잘거리고 계산적인 중음, 엉뚱한 말도 당당히 한다. 동물 소리로 단어를 덮지 않는다.",
+      "audition_status": "user_selected"
+    },
+    "character-051": {
+      "voice": "Sadachbia",
+      "persona": "수컷·암컷 원숭이 공동 발화. 두 배역의 정체성을 유지하며 함께 하는 반응만 담당한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-052": {
+      "voice": "Gacrux",
+      "persona": "마녀. 낮고 까칠한 목소리, 호통에서 비굴한 환대로 급변한다. 주문은 단어를 정확히, 과한 비명 금지.",
+      "audition_status": "user_selected"
+    },
+    "character-053": {
+      "voice": "Aoede",
+      "persona": "그레첸. 맑고 자연스러운 중음, 어린아이 흉내 금지. 처음에는 조심스러운 해요체, 친밀해지며 부드러워진다. 감정이 깊어져도 말뜻을 또렷하게 유지한다.",
+      "audition_status": "user_selected"
+    },
+    "character-054": {
+      "voice": "Kore",
+      "persona": "마르테. 성숙하고 따뜻한 중음, 생활감 있는 빠른 질문. 슬픔·분노·호기심의 전환이 뚜렷하다.",
+      "audition_status": "user_selected"
+    },
+    "character-055": {
+      "voice": "Autonoe",
+      "persona": "리스헨. 빠르고 호기심 많은 중음, 소문을 신나게 전하며 상대 반응을 떠본다.",
+      "audition_status": "user_selected"
+    },
+    "character-056": {
+      "voice": "Alnilam",
+      "persona": "발렌틴. 단단한 중저음, 군인의 자존심과 가족에 대한 분노. 고함보다 눌러 말하는 힘.",
+      "audition_status": "user_selected"
+    },
+    "character-057": {
+      "voice": "Achird",
+      "persona": "거리 민중 대표. 놀람과 수군거림을 구분하며 대사를 명확히.",
+      "audition_status": "user_selected"
+    },
+    "character-058": {
+      "voice": "Algenib",
+      "persona": "악령. 낮고 건조하며 집요한 추궁, 지나친 공포 효과나 속삭임 금지.",
+      "audition_status": "user_selected"
+    },
+    "character-059": {
+      "voice": "Rasalgethi",
+      "persona": "대성당 합창 대표. 장중하고 균일한 리듬, 라틴어는 본문이 있을 때만.",
+      "audition_status": "not_auditioned"
+    },
+    "character-060": {
+      "voice": "Sadachbia",
+      "persona": "도깨비불. 가볍고 빠르게 방향을 바꾸는 중고음. 길 안내는 분명하게 말한다.",
+      "audition_status": "user_selected"
+    },
+    "character-061": {
+      "voice": "Orus",
+      "persona": "파우스트·메피스토·도깨비불 공동 발화. 구성원 기존 목소리를 순서대로 배정하는 그룹이며 새 인물이 아니다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-062": {
+      "voice": "Gacrux",
+      "persona": "마녀들 대표. 들뜬 거친 리듬, 발음이 뭉개지지 않게 한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-063": {
+      "voice": "Iapetus",
+      "persona": "24장 익명 목소리. 또렷하고 짧은 호출, 정체를 임의로 확정하지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-064": {
+      "voice": "Callirrhoe",
+      "persona": "24장 합창 대표. 산길의 집단 리듬, 앞뒤 마녀 무리와 문맥을 구분한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-065": {
+      "voice": "Autonoe",
+      "persona": "마녀 합창 대표. 날카롭고 활기찬 중음, 가사와 지시문을 구분한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-066": {
+      "voice": "Algenib",
+      "persona": "마법사들 반쪽 합창. 낮고 거친 리듬, 다른 반쪽과 대비한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-067": {
+      "voice": "Laomedeia",
+      "persona": "나머지 반쪽 합창. 밝고 빠른 응답 리듬.",
+      "audition_status": "not_auditioned"
+    },
+    "character-068": {
+      "voice": "Sadachbia",
+      "persona": "여러 목소리 대표. 짧은 호출을 선명하게, 가짜 다중 합성 효과 금지.",
+      "audition_status": "not_auditioned"
+    },
+    "character-069": {
+      "voice": "Alnilam",
+      "persona": "두 합창단 공동 발화. 낮은 안정감으로 합쳐지는 구절을 전달한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-070": {
+      "voice": "Zephyr",
+      "persona": "반쪽 마녀. 급하고 조급한 중고음, 뒤따라가려는 마음.",
+      "audition_status": "not_auditioned"
+    },
+    "character-071": {
+      "voice": "Autonoe",
+      "persona": "마녀들의 합창. 들뜬 리듬과 정확한 자음, 끊임없는 비명 금지.",
+      "audition_status": "not_auditioned"
+    },
+    "character-072": {
+      "voice": "Alnilam",
+      "persona": "장군. 명령에 익숙한 낮은 목소리, 지난 권위를 아쉬워한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-073": {
+      "voice": "Sadaltager",
+      "persona": "대신. 점잖고 계산적인 중저음, 자기 이익을 당연하게 말한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-074": {
+      "voice": "Pulcherrima",
+      "persona": "벼락출세자. 과시하는 중음과 앞서는 말, 잘난 척을 살린다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-075": {
+      "voice": "Algieba",
+      "persona": "작가. 자의식 강한 중음, 불만을 논리처럼 늘어놓는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-076": {
+      "voice": "Gacrux",
+      "persona": "잡동사니 파는 마녀. 낮고 재빠른 장사 말투, 물건을 권할 때 신이 난다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-077": {
+      "voice": "Aoede",
+      "persona": "젊은 춤 상대. 산뜻한 중음, 짓궂게 응수한다. 유혹을 과도하게 성적 발성으로 표현하지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-078": {
+      "voice": "Gacrux",
+      "persona": "늙은 춤 상대. 성숙한 낮은 목소리, 농담을 익숙하게 받아친다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-079": {
+      "voice": "Sadaltager",
+      "persona": "프로크토판타스미스트. 권위적인 중저음, 믿지 않는 것을 길게 따지는 말투.",
+      "audition_status": "not_auditioned"
+    },
+    "character-080": {
+      "voice": "Achird",
+      "persona": "세르비빌리스. 손님을 이끄는 공손하고 빠른 안내 말투.",
+      "audition_status": "not_auditioned"
+    },
+    "character-081": {
+      "voice": "Rasalgethi",
+      "persona": "극장 감독. 실무적인 중저음, 공연 진행을 짧고 명료하게 지시한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-082": {
+      "voice": "Iapetus",
+      "persona": "전령. 맑은 중음, 청중에게 전달할 공지를 또렷하게.",
+      "audition_status": "user_selected"
+    },
+    "character-083": {
+      "voice": "Alnilam",
+      "persona": "오베론. 왕다운 차분한 중저음, 명령보다 확신으로 이끈다.",
+      "audition_status": "user_selected"
+    },
+    "character-084": {
+      "voice": "Sadachbia",
+      "persona": "퍽. 장난기 많은 빠른 중음, 짧은 풍자를 즐긴다. 특정 작품 캐릭터 흉내 금지.",
+      "audition_status": "user_selected"
+    },
+    "character-085": {
+      "voice": "Aoede",
+      "persona": "아리엘. 가볍고 유려한 중음, 공기처럼 이어지는 리듬.",
+      "audition_status": "not_auditioned"
+    },
+    "character-086": {
+      "voice": "Kore",
+      "persona": "티타니아. 단단하고 명료한 중음, 여왕의 자신감과 장난기.",
+      "audition_status": "user_selected"
+    },
+    "character-087": {
+      "voice": "Rasalgethi",
+      "persona": "오케스트라 총주 표제의 의인화된 발언. 대사가 있을 때만 장중히 낭독하며 음악 음원을 대신 만들지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-088": {
+      "voice": "Erinome",
+      "persona": "독주·독창 표제의 발언. 맑은 중음으로 단독 구절을 낭독한다. 악기 소리를 흉내 내지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-089": {
+      "voice": "Zephyr",
+      "persona": "형성 중인 정령. 조심스럽고 가벼운 중고음, 막 모습을 찾는 불확실함.",
+      "audition_status": "not_auditioned"
+    },
+    "character-090": {
+      "voice": "Leda",
+      "persona": "한 쌍의 연인 대표. 다정하고 젊은 중음, 서로 다른 발화로 나뉘면 별도 구성원 ID를 쓴다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-091": {
+      "voice": "Achird",
+      "persona": "호기심 많은 여행자. 친근한 중음, 새로운 광경을 보고 바로 질문한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-092": {
+      "voice": "Alnilam",
+      "persona": "정통주의자. 흔들림 없는 단정적인 중저음, 권위를 의심하지 않는다.",
+      "audition_status": "user_selected"
+    },
+    "character-093": {
+      "voice": "Algieba",
+      "persona": "북방 예술가. 약간 느린 중음, 자기 취향을 진지하게 평가한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-094": {
+      "voice": "Erinome",
+      "persona": "순수주의자. 선명하고 깐깐한 말끝, 기준에 어긋나는 것을 못마땅해한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-095": {
+      "voice": "Laomedeia",
+      "persona": "젊은 마녀. 빠르고 밝은 중음, 들뜬 자신감.",
+      "audition_status": "not_auditioned"
+    },
+    "character-096": {
+      "voice": "Gacrux",
+      "persona": "나이 든 부인. 성숙한 중저음, 세태를 평가하는 단정한 말투.",
+      "audition_status": "not_auditioned"
+    },
+    "character-097": {
+      "voice": "Charon",
+      "persona": "악장. 균일하고 정확한 중저음, 박자와 질서를 챙긴다.",
+      "audition_status": "user_selected"
+    },
+    "character-098": {
+      "voice": "Zubenelgenubi",
+      "persona": "풍향계. 말의 방향이 쉽게 바뀌는 편안한 중음, 변덕을 리듬으로 표현한다.",
+      "audition_status": "user_selected"
+    },
+    "character-099": {
+      "voice": "Iapetus",
+      "persona": "크세니엔. 짧고 날카로운 풍자 구절, 또렷하게 말하고 설명을 덧붙이지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-100": {
+      "voice": "Rasalgethi",
+      "persona": "헤닝스. 자기 평가에 확신이 강한 중저음, 풍자극 배역임을 유지한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-101": {
+      "voice": "Algieba",
+      "persona": "무사게트. 예술을 이끄는 듯 우아한 중음, 과장된 노래 발성 금지.",
+      "audition_status": "not_auditioned"
+    },
+    "character-102": {
+      "voice": "Sadaltager",
+      "persona": "지난 시대의 천재. 성숙한 중저음, 인정받던 시절의 자부심과 불만.",
+      "audition_status": "not_auditioned"
+    },
+    "character-103": {
+      "voice": "Iapetus",
+      "persona": "두루미 의인화. 가늘고 또렷한 중고음, 실제 새 울음으로 대사를 덮지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-104": {
+      "voice": "Zubenelgenubi",
+      "persona": "세속의 자식. 느긋하고 실용적인 중음, 거창한 논쟁을 가볍게 받아친다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-105": {
+      "voice": "Aoede",
+      "persona": "무용수. 산뜻한 중음과 유연한 리듬, 움직임에 맞춘 짧은 말.",
+      "audition_status": "not_auditioned"
+    },
+    "character-106": {
+      "voice": "Kore",
+      "persona": "무용 교사. 또렷하고 단호한 중음, 동작을 가르치듯 정확히 끊는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-107": {
+      "voice": "Erinome",
+      "persona": "바이올린 연주자. 맑고 예민한 중음, 악기 소리를 대신 흉내 내지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-108": {
+      "voice": "Alnilam",
+      "persona": "독단주의자. 낮고 단정적인 말끝, 자기 전제를 의심하지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-109": {
+      "voice": "Algieba",
+      "persona": "관념론자. 사색적인 중음, 머릿속 생각을 따라 차근차근 말한다.",
+      "audition_status": "user_selected"
+    },
+    "character-110": {
+      "voice": "Orus",
+      "persona": "실재론자. 단단한 중저음, 손에 잡히는 근거를 강조한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-111": {
+      "voice": "Vindemiatrix",
+      "persona": "초자연주의자. 온화하고 경이로운 중음, 보이지 않는 힘을 확신한다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-112": {
+      "voice": "Schedar",
+      "persona": "회의론자. 건조한 중저음, 질문 끝을 짧게 끊으며 판단을 미룬다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-113": {
+      "voice": "Sadachbia",
+      "persona": "재주 좋은 무리. 활기차고 빠른 공동 반응, 리듬이 가볍다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-114": {
+      "voice": "Zubenelgenubi",
+      "persona": "서투른 무리. 조금 늦고 머뭇거리는 공동 반응, 지적 능력을 희화화하지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-115": {
+      "voice": "Zephyr",
+      "persona": "도깨비불 무리. 가벼운 중고음과 빠른 리듬, 24장 안내자와 별도 그룹.",
+      "audition_status": "not_auditioned"
+    },
+    "character-116": {
+      "voice": "Autonoe",
+      "persona": "별똥별. 밝고 짧게 튀는 중고음, 긴 잔향으로 단어를 흐리지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-117": {
+      "voice": "Algenib",
+      "persona": "육중한 무리. 낮고 느린 공동 반응, 과도한 괴물 소리 금지.",
+      "audition_status": "not_auditioned"
+    },
+    "character-118": {
+      "voice": "Schedar",
+      "persona": "오케스트라 표제의 의인화 발언. 본문이 있는 구절만 명료하게 낭독하고 음악을 생성하지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-119": {
+      "voice": "Sulafat",
+      "persona": "28장 위에서 들리는 목소리. 따뜻하고 확고한 구원의 말, 메피스토와 대비되는 안정감.",
+      "audition_status": "user_selected"
+    },
+    "character-120": {
+      "voice": "Despina",
+      "persona": "릴리트. 차분하고 매끈한 중저음의 연출안. 원문에 직접 발언이 없으면 새 대사를 만들지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-121": {
+      "voice": "Leda",
+      "persona": "그레첸의 환영. 실제 그레첸과 같은 음색. 원문에 직접 대사가 없는 환영에 새 목소리를 주지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-122": {
+      "voice": "Fenrir",
+      "persona": "메피스토의 푸들 형태. 인간 대사 없음. 짖음·신음은 원문에 필요할 때 별도 효과 자산으로 다룬다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-123": {
+      "voice": "Laomedeia",
+      "persona": "암컷 원숭이. 빠르고 명료한 중고음, 장난과 당황이 쉽게 바뀐다. 새끼들은 별도 대사가 없으면 목소리를 추가하지 않는다.",
+      "audition_status": "user_selected"
+    },
+    "character-124": {
+      "voice": "Vindemiatrix",
+      "persona": "천상의 군대. 직접 가사가 있을 때만 부드러운 대표 낭독, 배경 군중 소리를 임의로 생성하지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-125": {
+      "voice": "Achird",
+      "persona": "농민들과 춤추는 사람들. 친근한 중음과 춤의 리듬, 원문 무리별 구분 유지.",
+      "audition_status": "not_auditioned"
+    },
+    "character-126": {
+      "voice": "Rasalgethi",
+      "persona": "대성당 회중. 조용하고 장중한 공동 낭독, 실제 다중 합창 음원으로 간주하지 않는다.",
+      "audition_status": "not_auditioned"
+    },
+    "character-127": {
+      "voice": "Orus",
+      "persona": "검은 말 두 마리. 인간 대사 없음. 원문에 없는 말소리나 의인화 독백 금지.",
+      "audition_status": "not_auditioned"
+    },
+    "character-128": {
+      "voice": "Gacrux",
+      "persona": "처형장 주변 마녀 무리. 원문에 발언이 있을 때만 거친 중저음, 배경 공포 음원 생성 금지.",
+      "audition_status": "not_auditioned"
+    },
+    "narrator": {
+      "voice": "Charon",
+      "persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+      "audition_status": "user_selected"
+    },
+    "dedication-poet": {
+      "voice": "Algieba",
+      "persona": "지난 삶과 사람들을 돌아보는 이름 없는 창작자. 조용하고 절제된 그리움. 2장 극작가와 같은 인물이라고 단정하지 않는다.",
+      "audition_status": "user_selected"
+    },
+    "extra-shepherd": {
+      "voice": "Achird",
+      "persona": "소박하고 친근한 중음, 들판의 춤 노래를 자연스럽게 전달한다.",
+      "audition_status": "not_auditioned"
+    },
+    "extra-dancer": {
+      "voice": "Achird",
+      "persona": "친근하고 들뜬 중음, 상대의 반응에 맞춰 짧게 말한다.",
+      "audition_status": "not_auditioned"
+    },
+    "extra-dancer-woman": {
+      "voice": "Aoede",
+      "persona": "산뜻하고 또렷한 중음, 춤 상대에게 재치 있게 응수한다.",
+      "audition_status": "user_selected"
+    }
+  },
+  "production_unit": "one sentence per request and individual audio file",
+  "target_duration": null,
+  "approval": "Input snapshot only; not sentence/speaker/acting approval",
+  "existing_tts_status": "Legacy paragraph-based output; must not be used as sentence-reviewed production"
+}

@@ -1,0 +1,4016 @@
+{
+  "chapter": 1,
+  "baseline_id": "FAUST-P1-TTS-BASELINE-2026-11-23",
+  "cast_revision": "CAST-2026-11-23-AUD02",
+  "status": "reviewed-generation-ready",
+  "paragraphs": [
+    {
+      "paragraph_id": "C01-P001",
+      "scene_id": "c01-s001",
+      "text": "파우스트가 등장하기 전에, 그 이야기를 오래 품고 살아온 시인이 먼저 입을 열었다. 젊어서 처음 몇 대목을 쓰고 가까운 이들에게 읽어 주었던 이야기였다. 오랜 시간이 지나 다시 그 인물들을 떠올리자, 안개 낀 언덕을 건너오는 사람들처럼 모습이 나타났다. 걸음걸이는 얼핏 알아볼 만한데 얼굴은 아직 흐렸다.",
+      "spans": [
+        [
+          0,
+          47
+        ],
+        [
+          47,
+          86
+        ],
+        [
+          86,
+          142
+        ],
+        [
+          142,
+          170
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P002",
+      "scene_id": "c01-s002",
+      "text": "시인은 손이라도 내밀면 그들을 붙잡을 수 있을 것 같았다. 이번에는 흐릿한 모습을 문장으로 옮길 수 있을까. 그보다 먼저 확인하고 싶은 게 있었다. 예전에 밤늦도록 저 인물들을 생각하던 마음이 자기 안에 아직 남아 있을까.",
+      "spans": [
+        [
+          0,
+          33
+        ],
+        [
+          33,
+          61
+        ],
+        [
+          61,
+          83
+        ],
+        [
+          83,
+          124
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P003",
+      "scene_id": "c01-s002",
+      "text": "‘너희를 다시 그리고 싶어질 줄은 몰랐어. 이번에는 끝까지 써 볼 수 있을까?’",
+      "spans": [
+        [
+          0,
+          24
+        ],
+        [
+          24,
+          44
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P004",
+      "scene_id": "c01-s003",
+      "text": "한 사람을 자세히 보려는 사이 그 옆으로 또 다른 사람이 다가왔다. 안개 속을 거슬러 밀어내기엔 너무 많은 얼굴이었다. 시인은 잠시 가만히 있기로 했다. 어디까지 기억해 낼 수 있는지는 그들이 다가오고 나면 알 터였다.",
+      "spans": [
+        [
+          0,
+          38
+        ],
+        [
+          38,
+          67
+        ],
+        [
+          67,
+          86
+        ],
+        [
+          86,
+          122
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P005",
+      "scene_id": "c01-s004",
+      "text": "가벼운 바람이 얇은 옷자락을 들어 올리듯, 그들의 기척만으로도 시인의 가슴이 들썩였다. 젊었을 때 새 장면이 떠오르면 한시도 앉아 있기가 어려웠다. 오랜만에 느끼는 바로 그 설렘이었다.",
+      "spans": [
+        [
+          0,
+          49
+        ],
+        [
+          49,
+          83
+        ],
+        [
+          83,
+          103
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P006",
+      "scene_id": "c01-s005",
+      "text": "그러자 안개 뒤에서 햇빛이 들던 길이 떠올랐다. 나무 아래로 두 사람이 나란히 걸어가는 모습이 보이는 듯했다. 그 얼굴들을 떠올리고 나니, 시인은 그 시절엔 무엇이 그리 좋아서 친구들만 만나면 웃었던가 하고 생각했다.",
+      "spans": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          62
+        ],
+        [
+          62,
+          121
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P007",
+      "scene_id": "c01-s006",
+      "text": "빛이 번지는 길에 서로를 바라보는 두 사람이 어른거렸다. 시인은 처음 마음을 주었던 사람을 떠올렸다. 그 무렵 기쁜 일이 있으면 누구보다 먼저 찾아가 말했던 친구들도 생각났다. 오랫동안 입에 올리지 않아 끝부분이 희미해진 옛이야기처럼, 기억은 군데군데 비어 있었다. 그런데도 어떤 얼굴은 당장 말을 걸어올 듯 가까웠다.",
+      "spans": [
+        [
+          0,
+          32
+        ],
+        [
+          32,
+          57
+        ],
+        [
+          57,
+          99
+        ],
+        [
+          99,
+          149
+        ],
+        [
+          149,
+          178
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P008",
+      "scene_id": "c01-s007",
+      "text": "좋았던 일을 따라가다 보니, 그때 그들에게 하지 못한 말까지 생각났다. 정원길을 위에서 내려다보면 갈림길마다 어디로 이어지는지 보인다. 시인은 지나온 삶도 이제는 그렇게 볼 수 있을 줄 알았는데, 돌이켜 보니 그때처럼 어디서 길을 잃었는지 알 수 없었다. 지나간 줄 알았던 아픔이 다시 밀려왔다.",
+      "spans": [
+        [
+          0,
+          40
+        ],
+        [
+          40,
+          76
+        ],
+        [
+          76,
+          143
+        ],
+        [
+          143,
+          165
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P009",
+      "scene_id": "c01-s008",
+      "text": "그는 떠나간 사람들의 이름을 하나씩 떠올렸다. 얼마든지 다시 만날 수 있을 줄 알고 서둘러 작별했던 이들도 있었다. 낙엽이 내려앉은 빈 벤치처럼, 이제는 그들이 앉던 자리만 기억에 남아 있었다.",
+      "spans": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          65
+        ],
+        [
+          65,
+          108
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P010",
+      "scene_id": "c01-s009",
+      "text": "그중에는 시인이 새로 쓴 글을 가장 먼저 들어 준 친구들이 있었다. 이야기의 첫 대목은 그 얼굴들을 보며 읽을 수 있었다. 이어지는 이야기를 아무리 오래 다듬어도, 이번에는 그들 앞에 의자를 놓아 줄 수 없었다.",
+      "spans": [
+        [
+          0,
+          38
+        ],
+        [
+          38,
+          69
+        ],
+        [
+          69,
+          118
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P011",
+      "scene_id": "c01-s010",
+      "text": "그때는 글을 한 대목 읽고 나면 누군가 웃거나 무슨 뜻인지 물었다. 물에 번지던 잔물결이 한참 뒤 잦아들듯, 방 안을 돌던 웃음과 대답도 이제 희미했다. 시인은 어떤 문장에서 그들이 가장 크게 웃었는지 떠올리려 했다.",
+      "spans": [
+        [
+          0,
+          38
+        ],
+        [
+          38,
+          86
+        ],
+        [
+          86,
+          121
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P012",
+      "scene_id": "c01-s011",
+      "text": "이번에 그의 글을 들을 사람들은 붉은 막 너머의 낯선 얼굴들이었다. 이야기가 재미있다면 박수를 보내 줄 터였다. 시인은 그 박수를 상상하고도 마음이 편치 않았다. 자기가 머뭇거리며 처음 읽어 주었던 문장을 기억할 사람이 그 객석에는 없을 것 같았다.",
+      "spans": [
+        [
+          0,
+          38
+        ],
+        [
+          38,
+          63
+        ],
+        [
+          63,
+          91
+        ],
+        [
+          91,
+          139
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P013",
+      "scene_id": "c01-s011",
+      "text": "‘그때 내 말을 끝까지 들어 준 사람들이 이 다음 이야기도 한 번만 들어 주면 좋을 텐데.’",
+      "spans": [
+        [
+          0,
+          51
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P014",
+      "scene_id": "c01-s012",
+      "text": "옛 친구들 가운데 아직 살아 있는 사람도 어딘가에 있을 것이다. 하지만 그들이 모두 다시 같은 곳에 모일 수는 없었다. 안개 낀 언덕에서 저마다 다른 길을 걷는 사람처럼, 서로의 소식이 닿지 않는 곳으로 흩어졌다.",
+      "spans": [
+        [
+          0,
+          36
+        ],
+        [
+          36,
+          67
+        ],
+        [
+          67,
+          119
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P015",
+      "scene_id": "c01-s013",
+      "text": "시인은 떠들썩한 객석을 생각하던 끝에 오히려 조용해지고 싶어졌다. 안개가 내린 숲처럼 말소리 하나 없는 마음속이라면, 그리운 얼굴들이 사라지기 전에 조금 더 곁에 둘 수 있을 듯했다. 오래 잊고 지냈던 그리움이 그렇게 돌아왔다.",
+      "spans": [
+        [
+          0,
+          37
+        ],
+        [
+          37,
+          103
+        ],
+        [
+          103,
+          127
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P016",
+      "scene_id": "c01-s014",
+      "text": "그가 낮게 읊는 시는 열린 창가의 바람 하프와 닮았다. 손으로 줄을 뜯지 않아도 바람이 지날 때마다 줄이 떨리며 소리를 내는 악기였다. 시인의 말도 일정한 가락을 찾기 전에, 기억이 닿는 곳마다 조금씩 다른 소리로 흘러나왔다.",
+      "spans": [
+        [
+          0,
+          31
+        ],
+        [
+          31,
+          76
+        ],
+        [
+          76,
+          126
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P017",
+      "scene_id": "c01-s015",
+      "text": "문득 몸이 떨렸다. 눈물 한 방울이 뺨을 타고 내려오더니 그 뒤를 또 한 방울이 따랐다. 오래전 일이니 이제 괜찮을 거라 여겼는데, 막상 기억 속에서 그들을 다시 만나자 울음을 참을 이유도 잊었다.",
+      "spans": [
+        [
+          0,
+          11
+        ],
+        [
+          11,
+          50
+        ],
+        [
+          50,
+          110
+        ]
+      ]
+    },
+    {
+      "paragraph_id": "C01-P018",
+      "scene_id": "c01-s016",
+      "text": "눈앞에 놓인 의자와 탁자는 방 저편으로 물러난 듯했다. 대신 햇빛 드는 길 위로 오래전에 헤어진 두 사람이 걷고 있었다. 손을 뻗어도 닿지 않는 그 길이 시인에게는 지금 자기 방보다 생생했다. 그렇게 돌아온 이야기가 어떻게 낯선 관객을 만나게 될까. 다음 장에서는 그 일을 맡은 세 사람이 아직 막이 오르지 않은 극장에 모인다.",
+      "spans": [
+        [
+          0,
+          31
+        ],
+        [
+          31,
+          68
+        ],
+        [
+          68,
+          108
+        ],
+        [
+          108,
+          140
+        ],
+        [
+          140,
+          183
+        ]
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "sentence_id": "C01-P001-S01",
+      "paragraph_id": "C01-P001",
+      "scene_id": "c01-s001",
+      "source_span": [
+        0,
+        47
+      ],
+      "source_slice": "파우스트가 등장하기 전에, 그 이야기를 오래 품고 살아온 시인이 먼저 입을 열었다. ",
+      "text": "파우스트가 등장하기 전에, 그 이야기를 오래 품고 살아온 시인이 먼저 입을 열었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [],
+      "context_after": [
+        "C01-P001-S02",
+        "C01-P001-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 파우스트가 등장하기 전에, 그 이야기를 오래 품고 살아온 시인이 먼저 입을 열었다.",
+          "outer_inner": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+        "acting_notes": "청자에게 다음 내용을 전달: 파우스트가 등장하기 전에, 그 이야기를 오래 품고 살아온 시인이 먼저 입을 열었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s001의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P001-S02",
+      "paragraph_id": "C01-P001",
+      "scene_id": "c01-s001",
+      "source_span": [
+        47,
+        86
+      ],
+      "source_slice": "젊어서 처음 몇 대목을 쓰고 가까운 이들에게 읽어 주었던 이야기였다. ",
+      "text": "젊어서 처음 몇 대목을 쓰고 가까운 이들에게 읽어 주었던 이야기였다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P001-S01"
+      ],
+      "context_after": [
+        "C01-P001-S03",
+        "C01-P001-S04"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 젊어서 처음 몇 대목을 쓰고 가까운 이들에게 읽어 주었던 이야기였다.",
+          "outer_inner": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+        "acting_notes": "청자에게 다음 내용을 전달: 젊어서 처음 몇 대목을 쓰고 가까운 이들에게 읽어 주었던 이야기였다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s001의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P001-S03",
+      "paragraph_id": "C01-P001",
+      "scene_id": "c01-s001",
+      "source_span": [
+        86,
+        142
+      ],
+      "source_slice": "오랜 시간이 지나 다시 그 인물들을 떠올리자, 안개 낀 언덕을 건너오는 사람들처럼 모습이 나타났다. ",
+      "text": "오랜 시간이 지나 다시 그 인물들을 떠올리자, 안개 낀 언덕을 건너오는 사람들처럼 모습이 나타났다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P001-S01",
+        "C01-P001-S02"
+      ],
+      "context_after": [
+        "C01-P001-S04",
+        "C01-P002-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 오랜 시간이 지나 다시 그 인물들을 떠올리자, 안개 낀 언덕을 건너오는 사람들처럼 모습이 나타났다.",
+          "outer_inner": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+        "acting_notes": "청자에게 다음 내용을 전달: 오랜 시간이 지나 다시 그 인물들을 떠올리자, 안개 낀 언덕을 건너오는 사람들처럼 모습이 나타났다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s001의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P001-S04",
+      "paragraph_id": "C01-P001",
+      "scene_id": "c01-s001",
+      "source_span": [
+        142,
+        170
+      ],
+      "source_slice": "걸음걸이는 얼핏 알아볼 만한데 얼굴은 아직 흐렸다.",
+      "text": "걸음걸이는 얼핏 알아볼 만한데 얼굴은 아직 흐렸다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P001-S02",
+        "C01-P001-S03"
+      ],
+      "context_after": [
+        "C01-P002-S01",
+        "C01-P002-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 걸음걸이는 얼핏 알아볼 만한데 얼굴은 아직 흐렸다.",
+          "outer_inner": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+          "pivot": "같은 문단의 4번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
+        "acting_notes": "청자에게 다음 내용을 전달: 걸음걸이는 얼핏 알아볼 만한데 얼굴은 아직 흐렸다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s001의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P002-S01",
+      "paragraph_id": "C01-P002",
+      "scene_id": "c01-s002",
+      "source_span": [
+        0,
+        33
+      ],
+      "source_slice": "시인은 손이라도 내밀면 그들을 붙잡을 수 있을 것 같았다. ",
+      "text": "시인은 손이라도 내밀면 그들을 붙잡을 수 있을 것 같았다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P001-S03",
+        "C01-P001-S04"
+      ],
+      "context_after": [
+        "C01-P002-S02",
+        "C01-P002-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 시인은 손이라도 내밀면 그들을 붙잡을 수 있을 것 같았다.",
+          "outer_inner": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+        "acting_notes": "청자에게 다음 내용을 전달: 시인은 손이라도 내밀면 그들을 붙잡을 수 있을 것 같았다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s002의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P002-S02",
+      "paragraph_id": "C01-P002",
+      "scene_id": "c01-s002",
+      "source_span": [
+        33,
+        61
+      ],
+      "source_slice": "이번에는 흐릿한 모습을 문장으로 옮길 수 있을까. ",
+      "text": "이번에는 흐릿한 모습을 문장으로 옮길 수 있을까.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P001-S04",
+        "C01-P002-S01"
+      ],
+      "context_after": [
+        "C01-P002-S03",
+        "C01-P002-S04"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 이번에는 흐릿한 모습을 문장으로 옮길 수 있을까.",
+          "outer_inner": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+        "acting_notes": "청자에게 다음 내용을 전달: 이번에는 흐릿한 모습을 문장으로 옮길 수 있을까."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s002의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P002-S03",
+      "paragraph_id": "C01-P002",
+      "scene_id": "c01-s002",
+      "source_span": [
+        61,
+        83
+      ],
+      "source_slice": "그보다 먼저 확인하고 싶은 게 있었다. ",
+      "text": "그보다 먼저 확인하고 싶은 게 있었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P002-S01",
+        "C01-P002-S02"
+      ],
+      "context_after": [
+        "C01-P002-S04",
+        "C01-P003-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 그보다 먼저 확인하고 싶은 게 있었다.",
+          "outer_inner": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+        "acting_notes": "청자에게 다음 내용을 전달: 그보다 먼저 확인하고 싶은 게 있었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s002의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P002-S04",
+      "paragraph_id": "C01-P002",
+      "scene_id": "c01-s002",
+      "source_span": [
+        83,
+        124
+      ],
+      "source_slice": "예전에 밤늦도록 저 인물들을 생각하던 마음이 자기 안에 아직 남아 있을까.",
+      "text": "예전에 밤늦도록 저 인물들을 생각하던 마음이 자기 안에 아직 남아 있을까.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P002-S02",
+        "C01-P002-S03"
+      ],
+      "context_after": [
+        "C01-P003-S01",
+        "C01-P003-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 예전에 밤늦도록 저 인물들을 생각하던 마음이 자기 안에 아직 남아 있을까.",
+          "outer_inner": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+          "pivot": "같은 문단의 4번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
+        "acting_notes": "청자에게 다음 내용을 전달: 예전에 밤늦도록 저 인물들을 생각하던 마음이 자기 안에 아직 남아 있을까."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s002의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P003-S01",
+      "paragraph_id": "C01-P003",
+      "scene_id": "c01-s002",
+      "source_span": [
+        0,
+        24
+      ],
+      "source_slice": "‘너희를 다시 그리고 싶어질 줄은 몰랐어. ",
+      "text": "너희를 다시 그리고 싶어질 줄은 몰랐어.",
+      "cast_id": "dedication-poet",
+      "speaker": "시인",
+      "voice": "Algieba",
+      "kind": "monologue",
+      "context_before": [
+        "C01-P002-S03",
+        "C01-P002-S04"
+      ],
+      "context_after": [
+        "C01-P003-S02",
+        "C01-P004-S01"
+      ],
+      "performance": {
+        "character_persona": "지난 삶과 사람들을 돌아보는 이름 없는 창작자. 조용하고 절제된 그리움. 2장 극작가와 같은 인물이라고 단정하지 않는다.",
+        "sentence_persona": "지난 삶과 사람들을 돌아보는 이름 없는 창작자. 조용하고 절제된 그리움. 2장 극작가와 같은 인물이라고 단정하지 않는다. 이 문장에서는 시인 자신의 뜻밖의 설렘에서 끝까지 쓸 수 있을지 묻는 불안으로",
+        "design": {
+          "addressee_intention": "다시 쓰고 싶어진 자신에게 놀라며 속으로 인정한다.",
+          "outer_inner": "시인 자신의 뜻밖의 설렘에서 끝까지 쓸 수 있을지 묻는 불안으로",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "나직하지만 성대가 울리는 보통 발성. 질문 끝을 과도하게 올리지 않는다. 속삭임·ASMR 금지.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "시인 자신의 뜻밖의 설렘에서 끝까지 쓸 수 있을지 묻는 불안으로 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "echo-v4",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "가까운 사람에게 나직하게 말하는 유성 발성. 속삭임·과한 숨·ASMR 금지. 잔향 없는 원음 생성 후 에코는 후처리.",
+        "emotion": "시인 자신의 뜻밖의 설렘에서 끝까지 쓸 수 있을지 묻는 불안으로",
+        "acting_notes": "다시 쓰고 싶어진 자신에게 놀라며 속으로 인정한다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s002의 aside.inner-voice에 data-speaker=시인/data-cast=dedication-poet가 있고, 앞 문단이 시인의 내적 의문을 설명함.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P003-S02",
+      "paragraph_id": "C01-P003",
+      "scene_id": "c01-s002",
+      "source_span": [
+        24,
+        44
+      ],
+      "source_slice": "이번에는 끝까지 써 볼 수 있을까?’",
+      "text": "이번에는 끝까지 써 볼 수 있을까?",
+      "cast_id": "dedication-poet",
+      "speaker": "시인",
+      "voice": "Algieba",
+      "kind": "monologue",
+      "context_before": [
+        "C01-P002-S04",
+        "C01-P003-S01"
+      ],
+      "context_after": [
+        "C01-P004-S01",
+        "C01-P004-S02"
+      ],
+      "performance": {
+        "character_persona": "지난 삶과 사람들을 돌아보는 이름 없는 창작자. 조용하고 절제된 그리움. 2장 극작가와 같은 인물이라고 단정하지 않는다.",
+        "sentence_persona": "지난 삶과 사람들을 돌아보는 이름 없는 창작자. 조용하고 절제된 그리움. 2장 극작가와 같은 인물이라고 단정하지 않는다. 이 문장에서는 시인 자신의 뜻밖의 설렘에서 끝까지 쓸 수 있을지 묻는 불안으로",
+        "design": {
+          "addressee_intention": "이번에는 끝까지 쓸 수 있을지 자신에게 조심스럽게 묻는다.",
+          "outer_inner": "시인 자신의 뜻밖의 설렘에서 끝까지 쓸 수 있을지 묻는 불안으로",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "나직하지만 성대가 울리는 보통 발성. 질문 끝을 과도하게 올리지 않는다. 속삭임·ASMR 금지.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "시인 자신의 뜻밖의 설렘에서 끝까지 쓸 수 있을지 묻는 불안으로 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "echo-v4",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "가까운 사람에게 나직하게 말하는 유성 발성. 속삭임·과한 숨·ASMR 금지. 잔향 없는 원음 생성 후 에코는 후처리.",
+        "emotion": "시인 자신의 뜻밖의 설렘에서 끝까지 쓸 수 있을지 묻는 불안으로",
+        "acting_notes": "이번에는 끝까지 쓸 수 있을지 자신에게 조심스럽게 묻는다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s002의 aside.inner-voice에 data-speaker=시인/data-cast=dedication-poet가 있고, 앞 문단이 시인의 내적 의문을 설명함.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P004-S01",
+      "paragraph_id": "C01-P004",
+      "scene_id": "c01-s003",
+      "source_span": [
+        0,
+        38
+      ],
+      "source_slice": "한 사람을 자세히 보려는 사이 그 옆으로 또 다른 사람이 다가왔다. ",
+      "text": "한 사람을 자세히 보려는 사이 그 옆으로 또 다른 사람이 다가왔다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P003-S01",
+        "C01-P003-S02"
+      ],
+      "context_after": [
+        "C01-P004-S02",
+        "C01-P004-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 한 사람을 자세히 보려는 사이 그 옆으로 또 다른 사람이 다가왔다.",
+          "outer_inner": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+        "acting_notes": "청자에게 다음 내용을 전달: 한 사람을 자세히 보려는 사이 그 옆으로 또 다른 사람이 다가왔다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s003의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P004-S02",
+      "paragraph_id": "C01-P004",
+      "scene_id": "c01-s003",
+      "source_span": [
+        38,
+        67
+      ],
+      "source_slice": "안개 속을 거슬러 밀어내기엔 너무 많은 얼굴이었다. ",
+      "text": "안개 속을 거슬러 밀어내기엔 너무 많은 얼굴이었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P003-S02",
+        "C01-P004-S01"
+      ],
+      "context_after": [
+        "C01-P004-S03",
+        "C01-P004-S04"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 안개 속을 거슬러 밀어내기엔 너무 많은 얼굴이었다.",
+          "outer_inner": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+        "acting_notes": "청자에게 다음 내용을 전달: 안개 속을 거슬러 밀어내기엔 너무 많은 얼굴이었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s003의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P004-S03",
+      "paragraph_id": "C01-P004",
+      "scene_id": "c01-s003",
+      "source_span": [
+        67,
+        86
+      ],
+      "source_slice": "시인은 잠시 가만히 있기로 했다. ",
+      "text": "시인은 잠시 가만히 있기로 했다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P004-S01",
+        "C01-P004-S02"
+      ],
+      "context_after": [
+        "C01-P004-S04",
+        "C01-P005-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 시인은 잠시 가만히 있기로 했다.",
+          "outer_inner": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+        "acting_notes": "청자에게 다음 내용을 전달: 시인은 잠시 가만히 있기로 했다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s003의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P004-S04",
+      "paragraph_id": "C01-P004",
+      "scene_id": "c01-s003",
+      "source_span": [
+        86,
+        122
+      ],
+      "source_slice": "어디까지 기억해 낼 수 있는지는 그들이 다가오고 나면 알 터였다.",
+      "text": "어디까지 기억해 낼 수 있는지는 그들이 다가오고 나면 알 터였다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P004-S02",
+        "C01-P004-S03"
+      ],
+      "context_after": [
+        "C01-P005-S01",
+        "C01-P005-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 어디까지 기억해 낼 수 있는지는 그들이 다가오고 나면 알 터였다.",
+          "outer_inner": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+          "pivot": "같은 문단의 4번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
+        "acting_notes": "청자에게 다음 내용을 전달: 어디까지 기억해 낼 수 있는지는 그들이 다가오고 나면 알 터였다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s003의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P005-S01",
+      "paragraph_id": "C01-P005",
+      "scene_id": "c01-s004",
+      "source_span": [
+        0,
+        49
+      ],
+      "source_slice": "가벼운 바람이 얇은 옷자락을 들어 올리듯, 그들의 기척만으로도 시인의 가슴이 들썩였다. ",
+      "text": "가벼운 바람이 얇은 옷자락을 들어 올리듯, 그들의 기척만으로도 시인의 가슴이 들썩였다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P004-S03",
+        "C01-P004-S04"
+      ],
+      "context_after": [
+        "C01-P005-S02",
+        "C01-P005-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 젊은 시절 창작의 설렘이 다시 살아남",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 가벼운 바람이 얇은 옷자락을 들어 올리듯, 그들의 기척만으로도 시인의 가슴이 들썩였다.",
+          "outer_inner": "젊은 시절 창작의 설렘이 다시 살아남",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "젊은 시절 창작의 설렘이 다시 살아남 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "젊은 시절 창작의 설렘이 다시 살아남",
+        "acting_notes": "청자에게 다음 내용을 전달: 가벼운 바람이 얇은 옷자락을 들어 올리듯, 그들의 기척만으로도 시인의 가슴이 들썩였다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s004의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P005-S02",
+      "paragraph_id": "C01-P005",
+      "scene_id": "c01-s004",
+      "source_span": [
+        49,
+        83
+      ],
+      "source_slice": "젊었을 때 새 장면이 떠오르면 한시도 앉아 있기가 어려웠다. ",
+      "text": "젊었을 때 새 장면이 떠오르면 한시도 앉아 있기가 어려웠다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P004-S04",
+        "C01-P005-S01"
+      ],
+      "context_after": [
+        "C01-P005-S03",
+        "C01-P006-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 젊은 시절 창작의 설렘이 다시 살아남",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 젊었을 때 새 장면이 떠오르면 한시도 앉아 있기가 어려웠다.",
+          "outer_inner": "젊은 시절 창작의 설렘이 다시 살아남",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "젊은 시절 창작의 설렘이 다시 살아남 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "젊은 시절 창작의 설렘이 다시 살아남",
+        "acting_notes": "청자에게 다음 내용을 전달: 젊었을 때 새 장면이 떠오르면 한시도 앉아 있기가 어려웠다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s004의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P005-S03",
+      "paragraph_id": "C01-P005",
+      "scene_id": "c01-s004",
+      "source_span": [
+        83,
+        103
+      ],
+      "source_slice": "오랜만에 느끼는 바로 그 설렘이었다.",
+      "text": "오랜만에 느끼는 바로 그 설렘이었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P005-S01",
+        "C01-P005-S02"
+      ],
+      "context_after": [
+        "C01-P006-S01",
+        "C01-P006-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 젊은 시절 창작의 설렘이 다시 살아남",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 오랜만에 느끼는 바로 그 설렘이었다.",
+          "outer_inner": "젊은 시절 창작의 설렘이 다시 살아남",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "젊은 시절 창작의 설렘이 다시 살아남 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "젊은 시절 창작의 설렘이 다시 살아남",
+        "acting_notes": "청자에게 다음 내용을 전달: 오랜만에 느끼는 바로 그 설렘이었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s004의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P006-S01",
+      "paragraph_id": "C01-P006",
+      "scene_id": "c01-s005",
+      "source_span": [
+        0,
+        27
+      ],
+      "source_slice": "그러자 안개 뒤에서 햇빛이 들던 길이 떠올랐다. ",
+      "text": "그러자 안개 뒤에서 햇빛이 들던 길이 떠올랐다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P005-S02",
+        "C01-P005-S03"
+      ],
+      "context_after": [
+        "C01-P006-S02",
+        "C01-P006-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 그러자 안개 뒤에서 햇빛이 들던 길이 떠올랐다.",
+          "outer_inner": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
+        "acting_notes": "청자에게 다음 내용을 전달: 그러자 안개 뒤에서 햇빛이 들던 길이 떠올랐다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s005의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P006-S02",
+      "paragraph_id": "C01-P006",
+      "scene_id": "c01-s005",
+      "source_span": [
+        27,
+        62
+      ],
+      "source_slice": "나무 아래로 두 사람이 나란히 걸어가는 모습이 보이는 듯했다. ",
+      "text": "나무 아래로 두 사람이 나란히 걸어가는 모습이 보이는 듯했다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P005-S03",
+        "C01-P006-S01"
+      ],
+      "context_after": [
+        "C01-P006-S03",
+        "C01-P007-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 나무 아래로 두 사람이 나란히 걸어가는 모습이 보이는 듯했다.",
+          "outer_inner": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
+        "acting_notes": "청자에게 다음 내용을 전달: 나무 아래로 두 사람이 나란히 걸어가는 모습이 보이는 듯했다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s005의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P006-S03",
+      "paragraph_id": "C01-P006",
+      "scene_id": "c01-s005",
+      "source_span": [
+        62,
+        121
+      ],
+      "source_slice": "그 얼굴들을 떠올리고 나니, 시인은 그 시절엔 무엇이 그리 좋아서 친구들만 만나면 웃었던가 하고 생각했다.",
+      "text": "그 얼굴들을 떠올리고 나니, 시인은 그 시절엔 무엇이 그리 좋아서 친구들만 만나면 웃었던가 하고 생각했다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P006-S01",
+        "C01-P006-S02"
+      ],
+      "context_after": [
+        "C01-P007-S01",
+        "C01-P007-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 그 얼굴들을 떠올리고 나니, 시인은 그 시절엔 무엇이 그리 좋아서 친구들만 만나면 웃었던가 하고 생각했다.",
+          "outer_inner": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [
+          {
+            "source_sentence_id": "C01-P006-S03",
+            "target_sentence_id": "C01-P006-S03",
+            "cue_text": "그 얼굴들을 떠올리고 나니, 시인은 그 시절엔 무엇이 그리 좋아서 친구들만 만나면 웃었던가 하고 생각했다.",
+            "instruction": "과거 친구들의 웃음을 회상하는 서술. 현재 나레이터/시인의 웃음 삽입 근거가 아님."
+          }
+        ],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
+        "acting_notes": "청자에게 다음 내용을 전달: 그 얼굴들을 떠올리고 나니, 시인은 그 시절엔 무엇이 그리 좋아서 친구들만 만나면 웃었던가 하고 생각했다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s005의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P007-S01",
+      "paragraph_id": "C01-P007",
+      "scene_id": "c01-s006",
+      "source_span": [
+        0,
+        32
+      ],
+      "source_slice": "빛이 번지는 길에 서로를 바라보는 두 사람이 어른거렸다. ",
+      "text": "빛이 번지는 길에 서로를 바라보는 두 사람이 어른거렸다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P006-S02",
+        "C01-P006-S03"
+      ],
+      "context_after": [
+        "C01-P007-S02",
+        "C01-P007-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 빛이 번지는 길에 서로를 바라보는 두 사람이 어른거렸다.",
+          "outer_inner": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+        "acting_notes": "청자에게 다음 내용을 전달: 빛이 번지는 길에 서로를 바라보는 두 사람이 어른거렸다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s006의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P007-S02",
+      "paragraph_id": "C01-P007",
+      "scene_id": "c01-s006",
+      "source_span": [
+        32,
+        57
+      ],
+      "source_slice": "시인은 처음 마음을 주었던 사람을 떠올렸다. ",
+      "text": "시인은 처음 마음을 주었던 사람을 떠올렸다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P006-S03",
+        "C01-P007-S01"
+      ],
+      "context_after": [
+        "C01-P007-S03",
+        "C01-P007-S04"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 시인은 처음 마음을 주었던 사람을 떠올렸다.",
+          "outer_inner": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+        "acting_notes": "청자에게 다음 내용을 전달: 시인은 처음 마음을 주었던 사람을 떠올렸다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s006의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P007-S03",
+      "paragraph_id": "C01-P007",
+      "scene_id": "c01-s006",
+      "source_span": [
+        57,
+        99
+      ],
+      "source_slice": "그 무렵 기쁜 일이 있으면 누구보다 먼저 찾아가 말했던 친구들도 생각났다. ",
+      "text": "그 무렵 기쁜 일이 있으면 누구보다 먼저 찾아가 말했던 친구들도 생각났다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P007-S01",
+        "C01-P007-S02"
+      ],
+      "context_after": [
+        "C01-P007-S04",
+        "C01-P007-S05"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 그 무렵 기쁜 일이 있으면 누구보다 먼저 찾아가 말했던 친구들도 생각났다.",
+          "outer_inner": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+        "acting_notes": "청자에게 다음 내용을 전달: 그 무렵 기쁜 일이 있으면 누구보다 먼저 찾아가 말했던 친구들도 생각났다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s006의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P007-S04",
+      "paragraph_id": "C01-P007",
+      "scene_id": "c01-s006",
+      "source_span": [
+        99,
+        149
+      ],
+      "source_slice": "오랫동안 입에 올리지 않아 끝부분이 희미해진 옛이야기처럼, 기억은 군데군데 비어 있었다. ",
+      "text": "오랫동안 입에 올리지 않아 끝부분이 희미해진 옛이야기처럼, 기억은 군데군데 비어 있었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P007-S02",
+        "C01-P007-S03"
+      ],
+      "context_after": [
+        "C01-P007-S05",
+        "C01-P008-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 오랫동안 입에 올리지 않아 끝부분이 희미해진 옛이야기처럼, 기억은 군데군데 비어 있었다.",
+          "outer_inner": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+          "pivot": "같은 문단의 4번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+        "acting_notes": "청자에게 다음 내용을 전달: 오랫동안 입에 올리지 않아 끝부분이 희미해진 옛이야기처럼, 기억은 군데군데 비어 있었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s006의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P007-S05",
+      "paragraph_id": "C01-P007",
+      "scene_id": "c01-s006",
+      "source_span": [
+        149,
+        178
+      ],
+      "source_slice": "그런데도 어떤 얼굴은 당장 말을 걸어올 듯 가까웠다.",
+      "text": "그런데도 어떤 얼굴은 당장 말을 걸어올 듯 가까웠다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P007-S03",
+        "C01-P007-S04"
+      ],
+      "context_after": [
+        "C01-P008-S01",
+        "C01-P008-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 그런데도 어떤 얼굴은 당장 말을 걸어올 듯 가까웠다.",
+          "outer_inner": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+          "pivot": "같은 문단의 5번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
+        "acting_notes": "청자에게 다음 내용을 전달: 그런데도 어떤 얼굴은 당장 말을 걸어올 듯 가까웠다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s006의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P008-S01",
+      "paragraph_id": "C01-P008",
+      "scene_id": "c01-s007",
+      "source_span": [
+        0,
+        40
+      ],
+      "source_slice": "좋았던 일을 따라가다 보니, 그때 그들에게 하지 못한 말까지 생각났다. ",
+      "text": "좋았던 일을 따라가다 보니, 그때 그들에게 하지 못한 말까지 생각났다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P007-S04",
+        "C01-P007-S05"
+      ],
+      "context_after": [
+        "C01-P008-S02",
+        "C01-P008-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 좋았던 일을 따라가다 보니, 그때 그들에게 하지 못한 말까지 생각났다.",
+          "outer_inner": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+        "acting_notes": "청자에게 다음 내용을 전달: 좋았던 일을 따라가다 보니, 그때 그들에게 하지 못한 말까지 생각났다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s007의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P008-S02",
+      "paragraph_id": "C01-P008",
+      "scene_id": "c01-s007",
+      "source_span": [
+        40,
+        76
+      ],
+      "source_slice": "정원길을 위에서 내려다보면 갈림길마다 어디로 이어지는지 보인다. ",
+      "text": "정원길을 위에서 내려다보면 갈림길마다 어디로 이어지는지 보인다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P007-S05",
+        "C01-P008-S01"
+      ],
+      "context_after": [
+        "C01-P008-S03",
+        "C01-P008-S04"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 정원길을 위에서 내려다보면 갈림길마다 어디로 이어지는지 보인다.",
+          "outer_inner": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+        "acting_notes": "청자에게 다음 내용을 전달: 정원길을 위에서 내려다보면 갈림길마다 어디로 이어지는지 보인다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s007의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P008-S03",
+      "paragraph_id": "C01-P008",
+      "scene_id": "c01-s007",
+      "source_span": [
+        76,
+        143
+      ],
+      "source_slice": "시인은 지나온 삶도 이제는 그렇게 볼 수 있을 줄 알았는데, 돌이켜 보니 그때처럼 어디서 길을 잃었는지 알 수 없었다. ",
+      "text": "시인은 지나온 삶도 이제는 그렇게 볼 수 있을 줄 알았는데, 돌이켜 보니 그때처럼 어디서 길을 잃었는지 알 수 없었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P008-S01",
+        "C01-P008-S02"
+      ],
+      "context_after": [
+        "C01-P008-S04",
+        "C01-P009-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 시인은 지나온 삶도 이제는 그렇게 볼 수 있을 줄 알았는데, 돌이켜 보니 그때처럼 어디서 길을 잃었는지 알 수 없었다.",
+          "outer_inner": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+        "acting_notes": "청자에게 다음 내용을 전달: 시인은 지나온 삶도 이제는 그렇게 볼 수 있을 줄 알았는데, 돌이켜 보니 그때처럼 어디서 길을 잃었는지 알 수 없었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s007의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P008-S04",
+      "paragraph_id": "C01-P008",
+      "scene_id": "c01-s007",
+      "source_span": [
+        143,
+        165
+      ],
+      "source_slice": "지나간 줄 알았던 아픔이 다시 밀려왔다.",
+      "text": "지나간 줄 알았던 아픔이 다시 밀려왔다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P008-S02",
+        "C01-P008-S03"
+      ],
+      "context_after": [
+        "C01-P009-S01",
+        "C01-P009-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 지나간 줄 알았던 아픔이 다시 밀려왔다.",
+          "outer_inner": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+          "pivot": "같은 문단의 4번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
+        "acting_notes": "청자에게 다음 내용을 전달: 지나간 줄 알았던 아픔이 다시 밀려왔다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s007의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P009-S01",
+      "paragraph_id": "C01-P009",
+      "scene_id": "c01-s008",
+      "source_span": [
+        0,
+        26
+      ],
+      "source_slice": "그는 떠나간 사람들의 이름을 하나씩 떠올렸다. ",
+      "text": "그는 떠나간 사람들의 이름을 하나씩 떠올렸다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P008-S03",
+        "C01-P008-S04"
+      ],
+      "context_after": [
+        "C01-P009-S02",
+        "C01-P009-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 그는 떠나간 사람들의 이름을 하나씩 떠올렸다.",
+          "outer_inner": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
+        "acting_notes": "청자에게 다음 내용을 전달: 그는 떠나간 사람들의 이름을 하나씩 떠올렸다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s008의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P009-S02",
+      "paragraph_id": "C01-P009",
+      "scene_id": "c01-s008",
+      "source_span": [
+        26,
+        65
+      ],
+      "source_slice": "얼마든지 다시 만날 수 있을 줄 알고 서둘러 작별했던 이들도 있었다. ",
+      "text": "얼마든지 다시 만날 수 있을 줄 알고 서둘러 작별했던 이들도 있었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P008-S04",
+        "C01-P009-S01"
+      ],
+      "context_after": [
+        "C01-P009-S03",
+        "C01-P010-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 얼마든지 다시 만날 수 있을 줄 알고 서둘러 작별했던 이들도 있었다.",
+          "outer_inner": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
+        "acting_notes": "청자에게 다음 내용을 전달: 얼마든지 다시 만날 수 있을 줄 알고 서둘러 작별했던 이들도 있었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s008의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P009-S03",
+      "paragraph_id": "C01-P009",
+      "scene_id": "c01-s008",
+      "source_span": [
+        65,
+        108
+      ],
+      "source_slice": "낙엽이 내려앉은 빈 벤치처럼, 이제는 그들이 앉던 자리만 기억에 남아 있었다.",
+      "text": "낙엽이 내려앉은 빈 벤치처럼, 이제는 그들이 앉던 자리만 기억에 남아 있었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P009-S01",
+        "C01-P009-S02"
+      ],
+      "context_after": [
+        "C01-P010-S01",
+        "C01-P010-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 낙엽이 내려앉은 빈 벤치처럼, 이제는 그들이 앉던 자리만 기억에 남아 있었다.",
+          "outer_inner": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
+        "acting_notes": "청자에게 다음 내용을 전달: 낙엽이 내려앉은 빈 벤치처럼, 이제는 그들이 앉던 자리만 기억에 남아 있었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s008의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P010-S01",
+      "paragraph_id": "C01-P010",
+      "scene_id": "c01-s009",
+      "source_span": [
+        0,
+        38
+      ],
+      "source_slice": "그중에는 시인이 새로 쓴 글을 가장 먼저 들어 준 친구들이 있었다. ",
+      "text": "그중에는 시인이 새로 쓴 글을 가장 먼저 들어 준 친구들이 있었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P009-S02",
+        "C01-P009-S03"
+      ],
+      "context_after": [
+        "C01-P010-S02",
+        "C01-P010-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 그중에는 시인이 새로 쓴 글을 가장 먼저 들어 준 친구들이 있었다.",
+          "outer_inner": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
+        "acting_notes": "청자에게 다음 내용을 전달: 그중에는 시인이 새로 쓴 글을 가장 먼저 들어 준 친구들이 있었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s009의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P010-S02",
+      "paragraph_id": "C01-P010",
+      "scene_id": "c01-s009",
+      "source_span": [
+        38,
+        69
+      ],
+      "source_slice": "이야기의 첫 대목은 그 얼굴들을 보며 읽을 수 있었다. ",
+      "text": "이야기의 첫 대목은 그 얼굴들을 보며 읽을 수 있었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P009-S03",
+        "C01-P010-S01"
+      ],
+      "context_after": [
+        "C01-P010-S03",
+        "C01-P011-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 이야기의 첫 대목은 그 얼굴들을 보며 읽을 수 있었다.",
+          "outer_inner": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
+        "acting_notes": "청자에게 다음 내용을 전달: 이야기의 첫 대목은 그 얼굴들을 보며 읽을 수 있었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s009의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P010-S03",
+      "paragraph_id": "C01-P010",
+      "scene_id": "c01-s009",
+      "source_span": [
+        69,
+        118
+      ],
+      "source_slice": "이어지는 이야기를 아무리 오래 다듬어도, 이번에는 그들 앞에 의자를 놓아 줄 수 없었다.",
+      "text": "이어지는 이야기를 아무리 오래 다듬어도, 이번에는 그들 앞에 의자를 놓아 줄 수 없었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P010-S01",
+        "C01-P010-S02"
+      ],
+      "context_after": [
+        "C01-P011-S01",
+        "C01-P011-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 이어지는 이야기를 아무리 오래 다듬어도, 이번에는 그들 앞에 의자를 놓아 줄 수 없었다.",
+          "outer_inner": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
+        "acting_notes": "청자에게 다음 내용을 전달: 이어지는 이야기를 아무리 오래 다듬어도, 이번에는 그들 앞에 의자를 놓아 줄 수 없었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s009의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P011-S01",
+      "paragraph_id": "C01-P011",
+      "scene_id": "c01-s010",
+      "source_span": [
+        0,
+        38
+      ],
+      "source_slice": "그때는 글을 한 대목 읽고 나면 누군가 웃거나 무슨 뜻인지 물었다. ",
+      "text": "그때는 글을 한 대목 읽고 나면 누군가 웃거나 무슨 뜻인지 물었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P010-S02",
+        "C01-P010-S03"
+      ],
+      "context_after": [
+        "C01-P011-S02",
+        "C01-P011-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 그때는 글을 한 대목 읽고 나면 누군가 웃거나 무슨 뜻인지 물었다.",
+          "outer_inner": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [
+          {
+            "source_sentence_id": "C01-P011-S01",
+            "target_sentence_id": "C01-P011-S01",
+            "cue_text": "그때는 글을 한 대목 읽고 나면 누군가 웃거나 무슨 뜻인지 물었다.",
+            "instruction": "과거 친구들의 웃음을 회상하는 서술. 현재 나레이터/시인의 웃음 삽입 근거가 아님."
+          }
+        ],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
+        "acting_notes": "청자에게 다음 내용을 전달: 그때는 글을 한 대목 읽고 나면 누군가 웃거나 무슨 뜻인지 물었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s010의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P011-S02",
+      "paragraph_id": "C01-P011",
+      "scene_id": "c01-s010",
+      "source_span": [
+        38,
+        86
+      ],
+      "source_slice": "물에 번지던 잔물결이 한참 뒤 잦아들듯, 방 안을 돌던 웃음과 대답도 이제 희미했다. ",
+      "text": "물에 번지던 잔물결이 한참 뒤 잦아들듯, 방 안을 돌던 웃음과 대답도 이제 희미했다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P010-S03",
+        "C01-P011-S01"
+      ],
+      "context_after": [
+        "C01-P011-S03",
+        "C01-P012-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 물에 번지던 잔물결이 한참 뒤 잦아들듯, 방 안을 돌던 웃음과 대답도 이제 희미했다.",
+          "outer_inner": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [
+          {
+            "source_sentence_id": "C01-P011-S02",
+            "target_sentence_id": "C01-P011-S02",
+            "cue_text": "물에 번지던 잔물결이 한참 뒤 잦아들듯, 방 안을 돌던 웃음과 대답도 이제 희미했다.",
+            "instruction": "과거 친구들의 웃음을 회상하는 서술. 현재 나레이터/시인의 웃음 삽입 근거가 아님."
+          }
+        ],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
+        "acting_notes": "청자에게 다음 내용을 전달: 물에 번지던 잔물결이 한참 뒤 잦아들듯, 방 안을 돌던 웃음과 대답도 이제 희미했다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s010의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P011-S03",
+      "paragraph_id": "C01-P011",
+      "scene_id": "c01-s010",
+      "source_span": [
+        86,
+        121
+      ],
+      "source_slice": "시인은 어떤 문장에서 그들이 가장 크게 웃었는지 떠올리려 했다.",
+      "text": "시인은 어떤 문장에서 그들이 가장 크게 웃었는지 떠올리려 했다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P011-S01",
+        "C01-P011-S02"
+      ],
+      "context_after": [
+        "C01-P012-S01",
+        "C01-P012-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 시인은 어떤 문장에서 그들이 가장 크게 웃었는지 떠올리려 했다.",
+          "outer_inner": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [
+          {
+            "source_sentence_id": "C01-P011-S03",
+            "target_sentence_id": "C01-P011-S03",
+            "cue_text": "시인은 어떤 문장에서 그들이 가장 크게 웃었는지 떠올리려 했다.",
+            "instruction": "과거 친구들의 웃음을 회상하는 서술. 현재 나레이터/시인의 웃음 삽입 근거가 아님."
+          }
+        ],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
+        "acting_notes": "청자에게 다음 내용을 전달: 시인은 어떤 문장에서 그들이 가장 크게 웃었는지 떠올리려 했다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s010의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P012-S01",
+      "paragraph_id": "C01-P012",
+      "scene_id": "c01-s011",
+      "source_span": [
+        0,
+        38
+      ],
+      "source_slice": "이번에 그의 글을 들을 사람들은 붉은 막 너머의 낯선 얼굴들이었다. ",
+      "text": "이번에 그의 글을 들을 사람들은 붉은 막 너머의 낯선 얼굴들이었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P011-S02",
+        "C01-P011-S03"
+      ],
+      "context_after": [
+        "C01-P012-S02",
+        "C01-P012-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 이번에 그의 글을 들을 사람들은 붉은 막 너머의 낯선 얼굴들이었다.",
+          "outer_inner": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+        "acting_notes": "청자에게 다음 내용을 전달: 이번에 그의 글을 들을 사람들은 붉은 막 너머의 낯선 얼굴들이었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s011의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P012-S02",
+      "paragraph_id": "C01-P012",
+      "scene_id": "c01-s011",
+      "source_span": [
+        38,
+        63
+      ],
+      "source_slice": "이야기가 재미있다면 박수를 보내 줄 터였다. ",
+      "text": "이야기가 재미있다면 박수를 보내 줄 터였다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P011-S03",
+        "C01-P012-S01"
+      ],
+      "context_after": [
+        "C01-P012-S03",
+        "C01-P012-S04"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 이야기가 재미있다면 박수를 보내 줄 터였다.",
+          "outer_inner": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+        "acting_notes": "청자에게 다음 내용을 전달: 이야기가 재미있다면 박수를 보내 줄 터였다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s011의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P012-S03",
+      "paragraph_id": "C01-P012",
+      "scene_id": "c01-s011",
+      "source_span": [
+        63,
+        91
+      ],
+      "source_slice": "시인은 그 박수를 상상하고도 마음이 편치 않았다. ",
+      "text": "시인은 그 박수를 상상하고도 마음이 편치 않았다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P012-S01",
+        "C01-P012-S02"
+      ],
+      "context_after": [
+        "C01-P012-S04",
+        "C01-P013-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 시인은 그 박수를 상상하고도 마음이 편치 않았다.",
+          "outer_inner": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+        "acting_notes": "청자에게 다음 내용을 전달: 시인은 그 박수를 상상하고도 마음이 편치 않았다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s011의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P012-S04",
+      "paragraph_id": "C01-P012",
+      "scene_id": "c01-s011",
+      "source_span": [
+        91,
+        139
+      ],
+      "source_slice": "자기가 머뭇거리며 처음 읽어 주었던 문장을 기억할 사람이 그 객석에는 없을 것 같았다.",
+      "text": "자기가 머뭇거리며 처음 읽어 주었던 문장을 기억할 사람이 그 객석에는 없을 것 같았다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P012-S02",
+        "C01-P012-S03"
+      ],
+      "context_after": [
+        "C01-P013-S01",
+        "C01-P014-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 자기가 머뭇거리며 처음 읽어 주었던 문장을 기억할 사람이 그 객석에는 없을 것 같았다.",
+          "outer_inner": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+          "pivot": "같은 문단의 4번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
+        "acting_notes": "청자에게 다음 내용을 전달: 자기가 머뭇거리며 처음 읽어 주었던 문장을 기억할 사람이 그 객석에는 없을 것 같았다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s011의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P013-S01",
+      "paragraph_id": "C01-P013",
+      "scene_id": "c01-s011",
+      "source_span": [
+        0,
+        51
+      ],
+      "source_slice": "‘그때 내 말을 끝까지 들어 준 사람들이 이 다음 이야기도 한 번만 들어 주면 좋을 텐데.’",
+      "text": "그때 내 말을 끝까지 들어 준 사람들이 이 다음 이야기도 한 번만 들어 주면 좋을 텐데.",
+      "cast_id": "dedication-poet",
+      "speaker": "시인",
+      "voice": "Algieba",
+      "kind": "monologue",
+      "context_before": [
+        "C01-P012-S03",
+        "C01-P012-S04"
+      ],
+      "context_after": [
+        "C01-P014-S01",
+        "C01-P014-S02"
+      ],
+      "performance": {
+        "character_persona": "지난 삶과 사람들을 돌아보는 이름 없는 창작자. 조용하고 절제된 그리움. 2장 극작가와 같은 인물이라고 단정하지 않는다.",
+        "sentence_persona": "지난 삶과 사람들을 돌아보는 이름 없는 창작자. 조용하고 절제된 그리움. 2장 극작가와 같은 인물이라고 단정하지 않는다. 이 문장에서는 먼저 들어 주었던 사람들이 다시 들어 주길 바라는 시인 자신의 소망",
+        "design": {
+          "addressee_intention": "옛 첫 독자들이 다음 이야기도 들어 주기를 혼자 바란다.",
+          "outer_inner": "먼저 들어 주었던 사람들이 다시 들어 주길 바라는 시인 자신의 소망",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "나직하지만 성대가 울리는 보통 발성. 질문 끝을 과도하게 올리지 않는다. 속삭임·ASMR 금지.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "먼저 들어 주었던 사람들이 다시 들어 주길 바라는 시인 자신의 소망 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "echo-v4",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "가까운 사람에게 나직하게 말하는 유성 발성. 속삭임·과한 숨·ASMR 금지. 잔향 없는 원음 생성 후 에코는 후처리.",
+        "emotion": "먼저 들어 주었던 사람들이 다시 들어 주길 바라는 시인 자신의 소망",
+        "acting_notes": "옛 첫 독자들이 다음 이야기도 들어 주기를 혼자 바란다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s011의 aside.inner-voice에 data-speaker=시인/data-cast=dedication-poet가 있고, 앞 문단이 시인의 내적 의문을 설명함.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P014-S01",
+      "paragraph_id": "C01-P014",
+      "scene_id": "c01-s012",
+      "source_span": [
+        0,
+        36
+      ],
+      "source_slice": "옛 친구들 가운데 아직 살아 있는 사람도 어딘가에 있을 것이다. ",
+      "text": "옛 친구들 가운데 아직 살아 있는 사람도 어딘가에 있을 것이다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P012-S04",
+        "C01-P013-S01"
+      ],
+      "context_after": [
+        "C01-P014-S02",
+        "C01-P014-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 옛 친구들 가운데 아직 살아 있는 사람도 어딘가에 있을 것이다.",
+          "outer_inner": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
+        "acting_notes": "청자에게 다음 내용을 전달: 옛 친구들 가운데 아직 살아 있는 사람도 어딘가에 있을 것이다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s012의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P014-S02",
+      "paragraph_id": "C01-P014",
+      "scene_id": "c01-s012",
+      "source_span": [
+        36,
+        67
+      ],
+      "source_slice": "하지만 그들이 모두 다시 같은 곳에 모일 수는 없었다. ",
+      "text": "하지만 그들이 모두 다시 같은 곳에 모일 수는 없었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P013-S01",
+        "C01-P014-S01"
+      ],
+      "context_after": [
+        "C01-P014-S03",
+        "C01-P015-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 하지만 그들이 모두 다시 같은 곳에 모일 수는 없었다.",
+          "outer_inner": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
+        "acting_notes": "청자에게 다음 내용을 전달: 하지만 그들이 모두 다시 같은 곳에 모일 수는 없었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s012의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P014-S03",
+      "paragraph_id": "C01-P014",
+      "scene_id": "c01-s012",
+      "source_span": [
+        67,
+        119
+      ],
+      "source_slice": "안개 낀 언덕에서 저마다 다른 길을 걷는 사람처럼, 서로의 소식이 닿지 않는 곳으로 흩어졌다.",
+      "text": "안개 낀 언덕에서 저마다 다른 길을 걷는 사람처럼, 서로의 소식이 닿지 않는 곳으로 흩어졌다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P014-S01",
+        "C01-P014-S02"
+      ],
+      "context_after": [
+        "C01-P015-S01",
+        "C01-P015-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 안개 낀 언덕에서 저마다 다른 길을 걷는 사람처럼, 서로의 소식이 닿지 않는 곳으로 흩어졌다.",
+          "outer_inner": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
+        "acting_notes": "청자에게 다음 내용을 전달: 안개 낀 언덕에서 저마다 다른 길을 걷는 사람처럼, 서로의 소식이 닿지 않는 곳으로 흩어졌다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s012의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P015-S01",
+      "paragraph_id": "C01-P015",
+      "scene_id": "c01-s013",
+      "source_span": [
+        0,
+        37
+      ],
+      "source_slice": "시인은 떠들썩한 객석을 생각하던 끝에 오히려 조용해지고 싶어졌다. ",
+      "text": "시인은 떠들썩한 객석을 생각하던 끝에 오히려 조용해지고 싶어졌다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P014-S02",
+        "C01-P014-S03"
+      ],
+      "context_after": [
+        "C01-P015-S02",
+        "C01-P015-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 시인은 떠들썩한 객석을 생각하던 끝에 오히려 조용해지고 싶어졌다.",
+          "outer_inner": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
+        "acting_notes": "청자에게 다음 내용을 전달: 시인은 떠들썩한 객석을 생각하던 끝에 오히려 조용해지고 싶어졌다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s013의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P015-S02",
+      "paragraph_id": "C01-P015",
+      "scene_id": "c01-s013",
+      "source_span": [
+        37,
+        103
+      ],
+      "source_slice": "안개가 내린 숲처럼 말소리 하나 없는 마음속이라면, 그리운 얼굴들이 사라지기 전에 조금 더 곁에 둘 수 있을 듯했다. ",
+      "text": "안개가 내린 숲처럼 말소리 하나 없는 마음속이라면, 그리운 얼굴들이 사라지기 전에 조금 더 곁에 둘 수 있을 듯했다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P014-S03",
+        "C01-P015-S01"
+      ],
+      "context_after": [
+        "C01-P015-S03",
+        "C01-P016-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 안개가 내린 숲처럼 말소리 하나 없는 마음속이라면, 그리운 얼굴들이 사라지기 전에 조금 더 곁에 둘 수 있을 듯했다.",
+          "outer_inner": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
+        "acting_notes": "청자에게 다음 내용을 전달: 안개가 내린 숲처럼 말소리 하나 없는 마음속이라면, 그리운 얼굴들이 사라지기 전에 조금 더 곁에 둘 수 있을 듯했다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s013의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P015-S03",
+      "paragraph_id": "C01-P015",
+      "scene_id": "c01-s013",
+      "source_span": [
+        103,
+        127
+      ],
+      "source_slice": "오래 잊고 지냈던 그리움이 그렇게 돌아왔다.",
+      "text": "오래 잊고 지냈던 그리움이 그렇게 돌아왔다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P015-S01",
+        "C01-P015-S02"
+      ],
+      "context_after": [
+        "C01-P016-S01",
+        "C01-P016-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 오래 잊고 지냈던 그리움이 그렇게 돌아왔다.",
+          "outer_inner": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
+        "acting_notes": "청자에게 다음 내용을 전달: 오래 잊고 지냈던 그리움이 그렇게 돌아왔다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s013의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P016-S01",
+      "paragraph_id": "C01-P016",
+      "scene_id": "c01-s014",
+      "source_span": [
+        0,
+        31
+      ],
+      "source_slice": "그가 낮게 읊는 시는 열린 창가의 바람 하프와 닮았다. ",
+      "text": "그가 낮게 읊는 시는 열린 창가의 바람 하프와 닮았다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P015-S02",
+        "C01-P015-S03"
+      ],
+      "context_after": [
+        "C01-P016-S02",
+        "C01-P016-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 그가 낮게 읊는 시는 열린 창가의 바람 하프와 닮았다.",
+          "outer_inner": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [
+          {
+            "source_sentence_id": "C01-P016-S01",
+            "target_sentence_id": "C01-P016-S01",
+            "cue_text": "그가 낮게 읊는 시는 열린 창가의 바람 하프와 닮았다.",
+            "instruction": "시인의 현재 행동·상태를 설명하는 나레이션. 인접한 시인의 발화가 없어 임의 대사나 울음 음원을 만들지 않음."
+          }
+        ],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
+        "acting_notes": "청자에게 다음 내용을 전달: 그가 낮게 읊는 시는 열린 창가의 바람 하프와 닮았다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s014의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P016-S02",
+      "paragraph_id": "C01-P016",
+      "scene_id": "c01-s014",
+      "source_span": [
+        31,
+        76
+      ],
+      "source_slice": "손으로 줄을 뜯지 않아도 바람이 지날 때마다 줄이 떨리며 소리를 내는 악기였다. ",
+      "text": "손으로 줄을 뜯지 않아도 바람이 지날 때마다 줄이 떨리며 소리를 내는 악기였다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P015-S03",
+        "C01-P016-S01"
+      ],
+      "context_after": [
+        "C01-P016-S03",
+        "C01-P017-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 손으로 줄을 뜯지 않아도 바람이 지날 때마다 줄이 떨리며 소리를 내는 악기였다.",
+          "outer_inner": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
+        "acting_notes": "청자에게 다음 내용을 전달: 손으로 줄을 뜯지 않아도 바람이 지날 때마다 줄이 떨리며 소리를 내는 악기였다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s014의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P016-S03",
+      "paragraph_id": "C01-P016",
+      "scene_id": "c01-s014",
+      "source_span": [
+        76,
+        126
+      ],
+      "source_slice": "시인의 말도 일정한 가락을 찾기 전에, 기억이 닿는 곳마다 조금씩 다른 소리로 흘러나왔다.",
+      "text": "시인의 말도 일정한 가락을 찾기 전에, 기억이 닿는 곳마다 조금씩 다른 소리로 흘러나왔다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P016-S01",
+        "C01-P016-S02"
+      ],
+      "context_after": [
+        "C01-P017-S01",
+        "C01-P017-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 시인의 말도 일정한 가락을 찾기 전에, 기억이 닿는 곳마다 조금씩 다른 소리로 흘러나왔다.",
+          "outer_inner": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
+        "acting_notes": "청자에게 다음 내용을 전달: 시인의 말도 일정한 가락을 찾기 전에, 기억이 닿는 곳마다 조금씩 다른 소리로 흘러나왔다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s014의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P017-S01",
+      "paragraph_id": "C01-P017",
+      "scene_id": "c01-s015",
+      "source_span": [
+        0,
+        11
+      ],
+      "source_slice": "문득 몸이 떨렸다. ",
+      "text": "문득 몸이 떨렸다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P016-S02",
+        "C01-P016-S03"
+      ],
+      "context_after": [
+        "C01-P017-S02",
+        "C01-P017-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 문득 몸이 떨렸다.",
+          "outer_inner": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [
+          {
+            "source_sentence_id": "C01-P017-S01",
+            "target_sentence_id": "C01-P017-S01",
+            "cue_text": "문득 몸이 떨렸다.",
+            "instruction": "시인의 현재 행동·상태를 설명하는 나레이션. 인접한 시인의 발화가 없어 임의 대사나 울음 음원을 만들지 않음."
+          }
+        ],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
+        "acting_notes": "청자에게 다음 내용을 전달: 문득 몸이 떨렸다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s015의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P017-S02",
+      "paragraph_id": "C01-P017",
+      "scene_id": "c01-s015",
+      "source_span": [
+        11,
+        50
+      ],
+      "source_slice": "눈물 한 방울이 뺨을 타고 내려오더니 그 뒤를 또 한 방울이 따랐다. ",
+      "text": "눈물 한 방울이 뺨을 타고 내려오더니 그 뒤를 또 한 방울이 따랐다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P016-S03",
+        "C01-P017-S01"
+      ],
+      "context_after": [
+        "C01-P017-S03",
+        "C01-P018-S01"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 눈물 한 방울이 뺨을 타고 내려오더니 그 뒤를 또 한 방울이 따랐다.",
+          "outer_inner": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [
+          {
+            "source_sentence_id": "C01-P017-S02",
+            "target_sentence_id": "C01-P017-S02",
+            "cue_text": "눈물 한 방울이 뺨을 타고 내려오더니 그 뒤를 또 한 방울이 따랐다.",
+            "instruction": "시인의 현재 행동·상태를 설명하는 나레이션. 인접한 시인의 발화가 없어 임의 대사나 울음 음원을 만들지 않음."
+          }
+        ],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
+        "acting_notes": "청자에게 다음 내용을 전달: 눈물 한 방울이 뺨을 타고 내려오더니 그 뒤를 또 한 방울이 따랐다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s015의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P017-S03",
+      "paragraph_id": "C01-P017",
+      "scene_id": "c01-s015",
+      "source_span": [
+        50,
+        110
+      ],
+      "source_slice": "오래전 일이니 이제 괜찮을 거라 여겼는데, 막상 기억 속에서 그들을 다시 만나자 울음을 참을 이유도 잊었다.",
+      "text": "오래전 일이니 이제 괜찮을 거라 여겼는데, 막상 기억 속에서 그들을 다시 만나자 울음을 참을 이유도 잊었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P017-S01",
+        "C01-P017-S02"
+      ],
+      "context_after": [
+        "C01-P018-S01",
+        "C01-P018-S02"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 오래전 일이니 이제 괜찮을 거라 여겼는데, 막상 기억 속에서 그들을 다시 만나자 울음을 참을 이유도 잊었다.",
+          "outer_inner": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [
+          {
+            "source_sentence_id": "C01-P017-S03",
+            "target_sentence_id": "C01-P017-S03",
+            "cue_text": "오래전 일이니 이제 괜찮을 거라 여겼는데, 막상 기억 속에서 그들을 다시 만나자 울음을 참을 이유도 잊었다.",
+            "instruction": "시인의 현재 행동·상태를 설명하는 나레이션. 인접한 시인의 발화가 없어 임의 대사나 울음 음원을 만들지 않음."
+          }
+        ],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
+        "acting_notes": "청자에게 다음 내용을 전달: 오래전 일이니 이제 괜찮을 거라 여겼는데, 막상 기억 속에서 그들을 다시 만나자 울음을 참을 이유도 잊었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s015의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P018-S01",
+      "paragraph_id": "C01-P018",
+      "scene_id": "c01-s016",
+      "source_span": [
+        0,
+        31
+      ],
+      "source_slice": "눈앞에 놓인 의자와 탁자는 방 저편으로 물러난 듯했다. ",
+      "text": "눈앞에 놓인 의자와 탁자는 방 저편으로 물러난 듯했다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P017-S02",
+        "C01-P017-S03"
+      ],
+      "context_after": [
+        "C01-P018-S02",
+        "C01-P018-S03"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 눈앞에 놓인 의자와 탁자는 방 저편으로 물러난 듯했다.",
+          "outer_inner": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+          "pivot": "같은 문단의 1번째 문장. 장면의 감정 출발점을 잡는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+        "acting_notes": "청자에게 다음 내용을 전달: 눈앞에 놓인 의자와 탁자는 방 저편으로 물러난 듯했다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s016의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P018-S02",
+      "paragraph_id": "C01-P018",
+      "scene_id": "c01-s016",
+      "source_span": [
+        31,
+        68
+      ],
+      "source_slice": "대신 햇빛 드는 길 위로 오래전에 헤어진 두 사람이 걷고 있었다. ",
+      "text": "대신 햇빛 드는 길 위로 오래전에 헤어진 두 사람이 걷고 있었다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P017-S03",
+        "C01-P018-S01"
+      ],
+      "context_after": [
+        "C01-P018-S03",
+        "C01-P018-S04"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 대신 햇빛 드는 길 위로 오래전에 헤어진 두 사람이 걷고 있었다.",
+          "outer_inner": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+          "pivot": "같은 문단의 2번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+        "acting_notes": "청자에게 다음 내용을 전달: 대신 햇빛 드는 길 위로 오래전에 헤어진 두 사람이 걷고 있었다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s016의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P018-S03",
+      "paragraph_id": "C01-P018",
+      "scene_id": "c01-s016",
+      "source_span": [
+        68,
+        108
+      ],
+      "source_slice": "손을 뻗어도 닿지 않는 그 길이 시인에게는 지금 자기 방보다 생생했다. ",
+      "text": "손을 뻗어도 닿지 않는 그 길이 시인에게는 지금 자기 방보다 생생했다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P018-S01",
+        "C01-P018-S02"
+      ],
+      "context_after": [
+        "C01-P018-S04",
+        "C01-P018-S05"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 손을 뻗어도 닿지 않는 그 길이 시인에게는 지금 자기 방보다 생생했다.",
+          "outer_inner": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+          "pivot": "같은 문단의 3번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+        "acting_notes": "청자에게 다음 내용을 전달: 손을 뻗어도 닿지 않는 그 길이 시인에게는 지금 자기 방보다 생생했다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s016의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P018-S04",
+      "paragraph_id": "C01-P018",
+      "scene_id": "c01-s016",
+      "source_span": [
+        108,
+        140
+      ],
+      "source_slice": "그렇게 돌아온 이야기가 어떻게 낯선 관객을 만나게 될까. ",
+      "text": "그렇게 돌아온 이야기가 어떻게 낯선 관객을 만나게 될까.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P018-S02",
+        "C01-P018-S03"
+      ],
+      "context_after": [
+        "C01-P018-S05"
+      ],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 그렇게 돌아온 이야기가 어떻게 낯선 관객을 만나게 될까.",
+          "outer_inner": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+          "pivot": "같은 문단의 4번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리 분위기를 유지하고 같은 문단 다음 문장에 과한 종결감을 주지 않는다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 200,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+        "acting_notes": "청자에게 다음 내용을 전달: 그렇게 돌아온 이야기가 어떻게 낯선 관객을 만나게 될까."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s016의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    },
+    {
+      "sentence_id": "C01-P018-S05",
+      "paragraph_id": "C01-P018",
+      "scene_id": "c01-s016",
+      "source_span": [
+        140,
+        183
+      ],
+      "source_slice": "다음 장에서는 그 일을 맡은 세 사람이 아직 막이 오르지 않은 극장에 모인다.",
+      "text": "다음 장에서는 그 일을 맡은 세 사람이 아직 막이 오르지 않은 극장에 모인다.",
+      "cast_id": "narrator",
+      "speaker": "나레이터",
+      "voice": "Charon",
+      "kind": "narration",
+      "context_before": [
+        "C01-P018-S03",
+        "C01-P018-S04"
+      ],
+      "context_after": [],
+      "performance": {
+        "character_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
+        "sentence_persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다. 이 문장에서는 그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+        "design": {
+          "addressee_intention": "청자에게 다음 내용을 전달: 다음 장에서는 그 일을 맡은 세 사람이 아직 막이 오르지 않은 극장에 모인다.",
+          "outer_inner": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+          "pivot": "같은 문단의 5번째 문장. 앞 문장의 여운을 이어받는다.",
+          "prosody": "중간 속도, 선명한 자음, 설명 끝은 편안하게 내린다. 질문 서술도 인물의 직접 대사로 전환하지 않는다.",
+          "nonverbal": "짧은 자연 호흡만. 웃음·울음·기침·고함을 새로 추가하지 않는다.",
+          "continuation": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리 분위기를 유지하고 다음 문단 전환을 위한 여유를 둔다."
+        },
+        "cue_links": [],
+        "audio_effect": "dry",
+        "pace": "medium",
+        "intensity": 0.4,
+        "pause_after_ms": 500,
+        "mic_direction": "또렷하고 편안한 보통 발성. 잔향 없는 원음 생성.",
+        "emotion": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
+        "acting_notes": "청자에게 다음 내용을 전달: 다음 장에서는 그 일을 맡은 세 사람이 아직 막이 오르지 않은 극장에 모인다."
+      },
+      "review": {
+        "attribution": "confirmed",
+        "classification": "confirmed",
+        "performance": "confirmed",
+        "speaker_pass": "confirmed",
+        "cue_pass": "confirmed",
+        "continuity_pass": "confirmed",
+        "evidence": "c01-s016의 3인칭 행동·심리 또는 비유 설명이다. 인용된 직접 발화가 아니라 독자에게 설명하는 서술.",
+        "sentence_boundary_evidence": "원문 문장부호와 닫는 인용부호를 포함한 문자 범위 대조. 분할 조각을 합치면 문단 원문 일치.",
+        "user_approval": "사용자: 좋아 이대로 하자",
+        "review_passes": [
+          "화자와 발화 종류를 게시문 및 독백 컨테이너와 대조",
+          "8개 행동 단서를 회상/현재 및 서술/발화로 구별",
+          "같은 문단의 페르소나·속도 유지와 경계 쉼 차등 확인"
+        ]
+      }
+    }
+  ],
+  "acting_cue_review": [
+    {
+      "source_sentence_id": "C01-P006-S03",
+      "text": "그 얼굴들을 떠올리고 나니, 시인은 그 시절엔 무엇이 그리 좋아서 친구들만 만나면 웃었던가 하고 생각했다.",
+      "decision": "과거 친구들의 웃음을 회상하는 서술. 현재 나레이터/시인의 웃음 삽입 근거가 아님.",
+      "target_sentence_id": "C01-P006-S03"
+    },
+    {
+      "source_sentence_id": "C01-P011-S01",
+      "text": "그때는 글을 한 대목 읽고 나면 누군가 웃거나 무슨 뜻인지 물었다.",
+      "decision": "과거 친구들의 웃음을 회상하는 서술. 현재 나레이터/시인의 웃음 삽입 근거가 아님.",
+      "target_sentence_id": "C01-P011-S01"
+    },
+    {
+      "source_sentence_id": "C01-P011-S02",
+      "text": "물에 번지던 잔물결이 한참 뒤 잦아들듯, 방 안을 돌던 웃음과 대답도 이제 희미했다.",
+      "decision": "과거 친구들의 웃음을 회상하는 서술. 현재 나레이터/시인의 웃음 삽입 근거가 아님.",
+      "target_sentence_id": "C01-P011-S02"
+    },
+    {
+      "source_sentence_id": "C01-P011-S03",
+      "text": "시인은 어떤 문장에서 그들이 가장 크게 웃었는지 떠올리려 했다.",
+      "decision": "과거 친구들의 웃음을 회상하는 서술. 현재 나레이터/시인의 웃음 삽입 근거가 아님.",
+      "target_sentence_id": "C01-P011-S03"
+    },
+    {
+      "source_sentence_id": "C01-P016-S01",
+      "text": "그가 낮게 읊는 시는 열린 창가의 바람 하프와 닮았다.",
+      "decision": "시인의 현재 행동·상태를 설명하는 나레이션. 인접한 시인의 발화가 없어 임의 대사나 울음 음원을 만들지 않음.",
+      "target_sentence_id": "C01-P016-S01"
+    },
+    {
+      "source_sentence_id": "C01-P017-S01",
+      "text": "문득 몸이 떨렸다.",
+      "decision": "시인의 현재 행동·상태를 설명하는 나레이션. 인접한 시인의 발화가 없어 임의 대사나 울음 음원을 만들지 않음.",
+      "target_sentence_id": "C01-P017-S01"
+    },
+    {
+      "source_sentence_id": "C01-P017-S02",
+      "text": "눈물 한 방울이 뺨을 타고 내려오더니 그 뒤를 또 한 방울이 따랐다.",
+      "decision": "시인의 현재 행동·상태를 설명하는 나레이션. 인접한 시인의 발화가 없어 임의 대사나 울음 음원을 만들지 않음.",
+      "target_sentence_id": "C01-P017-S02"
+    },
+    {
+      "source_sentence_id": "C01-P017-S03",
+      "text": "오래전 일이니 이제 괜찮을 거라 여겼는데, 막상 기억 속에서 그들을 다시 만나자 울음을 참을 이유도 잊었다.",
+      "decision": "시인의 현재 행동·상태를 설명하는 나레이션. 인접한 시인의 발화가 없어 임의 대사나 울음 음원을 만들지 않음.",
+      "target_sentence_id": "C01-P017-S03"
+    }
+  ],
+  "ambiguous_speakers": [],
+  "actual_audio_generated": false
+}
