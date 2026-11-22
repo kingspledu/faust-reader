@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/phorkyas-threat-rescue-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "variant-ii-mephisto-phorkyas",
+    "place-iii-sparta-palace"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/variant-ii-mephisto-phorkyas.png",
+    "art-bible/place-iii-sparta-palace.png"
+  ],
+  "generation_reference_note": "다섯 원본 시트 직접 참조. 위협과 비유를 실제 실행된 사건으로 바꾸지 않는다. 현재 낮 궁전 문 앞에서 인물의 발언과 반응을 표현한다.",
+  "records": [
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5892",
+      "description": "포르키아스의 위협을 들은 헬레네와 시녀들의 반응. 실제 처형은 그리지 않는다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/phorkyas-threat-rescue-01.webp",
+      "sha256": "bc30d866fd7bfe01956964cc6e33db39f0dfc3ee921b116760940b90f48cd053"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5904",
+      "description": "시녀들이 위협에 얼어붙고 포르키아스가 바라본다. 실제 매달린 몸이나 밧줄은 추가하지 않는다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/phorkyas-threat-rescue-02.webp",
+      "sha256": "882882a5a3ff81eb77abb49be19d0079400f152900b5c8522eb6a543fd287caf"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5912",
+      "description": "포르키아스가 겁먹은 여성들에게 말을 잇는다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/phorkyas-threat-rescue-03.webp",
+      "sha256": "537e23ee6241afe02d3f3540eb8f07e447f1e07229756c378329e01613addb9a"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5916",
+      "description": "포르키아스가 안쪽으로 손짓하고 시녀들이 움츠린다. 미지의 괴물을 추가하지 않는다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/phorkyas-threat-rescue-04.webp",
+      "sha256": "77ec05b6c731f94507e2bc7b06d447d9527bfb832a5a0184dcbe2a817b534121"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5920",
+      "description": "포르키아스가 제사 준비를 지시하는 손짓. 실제 피나 희생 장면은 추가하지 않는다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/phorkyas-threat-rescue-05.webp",
+      "sha256": "2854980bdbe5f10985ecec589b5505844cbbb54b793a789deeb169a035dd196f"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5924",
+      "description": "포르키아스가 발치의 빈 공간을 가리키고 헬레네가 듣는다. 실제 시신이나 처형은 그리지 않는다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/phorkyas-threat-rescue-06.webp",
+      "sha256": "ed615b8da99aac9b86b001f34565a0cd11db5be3e848c0e80ce6f52dab8c64a3"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5928",
+      "description": "판탈리스가 지친 시녀들을 뒤로 두고 포르키아스에게 묻는다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/phorkyas-threat-rescue-07.webp",
+      "sha256": "b918f9f44cf7efd57b557e78c55113a532eb06c7304d136e4c7525b5f1021262"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5934",
+      "description": "판탈리스가 구할 방법을 청하고 포르키아스가 헬레네 쪽을 본다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/phorkyas-threat-rescue-08.webp",
+      "sha256": "17822cd03357a7251bc3294045caedd03790ab387a32b4bb9c22637e4b7a8435"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5940",
+      "description": "포르키아스가 결단이 필요하다고 말하고 시녀들이 간청한다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/phorkyas-threat-rescue-09.webp",
+      "sha256": "ee285d7f35af9b21065ef889d2cb34400ad24b6a59d4e51444606675388c4ca3"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5946",
+      "description": "헬레네가 고통을 견디며 침착하게 답한다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/phorkyas-threat-rescue-10.webp",
+      "sha256": "db3da75e0f6e0329c71d738d84cafb85776d67feeeffc6468aa40d89391402be"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5952",
+      "description": "헬레네가 탈출 방법을 묻고 시녀들이 재촉한다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/phorkyas-threat-rescue-11.webp",
+      "sha256": "ee29cbcefb7bf894b689aeaa299ac67dc395180b8eed2faef8b77042ae87551f"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5958",
+      "description": "시녀들이 서로를 지지하며 구원을 간청한다. 비유 속 신이나 올가미를 추가하지 않는다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/phorkyas-threat-rescue-12.webp",
+      "sha256": "3c497dbd05cf568118bf13c0b8f52bffde34c99d3b05f14f5b85cf7725d24b2a"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-5963",
+      "description": "포르키아스가 이야기를 들어 달라 하고 시녀들이 귀 기울인다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/phorkyas-threat-rescue-13.webp",
+      "sha256": "cfe173a07767dd9413891e9498c57967c31d55fe81bdde12749e0a1def581ba7"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-5972",
+      "description": "포르키아스가 집을 지키는 사람을 말하며 궁전을 가리킨다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/phorkyas-threat-rescue-14.webp",
+      "sha256": "5b799c31ca255a49c4a402e4433a71097d524f1a6ca9f48170401165a9cd0ab3"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-5976",
+      "description": "헬레네가 말을 끊고 핵심을 말하라고 요구한다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/phorkyas-threat-rescue-15.webp",
+      "sha256": "93ccf961afbd7ca96f503e09ed26760b67114b680714a64bbd21129ec088aa48"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-5982",
+      "description": "포르키아스가 메넬라오스의 항해를 말한다. 현재 궁전 앞의 대화만 보여 준다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/phorkyas-threat-rescue-16.webp",
+      "sha256": "985f6528c0851a5a65a053cf6d2bebaeb114d48351244d9f03d0f5ee4567ff72"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
