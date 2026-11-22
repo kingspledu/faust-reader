@@ -1,0 +1,287 @@
+{
+  "source_image": "source_images/oak-cave-grid-001.png",
+  "source_size": [
+    1529,
+    1028
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-ii-anaxagoras",
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "character-mephistopheles-scholar",
+    "character-ii-dryas",
+    "group-ii-phorkyads"
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/nature-moon-grid-001.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/character-mephistopheles-scholar.png",
+    "art-bible/character-ii-dryas.png",
+    "art-bible/group-ii-phorkyads.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4534",
+      "description": "아낙사고라스가 자신이 불렀다며 몸을 낮추고 탈레스는 의아해한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        381,
+        256
+      ],
+      "image": "images/oak-cave-01.webp",
+      "sha256": "2d42303bf313a9588f3e5fec5b60e993a4e7d4b0253bd8e642e23bef521150f5"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4540",
+      "description": "탈레스의 시야에서는 달이 원래 자리에 평온하게 떠 있다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        383,
+        1,
+        763,
+        256
+      ],
+      "image": "images/oak-cave-02.webp",
+      "sha256": "3defe469e8addef3380ca3aeecd542586b5f445f8ed935b6fe4ffc3893dc6e46"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4544",
+      "description": "호문쿨루스가 모양이 달라진 산을 가리킨다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        765,
+        1,
+        1146,
+        256
+      ],
+      "image": "images/oak-cave-03.webp",
+      "sha256": "8feb8415a606e6554313306ba80531d3ced806cd81d7e1f8ad14d21b4454be97"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4550",
+      "description": "호문쿨루스가 충돌에 대해 말한다. 직접 희생자를 그리지 않는다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1148,
+        1,
+        1528,
+        256
+      ],
+      "image": "images/oak-cave-04.webp",
+      "sha256": "b333a24fd58f1d86434377f8cbe25986f8b38dcf777a8196f98e761f793a6489"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4554",
+      "description": "탈레스가 상상한 일이라고 답하며 호문쿨루스를 진정시킨다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        258,
+        381,
+        513
+      ],
+      "image": "images/oak-cave-05.webp",
+      "sha256": "699f911455b6c98e4663c1e12cef942010140284ed06e5e4573e8b0839dcb5f6"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4560",
+      "description": "탈레스가 바다 축제로 가자고 하고 장면이 메피스토의 바위길로 이어진다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        383,
+        258,
+        763,
+        513
+      ],
+      "image": "images/oak-cave-06.webp",
+      "sha256": "41f15c4135f4446f5e0198621cd41800ffbae425589406697a7bf04006c367b4"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4566",
+      "description": "메피스토가 가파른 바위 계단과 참나무 뿌리를 넘는다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        765,
+        258,
+        1146,
+        513
+      ],
+      "image": "images/oak-cave-07.webp",
+      "sha256": "f3ab734ddf42ea6a5313c2f131535eccdf32544f0e0c6f65405a91c9fd4a2a88"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4570",
+      "description": "참나무 정령 드리아스가 메피스토에게 말을 건다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1148,
+        258,
+        1528,
+        513
+      ],
+      "image": "images/oak-cave-08.webp",
+      "sha256": "ae43e783553c24aa6850442066355be979f8066f44ce05c162d710ff075c1a08"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4576",
+      "description": "드리아스가 이곳 참나무를 존중하라고 하고 메피스토가 답한다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        515,
+        381,
+        770
+      ],
+      "image": "images/oak-cave-09.webp",
+      "sha256": "54da412dc78e4ea2cb05dddc105612e08d795491d1872b4f67e301d21ba838ab"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4582",
+      "description": "메피스토가 희미한 동굴 안의 세 형상을 가리키고 드리아스가 포르키아데스라고 알려 준다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        383,
+        515,
+        763,
+        770
+      ],
+      "image": "images/oak-cave-10.webp",
+      "sha256": "7f9bad10892cde2fc8ccd6e2480383b02b0283948a82f0ad8b5600c3dee3b1e8"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4588",
+      "description": "메피스토가 동굴로 다가가 멈춰 살핀다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        765,
+        515,
+        1146,
+        770
+      ],
+      "image": "images/oak-cave-11.webp",
+      "sha256": "2c1950d06eaca15b3cc83d33cbc9a1f39609a93c973418e93cbd9c783c411848"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4594",
+      "description": "세 자매의 형상을 본 메피스토가 놀란다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1148,
+        515,
+        1528,
+        770
+      ],
+      "image": "images/oak-cave-12.webp",
+      "sha256": "042c4b8d51352adef0f1336d6469f54b000c0d959b6f93306c7b1ae792fc3096"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4598",
+      "description": "메피스토가 어두운 동굴 입구에서 기이한 모습에 대해 혼잣말한다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        772,
+        381,
+        1027
+      ],
+      "image": "images/oak-cave-13.webp",
+      "sha256": "61be86427cac121a546a706690064f56d14d72cb507aee76507d54b895c5c91c"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4602",
+      "description": "포르키아데스 한 자매가 눈을 달라고 청하고 다른 자매가 빛나는 눈 구슬을 건넨다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        383,
+        772,
+        763,
+        1027
+      ],
+      "image": "images/oak-cave-14.webp",
+      "sha256": "daf67954c8de789ba09b0183a9b1eeb51ed374850582c236f73f54dffd74f804"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4608",
+      "description": "메피스토가 세 자매에게 정중히 인사한다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        765,
+        772,
+        1146,
+        1027
+      ],
+      "image": "images/oak-cave-15.webp",
+      "sha256": "ec2b8d0f88605972a475665e57f1e0b5164d458ca7b11087762f3cea636a2dd1"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4614",
+      "description": "메피스토가 여러 옛 신들을 보았다고 말한다. 언급한 신들을 실제로 등장시키지 않는다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1148,
+        772,
+        1528,
+        1027
+      ],
+      "image": "images/oak-cave-16.webp",
+      "sha256": "263506c65d37163ce416b2a9ccf58007234b567fbb4a4baabc687dd6cc5bdcf9"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
