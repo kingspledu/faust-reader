@@ -1,0 +1,288 @@
+{
+  "source_image": "source_images/sea-nereus-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "group-ii-sirens",
+    "group-ii-nereids",
+    "group-ii-tritons",
+    "place-ii-aegean-coves",
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "character-ii-nereus"
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/phorkyas-sea-grid-001.png",
+    "art-bible/character-ii-thales.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/character-ii-nereus.png",
+    "art-bible/place-ii-aegean-coves.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4721",
+      "description": "네레이데스와 트리톤들이 금사슬과 보석으로 몸을 장식한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/sea-nereus-01.webp",
+      "sha256": "a3fbcfbed23705837cb3ef2a5a04b331458c424158a88e48333201afa2b2fc2c"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4725",
+      "description": "바다 무리가 팔찌와 허리 장식을 보여 주며 보물을 이야기한다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/sea-nereus-02.webp",
+      "sha256": "fd728d5c87ca29b36f6930d35742f2d57c637bee712203f49ebbbfb32788a2df"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4729",
+      "description": "세이렌들이 바다 무리를 향해 응답한다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/sea-nereus-03.webp",
+      "sha256": "c8502ee8701c725104f20f96abb795feda56cb060b05a89788c929eedac651f9"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4735",
+      "description": "세이렌들이 물고기 이상의 존재임을 보여 달라고 청한다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/sea-nereus-04.webp",
+      "sha256": "3684e2fe608dd0184acd8cee0bb272c6c453d13e89f13ed8f461f7a37ba2161f"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4741",
+      "description": "네레이데스와 트리톤들이 짧은 여행을 준비한다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/sea-nereus-05.webp",
+      "sha256": "50bda82c95af82b3edc68d089e9f1935e58612a464f4e13d50b14c0c42a757d2"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4745",
+      "description": "바다 무리가 사모트라케 방향으로 떠나고 세이렌들이 바라본다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/sea-nereus-06.webp",
+      "sha256": "9b7e3f40550cc9f8766bd71d8b0390252a6f96470e10377d2f4620a5248ad264"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4751",
+      "description": "세이렌들이 카비로이의 신비를 말한다. 카비로이는 아직 그리지 않는다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/sea-nereus-07.webp",
+      "sha256": "060d9ee583fc2fb67e5e0a1d8cba943b0b79729de2d27adb419d4c0aaccd3aab"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4755",
+      "description": "세이렌들이 밤이 지속되길 바라며 달을 올려다본다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/sea-nereus-08.webp",
+      "sha256": "50853328138c219ad167ae4dcc7367cd394674d0e3ca4daeffdb193b8ab5b2a2"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4759",
+      "description": "탈레스가 호문쿨루스를 네레우스의 동굴로 이끈다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/sea-nereus-09.webp",
+      "sha256": "0ec098ccd329cec0a0bfc66acd135da42979f6e2eacfbdd6401c7d1a0312396d"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4765",
+      "description": "탈레스가 네레우스의 까다로운 성격을 설명한다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/sea-nereus-10.webp",
+      "sha256": "8cb0a9ff733d1fdfaaa47af0d09d2ea442bf29b94da89335f7277f09bdb6c246"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4769",
+      "description": "호문쿨루스가 직접 찾아가 보자고 한다. 유리병은 밀폐 상태다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/sea-nereus-11.webp",
+      "sha256": "98194db90109652b5613c8eacfc32031325bb572decc150b50dab1ae5e7ff2ca"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4775",
+      "description": "네레우스가 사람 목소리를 듣고 못마땅하게 동굴에서 반응한다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/sea-nereus-12.webp",
+      "sha256": "99aa7d205f9a728846270a5d9d97e661cbaff8b0cc9e2b260535b174d25096bd"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4781",
+      "description": "네레우스가 인간에 대한 실망을 이야기한다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/sea-nereus-13.webp",
+      "sha256": "478b0f016adb3cd36ed080240d530fb501c78b558c5c7ccb4cb15277d10d6e48"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4785",
+      "description": "탈레스가 호문쿨루스의 불빛을 보여 주며 조언을 청한다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/sea-nereus-14.webp",
+      "sha256": "ea68e9836a93866ba5976eef0dbf65a8d7f0c79a8676370e886c151f8ad720ef"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4791",
+      "description": "네레우스가 사람들이 조언을 듣지 않는다고 불평한다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/sea-nereus-15.webp",
+      "sha256": "62fc909328ba73ce447b2f76f2bbeb3cb0065a1f292b6af0eb0217f1aa5d4f8f"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4797",
+      "description": "네레우스가 파리스에게 했던 경고를 말한다. 파리스나 헬레네를 새로 등장시키지 않는다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/sea-nereus-16.webp",
+      "sha256": "e3525f727035e863abeddb31bbedd300cf3280f775dc74c3738312f28f5b2305"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
