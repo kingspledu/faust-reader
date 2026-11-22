@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/act-02-08-grid-003.png",
+  "source_size": [
+    1774,
+    887
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "group-ii-pygmies",
+    "group-ii-daktyls",
+    "group-ii-gold-ants",
+    "group-ii-herons",
+    "group-ii-cranes"
+  ],
+  "generation_reference_images": [
+    "art-bible/group-ii-pygmies.png",
+    "art-bible/group-ii-daktyls.png",
+    "art-bible/group-ii-gold-ants.png",
+    "art-bible/group-ii-herons.png",
+    "art-bible/group-ii-cranes.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4129",
+      "description": "작은 성인 피그미족들이 짝을 지어 새 터를 정돈한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        443,
+        221
+      ],
+      "image": "images/pygmy-forge-01.webp",
+      "sha256": "cfeb3b3acdb966d3fd255cf0bfa0e6b5e9d184c9d12bf256c226aff661ba3b0f"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4133",
+      "description": "피그미족이 새 땅의 풍요에 만족하며 바위틈을 살핀다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        445,
+        1,
+        886,
+        221
+      ],
+      "image": "images/pygmy-forge-02.webp",
+      "sha256": "77c75984962e210481590fb540571ece2bc1b15ba6dec4cf903e668ec1689353"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4137",
+      "description": "더 작은 성인 다크틸족이 나타난다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        888,
+        1,
+        1329,
+        221
+      ],
+      "image": "images/pygmy-forge-03.webp",
+      "sha256": "f6fd60c57a5b1f47988a6c81c8b61b14189cce4ccae0dbb2cfd21327e7a8fc69"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4143",
+      "description": "피그미족 장로가 자리를 잡고 서둘러 일하라고 지시한다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1331,
+        1,
+        1773,
+        221
+      ],
+      "image": "images/pygmy-forge-04.webp",
+      "sha256": "e024220ea40d66499fef6b57fee6e576d59b391484f42fd373a8d8c84ff0cc69"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4149",
+      "description": "아직 평화로울 때 대장간을 마련하고 무장을 준비하라고 한다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        223,
+        443,
+        443
+      ],
+      "image": "images/pygmy-forge-05.webp",
+      "sha256": "153e65760c830fb153d2f72ac07bf7a5e2f011a880c0aed930eef86a85676bec"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4153",
+      "description": "개미들에게 금속을 가져오라고 지시한다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        445,
+        223,
+        886,
+        443
+      ],
+      "image": "images/pygmy-forge-06.webp",
+      "sha256": "07a131ccef46a364d93fd6920ad94b16e73916d2a0c834a528769518dcb851b0"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4157",
+      "description": "다크틸족이 나뭇가지를 모은다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        888,
+        223,
+        1329,
+        443
+      ],
+      "image": "images/pygmy-forge-07.webp",
+      "sha256": "36c6307b9d7719386c57ab2f1293bcba3745a6678011e6b1444a4275e2e29c95"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4161",
+      "description": "숯불을 준비하는 일꾼들 곁에서 지휘관이 활을 들고 출동을 명한다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1331,
+        223,
+        1773,
+        443
+      ],
+      "image": "images/pygmy-forge-08.webp",
+      "sha256": "c737ddc7aaf64d54f8496bcf2b66f3f09a9f00be06927718c00c897ab098604c"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4167",
+      "description": "지휘관이 연못의 왜가리들을 가리킨다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        445,
+        443,
+        664
+      ],
+      "image": "images/pygmy-forge-09.webp",
+      "sha256": "066eff06b52239edb03432c0f0289d7bef96fa3b1618a1dabd545b57b0510ec6"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4171",
+      "description": "피그미족 무리가 장식깃을 얻으려는 공격을 준비한다. 직접 명중은 그리지 않는다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        445,
+        445,
+        886,
+        664
+      ],
+      "image": "images/pygmy-forge-10.webp",
+      "sha256": "e86ca65e724b90748d2a72c64bd251466282b5d3a8fbb5a2c289c28e8550e65d"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4175",
+      "description": "개미와 다크틸족이 쇠가 사슬이 될 것을 걱정한다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        888,
+        445,
+        1329,
+        664
+      ],
+      "image": "images/pygmy-forge-11.webp",
+      "sha256": "960b45f64c157e220d10c0cb9aea10527225e923c2785e49c7e20f000fb01245"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4181",
+      "description": "두루미들이 비명을 듣고 내려다본다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1331,
+        445,
+        1773,
+        664
+      ],
+      "image": "images/pygmy-forge-12.webp",
+      "sha256": "65915a65ce0df415ce54be770b890a187b557e4a63cb1e59e2c870376dc925a0"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4187",
+      "description": "두루미들이 조용해진 연못과 흩어진 깃털을 보며 애도한다. 상처와 시체는 그리지 않는다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        666,
+        443,
+        886
+      ],
+      "image": "images/pygmy-forge-13.webp",
+      "sha256": "fcc4234b310a084fdcda17d443e7a27f4a28582735bd2739845c8f9c571fea34"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4191",
+      "description": "깃털 장식이 달린 피그미족의 투구와 이를 내려다보는 두루미를 보여 준다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        445,
+        666,
+        886,
+        886
+      ],
+      "image": "images/pygmy-forge-14.webp",
+      "sha256": "0014f10a205698e8f3205fa01943e7ae0a82dedcf75592db671065a40b11b9db"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4195",
+      "description": "두루미들이 하늘의 동료들을 부른다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        888,
+        666,
+        1329,
+        886
+      ],
+      "image": "images/pygmy-forge-15.webp",
+      "sha256": "3de6b35dda75f90070eead2b4b60c9a29e77709841bd2445082536ed2a2dc52e"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4198",
+      "description": "두루미들이 무리를 이루며 반격을 다짐한다. 실제 공격 장면은 아직 없다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1331,
+        666,
+        1773,
+        886
+      ],
+      "image": "images/pygmy-forge-16.webp",
+      "sha256": "d39e1ea0272add17ef337ef0042fe4509e55488963f93837ad588dde056056ce"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}

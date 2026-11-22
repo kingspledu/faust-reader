@@ -1,0 +1,104 @@
+{
+  "batch_id": "pygmy-forge",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/act-02-08-grid-003.png",
+  "references": [
+    "group-ii-pygmies",
+    "group-ii-daktyls",
+    "group-ii-gold-ants",
+    "group-ii-herons",
+    "group-ii-cranes"
+  ],
+  "generation_reference_images": [
+    "art-bible/group-ii-pygmies.png",
+    "art-bible/group-ii-daktyls.png",
+    "art-bible/group-ii-gold-ants.png",
+    "art-bible/group-ii-herons.png",
+    "art-bible/group-ii-cranes.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4129",
+      "description": "작은 성인 피그미족들이 짝을 지어 새 터를 정돈한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4133",
+      "description": "피그미족이 새 땅의 풍요에 만족하며 바위틈을 살핀다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4137",
+      "description": "더 작은 성인 다크틸족이 나타난다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4143",
+      "description": "피그미족 장로가 자리를 잡고 서둘러 일하라고 지시한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4149",
+      "description": "아직 평화로울 때 대장간을 마련하고 무장을 준비하라고 한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4153",
+      "description": "개미들에게 금속을 가져오라고 지시한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4157",
+      "description": "다크틸족이 나뭇가지를 모은다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4161",
+      "description": "숯불을 준비하는 일꾼들 곁에서 지휘관이 활을 들고 출동을 명한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4167",
+      "description": "지휘관이 연못의 왜가리들을 가리킨다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4171",
+      "description": "피그미족 무리가 장식깃을 얻으려는 공격을 준비한다. 직접 명중은 그리지 않는다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4175",
+      "description": "개미와 다크틸족이 쇠가 사슬이 될 것을 걱정한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4181",
+      "description": "두루미들이 비명을 듣고 내려다본다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4187",
+      "description": "두루미들이 조용해진 연못과 흩어진 깃털을 보며 애도한다. 상처와 시체는 그리지 않는다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4191",
+      "description": "깃털 장식이 달린 피그미족의 투구와 이를 내려다보는 두루미를 보여 준다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4195",
+      "description": "두루미들이 하늘의 동료들을 부른다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4198",
+      "description": "두루미들이 무리를 이루며 반격을 다짐한다. 실제 공격 장면은 아직 없다."
+    }
+  ]
+}

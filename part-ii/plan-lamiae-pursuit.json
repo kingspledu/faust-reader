@@ -1,0 +1,100 @@
+{
+  "batch_id": "lamiae-pursuit",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/act-02-09-grid-001.png",
+  "references": [
+    "character-mephistopheles-scholar",
+    "group-ii-lamiae",
+    "character-ii-empuse"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-mephistopheles-scholar.png",
+    "art-bible/group-ii-lamiae.png",
+    "art-bible/character-ii-empuse.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4202",
+      "description": "메피스토가 낯선 존재들 속에서 북쪽 마녀들의 산을 떠올린다. 회상 인물을 추가하지 않는다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4207",
+      "description": "메피스토가 익숙했던 곳을 생각하며 밤길을 걷는다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4211",
+      "description": "발밑의 지형이 바뀌는 것을 메피스토가 경계한다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4215",
+      "description": "솟아오른 산이 스핑크스와 메피스토 사이를 가른다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4219",
+      "description": "메피스토가 앞서 춤추는 라미아 무리를 따라간다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4223",
+      "description": "라미아들이 빠르게 움직였다가 멈추며 말을 나눈다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4229",
+      "description": "라미아들이 메피스토를 끌고 가는 일을 즐긴다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4233",
+      "description": "메피스토가 뻣뻣한 한쪽 다리를 끌며 뒤따른다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4237",
+      "description": "도망가는 라미아를 보며 메피스토가 짜증을 낸다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4243",
+      "description": "메피스토가 오래 살아도 현명해지지 않는다며 자조한다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4247",
+      "description": "알면서도 따라가는 자기 행동에 메피스토가 불평한다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4251",
+      "description": "라미아들이 멈칫한 메피스토에게 다시 다가온다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4259",
+      "description": "라미아들이 메피스토를 둘러싸고 춤춘다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4265",
+      "description": "불확실한 불빛 속에서 메피스토가 라미아의 얼굴을 살핀다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4271",
+      "description": "엠푸사가 끼어들자 라미아들이 불만을 보인다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4279",
+      "description": "엠푸사가 한쪽 당나귀 발굽을 드러내며 메피스토에게 인사한다."
+    }
+  ]
+}
