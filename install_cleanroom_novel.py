@@ -72,3 +72,6 @@ for chapter, scenes in chapters.items():
     assert snapshot == protected(rendered), chapter
     from normalize_reader import normalize
     normalize(path)
+from production.tts.install_reader import main as install_audiobook_reader
+install_audiobook_reader()
+from production.tts import build_offline

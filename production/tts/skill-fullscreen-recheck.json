@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "real_bundled_module": true,
+  "enter_exit": true,
+  "browser_exit_state": true,
+  "split_state_preserved": true,
+  "default_layout_button_visible": true,
+  "denied_fallback": true,
+  "unsupported_fallback": true,
+  "physical_device_tested": false,
+  "actual_audio_listened": false
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "reader_pages": 84,
+  "sentence_ids": 60,
+  "real_mp3_playback": true,
+  "exact_resume_seconds_and_rate": true,
+  "one_audio_preserved": true,
+  "fullscreen_enter_exit": true,
+  "fullscreen_denied_unsupported": true,
+  "viewport_matrix": true,
+  "scene_sync": true,
+  "offline_reload_playback": true,
+  "offline_range_206": true,
+  "book_scoped_delete": true,
+  "human_listening": false,
+  "physical_device": false
+}

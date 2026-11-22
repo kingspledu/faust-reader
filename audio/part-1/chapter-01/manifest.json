@@ -13,7 +13,13 @@
       "url": "FAUST_P1_C01_S01_0000_c01-s001_NARRATOR.mp3",
       "sha256": "e3022a4376107b8be6f0ea295f0f06702011e3a42f2bc35fb51366e2f69614da",
       "bytes": 147330,
-      "duration": 6.1388
+      "duration": 6.1388,
+      "trim_start": 0,
+      "trim_end": 5.81,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -14.3,
+      "peak_dbfs": -1.36,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P001-S02",
@@ -26,7 +32,13 @@
       "url": "FAUST_P1_C01_S01_0001_c01-s001_NARRATOR.mp3",
       "sha256": "24d77369b5d45eb346026375e02acfd061d2e90eaff75e9bf58ada50da43e563",
       "bytes": 120999,
-      "duration": 5.0416
+      "duration": 5.0416,
+      "trim_start": 0,
+      "trim_end": 4.93,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.46,
+      "peak_dbfs": -2.08,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P001-S03",
@@ -39,7 +51,13 @@
       "url": "FAUST_P1_C01_S01_0002_c01-s001_NARRATOR.mp3",
       "sha256": "d1387fea499d3f7fd8369ba5d72f7f2e349a4764cf5521654612e3856082c3cc",
       "bytes": 194978,
-      "duration": 8.1241
+      "duration": 8.1241,
+      "trim_start": 0,
+      "trim_end": 7.95,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -19.16,
+      "peak_dbfs": -3.31,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P001-S04",
@@ -52,7 +70,13 @@
       "url": "FAUST_P1_C01_S01_0003_c01-s001_NARRATOR.mp3",
       "sha256": "058401f5ee1fdc70176970554de27a52839f1da738a1b58aef9e2c5138e3632d",
       "bytes": 128522,
-      "duration": 5.3551
+      "duration": 5.3551,
+      "trim_start": 0,
+      "trim_end": 4.85,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.63,
+      "peak_dbfs": -1.9,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P002-S01",
@@ -65,7 +89,13 @@
       "url": "FAUST_P1_C01_S01_0004_c01-s002_NARRATOR.mp3",
       "sha256": "2862acdd0e5e1b313dbaeb123a69ee2bb5aa35fb952542d924fd13ac1ac3f512",
       "bytes": 108460,
-      "duration": 4.5192
+      "duration": 4.5192,
+      "trim_start": 0.05,
+      "trim_end": 4.4,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -18.15,
+      "peak_dbfs": -4.47,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P002-S02",
@@ -78,7 +108,13 @@
       "url": "FAUST_P1_C01_S01_0005_c01-s002_NARRATOR.mp3",
       "sha256": "f0f72a8a5c039009ce9ec90fcbd6e50ce8e458d6a2fd4c1cb80671b2bb93f8d6",
       "bytes": 96548,
-      "duration": 4.0229
+      "duration": 4.0229,
+      "trim_start": 0.06,
+      "trim_end": 3.69,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.52,
+      "peak_dbfs": -2.13,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P002-S03",
@@ -91,7 +127,13 @@
       "url": "FAUST_P1_C01_S01_0006_c01-s002_NARRATOR.mp3",
       "sha256": "2fda28d657e12cfabe160859c11b50fecde240cd2a22dac02ac57a1528c04307",
       "bytes": 71471,
-      "duration": 2.978
+      "duration": 2.978,
+      "trim_start": 0.04,
+      "trim_end": 2.69,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -19.07,
+      "peak_dbfs": -3.74,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P002-S04",
@@ -104,7 +146,13 @@
       "url": "FAUST_P1_C01_S01_0007_c01-s002_NARRATOR.mp3",
       "sha256": "50438f86f7ddce41c0450f754a986215d50bf597e9d441192f20be4d236e0514",
       "bytes": 163004,
-      "duration": 6.7918
+      "duration": 6.7918,
+      "trim_start": 0.05,
+      "trim_end": 6.18,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -18.93,
+      "peak_dbfs": -2.16,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P003-S01",
@@ -117,7 +165,13 @@
       "url": "FAUST_P1_C01_S01_0008_c01-s002_DEDICATION-POET.mp3",
       "sha256": "8792ee71e18f1cdabb1b37e2c61186f6bcb87d130c062e17fae7f94e17c62252",
       "bytes": 157361,
-      "duration": 6.5567
+      "duration": 6.5567,
+      "trim_start": 0,
+      "trim_end": 6.556,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -26.71,
+      "peak_dbfs": -3.17,
+      "playback_gain": 1.0
     },
     {
       "sentence_id": "C01-P003-S02",
@@ -130,7 +184,13 @@
       "url": "FAUST_P1_C01_S01_0009_c01-s002_DEDICATION-POET.mp3",
       "sha256": "65ce681c7d9574bf895e75f89aa809e8b9c3a04d8ea55656beae61dd374d6438",
       "bytes": 114102,
-      "duration": 4.7543
+      "duration": 4.7543,
+      "trim_start": 0.19,
+      "trim_end": 4.7536,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -22.96,
+      "peak_dbfs": -5.91,
+      "playback_gain": 1.0
     },
     {
       "sentence_id": "C01-P004-S01",
@@ -143,7 +203,13 @@
       "url": "FAUST_P1_C01_S01_0010_c01-s003_NARRATOR.mp3",
       "sha256": "1e66803b1a7fe841a0edbad6744df27d2f6386912634f81636daf04d53dc2a6d",
       "bytes": 120999,
-      "duration": 5.0416
+      "duration": 5.0416,
+      "trim_start": 0.12,
+      "trim_end": 4.9,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -18.31,
+      "peak_dbfs": -3.37,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P004-S02",
@@ -156,7 +222,13 @@
       "url": "FAUST_P1_C01_S01_0011_c01-s003_NARRATOR.mp3",
       "sha256": "fa2451990aaefc5245889c0366523cd00075e943ff4a4b049bbb95f36d61a6e5",
       "bytes": 102191,
-      "duration": 4.258
+      "duration": 4.258,
+      "trim_start": 0,
+      "trim_end": 4.12,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -14.42,
+      "peak_dbfs": -2.57,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P004-S03",
@@ -169,7 +241,13 @@
       "url": "FAUST_P1_C01_S01_0012_c01-s003_NARRATOR.mp3",
       "sha256": "517a170e0d52cd2d140dd88d583e332aa3c3c89c64b9460ca91ed5eac5392795",
       "bytes": 71471,
-      "duration": 2.978
+      "duration": 2.978,
+      "trim_start": 0,
+      "trim_end": 2.69,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -14.68,
+      "peak_dbfs": -2.03,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P004-S04",
@@ -182,7 +260,13 @@
       "url": "FAUST_P1_C01_S01_0013_c01-s003_NARRATOR.mp3",
       "sha256": "92f88abfb19b87a05fef01232de22c04267fd91cde8dce242c801e753819bc64",
       "bytes": 151719,
-      "duration": 6.3216
+      "duration": 6.3216,
+      "trim_start": 0.03,
+      "trim_end": 5.94,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -18.85,
+      "peak_dbfs": -2.27,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P005-S01",
@@ -195,7 +279,13 @@
       "url": "FAUST_P1_C01_S01_0014_c01-s004_NARRATOR.mp3",
       "sha256": "53c5fd1e2185fa84707f0b57d4066acc883be46b443790d99e9530f1b3cfdbeb",
       "bytes": 190589,
-      "duration": 7.9412
+      "duration": 7.9412,
+      "trim_start": 0.13,
+      "trim_end": 7.66,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.67,
+      "peak_dbfs": -1.61,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P005-S02",
@@ -208,7 +298,13 @@
       "url": "FAUST_P1_C01_S01_0015_c01-s004_NARRATOR.mp3",
       "sha256": "9b4aeb6dbce15bb3a5aa0f5df04266bedfe39cb41e5fdaf9d2e9e1e1d7c934e4",
       "bytes": 119118,
-      "duration": 4.9633
+      "duration": 4.9633,
+      "trim_start": 0.09,
+      "trim_end": 4.76,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.05,
+      "peak_dbfs": -1.62,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P005-S03",
@@ -221,7 +317,13 @@
       "url": "FAUST_P1_C01_S01_0016_c01-s004_NARRATOR.mp3",
       "sha256": "da8292fd1fef151999321fcf293630368f854ef609bd5ffdf01b0386d463941b",
       "bytes": 85890,
-      "duration": 3.5788
+      "duration": 3.5788,
+      "trim_start": 0.01,
+      "trim_end": 3.01,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.67,
+      "peak_dbfs": -2.69,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P006-S01",
@@ -234,7 +336,13 @@
       "url": "FAUST_P1_C01_S01_0017_c01-s005_NARRATOR.mp3",
       "sha256": "e11c250eb5fda92a71691f7d4b95e811481a96a4e5a61c2b4912c023c09bdae4",
       "bytes": 112849,
-      "duration": 4.702
+      "duration": 4.702,
+      "trim_start": 0.1,
+      "trim_end": 4.5,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -14.46,
+      "peak_dbfs": -1.22,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P006-S02",
@@ -247,7 +355,13 @@
       "url": "FAUST_P1_C01_S01_0018_c01-s005_NARRATOR.mp3",
       "sha256": "bcb059f89bf66a41ed84f95aa2c60c1bd3d2929ede18825eae879626935fdfff",
       "bytes": 105952,
-      "duration": 4.4147
+      "duration": 4.4147,
+      "trim_start": 0.01,
+      "trim_end": 4.25,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -16.94,
+      "peak_dbfs": -2.7,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P006-S03",
@@ -260,7 +374,13 @@
       "url": "FAUST_P1_C01_S01_0019_c01-s005_NARRATOR.mp3",
       "sha256": "ec7d01dee95c35f7b67c0cdf7a7b0ab430eb860bd16fb1b0ffbfb330d3b58f69",
       "bytes": 198739,
-      "duration": 8.2808
+      "duration": 8.2808,
+      "trim_start": 0.02,
+      "trim_end": 7.79,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -17.12,
+      "peak_dbfs": -3.2,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P007-S01",
@@ -273,7 +393,13 @@
       "url": "FAUST_P1_C01_S01_0020_c01-s006_NARRATOR.mp3",
       "sha256": "3f920ff75fff377e6c3eb81a5f1d72c54340a8039001af9ace1db4fa4f8925ed",
       "bytes": 135418,
-      "duration": 5.6424
+      "duration": 5.6424,
+      "trim_start": 0.46,
+      "trim_end": 5.36,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -14.31,
+      "peak_dbfs": -1.9,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P007-S02",
@@ -286,7 +412,13 @@
       "url": "FAUST_P1_C01_S01_0021_c01-s006_NARRATOR.mp3",
       "sha256": "789ae547bbbd17848ce8972c529e363442e6dbc46c3a4e87d60fd53d1a00fa98",
       "bytes": 107833,
-      "duration": 4.4931
+      "duration": 4.4931,
+      "trim_start": 0.15,
+      "trim_end": 3.89,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -16.84,
+      "peak_dbfs": -2.05,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P007-S03",
@@ -299,7 +431,13 @@
       "url": "FAUST_P1_C01_S01_0022_c01-s006_NARRATOR.mp3",
       "sha256": "6ab79d7f3ebc81076b681f81e906cc7c4c7f1cec91813b797651035fa9e699a1",
       "bytes": 136672,
-      "duration": 5.6947
+      "duration": 5.6947,
+      "trim_start": 0.07,
+      "trim_end": 5.43,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -16.38,
+      "peak_dbfs": -2.1,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P007-S04",
@@ -312,7 +450,13 @@
       "url": "FAUST_P1_C01_S01_0023_c01-s006_NARRATOR.mp3",
       "sha256": "276325cec0a2d68c12917aa98f432fa5628505e79c73fb8aefdb2eef61187354",
       "bytes": 184320,
-      "duration": 7.68
+      "duration": 7.68,
+      "trim_start": 0.05,
+      "trim_end": 7.54,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -20.03,
+      "peak_dbfs": -3.82,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P007-S05",
@@ -325,7 +469,13 @@
       "url": "FAUST_P1_C01_S01_0024_c01-s006_NARRATOR.mp3",
       "sha256": "6e93da1e838019def8ec407bd030e52527c0cd67f4a91012f3c1f31b192cd49b",
       "bytes": 117864,
-      "duration": 4.911
+      "duration": 4.911,
+      "trim_start": 0.13,
+      "trim_end": 4.37,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -16.54,
+      "peak_dbfs": -3.28,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P008-S01",
@@ -338,7 +488,13 @@
       "url": "FAUST_P1_C01_S01_0025_c01-s007_NARRATOR.mp3",
       "sha256": "02a9f9b7adc43dbd99993f50e9a5f2ba9c23f862c9be1173e0428947e0e87b02",
       "bytes": 129776,
-      "duration": 5.4073
+      "duration": 5.4073,
+      "trim_start": 0.02,
+      "trim_end": 5.29,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -17.51,
+      "peak_dbfs": -2.14,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P008-S02",
@@ -351,7 +507,13 @@
       "url": "FAUST_P1_C01_S01_0026_c01-s007_NARRATOR.mp3",
       "sha256": "61cdb1e71a306a4da50f85764668c9aabb5449ab118c594b4866ae92f06486ce",
       "bytes": 142315,
-      "duration": 5.9298
+      "duration": 5.9298,
+      "trim_start": 0,
+      "trim_end": 5.67,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -14.54,
+      "peak_dbfs": -1.58,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P008-S03",
@@ -364,7 +526,13 @@
       "url": "FAUST_P1_C01_S01_0027_c01-s007_NARRATOR.mp3",
       "sha256": "5f769748adea37174abacaf62c2702700314f8e0a9d604f3e6c39dc504c11789",
       "bytes": 245760,
-      "duration": 10.24
+      "duration": 10.24,
+      "trim_start": 0.09,
+      "trim_end": 10.17,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -16.4,
+      "peak_dbfs": -1.99,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P008-S04",
@@ -377,7 +545,13 @@
       "url": "FAUST_P1_C01_S01_0028_c01-s007_NARRATOR.mp3",
       "sha256": "e222f6bf4f09a147946b503ed217c81d2149b694c739df42891182a9cb98e8aa",
       "bytes": 101564,
-      "duration": 4.2318
+      "duration": 4.2318,
+      "trim_start": 0.11,
+      "trim_end": 3.8,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -18.05,
+      "peak_dbfs": -1.61,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P009-S01",
@@ -390,7 +564,13 @@
       "url": "FAUST_P1_C01_S01_0029_c01-s008_NARRATOR.mp3",
       "sha256": "754e6154415091272364cc3caea7e2705eb8d6988fbed2a034e788f63825eac6",
       "bytes": 99056,
-      "duration": 4.1273
+      "duration": 4.1273,
+      "trim_start": 0.28,
+      "trim_end": 3.85,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.08,
+      "peak_dbfs": -1.19,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P009-S02",
@@ -403,7 +583,13 @@
       "url": "FAUST_P1_C01_S01_0030_c01-s008_NARRATOR.mp3",
       "sha256": "2007d6f77072efabe3db9a4ff23129e7b958dab7bfa685af19142142ca3066a5",
       "bytes": 141061,
-      "duration": 5.8776
+      "duration": 5.8776,
+      "trim_start": 0.09,
+      "trim_end": 5.72,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -13.14,
+      "peak_dbfs": -1.73,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P009-S03",
@@ -416,7 +602,13 @@
       "url": "FAUST_P1_C01_S01_0031_c01-s008_NARRATOR.mp3",
       "sha256": "7ab82f9e55e3f7caa3459a1be1e2e9df636848b5bf856b721b13af54325bf59d",
       "bytes": 170527,
-      "duration": 7.1053
+      "duration": 7.1053,
+      "trim_start": 0,
+      "trim_end": 6.54,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -16.61,
+      "peak_dbfs": -1.77,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P010-S01",
@@ -429,7 +621,13 @@
       "url": "FAUST_P1_C01_S01_0032_c01-s009_NARRATOR.mp3",
       "sha256": "44b13ef57493993bf67a2818046f5509d60cc2dbe8325ee02ae35718a99f2b50",
       "bytes": 113475,
-      "duration": 4.7282
+      "duration": 4.7282,
+      "trim_start": 0.07,
+      "trim_end": 4.45,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -17.61,
+      "peak_dbfs": -2.78,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P010-S02",
@@ -442,7 +640,13 @@
       "url": "FAUST_P1_C01_S01_0033_c01-s009_NARRATOR.mp3",
       "sha256": "b6b66ee52415164bd1e9ab7c6d1779e27feaccab98104895aa5fb659da3717d1",
       "bytes": 108460,
-      "duration": 4.5192
+      "duration": 4.5192,
+      "trim_start": 0,
+      "trim_end": 4.36,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -17.47,
+      "peak_dbfs": -1.92,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P010-S03",
@@ -455,7 +659,13 @@
       "url": "FAUST_P1_C01_S01_0034_c01-s009_NARRATOR.mp3",
       "sha256": "96e57a3fcbda312ff1a07772ca6637205d18157442934eb016efa0f1e58cd57d",
       "bytes": 179304,
-      "duration": 7.471
+      "duration": 7.471,
+      "trim_start": 0.09,
+      "trim_end": 7.0,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -18.66,
+      "peak_dbfs": -2.76,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P011-S01",
@@ -468,7 +678,13 @@
       "url": "FAUST_P1_C01_S01_0035_c01-s010_NARRATOR.mp3",
       "sha256": "521dcc500bbbaeac6b6fea78d6746a8532d082034f79b5a02da4ad8b2403e77e",
       "bytes": 139180,
-      "duration": 5.7992
+      "duration": 5.7992,
+      "trim_start": 0.18,
+      "trim_end": 5.56,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -16.53,
+      "peak_dbfs": -1.95,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P011-S02",
@@ -481,7 +697,13 @@
       "url": "FAUST_P1_C01_S01_0036_c01-s010_NARRATOR.mp3",
       "sha256": "b9440435c9a93bf5249d626697c740a851002d6e56d8ced5ba29ecafeb78dfa7",
       "bytes": 205009,
-      "duration": 8.542
+      "duration": 8.542,
+      "trim_start": 0.13,
+      "trim_end": 8.37,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -14.02,
+      "peak_dbfs": -1.8,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P011-S03",
@@ -494,7 +716,13 @@
       "url": "FAUST_P1_C01_S01_0037_c01-s010_NARRATOR.mp3",
       "sha256": "5d641af24d9694cf6e95c3a974b0e58195a6e447adb388fe0796495df84fbb0f",
       "bytes": 132284,
-      "duration": 5.5118
+      "duration": 5.5118,
+      "trim_start": 0.09,
+      "trim_end": 4.95,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.44,
+      "peak_dbfs": -1.53,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P012-S01",
@@ -507,7 +735,13 @@
       "url": "FAUST_P1_C01_S01_0038_c01-s011_NARRATOR.mp3",
       "sha256": "86d3d7eaf0323170f4eb71187c143157d60ca76666dbab1e78a534d4347a08a5",
       "bytes": 139180,
-      "duration": 5.7992
+      "duration": 5.7992,
+      "trim_start": 0,
+      "trim_end": 5.69,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -18.83,
+      "peak_dbfs": -3.45,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P012-S02",
@@ -520,7 +754,13 @@
       "url": "FAUST_P1_C01_S01_0039_c01-s011_NARRATOR.mp3",
       "sha256": "0b958ab77585fee5e310481baf7ab4eaae43009fb22b9a9a166c8a6caec1c515",
       "bytes": 85890,
-      "duration": 3.5788
+      "duration": 3.5788,
+      "trim_start": 0.03,
+      "trim_end": 3.24,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -18.01,
+      "peak_dbfs": -2.03,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P012-S03",
@@ -533,7 +773,13 @@
       "url": "FAUST_P1_C01_S01_0040_c01-s011_NARRATOR.mp3",
       "sha256": "91b9a06800e1ebd1c600959943cba15d0c2070bd46b88b99292e0eadc7dbd384",
       "bytes": 115356,
-      "duration": 4.8065
+      "duration": 4.8065,
+      "trim_start": 0,
+      "trim_end": 4.69,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.02,
+      "peak_dbfs": -1.97,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P012-S04",
@@ -546,7 +792,13 @@
       "url": "FAUST_P1_C01_S01_0041_c01-s011_NARRATOR.mp3",
       "sha256": "5184a4f178c5543501d08f106954dde872b9b0d46edcc84e2f7b86b9b695418e",
       "bytes": 205009,
-      "duration": 8.542
+      "duration": 8.542,
+      "trim_start": 0.01,
+      "trim_end": 8.09,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -14.78,
+      "peak_dbfs": -1.77,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P013-S01",
@@ -559,7 +811,13 @@
       "url": "FAUST_P1_C01_S01_0042_c01-s011_DEDICATION-POET.mp3",
       "sha256": "ade1b32bb0772097793552e63afe7aa7fe6a0cee20f0d471d419478ac6aac348",
       "bytes": 223817,
-      "duration": 9.3257
+      "duration": 9.3257,
+      "trim_start": 0.15,
+      "trim_end": 9.325,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -19.76,
+      "peak_dbfs": -1.17,
+      "playback_gain": 1.0
     },
     {
       "sentence_id": "C01-P014-S01",
@@ -572,7 +830,13 @@
       "url": "FAUST_P1_C01_S01_0043_c01-s012_NARRATOR.mp3",
       "sha256": "23d9a78cc9955e6b287f82186ee72dd2b66828cf4e95df16a0bed2987643e44c",
       "bytes": 119118,
-      "duration": 4.9633
+      "duration": 4.9633,
+      "trim_start": 0.22,
+      "trim_end": 4.72,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.06,
+      "peak_dbfs": -1.33,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P014-S02",
@@ -585,7 +849,13 @@
       "url": "FAUST_P1_C01_S01_0044_c01-s012_NARRATOR.mp3",
       "sha256": "8ec524599ccb173406b605881734a91ca56bed296a8c7f067d12a85f3b90e8c9",
       "bytes": 109714,
-      "duration": 4.5714
+      "duration": 4.5714,
+      "trim_start": 0,
+      "trim_end": 4.42,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.73,
+      "peak_dbfs": -1.92,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P014-S03",
@@ -598,7 +868,13 @@
       "url": "FAUST_P1_C01_S01_0045_c01-s012_NARRATOR.mp3",
       "sha256": "24c2c7846f693924fd12fcb5f8d386a345b8370d006a268575fc874fb2d45c2f",
       "bytes": 204382,
-      "duration": 8.5159
+      "duration": 8.5159,
+      "trim_start": 0.07,
+      "trim_end": 8.04,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -17.08,
+      "peak_dbfs": -1.85,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P015-S01",
@@ -611,7 +887,13 @@
       "url": "FAUST_P1_C01_S01_0046_c01-s013_NARRATOR.mp3",
       "sha256": "bd67246459abb8e2605b65eafee742fe8b9a79863d30fe47a7c8b7e77cc17a01",
       "bytes": 165511,
-      "duration": 6.8963
+      "duration": 6.8963,
+      "trim_start": 0,
+      "trim_end": 6.77,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -16.81,
+      "peak_dbfs": -1.84,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P015-S02",
@@ -624,7 +906,13 @@
       "url": "FAUST_P1_C01_S01_0047_c01-s013_NARRATOR.mp3",
       "sha256": "bc44269d947cff0f8c88a5d577eae0feb71d838bc096bb0d4c7bc8d109564159",
       "bytes": 206889,
-      "duration": 8.6204
+      "duration": 8.6204,
+      "trim_start": 0.14,
+      "trim_end": 8.41,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -16.54,
+      "peak_dbfs": -1.58,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P015-S03",
@@ -637,7 +925,13 @@
       "url": "FAUST_P1_C01_S01_0048_c01-s013_NARRATOR.mp3",
       "sha256": "83df1a896093b3df0993d6817c360f81007678db4e117b69ed378ae8bd118781",
       "bytes": 107206,
-      "duration": 4.4669
+      "duration": 4.4669,
+      "trim_start": 0.1,
+      "trim_end": 3.86,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -17.48,
+      "peak_dbfs": -2.0,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P016-S01",
@@ -650,7 +944,13 @@
       "url": "FAUST_P1_C01_S01_0049_c01-s014_NARRATOR.mp3",
       "sha256": "ac1ed4cf9457c148c16a6c90cfa0991f2b91c42b51d71fc40160f37c1e6e5997",
       "bytes": 149838,
-      "duration": 6.2433
+      "duration": 6.2433,
+      "trim_start": 0.12,
+      "trim_end": 6.01,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -13.29,
+      "peak_dbfs": -1.43,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P016-S02",
@@ -663,7 +963,13 @@
       "url": "FAUST_P1_C01_S01_0050_c01-s014_NARRATOR.mp3",
       "sha256": "ac47e5e1399e2195e96cee9a99eb56d0a6d56b7fe3b3e503971af5979571a6dc",
       "bytes": 146076,
-      "duration": 6.0865
+      "duration": 6.0865,
+      "trim_start": 0.08,
+      "trim_end": 5.94,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.94,
+      "peak_dbfs": -1.67,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P016-S03",
@@ -676,7 +982,13 @@
       "url": "FAUST_P1_C01_S01_0051_c01-s014_NARRATOR.mp3",
       "sha256": "44c3ff689c03ff84c6e8e1c509f46c038ce941ab6b104a09197b7810fb94cab6",
       "bytes": 197485,
-      "duration": 8.2286
+      "duration": 8.2286,
+      "trim_start": 0.14,
+      "trim_end": 7.66,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -16.86,
+      "peak_dbfs": -1.85,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P017-S01",
@@ -689,7 +1001,13 @@
       "url": "FAUST_P1_C01_S01_0052_c01-s015_NARRATOR.mp3",
       "sha256": "fb90068c4cbdf7a404243e3188be6d0b5f4573738f0f436cf39d5264ebfc9c17",
       "bytes": 57678,
-      "duration": 2.4033
+      "duration": 2.4033,
+      "trim_start": 0,
+      "trim_end": 2.25,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -17.7,
+      "peak_dbfs": -2.09,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P017-S02",
@@ -702,7 +1020,13 @@
       "url": "FAUST_P1_C01_S01_0053_c01-s015_NARRATOR.mp3",
       "sha256": "2aaec0eca6335bffcdddf8d87c7a410d6a930e892b8de9319cc1dc1c6e72d307",
       "bytes": 127268,
-      "duration": 5.3029
+      "duration": 5.3029,
+      "trim_start": 0.09,
+      "trim_end": 5.09,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -14.74,
+      "peak_dbfs": -1.53,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P017-S03",
@@ -715,7 +1039,13 @@
       "url": "FAUST_P1_C01_S01_0054_c01-s015_NARRATOR.mp3",
       "sha256": "740a4ca78012424f792d37685c193974aa2eff5fbc765a619747cef29bb29017",
       "bytes": 208770,
-      "duration": 8.6988
+      "duration": 8.6988,
+      "trim_start": 0.02,
+      "trim_end": 8.2,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -15.21,
+      "peak_dbfs": -2.07,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P018-S01",
@@ -728,7 +1058,13 @@
       "url": "FAUST_P1_C01_S01_0055_c01-s016_NARRATOR.mp3",
       "sha256": "29012dec1ca489f03b36c9bcaf7f423942aee4dcc147894cbedef4cd0dc4a6d5",
       "bytes": 122253,
-      "duration": 5.0939
+      "duration": 5.0939,
+      "trim_start": 0.02,
+      "trim_end": 4.91,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -13.81,
+      "peak_dbfs": -1.35,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P018-S02",
@@ -741,7 +1077,13 @@
       "url": "FAUST_P1_C01_S01_0056_c01-s016_NARRATOR.mp3",
       "sha256": "335173c43c0085d9c1201a5913e6e9603fb8e8290f442098bb8e32a59088629b",
       "bytes": 152973,
-      "duration": 6.3739
+      "duration": 6.3739,
+      "trim_start": 0.06,
+      "trim_end": 6.17,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -18.69,
+      "peak_dbfs": -3.2,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P018-S03",
@@ -754,7 +1096,13 @@
       "url": "FAUST_P1_C01_S01_0057_c01-s016_NARRATOR.mp3",
       "sha256": "272231325a05a09d061d756def1eaa81049d737017060cff429c7251ce0233fd",
       "bytes": 151092,
-      "duration": 6.2955
+      "duration": 6.2955,
+      "trim_start": 0.08,
+      "trim_end": 6.21,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -14.19,
+      "peak_dbfs": -1.37,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P018-S04",
@@ -767,7 +1115,13 @@
       "url": "FAUST_P1_C01_S01_0058_c01-s016_NARRATOR.mp3",
       "sha256": "b23a2b4b1ead5be4353a064f25d6690dec9c5fe1b5e9d86d04a805f69a0bd1e8",
       "bytes": 104071,
-      "duration": 4.3363
+      "duration": 4.3363,
+      "trim_start": 0.04,
+      "trim_end": 4.2,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -13.64,
+      "peak_dbfs": -1.87,
+      "playback_gain": 0.46989
     },
     {
       "sentence_id": "C01-P018-S05",
@@ -780,10 +1134,17 @@
       "url": "FAUST_P1_C01_S01_0059_c01-s016_NARRATOR.mp3",
       "sha256": "dc080d7aa378b40f076332c1106f968dd780a61036f086937bab02948be04a0f",
       "bytes": 170527,
-      "duration": 7.1053
+      "duration": 7.1053,
+      "trim_start": 0.1,
+      "trim_end": 6.49,
+      "effects_applied": "unknown-export-history",
+      "rms_dbfs": -16.89,
+      "peak_dbfs": -1.86,
+      "playback_gain": 0.46989
     }
   ],
   "total_seconds": 350.93,
   "audio_content_listening_verified": false,
-  "effects_provenance": "Canvas browser_generated_cache export; imported without additional DSP"
+  "effects_provenance": "Canvas browser_generated_cache export; imported without additional DSP",
+  "measurement_policy": "10ms RMS -50dBFS boundary detector, 150ms padding, max 1s removal; voice median attenuation only; no MP3 rewrite or DSP"
 }

@@ -1,0 +1,432 @@
+{
+  "voices_median_rms_dbfs": {
+    "Charon": -16.4,
+    "Algieba": -22.96
+  },
+  "target_dbfs": -22.96,
+  "files_unchanged": true,
+  "effects_not_added": true,
+  "human_listening": false,
+  "measurements": [
+    {
+      "sentence_id": "C01-P001-S01",
+      "trim_start": 0,
+      "trim_end": 5.81,
+      "rms_dbfs": -14.3,
+      "peak_dbfs": -1.36
+    },
+    {
+      "sentence_id": "C01-P001-S02",
+      "trim_start": 0,
+      "trim_end": 4.93,
+      "rms_dbfs": -15.46,
+      "peak_dbfs": -2.08
+    },
+    {
+      "sentence_id": "C01-P001-S03",
+      "trim_start": 0,
+      "trim_end": 7.95,
+      "rms_dbfs": -19.16,
+      "peak_dbfs": -3.31
+    },
+    {
+      "sentence_id": "C01-P001-S04",
+      "trim_start": 0,
+      "trim_end": 4.85,
+      "rms_dbfs": -15.63,
+      "peak_dbfs": -1.9
+    },
+    {
+      "sentence_id": "C01-P002-S01",
+      "trim_start": 0.05,
+      "trim_end": 4.4,
+      "rms_dbfs": -18.15,
+      "peak_dbfs": -4.47
+    },
+    {
+      "sentence_id": "C01-P002-S02",
+      "trim_start": 0.06,
+      "trim_end": 3.69,
+      "rms_dbfs": -15.52,
+      "peak_dbfs": -2.13
+    },
+    {
+      "sentence_id": "C01-P002-S03",
+      "trim_start": 0.04,
+      "trim_end": 2.69,
+      "rms_dbfs": -19.07,
+      "peak_dbfs": -3.74
+    },
+    {
+      "sentence_id": "C01-P002-S04",
+      "trim_start": 0.05,
+      "trim_end": 6.18,
+      "rms_dbfs": -18.93,
+      "peak_dbfs": -2.16
+    },
+    {
+      "sentence_id": "C01-P003-S01",
+      "trim_start": 0,
+      "trim_end": 6.556,
+      "rms_dbfs": -26.71,
+      "peak_dbfs": -3.17
+    },
+    {
+      "sentence_id": "C01-P003-S02",
+      "trim_start": 0.19,
+      "trim_end": 4.7536,
+      "rms_dbfs": -22.96,
+      "peak_dbfs": -5.91
+    },
+    {
+      "sentence_id": "C01-P004-S01",
+      "trim_start": 0.12,
+      "trim_end": 4.9,
+      "rms_dbfs": -18.31,
+      "peak_dbfs": -3.37
+    },
+    {
+      "sentence_id": "C01-P004-S02",
+      "trim_start": 0,
+      "trim_end": 4.12,
+      "rms_dbfs": -14.42,
+      "peak_dbfs": -2.57
+    },
+    {
+      "sentence_id": "C01-P004-S03",
+      "trim_start": 0,
+      "trim_end": 2.69,
+      "rms_dbfs": -14.68,
+      "peak_dbfs": -2.03
+    },
+    {
+      "sentence_id": "C01-P004-S04",
+      "trim_start": 0.03,
+      "trim_end": 5.94,
+      "rms_dbfs": -18.85,
+      "peak_dbfs": -2.27
+    },
+    {
+      "sentence_id": "C01-P005-S01",
+      "trim_start": 0.13,
+      "trim_end": 7.66,
+      "rms_dbfs": -15.67,
+      "peak_dbfs": -1.61
+    },
+    {
+      "sentence_id": "C01-P005-S02",
+      "trim_start": 0.09,
+      "trim_end": 4.76,
+      "rms_dbfs": -15.05,
+      "peak_dbfs": -1.62
+    },
+    {
+      "sentence_id": "C01-P005-S03",
+      "trim_start": 0.01,
+      "trim_end": 3.01,
+      "rms_dbfs": -15.67,
+      "peak_dbfs": -2.69
+    },
+    {
+      "sentence_id": "C01-P006-S01",
+      "trim_start": 0.1,
+      "trim_end": 4.5,
+      "rms_dbfs": -14.46,
+      "peak_dbfs": -1.22
+    },
+    {
+      "sentence_id": "C01-P006-S02",
+      "trim_start": 0.01,
+      "trim_end": 4.25,
+      "rms_dbfs": -16.94,
+      "peak_dbfs": -2.7
+    },
+    {
+      "sentence_id": "C01-P006-S03",
+      "trim_start": 0.02,
+      "trim_end": 7.79,
+      "rms_dbfs": -17.12,
+      "peak_dbfs": -3.2
+    },
+    {
+      "sentence_id": "C01-P007-S01",
+      "trim_start": 0.46,
+      "trim_end": 5.36,
+      "rms_dbfs": -14.31,
+      "peak_dbfs": -1.9
+    },
+    {
+      "sentence_id": "C01-P007-S02",
+      "trim_start": 0.15,
+      "trim_end": 3.89,
+      "rms_dbfs": -16.84,
+      "peak_dbfs": -2.05
+    },
+    {
+      "sentence_id": "C01-P007-S03",
+      "trim_start": 0.07,
+      "trim_end": 5.43,
+      "rms_dbfs": -16.38,
+      "peak_dbfs": -2.1
+    },
+    {
+      "sentence_id": "C01-P007-S04",
+      "trim_start": 0.05,
+      "trim_end": 7.54,
+      "rms_dbfs": -20.03,
+      "peak_dbfs": -3.82
+    },
+    {
+      "sentence_id": "C01-P007-S05",
+      "trim_start": 0.13,
+      "trim_end": 4.37,
+      "rms_dbfs": -16.54,
+      "peak_dbfs": -3.28
+    },
+    {
+      "sentence_id": "C01-P008-S01",
+      "trim_start": 0.02,
+      "trim_end": 5.29,
+      "rms_dbfs": -17.51,
+      "peak_dbfs": -2.14
+    },
+    {
+      "sentence_id": "C01-P008-S02",
+      "trim_start": 0,
+      "trim_end": 5.67,
+      "rms_dbfs": -14.54,
+      "peak_dbfs": -1.58
+    },
+    {
+      "sentence_id": "C01-P008-S03",
+      "trim_start": 0.09,
+      "trim_end": 10.17,
+      "rms_dbfs": -16.4,
+      "peak_dbfs": -1.99
+    },
+    {
+      "sentence_id": "C01-P008-S04",
+      "trim_start": 0.11,
+      "trim_end": 3.8,
+      "rms_dbfs": -18.05,
+      "peak_dbfs": -1.61
+    },
+    {
+      "sentence_id": "C01-P009-S01",
+      "trim_start": 0.28,
+      "trim_end": 3.85,
+      "rms_dbfs": -15.08,
+      "peak_dbfs": -1.19
+    },
+    {
+      "sentence_id": "C01-P009-S02",
+      "trim_start": 0.09,
+      "trim_end": 5.72,
+      "rms_dbfs": -13.14,
+      "peak_dbfs": -1.73
+    },
+    {
+      "sentence_id": "C01-P009-S03",
+      "trim_start": 0,
+      "trim_end": 6.54,
+      "rms_dbfs": -16.61,
+      "peak_dbfs": -1.77
+    },
+    {
+      "sentence_id": "C01-P010-S01",
+      "trim_start": 0.07,
+      "trim_end": 4.45,
+      "rms_dbfs": -17.61,
+      "peak_dbfs": -2.78
+    },
+    {
+      "sentence_id": "C01-P010-S02",
+      "trim_start": 0,
+      "trim_end": 4.36,
+      "rms_dbfs": -17.47,
+      "peak_dbfs": -1.92
+    },
+    {
+      "sentence_id": "C01-P010-S03",
+      "trim_start": 0.09,
+      "trim_end": 7.0,
+      "rms_dbfs": -18.66,
+      "peak_dbfs": -2.76
+    },
+    {
+      "sentence_id": "C01-P011-S01",
+      "trim_start": 0.18,
+      "trim_end": 5.56,
+      "rms_dbfs": -16.53,
+      "peak_dbfs": -1.95
+    },
+    {
+      "sentence_id": "C01-P011-S02",
+      "trim_start": 0.13,
+      "trim_end": 8.37,
+      "rms_dbfs": -14.02,
+      "peak_dbfs": -1.8
+    },
+    {
+      "sentence_id": "C01-P011-S03",
+      "trim_start": 0.09,
+      "trim_end": 4.95,
+      "rms_dbfs": -15.44,
+      "peak_dbfs": -1.53
+    },
+    {
+      "sentence_id": "C01-P012-S01",
+      "trim_start": 0,
+      "trim_end": 5.69,
+      "rms_dbfs": -18.83,
+      "peak_dbfs": -3.45
+    },
+    {
+      "sentence_id": "C01-P012-S02",
+      "trim_start": 0.03,
+      "trim_end": 3.24,
+      "rms_dbfs": -18.01,
+      "peak_dbfs": -2.03
+    },
+    {
+      "sentence_id": "C01-P012-S03",
+      "trim_start": 0,
+      "trim_end": 4.69,
+      "rms_dbfs": -15.02,
+      "peak_dbfs": -1.97
+    },
+    {
+      "sentence_id": "C01-P012-S04",
+      "trim_start": 0.01,
+      "trim_end": 8.09,
+      "rms_dbfs": -14.78,
+      "peak_dbfs": -1.77
+    },
+    {
+      "sentence_id": "C01-P013-S01",
+      "trim_start": 0.15,
+      "trim_end": 9.325,
+      "rms_dbfs": -19.76,
+      "peak_dbfs": -1.17
+    },
+    {
+      "sentence_id": "C01-P014-S01",
+      "trim_start": 0.22,
+      "trim_end": 4.72,
+      "rms_dbfs": -15.06,
+      "peak_dbfs": -1.33
+    },
+    {
+      "sentence_id": "C01-P014-S02",
+      "trim_start": 0,
+      "trim_end": 4.42,
+      "rms_dbfs": -15.73,
+      "peak_dbfs": -1.92
+    },
+    {
+      "sentence_id": "C01-P014-S03",
+      "trim_start": 0.07,
+      "trim_end": 8.04,
+      "rms_dbfs": -17.08,
+      "peak_dbfs": -1.85
+    },
+    {
+      "sentence_id": "C01-P015-S01",
+      "trim_start": 0,
+      "trim_end": 6.77,
+      "rms_dbfs": -16.81,
+      "peak_dbfs": -1.84
+    },
+    {
+      "sentence_id": "C01-P015-S02",
+      "trim_start": 0.14,
+      "trim_end": 8.41,
+      "rms_dbfs": -16.54,
+      "peak_dbfs": -1.58
+    },
+    {
+      "sentence_id": "C01-P015-S03",
+      "trim_start": 0.1,
+      "trim_end": 3.86,
+      "rms_dbfs": -17.48,
+      "peak_dbfs": -2.0
+    },
+    {
+      "sentence_id": "C01-P016-S01",
+      "trim_start": 0.12,
+      "trim_end": 6.01,
+      "rms_dbfs": -13.29,
+      "peak_dbfs": -1.43
+    },
+    {
+      "sentence_id": "C01-P016-S02",
+      "trim_start": 0.08,
+      "trim_end": 5.94,
+      "rms_dbfs": -15.94,
+      "peak_dbfs": -1.67
+    },
+    {
+      "sentence_id": "C01-P016-S03",
+      "trim_start": 0.14,
+      "trim_end": 7.66,
+      "rms_dbfs": -16.86,
+      "peak_dbfs": -1.85
+    },
+    {
+      "sentence_id": "C01-P017-S01",
+      "trim_start": 0,
+      "trim_end": 2.25,
+      "rms_dbfs": -17.7,
+      "peak_dbfs": -2.09
+    },
+    {
+      "sentence_id": "C01-P017-S02",
+      "trim_start": 0.09,
+      "trim_end": 5.09,
+      "rms_dbfs": -14.74,
+      "peak_dbfs": -1.53
+    },
+    {
+      "sentence_id": "C01-P017-S03",
+      "trim_start": 0.02,
+      "trim_end": 8.2,
+      "rms_dbfs": -15.21,
+      "peak_dbfs": -2.07
+    },
+    {
+      "sentence_id": "C01-P018-S01",
+      "trim_start": 0.02,
+      "trim_end": 4.91,
+      "rms_dbfs": -13.81,
+      "peak_dbfs": -1.35
+    },
+    {
+      "sentence_id": "C01-P018-S02",
+      "trim_start": 0.06,
+      "trim_end": 6.17,
+      "rms_dbfs": -18.69,
+      "peak_dbfs": -3.2
+    },
+    {
+      "sentence_id": "C01-P018-S03",
+      "trim_start": 0.08,
+      "trim_end": 6.21,
+      "rms_dbfs": -14.19,
+      "peak_dbfs": -1.37
+    },
+    {
+      "sentence_id": "C01-P018-S04",
+      "trim_start": 0.04,
+      "trim_end": 4.2,
+      "rms_dbfs": -13.64,
+      "peak_dbfs": -1.87
+    },
+    {
+      "sentence_id": "C01-P018-S05",
+      "trim_start": 0.1,
+      "trim_end": 6.49,
+      "rms_dbfs": -16.89,
+      "peak_dbfs": -1.86
+    }
+  ]
+}

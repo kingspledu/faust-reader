@@ -1,0 +1,23 @@
+{
+  "skill_commit": "ebd0d9a4a8fb36e64729462c46a0eb97725f8ded",
+  "sentence_files": 60,
+  "all_audio_bytes_hashes_match": true,
+  "paragraph_text_order_preserved": true,
+  "dom_sentence_ids": 60,
+  "dom_paragraph_ids": 18,
+  "paragraphs": 18,
+  "chapters_loading_player": [
+    "chapter-01.html"
+  ],
+  "landscape_dom_contract": {
+    "article": true,
+    "#floating-reader": false,
+    "#font-size": false,
+    "#font-value": false,
+    "#install-app": false,
+    "section.chapter": false,
+    ".reading-sentence": true
+  },
+  "listening_verified": false,
+  "device_verified": false
+}
