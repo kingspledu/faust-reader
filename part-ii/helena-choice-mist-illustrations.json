@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/helena-choice-mist-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "variant-ii-mephisto-phorkyas",
+    "place-iii-sparta-palace"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/variant-ii-mephisto-phorkyas.png",
+    "art-bible/place-iii-sparta-palace.png"
+  ],
+  "generation_reference_note": "다섯 원본 시트 직접 참조. 말로 설명하는 성·성주·과거의 폭력을 현재 사건으로 추가하지 않는다. 원문이 실제 이동·안개를 말하는 구간부터 공간 전환한다.",
+  "records": [
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6076",
+      "description": "헬레네가 말을 끊고 결론을 요구한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/helena-choice-mist-01.webp",
+      "sha256": "a5af8b6488fb4a3c122dd047802b6fbb8e06f2c57b4eb7b539e456e7297ad0fc"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6084",
+      "description": "시녀들이 헬레네에게 결단을 청하고 헬레네가 묻는다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/helena-choice-mist-02.webp",
+      "sha256": "83d8070eeda86cb5b1653f36e87b1e3c19ce0b8ede97acf3485b6037b157f4a4"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6092",
+      "description": "포르키아스가 과거의 폭력을 말한다. 현재 여성들의 대화만 그린다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/helena-choice-mist-03.webp",
+      "sha256": "196e1600a7aedd9a1cb544c5630e3362bb35de58f110293f107ae10a0485fc56"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6098",
+      "description": "헬레네가 괴로운 말을 듣고 포르키아스에게 답한다. 실제 훼손 장면은 추가하지 않는다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/helena-choice-mist-04.webp",
+      "sha256": "f3aaf1d24b7bd354fe50f5700effa62f795d4da505bbaba60485c7607fb7c794"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6106",
+      "description": "포르키아스가 질투를 설명하고 헬레네가 듣는다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/helena-choice-mist-05.webp",
+      "sha256": "d2619cc7cda0b8ea047a4dd9b803a59ea1ad3c2ec7a23a853882c4ffd03f0fe4"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6110",
+      "description": "시녀들이 멀리 들리는 나팔에 반응하고 포르키아스가 바깥을 본다. 왕을 현재에 추가하지 않는다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/helena-choice-mist-06.webp",
+      "sha256": "88bc5656bcda8f1f37708e90e144895cb2818794007b61daa6ad99487a5c771b"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6118",
+      "description": "헬레네가 자신의 선택을 생각하며 시녀들 곁에 선다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/helena-choice-mist-07.webp",
+      "sha256": "b335eb7b8165716f7453cc52d40da1651b84bfec41e78593ba7dff7abf66dc58"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6128",
+      "description": "헬레네가 포르키아스를 의심하면서도 성으로 따르겠다고 말한다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/helena-choice-mist-08.webp",
+      "sha256": "7eb5c0d5b4285456f5c4b13a222676615387e8150157ec8619b6ddc2034e514e"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6132",
+      "description": "헬레네가 앞장서라고 말하고 포르키아스가 돌아선다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/helena-choice-mist-09.webp",
+      "sha256": "70225cfe53eaac7d16e88365e84199ac238e861294f5c51fe6696aa5e494f3ff"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6138",
+      "description": "시녀들이 포르키아스와 헬레네를 따라 발걸음을 옮긴다. 아직 새 성의 내부를 그리지 않는다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/helena-choice-mist-10.webp",
+      "sha256": "3e04e7f93a7f0c20be1e73e9f5633139d46d53c6bc62806e65adb5adc9bde253"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6142",
+      "description": "궁전에서 멀어지는 일행이 불안을 말한다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/helena-choice-mist-11.webp",
+      "sha256": "63624a85be0e0650a9e6b7d0ff3271bbde2c2f632b52bca0ddd86dbf0452f3bc"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6146",
+      "description": "옅은 줄안개가 발치에서 피어나고 시녀들이 둘러본다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/helena-choice-mist-12.webp",
+      "sha256": "1826ec964af2883aa262edb798ea9be747f21bba7271dc522de6a285a09c18c4"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6150",
+      "description": "강가 갈대가 안개에 가려지고 일행의 옷자락이 보인다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/helena-choice-mist-13.webp",
+      "sha256": "b18b036516f471bc6c97242206d954490419ed23a40a2de3a70830951d8f3814"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6154",
+      "description": "갈대와 수면이 짙은 안개 뒤로 가려진다. 새 인물은 추가하지 않는다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/helena-choice-mist-14.webp",
+      "sha256": "ea276a9a5fb701474a55ca59b9095da68d55307b722e3175c4bc21607f795a88"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6158",
+      "description": "시녀들이 안개 속 먼 소리에 귀 기울인다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/helena-choice-mist-15.webp",
+      "sha256": "75ae3b77ea626e0cc9a79a78affad99dd3811112d22201f0e64c769089c2972e"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6162",
+      "description": "안개 속 일행이 서로를 확인하며 조심스럽게 이동한다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/helena-choice-mist-16.webp",
+      "sha256": "1a1722f060a589d789a2614193f4075f3b4be4ccd78bcecebfcc3028538b4d0f"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
