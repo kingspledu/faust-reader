@@ -13,6 +13,15 @@ pages = {s['section']: BeautifulSoup((root/(s['section']+'.html')).read_text(enc
 def protected(soup):
     return [(p['id'], str(p.select_one('details'))) for p in soup.select('section.panel-text')]
 before = {key: protected(soup) for key, soup in pages.items()}
+replace = '--replace' in sys.argv[3:]
+for scene in plan['scenes']:
+    panel = pages[scene['section']].find(id=scene['scene_id'])
+    assert panel is not None
+    existing = panel.find_all('img')
+    if replace:
+        assert len(existing) == 1 and existing[0].get('data-batch') == plan['batch_id'], scene['scene_id']
+    else:
+        assert not existing, scene['scene_id']
 image = Image.open(sys.argv[2]).convert('RGB')
 w, h = image.size
 image.save(root/plan['source_image'])
@@ -20,13 +29,15 @@ records = []
 for i, scene in enumerate(plan['scenes']):
     soup = pages[scene['section']]
     panel = soup.find(id=scene['scene_id'])
-    assert panel is not None and not panel.find('img'), scene['scene_id']
+    if replace:
+        panel.find('img').decompose()
     row, col = divmod(i, 4)
     crop = [round(col*w/4)+1, round(row*h/4)+1, round((col+1)*w/4)-1, round((row+1)*h/4)-1]
     asset = f'images/{plan["batch_id"]}-{i+1:02}.webp'
     image.crop(crop).save(root/asset, format='WEBP', quality=94, method=6)
-    panel.insert(0, soup.new_tag('img', src=asset, alt=scene['description'], loading='lazy', attrs={'data-batch': plan['batch_id']}))
-    records.append(dict(scene, panel=i+1, row=row+1, column=col+1, crop=crop, image=asset, sha256=hashlib.sha256((root/asset).read_bytes()).hexdigest()))
+    digest = hashlib.sha256((root/asset).read_bytes()).hexdigest()
+    panel.insert(0, soup.new_tag('img', src=asset+('?v='+digest[:12] if replace else ''), alt=scene['description'], loading='lazy', attrs={'data-batch': plan['batch_id']}))
+    records.append(dict(scene, panel=i+1, row=row+1, column=col+1, crop=crop, image=asset, sha256=digest))
 assert len({r['sha256'] for r in records}) == 16
 for key, soup in pages.items():
     assert protected(soup) == before[key], key

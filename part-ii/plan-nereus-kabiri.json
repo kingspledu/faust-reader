@@ -98,10 +98,11 @@
     }
   ],
   "generation_reference_images": [
-    "part-ii/source_images/sea-nereus-grid-001.png",
-    "art-bible/group-ii-kabiri-effigies.png",
-    "art-bible/group-ii-nereids.png",
+    "part-ii/source_images/nereus-kabiri-grid-001.png",
+    "art-bible/character-ii-homunculus.png",
     "art-bible/group-ii-tritons.png",
-    "art-bible/group-ii-sirens.png"
-  ]
+    "art-bible/group-ii-kabiri-effigies.png",
+    "art-bible/character-ii-thales.png"
+  ],
+  "correction": "참조 재검증: 긴 병 목·구형 마개·버건디 끈, 소매 있는 파란 튜닉, 손바닥보다 작은 세 신상 고정. 두 배치 32컷 재생성 교체."
 }

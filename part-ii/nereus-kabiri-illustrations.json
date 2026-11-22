@@ -19,11 +19,11 @@
     "place-ii-aegean-coves"
   ],
   "generation_reference_images": [
-    "part-ii/source_images/sea-nereus-grid-001.png",
-    "art-bible/group-ii-kabiri-effigies.png",
-    "art-bible/group-ii-nereids.png",
+    "part-ii/source_images/nereus-kabiri-grid-001.png",
+    "art-bible/character-ii-homunculus.png",
     "art-bible/group-ii-tritons.png",
-    "art-bible/group-ii-sirens.png"
+    "art-bible/group-ii-kabiri-effigies.png",
+    "art-bible/character-ii-thales.png"
   ],
   "generation_reference_note": "",
   "records": [
@@ -41,7 +41,7 @@
         255
       ],
       "image": "images/nereus-kabiri-01.webp",
-      "sha256": "654a8e37dccecf2acecd686aedd42522ca0f07be0514a9a5e649d23c43ebaf10"
+      "sha256": "c6e4cf8e8493a233e1160a7e291d778561a94f48e3c1a99ed1bb403494368fe3"
     },
     {
       "section": "act-02-11",
@@ -57,7 +57,7 @@
         255
       ],
       "image": "images/nereus-kabiri-02.webp",
-      "sha256": "63d5d662fb15d9a6b9f3a1d8b3ef5a5cab59c5104fa4271feddc12fb492ce6a6"
+      "sha256": "6e2f41ac22bcaf07006c739ea3fe8e9218e85a6e797646ccdf5b35f47eca12da"
     },
     {
       "section": "act-02-11",
@@ -73,7 +73,7 @@
         255
       ],
       "image": "images/nereus-kabiri-03.webp",
-      "sha256": "21207e7cfb52195660f9692b4f0df48154e3fb13fbceda745f898ca3d6332930"
+      "sha256": "0fb735c4ff245b7852bc9047cbdb99a87066f27d54a4266d4eee316c57ec6387"
     },
     {
       "section": "act-02-11",
@@ -89,7 +89,7 @@
         255
       ],
       "image": "images/nereus-kabiri-04.webp",
-      "sha256": "8afba7e6a38283d8833570d9bce06bb5ecf8190caf7f501a31c594b2968f8219"
+      "sha256": "fe99f249e4ecad37013ad98540b3b7721f34c14dec41c2283a79e5e595d5393a"
     },
     {
       "section": "act-02-11",
@@ -105,7 +105,7 @@
         511
       ],
       "image": "images/nereus-kabiri-05.webp",
-      "sha256": "27e265781ac697d0d584348902f57cc26015f754d14bd8eabddf58e39edc1565"
+      "sha256": "bf42f6f21a2d9d09e70934f524658077bc64d6b184de08efd7f88ebce3f5b1bf"
     },
     {
       "section": "act-02-11",
@@ -121,7 +121,7 @@
         511
       ],
       "image": "images/nereus-kabiri-06.webp",
-      "sha256": "21a54980b93debb84d8fe56c59a82cedc5f6e7dc36ef8a3b352b66babc913e67"
+      "sha256": "b1ff2e6834fce9c43bbde146523b00c705ab96e96409d9a3aa1ebcc984251521"
     },
     {
       "section": "act-02-11",
@@ -137,7 +137,7 @@
         511
       ],
       "image": "images/nereus-kabiri-07.webp",
-      "sha256": "c37e8512c800a6fc904a73ee1cadfee2765b4a55ae11ec06f0c7a50578cf98c5"
+      "sha256": "4251d87ad881690a362e47d0152fa2cbe3010437f1f225a7db9a392ca98230bc"
     },
     {
       "section": "act-02-11",
@@ -153,7 +153,7 @@
         511
       ],
       "image": "images/nereus-kabiri-08.webp",
-      "sha256": "38234c2ed430938a8eb8d88e3fcfb81b472c64b49bf03e91f82d0bfe2b99ea0a"
+      "sha256": "3ccf18ae0758020f4d9f2b493a5ae73de3d0af90df11828cad4cb0db91f17c24"
     },
     {
       "section": "act-02-11",
@@ -169,7 +169,7 @@
         767
       ],
       "image": "images/nereus-kabiri-09.webp",
-      "sha256": "bcc3a266e830d68f3e5a0023dc53d6c4482c78facfb3f8bb4a704c2e6d51f0b7"
+      "sha256": "71e3170e06216da1d86b979fa3b871c9ef55499d50cde93e274d151124c5349e"
     },
     {
       "section": "act-02-11",
@@ -185,7 +185,7 @@
         767
       ],
       "image": "images/nereus-kabiri-10.webp",
-      "sha256": "09974b5926bd7646ce5971ecd06c50467474d9486b2ce77d214e3fd9c5fcc42c"
+      "sha256": "40344a5affdaf76ab81754c7f790f3760fb66d6fd4ec223b6d6c7fb4cb78576c"
     },
     {
       "section": "act-02-11",
@@ -201,7 +201,7 @@
         767
       ],
       "image": "images/nereus-kabiri-11.webp",
-      "sha256": "b218fcbe9bf0454aaf6e9cf03038eb457ecb97da93b279d1504235cc3b13587a"
+      "sha256": "c467e500ed606a5443ea139e671411d3e2532b1c66c8232cb0a336974fd7d81e"
     },
     {
       "section": "act-02-11",
@@ -217,7 +217,7 @@
         767
       ],
       "image": "images/nereus-kabiri-12.webp",
-      "sha256": "d45dd76cabe59763c21241c274c1c3421784872ab5a1e214b39c5138369ada5c"
+      "sha256": "4668490c20da8336d076c9e74ce83d0cd202a9d0f215b13f299a3f5628eb861f"
     },
     {
       "section": "act-02-11",
@@ -233,7 +233,7 @@
         1023
       ],
       "image": "images/nereus-kabiri-13.webp",
-      "sha256": "9d75707b33019687b212e5909c126a128810684e5c728ad8fa8a288e9e52043f"
+      "sha256": "29bd1a3f0892bc7d12e80132f1389abae84e6a17239df78de6e8efb19e7bed8e"
     },
     {
       "section": "act-02-11",
@@ -249,7 +249,7 @@
         1023
       ],
       "image": "images/nereus-kabiri-14.webp",
-      "sha256": "8eeec6f62d81e82c6493886232c56f2deab31d86dc97251e4bd71483de4cec4e"
+      "sha256": "847e8c7143d0139585c605cd1b735293d7f13df9b80a8a028963de12588f4c8e"
     },
     {
       "section": "act-02-11",
@@ -265,7 +265,7 @@
         1023
       ],
       "image": "images/nereus-kabiri-15.webp",
-      "sha256": "9bb7e534fad5b55d76a8063ee4a9b062ad0f60bcb019c234d57e7e09b7129896"
+      "sha256": "0d0dc1767574fb44ac22a31cfbd8c73c70dd6b4936f32892cb2b5c1022e4ff6e"
     },
     {
       "section": "act-02-11",
@@ -281,9 +281,9 @@
         1023
       ],
       "image": "images/nereus-kabiri-16.webp",
-      "sha256": "a024ca576647ef5e5544e464eba24c432dda8255bd17ab557a3d67225f832fe9"
+      "sha256": "1cfbc82c284286d0a6df9583115f1d8fd15f7c16ab638f927f360dc9748e0c84"
     }
   ],
   "source_translation_preserved": true,
-  "correction": ""
+  "correction": "참조 재검증: 긴 병 목·구형 마개·버건디 끈, 소매 있는 파란 튜닉, 손바닥보다 작은 세 신상 고정. 두 배치 32컷 재생성 교체."
 }
