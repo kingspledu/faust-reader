@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/helena-defends-chorus-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "variant-ii-mephisto-phorkyas",
+    "place-iii-sparta-palace"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/variant-ii-mephisto-phorkyas.png",
+    "art-bible/place-iii-sparta-palace.png"
+  ],
+  "generation_reference_note": "다섯 원본 시트를 직접 첨부. 번호로 발화하는 시녀들은 기존 합창단 구성원이며 새로운 외형 집단을 만들지 않는다. 비유와 과거의 인물은 현재 장면에 추가하지 않는다.",
+  "records": [
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5603",
+      "description": "시녀들이 햇빛 아래 포르키아스에게 응답한다. 태양신을 추가하지 않는다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/helena-defends-chorus-01.webp",
+      "sha256": "973b759fa532bb4436d840ebb9d4f83767491927a8a91fd9ca73d2620fa7abf0"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5607",
+      "description": "시녀들이 포르키아스를 보는 괴로움을 말한다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/helena-defends-chorus-02.webp",
+      "sha256": "318949f4bedb561528f95e0f8b670504f73d3ee237c0137bcce7a4fea6f197b8"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5611",
+      "description": "합창단이 분노를 드러내고 포르키아스가 듣는다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/helena-defends-chorus-03.webp",
+      "sha256": "7ebf5dcf3070b9dee142a8222e45cf9dcfb0e812d22907447f4217ce30417855"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5615",
+      "description": "포르키아스가 시녀들의 비난에 말을 꺼낸다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/helena-defends-chorus-04.webp",
+      "sha256": "721c24dd37267343f33720f0db70b228129ac5929ddd87959727f5afdff2f946"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5621",
+      "description": "포르키아스가 아름다움과 부끄러움을 말한다. 추상 개념을 인물로 만들지 않는다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/helena-defends-chorus-05.webp",
+      "sha256": "754b08237e90652c0616e84d1b4f2d971590b8aa23ca11af6a24f7939de8bb8b"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5625",
+      "description": "포르키아스가 냉소하며 손짓한다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/helena-defends-chorus-06.webp",
+      "sha256": "475acc5ecf7fe8a6b526d1e10b62f046837fccf85377882fdf69d5d622592f10"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5629",
+      "description": "포르키아스가 시녀들의 소란을 꾸짖는다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/helena-defends-chorus-07.webp",
+      "sha256": "5ea76c350b40f9229720d604e6e3f9fd615e1e7b50f4c0d94e109b5324808543"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5633",
+      "description": "포르키아스가 말을 잇는다. 비유 속 두루미를 추가하지 않는다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/helena-defends-chorus-08.webp",
+      "sha256": "409e7ed9023c9c2b349dccc717b65e5b95b9e48805a3054a908631a454644ea2"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5637",
+      "description": "포르키아스가 궁전의 관리자인 자신에게 소리치느냐고 묻는다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/helena-defends-chorus-09.webp",
+      "sha256": "27c390725dc712b068888b75bfbb2d72eb31b7eefaf86d284fee71bdfcac5a66"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5641",
+      "description": "시녀들이 포르키아스의 모욕을 듣고 서로를 바라본다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/helena-defends-chorus-10.webp",
+      "sha256": "ed8eda0ec80ccf3e3a5b82184db7d54d3e8fc7d69315aaead743f668bebe70b3"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5645",
+      "description": "포르키아스가 시녀들을 비난한다. 비유 속 벌레를 추가하지 않는다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/helena-defends-chorus-11.webp",
+      "sha256": "320942baca42bd5ff5af89a4dbf210e728baa005420257bcbd6a0effd2d891a7"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5649",
+      "description": "헬레네가 시녀들을 모욕하지 말라며 개입한다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/helena-defends-chorus-12.webp",
+      "sha256": "68f83b7f63f7ebf0b0b98b611164b51801951b114e8c198d2c191d375447cdba"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5655",
+      "description": "헬레네가 시녀들의 공로를 말하며 두둔한다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/helena-defends-chorus-13.webp",
+      "sha256": "841ca7366b3c0de29a5796563fc922cfa6a6de20fed6530dda63862fae0129e0"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5659",
+      "description": "시녀들이 헬레네의 말을 듣고 가까이 선다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/helena-defends-chorus-14.webp",
+      "sha256": "3547daebe6e0379f94d4dabb0d6111d5539ec366c9011b60d93a349bae355713"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5663",
+      "description": "헬레네가 포르키아스에게 물러서라고 말한다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/helena-defends-chorus-15.webp",
+      "sha256": "7745ce5dffddc0cb28ce23e61e2c17b4003d633f843c84881d81020b82ffa69e"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5667",
+      "description": "포르키아스가 몸을 낮추듯 응답한다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/helena-defends-chorus-16.webp",
+      "sha256": "c08d2886ea425408d71bb0f49568b091758ccafd7962bd495ea69f25c291ffdc"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}

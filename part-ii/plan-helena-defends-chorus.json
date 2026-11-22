@@ -1,0 +1,105 @@
+{
+  "batch_id": "helena-defends-chorus",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/helena-defends-chorus-grid-001.png",
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "variant-ii-mephisto-phorkyas",
+    "place-iii-sparta-palace"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/variant-ii-mephisto-phorkyas.png",
+    "art-bible/place-iii-sparta-palace.png"
+  ],
+  "generation_reference_note": "다섯 원본 시트를 직접 첨부. 번호로 발화하는 시녀들은 기존 합창단 구성원이며 새로운 외형 집단을 만들지 않는다. 비유와 과거의 인물은 현재 장면에 추가하지 않는다.",
+  "scenes": [
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5603",
+      "description": "시녀들이 햇빛 아래 포르키아스에게 응답한다. 태양신을 추가하지 않는다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5607",
+      "description": "시녀들이 포르키아스를 보는 괴로움을 말한다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5611",
+      "description": "합창단이 분노를 드러내고 포르키아스가 듣는다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5615",
+      "description": "포르키아스가 시녀들의 비난에 말을 꺼낸다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5621",
+      "description": "포르키아스가 아름다움과 부끄러움을 말한다. 추상 개념을 인물로 만들지 않는다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5625",
+      "description": "포르키아스가 냉소하며 손짓한다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5629",
+      "description": "포르키아스가 시녀들의 소란을 꾸짖는다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5633",
+      "description": "포르키아스가 말을 잇는다. 비유 속 두루미를 추가하지 않는다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5637",
+      "description": "포르키아스가 궁전의 관리자인 자신에게 소리치느냐고 묻는다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5641",
+      "description": "시녀들이 포르키아스의 모욕을 듣고 서로를 바라본다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5645",
+      "description": "포르키아스가 시녀들을 비난한다. 비유 속 벌레를 추가하지 않는다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5649",
+      "description": "헬레네가 시녀들을 모욕하지 말라며 개입한다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5655",
+      "description": "헬레네가 시녀들의 공로를 말하며 두둔한다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5659",
+      "description": "시녀들이 헬레네의 말을 듣고 가까이 선다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5663",
+      "description": "헬레네가 포르키아스에게 물러서라고 말한다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5667",
+      "description": "포르키아스가 몸을 낮추듯 응답한다."
+    }
+  ]
+}
