@@ -1,0 +1,105 @@
+{
+  "batch_id": "phorkyas-castle-offer",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/phorkyas-castle-offer-grid-001.png",
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "variant-ii-mephisto-phorkyas",
+    "place-iii-sparta-palace"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/variant-ii-mephisto-phorkyas.png",
+    "art-bible/place-iii-sparta-palace.png"
+  ],
+  "generation_reference_note": "다섯 원본 시트 직접 참조. 말로 설명하는 성·성주·과거의 폭력을 현재 사건으로 추가하지 않는다. 원문이 실제 이동·안개를 말하는 구간부터 공간 전환한다.",
+  "scenes": [
+    {
+      "section": "act-03-04",
+      "scene_id": "source-5988",
+      "description": "포르키아스가 메넬라오스의 긴 부재를 말한다. 현재 궁전 앞 대화만 그린다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-5992",
+      "description": "헬레네가 비난을 멈추라고 말하고 포르키아스가 응답한다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6000",
+      "description": "포르키아스가 북쪽 산골짜기를 가리키며 설명한다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6004",
+      "description": "포르키아스가 산골짜기의 성을 이야기하고 여성들이 듣는다. 성에 아직 이동하지 않는다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6008",
+      "description": "헬레네가 성의 주인이 누구인지 묻는다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6020",
+      "description": "헬레네가 그 주인의 외모를 묻는다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6026",
+      "description": "포르키아스가 성주를 칭찬한다. 성주를 현재 인물로 추가하지 않는다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6032",
+      "description": "포르키아스가 그 성을 보라며 설득한다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6036",
+      "description": "포르키아스가 궁전의 돌을 가리키며 성벽을 비교한다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6040",
+      "description": "포르키아스가 반듯하고 높은 성벽을 설명한다. 현재의 궁전 앞을 유지한다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6044",
+      "description": "포르키아스가 성 안의 뜰과 회랑을 손짓으로 묘사한다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6048",
+      "description": "시녀들이 문장이 무엇인지 묻고 포르키아스가 답한다. 실제 전사를 추가하지 않는다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6056",
+      "description": "포르키아스가 방패의 그림을 열거한다. 현재 인물의 설명으로 표현한다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6060",
+      "description": "시녀들이 포르키아스의 설명을 듣는다. 동물이나 새 인물을 추가하지 않는다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6064",
+      "description": "포르키아스가 색색의 문장과 넓은 홀을 이야기한다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6068",
+      "description": "합창단이 춤추는 사람들이 있는지 묻고 포르키아스가 응답한다."
+    }
+  ]
+}
