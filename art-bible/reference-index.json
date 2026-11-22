@@ -6972,6 +6972,32 @@
         "../part-ii/act-03-01.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "character-iii-panthalis",
+      "name": "판탈리스",
+      "source_name": "PANTHALIS / CHORFÜHRERIN",
+      "kind": "character",
+      "image": "character-iii-panthalis.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "성숙한 성인 여성·갈색 눈",
+        "짙은 밤색 땋은 쪽머리",
+        "황토색 긴소매 드레스·탁한 파란 숄",
+        "오른쪽 어깨의 타원 청동 브로치"
+      ],
+      "canonical_note": "합창을 이끄는 판탈리스는 헬레네가 궁전에서 급히 돌아오는 모습을 먼저 알아차리고 이유를 묻는다. 황토색 드레스와 파란 숄은 시녀들과 이어지고, 관찰하는 표정과 작은 청동 고리로 역할을 구별했다. 외모와 나이·복식의 세부는 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        3
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-03-01.html",
+        "../part-ii/act-03-02.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"

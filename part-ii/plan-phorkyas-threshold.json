@@ -1,0 +1,104 @@
+{
+  "batch_id": "phorkyas-threshold",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/phorkyas-threshold-grid-001.png",
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "variant-ii-mephisto-phorkyas",
+    "place-iii-sparta-palace"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/variant-ii-mephisto-phorkyas.png",
+    "art-bible/place-iii-sparta-palace.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5537",
+      "description": "기억 속 난롯가에 두건 쓴 포르키아스가 앉아 있다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5541",
+      "description": "두건 쓴 포르키아스가 한쪽 팔을 움직이고 헬레네가 지켜본다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5545",
+      "description": "기억 속 헬레네가 내부 계단으로 향한다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5549",
+      "description": "포르키아스가 일어나 헬레네의 길을 막는다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5553",
+      "description": "현재의 궁전 문턱에 포르키아스가 나타나고 헬레네가 시녀들에게 가리킨다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5557",
+      "description": "시녀들이 문턱의 포르키아스를 보고 동요한다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5563",
+      "description": "합창단이 전쟁의 기억을 말한다. 현재의 얼굴을 보여 준다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5567",
+      "description": "시녀들이 두려움에 서로 가까이 선다. 현재에 전사나 신을 추가하지 않는다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5571",
+      "description": "시녀들의 불안한 눈과 맞잡은 손을 보여 준다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5575",
+      "description": "판탈리스가 합창단의 반응을 살피고 포르키아스를 바라본다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5579",
+      "description": "시녀가 기억 속 거대한 모습을 말한다. 실제 거인을 추가하지 않는다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5583",
+      "description": "시녀가 기억이 사실인지 두려움의 상상인지 망설인다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5587",
+      "description": "시녀들이 현재 문턱의 포르키아스를 바라본다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5591",
+      "description": "합창단이 포르키아스의 정체를 묻는다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5595",
+      "description": "포르키아스의 감은 눈과 붉은 눈, 긴 이 하나가 보인다."
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5599",
+      "description": "궁전 앞에서 헬레네와 시녀들, 포르키아스가 마주 선다."
+    }
+  ]
+}
