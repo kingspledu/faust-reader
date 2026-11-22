@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/phorkyas-threshold-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "variant-ii-mephisto-phorkyas",
+    "place-iii-sparta-palace"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/variant-ii-mephisto-phorkyas.png",
+    "art-bible/place-iii-sparta-palace.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5537",
+      "description": "기억 속 난롯가에 두건 쓴 포르키아스가 앉아 있다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/phorkyas-threshold-01.webp",
+      "sha256": "b0ef9e48c89205ca8ef3662ad3d67e6e6d5fec8be948b728dee5493f43f78b49"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5541",
+      "description": "두건 쓴 포르키아스가 한쪽 팔을 움직이고 헬레네가 지켜본다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/phorkyas-threshold-02.webp",
+      "sha256": "fa4a040a6ea4ce81f4e4a8fa4993ee0b5b756a6086a703dd7a6c8dfc61af09ae"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5545",
+      "description": "기억 속 헬레네가 내부 계단으로 향한다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/phorkyas-threshold-03.webp",
+      "sha256": "07899756198f750f6abbacec60a6aae701ce03a4ffba2b8f4ca87a5dac1a47c5"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5549",
+      "description": "포르키아스가 일어나 헬레네의 길을 막는다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/phorkyas-threshold-04.webp",
+      "sha256": "95c2135e8c26c40fbd84a35585dbea1386c3e726181e0774c05364dd25d4de0e"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5553",
+      "description": "현재의 궁전 문턱에 포르키아스가 나타나고 헬레네가 시녀들에게 가리킨다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/phorkyas-threshold-05.webp",
+      "sha256": "d791621580bdcdb672cf529c4a71a07f1f6c25d0c1c14f1cee2e803da7f4ed60"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5557",
+      "description": "시녀들이 문턱의 포르키아스를 보고 동요한다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/phorkyas-threshold-06.webp",
+      "sha256": "f46381012b86d7d26dff8c3b0393964e876428705ee5046d0fff421389606242"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5563",
+      "description": "합창단이 전쟁의 기억을 말한다. 현재의 얼굴을 보여 준다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/phorkyas-threshold-07.webp",
+      "sha256": "47d9d6980caaa07555f0e9ee89559ddf571cf6c2e56eb5d629c0a614e4a4731d"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5567",
+      "description": "시녀들이 두려움에 서로 가까이 선다. 현재에 전사나 신을 추가하지 않는다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/phorkyas-threshold-08.webp",
+      "sha256": "2144aa02b2c6ba7437e4291530d1411f9313f5376af9b0a775894a63cb579d08"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5571",
+      "description": "시녀들의 불안한 눈과 맞잡은 손을 보여 준다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/phorkyas-threshold-09.webp",
+      "sha256": "755a84b4abe1d1e12e6563101db7eac1e8cd39c7c0e1ba5dc895a45f684f081f"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5575",
+      "description": "판탈리스가 합창단의 반응을 살피고 포르키아스를 바라본다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/phorkyas-threshold-10.webp",
+      "sha256": "f60430016a77440d19031a4c4149cfbe7323a222c3aa5eb082a3a5bb63f7c8e2"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5579",
+      "description": "시녀가 기억 속 거대한 모습을 말한다. 실제 거인을 추가하지 않는다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/phorkyas-threshold-11.webp",
+      "sha256": "8c513a971d063f046a4af7976d0c5f1d33c5f910d9a433992f503d76cab2591f"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5583",
+      "description": "시녀가 기억이 사실인지 두려움의 상상인지 망설인다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/phorkyas-threshold-12.webp",
+      "sha256": "cdeb875f1eb34c741a348eeffbbe67ba7d186eb99301ac3ff5d78b7285d4abb6"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5587",
+      "description": "시녀들이 현재 문턱의 포르키아스를 바라본다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/phorkyas-threshold-13.webp",
+      "sha256": "29aa609d353f6b3034e3741516d5c4d305fa1a24031b02b8de8a26954af9adaa"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5591",
+      "description": "합창단이 포르키아스의 정체를 묻는다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/phorkyas-threshold-14.webp",
+      "sha256": "892c62007c24858b58d0992be85d4e17dbe7b69cf3e6325f40a1f72996cb4586"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5595",
+      "description": "포르키아스의 감은 눈과 붉은 눈, 긴 이 하나가 보인다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/phorkyas-threshold-15.webp",
+      "sha256": "12c7871acd38d5f88a2551de9d307456b229737fc0a00ddfa86e4d426fe00750"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5599",
+      "description": "궁전 앞에서 헬레네와 시녀들, 포르키아스가 마주 선다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/phorkyas-threshold-16.webp",
+      "sha256": "c1bd4dce04a79dbfd38091532f6601ec27799ed2176145219c5595d911aa4e4d"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
