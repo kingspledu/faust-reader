@@ -1,0 +1,282 @@
+{
+  "source_image": "source_images/act-02-09-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-mephistopheles-scholar",
+    "group-ii-lamiae",
+    "character-ii-empuse"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-mephistopheles-scholar.png",
+    "art-bible/group-ii-lamiae.png",
+    "art-bible/character-ii-empuse.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4202",
+      "description": "메피스토가 낯선 존재들 속에서 북쪽 마녀들의 산을 떠올린다. 회상 인물을 추가하지 않는다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/lamiae-pursuit-01.webp",
+      "sha256": "65f1448e8ac131cf7ea0d55fb3f309284bd226d876dd7ad1194f8bd32ab54450"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4207",
+      "description": "메피스토가 익숙했던 곳을 생각하며 밤길을 걷는다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/lamiae-pursuit-02.webp",
+      "sha256": "0952ac30c28fbbff92250e1a470b7dff2937ef4017ef64e7aff6962721b63f87"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4211",
+      "description": "발밑의 지형이 바뀌는 것을 메피스토가 경계한다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/lamiae-pursuit-03.webp",
+      "sha256": "b5b3b60109b1211180035fd9fcdf24918d3df144de23d0ee67e74789dd0c4db2"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4215",
+      "description": "솟아오른 산이 스핑크스와 메피스토 사이를 가른다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/lamiae-pursuit-04.webp",
+      "sha256": "5248aaf2518a7d474161739c58d639067a4c3c81282934bd4e80c77b88bb4820"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4219",
+      "description": "메피스토가 앞서 춤추는 라미아 무리를 따라간다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/lamiae-pursuit-05.webp",
+      "sha256": "4f79d910d360f2979783b491c5c23cf31cee52bfc4016bc7691c488ac38d8893"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4223",
+      "description": "라미아들이 빠르게 움직였다가 멈추며 말을 나눈다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/lamiae-pursuit-06.webp",
+      "sha256": "862c47a740130a92a6124db1854cdbd3e4e97c0a5d0404ddf0d714d92069c95c"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4229",
+      "description": "라미아들이 메피스토를 끌고 가는 일을 즐긴다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/lamiae-pursuit-07.webp",
+      "sha256": "f870857595902dd577f44891681ec7f4d6aaa95ebd4f3ad1294406a178b4d9e6"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4233",
+      "description": "메피스토가 뻣뻣한 한쪽 다리를 끌며 뒤따른다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/lamiae-pursuit-08.webp",
+      "sha256": "ac01ca3a83ad6b8eb23f04345e063d79bf3f800570992eb15a9e6bd29159c726"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4237",
+      "description": "도망가는 라미아를 보며 메피스토가 짜증을 낸다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/lamiae-pursuit-09.webp",
+      "sha256": "abcdade07d75863352daf6ff0c58f382b066d46f5623df3fd03bdde5225d9795"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4243",
+      "description": "메피스토가 오래 살아도 현명해지지 않는다며 자조한다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/lamiae-pursuit-10.webp",
+      "sha256": "40df64957b62bc0742dedd29061c11c7f807cb33ba63dab463db4b6b6be1500c"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4247",
+      "description": "알면서도 따라가는 자기 행동에 메피스토가 불평한다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/lamiae-pursuit-11.webp",
+      "sha256": "8c5a7e2c5bbaeff0da4e34ffef477c1b69874d4ff5dfa894fcc82c225ddfaa7a"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4251",
+      "description": "라미아들이 멈칫한 메피스토에게 다시 다가온다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/lamiae-pursuit-12.webp",
+      "sha256": "37130da92aff500c4b3a78d7b3113327f2137e9c5115f7d4b56fb7e7f0927c6f"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4259",
+      "description": "라미아들이 메피스토를 둘러싸고 춤춘다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/lamiae-pursuit-13.webp",
+      "sha256": "3154ab84a0209574ab96ef08a995867125120ee0af7b41364eb49cea7a08aa5f"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4265",
+      "description": "불확실한 불빛 속에서 메피스토가 라미아의 얼굴을 살핀다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/lamiae-pursuit-14.webp",
+      "sha256": "a04b91cba28162e2475d57b71164df24e97bd4b3888920de4e25b8a1ee3ad44c"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4271",
+      "description": "엠푸사가 끼어들자 라미아들이 불만을 보인다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/lamiae-pursuit-15.webp",
+      "sha256": "f61d81b083b132e251a7ced50bfeb3ce8efa418344344a58a02543d7f3069fe6"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4279",
+      "description": "엠푸사가 한쪽 당나귀 발굽을 드러내며 메피스토에게 인사한다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/lamiae-pursuit-16.webp",
+      "sha256": "2133ebfc2e93e7a5553bce783c2368419169a4ef3c9d41b3dd34ccfe5591048d"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
