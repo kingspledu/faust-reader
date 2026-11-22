@@ -1,0 +1,10 @@
+{
+  "browser_playback": true,
+  "pause": true,
+  "next_previous": true,
+  "speed": true,
+  "resume_sentence": true,
+  "paragraph_highlight": true,
+  "mobile_controls_fit": true,
+  "human_listening": false
+}
