@@ -6719,6 +6719,33 @@
         "../part-ii/act-02-11.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-kabiri-effigies",
+      "kind": "character",
+      "name": "카비로이 신상",
+      "source_name": "KABIREN",
+      "image": "group-ii-kabiri-effigies.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "작은 테라코타 신상 세 개",
+        "둥근 머리·각진 머리·골이 있는 머리",
+        "갈색·녹슨 황토색·투박한 도기 질감",
+        "거대한 거북 껍질에 실어 운반",
+        "살아 움직이는 인간으로 표현하지 않음"
+      ],
+      "canonical_note": "바다의 무리가 거대한 거북 껍질에 실어 오는 작은 신상들이다. 노래는 이들을 난파한 사람을 구하는 오래된 신들이라고 부른다. 세 개를 가져왔다는 다음 구간의 말에 맞춰 세 신상을 한 묶음으로 정했다. 투박한 도기와 조각된 얼굴은 원문의 표현을 바탕으로 한 창작 시각화이며, 고대 유물의 실물 복원은 아니다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-11.html",
+        "../part-ii/act-02-12.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
