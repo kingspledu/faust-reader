@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/helena-regains-composure-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "variant-ii-mephisto-phorkyas",
+    "place-iii-sparta-palace"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/variant-ii-mephisto-phorkyas.png",
+    "art-bible/place-iii-sparta-palace.png"
+  ],
+  "generation_reference_note": "다섯 원본 시트 직접 참조. 위협과 비유를 실제 실행된 사건으로 바꾸지 않는다. 현재 낮 궁전 문 앞에서 인물의 발언과 반응을 표현한다.",
+  "records": [
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5788",
+      "description": "헬레네와 포르키아스가 궁전 관리와 과거를 말한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/helena-regains-composure-01.webp",
+      "sha256": "079f9702f5504c4ed7fa0b461375e9b2ab5d772bbb8614227857f986c7c638f5"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5796",
+      "description": "헬레네가 괴로운 기억을 멈추라 하고 포르키아스가 응답한다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/helena-regains-composure-02.webp",
+      "sha256": "bc13d7c9877e14fcbf3a2b755e127fffd0f9e74c470e7b1150cd2fd18f06c2cf"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5804",
+      "description": "헬레네가 자신의 정체를 혼란스러워한다. 과거 인물을 추가하지 않는다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/helena-regains-composure-03.webp",
+      "sha256": "7b8c189841a8ca9dd0f0b0194d75aa62b657727197833834447376d71da1fb24"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5812",
+      "description": "헬레네가 꿈처럼 느껴지는 기억을 말하며 지친 모습을 보인다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/helena-regains-composure-04.webp",
+      "sha256": "d07d4fd91effa100952f175ec3db084a731c5cf151156fee36cde2caeb7e6207"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5818",
+      "description": "시녀들이 포르키아스에게 그만 말하라고 요구한다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/helena-regains-composure-05.webp",
+      "sha256": "e6f325ca42400d25366de87ab9f6d286e1ae2bb2939a8ea91bd39aa645519346"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5824",
+      "description": "합창단이 포르키아스의 악의를 비난한다. 비유 속 늑대와 양을 추가하지 않는다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/helena-regains-composure-06.webp",
+      "sha256": "e13ecc39fbc4dc72094595cc839a9dd1cbeaca5bca2ef5dc7f47e98e1cafc4b8"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5828",
+      "description": "시녀들이 불안하게 포르키아스를 지켜본다. 머리 셋 개를 그리지 않는다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/helena-regains-composure-07.webp",
+      "sha256": "0dedbe726e4cf74962e87012a4557c2aa56d2c88c1d57fe8c38b847e2333ee28"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5832",
+      "description": "판탈리스가 헬레네를 위로하며 포르키아스에게 항의한다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/helena-regains-composure-08.webp",
+      "sha256": "28b6b914e275e3cab60e05962982ad2b9dd712d9afd955611c87091b23be4336"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5836",
+      "description": "헬레네 곁 시녀들이 걱정스러운 얼굴로 선다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/helena-regains-composure-09.webp",
+      "sha256": "311a7d8d5c5e6f2bfc3d77584a11d442bea97ac85cd29f5d4a4633faebdecfee"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5840",
+      "description": "시녀들이 지친 헬레네를 지지하며 말한다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/helena-regains-composure-10.webp",
+      "sha256": "b66dd701efce8b3384e3c5d17ba9f7af0991c075dcdfaa90f27821ba8c27c8a9"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5844",
+      "description": "포르키아스가 헬레네를 향해 말을 꺼낸다. 태양을 인물로 만들지 않는다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/helena-regains-composure-11.webp",
+      "sha256": "218718dde2bdd6f89355f56538389286c1e14f3f12e2fb281eb27bf9e29771c9"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5850",
+      "description": "헬레네가 현기증에서 벗어나 고개를 든다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/helena-regains-composure-12.webp",
+      "sha256": "3c3e6e7ae900007fef9d83cbdb51568a5896aacc649e6c909f7454fa013fac33"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5856",
+      "description": "헬레네가 평정을 되찾고 왕비로서 자세를 바로 세운다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/helena-regains-composure-13.webp",
+      "sha256": "3fd5ac226b845733c91517d5815308740ca698e58875a0cfb94106edee74c507"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5862",
+      "description": "헬레네가 제사 준비를 명령하고 포르키아스가 응답한다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/helena-regains-composure-14.webp",
+      "sha256": "9b8513cd1e18fca90649b2ec3be6d065fc6f2550f482ec8d7c4f97302783b463"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5870",
+      "description": "헬레네가 제물의 정체를 듣지 못했다고 말하고 포르키아스가 되묻는다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/helena-regains-composure-15.webp",
+      "sha256": "59903c42ca4094a5ce54f5c507d1be684a081cae109ccc14b71df24559db74af"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5880",
+      "description": "포르키아스가 헬레네와 시녀들을 가리키며 위협하고 모두 놀란다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/helena-regains-composure-16.webp",
+      "sha256": "8033e7699fe8ecce0822372efe42bdd66d39e24b786b8f5d1decce7c57796f87"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}

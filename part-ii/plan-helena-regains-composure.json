@@ -1,0 +1,105 @@
+{
+  "batch_id": "helena-regains-composure",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/helena-regains-composure-grid-001.png",
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "variant-ii-mephisto-phorkyas",
+    "place-iii-sparta-palace"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/variant-ii-mephisto-phorkyas.png",
+    "art-bible/place-iii-sparta-palace.png"
+  ],
+  "generation_reference_note": "다섯 원본 시트 직접 참조. 위협과 비유를 실제 실행된 사건으로 바꾸지 않는다. 현재 낮 궁전 문 앞에서 인물의 발언과 반응을 표현한다.",
+  "scenes": [
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5788",
+      "description": "헬레네와 포르키아스가 궁전 관리와 과거를 말한다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5796",
+      "description": "헬레네가 괴로운 기억을 멈추라 하고 포르키아스가 응답한다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5804",
+      "description": "헬레네가 자신의 정체를 혼란스러워한다. 과거 인물을 추가하지 않는다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5812",
+      "description": "헬레네가 꿈처럼 느껴지는 기억을 말하며 지친 모습을 보인다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5818",
+      "description": "시녀들이 포르키아스에게 그만 말하라고 요구한다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5824",
+      "description": "합창단이 포르키아스의 악의를 비난한다. 비유 속 늑대와 양을 추가하지 않는다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5828",
+      "description": "시녀들이 불안하게 포르키아스를 지켜본다. 머리 셋 개를 그리지 않는다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5832",
+      "description": "판탈리스가 헬레네를 위로하며 포르키아스에게 항의한다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5836",
+      "description": "헬레네 곁 시녀들이 걱정스러운 얼굴로 선다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5840",
+      "description": "시녀들이 지친 헬레네를 지지하며 말한다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5844",
+      "description": "포르키아스가 헬레네를 향해 말을 꺼낸다. 태양을 인물로 만들지 않는다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5850",
+      "description": "헬레네가 현기증에서 벗어나 고개를 든다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5856",
+      "description": "헬레네가 평정을 되찾고 왕비로서 자세를 바로 세운다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5862",
+      "description": "헬레네가 제사 준비를 명령하고 포르키아스가 응답한다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5870",
+      "description": "헬레네가 제물의 정체를 듣지 못했다고 말하고 포르키아스가 되묻는다."
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5880",
+      "description": "포르키아스가 헬레네와 시녀들을 가리키며 위협하고 모두 놀란다."
+    }
+  ]
+}
