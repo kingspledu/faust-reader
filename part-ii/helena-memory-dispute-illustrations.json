@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/helena-memory-dispute-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "variant-ii-mephisto-phorkyas",
+    "place-iii-sparta-palace"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/variant-ii-mephisto-phorkyas.png",
+    "art-bible/place-iii-sparta-palace.png"
+  ],
+  "generation_reference_note": "다섯 원본 시트를 직접 첨부. 번호로 발화하는 시녀들은 기존 합창단 구성원이며 새로운 외형 집단을 만들지 않는다. 비유와 과거의 인물은 현재 장면에 추가하지 않는다.",
+  "records": [
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5673",
+      "description": "포르키아스가 헬레네에게 왕비의 자리를 되찾으라 말한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/helena-memory-dispute-01.webp",
+      "sha256": "2283bb718c682e01b196866492e15940600c9952d57e94f8345287c35315ff39"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5677",
+      "description": "포르키아스가 헬레네를 향해 시녀들을 가리키고 판탈리스가 응답한다. 비유 속 새를 추가하지 않는다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/helena-memory-dispute-02.webp",
+      "sha256": "f905b7c46291e650972877339098fa22200149d56508118384adeaf5d46249c0"
+    },
+    {
+      "section": "act-03-02",
+      "scene_id": "source-5683",
+      "description": "판탈리스와 시녀가 포르키아스와 날카롭게 주고받는다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/helena-memory-dispute-03.webp",
+      "sha256": "78cacdc4886463abe7d545464782b3b1f80a3af307aac4753c8e8dadc1a78176"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5693",
+      "description": "시녀들과 포르키아스가 말싸움을 이어 간다. 신화 인물을 실제로 추가하지 않는다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/helena-memory-dispute-04.webp",
+      "sha256": "bcb4655d221d939b8d52c2767dba7afe46d50180f68507b51bf64816ee57e5be"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5704",
+      "description": "합창단의 다른 여성과 포르키아스가 응답한다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/helena-memory-dispute-05.webp",
+      "sha256": "8ddebf63242f33085259cf8aefbcba9aaab7364f218b56272531b1556c45024c"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5716",
+      "description": "판탈리스가 끼어들어 포르키아스의 정체를 묻는다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/helena-memory-dispute-06.webp",
+      "sha256": "57fb868692d61934f378f3589c23c66f650225f4193daedcce637a4aa0d053d3"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5728",
+      "description": "헬레네가 양쪽 사이로 들어가 말싸움을 말린다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/helena-memory-dispute-07.webp",
+      "sha256": "588e6f021928ecd7cd006cc387da7824c21e6252ff0fa9807c9aebea783d6a72"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5734",
+      "description": "헬레네가 내부 다툼의 해로움을 설명한다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/helena-memory-dispute-08.webp",
+      "sha256": "de12946e3acf398115a1eaf2da7b9bde63ad4948cbdc4fd1c7c10a54bf46db46"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5738",
+      "description": "헬레네가 말싸움이 불러온 두려움을 말한다. 실제 유령을 그리지 않는다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/helena-memory-dispute-09.webp",
+      "sha256": "c7167a488a42798f9fa6ab0f81b21117ea17011d37269bd78c03d46109bc129d"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5742",
+      "description": "헬레네가 기억과 상상을 혼란스러워하며 포르키아스에게 묻는다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/helena-memory-dispute-10.webp",
+      "sha256": "863d9ddb0aaa3039a58e92f78cb7e7e8dc4297a9682a4fdd1e2bfe09eebe6f74"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5746",
+      "description": "포르키아스가 침착하게 헬레네에게 응답한다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/helena-memory-dispute-11.webp",
+      "sha256": "21fe5d21e99548034b9dfa0d21bf165b94a3e0ddc5b14dfdb359df3cd67f7771"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5752",
+      "description": "포르키아스가 헬레네의 과거를 말한다. 현재 성인들의 대화만 그린다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/helena-memory-dispute-12.webp",
+      "sha256": "6ad693654cbd14902008bc244cfff4494a3d4b3e0c56f32764ecdf97f4d8701c"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5756",
+      "description": "헬레네와 포르키아스가 어린 시절의 사건을 이야기한다. 과거 아동이나 납치 장면은 추가하지 않는다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/helena-memory-dispute-13.webp",
+      "sha256": "2408851b713aa5265cf30627442df8fb8ab5e3378450952af6549d5089e2989b"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5764",
+      "description": "헬레네가 과거의 호감과 결혼을 이야기한다. 과거 남성을 추가하지 않는다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/helena-memory-dispute-14.webp",
+      "sha256": "acae5e38745314972099afeb532904ddf5171be61444eba9cd93c436df8965ea"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5772",
+      "description": "헬레네가 가족을 말하고 포르키아스가 응답한다. 가족을 현재에 추가하지 않는다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/helena-memory-dispute-15.webp",
+      "sha256": "ad315cb1bf917ffcaac49b4752ecbe471356b32cdb1845b7ff4a7d6597cc375e"
+    },
+    {
+      "section": "act-03-03",
+      "scene_id": "source-5780",
+      "description": "헬레네가 고통스러운 기억을 멈추려 하고 포르키아스가 말한다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/helena-memory-dispute-16.webp",
+      "sha256": "4853071d55a1d48a14d2d4b0174827c214397c6924e203b628e25a6183e74ecd"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
