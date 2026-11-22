@@ -1,0 +1,105 @@
+{
+  "batch_id": "oak-cave",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/oak-cave-grid-001.png",
+  "references": [
+    "character-ii-anaxagoras",
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "character-mephistopheles-scholar",
+    "character-ii-dryas",
+    "group-ii-phorkyads"
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/nature-moon-grid-001.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/character-mephistopheles-scholar.png",
+    "art-bible/character-ii-dryas.png",
+    "art-bible/group-ii-phorkyads.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4534",
+      "description": "아낙사고라스가 자신이 불렀다며 몸을 낮추고 탈레스는 의아해한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4540",
+      "description": "탈레스의 시야에서는 달이 원래 자리에 평온하게 떠 있다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4544",
+      "description": "호문쿨루스가 모양이 달라진 산을 가리킨다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4550",
+      "description": "호문쿨루스가 충돌에 대해 말한다. 직접 희생자를 그리지 않는다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4554",
+      "description": "탈레스가 상상한 일이라고 답하며 호문쿨루스를 진정시킨다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4560",
+      "description": "탈레스가 바다 축제로 가자고 하고 장면이 메피스토의 바위길로 이어진다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4566",
+      "description": "메피스토가 가파른 바위 계단과 참나무 뿌리를 넘는다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4570",
+      "description": "참나무 정령 드리아스가 메피스토에게 말을 건다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4576",
+      "description": "드리아스가 이곳 참나무를 존중하라고 하고 메피스토가 답한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4582",
+      "description": "메피스토가 희미한 동굴 안의 세 형상을 가리키고 드리아스가 포르키아데스라고 알려 준다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4588",
+      "description": "메피스토가 동굴로 다가가 멈춰 살핀다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4594",
+      "description": "세 자매의 형상을 본 메피스토가 놀란다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4598",
+      "description": "메피스토가 어두운 동굴 입구에서 기이한 모습에 대해 혼잣말한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4602",
+      "description": "포르키아데스 한 자매가 눈을 달라고 청하고 다른 자매가 빛나는 눈 구슬을 건넨다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4608",
+      "description": "메피스토가 세 자매에게 정중히 인사한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4614",
+      "description": "메피스토가 여러 옛 신들을 보았다고 말한다. 언급한 신들을 실제로 등장시키지 않는다."
+    }
+  ]
+}

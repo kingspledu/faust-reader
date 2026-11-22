@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/nature-moon-grid-001.png",
+  "source_size": [
+    1529,
+    1028
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-ii-anaxagoras",
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "group-ii-cranes",
+    "group-ii-pygmies"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-ii-anaxagoras.png",
+    "art-bible/character-ii-thales.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/group-ii-cranes.png",
+    "art-bible/group-ii-pygmies.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4458",
+      "description": "아낙사고라스가 불과 증기로 산이 생겼다고 주장하며 바위를 가리킨다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        381,
+        256
+      ],
+      "image": "images/nature-moon-01.webp",
+      "sha256": "dc4c77e35cc071a61ea7b80fa2cad086fc920a22514ed180bd7add1780687b75"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4464",
+      "description": "탈레스가 논쟁을 오래 해도 소용없다고 답한다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        383,
+        1,
+        763,
+        256
+      ],
+      "image": "images/nature-moon-02.webp",
+      "sha256": "13e83d7d46cdd8eb18bfbdb666e222a82c9fdf460ec893234a2a9db1052d9b28"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4470",
+      "description": "아낙사고라스가 새 산에 작은 존재들이 모였다고 말한다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        765,
+        1,
+        1146,
+        256
+      ],
+      "image": "images/nature-moon-03.webp",
+      "sha256": "3aedd6defe77b25af15db253524584e8e69db7c7d363a740bbe8c06b5fe1f5ec"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4476",
+      "description": "아낙사고라스가 호문쿨루스에게 왕이 될 수 있다고 제안한다. 실제 왕관은 씌우지 않는다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1148,
+        1,
+        1528,
+        256
+      ],
+      "image": "images/nature-moon-04.webp",
+      "sha256": "ba5599f37a7ce1ba39ea8d5dc90a22db0dfacd9545c8be2762373e50fba9aecb"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4480",
+      "description": "호문쿨루스가 탈레스에게 의견을 묻고 탈레스가 권하지 않는다고 답한다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        258,
+        381,
+        513
+      ],
+      "image": "images/nature-moon-05.webp",
+      "sha256": "7eeae560c182ccab63323538af3422107101399d173649260c697cd44f54b87c"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4488",
+      "description": "탈레스가 다가오는 검은 두루미 무리를 가리킨다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        383,
+        258,
+        763,
+        513
+      ],
+      "image": "images/nature-moon-06.webp",
+      "sha256": "2f3df1171cae273d21a810ad8455d089b3d0cf3d30a394ca75475958b97ed508"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4492",
+      "description": "두루미들이 작은 정착지를 향해 내려온다. 상처는 그리지 않는다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        765,
+        258,
+        1146,
+        513
+      ],
+      "image": "images/nature-moon-07.webp",
+      "sha256": "2b0896da5ae831c0c643c4904fc4b87c74c471d5aac8573d49c24afba296e776"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4496",
+      "description": "두루미들의 반격을 피하며 작은 존재들이 흩어진다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1148,
+        258,
+        1528,
+        513
+      ],
+      "image": "images/nature-moon-08.webp",
+      "sha256": "9fdf53e73bef65825b495f4a5cc0fcf361e38712a50b00fe9ca37afad99dc2b6"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4500",
+      "description": "피그미족의 무장이 쓸모없게 되고 무리가 도망간다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        515,
+        381,
+        770
+      ],
+      "image": "images/nature-moon-09.webp",
+      "sha256": "9680473bc1e66056f1e32a9c515bd05fbcf6d9cf2379c72ca728aa9016a940d6"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4504",
+      "description": "아낙사고라스가 하늘을 향해 도움을 청한다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        383,
+        515,
+        763,
+        770
+      ],
+      "image": "images/nature-moon-10.webp",
+      "sha256": "e871f53597c454ae2ad815789755b3a72232d77388bd9007229a48693889bf1a"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4510",
+      "description": "아낙사고라스가 달을 부르며 두 손을 올린다. 여신은 실제로 나타나지 않는다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        765,
+        515,
+        1146,
+        770
+      ],
+      "image": "images/nature-moon-11.webp",
+      "sha256": "50a339b99b871195b97ba7c0147c3d5753570df47d5a455057f896506efc567e"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4514",
+      "description": "아낙사고라스의 시점에서 달의 어두운 그림자가 크게 느껴진다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1148,
+        515,
+        1528,
+        770
+      ],
+      "image": "images/nature-moon-12.webp",
+      "sha256": "c8e5a6291e7ec3972fc43ca42dbc40eb6bb1a056c7fe305c560831de7a158b3c"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4518",
+      "description": "그가 보는 달이 점점 커져 위협적으로 다가온다. 이 현상은 인물의 시점이다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        772,
+        381,
+        1027
+      ],
+      "image": "images/nature-moon-13.webp",
+      "sha256": "0752d1fe943cc6f7522879d11acf0bf0d3022c194544a5361776537717c77abe"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4522",
+      "description": "그의 시야에서 거대한 달이 붉고 어둡게 변한다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        383,
+        772,
+        763,
+        1027
+      ],
+      "image": "images/nature-moon-14.webp",
+      "sha256": "17249a8f1b94b6ae71809965b6a09f65a5e6237bfd6dba994440b7c9bc0cc4f4"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4526",
+      "description": "아낙사고라스가 가까워진 달을 보고 물러서며 겁을 낸다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        765,
+        772,
+        1146,
+        1027
+      ],
+      "image": "images/nature-moon-15.webp",
+      "sha256": "5333bbf62b2895732a3ebc51fc112592eb90343f36dbd126d619d04083f27192"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4530",
+      "description": "그의 시야에서 어두운 달빛이 번쩍이고 바람과 먼지가 몰아친다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1148,
+        772,
+        1528,
+        1027
+      ],
+      "image": "images/nature-moon-16.webp",
+      "sha256": "494ef655c6edeb4e92f3ac809216ba3305ab0ff1b6a41222a60fcd68f1177fb1"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}

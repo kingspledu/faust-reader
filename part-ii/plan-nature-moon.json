@@ -1,0 +1,104 @@
+{
+  "batch_id": "nature-moon",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/nature-moon-grid-001.png",
+  "references": [
+    "character-ii-anaxagoras",
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "group-ii-cranes",
+    "group-ii-pygmies"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-ii-anaxagoras.png",
+    "art-bible/character-ii-thales.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/group-ii-cranes.png",
+    "art-bible/group-ii-pygmies.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4458",
+      "description": "아낙사고라스가 불과 증기로 산이 생겼다고 주장하며 바위를 가리킨다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4464",
+      "description": "탈레스가 논쟁을 오래 해도 소용없다고 답한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4470",
+      "description": "아낙사고라스가 새 산에 작은 존재들이 모였다고 말한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4476",
+      "description": "아낙사고라스가 호문쿨루스에게 왕이 될 수 있다고 제안한다. 실제 왕관은 씌우지 않는다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4480",
+      "description": "호문쿨루스가 탈레스에게 의견을 묻고 탈레스가 권하지 않는다고 답한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4488",
+      "description": "탈레스가 다가오는 검은 두루미 무리를 가리킨다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4492",
+      "description": "두루미들이 작은 정착지를 향해 내려온다. 상처는 그리지 않는다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4496",
+      "description": "두루미들의 반격을 피하며 작은 존재들이 흩어진다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4500",
+      "description": "피그미족의 무장이 쓸모없게 되고 무리가 도망간다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4504",
+      "description": "아낙사고라스가 하늘을 향해 도움을 청한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4510",
+      "description": "아낙사고라스가 달을 부르며 두 손을 올린다. 여신은 실제로 나타나지 않는다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4514",
+      "description": "아낙사고라스의 시점에서 달의 어두운 그림자가 크게 느껴진다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4518",
+      "description": "그가 보는 달이 점점 커져 위협적으로 다가온다. 이 현상은 인물의 시점이다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4522",
+      "description": "그의 시야에서 거대한 달이 붉고 어둡게 변한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4526",
+      "description": "아낙사고라스가 가까워진 달을 보고 물러서며 겁을 낸다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4530",
+      "description": "그의 시야에서 어두운 달빛이 번쩍이고 바람과 먼지가 몰아친다."
+    }
+  ]
+}
