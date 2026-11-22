@@ -1,0 +1,8 @@
+{
+  "sentences": 170,
+  "paragraphs": 64,
+  "paragraph_reconstruction": true,
+  "ambiguous_speakers": [],
+  "actual_canvas_generation": false,
+  "actual_listening": false
+}

@@ -7,9 +7,17 @@
       "chapter": 1,
       "title": "헌시 · 문장별 60구간",
       "file": "chapters/FAUST_P1_C01_S01_GEMINI_CANVAS_TTS.html",
-      "bytes": 282534,
-      "sha256": "11d858b11a683da28a574d6bc6704167041c9a19ccf6e0f806d48668b86ac6e9",
+      "bytes": 282629,
+      "sha256": "8410f0fee73f12ded2bf224989dfb302da0b2ba6746686c3a4ee7395e11796cf",
       "segments": 60
+    },
+    {
+      "chapter": 2,
+      "title": "극장에서의 서막 · 문장별 170구간",
+      "file": "chapters/FAUST_P1_C02_S01_GEMINI_CANVAS_TTS.html",
+      "bytes": 663990,
+      "sha256": "9f5dc5ebe1cc053d774914a922820df00305a9883717060e16d7c0fad14799b6",
+      "segments": 170
     }
   ]
 }

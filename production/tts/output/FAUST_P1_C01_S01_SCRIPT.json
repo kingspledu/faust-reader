@@ -7,10 +7,13 @@
   "model": "gemini-2.5-flash-preview-tts",
   "execution_mode": "canvas-host",
   "cast_revision": "S01",
-  "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+  "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
   "voices": {
     "나레이터": "Charon",
-    "헌시의 시인": "Algieba"
+    "헌시의 시인": "Algieba",
+    "극장 지배인": "Sadaltager",
+    "극작가 / 시인": "Algieba",
+    "희극 배우": "Umbriel"
   },
   "scenes": [
     {
@@ -28,7 +31,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
             "intensity": 0.4,
@@ -88,7 +91,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
             "intensity": 0.4,
@@ -150,7 +153,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
             "intensity": 0.4,
@@ -213,7 +216,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "파우스트 본편 전에 이야기를 오래 품어 온 시인이 등장함을 소개",
             "intensity": 0.4,
@@ -276,7 +279,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
             "intensity": 0.4,
@@ -339,7 +342,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
             "intensity": 0.4,
@@ -402,7 +405,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
             "intensity": 0.4,
@@ -465,7 +468,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "시인이 기억을 붙잡고 다시 쓸 수 있을지 스스로 확인하는 망설임",
             "intensity": 0.4,
@@ -528,7 +531,7 @@
           "voice": "Algieba",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "시인 자신의 뜻밖의 설렘에서 끝까지 쓸 수 있을지 묻는 불안으로",
             "intensity": 0.4,
@@ -591,7 +594,7 @@
           "voice": "Algieba",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "시인 자신의 뜻밖의 설렘에서 끝까지 쓸 수 있을지 묻는 불안으로",
             "intensity": 0.4,
@@ -654,7 +657,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
             "intensity": 0.4,
@@ -717,7 +720,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
             "intensity": 0.4,
@@ -780,7 +783,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
             "intensity": 0.4,
@@ -843,7 +846,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "밀려오는 얼굴들을 억지로 붙잡지 않고 기다리기로 하는 수용",
             "intensity": 0.4,
@@ -906,7 +909,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "젊은 시절 창작의 설렘이 다시 살아남",
             "intensity": 0.4,
@@ -969,7 +972,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "젊은 시절 창작의 설렘이 다시 살아남",
             "intensity": 0.4,
@@ -1032,7 +1035,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "젊은 시절 창작의 설렘이 다시 살아남",
             "intensity": 0.4,
@@ -1095,7 +1098,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
             "intensity": 0.4,
@@ -1158,7 +1161,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
             "intensity": 0.4,
@@ -1221,7 +1224,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "안개 속 현재에서 옛 친구들과 웃던 기억으로 이동",
             "intensity": 0.4,
@@ -1291,7 +1294,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
             "intensity": 0.4,
@@ -1354,7 +1357,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
             "intensity": 0.4,
@@ -1417,7 +1420,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
             "intensity": 0.4,
@@ -1480,7 +1483,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
             "intensity": 0.4,
@@ -1543,7 +1546,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "첫사랑과 친구들의 얼굴을 더듬되 기억의 빈틈과 가까움을 함께 전달",
             "intensity": 0.4,
@@ -1606,7 +1609,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
             "intensity": 0.4,
@@ -1669,7 +1672,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
             "intensity": 0.4,
@@ -1732,7 +1735,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
             "intensity": 0.4,
@@ -1795,7 +1798,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "좋았던 기억에서 하지 못한 말과 되살아나는 아픔으로",
             "intensity": 0.4,
@@ -1858,7 +1861,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
             "intensity": 0.4,
@@ -1921,7 +1924,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
             "intensity": 0.4,
@@ -1984,7 +1987,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "떠난 이들의 이름과 다시 만날 수 없는 빈자리를 천천히 짚음",
             "intensity": 0.4,
@@ -2047,7 +2050,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
             "intensity": 0.4,
@@ -2110,7 +2113,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
             "intensity": 0.4,
@@ -2173,7 +2176,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "첫 독자였던 친구들이 이제 다음 이야기를 들을 수 없다는 상실",
             "intensity": 0.4,
@@ -2236,7 +2239,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
             "intensity": 0.4,
@@ -2306,7 +2309,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
             "intensity": 0.4,
@@ -2376,7 +2379,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "과거의 웃음과 질문을 기억하는 회상. 현재의 실제 웃음이 아님",
             "intensity": 0.4,
@@ -2446,7 +2449,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
             "intensity": 0.4,
@@ -2509,7 +2512,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
             "intensity": 0.4,
@@ -2572,7 +2575,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
             "intensity": 0.4,
@@ -2635,7 +2638,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "낯선 청중의 박수와 옛 친구를 그리워하는 마음의 간극",
             "intensity": 0.4,
@@ -2698,7 +2701,7 @@
           "voice": "Algieba",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "먼저 들어 주었던 사람들이 다시 들어 주길 바라는 시인 자신의 소망",
             "intensity": 0.4,
@@ -2761,7 +2764,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
             "intensity": 0.4,
@@ -2824,7 +2827,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
             "intensity": 0.4,
@@ -2887,7 +2890,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "살아 있어도 흩어져 다시 모이기 어려운 친구들을 떠올림",
             "intensity": 0.4,
@@ -2950,7 +2953,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
             "intensity": 0.4,
@@ -3013,7 +3016,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
             "intensity": 0.4,
@@ -3076,7 +3079,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "시끄러운 객석보다 그리운 얼굴들과 조용히 머물고 싶은 마음",
             "intensity": 0.4,
@@ -3139,7 +3142,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
             "intensity": 0.4,
@@ -3209,7 +3212,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
             "intensity": 0.4,
@@ -3272,7 +3275,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "낮게 읊는 시와 바람 하프의 비유를 차분하게 설명",
             "intensity": 0.4,
@@ -3335,7 +3338,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
             "intensity": 0.4,
@@ -3405,7 +3408,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
             "intensity": 0.4,
@@ -3475,7 +3478,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "기억과 재회한 시인의 떨림과 눈물을 서술. 나레이터가 대신 울지 않음",
             "intensity": 0.4,
@@ -3545,7 +3548,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
             "intensity": 0.4,
@@ -3608,7 +3611,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
             "intensity": 0.4,
@@ -3671,7 +3674,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
             "intensity": 0.4,
@@ -3734,7 +3737,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
             "intensity": 0.4,
@@ -3796,7 +3799,7 @@
           "voice": "Charon",
           "model": "gemini-2.5-flash-preview-tts",
           "cast_revision": "S01",
-          "cast_sha256": "5a91b736ee81516c3e8f446bc77890ad319d74d79eb599a1a1cad8807a610ddd",
+          "cast_sha256": "786fe4a8861702e918ad462b4375e64f4ab9b069cc260af3f933ccd87beb5fe4",
           "performance": {
             "emotion": "그리움이 현재를 밀어내고 기억이 가까워지는 마무리",
             "intensity": 0.4,

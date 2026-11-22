@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "chapters": 2,
+  "render_bytes_exact": true,
+  "clipboard_content_exact_after_os_newline_normalization": true,
+  "http_404_rejected": true,
+  "hash_mismatch_rejected": true,
+  "rapid_selection_tested": true,
+  "clipboard_denied_fallback": true,
+  "actual_canvas_generation_tested": false,
+  "actual_audio_listened": false
+}
