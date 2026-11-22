@@ -1,0 +1,110 @@
+{
+  "batch_id": "galatea-dorids",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/galatea-dorids-grid-001.png",
+  "references": [
+    "character-ii-galatea",
+    "group-ii-dorids",
+    "group-ii-psylli-marsi",
+    "group-ii-rescued-sailors",
+    "character-ii-nereus",
+    "group-ii-sirens",
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "character-ii-proteus",
+    "group-ii-nereids"
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/dolphin-moon-procession-grid-001.png",
+    "art-bible/character-ii-galatea.png",
+    "art-bible/group-ii-dorids.png",
+    "art-bible/group-ii-psylli-marsi.png",
+    "art-bible/group-ii-rescued-sailors.png"
+  ],
+  "generation_reference_note": "직접 첨부한 시트가 인물 외형의 기준이며 앞 그리드는 동일 인물·장소의 연속성 참조다. 병은 source-5299의 파열 직전까지 밀폐 상태다.",
+  "scenes": [
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5151",
+      "description": "후드 차림의 행렬 안내자들이 밤바다의 조개 왕좌를 이끌며 오래 지켜 온 일을 노래한다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5157",
+      "description": "안내자들이 조개 왕좌 주변에서 밧줄과 이동 방향을 살핀다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5161",
+      "description": "안내자들이 갈라테이아의 조개 왕좌를 달빛 물결 위로 이끈다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5165",
+      "description": "행렬 안내자들이 노래를 잇는다. 노랫말 속 상징을 실제 전투나 새 인물로 추가하지 않는다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5169",
+      "description": "갈라테이아가 진주색 드레스를 입고 조개 왕좌에 앉아 다가온다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5173",
+      "description": "새 몸의 세이렌들이 조개 왕좌를 두르는 바다 행렬을 본다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5179",
+      "description": "네레이데스와 라벤더 차림 도리데스가 왕좌 주변으로 다가온다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5183",
+      "description": "갈라테이아가 조개 왕좌 위에서 엄숙하고 온화한 얼굴로 바다를 바라본다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5187",
+      "description": "도리데스가 구조된 성인 청년 선원들과 함께 네레우스 앞에 선다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5193",
+      "description": "도리데스가 갈대와 이끼 위에 쉬는 성인 선원들을 보여 준다. 과거의 난파를 새로 그리지 않는다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5197",
+      "description": "도리데스와 성인 선원이 손을 맞잡고 네레우스가 바라본다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5203",
+      "description": "도리데스가 네레우스에게 선원들과 계속 함께하기를 청한다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5209",
+      "description": "네레우스가 딸들의 청을 들으며 조심스럽게 답한다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5215",
+      "description": "네레우스가 영원한 약속을 줄 수 없다고 설명한다. 제우스를 새로 그리지 않는다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5219",
+      "description": "도리데스가 성인 선원들과 헤어져야 한다며 아쉬워한다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5225",
+      "description": "구조된 성인 선원들이 도리데스에게 고마움을 표현하며 답한다."
+    }
+  ]
+}

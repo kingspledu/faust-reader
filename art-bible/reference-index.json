@@ -6795,6 +6795,106 @@
         "../part-ii/act-02-12.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-galatea",
+      "name": "갈라테이아",
+      "source_name": "GALATEE",
+      "kind": "character",
+      "image": "character-ii-galatea.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "진주빛 흰 긴 머리·옅은 푸른 눈",
+        "진주·흰 산호 머리장식",
+        "진주색 긴소매 불투명 드레스·바다색 허리띠",
+        "바다 위 열린 가리비 조개 왕좌·회색 돌고래"
+      ],
+      "canonical_note": "네레우스가 기다리던 딸이 조개 왕좌를 탄 채 바다 행렬에 나타난다. 아버지와 인사를 나누지만 행렬은 계속 움직인다. 진주빛 머리와 의상, 조개 왕좌의 세부는 원문에 근거한 창작 시각화이며 실제 유물이나 역사적 복식 복원이 아니다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-13.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-dorids",
+      "name": "도리데스",
+      "source_name": "DORIDEN",
+      "kind": "character",
+      "image": "group-ii-dorids.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "성인 여성·은빛 라벤더 긴 곱슬머리",
+        "은 조개 머리핀·보랏빛 회색 눈",
+        "라벤더·상아색 불투명 긴소매 드레스·은 허리띠",
+        "인간형 다리·은색 샌들"
+      ],
+      "canonical_note": "파도에서 구한 젊은 선원들과 함께 네레우스 앞에 선다. 그들과 영원히 함께하고 싶다고 청하지만 네레우스는 자신이 영원함을 줄 수 없다고 답한다. 기존 네레이데스와 역할을 구분해 읽을 수 있도록 라벤더색을 창작 시각적 표지로 정했다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-13.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-psylli-marsi",
+      "name": "프실로이와 마르소이",
+      "source_name": "PSYLLEN UND MARSEN",
+      "kind": "character",
+      "image": "group-ii-psylli-marsi.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "성인 행렬 안내자·회청색 후드 로브",
+        "불투명 긴소매·상아색 허리띠",
+        "구리 고리와 운반용 밧줄",
+        "갈라테이아의 조개 왕좌를 안내"
+      ],
+      "canonical_note": "두 이름은 이 대목에서 함께 노래하는 무리로 등장한다. 오래 보존해 온 수레를 말하며 갈라테이아의 행렬을 이끈다. 현대 사람들에게 보이지 않는다는 노랫말은 독자에게 보이는 창작 연출과 구분한다. 후드와 복식은 특정 역사 집단의 실물 복원이 아니다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-13.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-rescued-sailors",
+      "name": "구조된 젊은 선원들",
+      "source_name": "DIE JÜNGLINGE",
+      "kind": "character",
+      "image": "group-ii-rescued-sailors.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "성인 청년·짧은 짙은 갈색 머리·수염 없음",
+        "해진 상아색 반소매 튜닉·갈색 바지",
+        "밧줄 허리띠·맨발 또는 소박한 샌들",
+        "갈대·이끼 위에 구조되어 쉬는 선원"
+      ],
+      "canonical_note": "도리데스가 거친 파도에서 구한 젊은 선원들이다. 이 장면에서는 구조 과정을 새 사건으로 보태지 않고, 이미 구조된 이들이 도리데스와 대화하는 모습을 그린다. 나이·머리·복식의 세부는 성인 청년으로 정한 창작 디자인이다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-13.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"

@@ -1,0 +1,110 @@
+{
+  "batch_id": "shell-throne-radiance",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/shell-throne-radiance-grid-001.png",
+  "references": [
+    "character-ii-galatea",
+    "group-ii-dorids",
+    "group-ii-psylli-marsi",
+    "group-ii-rescued-sailors",
+    "character-ii-nereus",
+    "group-ii-sirens",
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "character-ii-proteus",
+    "group-ii-nereids"
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/galatea-dorids-grid-001.png",
+    "art-bible/character-ii-galatea.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/character-ii-proteus.png",
+    "art-bible/character-ii-thales.png"
+  ],
+  "generation_reference_note": "직접 첨부한 시트가 인물 외형의 기준이며 앞 그리드는 동일 인물·장소의 연속성 참조다. 병은 source-5299의 파열 직전까지 밀폐 상태다.",
+  "scenes": [
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5231",
+      "description": "조개 왕좌의 갈라테이아와 물가의 네레우스가 인사를 나눈다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5239",
+      "description": "돌고래들이 갈라테이아의 조개 왕좌를 이끌고 네레우스 곁을 지나간다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5245",
+      "description": "네레우스가 딸을 바라보고, 탈레스가 바다 축제에 기뻐한다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5251",
+      "description": "탈레스가 물가에서 모든 생명이 물에서 비롯됨을 말한다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5255",
+      "description": "탈레스가 물의 순환을 찬미한다. 비유 속 낮 풍경 대신 현재의 밤바다를 유지한다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5259",
+      "description": "메아리가 울릴 듯한 바위 만에서 탈레스와 네레우스가 멀어지는 행렬을 본다. 메아리의 몸은 만들지 않는다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5267",
+      "description": "네레우스가 멀리 원을 그리는 바다 행렬을 바라본다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5271",
+      "description": "군중 사이로 갈라테이아의 조개 왕좌가 빛난다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5275",
+      "description": "멀어진 왕좌와 갈라테이아를 네레우스의 시선으로 본다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5279",
+      "description": "돌고래형 프로테우스의 등 위 밀폐된 병 안에서 호문쿨루스가 바다를 바라본다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5287",
+      "description": "호문쿨루스의 빛이 밝아지고 네레우스가 새 빛을 발견한다. 병은 아직 닫혀 있다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5293",
+      "description": "갈라테이아의 조개 왕좌 가까이 병의 황금빛이 일렁인다. 탈레스가 알아본다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5299",
+      "description": "호문쿨루스의 병이 조개 왕좌에 부딪쳐 빛이 바다로 퍼진다. 유혈 없이 유리와 빛으로 표현한다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5303",
+      "description": "황금빛으로 밝아지는 밤 물결을 새 몸의 세이렌들이 바라본다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5309",
+      "description": "갈라테이아의 행렬과 바다를 금빛이 둘러싼다. 에로스를 별도 인물로 추가하지 않는다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5313",
+      "description": "밤바다의 물과 빛을 향해 바다 무리가 합창한다."
+    }
+  ]
+}
