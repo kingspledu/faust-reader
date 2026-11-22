@@ -6293,6 +6293,30 @@
         "../part-ii/act-02-08.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-pygmies",
+      "kind": "character",
+      "name": "피그미족",
+      "source_name": "PYGMÄEN",
+      "image": "group-ii-pygmies.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "작은 크기·성인 얼굴과 비례",
+        "짧은 갈색 곱슬머리와 수염",
+        "올리브 회색 튜닉·갈색 바지와 장화"
+      ],
+      "canonical_note": "거대한 힘으로 솟은 산에 작은 사람들이 나타난다. 이들은 어디에서 왔는지 묻지 말라며 이미 자리를 잡았다고 말한다. 바위의 틈도 이들에게는 살 곳이 된다. 작품 속 신화적 집단의 대표 형태로 성인의 얼굴과 비례를 유지하고 주변 풀과 돌로 작은 크기를 보여 준다. 실제 민족의 외모나 복식을 재현한 것이 아니며 머리와 의상은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-08.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"

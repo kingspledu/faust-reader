@@ -1,0 +1,104 @@
+{
+  "batch_id": "mountain-gold",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/act-02-08-grid-002.png",
+  "references": [
+    "character-ii-seismos",
+    "character-ii-sphinx",
+    "character-ii-griffin",
+    "group-ii-gold-ants",
+    "group-ii-pygmies"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-ii-seismos.png",
+    "art-bible/character-ii-sphinx.png",
+    "art-bible/character-ii-griffin.png",
+    "art-bible/group-ii-gold-ants.png",
+    "art-bible/group-ii-pygmies.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4053",
+      "description": "세이스모스가 아름다운 지형을 자신이 흔들어 만들었다고 자랑한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4059",
+      "description": "세이스모스가 자신이 밀어 올린 산을 가리킨다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4063",
+      "description": "세이스모스가 옛 힘을 과시한 일을 말한다. 신이나 티탄을 실제로 추가하지 않는다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4067",
+      "description": "세이스모스가 산을 움직였다는 자랑을 이어 간다. 현재 솟은 지형을 보여 준다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4071",
+      "description": "세이스모스가 신들의 자리까지 높였다고 말한다. 아폴론이나 제우스를 등장시키지 않는다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4075",
+      "description": "세이스모스가 새 땅에 살 존재들을 부른다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4079",
+      "description": "스핑크스가 방금 솟은 지형이 오래된 것처럼 보인다고 말한다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4085",
+      "description": "숲과 바위가 위로 밀려와도 스핑크스는 자리를 지킨다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4089",
+      "description": "그리핀이 바위틈에 비치는 금을 발견하고 개미들을 부른다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4095",
+      "description": "개미들이 솟은 바위를 빠르게 올라간다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4101",
+      "description": "개미들이 틈 안팎을 오가며 작은 금 조각을 모은다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4105",
+      "description": "개미들이 모서리와 구석까지 빠짐없이 살핀다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4109",
+      "description": "개미들이 금을 운반하고 산 자체에는 관심을 두지 않는다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4113",
+      "description": "그리핀들이 모인 금 위에 앞발을 올려 지킨다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4119",
+      "description": "작은 성인 형상의 피그미족이 새 지형에 자리를 잡고 주위를 살핀다."
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4125",
+      "description": "피그미족이 바위틈을 살 곳으로 여기고 들어간다."
+    }
+  ]
+}

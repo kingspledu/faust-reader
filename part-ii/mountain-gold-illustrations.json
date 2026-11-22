@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/act-02-08-grid-002.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-ii-seismos",
+    "character-ii-sphinx",
+    "character-ii-griffin",
+    "group-ii-gold-ants",
+    "group-ii-pygmies"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-ii-seismos.png",
+    "art-bible/character-ii-sphinx.png",
+    "art-bible/character-ii-griffin.png",
+    "art-bible/group-ii-gold-ants.png",
+    "art-bible/group-ii-pygmies.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4053",
+      "description": "세이스모스가 아름다운 지형을 자신이 흔들어 만들었다고 자랑한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/mountain-gold-01.webp",
+      "sha256": "029e48daf7d63974e231bd298f79712390a41eba5c27736f72be9da98a702feb"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4059",
+      "description": "세이스모스가 자신이 밀어 올린 산을 가리킨다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/mountain-gold-02.webp",
+      "sha256": "6492c829c295536f04782e56c13df6248100211b6d8aef20a994c9598a88deb2"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4063",
+      "description": "세이스모스가 옛 힘을 과시한 일을 말한다. 신이나 티탄을 실제로 추가하지 않는다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/mountain-gold-03.webp",
+      "sha256": "d990e97d0cc841eb9b6ef279a194db8b646039998252492280b18e1b26f9e00a"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4067",
+      "description": "세이스모스가 산을 움직였다는 자랑을 이어 간다. 현재 솟은 지형을 보여 준다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/mountain-gold-04.webp",
+      "sha256": "e5f7bd0366c584b9a6a2a03fb8e48759c1562f248d074125a9f0e40f4873de53"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4071",
+      "description": "세이스모스가 신들의 자리까지 높였다고 말한다. 아폴론이나 제우스를 등장시키지 않는다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/mountain-gold-05.webp",
+      "sha256": "4278d4887f6954c2fd5df92c7105be1844dd2b450cf5d6db46531c9b232b49fc"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4075",
+      "description": "세이스모스가 새 땅에 살 존재들을 부른다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/mountain-gold-06.webp",
+      "sha256": "7116ae22d3fbd31d9052c03520535dd08a591419dc29f5181f9bb24d42b066be"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4079",
+      "description": "스핑크스가 방금 솟은 지형이 오래된 것처럼 보인다고 말한다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/mountain-gold-07.webp",
+      "sha256": "e28940c04d55af385506668e64754f684464bdc9e8f2429a9fb193d7d98986a1"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4085",
+      "description": "숲과 바위가 위로 밀려와도 스핑크스는 자리를 지킨다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/mountain-gold-08.webp",
+      "sha256": "33f8f5851a89cba30bd2eecc1508aadead219e6878722ad01cdc47b4b1890da0"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4089",
+      "description": "그리핀이 바위틈에 비치는 금을 발견하고 개미들을 부른다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/mountain-gold-09.webp",
+      "sha256": "867f61320ffc5045028d39c20d89910011a3ee80a06e90858e53339deeaa1fcd"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4095",
+      "description": "개미들이 솟은 바위를 빠르게 올라간다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/mountain-gold-10.webp",
+      "sha256": "ddf31626f35e7e5d9d1ef97942a2ee3fa646118d45c4e12925d11b569188b6e3"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4101",
+      "description": "개미들이 틈 안팎을 오가며 작은 금 조각을 모은다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/mountain-gold-11.webp",
+      "sha256": "8790ef51db0a888a5613939807896a9c5bd5f705195a18755234dbbbbf270e23"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4105",
+      "description": "개미들이 모서리와 구석까지 빠짐없이 살핀다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/mountain-gold-12.webp",
+      "sha256": "ed82e2cc5171862fde2f266580dc3197fca4255dcc345f951dd5fb5c524003b2"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4109",
+      "description": "개미들이 금을 운반하고 산 자체에는 관심을 두지 않는다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/mountain-gold-13.webp",
+      "sha256": "b7b68bc4a039786a7956ca4826e935492d6de5fd1d019263ab285769c18ffb0d"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4113",
+      "description": "그리핀들이 모인 금 위에 앞발을 올려 지킨다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/mountain-gold-14.webp",
+      "sha256": "df8120ad54675e8f948351e3c708840382944dc9841cfa2f5b7a0e37a4aa2540"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4119",
+      "description": "작은 성인 형상의 피그미족이 새 지형에 자리를 잡고 주위를 살핀다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/mountain-gold-15.webp",
+      "sha256": "81e751f54b824dfdfab0ead400e8fabe82041877fe265b1284a4aab0b10a28da"
+    },
+    {
+      "section": "act-02-08",
+      "scene_id": "source-4125",
+      "description": "피그미족이 바위틈을 살 곳으로 여기고 들어간다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/mountain-gold-16.webp",
+      "sha256": "6d1f1b6e05f97791aaa3e2214f74c822cb2806934526847662aa79b78253476b"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
