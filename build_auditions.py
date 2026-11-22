@@ -15,7 +15,7 @@ primary={'narrator':['Charon','Sulafat','Schedar','Kore'],'character-010':['Orus
 alternates={'Rasalgethi':['Schedar','Sadaltager'],'Algieba':['Gacrux','Achird'],'Puck':['Sadachbia','Umbriel'],'Achird':['Iapetus','Schedar'],'Leda':['Zephyr','Aoede'],'Laomedeia':['Autonoe','Despina'],'Sadaltager':['Alnilam','Gacrux'],'Algenib':['Fenrir','Rasalgethi'],'Schedar':['Charon','Orus'],'Gacrux':['Algenib','Algieba'],'Sulafat':['Kore','Vindemiatrix'],'Alnilam':['Orus','Sadaltager'],'Vindemiatrix':['Sulafat','Achernar'],'Iapetus':['Charon','Schedar'],'Orus':['Alnilam','Iapetus'],'Kore':['Sulafat','Aoede'],'Zubenelgenubi':['Puck','Achird']}
 preferred={'narrator':[1,13,24,28],'character-010':[4,7,16,28],'character-008':[7,3,15,28],'character-053':[10,15,19,28]}
 notes={'narrator':['처음 듣는 중학생에게 상황을 친절하게 소개한다. 뉴스/광고/과한 동화 구연 억양 금지.','대화 사이에서 상황을 짚되 인물 목소리를 흉내 내지 않는다.','긴박한 장면도 단어를 선명하게. 청자에게 공포를 강요하지 않는다.','슬픔을 절제하고 인물의 행동을 차분하게 전달한다.'], 'character-010':['학문에 대한 회의. 답을 몰라 답답하지만 지적이고 또렷한 질문을 유지한다.','메피스토에게 반박한다. 상대 말을 받아치는 일상 대화 리듬. 고함 금지.','그레첸의 반응을 살피며 말한다. 부드럽되 과장된 로맨스 낭송 금지.','절박함과 망설임. 급해져도 말이 뭉개지지 않고 같은 음색을 유지한다.'],'character-008':['파우스트에게 느긋한 반말. 상대가 진지할수록 여유를 보인다.','주 앞에서 공손한 척 빈정거린다. 과장된 악당 웃음 금지.','마르테 앞에서 사교적으로 예의 있는 척한다. 같은 인물의 위장이다.','긴박한 상황에서도 차갑게 현실을 짚는다. 괴물 포효 금지.'],'character-053':['낯선 사람의 접근을 단호히 거절한다. 유아 같은 목소리 금지.','가까워진 상대에게 자연스럽게 말한다. 수줍음만으로 인물을 축소하지 않는다.','관계와 믿음을 진지하게 묻는다. 상대에게 답을 듣고 싶은 목적을 분명히 한다.','두려움과 결심이 함께 있다. 통곡만으로 모든 말을 처리하지 않는다.']}
-roles=[];pending=[];audit=[];allrows=[]
+roles=[];pending=[];audit=[];allrows=[];allscenes=[]
 for cid,p in cast['profiles'].items():
     units=[x for x in source if x['cast_id']==cid]
     if not units:
@@ -52,11 +52,19 @@ for cid,p in cast['profiles'].items():
     encoded=json.dumps(episode,ensure_ascii=False).replace('<','\\u003c')
     page=template.replace('__EPISODE_JSON__',encoded).replace('__FILE_STEM__','FAUST_P1_AUD02_'+cid).replace('__TITLE_HTML__',html.escape(p['display_name']+' · 성우 오디션'))
     page=page.replace("turn.kind==='monologue');","false);").replace("turns[index].kind==='monologue'?'echo-v4':'dry'","'dry'")
-    (GEN/(cid+'.html')).write_text(page,encoding='utf-8')
-    (GEN/(cid+'.json')).write_text(json.dumps(episode,ensure_ascii=False,indent=2),encoding='utf-8')
+    allscenes.extend(episode['scenes'])
     roles.append(dict(id=cid,name=p['display_name'].replace('마르가레테 / 그레첸','그레첸'),tier=tier,count=len(units),persona=p.get('persona','장면과 상대를 고려한 또렷하고 자연스러운 한국어 발화'),voices=voices,questions=questions,files=rows,generator='canvas/'+cid+'.html'))
     audit.append(dict(cast_id=cid,status='selected-transcripts-match-published-prose',checked=len(questions)))
 roles.sort(key=lambda x:({'primary':0,'support':1,'minor':2}[x['tier']],-x['count']))
+order={role['id']:i for i,role in enumerate(roles)}
+allscenes.sort(key=lambda scene:order[scene['scene_id']])
+episode.update(title='제1부 전체 배역 오디션 · 202구간',scenes=allscenes,voices={v:v for role in roles for v in role['voices']})
+encoded=json.dumps(episode,ensure_ascii=False).replace('<','\\u003c')
+page=template.replace('__EPISODE_JSON__',encoded).replace('__FILE_STEM__','FAUST_P1_AUD02_ALL').replace('__TITLE_HTML__','파우스트 제1부 전체 성우 오디션')
+page=page.replace("turn.kind==='monologue');","false);").replace("turns[index].kind==='monologue'?'echo-v4':'dry'","'dry'")
+(GEN/'FAUST_P1_AUD02_ALL.html').write_text(page,encoding='utf-8')
+(GEN/'FAUST_P1_AUD02_ALL.json').write_text(json.dumps(episode,ensure_ascii=False,indent=2),encoding='utf-8')
+for role in roles:role['generator']='canvas/FAUST_P1_AUD02_ALL.html'
 catalog=dict(revision='AUD02',model=cast['model'],roles=roles,pending=pending,requests=len(allrows),audio_status='not-generated',review_status='Current TTS roles only; German-source speaker completeness not yet certified')
 (OUT/'catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2),encoding='utf-8')
 (OUT/'AUDITION_INDEX.json').write_text(json.dumps(dict(schema='faust-audition-index-1',revision='AUD02',segments=allrows),ensure_ascii=False,indent=2),encoding='utf-8')

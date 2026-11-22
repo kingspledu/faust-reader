@@ -314,7 +314,7 @@
           "prompt_sha256": "348b671bfb8b4ba38422db3196141e6136ced00f10ec6f740edb457f19ec1e9d"
         }
       ],
-      "generator": "canvas/narrator.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-008",
@@ -628,7 +628,7 @@
           "prompt_sha256": "53490662cffb7dcecc4670774c4a7a6d22d0f95245c90349259d363c05973f9d"
         }
       ],
-      "generator": "canvas/character-008.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-010",
@@ -942,7 +942,7 @@
           "prompt_sha256": "26df0dae9d618ab27b378e29d95a612534420e4bf3d77c600bf609335375784b"
         }
       ],
-      "generator": "canvas/character-010.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-053",
@@ -1256,7 +1256,7 @@
           "prompt_sha256": "a2ad561f320f1edef7fec73c844cb5e87812df0f098f376fa779cb83c147be95"
         }
       ],
-      "generator": "canvas/character-053.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-054",
@@ -1389,7 +1389,7 @@
           "prompt_sha256": "405ca9ed01b19670915ac2fa3ffcbb22f4b2f8e90dcb1b47f1c842d24708c60e"
         }
       ],
-      "generator": "canvas/character-054.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-001",
@@ -1522,7 +1522,7 @@
           "prompt_sha256": "f312e76ac8639881a0dc9c91cd22e25976e08c5aed38594f44b9028c7db73d6a"
         }
       ],
-      "generator": "canvas/character-001.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-002",
@@ -1655,7 +1655,7 @@
           "prompt_sha256": "5179c1f30e6c00244a49449256dbc23dcf46fcdaae7c0678c678536def7a5e2a"
         }
       ],
-      "generator": "canvas/character-002.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-012",
@@ -1788,7 +1788,7 @@
           "prompt_sha256": "1c06286cbbcf6cf89bf43b968a84044fb0ec11410ed4b4e079c90d5dd848e755"
         }
       ],
-      "generator": "canvas/character-012.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-042",
@@ -1921,7 +1921,7 @@
           "prompt_sha256": "1a0ee2ca2f9fd99ef6978f3c20b814e09d0d5c9ddc9a2eed3a6da6676b5f002f"
         }
       ],
-      "generator": "canvas/character-042.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-003",
@@ -2054,7 +2054,7 @@
           "prompt_sha256": "d57bad541fa7f12b7f283ff98f505e8d26e396b045fd8028c2831ddc7c4f7609"
         }
       ],
-      "generator": "canvas/character-003.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-055",
@@ -2187,7 +2187,7 @@
           "prompt_sha256": "f4f8d53de0ba4d6c0d64d9b7afd0dd5cd9678478e7b5732375096e90e954b156"
         }
       ],
-      "generator": "canvas/character-055.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-009",
@@ -2320,7 +2320,7 @@
           "prompt_sha256": "1063caa87b61f39732656e5b2b468c7beb015c7a421029e0e6207ae501a7f769"
         }
       ],
-      "generator": "canvas/character-009.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-043",
@@ -2453,7 +2453,7 @@
           "prompt_sha256": "c55390b913079976be1cb05d38fbf3fc23100360555772051aef87e56da5e199"
         }
       ],
-      "generator": "canvas/character-043.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-045",
@@ -2586,7 +2586,7 @@
           "prompt_sha256": "ce3dc9a028d3ab15cc8a32ccf8e8edfd35f920df3eee47f00a44cd8d6ac4b641"
         }
       ],
-      "generator": "canvas/character-045.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-046",
@@ -2719,7 +2719,7 @@
           "prompt_sha256": "dd41bdefe624920cfd8ab449ac5c379d688ad68738fac169baa00e02d6a41443"
         }
       ],
-      "generator": "canvas/character-046.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-052",
@@ -2852,7 +2852,7 @@
           "prompt_sha256": "d5730b7d425cae8e5d0aa12e10d21b5e3028c35b2cb7c794d7ed43d61e4614d3"
         }
       ],
-      "generator": "canvas/character-052.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-044",
@@ -2985,7 +2985,7 @@
           "prompt_sha256": "d3d7c980ead784dc03652bee52d4f19df7708602ff796f843fe006cf2d741b7e"
         }
       ],
-      "generator": "canvas/character-044.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-056",
@@ -3118,7 +3118,7 @@
           "prompt_sha256": "e07a5bff7abd2ac1eb10624e232e101b3d7a3b2bb12ac3b29f823d6a06702ab3"
         }
       ],
-      "generator": "canvas/character-056.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-011",
@@ -3251,7 +3251,7 @@
           "prompt_sha256": "53343dc99ce8f2a821517e4db47e89dc40e10f3fe6b378479ab1c314c78d2da9"
         }
       ],
-      "generator": "canvas/character-011.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-050",
@@ -3384,7 +3384,7 @@
           "prompt_sha256": "4933170180d72a1061e1674c3352f63d14228ba3734ce2b87b64bdfb6930b7b2"
         }
       ],
-      "generator": "canvas/character-050.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-058",
@@ -3517,7 +3517,7 @@
           "prompt_sha256": "49a7b51726b8b91c0f17535e875f0ad53125bddf5210d34e337c69bd059112b4"
         }
       ],
-      "generator": "canvas/character-058.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-013",
@@ -3575,7 +3575,7 @@
           "prompt_sha256": "995dcf6bcf1156ba39eceb6e36b6712ee8072c226df680e752e00032e1413065"
         }
       ],
-      "generator": "canvas/character-013.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-084",
@@ -3633,7 +3633,7 @@
           "prompt_sha256": "067d70698a549edd8ddb5a62b41785d3901640c1ff9415de1df5c104c9c91ce9"
         }
       ],
-      "generator": "canvas/character-084.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "dedication-poet",
@@ -3691,7 +3691,7 @@
           "prompt_sha256": "5f694dfa83e2840803bb7d3b4187dace90717dca741c52c2eb3ae97c2173fc77"
         }
       ],
-      "generator": "canvas/dedication-poet.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "extra-dancer-woman",
@@ -3749,7 +3749,7 @@
           "prompt_sha256": "41ed166e8c63efae0ef5bacc9b51a305b9c5e237f6a1e636cdbe84eebdffa705"
         }
       ],
-      "generator": "canvas/extra-dancer-woman.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-014",
@@ -3807,7 +3807,7 @@
           "prompt_sha256": "d5a73eeeaa081d2cb8d9831cf80681734cb7b6ba8ad21bc3bcdd828f7d3d77f4"
         }
       ],
-      "generator": "canvas/character-014.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-015",
@@ -3865,7 +3865,7 @@
           "prompt_sha256": "e3fa290389ba1c6f4b52a212a5f8711d19287caa03c8357ea33b7f5c2894fb67"
         }
       ],
-      "generator": "canvas/character-015.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-038",
@@ -3923,7 +3923,7 @@
           "prompt_sha256": "2081ded6af39fee6d68d016982d72c74fe53a981768b1bc51181f0442454a6ed"
         }
       ],
-      "generator": "canvas/character-038.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-057",
@@ -3981,7 +3981,7 @@
           "prompt_sha256": "4eea908860a8fa404e477dd7f6fb5cf8689981adfa771ff0408d0c1a97db3475"
         }
       ],
-      "generator": "canvas/character-057.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-060",
@@ -4039,7 +4039,7 @@
           "prompt_sha256": "d2bcb1c4f4bb87d278d7ebdcceeec17a6cc4ef23b55d2395dde800535c0cec6e"
         }
       ],
-      "generator": "canvas/character-060.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-082",
@@ -4097,7 +4097,7 @@
           "prompt_sha256": "05738c790c3900bd56f14732aaa1351874ffecb6c7ee85d161d7eb904d62fb65"
         }
       ],
-      "generator": "canvas/character-082.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-083",
@@ -4155,7 +4155,7 @@
           "prompt_sha256": "27e3dc3ea77f1d3fa70335c6718a4d863d6c67e825aacde1ee50eb43f3b08784"
         }
       ],
-      "generator": "canvas/character-083.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-086",
@@ -4213,7 +4213,7 @@
           "prompt_sha256": "bcfca21774ba7dae1089da4565ae558758ff0fc525cd54c5313e6a7c19dac981"
         }
       ],
-      "generator": "canvas/character-086.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-092",
@@ -4271,7 +4271,7 @@
           "prompt_sha256": "be3816bed1332c02fc4766968239142f9476889a052320d5691752bd861cb5f6"
         }
       ],
-      "generator": "canvas/character-092.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-097",
@@ -4329,7 +4329,7 @@
           "prompt_sha256": "fbffce8b8394e5aeabf0d8040a071c953b3762d36b66157ceca16368e1f61175"
         }
       ],
-      "generator": "canvas/character-097.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-098",
@@ -4387,7 +4387,7 @@
           "prompt_sha256": "fac8bb6806bc1de165c81b13f6f932790156e6045188a9770e591400128db382"
         }
       ],
-      "generator": "canvas/character-098.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-109",
@@ -4445,7 +4445,7 @@
           "prompt_sha256": "6f11746a06833e0a5ba2b895c6af180ec60996b9f722becd5241ebecffc37512"
         }
       ],
-      "generator": "canvas/character-109.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-119",
@@ -4503,7 +4503,7 @@
           "prompt_sha256": "d9c70d76e609849d35e299bc224f5d0334a69714d166d6b0984d7db493f92756"
         }
       ],
-      "generator": "canvas/character-119.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     },
     {
       "id": "character-123",
@@ -4561,7 +4561,7 @@
           "prompt_sha256": "3deaa3fe7a18dc592afa11179ab8390879f4d91336ee8eafd7d34eeec2f08266"
         }
       ],
-      "generator": "canvas/character-123.html"
+      "generator": "canvas/FAUST_P1_AUD02_ALL.html"
     }
   ],
   "pending": [
