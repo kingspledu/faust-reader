@@ -1,0 +1,288 @@
+{
+  "source_image": "source_images/dolphin-moon-procession-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "character-ii-proteus",
+    "group-ii-telchines",
+    "group-ii-sirens",
+    "character-ii-nereus",
+    "place-ii-aegean-coves"
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/proteus-telchines-grid-001.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/character-ii-proteus.png",
+    "art-bible/character-ii-nereus.png",
+    "art-bible/group-ii-sirens.png"
+  ],
+  "generation_reference_note": "원본 캐릭터 시트의 인물·의상·병 형태를 우선하며, 앞 배치 그리드는 공간과 구도 연결에만 사용한다.",
+  "records": [
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5072",
+      "description": "텔키네스가 신상을 만들었던 솜씨를 자랑한다. 현재에 거대 신상을 추가하지 않는다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/dolphin-moon-procession-01.webp",
+      "sha256": "013fe1640cbeda24572a8e6fdf8821dce06e8a96fb3a5c14082dcde362a6fbac"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5076",
+      "description": "프로테우스가 장인들의 자부심을 두고 탈레스와 이야기한다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/dolphin-moon-procession-02.webp",
+      "sha256": "c07db2372fd209fc7aede45e561fbe81e03789259fd2ce70868f73b9dbb3cdcb"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5082",
+      "description": "프로테우스가 청동 신상의 덧없음을 설명한다. 주조 작업 장면으로 바꾸지 않는다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/dolphin-moon-procession-03.webp",
+      "sha256": "c0e7bce6e02f4ccf7349c62783c7d3ff7bc809fbe688455632b9364fdf182545"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5086",
+      "description": "프로테우스가 바다 쪽으로 몸을 돌려 호문쿨루스를 안내한다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/dolphin-moon-procession-04.webp",
+      "sha256": "08cfa2055884e73338d44d559081bcc6658127377535b0affdcd7cf107877c3c"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5090",
+      "description": "프로테우스가 돌고래 모습으로 변한다. 인간형을 동시에 별개 인물로 그리지 않는다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/dolphin-moon-procession-05.webp",
+      "sha256": "44b44efa5f36c1763d79f10c61b5799e2dcb854fd5b5000bd33eeded3b8ead4b"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5096",
+      "description": "돌고래형 프로테우스가 병 속 존재를 등에 태우겠다고 제안하고 탈레스가 권한다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/dolphin-moon-procession-06.webp",
+      "sha256": "7d6fc074dc202276e01d931a9173f84fa08e10762e909052e5341a4f2f73c2a9"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5102",
+      "description": "탈레스가 밀폐된 병 속 호문쿨루스에게 새로운 시작을 권한다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/dolphin-moon-procession-07.webp",
+      "sha256": "074f4ec535d836e9e906490497c29e7a28f3221c18ad6cdf5243c18e2b176fdb"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5106",
+      "description": "돌고래형 프로테우스와 닫힌 병이 수면 가까이 이동한다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/dolphin-moon-procession-08.webp",
+      "sha256": "f9a425c734ae56f946d95165a80a15ac85d8384a37d44c153b405383dbbf0f57"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5111",
+      "description": "돌고래형 프로테우스가 병 속 호문쿨루스에게 바다의 삶을 설명한다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/dolphin-moon-procession-09.webp",
+      "sha256": "8ec1f5383665ece11443334ccf96d7f843a1e1c548769d643caf3211aea8b826"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5114",
+      "description": "탈레스가 물가에서 마지막 말에 응답한다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/dolphin-moon-procession-10.webp",
+      "sha256": "56388c3d2a9395e99c8b97589d0cadf72fc1c488fdcb6bc070240db9a759d148"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5120",
+      "description": "돌고래형 프로테우스가 물가의 탈레스에게 답한다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/dolphin-moon-procession-11.webp",
+      "sha256": "3e07ed20cfe8f93532831bfb2dc3fc127863f998aca35521b672908d219df8e1"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5125",
+      "description": "세이렌들이 달 둘레를 둥글게 나는 흰 비둘기 무리를 본다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/dolphin-moon-procession-12.webp",
+      "sha256": "e0705e41348f15c7bbc845c30d14127c7afd58814004dff5e57e083e0090bd90"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5131",
+      "description": "달빛 속 비둘기들의 무리가 바다 축제 위를 난다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/dolphin-moon-procession-13.webp",
+      "sha256": "c03c52c13eff8752ca355e45e03da529155d543af9d588444fe41124e555b570"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5135",
+      "description": "네레우스가 달 둘레의 흰 새들을 바라보며 말을 꺼낸다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/dolphin-moon-procession-14.webp",
+      "sha256": "a096372cb7ea2cccba568dacaf1f47c34dc53e605a0d52601fca9cc3c7c4864e"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5141",
+      "description": "네레우스가 딸의 행렬에 앞서는 비둘기들을 설명한다. 딸의 모습은 아직 그리지 않는다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/dolphin-moon-procession-15.webp",
+      "sha256": "eb08ddd6e8975966635c819ec1913d8d58151414a6c7b6da8555491ef398d321"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5145",
+      "description": "탈레스가 물가에서 비둘기 행렬을 바라보며 응답한다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/dolphin-moon-procession-16.webp",
+      "sha256": "1db510880dd5f31f83b68703c23ea6f37ec0892afb9e5c36ebba0aaca34807ea"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
