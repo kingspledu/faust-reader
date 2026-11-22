@@ -1,0 +1,291 @@
+{
+  "source_image": "source_images/shell-throne-radiance-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-ii-galatea",
+    "group-ii-dorids",
+    "group-ii-psylli-marsi",
+    "group-ii-rescued-sailors",
+    "character-ii-nereus",
+    "group-ii-sirens",
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "character-ii-proteus",
+    "group-ii-nereids"
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/galatea-dorids-grid-001.png",
+    "art-bible/character-ii-galatea.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/character-ii-proteus.png",
+    "art-bible/character-ii-thales.png"
+  ],
+  "generation_reference_note": "직접 첨부한 시트가 인물 외형의 기준이며 앞 그리드는 동일 인물·장소의 연속성 참조다. 병은 source-5299의 파열 직전까지 밀폐 상태다.",
+  "records": [
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5231",
+      "description": "조개 왕좌의 갈라테이아와 물가의 네레우스가 인사를 나눈다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/shell-throne-radiance-01.webp",
+      "sha256": "8060f522d9e3bb33c7ba252837ac9d0427b5f0012a1e86e395df2c71d1ce4599"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5239",
+      "description": "돌고래들이 갈라테이아의 조개 왕좌를 이끌고 네레우스 곁을 지나간다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/shell-throne-radiance-02.webp",
+      "sha256": "2551522779467bafb29f3fa5804ab15cf183ff2c7138a4a656562e977e50566a"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5245",
+      "description": "네레우스가 딸을 바라보고, 탈레스가 바다 축제에 기뻐한다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/shell-throne-radiance-03.webp",
+      "sha256": "a5305f7c4e31e4ca0910cada4a842e41c65c05c64009024f47efb42792a42724"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5251",
+      "description": "탈레스가 물가에서 모든 생명이 물에서 비롯됨을 말한다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/shell-throne-radiance-04.webp",
+      "sha256": "3a47de814e39cb1f6d95709eb3587ab03897f01045d52ebca931b10f050a1bde"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5255",
+      "description": "탈레스가 물의 순환을 찬미한다. 비유 속 낮 풍경 대신 현재의 밤바다를 유지한다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/shell-throne-radiance-05.webp",
+      "sha256": "2096ac3ebd112dce8c532d4c9ef55ad408bada852610991ad3a0ce7846a84c05"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5259",
+      "description": "메아리가 울릴 듯한 바위 만에서 탈레스와 네레우스가 멀어지는 행렬을 본다. 메아리의 몸은 만들지 않는다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/shell-throne-radiance-06.webp",
+      "sha256": "20f70b8d2d9a8ad82c0de3cff4903e7f2e128adaec5f20157bedb2d25874c1e2"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5267",
+      "description": "네레우스가 멀리 원을 그리는 바다 행렬을 바라본다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/shell-throne-radiance-07.webp",
+      "sha256": "7bfa0973506c1b317ddcf1da434c995ba1866ecd24a244ec2144df121bd0eec4"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5271",
+      "description": "군중 사이로 갈라테이아의 조개 왕좌가 빛난다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/shell-throne-radiance-08.webp",
+      "sha256": "87e7a7d0466a0e5ce0b6b922524dd85cb14c366b23eb124ad62842d2ce611ecf"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5275",
+      "description": "멀어진 왕좌와 갈라테이아를 네레우스의 시선으로 본다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/shell-throne-radiance-09.webp",
+      "sha256": "bd8d78fd585e8fc4fa2a2b3eca653895c8b147f02f9fd67969c2687956e1f848"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5279",
+      "description": "돌고래형 프로테우스의 등 위 밀폐된 병 안에서 호문쿨루스가 바다를 바라본다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/shell-throne-radiance-10.webp",
+      "sha256": "beb2d74861e17f1c7aa4792fc5ee054c044848ec0b28d45f7f0f93fa15f3f8c9"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5287",
+      "description": "호문쿨루스의 빛이 밝아지고 네레우스가 새 빛을 발견한다. 병은 아직 닫혀 있다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/shell-throne-radiance-11.webp",
+      "sha256": "9b5f8f9aa840dcb6e5810679a1f162f90e1a21ebff1a399762fc400fddf44415"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5293",
+      "description": "갈라테이아의 조개 왕좌 가까이 병의 황금빛이 일렁인다. 탈레스가 알아본다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/shell-throne-radiance-12.webp",
+      "sha256": "5d383b23afa093c07ce3b4b10673e36b0450cf3b4338e36104813cb06348aaa4"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5299",
+      "description": "호문쿨루스의 병이 조개 왕좌에 부딪쳐 빛이 바다로 퍼진다. 유혈 없이 유리와 빛으로 표현한다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/shell-throne-radiance-13.webp",
+      "sha256": "09cda3b96de9e820463399e1f5b3d37475050aa30d581d7e2be0c5bdff2b4b8d"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5303",
+      "description": "황금빛으로 밝아지는 밤 물결을 새 몸의 세이렌들이 바라본다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/shell-throne-radiance-14.webp",
+      "sha256": "fc924e63ee5958fd744cac5539422d12740481214b060d8298a3463f11066973"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5309",
+      "description": "갈라테이아의 행렬과 바다를 금빛이 둘러싼다. 에로스를 별도 인물로 추가하지 않는다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/shell-throne-radiance-15.webp",
+      "sha256": "d3884f43f9e1a46229273afd237b942062079b81a1d22c2565b23852af7d8a36"
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5313",
+      "description": "밤바다의 물과 빛을 향해 바다 무리가 합창한다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/shell-throne-radiance-16.webp",
+      "sha256": "cef9daf106eb13e46a407addceecb23247bb0f7592a9fe42bb3bcb7579aeba91"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
