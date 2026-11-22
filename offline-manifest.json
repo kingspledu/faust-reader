@@ -5,6 +5,8 @@
       "assets/audiobook/player.js",
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "audio/part-1/chapter-01/FAUST_P1_C01_S01_0000_c01-s001_NARRATOR.mp3",
       "audio/part-1/chapter-01/FAUST_P1_C01_S01_0001_c01-s001_NARRATOR.mp3",
       "audio/part-1/chapter-01/FAUST_P1_C01_S01_0002_c01-s001_NARRATOR.mp3",
@@ -89,6 +91,8 @@
     "chapter-02.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-02.html",
       "illustrations/c02-dense-001.webp",
       "illustrations/c02-dense-002.webp",
@@ -119,6 +123,8 @@
     "chapter-03.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-03.html",
       "illustrations/c03-s001.webp",
       "illustrations/c03-s003.webp",
@@ -140,6 +146,8 @@
     "chapter-04.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-04.html",
       "illustrations/c04-dense-001-v2.webp",
       "illustrations/c04-dense-002-v2.webp",
@@ -199,6 +207,8 @@
     "chapter-05.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-05.html",
       "illustrations/c05-dense-001.webp",
       "illustrations/c05-dense-002.webp",
@@ -254,6 +264,8 @@
     "chapter-06.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-06.html",
       "illustrations/c06-dense-001.webp",
       "illustrations/c06-dense-002.webp",
@@ -304,6 +316,8 @@
     "chapter-07.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-07.html",
       "illustrations/c07-dense-001.webp",
       "illustrations/c07-dense-002.webp",
@@ -373,6 +387,8 @@
     "chapter-08.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-08.html",
       "illustrations/c08-dense-001.webp",
       "illustrations/c08-dense-002.webp",
@@ -440,6 +456,8 @@
     "chapter-09.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-09.html",
       "illustrations/c09-dense-001.webp",
       "illustrations/c09-dense-002.webp",
@@ -493,6 +511,8 @@
     "chapter-10.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-10.html",
       "illustrations/c10-dense-001.webp",
       "illustrations/c10-dense-002.webp",
@@ -512,6 +532,8 @@
     "chapter-11.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-11.html",
       "illustrations/c11-dense-001.webp",
       "illustrations/c11-dense-002.webp",
@@ -540,6 +562,8 @@
     "chapter-12.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-12.html",
       "illustrations/c12-dense-001.webp",
       "illustrations/c12-dense-002.webp",
@@ -556,6 +580,8 @@
     "chapter-13.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-13.html",
       "illustrations/c13-dense-001.webp",
       "illustrations/c13-dense-002.webp",
@@ -594,6 +620,8 @@
     "chapter-14.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-14.html",
       "illustrations/c14-dense-001.webp",
       "illustrations/c14-dense-002.webp",
@@ -611,6 +639,8 @@
     "chapter-15.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-15.html",
       "illustrations/c15-dense-001.webp",
       "illustrations/c15-dense-002.webp",
@@ -642,6 +672,8 @@
     "chapter-16.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-16.html",
       "illustrations/c16-dense-001.webp",
       "illustrations/c16-dense-002.webp",
@@ -655,6 +687,8 @@
     "chapter-17.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-17.html",
       "illustrations/c17-dense-001.webp",
       "illustrations/c17-dense-002.webp",
@@ -683,6 +717,8 @@
     "chapter-18.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-18.html",
       "illustrations/c18-dense-001.webp",
       "illustrations/c18-dense-002.webp",
@@ -693,6 +729,8 @@
     "chapter-19.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-19.html",
       "illustrations/c19-dense-001.webp",
       "illustrations/c19-dense-002.webp",
@@ -720,6 +758,8 @@
     "chapter-20.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-20.html",
       "illustrations/c20-dense-001.webp",
       "illustrations/c20-dense-002.webp",
@@ -735,6 +775,8 @@
     "chapter-21.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-21.html",
       "illustrations/c21-dense-001.webp",
       "illustrations/c21-dense-002.webp",
@@ -746,6 +788,8 @@
     "chapter-22.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-22.html",
       "illustrations/c22-dense-001.webp",
       "illustrations/c22-dense-002.webp",
@@ -781,6 +825,8 @@
     "chapter-23.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-23.html",
       "illustrations/c23-dense-001.webp",
       "illustrations/c23-dense-002.webp",
@@ -798,6 +844,8 @@
     "chapter-24.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-24.html",
       "illustrations/c24-dense-001.webp",
       "illustrations/c24-dense-002.webp",
@@ -870,6 +918,8 @@
     "chapter-25.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-25.html",
       "illustrations/c25-dense-001.webp",
       "illustrations/c25-dense-002.webp",
@@ -897,6 +947,8 @@
     "chapter-26.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-26.html",
       "illustrations/c26-dense-001.webp",
       "illustrations/c26-dense-002.webp",
@@ -917,6 +969,8 @@
     "chapter-27.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-27.html",
       "illustrations/c27-dense-001.webp",
       "illustrations/c27-dense-002.webp",
@@ -926,6 +980,8 @@
     "chapter-28.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "chapter-28.html",
       "illustrations/c28-dense-001.webp",
       "illustrations/c28-dense-002.webp",
@@ -982,6 +1038,8 @@
     "part-ii/act-01-01.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-01.html",
       "part-ii/images/valley-01.webp",
       "part-ii/images/valley-02.webp",
@@ -1020,6 +1078,8 @@
     "part-ii/act-01-02.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-02.html",
       "part-ii/images/court-01.webp",
       "part-ii/images/court-02.webp",
@@ -1060,6 +1120,8 @@
     "part-ii/act-01-03.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-03.html",
       "part-ii/images/debate-01.webp",
       "part-ii/images/debate-02.webp",
@@ -1127,6 +1189,8 @@
     "part-ii/act-01-04.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-04.html",
       "part-ii/images/festival-01.webp",
       "part-ii/images/festival-02.webp",
@@ -1189,6 +1253,8 @@
     "part-ii/act-01-05.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-05.html",
       "part-ii/images/masque-01.webp",
       "part-ii/images/masque-02.webp",
@@ -1252,6 +1318,8 @@
     "part-ii/act-01-06.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-06.html",
       "part-ii/images/furies-01.webp",
       "part-ii/images/furies-02.webp",
@@ -1314,6 +1382,8 @@
     "part-ii/act-01-07.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-07.html",
       "part-ii/images/chariot-01.webp",
       "part-ii/images/chariot-02.webp",
@@ -1377,6 +1447,8 @@
     "part-ii/act-01-08.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-08.html",
       "part-ii/images/disturbance-01.webp",
       "part-ii/images/disturbance-02.webp",
@@ -1440,6 +1512,8 @@
     "part-ii/act-01-09.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-09.html",
       "part-ii/images/climax-01.webp",
       "part-ii/images/climax-02.webp",
@@ -1464,6 +1538,8 @@
     "part-ii/act-01-10.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-10.html",
       "part-ii/images/garden-council-01.webp",
       "part-ii/images/garden-council-02.webp",
@@ -1488,6 +1564,8 @@
     "part-ii/act-01-11.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-11.html",
       "part-ii/images/corridor-01.webp",
       "part-ii/images/corridor-02.webp",
@@ -1512,6 +1590,8 @@
     "part-ii/act-01-12.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01-12.html",
       "part-ii/images/knights-hall-01.webp",
       "part-ii/images/knights-hall-02.webp",
@@ -1536,6 +1616,8 @@
     "part-ii/act-01.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-01.html",
       "part-ii/images/court-01.webp",
       "part-ii/images/court-02.webp",
@@ -1606,6 +1688,8 @@
     "part-ii/act-02-01.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-01.html",
       "part-ii/images/gothic-room-01.webp",
       "part-ii/images/gothic-room-02.webp",
@@ -1630,6 +1714,8 @@
     "part-ii/act-02-02.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-02.html",
       "part-ii/images/scholar-mephisto-01.webp",
       "part-ii/images/scholar-mephisto-02.webp",
@@ -1654,6 +1740,8 @@
     "part-ii/act-02-03.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-03.html",
       "part-ii/images/lab-pharsalus-01.webp",
       "part-ii/images/lab-pharsalus-02.webp",
@@ -1712,6 +1800,8 @@
     "part-ii/act-02-04.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-04.html",
       "part-ii/images/lab-pharsalus-03.webp",
       "part-ii/images/lab-pharsalus-04.webp",
@@ -1740,6 +1830,8 @@
     "part-ii/act-02-05.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-05.html",
       "part-ii/images/lower-peneios-arrival-01.webp",
       "part-ii/images/lower-peneios-arrival-02.webp",
@@ -1792,6 +1884,8 @@
     "part-ii/act-02-06.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-06.html",
       "part-ii/images/chiron-meeting-01.webp",
       "part-ii/images/chiron-meeting-02.webp",
@@ -1830,6 +1924,8 @@
     "part-ii/act-02-07.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-07.html",
       "part-ii/images/chiron-memories-01.webp",
       "part-ii/images/chiron-memories-02.webp",
@@ -1872,6 +1968,8 @@
     "part-ii/act-02-08.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-08.html",
       "part-ii/images/mountain-gold-01.webp",
       "part-ii/images/mountain-gold-02.webp",
@@ -1926,6 +2024,8 @@
     "part-ii/act-02-09.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-09.html",
       "part-ii/images/lamiae-metamorphosis-01.webp",
       "part-ii/images/lamiae-metamorphosis-02.webp",
@@ -1980,6 +2080,8 @@
     "part-ii/act-02-10.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-10.html",
       "part-ii/images/nature-moon-01.webp",
       "part-ii/images/nature-moon-02.webp",
@@ -2034,6 +2136,8 @@
     "part-ii/act-02-11.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-11.html",
       "part-ii/images/kabiri-hidden-proteus-01.webp",
       "part-ii/images/kabiri-hidden-proteus-02.webp",
@@ -2081,6 +2185,8 @@
     "part-ii/act-02-12.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-12.html",
       "part-ii/images/dolphin-moon-procession-01.webp",
       "part-ii/images/dolphin-moon-procession-02.webp",
@@ -2128,6 +2234,8 @@
     "part-ii/act-02-13.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02-13.html",
       "part-ii/images/dolphin-moon-procession-11.webp",
       "part-ii/images/dolphin-moon-procession-12.webp",
@@ -2175,6 +2283,8 @@
     "part-ii/act-02.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-02.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2183,6 +2293,8 @@
     "part-ii/act-03-01.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-03-01.html",
       "part-ii/images/helena-palace-orders-01.webp",
       "part-ii/images/helena-palace-orders-02.webp",
@@ -2231,6 +2343,8 @@
     "part-ii/act-03-02.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-03-02.html",
       "part-ii/images/helena-defends-chorus-01.webp",
       "part-ii/images/helena-defends-chorus-02.webp",
@@ -2281,6 +2395,8 @@
     "part-ii/act-03-03.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-03-03.html",
       "part-ii/images/helena-memory-dispute-04.webp",
       "part-ii/images/helena-memory-dispute-05.webp",
@@ -2330,6 +2446,8 @@
     "part-ii/act-03-04.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-03-04.html",
       "part-ii/images/helena-choice-mist-01.webp",
       "part-ii/images/helena-choice-mist-02.webp",
@@ -2374,6 +2492,8 @@
     "part-ii/act-03-05.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-03-05.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2382,6 +2502,8 @@
     "part-ii/act-03-06.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-03-06.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2390,6 +2512,8 @@
     "part-ii/act-03-07.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-03-07.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2398,6 +2522,8 @@
     "part-ii/act-03-08.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-03-08.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2406,6 +2532,8 @@
     "part-ii/act-03-09.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-03-09.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2414,6 +2542,8 @@
     "part-ii/act-03-10.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-03-10.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2422,6 +2552,8 @@
     "part-ii/act-03.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-03.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2430,6 +2562,8 @@
     "part-ii/act-04-01.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-04-01.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2438,6 +2572,8 @@
     "part-ii/act-04-02.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-04-02.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2446,6 +2582,8 @@
     "part-ii/act-04-03.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-04-03.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2454,6 +2592,8 @@
     "part-ii/act-04-04.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-04-04.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2462,6 +2602,8 @@
     "part-ii/act-04-05.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-04-05.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2470,6 +2612,8 @@
     "part-ii/act-04-06.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-04-06.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2478,6 +2622,8 @@
     "part-ii/act-04-07.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-04-07.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2486,6 +2632,8 @@
     "part-ii/act-04.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-04.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2494,6 +2642,8 @@
     "part-ii/act-05-01.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-05-01.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2502,6 +2652,8 @@
     "part-ii/act-05-02.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-05-02.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2510,6 +2662,8 @@
     "part-ii/act-05-03.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-05-03.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2518,6 +2672,8 @@
     "part-ii/act-05-04.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-05-04.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2526,6 +2682,8 @@
     "part-ii/act-05-05.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-05-05.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2534,6 +2692,8 @@
     "part-ii/act-05-06.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-05-06.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2542,6 +2702,8 @@
     "part-ii/act-05-07.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-05-07.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2550,6 +2712,8 @@
     "part-ii/act-05-08.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-05-08.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2558,6 +2722,8 @@
     "part-ii/act-05-09.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-05-09.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2566,6 +2732,8 @@
     "part-ii/act-05.html": [
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
+      "assets/audiobook/theme.css",
+      "assets/audiobook/theme.js",
       "part-ii/act-05.html",
       "part-ii/reader.css",
       "reader-consistency.css",
@@ -2574,8 +2742,8 @@
   },
   "files": {
     "chapter-01.html": {
-      "bytes": 38819,
-      "sha256": "a4da4b055f4b3a50b957f1e6cb10a50a70ee5700fe0a894dd0830998ac19239c"
+      "bytes": 38987,
+      "sha256": "1350c82a1873f864c22765b9d9e8c4241c352264706df5888971f3818a2f7f1f"
     },
     "reader-consistency.css": {
       "bytes": 1117,
@@ -2645,6 +2813,10 @@
       "bytes": 44368,
       "sha256": "baabb032614c29350b1226106b9b8a88dc70e47d8fdc7bfe0277c8d9cdf3620d"
     },
+    "assets/audiobook/theme.css": {
+      "bytes": 6842,
+      "sha256": "7b9b039094f48b6543aa867a418e8fefb993717a5d79c1105fa33cdf36b07284"
+    },
     "assets/audiobook/reader.css": {
       "bytes": 2720,
       "sha256": "f793024b17577fae04b5c77f3adbc27f71e9a5c3f83fab66d17ca4539a49752b"
@@ -2652,6 +2824,10 @@
     "assets/audiobook/reader.js": {
       "bytes": 8227,
       "sha256": "eead91e051be618c25cc6201b7a966c8028d42db2574a5da5d4c17bab61ea5e1"
+    },
+    "assets/audiobook/theme.js": {
+      "bytes": 877,
+      "sha256": "f8aa8ceef8f7de33a760b11f18cb4f3c5674a68067f49ac5e86ce23df23c3f00"
     },
     "assets/audiobook/player.js": {
       "bytes": 5328,
@@ -2906,8 +3082,8 @@
       "sha256": "53b2195557574a85fe94a62984c938bd64c57eaee812021812dc2b133a019743"
     },
     "chapter-02.html": {
-      "bytes": 63655,
-      "sha256": "f3a35ce4355201db54fd69b12b9f959f85768ef0658afdb0f5e6811f00a9025d"
+      "bytes": 63823,
+      "sha256": "be52d648673959fc936aca2871bc0344992c7893ed45284996f18615d8adb6a4"
     },
     "illustrations/c02-dense-001.webp": {
       "bytes": 41924,
@@ -3002,8 +3178,8 @@
       "sha256": "4db0e5b2befff3cc5648cbb0a9b978a7aebec88c5e62bc7b15af01a6ae941345"
     },
     "chapter-03.html": {
-      "bytes": 42028,
-      "sha256": "26b056cb652931669c148229b0606c408ba31646e2edbecf5c923d538bf2bfac"
+      "bytes": 42196,
+      "sha256": "7f078f509a1a2725412e46493ff87d4785783d5d67b275ad8dde83d541f90388"
     },
     "illustrations/c03-s001.webp": {
       "bytes": 53132,
@@ -3062,8 +3238,8 @@
       "sha256": "c87d72ff40f3c413d79df288cc7b79e16ad1ce3c9761c49c213a2c86c0d799ef"
     },
     "chapter-04.html": {
-      "bytes": 100616,
-      "sha256": "edc49a360a52ba22e05ad8c30f6d752246ca06d86de24c685c0b69226479fbae"
+      "bytes": 100784,
+      "sha256": "51d3fa654ef0c5f6a9ccdc4ec1c11133536e5b4d140398893bf679081a7b76b5"
     },
     "illustrations/c04-dense-001-v2.webp": {
       "bytes": 48804,
@@ -3274,8 +3450,8 @@
       "sha256": "fec23e2b6511feafe804d1c40ed19d52a4ece7c31529df813208fb6b02f5434c"
     },
     "chapter-05.html": {
-      "bytes": 91095,
-      "sha256": "6ee416ff25cf8ee1fb1c9c2e9893f9c092def93faca5b61ca770170a65a8ba9f"
+      "bytes": 91263,
+      "sha256": "e5b03f4517bbb6418684fb8e1ac8228ca0afeb3ccabbaf7b0053bff6b862bb75"
     },
     "illustrations/c05-dense-001.webp": {
       "bytes": 60570,
@@ -3470,8 +3646,8 @@
       "sha256": "938fb089c3395232e7d154d8984593c0e160fbc44d0ce1f9e2cf0ec416991822"
     },
     "chapter-06.html": {
-      "bytes": 81620,
-      "sha256": "57e0e017f39fd24e4a55cd8e7283961305ed455f1600b6b1d786e0330fd74269"
+      "bytes": 81788,
+      "sha256": "86fbfe417298e63db1ae0d27a04cadc35eef9b69395d3bade388e3ba0ff8e3ad"
     },
     "illustrations/c06-dense-001.webp": {
       "bytes": 46728,
@@ -3646,8 +3822,8 @@
       "sha256": "159e11e6906df9ede84a417ed881ed9156b99715b6d1f0d1b9892fa2187e0802"
     },
     "chapter-07.html": {
-      "bytes": 121829,
-      "sha256": "31550b08020368fa455ccedb92e303df21b34970810c1f0e4a6d0607917de1f2"
+      "bytes": 121997,
+      "sha256": "f59c29d60a44b85ddf6952d52aff1fc147a4db4644ad02be937fb01bf13cc30d"
     },
     "illustrations/c07-dense-001.webp": {
       "bytes": 43290,
@@ -3898,8 +4074,8 @@
       "sha256": "7c0224c15223c64f7276cccb5dd5c90e1ad8bf49cb28eecc44daaf754f5a9851"
     },
     "chapter-08.html": {
-      "bytes": 96995,
-      "sha256": "db17999033bef0bfc4d9db643175638d31b924e9453eb7ee0947af7196ce59f0"
+      "bytes": 97163,
+      "sha256": "0d4f8d17cf9f48ada88d8d49e6cd8b85dfe9373cd4a8dd90bf0228e4e2812c76"
     },
     "illustrations/c08-dense-001.webp": {
       "bytes": 47772,
@@ -4142,8 +4318,8 @@
       "sha256": "50eafed152442d719197dbacaf4cefe41d1732ae87347e641a3579178951bb07"
     },
     "chapter-09.html": {
-      "bytes": 88674,
-      "sha256": "815588433c0cf9bc946ba2a293144fb859ad7277c529a1dde032d1e7e367d87e"
+      "bytes": 88842,
+      "sha256": "eb375cfcb18911b99d98778ac46943779c5c01944cc672d8df29efc48451aeda"
     },
     "illustrations/c09-dense-001.webp": {
       "bytes": 54480,
@@ -4330,8 +4506,8 @@
       "sha256": "b13c0d072fac117a757da91a6287b3097e4ff9dc7d8d033b1b828c9a23e6d869"
     },
     "chapter-10.html": {
-      "bytes": 33523,
-      "sha256": "19a81ba51bb838837bc9318fa2fb33f848994e481ccf86efaa82aa938a94013c"
+      "bytes": 33691,
+      "sha256": "6b9b624e0f99ce440902aec1c4573952512b502db0e965f6f2238bafb180fb31"
     },
     "illustrations/c10-dense-001.webp": {
       "bytes": 55210,
@@ -4382,8 +4558,8 @@
       "sha256": "e06d4757efa14f78b9b72225419d6c7e5428ff96907430a3c54a3e76a32952a7"
     },
     "chapter-11.html": {
-      "bytes": 49414,
-      "sha256": "2d2c59f91c244b3184f6c9eba3670283db9101eac8c42ff48ac8e819cfca11c7"
+      "bytes": 49582,
+      "sha256": "d9a710b637d3f5311625ab451e95ba7eb3dbf87b5d0acced5393936ccdf50d41"
     },
     "illustrations/c11-dense-001.webp": {
       "bytes": 46932,
@@ -4470,8 +4646,8 @@
       "sha256": "56b434607e761d0c0c7e712ecc423ac44bd86564c5c2bfa49131eecb5155b668"
     },
     "chapter-12.html": {
-      "bytes": 28889,
-      "sha256": "d7bad33f3fab28bd281202ffa6fe023992cafcd1d84f2c007dcb2d7b6f9451e4"
+      "bytes": 29057,
+      "sha256": "6da83277ac909a41dc952f64dc0139b53c0f0f447f38f700eea4b842d825f720"
     },
     "illustrations/c12-dense-001.webp": {
       "bytes": 53196,
@@ -4510,8 +4686,8 @@
       "sha256": "1f420c3962b9a173e4abe3d42b17d664eb7428be746ae1215b45e7a174134895"
     },
     "chapter-13.html": {
-      "bytes": 65292,
-      "sha256": "2f631b6e872aeef4d0cf460e2794b938dcd280d0c8c7a427efbb99e4ab7224ff"
+      "bytes": 65460,
+      "sha256": "897100e2bb9732275e7ce4ee593527d3772dfc311606b3d416b1361abf6609d5"
     },
     "illustrations/c13-dense-001.webp": {
       "bytes": 51832,
@@ -4638,8 +4814,8 @@
       "sha256": "50dc8da88ef0813fba45b0e09f0b80badf453fd819fec544a8bd0b0c0405bcc4"
     },
     "chapter-14.html": {
-      "bytes": 28675,
-      "sha256": "e55f0d51f5e4bd9eeb3d1bdfa859db347fc5e1b33f5717a4d343bb953cf45e69"
+      "bytes": 28843,
+      "sha256": "31a38e71db24b88eaf8ef1772e449eb4adc978a2ff6e7078aa2014c8f11d86a1"
     },
     "illustrations/c14-dense-001.webp": {
       "bytes": 54528,
@@ -4682,8 +4858,8 @@
       "sha256": "769b3f8ed196be0568091864e76d41862638a2cd3b647160c2a20b7173e29daa"
     },
     "chapter-15.html": {
-      "bytes": 59406,
-      "sha256": "ce09915005dd72fbc5b0a76050be3c16886e3a9698ebb508a398856ab17a45d0"
+      "bytes": 59574,
+      "sha256": "e1e711c1092775cb7ed6a1142ce89325f21571078ebeab6d3e5a5f623f64f571"
     },
     "illustrations/c15-dense-001.webp": {
       "bytes": 61438,
@@ -4782,8 +4958,8 @@
       "sha256": "d813231bf4806e420da736cbf47a530c402bd0252a627566cde7c915f0499aa8"
     },
     "chapter-16.html": {
-      "bytes": 22184,
-      "sha256": "79ee71480d3c00303ebe47f4ae9f5275e35c385606c228e8d22fc68d0fda5cdc"
+      "bytes": 22352,
+      "sha256": "c40867144ade419f216645c68bcb16b51500f15fba1fc767e4e2355a3a9bafd0"
     },
     "illustrations/c16-dense-001.webp": {
       "bytes": 46676,
@@ -4810,8 +4986,8 @@
       "sha256": "fbd6327740bfbb92ad7a0d9f3413cb48e76a7428e34b3c4056d3887f2c9ffae3"
     },
     "chapter-17.html": {
-      "bytes": 53669,
-      "sha256": "546522c4f599a58aa14358b671d54b505c0bcee79cf34969d80dfcd1cc231fc4"
+      "bytes": 53837,
+      "sha256": "8655629359da1eed59a65d3c2456689ea8c065741ad523c3330898888fc57f10"
     },
     "illustrations/c17-dense-001.webp": {
       "bytes": 54126,
@@ -4898,8 +5074,8 @@
       "sha256": "77fe7c755356ea56668957a347b6d3aa21b7bb13fbc21a76b5e96890200aed51"
     },
     "chapter-18.html": {
-      "bytes": 17670,
-      "sha256": "6ebc0857df34d4ee71c9692e7f2d29bfccabb43a84fb1137fb1b0b4d0285cf58"
+      "bytes": 17838,
+      "sha256": "f3e4bc0db15c5ffa81edee0d5e42d9bd69a1d29b393aea80259bfa6b9d0f3435"
     },
     "illustrations/c18-dense-001.webp": {
       "bytes": 49550,
@@ -4914,8 +5090,8 @@
       "sha256": "1553cf6d1c2c48c86e23a4aee6462bc87d5b8819c906f9d8c87dc5d56100954f"
     },
     "chapter-19.html": {
-      "bytes": 54683,
-      "sha256": "2dbc24ad388a1685f41656a40576a6827646f7e08ec797e149ebc61d4461974f"
+      "bytes": 54851,
+      "sha256": "6e4a1f0bd06afc321a6755a90c061bc0e6e338096644ed14f2392289cb82293f"
     },
     "illustrations/c19-dense-001.webp": {
       "bytes": 61442,
@@ -4998,8 +5174,8 @@
       "sha256": "ba0e7805c12110ca3c23b72aa621e71d5dba10d972abb17cd137877490232bdc"
     },
     "chapter-20.html": {
-      "bytes": 26417,
-      "sha256": "ab3f40eb5fc6eef28f24a7cf5fff2cf162b402ab6fda7776f0c49a3ffc1671f7"
+      "bytes": 26585,
+      "sha256": "a5948bc73104ddbc2cc6b820f1103d4941d206e393f44b6e09f98de76aa650c8"
     },
     "illustrations/c20-dense-001.webp": {
       "bytes": 58492,
@@ -5034,8 +5210,8 @@
       "sha256": "c875a4b49b0ac53ea42d6fef484d9e027c06095b73ff4904b769a0ea8b0b0532"
     },
     "chapter-21.html": {
-      "bytes": 18577,
-      "sha256": "9871f2dd94bb99c187a26a310cad1edc71f4b8ac00ef9b9931fe5b4e39920675"
+      "bytes": 18745,
+      "sha256": "61d973903350bad69dc28a2797b4d4de4fcab15bf953d92a43945ccf3eed129b"
     },
     "illustrations/c21-dense-001.webp": {
       "bytes": 58458,
@@ -5054,8 +5230,8 @@
       "sha256": "27709648d2245f674aea5af3e24901c991f0f074447101dff104842ecc59def1"
     },
     "chapter-22.html": {
-      "bytes": 54117,
-      "sha256": "8d3f6ba71e2815149eb89ec74ad4602090f7c425d83ae7371709f8b9479deed8"
+      "bytes": 54285,
+      "sha256": "9e0f6df62abb2c5d523ba202d667d7cc4d2819ca13445ca5eb71529ce73365a5"
     },
     "illustrations/c22-dense-001.webp": {
       "bytes": 34860,
@@ -5170,8 +5346,8 @@
       "sha256": "e412453b10e61b4eaf6263c303c96601c83abc1880312eec0c65227617b65fbd"
     },
     "chapter-23.html": {
-      "bytes": 25729,
-      "sha256": "dbfe7972106844948fef6b1e5843a516fef61c8fd11b00b03f75bad3a6a8685c"
+      "bytes": 25897,
+      "sha256": "19ac2dafb9c72385390c3541437b8c6c3b4576bbe8ac29f643322c53826ce515"
     },
     "illustrations/c23-dense-001.webp": {
       "bytes": 49970,
@@ -5214,8 +5390,8 @@
       "sha256": "c13e9216c6c94731d8faa06f439e0a6646399a81e823aab4f6e186e2412f4674"
     },
     "chapter-24.html": {
-      "bytes": 109177,
-      "sha256": "8fd4bb9e72e330303d9e9dce45127ab97fc483697dd754b89468dd01e52a3aa1"
+      "bytes": 109345,
+      "sha256": "bacef6c1261176763c61f179e9d20eb1af1c18cc397b2dfcea57616b3001b3be"
     },
     "illustrations/c24-dense-001.webp": {
       "bytes": 50148,
@@ -5478,8 +5654,8 @@
       "sha256": "49871556ad1bbcea58fae1f67e3411dceb49e2b1512d308e29bb23ba093de770"
     },
     "chapter-25.html": {
-      "bytes": 46313,
-      "sha256": "085abea3bdf8317f5a54099438264af8f1aa89b497985b15224ff4cbf44da552"
+      "bytes": 46481,
+      "sha256": "c8b5120f4dfde38efdf33ecf4c11f51cfcf14ef858af09fe98d02770f6b733a4"
     },
     "illustrations/c25-dense-001.webp": {
       "bytes": 60112,
@@ -5562,8 +5738,8 @@
       "sha256": "fc51c8e69d25f84fa3a236f275d2cb7829e8380ee44a69860d0a2a57787605eb"
     },
     "chapter-26.html": {
-      "bytes": 33507,
-      "sha256": "2824eec2c13e9c6bcfeff4935bac512dcd7691acd64976a56fb1b835f582fee6"
+      "bytes": 33675,
+      "sha256": "4eaec4cd1bff347e7a9920f6900b1093c42bdaa2b04c36ae18d369e70af2fd01"
     },
     "illustrations/c26-dense-001.webp": {
       "bytes": 18866,
@@ -5618,8 +5794,8 @@
       "sha256": "d44802fc281435807a95b4909ff069aa7af9cef6e04e4b23f99bcb45baaebf61"
     },
     "chapter-27.html": {
-      "bytes": 14893,
-      "sha256": "9d5e23a8b26c6e8c64acd37b9b1cfa9daf448c0a9916c7f33e6392cfd08ed1f2"
+      "bytes": 15061,
+      "sha256": "b586c544f29e47b0dbfb2ccf80e55e4d470b58fd40377c4ef9547ec3e0786a6a"
     },
     "illustrations/c27-dense-001.webp": {
       "bytes": 40580,
@@ -5630,8 +5806,8 @@
       "sha256": "573fce4cb14ecfdc9d2c1cc1f2fbc11c3bdd09fef726a2ffdab99428ad4cd1e9"
     },
     "chapter-28.html": {
-      "bytes": 83257,
-      "sha256": "c5ffd82594de848a7eaf4cff1e925f8d9afdced2cca91ca40393eecc6c98cc99"
+      "bytes": 83425,
+      "sha256": "fb2ef5ed69c6f50a9cb1f0e99e7ab2622c26fcfffc27a052d667df0f913703c3"
     },
     "illustrations/c28-dense-001.webp": {
       "bytes": 47626,
@@ -5830,8 +6006,8 @@
       "sha256": "d5176d51f394783f9b8a509d512ea77f1d9c9770ce0e7bfc0851743cbdc46b7e"
     },
     "part-ii/act-01-01.html": {
-      "bytes": 44639,
-      "sha256": "f3c0f130dfdb3d377b9d4ac7e566301cb062593426760344dcc3a0d504cd7b3a"
+      "bytes": 44813,
+      "sha256": "b1a980865894c611b6591422046f22cca864f3d47ed8fcc3c680ffebe88d11b2"
     },
     "part-ii/reader.css": {
       "bytes": 2089,
@@ -5958,8 +6134,8 @@
       "sha256": "9b1041a2250ab843ea89687c5c87bf491350f689c95c5f0605bf421bd41b0f6e"
     },
     "part-ii/act-01-02.html": {
-      "bytes": 50834,
-      "sha256": "bde39072814e8c358eb16ef5ef12810e4e74bae136d0c848ee99aab63383b6d7"
+      "bytes": 51008,
+      "sha256": "cf18355e5ad233714c32db468b9ea718a9e8d0c9d3785912845a5d9bd140e026"
     },
     "part-ii/images/court-01.webp": {
       "bytes": 52010,
@@ -6090,8 +6266,8 @@
       "sha256": "4b0f89a5ced9f56cc21a657d09372867047efe226701dcef5abdecf69108331f"
     },
     "part-ii/act-01-03.html": {
-      "bytes": 47546,
-      "sha256": "5888e6f2e36dd7b9c18d4f2c1aef7b39df8f93a043f8623b36c5eb6fb1e5a0a4"
+      "bytes": 47720,
+      "sha256": "6f010d86afca912434126b9ecc8e4ce0650a3d08332dff04b1205b1daa5033c2"
     },
     "part-ii/images/debate-01.webp": {
       "bytes": 42288,
@@ -6266,8 +6442,8 @@
       "sha256": "f74b8188f622d6b39850b09778c730ffca7ddd7c6838a413c9c5fe86473a05e1"
     },
     "part-ii/act-01-04.html": {
-      "bytes": 34103,
-      "sha256": "aed750c6c1ceadbb77d990e33dea1d2fe27a9f633d545a51d62c505c48a6f31a"
+      "bytes": 34277,
+      "sha256": "e26def7f78ea05e255ccfd9f63cdaf5be613dfba15e4dfdbd8937b361b0e9f43"
     },
     "part-ii/images/masquerade-01.webp": {
       "bytes": 53002,
@@ -6486,8 +6662,8 @@
       "sha256": "ee2dd2b94f9fe66c4a334be0608c510d8d59f97ee15459b72bf97009c6981e5c"
     },
     "part-ii/act-01-05.html": {
-      "bytes": 34773,
-      "sha256": "a1b78e10ca42d2e3fedfd225ae99b031d20dd2a9aebd6530e7680de9d82054ee"
+      "bytes": 34947,
+      "sha256": "53617dc6fb2dc025ceed80e8a0ee3148d19e7f547080399d888d8d8cee6f72ad"
     },
     "part-ii/images/masquerade-people-01.webp": {
       "bytes": 52236,
@@ -6710,8 +6886,8 @@
       "sha256": "3f255ebbb3b5f82d85299d1565f480814e3a1ae5e650c71c7de1338bbee850ec"
     },
     "part-ii/act-01-06.html": {
-      "bytes": 35827,
-      "sha256": "27ccd2464c0fdd34abe6a5e4de1ae4bc492190ea3e77e58cf89f272761426d0a"
+      "bytes": 36001,
+      "sha256": "f5e0200342783d1f7a3419917e26b47a77804b131e6f7838687696276f9e185d"
     },
     "part-ii/images/furies-01.webp": {
       "bytes": 48094,
@@ -6930,8 +7106,8 @@
       "sha256": "ce96a9167db2bf512d74b0d8f668a6f41b8d144ff626220b576d6da921b8acfa"
     },
     "part-ii/act-01-07.html": {
-      "bytes": 37426,
-      "sha256": "9ac5afded1d5526ed561ef605aa84d3593a26abc275df451aa7689680fa13e20"
+      "bytes": 37600,
+      "sha256": "63115b5c0d2509645479d3be45c96fcb886e39581a7c56d770ea3aa112727228"
     },
     "part-ii/images/charioteer-01.webp": {
       "bytes": 48332,
@@ -7154,8 +7330,8 @@
       "sha256": "3c6bde8388e08c759134c2314e25d05b9827072fca449eece63e318f56d71038"
     },
     "part-ii/act-01-08.html": {
-      "bytes": 37533,
-      "sha256": "3c3dfedb1034fd7b3c826b372bb5f25faa5e5713f614c4df8f097477f9e3d374"
+      "bytes": 37707,
+      "sha256": "e4a24f72ad2d0ab2e48a997bcf52e4b7fd58470ad8737e22ddf7a1420ce4732c"
     },
     "part-ii/images/disturbance-01.webp": {
       "bytes": 56764,
@@ -7378,8 +7554,8 @@
       "sha256": "d563123f7e24da993372073c2b5c261d2bbc25510c92f8f3fe18152c9ffe51b6"
     },
     "part-ii/act-01-09.html": {
-      "bytes": 33311,
-      "sha256": "10bfa15ab3d924d8a46d1cf5ecb2a47f3eee4140d40ec73aff5b94af5c2fe121"
+      "bytes": 33485,
+      "sha256": "69535e906cc3aff98266a5bd6fd15199436feeec2d272d3cba177f6ac156ea96"
     },
     "part-ii/images/climax-01.webp": {
       "bytes": 57634,
@@ -7446,8 +7622,8 @@
       "sha256": "f9621aa85ee50895a5cff24b25ace064e5b6f2214c439793e87f2fe17212f3d3"
     },
     "part-ii/act-01-10.html": {
-      "bytes": 43061,
-      "sha256": "a08bb55206e9628bd140acee935b99e6c1858c0019564cfa0dada2529986071b"
+      "bytes": 43235,
+      "sha256": "1a0e8bd5e222ebfa807a55a8d140853426f6a24ae22f393a0cb621c8080164e1"
     },
     "part-ii/images/garden-council-01.webp": {
       "bytes": 52128,
@@ -7514,8 +7690,8 @@
       "sha256": "be1292ed587c18b6919225aba97be2a15e9fa4491ef186057b849966bdaf60cf"
     },
     "part-ii/act-01-11.html": {
-      "bytes": 46686,
-      "sha256": "523293a3e0d5ad316d89caf08f9cadcc912d1a646e8ba5b55e11ecea9c44117f"
+      "bytes": 46860,
+      "sha256": "4c92896251b804cd8a37e437d46453439bc58ba5c354146f600cfcb6ceddd34a"
     },
     "part-ii/images/corridor-01.webp": {
       "bytes": 41738,
@@ -7582,8 +7758,8 @@
       "sha256": "537ba247db4a4d1bd1e730babb61c05862fbfe2f36a9968f4f5f4760eef9d8a7"
     },
     "part-ii/act-01-12.html": {
-      "bytes": 44143,
-      "sha256": "bb10ab76dd7ef4c3a49f2d18398bd9507c1e1cbb81f4f048701e33fcaef84deb"
+      "bytes": 44317,
+      "sha256": "bb75f216944eec6a1179f5c014456dadbe85784626213391521c8be84c58d434"
     },
     "part-ii/images/knights-hall-01.webp": {
       "bytes": 44268,
@@ -7650,12 +7826,12 @@
       "sha256": "06706564468b1d42a2ec4a99047097e2ea94be3d916883d48a4dad1e26430bf2"
     },
     "part-ii/act-01.html": {
-      "bytes": 358262,
-      "sha256": "3346d6c2f17caf5ec7805ece183403d8e54d1b2eeb5b7a4fac634d90beb3cbd8"
+      "bytes": 358436,
+      "sha256": "b50480955a46d00d42bd5465346b6ff846493aff20c6e7de0874cc38e20567fc"
     },
     "part-ii/act-02-01.html": {
-      "bytes": 29312,
-      "sha256": "99cad6f9f6cdea4a6ebb0bc3c09269b3d2050a826e9b3bbc305a870975cb2228"
+      "bytes": 29486,
+      "sha256": "a48a7c05a077b85635c01383b9b4ccc5815864320cb51e3817b98d0840a35b0b"
     },
     "part-ii/images/gothic-room-01.webp": {
       "bytes": 36924,
@@ -7722,8 +7898,8 @@
       "sha256": "7ab19b8be93379301ed4ccf6bac3a44c6dadf600c38a3ae35b75ed31cc73b4b8"
     },
     "part-ii/act-02-02.html": {
-      "bytes": 31466,
-      "sha256": "611d551c7914cfaaf82ad29d2e755764b82483fc07473bacddd063c7e831bda2"
+      "bytes": 31640,
+      "sha256": "cbb8a47c161ad26ea025f2b32378b677b6bd2fb24493c017608ad2c641d8d369"
     },
     "part-ii/images/scholar-mephisto-01.webp": {
       "bytes": 41598,
@@ -7790,8 +7966,8 @@
       "sha256": "4a2d53588e1e6abec8de3ced2d426eb3fac37f1eb849cacd9fa2b0906f39ac65"
     },
     "part-ii/act-02-03.html": {
-      "bytes": 46927,
-      "sha256": "0d10101f5e4a218734c4b7728b7705eb7eae66ba15d15cf8f5617d322d16e570"
+      "bytes": 47101,
+      "sha256": "69eaaab8eea58264ab5152123ac76cf9f753143c7533e8777070e035bf7861cb"
     },
     "part-ii/images/laboratory-001-01.webp": {
       "bytes": 44566,
@@ -7994,8 +8170,8 @@
       "sha256": "5d656ea561c720950e94915cf88e5c56a5e78a5a53a686fe8aea127bd8c44072"
     },
     "part-ii/act-02-04.html": {
-      "bytes": 25229,
-      "sha256": "41ace23ec16f67e7c40ed0b095895c71a990116c414f0d1692c2989397da6cd8"
+      "bytes": 25403,
+      "sha256": "3360c3fae8c2fb1523747bec77271d4f14ac04cb2828b508f294fee4f92f4698"
     },
     "part-ii/images/lab-pharsalus-03.webp": {
       "bytes": 41970,
@@ -8078,8 +8254,8 @@
       "sha256": "59a7d6eaecdfc2d1a5b4a777af1c78713cf27500d871e18db2efcfeb469ef1c5"
     },
     "part-ii/act-02-05.html": {
-      "bytes": 46797,
-      "sha256": "947ef1194c4ff8eb533adef746e7e1784d30e65df94be00e74278aedc410eceb"
+      "bytes": 46971,
+      "sha256": "12616bd56ae1d5c0b59672bfefa438db94c2bcacac3a609ff32593dc2e861abc"
     },
     "part-ii/images/pharsalus-peneios-07.webp": {
       "bytes": 41620,
@@ -8258,8 +8434,8 @@
       "sha256": "6a8e02b88f754a06837231f68f82ae0a788a73b6542655301e59d04cc674aa3c"
     },
     "part-ii/act-02-06.html": {
-      "bytes": 32691,
-      "sha256": "d68287e9a025ef92d1ac7ce3087a9fe915ed5e3ac46cab997a939ffcffe4dea7"
+      "bytes": 32865,
+      "sha256": "f4b193cf0b894d99a1bd57b1d7894bc08e5d035fde2030860f38cc89ac5b7073"
     },
     "part-ii/images/lower-peneios-arrival-03.webp": {
       "bytes": 56102,
@@ -8382,8 +8558,8 @@
       "sha256": "7eb18fa34788e801618f6c2d58d24aff95deaab768e1f5313016609a4fff211e"
     },
     "part-ii/act-02-07.html": {
-      "bytes": 37142,
-      "sha256": "166cef26a94110ae3de3e69ba840764a6891ca01e4c24a894b7facf3a77d9a49"
+      "bytes": 37316,
+      "sha256": "420e953c9dbb5154790b31402e41e6418e9f8c77625fdd3d799cd3af19057102"
     },
     "part-ii/images/chiron-memories-01.webp": {
       "bytes": 50604,
@@ -8522,8 +8698,8 @@
       "sha256": "4fe04dc71face1c50b4e6f5bb016e233f4016139d61c1a16694616ed28cd7e18"
     },
     "part-ii/act-02-08.html": {
-      "bytes": 41479,
-      "sha256": "51aa20d7903930c8bc7745d7dfd4662db727c5593cb506825b2f2bf2e0224f6d"
+      "bytes": 41653,
+      "sha256": "3d8729ad15227d2f3a0e170adfa20354964ea7a4a71c9e37a92c5ba1e4d06c73"
     },
     "part-ii/images/seismos-upheaval-03.webp": {
       "bytes": 56442,
@@ -8710,8 +8886,8 @@
       "sha256": "d39e1ea0272add17ef337ef0042fe4509e55488963f93837ad588dde056056ce"
     },
     "part-ii/act-02-09.html": {
-      "bytes": 45432,
-      "sha256": "f5564ca2e7370e3cb0b27ab3b101726ad2319d5a04dce2afc29bf83ec6364fe9"
+      "bytes": 45606,
+      "sha256": "40c236dc1fdb3a3e4f54c3e53ce8533b42d965d211433289f41b0efdea843d6b"
     },
     "part-ii/images/lamiae-pursuit-01.webp": {
       "bytes": 51440,
@@ -8898,8 +9074,8 @@
       "sha256": "2f2c451e2ad8a1b7ed56d8ea3c6596eae767f5a071e7e83f2c53461a9fc83b25"
     },
     "part-ii/act-02-10.html": {
-      "bytes": 46638,
-      "sha256": "432feb67fbf8be88b6f619fbe8d1116d1d4f9c5a3f468ef43eba69e45b03f267"
+      "bytes": 46812,
+      "sha256": "8acd1e607484f8c7b44f0dede90ef055e9524e8718d93bfecac17f7851f771c9"
     },
     "part-ii/images/oreas-philosophers-15.webp": {
       "bytes": 54366,
@@ -9086,8 +9262,8 @@
       "sha256": "4e8a32adf87d34593bcbfff153c5d234cb36f3e1ad4ba5d939ebf5b8ec506d29"
     },
     "part-ii/act-02-11.html": {
-      "bytes": 39727,
-      "sha256": "770a4d45d631104b8d2f9a166a88920472bfd18ef9e6b5ec84caa6853f544d61"
+      "bytes": 39901,
+      "sha256": "6dd640e2ce0dc3c2617003ce6557ebe51a4ac6cd634bc553b3bed0511b5f661f"
     },
     "part-ii/images/phorkyas-sea-13.webp": {
       "bytes": 58414,
@@ -9246,8 +9422,8 @@
       "sha256": "d2bc612e6a56198175e16f52322404d1641ad8dd3816d495c8dd815a269381c4"
     },
     "part-ii/act-02-12.html": {
-      "bytes": 40578,
-      "sha256": "a320d00ebffeeade9e6e5aea5de8fead81b818de34bee3d1114bf3d66b369aa1"
+      "bytes": 40752,
+      "sha256": "2b5ff36653f9fad268c4f75d4325ab7ae775912ffa3ce0e25085143e5a57ffae"
     },
     "part-ii/images/kabiri-hidden-proteus-04.webp": {
       "bytes": 47640,
@@ -9406,8 +9582,8 @@
       "sha256": "56388c3d2a9395e99c8b97589d0cadf72fc1c488fdcb6bc070240db9a759d148"
     },
     "part-ii/act-02-13.html": {
-      "bytes": 39395,
-      "sha256": "f3e89466e04c90e6b188c79c0826974a057d95c17256e75a6943dbe231ceaf68"
+      "bytes": 39569,
+      "sha256": "fefc42375a4b045c6e67dde4c24356c5b1b8cc08ed9d00f482da3f4fb23587d7"
     },
     "part-ii/images/dolphin-moon-procession-11.webp": {
       "bytes": 48598,
@@ -9566,12 +9742,12 @@
       "sha256": "37fd3751f01b9b685009d9a94aad916ac793d742abeae5bf98d564d832269df5"
     },
     "part-ii/act-02.html": {
-      "bytes": 320219,
-      "sha256": "d1777c745a8389f185e2675a36be11ecef8a390dbb4f28f451da4e27f50e1c78"
+      "bytes": 320393,
+      "sha256": "e359bc9d8794ca9f78c7ca645cffe713f395ee8e9d08b06b8ae44580814eaa46"
     },
     "part-ii/act-03-01.html": {
-      "bytes": 42051,
-      "sha256": "b5b9c51b72949c397cc6421dea8ce521bb6f3188763da7d73b5fa68c7989feaa"
+      "bytes": 42225,
+      "sha256": "7b57b01f55a3ec2737b089f4e9e9deae38da64704b2f25563b9f73d6b4bff1fc"
     },
     "part-ii/images/sea-sparta-threshold-02.webp": {
       "bytes": 59746,
@@ -9734,8 +9910,8 @@
       "sha256": "8cec6e1969f535a5c738e92c31b501fe10ca602ee0fbcb8a3d8aa647ddf7fc4e"
     },
     "part-ii/act-03-02.html": {
-      "bytes": 44265,
-      "sha256": "427378810fc7e2ff2198c3b484b94bf9e3db60ec1b3e34f6c993c8519e947262"
+      "bytes": 44439,
+      "sha256": "958cdc0f652922c38e03dd9b1c4ad8618a83e3fa2ab33c046d6003fb1dd1112a"
     },
     "part-ii/images/panthalis-return-10.webp": {
       "bytes": 50966,
@@ -9906,8 +10082,8 @@
       "sha256": "78cacdc4886463abe7d545464782b3b1f80a3af307aac4753c8e8dadc1a78176"
     },
     "part-ii/act-03-03.html": {
-      "bytes": 47069,
-      "sha256": "f40dd4e59bf9ac053e8aeab5f1d5fb5aa224b2dee4b75d82975119fdbfa0187d"
+      "bytes": 47243,
+      "sha256": "825463b6d95e4d04c77f1cb1aacd2cdd6cd830005dfd8e741c1fdba3d9bb76f3"
     },
     "part-ii/images/helena-memory-dispute-04.webp": {
       "bytes": 54664,
@@ -10074,8 +10250,8 @@
       "sha256": "3c497dbd05cf568118bf13c0b8f52bffde34c99d3b05f14f5b85cf7725d24b2a"
     },
     "part-ii/act-03-04.html": {
-      "bytes": 43246,
-      "sha256": "394bc840ef343e366a5b18dd906585eb10e36ee3b9aef4a16234e02947e29cb5"
+      "bytes": 43420,
+      "sha256": "160c349f178600b8631208e08f6f9ba768fc9be3052b5242d3d981ea9792121c"
     },
     "part-ii/images/phorkyas-threat-rescue-13.webp": {
       "bytes": 61208,
@@ -10222,104 +10398,104 @@
       "sha256": "1a1722f060a589d789a2614193f4075f3b4be4ccd78bcecebfcc3028538b4d0f"
     },
     "part-ii/act-03-05.html": {
-      "bytes": 32457,
-      "sha256": "5105ac317dbce02aa715520994ec2bd682ce5f0ad5cc43fa66e9b5e7cd3c2952"
+      "bytes": 32631,
+      "sha256": "c46e91c0ce5cf63dc43c73872c24ed048caf97523373b29a4dab131413f617ca"
     },
     "part-ii/act-03-06.html": {
-      "bytes": 31621,
-      "sha256": "946e213854cd58df1c2c49bc14de72d2274caad9b0e6943c4a2d741a808f9959"
+      "bytes": 31795,
+      "sha256": "5509d9e0a9db1e1baaeb08619acd0cff97893672da1f36522b0924201a7e6fcf"
     },
     "part-ii/act-03-07.html": {
-      "bytes": 32611,
-      "sha256": "6129cb8c951ff7e7c54ad9f7c82d1a12699a6828fbb13c6ab5bad718ba347082"
+      "bytes": 32785,
+      "sha256": "5b9b8d5c02773fc7dd6a8baf83a914da03cdda93ab16547e299707e42f6d0336"
     },
     "part-ii/act-03-08.html": {
-      "bytes": 33838,
-      "sha256": "658af00db9b692d05d1fdc4d246559be0793d4e75c7c89b3622488c7b3bb09fe"
+      "bytes": 34012,
+      "sha256": "faa703bb8c58eaf0470cf9994bde0d6c37ba76013b167e118b15cf4a7db80152"
     },
     "part-ii/act-03-09.html": {
-      "bytes": 29136,
-      "sha256": "14adaa8994edc8f07d4da78cfe81aba8b3679437c985e01542eccbe1747061b4"
+      "bytes": 29310,
+      "sha256": "b236f4dbdf9c5e913241dc1ab70e6f5a9e1a4682863cc55f1cfc7fa405f43ff8"
     },
     "part-ii/act-03-10.html": {
-      "bytes": 35448,
-      "sha256": "b1aedcfac7602bb337a64a49bada5d401bacb901dc8659d7e3590355ae9ca683"
+      "bytes": 35622,
+      "sha256": "36c9e3078e70fe51750523a7fdea619570bb46ad7867694c724a3a66526a13be"
     },
     "part-ii/act-03.html": {
-      "bytes": 264840,
-      "sha256": "e6114def929cfa0f8c1d7d26788aa5f5c02d3bd75163592fc8a11c4100355bae"
+      "bytes": 265014,
+      "sha256": "8d34f2f2ae5d2ece3cefff3e65ce0520b66f6ecd31681dbe38b50d548b9d61c0"
     },
     "part-ii/act-04-01.html": {
-      "bytes": 34785,
-      "sha256": "bfe8490b2f1aef7913301ceeb311297af4a67f10469557807704da1dd8c32c94"
+      "bytes": 34959,
+      "sha256": "0d2b2a94501ebff77b0fc8e428345e01982cdb5aba0a046793f5002d9679e901"
     },
     "part-ii/act-04-02.html": {
-      "bytes": 34766,
-      "sha256": "237e43c439cbb7e49387e79a4aafe0125d08f434bf83b8f8d73d475263aadaae"
+      "bytes": 34940,
+      "sha256": "9c6cc01124345b515dc12ace4ce3d7b0952a15ec2b5c4a394755f3dd10c03ece"
     },
     "part-ii/act-04-03.html": {
-      "bytes": 33559,
-      "sha256": "82f1c7107f6cf3a12e71ac4e4d330c0d5e5a3ef38144859318847d8d483c28fe"
+      "bytes": 33733,
+      "sha256": "c666f6c031584c2f7f46ca18c51f18c8bca49bc8f7f7fad27384c6776ff4d744"
     },
     "part-ii/act-04-04.html": {
-      "bytes": 32726,
-      "sha256": "aa6c4effcf3ac4e8fa8bc068e5d2cc91515a6d19e71269b539151eccb4b92623"
+      "bytes": 32900,
+      "sha256": "eeca7b711d8a773042e73fc46d4df37c47c858e35d499fed7087762f55c2fa9c"
     },
     "part-ii/act-04-05.html": {
-      "bytes": 31692,
-      "sha256": "a404e1e0f15d7cbfbefc226433e4e12816e8a0e43b216e4ac3a6b34598c54044"
+      "bytes": 31866,
+      "sha256": "e07a2510cc23d28d8708fb8b107fde43ec658389921691f3be621d8808524f4e"
     },
     "part-ii/act-04-06.html": {
-      "bytes": 32015,
-      "sha256": "d39736225adff7b6232343213f3004e6a95cc16fd5beca65301aa0233968204d"
+      "bytes": 32189,
+      "sha256": "2148be4a447ef84a473a1601ae813b6f9229419625ae7275acfe757d9f61388a"
     },
     "part-ii/act-04-07.html": {
-      "bytes": 33200,
-      "sha256": "0c02be0bf1c462d373c537da0e567f4a834eb796260072c73e77b866421f5513"
+      "bytes": 33374,
+      "sha256": "4d493e73a56dd4dea67592822ccdd4af4e18b4460b2b14e190c12530c668c7f8"
     },
     "part-ii/act-04.html": {
-      "bytes": 180807,
-      "sha256": "e6066535eb8118176b70ddde95ff46af190d5130c94d120f36f919a79d23b918"
+      "bytes": 180981,
+      "sha256": "f6ff3d3e83f8655aeef7f232fe379049f2165d952be5d86a129bd7d45dc8009c"
     },
     "part-ii/act-05-01.html": {
-      "bytes": 23329,
-      "sha256": "a393f201f35dad31f797b7605da35e64f1e8d62dd2d5108197c73165e40fdd70"
+      "bytes": 23503,
+      "sha256": "582bf9e0be7d5dd189bf414dbd19ba9a5040e4e48efcda446039daef740cf6f2"
     },
     "part-ii/act-05-02.html": {
-      "bytes": 30019,
-      "sha256": "c7baf3317389ba76873e805243a448a6386e77e58a0c762eb54c9be2fe0d267f"
+      "bytes": 30193,
+      "sha256": "dcb1d0da4b18952e0fa490ad1c4bcf2288f05b6c45db842365fbf0de60310e79"
     },
     "part-ii/act-05-03.html": {
-      "bytes": 22572,
-      "sha256": "2018c0715dcee3ca348f0a7a424c50026cede510dd8faa409550589d14506bc5"
+      "bytes": 22746,
+      "sha256": "17c80edc2edf061ab2abe06548e439a7b69791a870b11fd6622978bd296a8a50"
     },
     "part-ii/act-05-04.html": {
-      "bytes": 30157,
-      "sha256": "6f814e02930645532245c20f22042d6948020c7ca527ea58df281cbfa4597f0c"
+      "bytes": 30331,
+      "sha256": "484de8beb83eff96954745739be6a61267eae9fdc56a22825a14c76c512e7e1d"
     },
     "part-ii/act-05-05.html": {
-      "bytes": 24161,
-      "sha256": "c5fa386ded234d863e9111167f6045f3272461e37bc89f305277f66169cde401"
+      "bytes": 24335,
+      "sha256": "85556e29bb3fdc349f2b1265a2f689ce9a332c1dcf707be949599f1c6df5de1c"
     },
     "part-ii/act-05-06.html": {
-      "bytes": 28404,
-      "sha256": "bb1ca6ba013f3585d3f2f74337420d8f28c16e2f3a47dc0bf1fc87a34435ba50"
+      "bytes": 28578,
+      "sha256": "8f982070382c3c2f8027651ebf279b66cab51e25a42313d1ad7e12a4c2479aba"
     },
     "part-ii/act-05-07.html": {
-      "bytes": 26841,
-      "sha256": "715045785ff0fd3e07b98bf1163aa1da50f186ecf3d53a1301b101e604e16b71"
+      "bytes": 27015,
+      "sha256": "faded8a9f6caec01698bacd7d1603d45ba768c5653c9a80843a5a1ca24fcf55d"
     },
     "part-ii/act-05-08.html": {
-      "bytes": 27603,
-      "sha256": "0a9ec47c3c0ce4f7127c60320e96c4f4215d0255a1acd41fbd520c142283c7e6"
+      "bytes": 27777,
+      "sha256": "726b9f3766af3e414f1cd19dbb9b4382b0b65148583cbf15b0cb94c2aa43d1ba"
     },
     "part-ii/act-05-09.html": {
-      "bytes": 26328,
-      "sha256": "6eea54779064e0ac757ce85b8c0addc1841bc06ecb130979215e57987b2f7a99"
+      "bytes": 26502,
+      "sha256": "b3b041059d59cb59c97fb5503226f76be97201200dd5593fce32c69bbcb8120f"
     },
     "part-ii/act-05.html": {
-      "bytes": 170285,
-      "sha256": "6d2739c0b5414bbf76bc005acd968a3123a26a7e6fee6bf4362a289ad1b0a8cd"
+      "bytes": 170459,
+      "sha256": "a89f07db42fd0519d13cb8a03ac0b16e2bc0437b1a3692e7b652e675cc34cf8e"
     }
   }
 }

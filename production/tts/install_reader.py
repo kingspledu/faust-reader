@@ -24,10 +24,15 @@ def install(path):
  base='../' if path.parent!=root else ''
  css=f'<link rel="stylesheet" href="{base}assets/audiobook/reader.css"/>'
  if css not in html:html=html.replace('</head>',css+'</head>')
+ theme=f'<link rel="stylesheet" href="{base}assets/audiobook/theme.css" data-faust-theme="1"/>'
+ if 'data-faust-theme="1"' not in html:
+  html=html.replace('</head>',theme+'</head>') if '</head>' in html else html+theme
  html=re.sub(r'<script src="(?:\.\./)?assets/audiobook/player.js"[^>]*></script>\s*','',html)
  html=re.sub(r'<link[^>]*data-faust-reader[^>]*>\s*','',html)
  html=re.sub(r'<script[^>]*data-faust-reader[^>]*></script>\s*','',html)
  html+=f'\n<link rel="stylesheet" href="{base}assets/audiobook/reader.css" data-faust-reader="1">\n<script src="{base}assets/audiobook/reader.js" data-faust-reader="1" defer></script>\n'
+ html=re.sub(r'<script[^>]*data-faust-theme-script[^>]*></script>\s*','',html)
+ html+=f'<script src="{base}assets/audiobook/theme.js" data-faust-theme-script="1" defer></script>\n'
  if path.name=='chapter-01.html' and path.parent==root:html+='<script src="assets/audiobook/player.js" data-audio-manifest="audio/part-1/chapter-01/manifest.json" defer></script>\n'
  after=BeautifulSoup(html,'html.parser')
  assert [str(x) for x in after.select('.source-fold')]==protected
