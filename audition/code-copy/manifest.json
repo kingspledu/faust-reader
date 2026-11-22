@@ -1,0 +1,15 @@
+{
+  "schema": "canvas-code-copy-1",
+  "title": "파우스트 제1부 전체 성우 오디션",
+  "template_sha256": "e5b8b2b7369276d3c57d001c3cef7b399981dbbf4bb73e682143d3415ab5b89e",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "제1부 전체 배역 오디션 · 202구간",
+      "file": "chapters/FAUST_P1_AUD02_ALL_GEMINI_CANVAS_TTS.html",
+      "bytes": 587906,
+      "sha256": "efeafd43223cdad41d7cb3a720bc45b51ebced61cda26eabfd1f529a17562b0c",
+      "segments": 202
+    }
+  ]
+}

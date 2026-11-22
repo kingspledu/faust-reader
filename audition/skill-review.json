@@ -1,0 +1,348 @@
+{
+  "skill_revision": "632ce8f68385a14d47ac911709f68ced76847bb5",
+  "reviewed_questions": [
+    {
+      "cast_id": "narrator",
+      "question": "Q01",
+      "evidence": "게시 1장 c01-s001의 narrator/narration 속성과 발화 본문 일치 확인. 문맥 검토: 청자에게 시인과 회상의 시작을 소개한다."
+    },
+    {
+      "cast_id": "narrator",
+      "question": "Q02",
+      "evidence": "게시 13장 c13-dense-001의 narrator/narration 속성과 발화 본문 일치 확인. 문맥 검토: 청자에게 마르테의 처지와 그레첸이 찾아온 상황을 연결한다."
+    },
+    {
+      "cast_id": "narrator",
+      "question": "Q03",
+      "evidence": "게시 24장 c24-dense-001의 narrator/narration 속성과 발화 본문 일치 확인. 문맥 검토: 장소가 대성당에서 하르츠 산맥으로 바뀐 것을 안내한다."
+    },
+    {
+      "cast_id": "narrator",
+      "question": "Q04",
+      "evidence": "게시 28장 c28-dense-001의 narrator/narration 속성과 발화 본문 일치 확인. 문맥 검토: 감옥 문 앞의 파우스트가 그레첸을 구하려는 상황을 전달한다."
+    },
+    {
+      "cast_id": "character-008",
+      "question": "Q01",
+      "evidence": "게시 7장 c07-dense-003의 character-008/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 파우스트에게 옷을 바꾸고 새로운 생활을 시작하자고 재촉한다."
+    },
+    {
+      "cast_id": "character-008",
+      "question": "Q02",
+      "evidence": "게시 3장 c03-dense-004의 character-008/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 주 앞에서 공손한 척하며 인간 세계를 빈정거린다."
+    },
+    {
+      "cast_id": "character-008",
+      "question": "Q03",
+      "evidence": "게시 15장 c15-dense-003의 character-008/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 마르테 앞에서 떠나야 하는 이유를 사교적으로 설명한다."
+    },
+    {
+      "cast_id": "character-008",
+      "question": "Q04",
+      "evidence": "게시 28장 c28-dense-043의 character-008/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 감옥의 파우스트에게 위험을 경고하며 즉시 나오라고 재촉한다."
+    },
+    {
+      "cast_id": "character-010",
+      "question": "Q01",
+      "evidence": "게시 4장 c04-dense-018의 character-010/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 불러낸 대지의 정령에게 자신도 같은 존재라고 주장한다."
+    },
+    {
+      "cast_id": "character-010",
+      "question": "Q02",
+      "evidence": "게시 7장 c07-dense-004의 character-010/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 메피스토에게 무엇을 입어도 자신의 답답함은 해결되지 않는다고 말한다."
+    },
+    {
+      "cast_id": "character-010",
+      "question": "Q03",
+      "evidence": "게시 16장 c16-dense-001의 character-010/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 그레첸을 찾아낸 반가움을 장난스러운 질문으로 표현한다."
+    },
+    {
+      "cast_id": "character-010",
+      "question": "Q04",
+      "evidence": "게시 28장 c28-dense-035의 character-010/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 감옥의 그레첸에게 자신을 보고 문밖으로 나오라고 설득한다."
+    },
+    {
+      "cast_id": "character-053",
+      "question": "Q01",
+      "evidence": "게시 10장 c10-dense-001의 character-053/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 처음 만난 파우스트의 동행 제안을 예의 있게 거절한다."
+    },
+    {
+      "cast_id": "character-053",
+      "question": "Q02",
+      "evidence": "게시 15장 c15-dense-001의 character-053/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 파우스트가 자신에게 맞춰 주는 것 아닌지 조심스럽게 묻는다."
+    },
+    {
+      "cast_id": "character-053",
+      "question": "Q03",
+      "evidence": "게시 19장 c19-dense-002의 character-053/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 파우스트의 종교관을 확인하고 믿음이 중요하지 않다는 태도에 의문을 품는다."
+    },
+    {
+      "cast_id": "character-053",
+      "question": "Q04",
+      "evidence": "게시 28장 c28-dense-015의 character-053/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 감옥에서 들은 목소리가 정말 파우스트인지 다시 확인하려 한다."
+    },
+    {
+      "cast_id": "character-054",
+      "question": "Q01",
+      "evidence": "게시 13장 c13-dense-001의 character-054/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 곁을 떠난 남편에게 못다 한 불만을 말한다."
+    },
+    {
+      "cast_id": "character-054",
+      "question": "Q02",
+      "evidence": "게시 13장 c13-dense-001의 character-054/monologue 속성과 발화 본문 일치 확인. 문맥 검토: 남편의 소식을 몰라 기다려야 하는지 스스로 고민한다."
+    },
+    {
+      "cast_id": "character-001",
+      "question": "Q01",
+      "evidence": "게시 2장 c02-dense-001의 character-001/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 관객의 재미와 극장 운영을 생각하며 공연 방향을 제안한다."
+    },
+    {
+      "cast_id": "character-001",
+      "question": "Q02",
+      "evidence": "게시 2장 c02-dense-023의 character-001/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 극작가와 배우에게 하늘부터 지옥까지 공연의 큰 흐름과 속도를 제시한다."
+    },
+    {
+      "cast_id": "character-002",
+      "question": "Q01",
+      "evidence": "게시 2장 c02-dense-003의 character-002/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 극장 지배인의 관객 이야기가 창작의 집중을 흐린다고 반박한다."
+    },
+    {
+      "cast_id": "character-002",
+      "question": "Q02",
+      "evidence": "게시 2장 c02-dense-019의 character-002/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 젊을 때 온 힘으로 사랑하고 미워했던 창작의 감정을 회상한다."
+    },
+    {
+      "cast_id": "character-012",
+      "question": "Q01",
+      "evidence": "게시 4장 c04-dense-022의 character-012/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 파우스트에게 들은 소리를 그리스 비극으로 여겼다며 말의 기술을 논한다."
+    },
+    {
+      "cast_id": "character-012",
+      "question": "Q02",
+      "evidence": "게시 5장 c05-dense-044의 character-012/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 파우스트와 달리 검은 푸들만 보인다며 관찰을 조심스럽게 설명한다."
+    },
+    {
+      "cast_id": "character-042",
+      "question": "Q01",
+      "evidence": "게시 7장 c07-dense-038의 character-042/monologue 속성과 발화 본문 일치 확인. 문맥 검토: 학자를 만났다는 기대와 질문을 잘해야 한다는 긴장을 속으로 말한다."
+    },
+    {
+      "cast_id": "character-042",
+      "question": "Q02",
+      "evidence": "게시 7장 c07-dense-057의 character-042/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 학자로 위장한 메피스토에게 다음에도 찾아와도 되는지 묻는다."
+    },
+    {
+      "cast_id": "character-003",
+      "question": "Q01",
+      "evidence": "게시 2장 c02-dense-005의 character-003/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 미래 독자보다 지금 극장 관객을 웃기는 일이 중요하다고 장난스럽게 반문한다."
+    },
+    {
+      "cast_id": "character-003",
+      "question": "Q02",
+      "evidence": "게시 2장 c02-dense-020의 character-003/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 나이 들어도 어린 마음이 남아 있다는 생각을 동료에게 말한다."
+    },
+    {
+      "cast_id": "character-055",
+      "question": "Q01",
+      "evidence": "게시 20장 c20-dense-001의 character-055/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 그레첸에게 베르벨헨의 소식을 꺼내며 반응을 살핀다."
+    },
+    {
+      "cast_id": "character-055",
+      "question": "Q02",
+      "evidence": "게시 20장 c20-dense-007의 character-055/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 베르벨헨의 결혼을 조롱할 일을 말하며 가혹한 여론을 드러낸다."
+    },
+    {
+      "cast_id": "character-009",
+      "question": "Q01",
+      "evidence": "게시 3장 c03-dense-005의 character-009/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 메피스토에게 땅에서 마음에 드는 것이 정말 없었는지 묻는다."
+    },
+    {
+      "cast_id": "character-009",
+      "question": "Q02",
+      "evidence": "게시 3장 c03-dense-013의 character-009/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 메피스토의 자극이 인간을 안주하지 않게 할 수 있다고 말한다."
+    },
+    {
+      "cast_id": "character-043",
+      "question": "Q01",
+      "evidence": "게시 8장 c08-dense-001의 character-043/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 술집 동료들에게 더 활기차게 마시고 웃자고 부추긴다."
+    },
+    {
+      "cast_id": "character-043",
+      "question": "Q02",
+      "evidence": "게시 8장 c08-dense-059의 character-043/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 눈속임이 끝난 뒤 자신이 포도주를 마셨다는 감각을 주장한다."
+    },
+    {
+      "cast_id": "character-045",
+      "question": "Q01",
+      "evidence": "게시 8장 c08-dense-003의 character-045/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 술집 분위기를 깨는 사람을 내보내고 노래하자고 말한다."
+    },
+    {
+      "cast_id": "character-045",
+      "question": "Q02",
+      "evidence": "게시 8장 c08-dense-059의 character-045/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 벌어진 일을 눈속임이었다고 단정하며 동료들에게 말한다."
+    },
+    {
+      "cast_id": "character-046",
+      "question": "Q01",
+      "evidence": "게시 8장 c08-dense-004의 character-046/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 술집 동료의 시끄러운 소리에 불평한다."
+    },
+    {
+      "cast_id": "character-046",
+      "question": "Q02",
+      "evidence": "게시 8장 c08-dense-060의 character-046/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 놀라운 일을 겪은 뒤 동료들에게 기적을 믿지 않겠느냐고 묻는다."
+    },
+    {
+      "cast_id": "character-052",
+      "question": "Q01",
+      "evidence": "게시 9장 c09-dense-024의 character-052/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 부엌에 들어온 이들의 정체와 허락을 따져 묻는다."
+    },
+    {
+      "cast_id": "character-052",
+      "question": "Q02",
+      "evidence": "게시 9장 c09-dense-034의 character-052/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 약을 그대로 마시는 위험을 경고하며 의식을 준비할 이유를 말한다."
+    },
+    {
+      "cast_id": "character-044",
+      "question": "Q01",
+      "evidence": "게시 8장 c08-dense-001의 character-044/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 프로슈의 불평에 네가 웃길 일을 하지 않아서라고 받아친다."
+    },
+    {
+      "cast_id": "character-044",
+      "question": "Q02",
+      "evidence": "게시 8장 c08-dense-060의 character-044/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 눈속임이었다는 설명을 듣고 보았던 포도송이는 무엇이었는지 묻는다."
+    },
+    {
+      "cast_id": "character-056",
+      "question": "Q01",
+      "evidence": "게시 22장 c22-dense-010의 character-056/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 누이를 꾀는 자가 누구인지 어둠 속 상대를 추궁한다."
+    },
+    {
+      "cast_id": "character-056",
+      "question": "Q02",
+      "evidence": "게시 22장 c22-dense-026의 character-056/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 누이의 일에 관여한 마르테에게 책임을 따지며 분노한다."
+    },
+    {
+      "cast_id": "character-011",
+      "question": "Q01",
+      "evidence": "게시 4장 c04-dense-016의 character-011/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 자신을 불러낸 파우스트에게 누가 불렀는지 묻는다."
+    },
+    {
+      "cast_id": "character-011",
+      "question": "Q02",
+      "evidence": "게시 4장 c04-dense-019의 character-011/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 파우스트의 동등하다는 주장을 차갑게 부정한다."
+    },
+    {
+      "cast_id": "character-050",
+      "question": "Q01",
+      "evidence": "게시 9장 c09-dense-009의 character-050/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 마녀의 행방을 묻는 방문자에게 잔치에 갔다고 답한다."
+    },
+    {
+      "cast_id": "character-050",
+      "question": "Q02",
+      "evidence": "게시 9장 c09-dense-012의 character-050/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 주사위와 부에 대한 바람을 장난스럽게 말한다."
+    },
+    {
+      "cast_id": "character-058",
+      "question": "Q01",
+      "evidence": "게시 23장 c23-dense-001의 character-058/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 그레첸에게 과거의 편안한 기도와 지금의 죄책감을 대비시킨다."
+    },
+    {
+      "cast_id": "character-058",
+      "question": "Q02",
+      "evidence": "게시 23장 c23-dense-007의 character-058/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 그레첸이 숨으려 해도 자신이 한 일을 감출 수 없다고 압박한다."
+    },
+    {
+      "cast_id": "character-013",
+      "question": "Q01",
+      "evidence": "게시 4장 c04-dense-046의 character-013/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 부활의 소식을 선포하는 합창의 대표 낭독이다. 노래나 다중 합창을 자동 생성하지 않는다."
+    },
+    {
+      "cast_id": "character-084",
+      "question": "Q01",
+      "evidence": "게시 25장 c25-dense-002의 character-084/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 춤추는 무리가 더 온다며 상대의 시선을 뒤로 돌린다."
+    },
+    {
+      "cast_id": "dedication-poet",
+      "question": "Q01",
+      "evidence": "게시 1장 c01-s002의 dedication-poet/monologue 속성과 발화 본문 일치 확인. 문맥 검토: 다시 이야기를 쓰려는 설렘에서 끝까지 쓸 수 있을지 망설임으로 이동하는 시인의 내면이다."
+    },
+    {
+      "cast_id": "extra-dancer-woman",
+      "question": "Q01",
+      "evidence": "게시 5장 c05-dense-022의 extra-dancer-woman/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 갑작스러운 행동을 하는 춤 상대를 멈추며 묻는다."
+    },
+    {
+      "cast_id": "character-014",
+      "question": "Q01",
+      "evidence": "게시 4장 c04-dense-048의 character-014/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 함께 예수를 눕혔으나 무덤에 없다는 놀라움을 전하는 대표 낭독이다."
+    },
+    {
+      "cast_id": "character-015",
+      "question": "Q01",
+      "evidence": "게시 4장 c04-dense-051의 character-015/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 부활한 스승과 달리 남은 자신들의 슬픔을 말하는 대표 낭독이다."
+    },
+    {
+      "cast_id": "character-038",
+      "question": "Q01",
+      "evidence": "게시 5장 c05-dense-028의 character-038/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 마을을 찾은 파우스트에게 감사와 환영을 담아 술잔을 권한다."
+    },
+    {
+      "cast_id": "character-057",
+      "question": "Q01",
+      "evidence": "게시 22장 c22-dense-019의 character-057/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 그레첸에게 쓰러진 사람이 오빠라고 알려 주는 군중의 짧은 말이다."
+    },
+    {
+      "cast_id": "character-060",
+      "question": "Q01",
+      "evidence": "게시 24장 c24-dense-005의 character-060/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 부름에 응하면서 원래 곧게 가지 못하는 자신의 특성을 설명한다."
+    },
+    {
+      "cast_id": "character-082",
+      "question": "Q01",
+      "evidence": "게시 25장 c25-dense-001의 character-082/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 오베론과 티타니아의 화해를 축하하며 공연을 알린다."
+    },
+    {
+      "cast_id": "character-083",
+      "question": "Q01",
+      "evidence": "게시 25장 c25-dense-002의 character-083/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 티타니아에게 싸움을 피하려면 잠깐 떨어져 있는 편이 낫다고 말한다."
+    },
+    {
+      "cast_id": "character-086",
+      "question": "Q01",
+      "evidence": "게시 25장 c25-dense-003의 character-086/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 오베론의 제안에 남쪽과 북쪽 끝까지 떨어져야 한다고 재치 있게 응답한다."
+    },
+    {
+      "cast_id": "character-092",
+      "question": "Q01",
+      "evidence": "게시 25장 c25-dense-005의 character-092/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 그리스 신과 요정을 모두 악마로 보는 자신의 판단을 강하게 주장한다."
+    },
+    {
+      "cast_id": "character-097",
+      "question": "Q01",
+      "evidence": "게시 25장 c25-dense-008의 character-097/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 제멋대로인 연주 무리에게 박자를 듣고 들어오라고 지시한다."
+    },
+    {
+      "cast_id": "character-098",
+      "question": "Q01",
+      "evidence": "게시 25장 c25-dense-009의 character-098/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 칭찬하다 갑자기 말을 뒤집는 변덕을 한 발화 안에서 드러낸다."
+    },
+    {
+      "cast_id": "character-109",
+      "question": "Q01",
+      "evidence": "게시 25장 c25-dense-015의 character-109/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 주변의 소란이 전부 자신의 생각이라는 관념에 스스로 당황한다."
+    },
+    {
+      "cast_id": "character-119",
+      "question": "Q01",
+      "evidence": "게시 28장 c28-dense-049의 character-119/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 감옥의 마지막에 구원받았음을 선언하는 짧은 목소리다. 특정 인물의 신원을 새로 확정하지 않는다."
+    },
+    {
+      "cast_id": "character-123",
+      "question": "Q01",
+      "evidence": "게시 9장 c09-dense-011의 character-123/dialogue 속성과 발화 본문 일치 확인. 문맥 검토: 무엇을 끓이는지 묻는 방문자에게 수프 이름을 답하는 공동 배역의 대표 말이다."
+    }
+  ],
+  "requests": 202,
+  "actual_canvas_test": false,
+  "monologue_effect": "canonical template echo-v4; no double effect in comparison"
+}

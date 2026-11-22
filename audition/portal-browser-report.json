@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "roles": 39,
+  "clipboard_exact": true,
+  "persistence": true,
+  "manual_copy_fallback": true,
+  "corrupt_html_rejected": true,
+  "mobile_overflow": false,
+  "js_errors": [],
+  "actual_canvas_generation": false,
+  "actual_listening": false
+}
