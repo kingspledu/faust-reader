@@ -6746,6 +6746,55 @@
         "../part-ii/act-02-12.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-proteus",
+      "name": "프로테우스",
+      "source_name": "PROTEUS",
+      "kind": "character",
+      "image": "character-ii-proteus.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "긴 짙은 청록 머리·오른쪽 은빛 가닥",
+        "짧고 뾰족한 어두운 수염",
+        "긴소매 바다색 로브·상아색 허리띠·구리 나선 고리",
+        "돌고래형: 청록 등·은회색 배·초록 눈·자연스러운 지느러미"
+      ],
+      "canonical_note": "탈레스와 호문쿨루스는 모습을 감추고 말하던 프로테우스를 빛으로 유인한다. 그는 바다에서 작은 생명으로 시작하라고 조언하고 돌고래로 변해 길을 안내한다. 인간형과 돌고래형은 별개 인물이 아니라 같은 존재의 변신이다. 얼굴·복식·눈가 무늬는 장면의 일관성을 위한 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-12.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-telchines",
+      "name": "텔키네스",
+      "source_name": "TELCHINEN",
+      "kind": "character",
+      "image": "group-ii-telchines.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "짧은 구릿빛 갈색 머리·네모난 짧은 갈색 수염",
+        "먹색 긴소매 튜닉·적갈색 가죽 앞치마",
+        "구리 팔보호구·세 갈래 청동 삼지창"
+      ],
+      "canonical_note": "바다의 장인들이 자신들이 벼린 넵투누스의 삼지창과 신의 형상을 만든 솜씨를 노래한다. 현재 장면은 달빛 아래의 행렬이다. 대장간 작업이나 넵투누스의 직접 등장을 추가하지 않는다. 대표 장인과 같은 계열의 복식으로 합창 무리를 표현했으며, 외모·도구의 세부는 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-12.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"

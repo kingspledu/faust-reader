@@ -1,0 +1,107 @@
+{
+  "batch_id": "dolphin-moon-procession",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/dolphin-moon-procession-grid-001.png",
+  "references": [
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "character-ii-proteus",
+    "group-ii-telchines",
+    "group-ii-sirens",
+    "character-ii-nereus",
+    "place-ii-aegean-coves"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5072",
+      "description": "텔키네스가 신상을 만들었던 솜씨를 자랑한다. 현재에 거대 신상을 추가하지 않는다."
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5076",
+      "description": "프로테우스가 장인들의 자부심을 두고 탈레스와 이야기한다."
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5082",
+      "description": "프로테우스가 청동 신상의 덧없음을 설명한다. 주조 작업 장면으로 바꾸지 않는다."
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5086",
+      "description": "프로테우스가 바다 쪽으로 몸을 돌려 호문쿨루스를 안내한다."
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5090",
+      "description": "프로테우스가 돌고래 모습으로 변한다. 인간형을 동시에 별개 인물로 그리지 않는다."
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5096",
+      "description": "돌고래형 프로테우스가 병 속 존재를 등에 태우겠다고 제안하고 탈레스가 권한다."
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5102",
+      "description": "탈레스가 밀폐된 병 속 호문쿨루스에게 새로운 시작을 권한다."
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5106",
+      "description": "돌고래형 프로테우스와 닫힌 병이 수면 가까이 이동한다."
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5111",
+      "description": "돌고래형 프로테우스가 병 속 호문쿨루스에게 바다의 삶을 설명한다."
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-5114",
+      "description": "탈레스가 물가에서 마지막 말에 응답한다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5120",
+      "description": "돌고래형 프로테우스가 물가의 탈레스에게 답한다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5125",
+      "description": "세이렌들이 달 둘레를 둥글게 나는 흰 비둘기 무리를 본다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5131",
+      "description": "달빛 속 비둘기들의 무리가 바다 축제 위를 난다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5135",
+      "description": "네레우스가 달 둘레의 흰 새들을 바라보며 말을 꺼낸다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5141",
+      "description": "네레우스가 딸의 행렬에 앞서는 비둘기들을 설명한다. 딸의 모습은 아직 그리지 않는다."
+    },
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5145",
+      "description": "탈레스가 물가에서 비둘기 행렬을 바라보며 응답한다."
+    }
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/proteus-telchines-grid-001.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/character-ii-proteus.png",
+    "art-bible/character-ii-nereus.png",
+    "art-bible/group-ii-sirens.png"
+  ],
+  "generation_reference_note": "원본 캐릭터 시트의 인물·의상·병 형태를 우선하며, 앞 배치 그리드는 공간과 구도 연결에만 사용한다."
+}
