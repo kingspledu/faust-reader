@@ -6417,6 +6417,128 @@
         "../part-ii/act-02-09.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "variant-ii-empuse-donkey",
+      "kind": "variant",
+      "name": "엠푸사 · 당나귀 머리 변신",
+      "source_name": "EMPUSE",
+      "image": "variant-ii-empuse-donkey.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "당나귀 머리",
+        "자주색 먹빛 로브",
+        "세이지 띠",
+        "한쪽 당나귀 발굽"
+      ],
+      "canonical_note": "엠푸사는 메피스토를 위해 당나귀 머리를 썼다고 말한다. 기존 로브와 발의 차이는 유지하고 머리만 바뀌게 해 같은 인물의 변신임을 보여 준다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-09.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-oreas",
+      "kind": "character",
+      "name": "오레아스",
+      "source_name": "OREAS",
+      "image": "character-ii-oreas.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "바위와 이어진 성인 여성 얼굴",
+        "참나무 잎",
+        "회녹색 망토"
+      ],
+      "canonical_note": "길을 잃은 메피스토에게 위로 올라오라고 부르는 산의 정령이다. 오레아스는 자신의 오래된 산과 방금 솟은 지형을 구별한다. 바위에서 드러난 얼굴과 참나무 잎은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-09.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-anaxagoras",
+      "kind": "character",
+      "name": "아낙사고라스",
+      "source_name": "ANAXAGORAS",
+      "image": "character-ii-anaxagoras.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "긴 은회색 머리",
+        "각진 긴 수염",
+        "황토와 적갈색 고전 로브"
+      ],
+      "canonical_note": "산이 생겨난 이유를 두고 탈레스와 논쟁한다. 바위가 불의 기운으로 만들어졌다고 주장하는 태도를 강한 시선과 손짓으로 담았다. 얼굴과 의상 색상은 창작 시각화이며 실제 초상 복원이 아니다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-09.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-thales",
+      "kind": "character",
+      "name": "탈레스",
+      "source_name": "THALES",
+      "image": "character-ii-thales.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "짧은 회색 곱슬머리",
+        "둥근 짧은 수염",
+        "푸른 로브와 상아색 숄"
+      ],
+      "canonical_note": "탈레스는 생명이 습기에서 생겨났다고 말하고 자연의 형성은 짧은 시간이나 폭력에 매이지 않는다고 답한다. 차분한 표정과 푸른 의상으로 아낙사고라스와 구별했다. 외모는 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-09.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "variant-ii-lamiae-bats",
+      "kind": "variant",
+      "name": "라미아 · 박쥐 변신",
+      "source_name": "LAMIEN / FLEDERMÄUSE",
+      "image": "variant-ii-lamiae-bats.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "자연형 짙은 갈색 박쥐",
+        "막날개",
+        "큰 귀",
+        "발톱"
+      ],
+      "canonical_note": "라미아의 아름다운 겉모습을 붙잡으려던 메피스토의 주위에 박쥐 같은 검은 비행이 펼쳐진다. 인간 연구자가 아니라 자연형 박쥐의 날개와 비행으로 원문의 변화를 담는다. 색상은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-09.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"

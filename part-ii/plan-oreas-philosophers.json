@@ -1,0 +1,104 @@
+{
+  "batch_id": "oreas-philosophers",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/oreas-philosophers-grid-001.png",
+  "references": [
+    "character-mephistopheles-scholar",
+    "character-ii-oreas",
+    "character-ii-homunculus",
+    "character-ii-anaxagoras",
+    "character-ii-thales"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-mephistopheles-scholar.png",
+    "art-bible/character-ii-oreas.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/character-ii-anaxagoras.png",
+    "art-bible/character-ii-thales.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4371",
+      "description": "메피스토가 바위 사이를 오르내리며 스핑크스를 찾는다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4375",
+      "description": "산의 정령 오레아스가 위로 올라오라고 부른다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4381",
+      "description": "오레아스가 자신의 오래된 바위길과 산을 설명한다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4385",
+      "description": "오레아스가 새로 솟은 환상의 산은 곧 사라질 것이라고 말한다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4389",
+      "description": "메피스토가 참나무 잎에 둘러싸인 오레아스에게 인사한다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4395",
+      "description": "덤불 옆에서 희미한 빛이 움직인다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4399",
+      "description": "메피스토가 밀폐 유리병 안의 호문쿨루스를 알아본다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4405",
+      "description": "호문쿨루스가 유리를 깨고 태어나고 싶지만 아직 위험하다고 말한다. 병은 깨지지 않는다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4409",
+      "description": "호문쿨루스가 자연을 논하는 두 철학자를 뒤따르고 있다고 말한다. 두 사람은 아직 가까이 보이지 않는다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4413",
+      "description": "메피스토가 스스로 판단해 보라고 답한다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4419",
+      "description": "메피스토가 철학자에 대한 비꼬는 말을 이어 간다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4423",
+      "description": "호문쿨루스가 조언도 쓸모 있다며 떠나고 메피스토가 배웅한다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4430",
+      "description": "아낙사고라스가 탈레스에게 논쟁을 건다."
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4437",
+      "description": "탈레스가 물의 성질과 생명의 기원을 말하며 아낙사고라스에게 답한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4445",
+      "description": "호문쿨루스가 두 철학자 곁에 떠서 함께 가고 싶다고 말한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4452",
+      "description": "탈레스가 자연은 긴 시간에 걸쳐 형성되며 폭력으로만 만들어지지 않는다고 설명한다."
+    }
+  ]
+}

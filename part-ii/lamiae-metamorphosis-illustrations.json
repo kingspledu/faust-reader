@@ -1,0 +1,284 @@
+{
+  "source_image": "source_images/lamiae-metamorphosis-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-mephistopheles-scholar",
+    "group-ii-lamiae",
+    "variant-ii-empuse-donkey",
+    "variant-ii-lamiae-bats"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-mephistopheles-scholar.png",
+    "art-bible/group-ii-lamiae.png",
+    "art-bible/variant-ii-empuse-donkey.png",
+    "art-bible/variant-ii-lamiae-bats.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4285",
+      "description": "메피스토가 엠푸사의 친척 인사를 못마땅해한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/lamiae-metamorphosis-01.webp",
+      "sha256": "2f6206535ec7a166eb83fee768cf7ecb154a61b53f9f9cf28299637c5ff65075"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4291",
+      "description": "엠푸사가 당나귀 머리로 변신해 메피스토에게 보여 준다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/lamiae-metamorphosis-02.webp",
+      "sha256": "96500d38e342105cb0258f8d2ee98f164325bb4e808a158deb94baef6d847962"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4297",
+      "description": "메피스토가 당나귀 머리는 인정하고 싶지 않다고 반응한다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/lamiae-metamorphosis-03.webp",
+      "sha256": "60f5a33e96aa917aaf5597aa8b6f016fd88302c53ae12e13761a664051656d58"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4303",
+      "description": "라미아들이 엠푸사 때문에 분위기가 깨진다고 불평한다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/lamiae-metamorphosis-04.webp",
+      "sha256": "fe880e4298d75ac471ab2bc995e5b2984b73e66833c9975ee834ff396c2c56b6"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4309",
+      "description": "메피스토가 라미아들의 얼굴 뒤에도 변신이 있을까 의심한다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/lamiae-metamorphosis-05.webp",
+      "sha256": "a641c06efbb2cbd8a0d439973f665774f7bb9952501d4b987f1c31d2a63538d4"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4315",
+      "description": "라미아들이 직접 골라 보라며 메피스토를 재촉한다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/lamiae-metamorphosis-06.webp",
+      "sha256": "d5c33354680b5c3a65c6bf9319a597724b40677cefe1d1280bf0238dee60954e"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4321",
+      "description": "메피스토가 무리 속으로 들어가자 라미아들이 가면을 벗으려 한다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/lamiae-metamorphosis-07.webp",
+      "sha256": "d9544686fecb3ec92f24f8c5f9748b325c2801478f91c9705b4fa87ca388b3ff"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4325",
+      "description": "아름다운 얼굴 대신 마른 빗자루 같은 형상을 발견한 메피스토가 놀란다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/lamiae-metamorphosis-08.webp",
+      "sha256": "dbe8d6d5d3b178933859c5493592312a647b079668af05f62e016a1fb933a97b"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4331",
+      "description": "도마뱀이 메피스토 손에서 빠져나가고 뱀 같은 머리카락이 스친다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/lamiae-metamorphosis-09.webp",
+      "sha256": "1fc0f88b1d0c06eb7ab1c2526cd942731a56bf2118623b7b1fa28fae9cc37cf4"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4339",
+      "description": "메피스토 손에 솔방울이 달린 티르소스 지팡이가 잡힌다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/lamiae-metamorphosis-10.webp",
+      "sha256": "ad9893f93d23c724c8f017fdd13ea3f21c4e87e98fe6832ebfb59454bd5375c7"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4343",
+      "description": "메피스토가 마지막으로 둥근 버섯 형상에 손을 뻗는다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/lamiae-metamorphosis-11.webp",
+      "sha256": "a165c2a6a9b12e0ffbf586ba3cfd7eb884705a0f9bda9232694d2036015a9f31"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4347",
+      "description": "말불버섯이 터지며 라미아들이 흩어진다. 인체 손상은 없다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/lamiae-metamorphosis-12.webp",
+      "sha256": "9876b71f30dd6b98c00e759bd6b6f7da52248822cc56081de8873a3e7d7c4efa"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4353",
+      "description": "검은 박쥐 무리가 메피스토 주위를 돈다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/lamiae-metamorphosis-13.webp",
+      "sha256": "235bee48b8ca7b1717cd5270a59c08edc200655af325813370f91c3ed4f46390"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4359",
+      "description": "메피스토가 북쪽이나 이곳이나 다르지 않다며 짜증을 낸다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/lamiae-metamorphosis-14.webp",
+      "sha256": "f45f17123ff6d5d698c7708f2279fff976b941596e4526e9d1b81ae516d8e3a9"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4363",
+      "description": "메피스토가 아름다운 가면을 잡으려다 기이한 형상을 잡았다고 되돌아본다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/lamiae-metamorphosis-15.webp",
+      "sha256": "46056c71cebcc8fa37f3c9b7dda092a777b03cb9d8da37993cbbf7a12e494388"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4367",
+      "description": "메피스토가 사라진 길과 새 바위 지형을 보고 당황한다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/lamiae-metamorphosis-16.webp",
+      "sha256": "37b7f2573e10b988aea1b3f345f49c46faf6b42325c0775ee31142394f5b68d6"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}

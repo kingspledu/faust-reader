@@ -1,8 +1,8 @@
 {
   "scope": "Part II source panels without any image; existing image suitability not re-audited",
   "batch_capacity": 16,
-  "remaining_source_panels": 1280,
-  "minimum_remaining_batches": 80,
+  "remaining_source_panels": 1264,
+  "minimum_remaining_batches": 79,
   "reference_sheets_excluded": true,
   "sections": [
     {
@@ -128,8 +128,8 @@
     {
       "section": "act-02-09",
       "total": 46,
-      "illustrated": 16,
-      "unillustrated": 30
+      "illustrated": 32,
+      "unillustrated": 14
     },
     {
       "section": "act-02-10",
