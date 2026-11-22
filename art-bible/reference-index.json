@@ -6895,6 +6895,83 @@
         "../part-ii/act-02-13.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "character-iii-helena",
+      "name": "헬레네",
+      "source_name": "HELENA",
+      "kind": "character",
+      "image": "character-iii-helena.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "꿀빛 금발",
+        "호박색 눈",
+        "금 월계관",
+        "상아색 긴소매 드레스",
+        "버건디 망토"
+      ],
+      "canonical_note": "스파르타 궁전으로 돌아온 헬레네는 남편이 자신을 어떻게 맞이할지 알지 못한다. 이름과 아름다움에 붙은 소문보다 지금 문턱 앞에서 느끼는 불안에 시선을 두었다. 외모와 복식은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        3
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-03-01.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-iii-helena-chorus",
+      "name": "헬레네의 시녀 합창단",
+      "source_name": "CHOR",
+      "kind": "character",
+      "image": "group-iii-helena-chorus.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "짙은 밤색 땋은 머리",
+        "황토색 긴소매 드레스",
+        "탁한 파란 숄",
+        "청동 허리띠"
+      ],
+      "canonical_note": "헬레네를 따라 궁전 앞에 선 여성들의 합창이다. 그녀를 위로하면서 자신들이 겪은 일도 이야기한다. 같은 계열 복식으로 역할을 구분하며 외모는 창작 디자인이다.",
+      "part": 2,
+      "act_numbers": [
+        3
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-03-01.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "place-iii-sparta-palace",
+      "name": "스파르타의 메넬라오스 궁전",
+      "source_name": "PALAST DES MENELAS",
+      "kind": "place",
+      "image": "place-iii-sparta-palace.png",
+      "sheet_scope": "place",
+      "menu_group": "places",
+      "visual_locks": [
+        "한 쌍의 청동 문",
+        "밝은 석회암 기둥",
+        "넓은 일곱 계단",
+        "적갈색 인방",
+        "왼쪽 올리브나무"
+      ],
+      "canonical_note": "제3막은 귀향한 헬레네가 궁전 문 앞에 선 장면으로 시작한다. 문턱과 계단을 중심으로 바깥 마당과 내부 공간을 연결했다. 지도와 건축은 창작 무대 설계이며 고대 궁전 실물 복원이 아니다.",
+      "part": 2,
+      "act_numbers": [
+        3
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-03-01.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"

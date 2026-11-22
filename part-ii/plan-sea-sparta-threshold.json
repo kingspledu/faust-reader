@@ -1,0 +1,104 @@
+{
+  "batch_id": "sea-sparta-threshold",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/sea-sparta-threshold-grid-001.png",
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "place-iii-sparta-palace",
+    "character-ii-galatea",
+    "group-ii-dorids",
+    "group-ii-sirens"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/place-iii-sparta-palace.png",
+    "part-ii/source_images/shell-throne-radiance-grid-001.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5318",
+      "description": "빛나는 밤바다에서 바다 무리가 마지막 합창을 한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5325",
+      "description": "새 장면의 낮, 헬레네가 스파르타 궁전 문 앞에 도착한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5331",
+      "description": "헬레네가 항해의 흔들림을 떠올리며 궁전 앞에 선다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5335",
+      "description": "헬레네가 고향의 궁전에 인사한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5339",
+      "description": "헬레네가 어린 시절의 기억을 떠올리며 청동 문을 본다. 과거 인물을 추가하지 않는다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5343",
+      "description": "헬레네가 문을 열어 달라며 손을 뻗는다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5347",
+      "description": "헬레네가 불안을 감추고 문턱 앞에서 마음을 다잡는다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5351",
+      "description": "헬레네가 소문과 과거를 말한다. 현재의 궁전 앞 장면을 유지한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5355",
+      "description": "시녀 합창단이 헬레네를 위로한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5361",
+      "description": "시녀들이 아름다움의 명성을 이야기하며 응답한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5365",
+      "description": "헬레네가 남편의 뜻을 모르겠다며 시녀들에게 말한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5371",
+      "description": "헬레네가 자신의 처지가 왕비인지 포로인지 고민한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5375",
+      "description": "궁전의 큰 문 아래에서 헬레네가 불길한 예감을 느낀다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5379",
+      "description": "헬레네가 남편의 침묵을 회상한다. 남편을 현재에 등장시키지 않는다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5383",
+      "description": "헬레네가 남편의 명령을 시녀들에게 전한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5387",
+      "description": "헬레네가 강을 따라오라는 명령을 이야기한다. 현재의 궁전 앞을 유지한다."
+    }
+  ]
+}

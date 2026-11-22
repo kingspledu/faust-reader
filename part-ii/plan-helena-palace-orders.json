@@ -1,0 +1,101 @@
+{
+  "batch_id": "helena-palace-orders",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/helena-palace-orders-grid-001.png",
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "place-iii-sparta-palace"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/place-iii-sparta-palace.png",
+    "part-ii/source_images/sea-sparta-threshold-grid-001.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5391",
+      "description": "헬레네가 궁전을 살피라는 명령을 이어 전한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5395",
+      "description": "헬레네가 시녀와 보물을 확인하라는 말을 전한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5399",
+      "description": "헬레네가 집 안의 질서를 말하며 문을 바라본다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5403",
+      "description": "시녀 합창단이 장신구를 말하며 헬레네에게 응답한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5409",
+      "description": "시녀들이 헬레네에게 궁전 안으로 들어가자고 권한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5413",
+      "description": "헬레네가 제사용 그릇을 준비하라는 말을 전한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5419",
+      "description": "헬레네가 세발솥과 물항아리를 열거한다. 상징적 소품 세부로 표현한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5423",
+      "description": "물항아리와 마른 나무, 덮인 의식용 칼의 세부를 보여 준다. 유혈 장면은 추가하지 않는다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5427",
+      "description": "헬레네가 제물의 정체를 명시하지 않은 명령을 걱정한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5431",
+      "description": "헬레네가 신들의 뜻에 맡기겠다고 말한다. 신의 형체는 추가하지 않는다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5435",
+      "description": "헬레네가 제사가 중단된 일을 예로 든다. 실제 도살을 그리지 않는다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5439",
+      "description": "시녀들이 헬레네를 격려한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5445",
+      "description": "시녀들이 트로이에서 겪은 일을 말한다. 현재의 얼굴과 반응만 그린다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5449",
+      "description": "시녀 합창단이 낮의 햇빛 아래 헬레네를 바라본다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5453",
+      "description": "헬레네가 궁전으로 올라갈 결심을 한다."
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5459",
+      "description": "헬레네가 돌계단에 발을 올리며 머뭇거리고 시녀들이 따른다."
+    }
+  ]
+}

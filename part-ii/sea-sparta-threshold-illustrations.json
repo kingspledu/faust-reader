@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/sea-sparta-threshold-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "place-iii-sparta-palace",
+    "character-ii-galatea",
+    "group-ii-dorids",
+    "group-ii-sirens"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/group-iii-helena-chorus.png",
+    "art-bible/place-iii-sparta-palace.png",
+    "part-ii/source_images/shell-throne-radiance-grid-001.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-13",
+      "scene_id": "source-5318",
+      "description": "빛나는 밤바다에서 바다 무리가 마지막 합창을 한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/sea-sparta-threshold-01.webp",
+      "sha256": "37fd3751f01b9b685009d9a94aad916ac793d742abeae5bf98d564d832269df5"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5325",
+      "description": "새 장면의 낮, 헬레네가 스파르타 궁전 문 앞에 도착한다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/sea-sparta-threshold-02.webp",
+      "sha256": "6e563b8d156744ec3757e5611710b23f05f4637497a206a3ab2d4ce486de4957"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5331",
+      "description": "헬레네가 항해의 흔들림을 떠올리며 궁전 앞에 선다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/sea-sparta-threshold-03.webp",
+      "sha256": "d7f465ce77a2113f800e7c10d42c59a3eb47885c4877dd334aace0c7396b3b9f"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5335",
+      "description": "헬레네가 고향의 궁전에 인사한다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/sea-sparta-threshold-04.webp",
+      "sha256": "2a9422edc0b5a8bb77cc03c7f2c9d71116f69a5b44fe1f6f5112733500cdd6cf"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5339",
+      "description": "헬레네가 어린 시절의 기억을 떠올리며 청동 문을 본다. 과거 인물을 추가하지 않는다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/sea-sparta-threshold-05.webp",
+      "sha256": "ff573f1c8a63bb54bc9f152a82bae17f552ea5e3482b99b5bc2741e3e4da73c1"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5343",
+      "description": "헬레네가 문을 열어 달라며 손을 뻗는다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/sea-sparta-threshold-06.webp",
+      "sha256": "26efe05c3d56116c61543c58bcbf25b1ea54f5f930480e37aa3d11152653f91a"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5347",
+      "description": "헬레네가 불안을 감추고 문턱 앞에서 마음을 다잡는다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/sea-sparta-threshold-07.webp",
+      "sha256": "1970b4ac4b6ba36580a26d570872753bf77aa07f1f94dd924c150a008c71e691"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5351",
+      "description": "헬레네가 소문과 과거를 말한다. 현재의 궁전 앞 장면을 유지한다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/sea-sparta-threshold-08.webp",
+      "sha256": "2b7595d4704678f1368e4221ce31f09afa634953af4be83868cdae1dae8cdbe7"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5355",
+      "description": "시녀 합창단이 헬레네를 위로한다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/sea-sparta-threshold-09.webp",
+      "sha256": "81e0332ec6af2663867f301a704f650fb8ac660630e0ca927814f939a2953280"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5361",
+      "description": "시녀들이 아름다움의 명성을 이야기하며 응답한다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/sea-sparta-threshold-10.webp",
+      "sha256": "349e865a8453b5721a58f8c6dc8aa33acbe867749222f4b3d1f946cd57d1100d"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5365",
+      "description": "헬레네가 남편의 뜻을 모르겠다며 시녀들에게 말한다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/sea-sparta-threshold-11.webp",
+      "sha256": "57f03bceee884c1fa6113f67bb7dcbb5c27f346ac5c555ae015e7ec8c9016967"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5371",
+      "description": "헬레네가 자신의 처지가 왕비인지 포로인지 고민한다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/sea-sparta-threshold-12.webp",
+      "sha256": "4db62a48bcdcae52f9343579f6e8a2bd81ebafd113cc18a7fb5d00e194bea5a1"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5375",
+      "description": "궁전의 큰 문 아래에서 헬레네가 불길한 예감을 느낀다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/sea-sparta-threshold-13.webp",
+      "sha256": "8946d4736b2122bdbf21ae37b7dc1a36c3c081f0c1a8e849459ed2f9be29f8ec"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5379",
+      "description": "헬레네가 남편의 침묵을 회상한다. 남편을 현재에 등장시키지 않는다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/sea-sparta-threshold-14.webp",
+      "sha256": "d38ee56fd562c6fe6d6c4007cd298a8a503f75c3f3f980509a1d71d516203707"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5383",
+      "description": "헬레네가 남편의 명령을 시녀들에게 전한다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/sea-sparta-threshold-15.webp",
+      "sha256": "b958c01331d26aafc262ab4b3f6b2557549413ad1473892bcde93e5a9aa15304"
+    },
+    {
+      "section": "act-03-01",
+      "scene_id": "source-5387",
+      "description": "헬레네가 강을 따라오라는 명령을 이야기한다. 현재의 궁전 앞을 유지한다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/sea-sparta-threshold-16.webp",
+      "sha256": "6b123f80b1151e55d267deb4cff7c6b138605c187cbf75dc115737ff01afb90a"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
