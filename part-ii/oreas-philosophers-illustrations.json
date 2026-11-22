@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/oreas-philosophers-grid-001.png",
+  "source_size": [
+    1672,
+    941
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-mephistopheles-scholar",
+    "character-ii-oreas",
+    "character-ii-homunculus",
+    "character-ii-anaxagoras",
+    "character-ii-thales"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-mephistopheles-scholar.png",
+    "art-bible/character-ii-oreas.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/character-ii-anaxagoras.png",
+    "art-bible/character-ii-thales.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4371",
+      "description": "메피스토가 바위 사이를 오르내리며 스핑크스를 찾는다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        417,
+        234
+      ],
+      "image": "images/oreas-philosophers-01.webp",
+      "sha256": "cf346b94502294759af513e02be3946192439e0a07b6850d27d8e5af3566fcfe"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4375",
+      "description": "산의 정령 오레아스가 위로 올라오라고 부른다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        419,
+        1,
+        835,
+        234
+      ],
+      "image": "images/oreas-philosophers-02.webp",
+      "sha256": "a4ec8a9e473ff2a9cd7a3ba56c4f040b9206cb2e11a61d2869e0012c8760b577"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4381",
+      "description": "오레아스가 자신의 오래된 바위길과 산을 설명한다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        837,
+        1,
+        1253,
+        234
+      ],
+      "image": "images/oreas-philosophers-03.webp",
+      "sha256": "eee07f07d7e20b3244b9eaa3cbe95f29d9f3bad9d029beea5650f6bf290dafa6"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4385",
+      "description": "오레아스가 새로 솟은 환상의 산은 곧 사라질 것이라고 말한다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1255,
+        1,
+        1671,
+        234
+      ],
+      "image": "images/oreas-philosophers-04.webp",
+      "sha256": "a166f12d0df30d32eb624be2aed7540054bd3fb05693b121781acd4e1c965afc"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4389",
+      "description": "메피스토가 참나무 잎에 둘러싸인 오레아스에게 인사한다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        236,
+        417,
+        469
+      ],
+      "image": "images/oreas-philosophers-05.webp",
+      "sha256": "3a9df322213a9e7c64a327cd857838192380bacb85145c5085a19d67ec217797"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4395",
+      "description": "덤불 옆에서 희미한 빛이 움직인다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        419,
+        236,
+        835,
+        469
+      ],
+      "image": "images/oreas-philosophers-06.webp",
+      "sha256": "855010459303baeb4ee4192504b7efa214f15309d390c5b4452b5ee970b51de1"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4399",
+      "description": "메피스토가 밀폐 유리병 안의 호문쿨루스를 알아본다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        837,
+        236,
+        1253,
+        469
+      ],
+      "image": "images/oreas-philosophers-07.webp",
+      "sha256": "f85306aa19ad958d71643dec521e45450092f0126c7ae45133962a276b66342b"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4405",
+      "description": "호문쿨루스가 유리를 깨고 태어나고 싶지만 아직 위험하다고 말한다. 병은 깨지지 않는다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1255,
+        236,
+        1671,
+        469
+      ],
+      "image": "images/oreas-philosophers-08.webp",
+      "sha256": "3c516247bce81290cf3c0ea0ccd97dc61a028ba13e49360a74e5e5be51896664"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4409",
+      "description": "호문쿨루스가 자연을 논하는 두 철학자를 뒤따르고 있다고 말한다. 두 사람은 아직 가까이 보이지 않는다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        471,
+        417,
+        705
+      ],
+      "image": "images/oreas-philosophers-09.webp",
+      "sha256": "e6798eebee25d55f55cc33604206ebd28d1b37eb7b2adec064a99133527d1c72"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4413",
+      "description": "메피스토가 스스로 판단해 보라고 답한다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        419,
+        471,
+        835,
+        705
+      ],
+      "image": "images/oreas-philosophers-10.webp",
+      "sha256": "3de1b09d47d3ac125c059f052fc816bf1e7823c7b6709a64b673891cbac31640"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4419",
+      "description": "메피스토가 철학자에 대한 비꼬는 말을 이어 간다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        837,
+        471,
+        1253,
+        705
+      ],
+      "image": "images/oreas-philosophers-11.webp",
+      "sha256": "a5d95db23532436f397e51339ace1c5dd1801c8373f8de24b9192e0a1e628da7"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4423",
+      "description": "호문쿨루스가 조언도 쓸모 있다며 떠나고 메피스토가 배웅한다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1255,
+        471,
+        1671,
+        705
+      ],
+      "image": "images/oreas-philosophers-12.webp",
+      "sha256": "44e19d59bbcf4589902315d46783d02c810d1aa11a221e0503714adb92bbbe5d"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4430",
+      "description": "아낙사고라스가 탈레스에게 논쟁을 건다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        707,
+        417,
+        940
+      ],
+      "image": "images/oreas-philosophers-13.webp",
+      "sha256": "5af1ed18785f176b926a454eea961c0dd5bd89d22a8ac7764379a9a6e1624c00"
+    },
+    {
+      "section": "act-02-09",
+      "scene_id": "source-4437",
+      "description": "탈레스가 물의 성질과 생명의 기원을 말하며 아낙사고라스에게 답한다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        419,
+        707,
+        835,
+        940
+      ],
+      "image": "images/oreas-philosophers-14.webp",
+      "sha256": "2f2c451e2ad8a1b7ed56d8ea3c6596eae767f5a071e7e83f2c53461a9fc83b25"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4445",
+      "description": "호문쿨루스가 두 철학자 곁에 떠서 함께 가고 싶다고 말한다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        837,
+        707,
+        1253,
+        940
+      ],
+      "image": "images/oreas-philosophers-15.webp",
+      "sha256": "c23220ed2be19c2d1b65a1a026edc8c0545d079bf4267052a7bedeaaff5b81d1"
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4452",
+      "description": "탈레스가 자연은 긴 시간에 걸쳐 형성되며 폭력으로만 만들어지지 않는다고 설명한다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1255,
+        707,
+        1671,
+        940
+      ],
+      "image": "images/oreas-philosophers-16.webp",
+      "sha256": "194af36a1050cb2173b517cd7f5fd6f0a8ce577a93c08068cdf11d97024732c3"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
