@@ -1,0 +1,106 @@
+{
+  "batch_id": "phorkyas-sea",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/phorkyas-sea-grid-001.png",
+  "references": [
+    "character-mephistopheles-scholar",
+    "group-ii-phorkyads",
+    "variant-ii-mephisto-phorkyas",
+    "group-ii-sirens",
+    "group-ii-nereids",
+    "group-ii-tritons",
+    "place-ii-aegean-coves"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4618",
+      "description": "메피스토가 자매들을 칭찬하고 시인이 왜 노래하지 않는지 묻는다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4626",
+      "description": "메피스토가 조각가도 그들을 표현해야 한다고 아첨한다. 실제 조각가를 추가하지 않는다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4630",
+      "description": "자매들이 고독과 밤 속에서 그런 생각을 하지 않았다고 답한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4638",
+      "description": "메피스토가 예술과 화려함이 있는 곳을 말한다. 현재 동굴을 유지한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4642",
+      "description": "자매들이 욕심나게 하지 말라며 말을 끊는다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4648",
+      "description": "메피스토가 세 자매가 공유하는 눈과 이를 언급하며 제안한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4654",
+      "description": "메피스토가 한 자매의 형상을 잠시 빌리자고 청한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4658",
+      "description": "자매들이 의논하며 눈과 이는 빌려줄 수 없다고 한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4668",
+      "description": "한 자매가 한쪽 눈을 감고 긴 이를 보이라며 조언한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4674",
+      "description": "메피스토가 포르키아스의 늙은 형상으로 변한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4684",
+      "description": "새 자매 형상과 두 자매가 변신 모습을 두고 이야기한다."
+    },
+    {
+      "section": "act-02-10",
+      "scene_id": "source-4693",
+      "description": "변신한 메피스토가 다른 이들을 놀라게 하겠다며 몸을 숨긴다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4701",
+      "description": "에게해 바위 만에서 세이렌들이 달을 향해 노래한다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4707",
+      "description": "세이렌들이 평온한 달빛이 물결을 비추기를 빈다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4711",
+      "description": "네레이데스와 트리톤들이 노래에 응답하며 물 위로 나온다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4717",
+      "description": "바다 무리가 바다에 울릴 소리를 높인다."
+    }
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/oak-cave-grid-001.png",
+    "art-bible/variant-ii-mephisto-phorkyas.png",
+    "art-bible/group-ii-sirens.png",
+    "art-bible/group-ii-nereids.png",
+    "art-bible/group-ii-tritons.png"
+  ]
+}

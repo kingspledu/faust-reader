@@ -1,0 +1,106 @@
+{
+  "batch_id": "sea-nereus",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/sea-nereus-grid-001.png",
+  "references": [
+    "group-ii-sirens",
+    "group-ii-nereids",
+    "group-ii-tritons",
+    "place-ii-aegean-coves",
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "character-ii-nereus"
+  ],
+  "scenes": [
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4721",
+      "description": "네레이데스와 트리톤들이 금사슬과 보석으로 몸을 장식한다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4725",
+      "description": "바다 무리가 팔찌와 허리 장식을 보여 주며 보물을 이야기한다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4729",
+      "description": "세이렌들이 바다 무리를 향해 응답한다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4735",
+      "description": "세이렌들이 물고기 이상의 존재임을 보여 달라고 청한다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4741",
+      "description": "네레이데스와 트리톤들이 짧은 여행을 준비한다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4745",
+      "description": "바다 무리가 사모트라케 방향으로 떠나고 세이렌들이 바라본다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4751",
+      "description": "세이렌들이 카비로이의 신비를 말한다. 카비로이는 아직 그리지 않는다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4755",
+      "description": "세이렌들이 밤이 지속되길 바라며 달을 올려다본다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4759",
+      "description": "탈레스가 호문쿨루스를 네레우스의 동굴로 이끈다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4765",
+      "description": "탈레스가 네레우스의 까다로운 성격을 설명한다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4769",
+      "description": "호문쿨루스가 직접 찾아가 보자고 한다. 유리병은 밀폐 상태다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4775",
+      "description": "네레우스가 사람 목소리를 듣고 못마땅하게 동굴에서 반응한다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4781",
+      "description": "네레우스가 인간에 대한 실망을 이야기한다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4785",
+      "description": "탈레스가 호문쿨루스의 불빛을 보여 주며 조언을 청한다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4791",
+      "description": "네레우스가 사람들이 조언을 듣지 않는다고 불평한다."
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4797",
+      "description": "네레우스가 파리스에게 했던 경고를 말한다. 파리스나 헬레네를 새로 등장시키지 않는다."
+    }
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/phorkyas-sea-grid-001.png",
+    "art-bible/character-ii-thales.png",
+    "art-bible/character-ii-homunculus.png",
+    "art-bible/character-ii-nereus.png",
+    "art-bible/place-ii-aegean-coves.png"
+  ]
+}

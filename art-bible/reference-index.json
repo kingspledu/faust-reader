@@ -6590,6 +6590,135 @@
         "../part-ii/act-02-10.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "variant-ii-mephisto-phorkyas",
+      "kind": "variant",
+      "name": "메피스토 · 포르키아스 차림",
+      "source_name": "MEPHISTOPHELES / PHORKYAS",
+      "image": "variant-ii-mephisto-phorkyas.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "늙은 자매의 형상",
+        "한쪽 눈을 감음",
+        "붉은 눈",
+        "긴 이 하나",
+        "먹빛 로브"
+      ],
+      "canonical_note": "메피스토는 세 자매 중 하나의 모습을 잠시 빌리자고 제안한다. 한쪽 눈을 감고 긴 이를 드러낸 옆얼굴로 닮은꼴을 만들라는 조언을 받아들인다. 새 인물이 아니라 메피스토의 변신 모습이다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-11.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-nereids",
+      "kind": "character",
+      "name": "네레이데스",
+      "source_name": "NEREIDEN",
+      "image": "group-ii-nereids.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "성인 여성",
+        "은빛 물빛 머리",
+        "바다색 눈",
+        "상아색 청록 드레이프",
+        "금사슬"
+      ],
+      "canonical_note": "바다의 무리가 노래에 이끌려 물결 위로 모습을 드러낸다. 네레이데스는 트리톤들과 함께 금사슬과 보석 장식을 자랑한다. 인간형 다리와 밝은 물빛 의상으로 구별하며 외형과 색상은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-11.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-ii-tritons",
+      "kind": "character",
+      "name": "트리톤들",
+      "source_name": "TRITONEN",
+      "image": "group-ii-tritons.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "성인 남성",
+        "짙은 청록 머리",
+        "청록 물고기 꼬리",
+        "소라",
+        "금사슬"
+      ],
+      "canonical_note": "네레이데스와 함께 바다 축제의 합창에 참여한다. 낮은 물결에서 올라오는 소리와 소라, 물고기 꼬리로 해양 존재의 모습을 표현했다. 세부 외모와 복식은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-11.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "character-ii-nereus",
+      "kind": "character",
+      "name": "네레우스",
+      "source_name": "NEREUS",
+      "image": "character-ii-nereus.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "노년 남성",
+        "긴 흰 머리와 수염",
+        "청록 눈",
+        "먹빛 푸른 로브",
+        "바다색 숄"
+      ],
+      "canonical_note": "탈레스는 인간을 못마땅해하지만 미래를 아는 바다의 노인에게 호문쿨루스를 데려간다. 네레우스는 사람들에게 조언해도 듣지 않았던 경험을 말한다. 동굴 입구의 엄격한 표정과 긴 수염, 의상 색상은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-11.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "place-ii-aegean-coves",
+      "kind": "place",
+      "name": "에게해의 바위 만",
+      "source_name": "FELSBUCHTEN DES ÄGÄISCHEN MEERS",
+      "image": "place-ii-aegean-coves.png",
+      "sheet_scope": "place",
+      "menu_group": "places",
+      "visual_locks": [
+        "달빛 수면",
+        "석회암 바위 만",
+        "동굴 입구",
+        "젖은 바위턱"
+      ],
+      "canonical_note": "산과 동굴을 지나 이야기는 달빛이 비치는 에게해의 바위 만으로 옮겨 간다. 세이렌의 노래와 바다 무리의 등장, 네레우스의 동굴을 한 공간에서 이어 볼 수 있게 배치했다. 지도는 연출용 배치도이며 실제 지형 복원은 아니다.",
+      "part": 2,
+      "act_numbers": [
+        2
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-02-11.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"
