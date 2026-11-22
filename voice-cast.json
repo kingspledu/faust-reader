@@ -1,6 +1,6 @@
 {
   "schema": "faust-voice-cast-1",
-  "revision": "CAST-2026-11-18",
+  "revision": "CAST-2026-11-23-AUD02",
   "model": "gemini-2.5-flash-preview-tts",
   "language": "ko-KR",
   "verified_date": "2026-11-18",
@@ -48,13 +48,15 @@
       "chapters": [
         2
       ],
-      "voice_name": "Rasalgethi",
+      "voice_name": "Sadaltager",
       "persona": "중저음, 빠른 판단과 실무 감각. 관객과 공연 준비를 챙기며 짧게 재촉한다.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-002": {
       "id": "character-002",
@@ -69,7 +71,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-003": {
       "id": "character-003",
@@ -78,13 +82,15 @@
       "chapters": [
         2
       ],
-      "voice_name": "Puck",
+      "voice_name": "Umbriel",
       "persona": "가벼운 중음, 재치 있는 현장 배우. 상대의 진지함을 깨지 않으면서 짧게 받아친다.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-004": {
       "id": "character-004",
@@ -171,13 +177,15 @@
         27,
         28
       ],
-      "voice_name": "Fenrir",
+      "voice_name": "Algieba",
       "persona": "거칠지 않은 중저음, 여유 있고 능청스러운 관찰자. 파우스트에게는 느긋한 반말로 약점을 찌른다. 마르테·낯선 사람에게는 예의 있는 척하는 해요체. 주 앞에서는 정중하되 빈정거린다. 웃음은 가끔 작게, 킬킬킬 반복·괴물 포효·특정 배우 성대모사 금지.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-009": {
       "id": "character-009",
@@ -186,13 +194,15 @@
       "chapters": [
         3
       ],
-      "voice_name": "Sadaltager",
+      "voice_name": "Alnilam",
       "persona": "낮고 따뜻한 권위. 판단을 서두르지 않으며 차분하게 질문하고 단언한다. 웅장한 효과음 없이 보통 발성.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-010": {
       "id": "character-010",
@@ -225,7 +235,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-011": {
       "id": "character-011",
@@ -240,7 +252,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-012": {
       "id": "character-012",
@@ -250,13 +264,15 @@
         4,
         5
       ],
-      "voice_name": "Achird",
+      "voice_name": "Schedar",
       "persona": "친근한 중음, 배우려는 열의가 앞선 조수. 존중하는 해요체와 조심스러운 질문, 설명에서는 약간 빨라진다.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-013": {
       "id": "character-013",
@@ -271,7 +287,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-014": {
       "id": "character-014",
@@ -286,7 +304,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-015": {
       "id": "character-015",
@@ -295,13 +315,15 @@
       "chapters": [
         4
       ],
-      "voice_name": "Gacrux",
+      "voice_name": "Algenib",
       "persona": "낮고 절제된 제자들 공동 낭독. 남겨진 슬픔과 그리움을 천천히 전한다.",
       "mode": "collective_representative",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-016": {
       "id": "character-016",
@@ -640,13 +662,15 @@
       "chapters": [
         5
       ],
-      "voice_name": "Gacrux",
+      "voice_name": "Algenib",
       "persona": "늙은 농부. 느리고 따뜻한 중저음, 감사의 뜻을 소박하게 전한다.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-039": {
       "id": "character-039",
@@ -700,13 +724,15 @@
       "chapters": [
         7
       ],
-      "voice_name": "Leda",
+      "voice_name": "Aoede",
       "persona": "7장의 신입 학생. 젊고 맑은 중음, 기대에서 혼란으로. 모르는 것을 묻는 존댓말.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-043": {
       "id": "character-043",
@@ -721,7 +747,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-044": {
       "id": "character-044",
@@ -730,13 +758,15 @@
       "chapters": [
         8
       ],
-      "voice_name": "Rasalgethi",
+      "voice_name": "Schedar",
       "persona": "브란더. 묵직한 중저음, 노래를 주도하고 웃음 뒤에 불쾌함을 숨기지 않는다.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-045": {
       "id": "character-045",
@@ -751,7 +781,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-046": {
       "id": "character-046",
@@ -760,13 +792,15 @@
       "chapters": [
         8
       ],
-      "voice_name": "Schedar",
+      "voice_name": "Charon",
       "persona": "알트마이어. 비교적 느리고 낮은 목소리, 투덜거리는 농담과 어지러움을 구분한다.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-047": {
       "id": "character-047",
@@ -826,7 +860,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-051": {
       "id": "character-051",
@@ -856,7 +892,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-053": {
       "id": "character-053",
@@ -875,13 +913,15 @@
         23,
         28
       ],
-      "voice_name": "Leda",
+      "voice_name": "Aoede",
       "persona": "그레첸. 맑고 자연스러운 중음, 어린아이 흉내 금지. 처음에는 조심스러운 해요체, 친밀해지며 부드러워진다. 감정이 깊어져도 말뜻을 또렷하게 유지한다.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-054": {
       "id": "character-054",
@@ -893,13 +933,15 @@
         16,
         22
       ],
-      "voice_name": "Sulafat",
+      "voice_name": "Kore",
       "persona": "마르테. 성숙하고 따뜻한 중음, 생활감 있는 빠른 질문. 슬픔·분노·호기심의 전환이 뚜렷하다.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-055": {
       "id": "character-055",
@@ -908,13 +950,15 @@
       "chapters": [
         20
       ],
-      "voice_name": "Laomedeia",
+      "voice_name": "Autonoe",
       "persona": "리스헨. 빠르고 호기심 많은 중음, 소문을 신나게 전하며 상대 반응을 떠본다.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-056": {
       "id": "character-056",
@@ -929,7 +973,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-057": {
       "id": "character-057",
@@ -944,7 +990,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-058": {
       "id": "character-058",
@@ -959,7 +1007,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-059": {
       "id": "character-059",
@@ -989,7 +1039,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-061": {
       "id": "character-061",
@@ -1319,7 +1371,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-083": {
       "id": "character-083",
@@ -1328,13 +1382,15 @@
       "chapters": [
         25
       ],
-      "voice_name": "Orus",
+      "voice_name": "Alnilam",
       "persona": "오베론. 왕다운 차분한 중저음, 명령보다 확신으로 이끈다.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-084": {
       "id": "character-084",
@@ -1343,13 +1399,15 @@
       "chapters": [
         25
       ],
-      "voice_name": "Puck",
+      "voice_name": "Sadachbia",
       "persona": "퍽. 장난기 많은 빠른 중음, 짧은 풍자를 즐긴다. 특정 작품 캐릭터 흉내 금지.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-085": {
       "id": "character-085",
@@ -1379,7 +1437,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-087": {
       "id": "character-087",
@@ -1469,7 +1529,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-093": {
       "id": "character-093",
@@ -1538,13 +1600,15 @@
       "chapters": [
         25
       ],
-      "voice_name": "Schedar",
+      "voice_name": "Charon",
       "persona": "악장. 균일하고 정확한 중저음, 박자와 질서를 챙긴다.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-098": {
       "id": "character-098",
@@ -1559,7 +1623,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-099": {
       "id": "character-099",
@@ -1724,7 +1790,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-110": {
       "id": "character-110",
@@ -1868,13 +1936,15 @@
       "chapters": [
         28
       ],
-      "voice_name": "Vindemiatrix",
+      "voice_name": "Sulafat",
       "persona": "28장 위에서 들리는 목소리. 따뜻하고 확고한 구원의 말, 메피스토와 대비되는 안정감.",
       "mode": "individual",
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-120": {
       "id": "character-120",
@@ -1934,7 +2004,9 @@
       "pronunciation": "한국어 표준 발음. 이름은 메피스토·그레첸. 원문 언어 구절만 해당 언어를 발음한다.",
       "pace": "medium",
       "identity_rule": "감정·장·독백 여부가 달라져도 음색 정체성 유지. 음높이와 속도는 연출 지시이며 API 수치 옵션이 아님.",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "character-124": {
       "id": "character-124",
@@ -2017,7 +2089,9 @@
       "voice_name": "Charon",
       "persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다.",
       "mode": "narrator",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "explicit-first"
     },
     "dedication-poet": {
       "id": "dedication-poet",
@@ -2025,7 +2099,9 @@
       "voice_name": "Algieba",
       "persona": "지난 삶과 사람들을 돌아보는 이름 없는 창작자. 조용하고 절제된 그리움. 2장 극작가와 같은 인물이라고 단정하지 않는다.",
       "mode": "individual",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     },
     "extra-shepherd": {
       "id": "extra-shepherd",
@@ -2049,7 +2125,9 @@
       "voice_name": "Aoede",
       "persona": "산뜻하고 또렷한 중음, 춤 상대에게 재치 있게 응수한다.",
       "mode": "individual",
-      "audition_status": "not_auditioned"
+      "audition_status": "user_selected",
+      "audition_revision": "AUD02",
+      "selection_basis": "unique-complete-rated-candidate"
     }
   },
   "aliases": {

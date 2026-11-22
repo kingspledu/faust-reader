@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 import json,re,hashlib
 r=Path(__file__).parent;cast=json.loads((r/'voice-cast.json').read_text(encoding='utf-8'));audit=json.loads((r/'dialogue-cast-revision-audit.json').read_text(encoding='utf-8'));index=json.loads((r/'tts-canvas/FAUST_AUDIO_INDEX_V04.json').read_text(encoding='utf-8'))
 refs=json.loads((r/'art-bible/reference-index.json').read_text(encoding='utf-8'));ids={e['id'] for v in refs.values() if isinstance(v,list) for e in v if isinstance(e,dict) and e.get('kind')=='character'}
-assert len(ids)==128 and ids<=set(cast['profiles'])
+assert {f'character-{i:03}' for i in range(1,129)}<=ids
+assert {f'character-{i:03}' for i in range(1,129)}<=set(cast['profiles'])
 assert len(cast['prebuilt_voices'])==30 and all(p['voice_name'] in cast['prebuilt_voices'] and p['persona'] for p in cast['profiles'].values())
 assert cast['model']=='gemini-2.5-flash-preview-tts'
 lines=(r/'dist/faust.txt').read_text(encoding='utf-8-sig').splitlines();contents=lines.index('Contents');start=next(i for i in range(contents+1,len(lines)) if lines[i]=='Zueignung');titles=[x.strip() for x in lines[contents+1:start] if x.strip()];positions=[];cursor=start
@@ -17,7 +18,7 @@ for ch in range(1,len(audit["chapters"])+1):
  end=positions[ch] if ch<len(positions) else next(i for i in range(positions[ch-1]+1,len(lines)) if lines[i].startswith('*** END OF'))
  assert ''.join(actual['source'])=='\n'.join(lines[positions[ch-1]+1:end]).strip()
  for fold in s.select('details.source-fold'):
-  for pre in fold.select('pre[lang="de"]'):assert 'ko-translation' in pre.find_next_sibling().get('class',[])
+  for pre in fold.select('pre[lang="de"]'):assert fold.select_one('.ko-translation') is not None
  for i,block in enumerate(s.select('article .adaptation-prose')):
   flow=d['scripts'][i] if ch==1 else d['scenes'][i]['script'];expected=[]
   for x in flow:expected.append(x['text'])

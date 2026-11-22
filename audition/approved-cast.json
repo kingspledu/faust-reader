@@ -1,0 +1,469 @@
+{
+  "schema": "faust-approved-cast-1",
+  "revision": "CAST-2026-11-23-AUD02",
+  "source_sha256": "351623403b1d048e69dbc1d828c4977e0a2757ed3c12a5200503cb50b9874aaf",
+  "rule": "Explicit first wins; otherwise unique highest candidate rated on all questions",
+  "narrator_conflict": "Explicit Charon retained; Kore 5-point ratings preserved",
+  "changes": [
+    {
+      "cast_id": "narrator",
+      "name": "나레이터",
+      "previous": "Charon",
+      "selected": "Charon",
+      "basis": "explicit-first",
+      "ratings": {
+        "Kore:Q01": "5",
+        "Kore:Q02": "5",
+        "Kore:Q03": "5",
+        "Kore:Q04": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-008",
+      "name": "메피스토",
+      "previous": "Fenrir",
+      "selected": "Algieba",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Algieba:Q01": "5",
+        "Algieba:Q02": "5",
+        "Algieba:Q03": "5",
+        "Algieba:Q04": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-010",
+      "name": "파우스트",
+      "previous": "Orus",
+      "selected": "Orus",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Orus:Q01": "5",
+        "Orus:Q02": "5",
+        "Orus:Q03": "5",
+        "Orus:Q04": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-053",
+      "name": "그레첸",
+      "previous": "Leda",
+      "selected": "Aoede",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Aoede:Q01": "5",
+        "Aoede:Q02": "5",
+        "Aoede:Q03": "5",
+        "Aoede:Q04": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-054",
+      "name": "마르테 슈베르트라인",
+      "previous": "Sulafat",
+      "selected": "Kore",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Kore:Q01": "5",
+        "Kore:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-001",
+      "name": "극장 지배인",
+      "previous": "Rasalgethi",
+      "selected": "Sadaltager",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Schedar:Q01": "",
+        "Sadaltager:Q01": "5",
+        "Sadaltager:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-002",
+      "name": "극작가 / 시인",
+      "previous": "Algieba",
+      "selected": "Algieba",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Algieba:Q01": "5",
+        "Algieba:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-012",
+      "name": "바그너",
+      "previous": "Achird",
+      "selected": "Schedar",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Schedar:Q01": "5",
+        "Schedar:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-042",
+      "name": "학생",
+      "previous": "Leda",
+      "selected": "Aoede",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Aoede:Q01": "5",
+        "Aoede:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-003",
+      "name": "희극 배우",
+      "previous": "Puck",
+      "selected": "Umbriel",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Umbriel:Q01": "5",
+        "Umbriel:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-055",
+      "name": "리스헨",
+      "previous": "Laomedeia",
+      "selected": "Autonoe",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Autonoe:Q01": "5",
+        "Autonoe:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-009",
+      "name": "주 / 하느님",
+      "previous": "Sadaltager",
+      "selected": "Alnilam",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Alnilam:Q01": "5",
+        "Alnilam:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-043",
+      "name": "프로슈",
+      "previous": "Puck",
+      "selected": "Puck",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Puck:Q01": "5",
+        "Puck:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-045",
+      "name": "지벨",
+      "previous": "Algenib",
+      "selected": "Algenib",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Algenib:Q01": "5",
+        "Algenib:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-046",
+      "name": "알트마이어",
+      "previous": "Schedar",
+      "selected": "Charon",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Charon:Q01": "5",
+        "Charon:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-052",
+      "name": "마녀",
+      "previous": "Gacrux",
+      "selected": "Gacrux",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Gacrux:Q01": "5",
+        "Gacrux:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-044",
+      "name": "브란더",
+      "previous": "Rasalgethi",
+      "selected": "Schedar",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Schedar:Q01": "5",
+        "Schedar:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-056",
+      "name": "발렌틴",
+      "previous": "Alnilam",
+      "selected": "Alnilam",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Orus:Q01": "",
+        "Alnilam:Q01": "5",
+        "Alnilam:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-011",
+      "name": "지령 · 대지의 정령",
+      "previous": "Alnilam",
+      "selected": "Alnilam",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Alnilam:Q01": "5",
+        "Alnilam:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-050",
+      "name": "수컷 원숭이 · Kater 표기",
+      "previous": "Puck",
+      "selected": "Puck",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Puck:Q01": "5",
+        "Puck:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-058",
+      "name": "악령",
+      "previous": "Algenib",
+      "selected": "Algenib",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Algenib:Q01": "5",
+        "Algenib:Q02": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-013",
+      "name": "천사들의 합창",
+      "previous": "Vindemiatrix",
+      "selected": "Vindemiatrix",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Vindemiatrix:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-084",
+      "name": "퍽",
+      "previous": "Puck",
+      "selected": "Sadachbia",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Sadachbia:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "dedication-poet",
+      "name": "헌시의 시인",
+      "previous": "Algieba",
+      "selected": "Algieba",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Algieba:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "extra-dancer-woman",
+      "name": "춤추는 아가씨",
+      "previous": "Aoede",
+      "selected": "Aoede",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Aoede:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-014",
+      "name": "여인들의 합창",
+      "previous": "Sulafat",
+      "selected": "Sulafat",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Sulafat:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-015",
+      "name": "제자들의 합창",
+      "previous": "Gacrux",
+      "selected": "Algenib",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Algenib:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-038",
+      "name": "늙은 농부",
+      "previous": "Gacrux",
+      "selected": "Algenib",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Algenib:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-057",
+      "name": "민중 / 군중",
+      "previous": "Achird",
+      "selected": "Achird",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Achird:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-060",
+      "name": "도깨비불 · 산길 안내자",
+      "previous": "Sadachbia",
+      "selected": "Sadachbia",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Sadachbia:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-082",
+      "name": "전령",
+      "previous": "Iapetus",
+      "selected": "Iapetus",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Iapetus:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-083",
+      "name": "오베론",
+      "previous": "Orus",
+      "selected": "Alnilam",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Alnilam:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-086",
+      "name": "티타니아",
+      "previous": "Kore",
+      "selected": "Kore",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Kore:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-092",
+      "name": "정통주의자",
+      "previous": "Alnilam",
+      "selected": "Alnilam",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Alnilam:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-097",
+      "name": "악장",
+      "previous": "Schedar",
+      "selected": "Charon",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Charon:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-098",
+      "name": "풍향계 · 변덕의 의인화",
+      "previous": "Zubenelgenubi",
+      "selected": "Zubenelgenubi",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Zubenelgenubi:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-109",
+      "name": "관념론자",
+      "previous": "Algieba",
+      "selected": "Algieba",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Algieba:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-119",
+      "name": "목소리",
+      "previous": "Vindemiatrix",
+      "selected": "Sulafat",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Sulafat:Q01": "5"
+      },
+      "reserve": null
+    },
+    {
+      "cast_id": "character-123",
+      "name": "암컷 원숭이와 새끼들 · Kätzin / Junge",
+      "previous": "Laomedeia",
+      "selected": "Laomedeia",
+      "basis": "unique-complete-rated-candidate",
+      "ratings": {
+        "Laomedeia:Q01": "5"
+      },
+      "reserve": null
+    }
+  ]
+}
