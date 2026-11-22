@@ -1,0 +1,289 @@
+{
+  "source_image": "source_images/kabiri-hidden-proteus-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-ii-thales",
+    "character-ii-homunculus",
+    "character-ii-nereus",
+    "group-ii-sirens",
+    "group-ii-nereids",
+    "group-ii-tritons",
+    "group-ii-kabiri-effigies",
+    "place-ii-aegean-coves"
+  ],
+  "generation_reference_images": [
+    "part-ii/source_images/nereus-kabiri-grid-001.png",
+    "art-bible/group-ii-kabiri-effigies.png",
+    "art-bible/group-ii-nereids.png",
+    "art-bible/group-ii-tritons.png",
+    "art-bible/group-ii-sirens.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4877",
+      "description": "네레이데스와 트리톤들이 카비로이 신상을 가져왔다며 축제를 알린다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/kabiri-hidden-proteus-01.webp",
+      "sha256": "b98e4889b169def5778d494ee18b11458d8b922113074ce2d63d33db5dcf6026"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4882",
+      "description": "바다 무리가 신상들을 받쳐 들고 세이렌들의 노래에 응답한다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/kabiri-hidden-proteus-02.webp",
+      "sha256": "d205ec9e79ce3967f524c30a6620d71856271a37cdf6beff950509e76244795b"
+    },
+    {
+      "section": "act-02-11",
+      "scene_id": "source-4887",
+      "description": "세이렌들이 난파한 이들을 구하는 신들을 노래한다. 실제 난파 장면은 추가하지 않는다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/kabiri-hidden-proteus-03.webp",
+      "sha256": "acfb1068257a18e06e1eb8037f8a6f584c6213221ca4dccc02932285025846dd"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4891",
+      "description": "바다 무리가 가져온 세 신상을 가리키며 오지 않은 넷째를 이야기한다. 넷째는 그리지 않는다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/kabiri-hidden-proteus-04.webp",
+      "sha256": "4d1e892f65d36f391a6a66d7e3bb4629fe03e30ceff9a745c55c00076552cfea"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4896",
+      "description": "세이렌들이 바다 무리의 설명에 짓궂게 응답한다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/kabiri-hidden-proteus-05.webp",
+      "sha256": "a952f3a5a5df17bf45f70abd914d3d42bc312e03307dbc24da2361803b331742"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4902",
+      "description": "바다 무리와 세이렌들이 신들의 수를 두고 주고받는다. 보이는 신상은 세 개다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/kabiri-hidden-proteus-06.webp",
+      "sha256": "9d0f8a0aa18861eb20c3b7fab516d51888f7a1a5e5fa6a0741999db92979284d"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4912",
+      "description": "네레이데스가 알 수 없는 나머지 신들을 말하며 어깨를 살짝 으쓱한다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/kabiri-hidden-proteus-07.webp",
+      "sha256": "886c042bea8db96638cc5fc154d80bcbced2ec2c5dfa878d87352b8720d9f267"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4916",
+      "description": "바다 무리가 세 신상에 관한 설명을 이어 간다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/kabiri-hidden-proteus-08.webp",
+      "sha256": "3f688e534134cd8e0a5bf328ced1744597f6489a431d3475ed4793f887e39a9f"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4920",
+      "description": "세이렌들이 하늘의 달을 향해 노래한다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/kabiri-hidden-proteus-09.webp",
+      "sha256": "76fdd1a0ed2cf72f2db840e49da5ec4c22c08e5fa579573be2cafa72bb3b3533"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4926",
+      "description": "바다 무리가 신상을 받쳐 든 채 축제를 이끈다는 자부심을 드러낸다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/kabiri-hidden-proteus-10.webp",
+      "sha256": "b48b76b5598913af30c9b08cdc907f5ef5d51f191ff2a31cdcb138ef25251547"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4934",
+      "description": "세이렌들이 노래로 응답한다. 황금 양털이나 영웅은 비유 속 대상이므로 새로 그리지 않는다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/kabiri-hidden-proteus-11.webp",
+      "sha256": "acf0b3253fcdc4d3e0a6dcf3039f4696bf5bf37eccf2467775cdf3645a13ddb8"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4938",
+      "description": "세이렌의 합창 뒤 병 속 호문쿨루스가 도기 신상들을 관찰한다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/kabiri-hidden-proteus-12.webp",
+      "sha256": "675325ccb06e49936fc75c73d3e56c180fc9d48ad6e9d5eac560a30be2cde976"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4944",
+      "description": "호문쿨루스와 탈레스가 오래된 신상의 가치에 관해 이야기한다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/kabiri-hidden-proteus-13.webp",
+      "sha256": "c961a39c1c8e0e5e5ef34ab210022a4a0128dd6375ff3c7fef007f5084b5aca6"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4950",
+      "description": "보이지 않는 프로테우스의 목소리에 탈레스가 이쪽저쪽을 돌아본다. 새 형체는 그리지 않는다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/kabiri-hidden-proteus-14.webp",
+      "sha256": "9a351fd41d4d59ce1b03e415d78fbb7b130f11fea81237eea278d3f3125b8220"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4960",
+      "description": "탈레스가 목소리가 들린 쪽을 찾지만 프로테우스는 모습을 감춘다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/kabiri-hidden-proteus-15.webp",
+      "sha256": "d3a8acf9c404d0efca542003c1666f872a7af90b6f4f56fda477365a83dffc88"
+    },
+    {
+      "section": "act-02-12",
+      "scene_id": "source-4968",
+      "description": "탈레스가 호문쿨루스에게 밝게 빛나라고 청한다. 밀폐된 병은 깨지지 않는다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/kabiri-hidden-proteus-16.webp",
+      "sha256": "1a31abc4fc05f898f510fec3644d26fee31f77b7a5c3e5adfaf2cd2efc3b2440"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": "전체 4×4 원본의 14번 칸에서 탈레스가 중복되어 보이는 오류를 수정. 한 인물·한 병만 남기고 다른 15칸과 배열을 유지하도록 편집."
+}

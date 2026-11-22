@@ -103,5 +103,6 @@
     "art-bible/group-ii-nereids.png",
     "art-bible/group-ii-tritons.png",
     "art-bible/group-ii-sirens.png"
-  ]
+  ],
+  "correction": "전체 4×4 원본의 14번 칸에서 탈레스가 중복되어 보이는 오류를 수정. 한 인물·한 병만 남기고 다른 15칸과 배열을 유지하도록 편집."
 }
