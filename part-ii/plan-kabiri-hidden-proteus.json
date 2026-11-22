@@ -99,10 +99,10 @@
   ],
   "generation_reference_images": [
     "part-ii/source_images/nereus-kabiri-grid-001.png",
-    "art-bible/group-ii-kabiri-effigies.png",
-    "art-bible/group-ii-nereids.png",
+    "art-bible/character-ii-homunculus.png",
     "art-bible/group-ii-tritons.png",
-    "art-bible/group-ii-sirens.png"
+    "art-bible/group-ii-kabiri-effigies.png",
+    "art-bible/character-ii-thales.png"
   ],
-  "correction": "전체 4×4 원본의 14번 칸에서 탈레스가 중복되어 보이는 오류를 수정. 한 인물·한 병만 남기고 다른 15칸과 배열을 유지하도록 편집."
+  "correction": "참조 재검증: 긴 병 목·구형 마개·버건디 끈, 소매 있는 파란 튜닉, 손바닥보다 작은 세 신상 고정. 두 배치 32컷 재생성 교체. 재생성 초안 1·4번의 탈레스 혼입을 트리톤으로 교정."
 }

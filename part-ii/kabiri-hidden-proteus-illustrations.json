@@ -20,10 +20,10 @@
   ],
   "generation_reference_images": [
     "part-ii/source_images/nereus-kabiri-grid-001.png",
-    "art-bible/group-ii-kabiri-effigies.png",
-    "art-bible/group-ii-nereids.png",
+    "art-bible/character-ii-homunculus.png",
     "art-bible/group-ii-tritons.png",
-    "art-bible/group-ii-sirens.png"
+    "art-bible/group-ii-kabiri-effigies.png",
+    "art-bible/character-ii-thales.png"
   ],
   "generation_reference_note": "",
   "records": [
@@ -41,7 +41,7 @@
         255
       ],
       "image": "images/kabiri-hidden-proteus-01.webp",
-      "sha256": "b98e4889b169def5778d494ee18b11458d8b922113074ce2d63d33db5dcf6026"
+      "sha256": "8bf55bc0adaa2b59b267c58cd9bf6eeb5697f83d9e586916d3199820b69df602"
     },
     {
       "section": "act-02-11",
@@ -57,7 +57,7 @@
         255
       ],
       "image": "images/kabiri-hidden-proteus-02.webp",
-      "sha256": "d205ec9e79ce3967f524c30a6620d71856271a37cdf6beff950509e76244795b"
+      "sha256": "09764bbfd2e76c02769c22058ae49de599d3ac712be935340f27c123fb561bd7"
     },
     {
       "section": "act-02-11",
@@ -73,7 +73,7 @@
         255
       ],
       "image": "images/kabiri-hidden-proteus-03.webp",
-      "sha256": "acfb1068257a18e06e1eb8037f8a6f584c6213221ca4dccc02932285025846dd"
+      "sha256": "d2bc612e6a56198175e16f52322404d1641ad8dd3816d495c8dd815a269381c4"
     },
     {
       "section": "act-02-12",
@@ -89,7 +89,7 @@
         255
       ],
       "image": "images/kabiri-hidden-proteus-04.webp",
-      "sha256": "4d1e892f65d36f391a6a66d7e3bb4629fe03e30ceff9a745c55c00076552cfea"
+      "sha256": "855b30c666215d5b05577450abf501ef4cd8a7577d1a07d9f47a0b88bce1904e"
     },
     {
       "section": "act-02-12",
@@ -105,7 +105,7 @@
         511
       ],
       "image": "images/kabiri-hidden-proteus-05.webp",
-      "sha256": "a952f3a5a5df17bf45f70abd914d3d42bc312e03307dbc24da2361803b331742"
+      "sha256": "7a8d64ecc7e5b090d336d0965476008501bc90f082f4564faef0ae3d42f0df4b"
     },
     {
       "section": "act-02-12",
@@ -121,7 +121,7 @@
         511
       ],
       "image": "images/kabiri-hidden-proteus-06.webp",
-      "sha256": "9d0f8a0aa18861eb20c3b7fab516d51888f7a1a5e5fa6a0741999db92979284d"
+      "sha256": "574bf9392f4cf1e0c34732eb281f1da9090bd1155b170ba3cd4bba4dec8be218"
     },
     {
       "section": "act-02-12",
@@ -137,7 +137,7 @@
         511
       ],
       "image": "images/kabiri-hidden-proteus-07.webp",
-      "sha256": "886c042bea8db96638cc5fc154d80bcbced2ec2c5dfa878d87352b8720d9f267"
+      "sha256": "1d857eb2b58039c30bc22e8f6ba7c15f415b81faeca40cd5b6709e4cf88c5e79"
     },
     {
       "section": "act-02-12",
@@ -153,7 +153,7 @@
         511
       ],
       "image": "images/kabiri-hidden-proteus-08.webp",
-      "sha256": "3f688e534134cd8e0a5bf328ced1744597f6489a431d3475ed4793f887e39a9f"
+      "sha256": "6d80c9bd8d9a0589810164c04e3cfd3c60c5b116db3c31f986a945571b0f4858"
     },
     {
       "section": "act-02-12",
@@ -169,7 +169,7 @@
         767
       ],
       "image": "images/kabiri-hidden-proteus-09.webp",
-      "sha256": "76fdd1a0ed2cf72f2db840e49da5ec4c22c08e5fa579573be2cafa72bb3b3533"
+      "sha256": "3cb3939c51e4307dfafaed169e7c6214b2171f74cc7f7835f8adae35cd1b04b3"
     },
     {
       "section": "act-02-12",
@@ -185,7 +185,7 @@
         767
       ],
       "image": "images/kabiri-hidden-proteus-10.webp",
-      "sha256": "b48b76b5598913af30c9b08cdc907f5ef5d51f191ff2a31cdcb138ef25251547"
+      "sha256": "2e892ac687e4835e488bb308d98b4d5fbfb65b388e27add9e9f33aefeadd1440"
     },
     {
       "section": "act-02-12",
@@ -201,7 +201,7 @@
         767
       ],
       "image": "images/kabiri-hidden-proteus-11.webp",
-      "sha256": "acf0b3253fcdc4d3e0a6dcf3039f4696bf5bf37eccf2467775cdf3645a13ddb8"
+      "sha256": "06303140b9c07346b0dd944dfedb82554cd37d5eee5f1573570ec9d43c7764b4"
     },
     {
       "section": "act-02-12",
@@ -217,7 +217,7 @@
         767
       ],
       "image": "images/kabiri-hidden-proteus-12.webp",
-      "sha256": "675325ccb06e49936fc75c73d3e56c180fc9d48ad6e9d5eac560a30be2cde976"
+      "sha256": "34b330149d0abcea8af353c726485b5ec2e6a8a9fc931a4dde2363eb9dcdce97"
     },
     {
       "section": "act-02-12",
@@ -233,7 +233,7 @@
         1023
       ],
       "image": "images/kabiri-hidden-proteus-13.webp",
-      "sha256": "c961a39c1c8e0e5e5ef34ab210022a4a0128dd6375ff3c7fef007f5084b5aca6"
+      "sha256": "cf01dc4dc07a92af09d6c27a640a13ef6dd06a059a90ef42893dd425fb7323a0"
     },
     {
       "section": "act-02-12",
@@ -249,7 +249,7 @@
         1023
       ],
       "image": "images/kabiri-hidden-proteus-14.webp",
-      "sha256": "9a351fd41d4d59ce1b03e415d78fbb7b130f11fea81237eea278d3f3125b8220"
+      "sha256": "414a540494d2241d6fe73898ac0f2a8a5dc6d2ead8cf71a22d63ecb8832e1b3e"
     },
     {
       "section": "act-02-12",
@@ -265,7 +265,7 @@
         1023
       ],
       "image": "images/kabiri-hidden-proteus-15.webp",
-      "sha256": "d3a8acf9c404d0efca542003c1666f872a7af90b6f4f56fda477365a83dffc88"
+      "sha256": "61bfaa505ab35a4d34e35619cd177e55440cb01bbd4d3f6464a514101258a332"
     },
     {
       "section": "act-02-12",
@@ -281,9 +281,9 @@
         1023
       ],
       "image": "images/kabiri-hidden-proteus-16.webp",
-      "sha256": "1a31abc4fc05f898f510fec3644d26fee31f77b7a5c3e5adfaf2cd2efc3b2440"
+      "sha256": "ea4e4039f968cb8c55ffdf0617b424e5c30bfb4470ba57a1d2e5317fb8d8ee8b"
     }
   ],
   "source_translation_preserved": true,
-  "correction": "전체 4×4 원본의 14번 칸에서 탈레스가 중복되어 보이는 오류를 수정. 한 인물·한 병만 남기고 다른 15칸과 배열을 유지하도록 편집."
+  "correction": "참조 재검증: 긴 병 목·구형 마개·버건디 끈, 소매 있는 파란 튜닉, 손바닥보다 작은 세 신상 고정. 두 배치 32컷 재생성 교체. 재생성 초안 1·4번의 탈레스 혼입을 트리톤으로 교정."
 }
