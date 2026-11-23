@@ -1,0 +1,106 @@
+{
+  "batch_id": "faust-lynkeus-hearing",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/faust-lynkeus-hearing-grid-001.png",
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "place-iii-faust-courtyard",
+    "group-iii-castle-attendants",
+    "character-iii-lynkeus",
+    "character-faust"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-faust.png",
+    "art-bible/character-iii-helena.png",
+    "art-bible/character-iii-lynkeus.png",
+    "art-bible/group-iii-castle-attendants.png",
+    "part-ii/source_images/mist-castle-welcome-grid-001.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6240",
+      "description": "시종들이 천개와 좌석을 설치한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6244",
+      "description": "헬레네가 초대받은 자리에 앉고 시녀들이 다가온다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6248",
+      "description": "시녀들이 계단 곁에 줄지어 선다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6252",
+      "description": "판탈리스가 다가오는 파우스트를 보고 말한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6258",
+      "description": "판탈리스가 파우스트를 평가하며 헬레네에게 권한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6262",
+      "description": "파우스트가 헬레네에게 다가와 인사한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6268",
+      "description": "파우스트가 쇠사슬 찬 륀케우스를 헬레네 앞에 데려온다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6272",
+      "description": "파우스트가 파수꾼 륀케우스의 임무를 설명한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6276",
+      "description": "파우스트가 탑에서 살피는 일을 말한다. 실제 군대를 추가하지 않는다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6280",
+      "description": "파우스트가 도착을 알리지 않은 잘못을 말한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6284",
+      "description": "헬레네가 륀케우스를 보고 판단에 관해 답한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6290",
+      "description": "헬레네가 먼저 해명을 듣겠다고 말한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6294",
+      "description": "륀케우스가 무릎을 꿇고 헬레네에게 말한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6300",
+      "description": "륀케우스가 헬레네를 태양에 비유한다. 실제 두 태양을 그리지 않는다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6304",
+      "description": "륀케우스가 눈길을 빼앗긴 순간을 설명한다. 현재의 해명 장면이다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6308",
+      "description": "륀케우스가 꿈에서 깬 듯한 혼란을 말한다. 현재 인물들의 반응을 보여 준다."
+    }
+  ]
+}

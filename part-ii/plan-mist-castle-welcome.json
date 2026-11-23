@@ -1,0 +1,106 @@
+{
+  "batch_id": "mist-castle-welcome",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/mist-castle-welcome-grid-001.png",
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "place-iii-faust-courtyard",
+    "group-iii-castle-attendants",
+    "character-iii-lynkeus",
+    "character-faust"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/group-iii-castle-attendants.png",
+    "art-bible/place-iii-faust-courtyard.png",
+    "part-ii/source_images/helena-choice-mist-grid-001.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6166",
+      "description": "일행이 짙은 안개에 둘러싸인다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6170",
+      "description": "시녀들이 서로를 찾으며 조심스럽게 걷는다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6174",
+      "description": "시녀들이 불안하게 앞을 바라본다. 추측 속 헤르메스를 추가하지 않는다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6178",
+      "description": "안개 뒤로 회갈색 성벽이 드러난다."
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6182",
+      "description": "성 안뜰에 도착한 일행이 둘러본다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6188",
+      "description": "판탈리스가 동요하는 시녀들에게 말한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6194",
+      "description": "판탈리스가 조용히 기다리라고 손짓한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6198",
+      "description": "헬레네가 회랑을 보며 포르키아스를 부른다. 포르키아스는 보이지 않는다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6204",
+      "description": "헬레네가 쉬고 싶다 말하고 판탈리스가 답한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6210",
+      "description": "판탈리스가 사라진 포르키아스를 찾듯 둘러본다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6214",
+      "description": "위층 회랑에서 성인 시종들이 움직인다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6218",
+      "description": "성인 시종들이 손님 맞을 준비를 한다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6224",
+      "description": "금발 성인 시종들이 질서 있게 내려온다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6228",
+      "description": "시녀들이 단정한 시종들의 모습을 본다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6232",
+      "description": "시녀가 놀라움과 기억을 말한다. 실제 입맞춤이나 재를 추가하지 않는다."
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6236",
+      "description": "성인 시종들이 세 계단과 카펫, 좌석을 운반한다."
+    }
+  ]
+}

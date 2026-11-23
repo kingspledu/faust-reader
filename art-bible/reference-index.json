@@ -6998,6 +6998,88 @@
         "../part-ii/act-03-02.html"
       ],
       "status": "draft_visual"
+    },
+    {
+      "id": "place-iii-faust-courtyard",
+      "name": "파우스트의 성 안뜰",
+      "source_name": "INNERER BURGHOF",
+      "kind": "place",
+      "image": "place-iii-faust-courtyard.png",
+      "sheet_scope": "place",
+      "menu_group": "places",
+      "visual_locks": [
+        "회갈색 석벽",
+        "2층 뾰족 아치 회랑",
+        "뒤쪽 중앙 계단",
+        "오른쪽 참나무 문",
+        "왼쪽 붉은 천개 좌석"
+      ],
+      "canonical_note": "안개가 걷히며 궁전과 다른 성 안뜰이 드러난다. 회랑과 계단, 손님을 맞는 자리를 한 공간으로 연결했다. 배치도와 건축은 창작 무대 설계이며 역사 건축 실물 복원이 아니다.",
+      "part": 2,
+      "act_numbers": [
+        3
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-03-05.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "group-iii-castle-attendants",
+      "name": "성의 젊은 시종들",
+      "source_name": "DIENERSCHAFT",
+      "kind": "character",
+      "image": "group-iii-castle-attendants.png",
+      "sheet_scope": "collective",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "성인 청년",
+        "짧은 금빛 곱슬머리",
+        "푸른 회색 눈",
+        "수염 없음",
+        "짙은 청록 긴소매 튜닉",
+        "금색 테두리",
+        "먹색 바지"
+      ],
+      "canonical_note": "성의 시종들이 계단과 카펫, 자리와 천개를 준비하며 손님을 맞는다. 같은 복식 계열로 합창단과 구분했다. 외모와 복식은 창작 시각화다.",
+      "part": 2,
+      "act_numbers": [
+        3
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-03-05.html"
+      ],
+      "status": "draft_visual"
+    },
+    {
+      "id": "character-iii-lynkeus",
+      "name": "륀케우스",
+      "source_name": "TURMWÄRTER LYNKEUS",
+      "kind": "character",
+      "image": "character-iii-lynkeus.png",
+      "sheet_scope": "individual",
+      "menu_group": "heaven",
+      "visual_locks": [
+        "짧은 적갈색 직모",
+        "짧은 적갈색 수염",
+        "초록 눈",
+        "주근깨",
+        "청회색 긴소매 튜닉",
+        "짙은 갈색 망토",
+        "구리 고리"
+      ],
+      "canonical_note": "탑에서 주위를 살피는 파수꾼이다. 헬레네의 도착을 알리지 못해 그녀 앞에서 해명한다. 쇠사슬은 이 장면의 소품이며 상시 의상이 아니다. 얼굴·복식은 창작 디자인이다.",
+      "part": 2,
+      "act_numbers": [
+        3
+      ],
+      "chapter_numbers": [],
+      "source_urls": [
+        "../part-ii/act-03-05.html"
+      ],
+      "status": "draft_visual"
     }
   ],
   "part_ii_source": "https://www.gutenberg.org/ebooks/2230"

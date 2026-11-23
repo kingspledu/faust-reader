@@ -1,0 +1,288 @@
+{
+  "source_image": "source_images/mist-castle-welcome-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "place-iii-faust-courtyard",
+    "group-iii-castle-attendants",
+    "character-iii-lynkeus",
+    "character-faust"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-iii-helena.png",
+    "art-bible/character-iii-panthalis.png",
+    "art-bible/group-iii-castle-attendants.png",
+    "art-bible/place-iii-faust-courtyard.png",
+    "part-ii/source_images/helena-choice-mist-grid-001.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6166",
+      "description": "일행이 짙은 안개에 둘러싸인다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/mist-castle-welcome-01.webp",
+      "sha256": "e895ada5278780225dd2bcc81b28f7a8ed8ee33cf2553355ff9b978b4d9bb602"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6170",
+      "description": "시녀들이 서로를 찾으며 조심스럽게 걷는다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/mist-castle-welcome-02.webp",
+      "sha256": "10f6336108bbeed0cc6b11b08d4352aa13e5c16ff864527f22b0bb616b4c80ad"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6174",
+      "description": "시녀들이 불안하게 앞을 바라본다. 추측 속 헤르메스를 추가하지 않는다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/mist-castle-welcome-03.webp",
+      "sha256": "8a8e89cc965fd3a4330e7f78cd209c3f02ea9110735ed0f7207b9da5df37d108"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6178",
+      "description": "안개 뒤로 회갈색 성벽이 드러난다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/mist-castle-welcome-04.webp",
+      "sha256": "7f1a425a06261ff15d82933e3a4801d780a05516b6421e8990379d2346351e67"
+    },
+    {
+      "section": "act-03-04",
+      "scene_id": "source-6182",
+      "description": "성 안뜰에 도착한 일행이 둘러본다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/mist-castle-welcome-05.webp",
+      "sha256": "b70ddfc935d6be3acee90c749aac43532141d47fe00acbe6cf69eb5b1a9b54a7"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6188",
+      "description": "판탈리스가 동요하는 시녀들에게 말한다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/mist-castle-welcome-06.webp",
+      "sha256": "46e1a0acb806bfa04da04e548974f04698b36cb9e2ba5d8b6dc9c8b2d92ae797"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6194",
+      "description": "판탈리스가 조용히 기다리라고 손짓한다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/mist-castle-welcome-07.webp",
+      "sha256": "e79312a1a24e87e1fd3618647da3a18a6f4fa898d4ed98cd62c6c49268419f6c"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6198",
+      "description": "헬레네가 회랑을 보며 포르키아스를 부른다. 포르키아스는 보이지 않는다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/mist-castle-welcome-08.webp",
+      "sha256": "bd2a984d37d95dcb7da17276eadae14548abb11b941063ce5532268ffefeccf7"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6204",
+      "description": "헬레네가 쉬고 싶다 말하고 판탈리스가 답한다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/mist-castle-welcome-09.webp",
+      "sha256": "d6284e15a4e197532867c8bea9abdec0ac58c49283cfe6b2995f3231187373da"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6210",
+      "description": "판탈리스가 사라진 포르키아스를 찾듯 둘러본다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/mist-castle-welcome-10.webp",
+      "sha256": "6edcee5cf547925bf603facf0a94ff9284a9d5eeb23e4402095e990282b12b7e"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6214",
+      "description": "위층 회랑에서 성인 시종들이 움직인다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/mist-castle-welcome-11.webp",
+      "sha256": "ba7c6cc69dd5bf0d25cf0a5cd5ff2cd4a3b089c62fc59dd1776505ea7ac5adf7"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6218",
+      "description": "성인 시종들이 손님 맞을 준비를 한다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/mist-castle-welcome-12.webp",
+      "sha256": "46d4a4a476b343edf9b4412086038b1039709a661c8a1eda5a990aad4c314128"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6224",
+      "description": "금발 성인 시종들이 질서 있게 내려온다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/mist-castle-welcome-13.webp",
+      "sha256": "128cbf5928e6bc4a34c5b6684f20fc9075d39ba5d58d6d8487c0e49900dbebc9"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6228",
+      "description": "시녀들이 단정한 시종들의 모습을 본다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/mist-castle-welcome-14.webp",
+      "sha256": "b1e47c6f673de48d47bbcff54df008a207bbc83496ec7c609820be15025e1ef7"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6232",
+      "description": "시녀가 놀라움과 기억을 말한다. 실제 입맞춤이나 재를 추가하지 않는다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/mist-castle-welcome-15.webp",
+      "sha256": "49476ed47afa5bd1b5a2704effbf07d6f77e5d0c2fd15dcb7b4240c33e5bb374"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6236",
+      "description": "성인 시종들이 세 계단과 카펫, 좌석을 운반한다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/mist-castle-welcome-16.webp",
+      "sha256": "740fd0f787b590f65f1632cda9c0003d474a26fcd5837eb9d85cc8e6e0ec2b49"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
