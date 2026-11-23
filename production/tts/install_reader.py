@@ -9,8 +9,8 @@ def install(path):
  protected=[str(x) for x in before.select('.source-fold')]
  texts=[p.get_text() for p in before.select('.adaptation-prose p,.adaptation-intro p')]
  images=[i.get('src') for i in before.select('article img')]
- if path.name=='chapter-01.html' and path.parent==root:
-  doc=json.loads((root/'production/tts/chapter-01-sentences.json').read_text(encoding='utf-8'))
+ if path.name in ('chapter-01.html','chapter-02.html') and path.parent==root:
+  doc=json.loads((root/f'production/tts/{path.stem}-sentences.json').read_text(encoding='utf-8'))
   paras=[p for p in before.select('.adaptation-prose p,.adaptation-intro p') if 'voice-label' not in p.get('class',[])]
   if len(paras)!=len(doc['paragraphs']):raise ValueError('Paragraph count changed')
   for p,expected in zip(paras,doc['paragraphs']):
@@ -43,7 +43,7 @@ def install(path):
  html+=f'<script src="{base}assets/audiobook/reading-position.js" data-faust-extension="1" defer></script>\n'
  html+=f'<script src="{base}assets/audiobook/timeline.js" data-faust-extension="1" defer></script>\n'
  html+=f'<script src="{base}assets/audiobook/vocabulary.js" data-faust-extension="1" defer></script>\n'
- if path.name=='chapter-01.html' and path.parent==root:html+='<script src="assets/audiobook/player.js" data-audio-manifest="audio/part-1/chapter-01/manifest.json" defer></script>\n'
+ if path.name in ('chapter-01.html','chapter-02.html') and path.parent==root:html+=f'<script src="assets/audiobook/player.js" data-audio-manifest="audio/part-1/{path.stem}/manifest.json" defer></script>\n'
  after=BeautifulSoup(html,'html.parser')
  assert [str(x) for x in after.select('.source-fold')]==protected
  assert [p.get_text() for p in after.select('.adaptation-prose p,.adaptation-intro p')]==texts

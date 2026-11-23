@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "chapter": 2,
+  "sentences": 170,
+  "real_mp3_playback": true,
+  "resume_seconds_and_rate": true,
+  "chapter_positions_separated": true,
+  "single_player": true,
+  "human_listening": false
+}

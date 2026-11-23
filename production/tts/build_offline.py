@@ -13,8 +13,8 @@ for path in sorted(root.glob('chapter-*.html'))+sorted((root/'part-ii').glob('ac
   if parsed.scheme or ref.startswith('//'):continue
   target=(path.parent/unquote(parsed.path)).resolve()
   if target.is_relative_to(root) and target.is_file():entries.add(add(target))
- if key=='chapter-01.html':
-  for target in (root/'audio/part-1/chapter-01').glob('*'):entries.add(add(target))
+ if key in ('chapter-01.html','chapter-02.html'):
+  for target in (root/f'audio/part-1/{path.stem}').glob('*'):entries.add(add(target))
  entries.add(add(root/'sw.js'));chapters[key]=sorted(entries)
  for shared in ('manifest.webmanifest','index.html','assets/audiobook/icon-192.png','assets/audiobook/icon-512.png'):
   if (root/shared).exists():entries.add(add(root/shared))

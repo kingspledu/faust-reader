@@ -60,7 +60,7 @@ try:
   paths=sorted(root.glob('chapter-*.html'))+sorted((root/'part-ii').glob('act-*.html'))
   for path in paths:
    page.goto(origin+'/'+path.relative_to(root).as_posix());assert page.locator('#reader-layout-toggle').count()==1 and page.locator('#landscape-fullscreen').count()==1
-   assert page.locator('audio').count()==(1 if path.name=='chapter-01.html' else 0)
+   assert page.locator('audio').count()==(1 if path.name in ('chapter-01.html','chapter-02.html') else 0)
   browser.close()
  report=dict(status='PASS',reader_pages=len(paths),sentence_ids=60,real_mp3_playback=True,exact_resume_seconds_and_rate=True,one_audio_preserved=True,fullscreen_enter_exit=True,fullscreen_denied_unsupported=True,viewport_matrix=True,scene_sync=True,offline_reload_playback=True,offline_range_206=True,book_scoped_delete=True,human_listening=False,physical_device=False)
  (root/'production/tts/reader-integration-browser.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(report)

@@ -98,6 +98,7 @@
     "chapter-02.html": [
       "assets/audiobook/icon-192.png",
       "assets/audiobook/icon-512.png",
+      "assets/audiobook/player.js",
       "assets/audiobook/reader.css",
       "assets/audiobook/reader.js",
       "assets/audiobook/reading-position.js",
@@ -105,6 +106,177 @@
       "assets/audiobook/theme.js",
       "assets/audiobook/timeline.js",
       "assets/audiobook/vocabulary.js",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0000_c02-dense-001_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0001_c02-dense-001_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0002_c02-dense-001_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0003_c02-dense-001_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0004_c02-dense-001_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0005_c02-dense-001_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0006_c02-dense-001_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0007_c02-dense-002_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0008_c02-dense-002_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0009_c02-dense-002_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0010_c02-dense-002_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0011_c02-dense-002_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0012_c02-dense-002_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0013_c02-dense-003_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0014_c02-dense-003_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0015_c02-dense-003_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0016_c02-dense-003_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0017_c02-dense-003_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0018_c02-dense-003_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0019_c02-dense-003_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0020_c02-dense-003_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0021_c02-dense-003_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0022_c02-dense-004_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0023_c02-dense-004_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0024_c02-dense-004_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0025_c02-dense-004_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0026_c02-dense-004_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0027_c02-dense-004_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0028_c02-dense-005_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0029_c02-dense-005_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0030_c02-dense-005_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0031_c02-dense-005_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0032_c02-dense-005_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0033_c02-dense-005_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0034_c02-dense-005_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0035_c02-dense-005_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0036_c02-dense-006_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0037_c02-dense-006_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0038_c02-dense-006_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0039_c02-dense-006_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0040_c02-dense-006_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0041_c02-dense-006_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0042_c02-dense-006_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0043_c02-dense-006_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0044_c02-dense-007_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0045_c02-dense-007_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0046_c02-dense-007_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0047_c02-dense-007_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0048_c02-dense-007_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0049_c02-dense-007_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0050_c02-dense-007_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0051_c02-dense-007_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0052_c02-dense-008_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0053_c02-dense-008_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0054_c02-dense-008_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0055_c02-dense-008_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0056_c02-dense-008_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0057_c02-dense-008_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0058_c02-dense-009_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0059_c02-dense-009_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0060_c02-dense-009_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0061_c02-dense-009_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0062_c02-dense-009_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0063_c02-dense-009_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0064_c02-dense-010_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0065_c02-dense-010_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0066_c02-dense-010_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0067_c02-dense-010_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0068_c02-dense-010_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0069_c02-dense-010_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0070_c02-dense-010_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0071_c02-dense-011_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0072_c02-dense-011_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0073_c02-dense-011_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0074_c02-dense-011_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0075_c02-dense-011_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0076_c02-dense-011_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0077_c02-dense-011_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0078_c02-dense-011_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0079_c02-dense-012_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0080_c02-dense-012_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0081_c02-dense-012_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0082_c02-dense-012_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0083_c02-dense-012_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0084_c02-dense-012_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0085_c02-dense-013_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0086_c02-dense-013_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0087_c02-dense-013_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0088_c02-dense-013_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0089_c02-dense-013_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0090_c02-dense-013_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0091_c02-dense-013_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0092_c02-dense-013_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0093_c02-dense-014_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0094_c02-dense-014_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0095_c02-dense-014_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0096_c02-dense-014_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0097_c02-dense-014_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0098_c02-dense-014_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0099_c02-dense-014_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0100_c02-dense-015_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0101_c02-dense-015_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0102_c02-dense-015_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0103_c02-dense-015_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0104_c02-dense-015_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0105_c02-dense-015_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0106_c02-dense-016_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0107_c02-dense-016_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0108_c02-dense-016_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0109_c02-dense-016_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0110_c02-dense-016_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0111_c02-dense-017_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0112_c02-dense-017_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0113_c02-dense-017_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0114_c02-dense-017_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0115_c02-dense-017_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0116_c02-dense-017_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0117_c02-dense-017_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0118_c02-dense-017_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0119_c02-dense-017_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0120_c02-dense-017_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0121_c02-dense-017_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0122_c02-dense-017_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0123_c02-dense-017_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0124_c02-dense-017_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0125_c02-dense-017_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0126_c02-dense-018_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0127_c02-dense-018_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0128_c02-dense-018_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0129_c02-dense-018_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0130_c02-dense-018_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0131_c02-dense-018_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0132_c02-dense-019_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0133_c02-dense-019_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0134_c02-dense-019_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0135_c02-dense-019_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0136_c02-dense-019_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0137_c02-dense-019_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0138_c02-dense-019_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0139_c02-dense-019_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0140_c02-dense-019_CHARACTER-002.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0141_c02-dense-020_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0142_c02-dense-020_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0143_c02-dense-020_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0144_c02-dense-020_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0145_c02-dense-020_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0146_c02-dense-020_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0147_c02-dense-020_CHARACTER-003.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0148_c02-dense-021_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0149_c02-dense-021_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0150_c02-dense-021_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0151_c02-dense-021_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0152_c02-dense-022_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0153_c02-dense-022_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0154_c02-dense-022_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0155_c02-dense-022_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0156_c02-dense-022_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0157_c02-dense-022_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0158_c02-dense-022_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0159_c02-dense-022_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0160_c02-dense-022_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0161_c02-dense-022_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0162_c02-dense-023_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0163_c02-dense-023_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0164_c02-dense-023_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0165_c02-dense-023_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0166_c02-dense-023_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0167_c02-dense-023_CHARACTER-001.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0168_c02-dense-023_NARRATOR.mp3",
+      "audio/part-1/chapter-02/FAUST_P1_C02_S01_0169_c02-dense-023_NARRATOR.mp3",
+      "audio/part-1/chapter-02/manifest.json",
       "chapter-02.html",
       "illustrations/c02-dense-001.webp",
       "illustrations/c02-dense-002.webp",
@@ -3430,8 +3602,8 @@
       "sha256": "ad478bedc0f49fe6c9539ef0709b111f395b0e3b7f1f5a059228240b8ff0d251"
     },
     "assets/audiobook/player.js": {
-      "bytes": 5724,
-      "sha256": "bf312c6109a895b9866dd478550654f37e9dc07f230dbcb03727a9435b5f8e7e"
+      "bytes": 5839,
+      "sha256": "b8703c0ed2f642b9e0b9eff45d553d691779662fb889c86f6291ed25c69caad9"
     },
     "audio/part-1/chapter-01/FAUST_P1_C01_S01_0000_c01-s001_NARRATOR.mp3": {
       "bytes": 147330,
@@ -3698,8 +3870,8 @@
       "sha256": "73f7aa81136cadd4a628d27a8b23494942b848cf4f464bea3c020d6dd0aff517"
     },
     "chapter-02.html": {
-      "bytes": 64140,
-      "sha256": "8ba5f173ba09d3789017511b221583ea3d95ec88a0f26312693bd02079aef9a9"
+      "bytes": 79604,
+      "sha256": "38ae45d6f44ebe5e7098e62d914def63175067665bfe535bdbfe7e091df1e49f"
     },
     "illustrations/c02-dense-001.webp": {
       "bytes": 41924,
@@ -3792,6 +3964,690 @@
     "illustrations/c02-dense-023.webp": {
       "bytes": 56380,
       "sha256": "4db0e5b2befff3cc5648cbb0a9b978a7aebec88c5e62bc7b15af01a6ae941345"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0000_c02-dense-001_NARRATOR.mp3": {
+      "bytes": 124133,
+      "sha256": "b65ef26a1ebc641a507bfbbcc4e66da32b31aa347394174c945ea21484504711"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0001_c02-dense-001_NARRATOR.mp3": {
+      "bytes": 135418,
+      "sha256": "10270ca1806e052c45837c87c26f7e94ce60fa5c4dd0d835e6abe114baa78f57"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0002_c02-dense-001_NARRATOR.mp3": {
+      "bytes": 131657,
+      "sha256": "3f713cd50b175d5d2e0ef48acf2f360ac2230c48d3203f30a2ded655fe3b0c78"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0003_c02-dense-001_NARRATOR.mp3": {
+      "bytes": 182439,
+      "sha256": "fe6e0fd5fd2972620720c90d8a6bf0e5bd9692e58ce60740143e301e8857ba4e"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0004_c02-dense-001_NARRATOR.mp3": {
+      "bytes": 62066,
+      "sha256": "ed0082ee9a96b3e76c1e85a3e5af0e8c2829a5ae738b48e40ba8b2bdd9720805"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0005_c02-dense-001_CHARACTER-001.mp3": {
+      "bytes": 178677,
+      "sha256": "9db66853b9b8bdc18a91297a9f2d62a95d336a0cae255a3d64e237123766592d"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0006_c02-dense-001_CHARACTER-001.mp3": {
+      "bytes": 121626,
+      "sha256": "199c616482619f547b585b17549fb12464f074354131a34fc722635ee26e1ce1"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0007_c02-dense-002_NARRATOR.mp3": {
+      "bytes": 102191,
+      "sha256": "14a2e6f5204e95b74bf646eec5fa4a8cbedae1c9bb837e46c08029606cf94678"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0008_c02-dense-002_NARRATOR.mp3": {
+      "bytes": 82129,
+      "sha256": "93c4bf0c7dcc7dc1ab59f27548e4bc09d83adba9a17d7ae05d4a79e78a3d6d46"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0009_c02-dense-002_NARRATOR.mp3": {
+      "bytes": 106579,
+      "sha256": "9c218bfc7d5f3d6bf20989c8fab79f9ff0f1089457c052926911183aabc4ba68"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0010_c02-dense-002_CHARACTER-001.mp3": {
+      "bytes": 102191,
+      "sha256": "7c2ab2a4b68ed6ac3b1639d7e8dc7c99cfd34245804b29aa6cc7913138c9a04b"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0011_c02-dense-002_CHARACTER-001.mp3": {
+      "bytes": 134791,
+      "sha256": "7b00d9dbe669f532a70744568659a0eb3b08f243a825d37cdc1a23adf0f73004"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0012_c02-dense-002_CHARACTER-001.mp3": {
+      "bytes": 80248,
+      "sha256": "c01e3f0b68dc4794621735794188127f0cbca6b82bd6d0c8e5594a59acffe90e"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0013_c02-dense-003_CHARACTER-001.mp3": {
+      "bytes": 109714,
+      "sha256": "ac7e6033ac525472ab905066b33748572da706156237d48e75edcf1c9e3a2003"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0014_c02-dense-003_CHARACTER-001.mp3": {
+      "bytes": 98429,
+      "sha256": "efdfc1dceb57f98629c6dc14dc2bf8f3de2bc42c57d5c48e1ad6edfb06ce4d9e"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0015_c02-dense-003_CHARACTER-001.mp3": {
+      "bytes": 151092,
+      "sha256": "9320fd4c6bd5992f3766f1f699bbce2a49828fe799c53bb30b50ffbd8c3641cc"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0016_c02-dense-003_CHARACTER-001.mp3": {
+      "bytes": 129776,
+      "sha256": "297400bc41f8bfc5c6e62bca50629970796fa3bf1efdb51ba8696dd5c3e15787"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0017_c02-dense-003_CHARACTER-001.mp3": {
+      "bytes": 47020,
+      "sha256": "9b71daf0706f2cd682345bbfe923f64ad19131a7055c36f7d9694ce84553bab4"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0018_c02-dense-003_NARRATOR.mp3": {
+      "bytes": 71471,
+      "sha256": "6b29d8a61c8294babc01e0d1ec8ffaf2ba2263467326389a0236daff5ce688db"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0019_c02-dense-003_NARRATOR.mp3": {
+      "bytes": 145449,
+      "sha256": "717818e242f329e1784ec3293f94daa8e2ccfdb295a4c7dc27dc4905641eeb8f"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0020_c02-dense-003_NARRATOR.mp3": {
+      "bytes": 94667,
+      "sha256": "9b52c46719a5e54764afced5968f3a330588933194ad01aedad0caebc366505c"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0021_c02-dense-003_CHARACTER-002.mp3": {
+      "bytes": 110968,
+      "sha256": "7dc2588a4679829343afc26ce641923dca67a24ae3b70a003a61070afe076035"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0022_c02-dense-004_NARRATOR.mp3": {
+      "bytes": 131030,
+      "sha256": "99b76d96adaab5fa2a16b7ee7687868e7007fa677b350abd72993cc4bc8a48ce"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0023_c02-dense-004_NARRATOR.mp3": {
+      "bytes": 85890,
+      "sha256": "7f45be0bc35675d32280771bb7adbd8f573ced463fdcfd3aeef67ec10814bfff"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0024_c02-dense-004_NARRATOR.mp3": {
+      "bytes": 119745,
+      "sha256": "04e86d21937f9e2ac9312b92258a2a6571b6988d1503038f071a55d84ef8ad43"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0025_c02-dense-004_CHARACTER-002.mp3": {
+      "bytes": 100937,
+      "sha256": "71e9ec2e9d36f3544274b2e055c9adc8380a453e6d497f5f94937fbf4857c6d4"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0026_c02-dense-004_CHARACTER-002.mp3": {
+      "bytes": 178050,
+      "sha256": "81902de670204bccce504d86900cffb383cce9a037742a93564b702b199df0ec"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0027_c02-dense-004_CHARACTER-002.mp3": {
+      "bytes": 307200,
+      "sha256": "69429ed48de41eed9f072a58d8a87bd5d48e0ac24266eebb8c01e9ad983d4d7c"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0028_c02-dense-005_NARRATOR.mp3": {
+      "bytes": 106579,
+      "sha256": "4e7ba21f841558853083678e834b8e196a56b7b6c217d1182a91aeea65f74b69"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0029_c02-dense-005_NARRATOR.mp3": {
+      "bytes": 117237,
+      "sha256": "83d04618a40cc5acdbdcc61ebc55c2f46b6b8c8935a89adaf4bc28ce0179726e"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0030_c02-dense-005_NARRATOR.mp3": {
+      "bytes": 174289,
+      "sha256": "251b31f7e07bc28dabed3035983c9b7e5db260cc95064fcb492dcb97e588db56"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0031_c02-dense-005_CHARACTER-002.mp3": {
+      "bytes": 113475,
+      "sha256": "d9116db6e6c459ec28a2e12a7047209b675fefe385abf9829eea6f9625532f5e"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0032_c02-dense-005_CHARACTER-002.mp3": {
+      "bytes": 122880,
+      "sha256": "432fabd7cf17a646a05fb7de3cc5a4ae0e667e294690cb1cec82d90501c6c370"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0033_c02-dense-005_NARRATOR.mp3": {
+      "bytes": 104698,
+      "sha256": "4fb81fc61ff28168408de722709978b2ab65757bd366f16873eb1b063fac9538"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0034_c02-dense-005_CHARACTER-003.mp3": {
+      "bytes": 53289,
+      "sha256": "42cf093bcf2b6d2499b499b1ffded08407c5857829c4d8f9886bf342cc055172"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0035_c02-dense-005_CHARACTER-003.mp3": {
+      "bytes": 95921,
+      "sha256": "d105fc577a1f9948a92b107cba70e0b9c7ba19b0444ac3750bb31b8c305fe041"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0036_c02-dense-006_NARRATOR.mp3": {
+      "bytes": 114729,
+      "sha256": "a9e3625411f58e56d1cd0fef3b20f9dceba2ba1d98ec4e33c913fe85b9108d52"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0037_c02-dense-006_NARRATOR.mp3": {
+      "bytes": 99056,
+      "sha256": "70f2ecebbaafa78bff8c5c65fb2f18c50901f9e58e065e3fcd3a172918db7df3"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0038_c02-dense-006_NARRATOR.mp3": {
+      "bytes": 146703,
+      "sha256": "32844e14b8b410c4576f777178be9c33d1b42123cbd01ab62e88419336766781"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0039_c02-dense-006_CHARACTER-003.mp3": {
+      "bytes": 73351,
+      "sha256": "ab3367e0dbbb7685d10ba3dffc9e4ef58c286d2ecd97165eaa7d68caa7758141"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0040_c02-dense-006_CHARACTER-003.mp3": {
+      "bytes": 94040,
+      "sha256": "2151a0669d9a0e96e064bbc0569f4e16220214163a36449be0e3764b754f6ddb"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0041_c02-dense-006_CHARACTER-003.mp3": {
+      "bytes": 77113,
+      "sha256": "a0133aa0945de0224de4d62e25b7626b5e0ae40f3b5798379de5c9fa15158f62"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0042_c02-dense-006_CHARACTER-003.mp3": {
+      "bytes": 171154,
+      "sha256": "2194bab54b3e64b2858e2faa5ea11c547506c2b52a378948b28ed85e261c0706"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0043_c02-dense-006_CHARACTER-003.mp3": {
+      "bytes": 57051,
+      "sha256": "03c103fe7e1484915c9cd80df53ac6d6a75be245c4a8e503b6793d317c32a98f"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0044_c02-dense-007_CHARACTER-003.mp3": {
+      "bytes": 43258,
+      "sha256": "cbdd837bcd077c580b8728192f602c84fe6b4cbacc4708824aa2267d3c20d142"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0045_c02-dense-007_CHARACTER-003.mp3": {
+      "bytes": 38870,
+      "sha256": "401c54337ece63fd4570b0312771ccf316142627f56f56835fc1be8a2c3ca970"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0046_c02-dense-007_NARRATOR.mp3": {
+      "bytes": 88398,
+      "sha256": "b19ef70f8430a7f22f40e804015c0d96abdfdad113144601bc5894a89e8a150f"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0047_c02-dense-007_NARRATOR.mp3": {
+      "bytes": 151719,
+      "sha256": "97a9ff41794475908e920508d68149165bd04e0a49c5302444622105364e73c1"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0048_c02-dense-007_CHARACTER-001.mp3": {
+      "bytes": 32600,
+      "sha256": "3724098d4a63d8dc27e8f584d91023d5802060d787ebd5696032945080f60e48"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0049_c02-dense-007_CHARACTER-001.mp3": {
+      "bytes": 64574,
+      "sha256": "b78534b393a34bcdef311960b5bb1f6bd7e9e703687c19376f9c111eab388f17"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0050_c02-dense-007_CHARACTER-001.mp3": {
+      "bytes": 109714,
+      "sha256": "34110ff01435927709c5673f6011fe305ccb13962958a99e538e97b2d7ceb53b"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0051_c02-dense-007_CHARACTER-001.mp3": {
+      "bytes": 147330,
+      "sha256": "1e476f82e9e5a4b797eb10d595a7980d31ba1b4c03994178a28b037e7ee378af"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0052_c02-dense-008_NARRATOR.mp3": {
+      "bytes": 88398,
+      "sha256": "3cd9e05d73e37680ff4b1a3222766ee4572ce76382d057a25a711371407fc02e"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0053_c02-dense-008_NARRATOR.mp3": {
+      "bytes": 136672,
+      "sha256": "74373677d3eb7a96ba7162ac0d5cba6c675a360be0c242c5624fb4b8f55b28d4"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0054_c02-dense-008_NARRATOR.mp3": {
+      "bytes": 135418,
+      "sha256": "b06a9fcdb3750436db30adda12fd6100ea8fdef5ec27d225371b6706ddb6c905"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0055_c02-dense-008_CHARACTER-001.mp3": {
+      "bytes": 92160,
+      "sha256": "c11a418631ec65d192db7cb0a75de5ee7b55d904cce6fb5047c876a516b55335"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0056_c02-dense-008_CHARACTER-001.mp3": {
+      "bytes": 102818,
+      "sha256": "991fc78aded20dd82d20c003ed388f5d0860eba37c7da6d8ae9a6db3255d3183"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0057_c02-dense-008_CHARACTER-001.mp3": {
+      "bytes": 112222,
+      "sha256": "c186b43f364bf8673da8ad17f13827e9b955b75194abe05797ec21cf2e718573"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0058_c02-dense-009_NARRATOR.mp3": {
+      "bytes": 67709,
+      "sha256": "46cb8652e5aec9194bd4f6ce905eda399e6c9838e5055e1826d851380614b919"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0059_c02-dense-009_NARRATOR.mp3": {
+      "bytes": 159242,
+      "sha256": "c218241c0e60f36bcee07691246a59aeac12c36ac873e01527786b2988599f85"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0060_c02-dense-009_CHARACTER-001.mp3": {
+      "bytes": 126641,
+      "sha256": "38001c95d7851c5916a04fd39380555128544f6443fa04f8a6da4e92f837df0e"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0061_c02-dense-009_NARRATOR.mp3": {
+      "bytes": 77740,
+      "sha256": "6f77bbc6eb3df11b848384405941b9311a57a975e27046c633373501ea9d7755"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0062_c02-dense-009_CHARACTER-002.mp3": {
+      "bytes": 154853,
+      "sha256": "05137f92caefc843f1aca73d72d3c321759fc6401306951ab751d69a537a48d4"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0063_c02-dense-009_CHARACTER-002.mp3": {
+      "bytes": 107206,
+      "sha256": "db3df6b908bc87cd669593501a5239f7720fcc6270d90439e1f12514e072cbe6"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0064_c02-dense-010_CHARACTER-002.mp3": {
+      "bytes": 106579,
+      "sha256": "7e32235d80d80ae5bd9ae59bf5ca80a8b738a54dda4388ed080c45df44c794a6"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0065_c02-dense-010_NARRATOR.mp3": {
+      "bytes": 114729,
+      "sha256": "3e715c4358c0c5cb5610d88c8696f4e6309807b00e92804029bf6560fd4feb4a"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0066_c02-dense-010_NARRATOR.mp3": {
+      "bytes": 115356,
+      "sha256": "1e66fc7c192e8e6f8b6300f81e15ef6458767be64020b39d7115b452f9bd9854"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0067_c02-dense-010_NARRATOR.mp3": {
+      "bytes": 110968,
+      "sha256": "a9b28344b5ca4f88329d1dd73c01012b22676ea9e481b283bada06afe3bc21ae"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0068_c02-dense-010_CHARACTER-001.mp3": {
+      "bytes": 124760,
+      "sha256": "30242ee90e1ba8c65273bff55da6bac47c72279b8c7329688c96e7a4fd00a942"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0069_c02-dense-010_CHARACTER-001.mp3": {
+      "bytes": 75859,
+      "sha256": "5244aeec1b9b19e8ba7faab11a5bb0b98dbbee78f7664819c911604ebdc2c566"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0070_c02-dense-010_CHARACTER-001.mp3": {
+      "bytes": 57051,
+      "sha256": "3723e5c9d490fa365253a26bd2bd33da0468930d0aac95b2631019f9087c7061"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0071_c02-dense-011_NARRATOR.mp3": {
+      "bytes": 55797,
+      "sha256": "f9530914259445646d6efdb103670fcb2d243b3fe73ac51bf55011458e30e23a"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0072_c02-dense-011_NARRATOR.mp3": {
+      "bytes": 94040,
+      "sha256": "e7570f6bcf21680a75b779dd43eddc2c34477bdc4bbfbc5463cbb1d7fdcd7970"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0073_c02-dense-011_NARRATOR.mp3": {
+      "bytes": 186827,
+      "sha256": "9f73e7f71f6d421e22a7d221d72b19fb94e38abab94fb25b48ebf2d2daf48b29"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0074_c02-dense-011_CHARACTER-001.mp3": {
+      "bytes": 184320,
+      "sha256": "cba7d849d7456f9b9aa89d379f4c26491fb6d032d8110a3d8a82cf69bc6fcda0"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0075_c02-dense-011_CHARACTER-001.mp3": {
+      "bytes": 93413,
+      "sha256": "cc728c9cb3ff0ed0b64b5a0b2c45e29ba0ab4ed1d3d7aa6923cb93ff88facddc"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0076_c02-dense-011_CHARACTER-001.mp3": {
+      "bytes": 68336,
+      "sha256": "c4e018c1dbb2c2f4599fae277964fe4f537f244aff826987228782a0c05670bd"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0077_c02-dense-011_CHARACTER-001.mp3": {
+      "bytes": 124760,
+      "sha256": "b0ef5056bf0acb956e0ee46bb06dd2f88ae5bd0d826b2353736a90b04e3f6cf4"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0078_c02-dense-011_CHARACTER-001.mp3": {
+      "bytes": 145449,
+      "sha256": "36c7c07e525f6a6d0b7f9f293311f81c04af3844dcd8dcf42f3622df7bf5a9ae"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0079_c02-dense-012_NARRATOR.mp3": {
+      "bytes": 68336,
+      "sha256": "92bcdec9713ea9b3c5b9fa6f50211889444068ddfd036e8544d1f50a8b705942"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0080_c02-dense-012_NARRATOR.mp3": {
+      "bytes": 119118,
+      "sha256": "987b6faf0237bc5efaddc209391956c76b2619d03ccbbeee89db5feefefb4c6d"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0081_c02-dense-012_NARRATOR.mp3": {
+      "bytes": 223190,
+      "sha256": "877654e0d63f84d8341b9b5b7be2f08f0cc93914aae70959fb14489fc8bde37e"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0082_c02-dense-012_CHARACTER-001.mp3": {
+      "bytes": 115356,
+      "sha256": "af3c4fde80ecc3331d909261ee3e16e11287234e3bd0ca6fe531ca42408ba918"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0083_c02-dense-012_CHARACTER-001.mp3": {
+      "bytes": 153600,
+      "sha256": "71ac952190167e13024dda5c4258e2e0a76d77d174e50cb2a738582419e67831"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0084_c02-dense-012_CHARACTER-001.mp3": {
+      "bytes": 92786,
+      "sha256": "a69ed5e3796435f3a5b568f81291f9a6541cd0a3308f17d0ea8b2e125d04278b"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0085_c02-dense-013_CHARACTER-001.mp3": {
+      "bytes": 88398,
+      "sha256": "3fd89e528ad5a113802cfb5cea3ad0f209041300965009771ac978563a5b13be"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0086_c02-dense-013_CHARACTER-001.mp3": {
+      "bytes": 111595,
+      "sha256": "07dd87e96fa5245cde2aa4ceb4878c6fb4d6b449effa6a624c82488b0d87be17"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0087_c02-dense-013_CHARACTER-001.mp3": {
+      "bytes": 69590,
+      "sha256": "3f71a706c0f5e814425bd2869abb11d210330c1564c1e412ac8f31b082bb17d7"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0088_c02-dense-013_NARRATOR.mp3": {
+      "bytes": 111595,
+      "sha256": "f0d53a606875c7120eff39233d011ce9b902da6c3f7cf653e26035f10fdf9230"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0089_c02-dense-013_NARRATOR.mp3": {
+      "bytes": 144195,
+      "sha256": "3dc63bbaad379e61e5c2f93624fbe3c08c2c891809588a45ca98c6f7c22a1ae6"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0090_c02-dense-013_NARRATOR.mp3": {
+      "bytes": 94667,
+      "sha256": "df2bf34d5c8f8c5fd3f62fbab55c988ca1bcb58c5d20eda938f726dc4da4adb9"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0091_c02-dense-013_CHARACTER-002.mp3": {
+      "bytes": 77113,
+      "sha256": "46adab2d730e11aeedf3c5c599818d85f0d1f31667077fa14c67473f474b2172"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0092_c02-dense-013_CHARACTER-002.mp3": {
+      "bytes": 184320,
+      "sha256": "453873d439857fc0d342070b2b8e2cf7fcd1c1ed4b9d522552c8173031c2d411"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0093_c02-dense-014_NARRATOR.mp3": {
+      "bytes": 87771,
+      "sha256": "838762091a72735f973dbff669c02705fe061053aa56165db9cae8eb584bd8c1"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0094_c02-dense-014_NARRATOR.mp3": {
+      "bytes": 223190,
+      "sha256": "1791b6d9dff1bdcd49318d958e48352096f4b4eca1c5b760c7473d35746359fc"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0095_c02-dense-014_CHARACTER-002.mp3": {
+      "bytes": 104698,
+      "sha256": "1501d523970cd688f585353fcabd2421b0e33e8e12522c428600110337bf9f5b"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0096_c02-dense-014_CHARACTER-002.mp3": {
+      "bytes": 62693,
+      "sha256": "5222d9e62c8d8f13daed61fbd49143c073aad777963e3987837a4f3fdc2d8dd5"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0097_c02-dense-014_CHARACTER-002.mp3": {
+      "bytes": 120999,
+      "sha256": "b0c7c61f86f479d7e79037412801c51fdca5e614a287cd75b3717a562a5f2281"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0098_c02-dense-014_CHARACTER-002.mp3": {
+      "bytes": 93413,
+      "sha256": "5cb20ced874db849daffcf3dc6affb4ce031f81d47866804dc1ae277bed35dca"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0099_c02-dense-014_CHARACTER-002.mp3": {
+      "bytes": 211905,
+      "sha256": "b1d79c3a2794e5ddbe55d3a7fb7d73dc588c9d73b3c361d9d2601dc273d002e2"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0100_c02-dense-015_NARRATOR.mp3": {
+      "bytes": 78994,
+      "sha256": "0bd7b8cacdd81573954804483e61c6e7018f49336cb668ef8a41967bf5ab710a"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0101_c02-dense-015_NARRATOR.mp3": {
+      "bytes": 182439,
+      "sha256": "1e25dd40867f2569a856d9505615fc124a30aaf41e601b362f7432e23714960a"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0102_c02-dense-015_NARRATOR.mp3": {
+      "bytes": 102191,
+      "sha256": "d2738e0a3e2be9de975338aa079d9e91c6c6aa15db80673904a4933be5976793"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0103_c02-dense-015_CHARACTER-002.mp3": {
+      "bytes": 109714,
+      "sha256": "c8590aa2aaf90c0230f84c58130553dd00472af20451cb131a95b256d98ce5c0"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0104_c02-dense-015_CHARACTER-002.mp3": {
+      "bytes": 144195,
+      "sha256": "f3c75614420ba34c8e032ec8a184385b5286ef47ff4f49164a81a02847dba7bb"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0105_c02-dense-015_CHARACTER-002.mp3": {
+      "bytes": 227578,
+      "sha256": "dc5ee91c6ef0e180c29e3049960a2c7b74a84eb0800f6a239a721234d26d6b36"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0106_c02-dense-016_NARRATOR.mp3": {
+      "bytes": 96548,
+      "sha256": "3ec84a61c309639d295b19bc7246bba06144fe08e0c69d8672d2a52fa24f251b"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0107_c02-dense-016_NARRATOR.mp3": {
+      "bytes": 142942,
+      "sha256": "461c1a3fe48bc566de5531f36bf8850fe4f607383c8439c0bae3ddfd4ef3739d"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0108_c02-dense-016_CHARACTER-002.mp3": {
+      "bytes": 141061,
+      "sha256": "11b8132ea4e484a7700221e325cb63dae328eeee93fa12fb22bba641dcf665f3"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0109_c02-dense-016_CHARACTER-002.mp3": {
+      "bytes": 171154,
+      "sha256": "94e53e3a7d8914cd421fb067bb7cb7140f1a3794c4d819eef37bf3924ec05f8a"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0110_c02-dense-016_CHARACTER-002.mp3": {
+      "bytes": 129149,
+      "sha256": "413a4f40fc75eb858363c380ee9f309d1c58915a86d932edeccdce37a2b9b52c"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0111_c02-dense-017_NARRATOR.mp3": {
+      "bytes": 93413,
+      "sha256": "ce3525d53d1505ae927893ea46091c959ef8260951f182d6f37f884d28bb5641"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0112_c02-dense-017_NARRATOR.mp3": {
+      "bytes": 178050,
+      "sha256": "ea71f6fc1c3c33878c57ef8e1f6ab1a8b8031787927c3c4d2bebde827b91e0a4"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0113_c02-dense-017_CHARACTER-003.mp3": {
+      "bytes": 50155,
+      "sha256": "49b03b95e8b486c06056032fffd2b56627e73a8b7dbb19fccdfc013217a377a3"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0114_c02-dense-017_CHARACTER-003.mp3": {
+      "bytes": 46393,
+      "sha256": "8602706d97fcc1da2748d29192547a8d677983577c6715886a59a6a0a73271bd"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0115_c02-dense-017_CHARACTER-003.mp3": {
+      "bytes": 122880,
+      "sha256": "8b75567849162a4a5e762a5ad43026be9ebcf2b15c9f581a1a93cf1753c026ca"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0116_c02-dense-017_CHARACTER-003.mp3": {
+      "bytes": 142315,
+      "sha256": "f642fa10dfdfabbf3620c9d93ad2886eabb26196c0be714fe955b56d387075ca"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0117_c02-dense-017_CHARACTER-003.mp3": {
+      "bytes": 76486,
+      "sha256": "043a75f7f914e82e840823d4e32232efbd1a4ad8808094c8227443e88893c334"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0118_c02-dense-017_NARRATOR.mp3": {
+      "bytes": 77740,
+      "sha256": "d3c2c945c528a61643785f19b64ef4803f8716a4bbebe389d7e31ea741375985"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0119_c02-dense-017_CHARACTER-002.mp3": {
+      "bytes": 70844,
+      "sha256": "07f3e380fe4dff4a7887802ed6c666dc0f51e4b834dffb288dc3600d5f5af3fd"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0120_c02-dense-017_NARRATOR.mp3": {
+      "bytes": 89025,
+      "sha256": "8e399603cf898db6759229ecae33f30af61effc27c4d300ea606be77b7ec0f84"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0121_c02-dense-017_CHARACTER-003.mp3": {
+      "bytes": 124760,
+      "sha256": "3a8707a8136124a514d32bd1e4b48f02d449fe4e10c7e4525c847297553593aa"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0122_c02-dense-017_CHARACTER-003.mp3": {
+      "bytes": 115356,
+      "sha256": "8cd953525c702e78a66015cb417a92aa0640c821ce422c313cc7a7f6825fa0fd"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0123_c02-dense-017_CHARACTER-003.mp3": {
+      "bytes": 75859,
+      "sha256": "d3c98c32d34c5612f65042b00b096e7ab3cd5cedbfecbd5891301676eb418cc5"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0124_c02-dense-017_CHARACTER-003.mp3": {
+      "bytes": 176796,
+      "sha256": "84cd39df8a8fa0ea8b1cb96ec110007a9301ea281b66a5b2715c8f3b386ce8d5"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0125_c02-dense-017_CHARACTER-003.mp3": {
+      "bytes": 85263,
+      "sha256": "a93c3fe5793e3887c1e73b0bb5851f765afe359f774b8762ccfa4a8d628b4dcc"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0126_c02-dense-018_NARRATOR.mp3": {
+      "bytes": 131657,
+      "sha256": "1efd258bf090041a378c62d114cec636a222b0cf3022e7930e602d8820af7898"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0127_c02-dense-018_NARRATOR.mp3": {
+      "bytes": 150465,
+      "sha256": "e0af1e87611fd51fcc5ac1630ad588ed852f887c9f5a22d2cfc6a2815f763285"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0128_c02-dense-018_CHARACTER-003.mp3": {
+      "bytes": 104071,
+      "sha256": "78083411004d4632ba03cc997e48d87ad4b7d450ffb9501a529939572b0cf3e0"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0129_c02-dense-018_CHARACTER-003.mp3": {
+      "bytes": 176169,
+      "sha256": "681ebcbe271077556cbc91235e4e250175304084676f790a34050209ff3a7609"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0130_c02-dense-018_CHARACTER-003.mp3": {
+      "bytes": 102818,
+      "sha256": "daad2dac5ccf7ae94f579107ea9c00f8a18b6ecf9a69791a8eb6849809c4a086"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0131_c02-dense-018_CHARACTER-003.mp3": {
+      "bytes": 239490,
+      "sha256": "5324d3ece4e559ef30a0ef4f7d846d9032ce4b0e4ce5d7222df44cc208dfb7c1"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0132_c02-dense-019_NARRATOR.mp3": {
+      "bytes": 112849,
+      "sha256": "7e3b167587b69d5f143b687678d969b0d5200411ddcd8f087e68e09a72351d98"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0133_c02-dense-019_NARRATOR.mp3": {
+      "bytes": 186827,
+      "sha256": "19fc20cda34c4e4d9d9151fee68519ef76740f9920c611d5b51d8fe5ab7f8315"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0134_c02-dense-019_CHARACTER-002.mp3": {
+      "bytes": 97175,
+      "sha256": "462fa72400ea74c83b70d2e747641c9732ee5eb7c8961c52739aa1fd4543c99c"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0135_c02-dense-019_CHARACTER-002.mp3": {
+      "bytes": 73978,
+      "sha256": "c82d7cbd50c3c6df2b575497eb8a4c2daecb8405d2b6f91f57b1a189bfe0afac"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0136_c02-dense-019_CHARACTER-002.mp3": {
+      "bytes": 213159,
+      "sha256": "c143810965fb9c5d747d3f8cc3de5cbaa522a2a9cd9feaa3adc979c1ce6942e1"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0137_c02-dense-019_CHARACTER-002.mp3": {
+      "bytes": 135418,
+      "sha256": "9c907185dbdba7fa61d5f14486e1fcf793831c7861c434eba89749be51d69843"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0138_c02-dense-019_CHARACTER-002.mp3": {
+      "bytes": 146703,
+      "sha256": "5bbe2d165d42dc5f2f205d2de690bb52515e6ba50fa1aa179b61e4c373f90a2e"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0139_c02-dense-019_CHARACTER-002.mp3": {
+      "bytes": 154853,
+      "sha256": "0fc64c5913f43b2ed43074919e1e0b80983dd24ca66fcaabb779adf670db7ab0"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0140_c02-dense-019_CHARACTER-002.mp3": {
+      "bytes": 116610,
+      "sha256": "f280af2104a2fcac6a5f30301753644843db845a77705ffca0189fb707b49efd"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0141_c02-dense-020_NARRATOR.mp3": {
+      "bytes": 105952,
+      "sha256": "8e8c61c7a2ec5367e68c2f001524cffe8c15dac073850b2fc9bf42962556e99e"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0142_c02-dense-020_NARRATOR.mp3": {
+      "bytes": 106579,
+      "sha256": "509cd24e3a3bd10465c179fb33038617353efd3317de448fcb332ffcdf4ed2af"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0143_c02-dense-020_NARRATOR.mp3": {
+      "bytes": 163631,
+      "sha256": "c2b663d5708fbc7361caaad09ac9b8e7726f046d57a2204f3e6769cc203562d9"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0144_c02-dense-020_CHARACTER-003.mp3": {
+      "bytes": 261433,
+      "sha256": "6a9554195fc8b83f8495aac773cd362e2b6832a5960acfd1c26742ba88449a72"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0145_c02-dense-020_CHARACTER-003.mp3": {
+      "bytes": 216920,
+      "sha256": "9f63f729ed42609f59b566cdf7c447a92d2c36da50294f6d057b729fcd9d8aaa"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0146_c02-dense-020_CHARACTER-003.mp3": {
+      "bytes": 71471,
+      "sha256": "713f43353db2d8d9fd7db972f587cfcedac0341efddba49f8c93f5c80489158f"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0147_c02-dense-020_CHARACTER-003.mp3": {
+      "bytes": 132284,
+      "sha256": "23c09ae56ecba6187979401670ef517655cc75e1201f5a9d941679959e60af74"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0148_c02-dense-021_NARRATOR.mp3": {
+      "bytes": 65828,
+      "sha256": "b4859e8d5c753a95566c50f3ecbc813c0f5440c0d7abae62169b0d6dbabbdfdd"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0149_c02-dense-021_NARRATOR.mp3": {
+      "bytes": 194351,
+      "sha256": "8a72269a1c8a7194f87b22c8e50738ca648d15510b03fb342b0e8b6a14930d20"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0150_c02-dense-021_CHARACTER-001.mp3": {
+      "bytes": 129776,
+      "sha256": "a4ccb77f6a84fdea022fb34765d914c3c3a49e11d9fa7ec650935b2ca9a605ed"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0151_c02-dense-021_CHARACTER-001.mp3": {
+      "bytes": 99683,
+      "sha256": "fc1880f00ee6b549a53067bc2c5cba6faa71e9c6c938d4fbe9001b581f17a3ad"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0152_c02-dense-022_NARRATOR.mp3": {
+      "bytes": 89652,
+      "sha256": "53c460cf0065100d15f4277ac07d23ac5b1d8ec83095f91a28b41b1f776d5926"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0153_c02-dense-022_NARRATOR.mp3": {
+      "bytes": 198739,
+      "sha256": "a0808e015b006d42f60a5f1aa67496db55021ede336356e4687248042c175d46"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0154_c02-dense-022_CHARACTER-001.mp3": {
+      "bytes": 53916,
+      "sha256": "484245b27d5e61469f7b0aef60616c4adc6ce3e019e68b430aa4cf0573345f08"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0155_c02-dense-022_CHARACTER-001.mp3": {
+      "bytes": 63320,
+      "sha256": "2a7624b2280050be832535f0f7fc89e810bd021922c9e81755ee07d9f153e32e"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0156_c02-dense-022_CHARACTER-001.mp3": {
+      "bytes": 60813,
+      "sha256": "cb2bef9b803f5ad23326cdb2a3a6100ec106a9f2f0e9d4582394231cdcce63f6"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0157_c02-dense-022_CHARACTER-001.mp3": {
+      "bytes": 82755,
+      "sha256": "6e31cc80d626ad57f39e936fa7d21e290ff9168b90891615b164ef5c0bd73108"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0158_c02-dense-022_CHARACTER-001.mp3": {
+      "bytes": 102191,
+      "sha256": "dcad65a91501ae9eb00d8ce2217f0983b152e6cad9bc1a2e5f27080db857f3e2"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0159_c02-dense-022_CHARACTER-001.mp3": {
+      "bytes": 72098,
+      "sha256": "66cc020cca653e81fc31fe50222d686ab8f23b324b49dd06a36a6df1428e8564"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0160_c02-dense-022_CHARACTER-001.mp3": {
+      "bytes": 73978,
+      "sha256": "774f71eaf5be0e36186e4eecee985e211e8882a2790e9fa440f8f97178a570e3"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0161_c02-dense-022_CHARACTER-001.mp3": {
+      "bytes": 125387,
+      "sha256": "c32c17365602633ab22f081a75928328e237c9a3e49ab857f4c1097a08e877e5"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0162_c02-dense-023_NARRATOR.mp3": {
+      "bytes": 118491,
+      "sha256": "add2a2b0aee9933a38a56061fafbcd1be5d5537ee0c01d27ba46d861cfc37d21"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0163_c02-dense-023_NARRATOR.mp3": {
+      "bytes": 90279,
+      "sha256": "82b3c0334b6e22599da5b85997169b2ff580be445ab93329e169978f0ea28c7c"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0164_c02-dense-023_NARRATOR.mp3": {
+      "bytes": 126641,
+      "sha256": "b9218ff2a9d9e48aab31a6e3e2b17ee40bf1fdf6d91f4e60100cc724641b29e7"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0165_c02-dense-023_CHARACTER-001.mp3": {
+      "bytes": 37616,
+      "sha256": "d539ffaef712d38e790914ad05178e7046d98dbb9d9799ecaf39415dddec5279"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0166_c02-dense-023_CHARACTER-001.mp3": {
+      "bytes": 104071,
+      "sha256": "6a22a1f6faaac121403e42a4da55d214e808f003a1ab43d0a7b3d6ec7066a207"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0167_c02-dense-023_CHARACTER-001.mp3": {
+      "bytes": 136045,
+      "sha256": "241185ea28933759689fe357b1259148df0e7d3583ae3b1a09b9b6ed2b59ac44"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0168_c02-dense-023_NARRATOR.mp3": {
+      "bytes": 126014,
+      "sha256": "59ff1f3c1b29d335cf8c89d692f6aed063c588087790fdd3424176b59749354b"
+    },
+    "audio/part-1/chapter-02/FAUST_P1_C02_S01_0169_c02-dense-023_NARRATOR.mp3": {
+      "bytes": 174289,
+      "sha256": "2ea027af2fce4fd66f2659a600400066301cb8525a882c0f9f831f63357aad4d"
+    },
+    "audio/part-1/chapter-02/manifest.json": {
+      "bytes": 120605,
+      "sha256": "f2ff5fb2028a07367769848ee3ea40131b2c460f2d0ffbf5594efc0ef78be6d1"
     },
     "chapter-03.html": {
       "bytes": 42513,

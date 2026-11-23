@@ -1,8 +1,10 @@
 """Conservative browser-only gain and boundary hints; never rewrite MP3 bytes."""
-import json,math
+import json,math,sys
+chapter=int(sys.argv[1]) if len(sys.argv)>1 else 1
+code=f"{chapter:02}"
 from pathlib import Path
 import av,numpy as np
-root=Path(__file__).resolve().parents[2];folder=root/'audio/part-1/chapter-01';path=folder/'manifest.json'
+root=Path(__file__).resolve().parents[2];folder=root/f'audio/part-1/chapter-{code}';path=folder/'manifest.json'
 doc=json.loads(path.read_text(encoding='utf-8'));groups={};measurements=[]
 for row in doc['sentences']:
  resampler=av.AudioResampler(format='fltp',layout='mono',rate=24000);samples=[]
@@ -23,4 +25,4 @@ for row in doc['sentences']:row['playback_gain']=round(10**((target-means[row['v
 doc['measurement_policy']='10ms RMS -50dBFS boundary detector, 150ms padding, max 1s removal; voice median attenuation only; no MP3 rewrite or DSP'
 path.write_text(json.dumps(doc,ensure_ascii=False,indent=2),encoding='utf-8')
 report=dict(voices_median_rms_dbfs=means,target_dbfs=target,files_unchanged=True,effects_not_added=True,human_listening=False,measurements=measurements)
-(root/'production/tts/chapter-01-audio-measurements.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8');print(means,target)
+(root/f'production/tts/chapter-{code}-audio-measurements.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8');print(means,target)
