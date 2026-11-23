@@ -13,7 +13,8 @@
   const art=document.createElement('aside');art.id='faust-art';art.setAttribute('aria-label','현재 장면 삽화');document.body.append(art);
   const menu=document.querySelector('.reader-menu');if(menu)tools.querySelector('details>div').append(menu);
   const dialog=document.createElement('dialog');dialog.id='faust-install';dialog.innerHTML='<p>전체화면을 사용할 수 없는 환경입니다. iPhone·iPad Safari에서는 공유 → 홈 화면에 추가 후 열어 주세요. 다른 브라우저는 메뉴의 설치 또는 홈 화면에 추가를 이용할 수 있습니다.</p><form method="dialog"><button>닫기</button></form>';document.body.append(dialog);
-  document.getElementById('install-app').onclick=()=>dialog.showModal();
+  let installPrompt=null;window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;});
+  document.getElementById('install-app').onclick=async()=>{if(installPrompt){await installPrompt.prompt();installPrompt=null;}else dialog.showModal();};
   const full=document.getElementById('landscape-fullscreen');
   full.onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if(root.requestFullscreen)await root.requestFullscreen();else dialog.showModal();}catch{dialog.showModal();}};
   const fullState=()=>{const on=!!document.fullscreenElement;full.textContent=on?'전체모드 종료':'전체모드';full.setAttribute('aria-pressed',String(on));full.setAttribute('aria-label',on?'전체화면 종료':'전체화면 켜기');};document.addEventListener('fullscreenchange',fullState);fullState();

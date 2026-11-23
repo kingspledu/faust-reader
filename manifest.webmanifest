@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "파우스트 · 삽화 오디오북",
+  "short_name": "파우스트",
+  "lang": "ko",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f4e9",
+  "theme_color": "#263e30",
+  "icons": [
+    {
+      "src": "assets/audiobook/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/audiobook/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

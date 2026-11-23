@@ -12,9 +12,13 @@ def install(path):
  if path.name=='chapter-01.html' and path.parent==root:
   doc=json.loads((root/'production/tts/chapter-01-sentences.json').read_text(encoding='utf-8'))
   paras=[p for p in before.select('.adaptation-prose p,.adaptation-intro p') if 'voice-label' not in p.get('class',[])]
+  if len(paras)!=len(doc['paragraphs']):raise ValueError('Paragraph count changed')
   for p,expected in zip(paras,doc['paragraphs']):
    if p.get_text(' ',strip=True)!=expected['text']:raise ValueError('Published text changed: '+expected['paragraph_id'])
-   if p.get('id')==expected['paragraph_id']:continue
+   if p.get('id')==expected['paragraph_id']:
+    seq=[s for s in doc['sentences'] if s['paragraph_id']==expected['paragraph_id']]
+    assert [(x.get('id'),x.get_text()) for x in p.select('[data-sentence]')]==[(s['sentence_id'],s['source_slice']) for s in seq]
+    continue
    if any(getattr(c,'name',None) for c in p.contents):raise ValueError('Inline markup requires explicit mapping')
    original=str(p);p['id']=expected['paragraph_id'];p.clear()
    for s in doc['sentences']:
@@ -22,6 +26,8 @@ def install(path):
     span=before.new_tag('span',id=s['sentence_id']);span['class']='reading-sentence';span['data-sentence']=s['sentence_id'];span.string=s['source_slice'];p.append(span)
    html=html.replace(original,str(p),1)
  base='../' if path.parent!=root else ''
+ pwa=f'<link rel="manifest" href="{base}manifest.webmanifest"/>'
+ if pwa not in html:html+=pwa
  css=f'<link rel="stylesheet" href="{base}assets/audiobook/reader.css"/>'
  if css not in html:html=html.replace('</head>',css+'</head>')
  theme=f'<link rel="stylesheet" href="{base}assets/audiobook/theme.css" data-faust-theme="1"/>'
@@ -33,6 +39,10 @@ def install(path):
  html+=f'\n<link rel="stylesheet" href="{base}assets/audiobook/reader.css" data-faust-reader="1">\n<script src="{base}assets/audiobook/reader.js" data-faust-reader="1" defer></script>\n'
  html=re.sub(r'<script[^>]*data-faust-theme-script[^>]*></script>\s*','',html)
  html+=f'<script src="{base}assets/audiobook/theme.js" data-faust-theme-script="1" defer></script>\n'
+ html=re.sub(r'<script[^>]*data-faust-extension[^>]*></script>\s*','',html)
+ html+=f'<script src="{base}assets/audiobook/reading-position.js" data-faust-extension="1" defer></script>\n'
+ html+=f'<script src="{base}assets/audiobook/timeline.js" data-faust-extension="1" defer></script>\n'
+ html+=f'<script src="{base}assets/audiobook/vocabulary.js" data-faust-extension="1" defer></script>\n'
  if path.name=='chapter-01.html' and path.parent==root:html+='<script src="assets/audiobook/player.js" data-audio-manifest="audio/part-1/chapter-01/manifest.json" defer></script>\n'
  after=BeautifulSoup(html,'html.parser')
  assert [str(x) for x in after.select('.source-fold')]==protected

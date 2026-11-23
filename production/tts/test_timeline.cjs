@@ -1,0 +1,3 @@
+const assert=require('node:assert/strict');const {build}=require('../../assets/audiobook/timeline.js');
+const rows=[{paragraph_id:'p1',duration:3,trim_start:.2,trim_end:2.7},{paragraph_id:'p1',duration:4,trim_start:.3,trim_end:3.8},{paragraph_id:'p2',duration:5,trim_start:.4,trim_end:4.8}];
+const t=build(rows);assert.equal(t[0].start,0);assert.equal(t[0].end,2.7);assert.equal(t[1].start,.3);assert.equal(t[1].end,4);assert.equal(t[1].gap,.35);assert.equal(t[2].start,0);assert.equal(t[2].end,5);assert.ok(Math.abs(t[2].offset-6.75)<1e-8);console.log('PASS same-paragraph cut, paragraph pauses, effective timeline');

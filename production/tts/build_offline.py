@@ -16,5 +16,8 @@ for path in sorted(root.glob('chapter-*.html'))+sorted((root/'part-ii').glob('ac
  if key=='chapter-01.html':
   for target in (root/'audio/part-1/chapter-01').glob('*'):entries.add(add(target))
  entries.add(add(root/'sw.js'));chapters[key]=sorted(entries)
+ for shared in ('manifest.webmanifest','index.html','assets/audiobook/icon-192.png','assets/audiobook/icon-512.png'):
+  if (root/shared).exists():entries.add(add(root/shared))
+ chapters[key]=sorted(entries)
 (root/'offline-manifest.json').write_text(json.dumps(dict(schema=1,chapters=chapters,files=files),ensure_ascii=False,indent=2),encoding='utf-8')
 print('Offline manifest:',len(chapters),'chapters,',len(files),'unique files')

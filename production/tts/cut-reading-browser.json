@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "paragraph_wait_pause_cancels_transition": true,
+  "reading_progress": true,
+  "independent_reading_resume": true,
+  "pwa_link": true,
+  "vocabulary_text_and_audio_preserved": true,
+  "human_listening": false
+}

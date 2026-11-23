@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "cast_identities": {
+    "narrator": {
+      "voice": "Charon",
+      "persona": "중학생에게 이야기를 들려주는 따뜻하고 또렷한 전지적 서술자. 인물의 마음과 상황을 친절하게 잇되 대사를 대신 설명하지 않는다. 본문 끝에 교훈을 덧붙이지 않는다."
+    },
+    "dedication-poet": {
+      "voice": "Algieba",
+      "persona": "지난 삶과 사람들을 돌아보는 이름 없는 창작자. 조용하고 절제된 그리움. 2장 극작가와 같은 인물이라고 단정하지 않는다."
+    },
+    "character-001": {
+      "voice": "Sadaltager",
+      "persona": "중저음, 빠른 판단과 실무 감각. 관객과 공연 준비를 챙기며 짧게 재촉한다."
+    },
+    "character-002": {
+      "voice": "Algieba",
+      "persona": "차분한 중음, 작품을 소중히 여기는 작가. 설명할 때 천천히, 자존심을 건드리면 분명하게 말한다."
+    },
+    "character-003": {
+      "voice": "Umbriel",
+      "persona": "가벼운 중음, 재치 있는 현장 배우. 상대의 진지함을 깨지 않으면서 짧게 받아친다."
+    }
+  },
+  "chapters": 2,
+  "sentences": 230,
+  "imported_audio_voice_metadata_matches": true,
+  "changed_voice_rejected": true,
+  "changed_persona_rejected": true,
+  "acoustic_identity_verified": false,
+  "reason": "Metadata cannot verify the perceived voice in generated audio"
+}

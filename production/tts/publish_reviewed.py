@@ -6,6 +6,7 @@ sys.path.insert(0,str(root/'.tools/audiobook-reader-skill/assets/gemini-canvas-t
 from build import generate
 from copy_site import build_copy_site
 from sentence_contract import validate_sentence
+from voice_identity import validate_voice_identity
 
 def validate_document(doc,cast):
  if doc['cast_revision']!=cast['revision']:raise ValueError('Cast revision changed: review required')
@@ -24,6 +25,7 @@ def validate_document(doc,cast):
 
 def main():
  cast=json.loads((root/'voice-cast.json').read_text(encoding='utf-8'));chapters=[];fingerprints={};books=[]
+ validate_voice_identity([json.loads((work/f'chapter-{n:02}-sentences.json').read_text(encoding='utf-8')) for n in (1,2)],cast)
  for n in (1,2):
   path=work/f'chapter-{n:02}-sentences.json';raw=path.read_bytes();doc=json.loads(raw)
   validate_document(doc,cast);fingerprints[str(path)]=hashlib.sha256(raw).hexdigest()
