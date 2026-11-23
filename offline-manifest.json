@@ -3050,6 +3050,11 @@
       "part-ii/images/helena-choice-mist-14.webp",
       "part-ii/images/helena-choice-mist-15.webp",
       "part-ii/images/helena-choice-mist-16.webp",
+      "part-ii/images/mist-castle-welcome-01.webp",
+      "part-ii/images/mist-castle-welcome-02.webp",
+      "part-ii/images/mist-castle-welcome-03.webp",
+      "part-ii/images/mist-castle-welcome-04.webp",
+      "part-ii/images/mist-castle-welcome-05.webp",
       "part-ii/images/phorkyas-castle-offer-01.webp",
       "part-ii/images/phorkyas-castle-offer-02.webp",
       "part-ii/images/phorkyas-castle-offer-03.webp",
@@ -3087,6 +3092,33 @@
       "index.html",
       "manifest.webmanifest",
       "part-ii/act-03-05.html",
+      "part-ii/images/faust-lynkeus-hearing-01.webp",
+      "part-ii/images/faust-lynkeus-hearing-02.webp",
+      "part-ii/images/faust-lynkeus-hearing-03.webp",
+      "part-ii/images/faust-lynkeus-hearing-04.webp",
+      "part-ii/images/faust-lynkeus-hearing-05.webp",
+      "part-ii/images/faust-lynkeus-hearing-06.webp",
+      "part-ii/images/faust-lynkeus-hearing-07.webp",
+      "part-ii/images/faust-lynkeus-hearing-08.webp",
+      "part-ii/images/faust-lynkeus-hearing-09.webp",
+      "part-ii/images/faust-lynkeus-hearing-10.webp",
+      "part-ii/images/faust-lynkeus-hearing-11.webp",
+      "part-ii/images/faust-lynkeus-hearing-12.webp",
+      "part-ii/images/faust-lynkeus-hearing-13.webp",
+      "part-ii/images/faust-lynkeus-hearing-14.webp",
+      "part-ii/images/faust-lynkeus-hearing-15.webp",
+      "part-ii/images/faust-lynkeus-hearing-16.webp",
+      "part-ii/images/mist-castle-welcome-06.webp",
+      "part-ii/images/mist-castle-welcome-07.webp",
+      "part-ii/images/mist-castle-welcome-08.webp",
+      "part-ii/images/mist-castle-welcome-09.webp",
+      "part-ii/images/mist-castle-welcome-10.webp",
+      "part-ii/images/mist-castle-welcome-11.webp",
+      "part-ii/images/mist-castle-welcome-12.webp",
+      "part-ii/images/mist-castle-welcome-13.webp",
+      "part-ii/images/mist-castle-welcome-14.webp",
+      "part-ii/images/mist-castle-welcome-15.webp",
+      "part-ii/images/mist-castle-welcome-16.webp",
       "part-ii/reader.css",
       "reader-consistency.css",
       "sw.js"
@@ -3574,8 +3606,8 @@
       "sha256": "baabb032614c29350b1226106b9b8a88dc70e47d8fdc7bfe0277c8d9cdf3620d"
     },
     "assets/audiobook/theme.css": {
-      "bytes": 7685,
-      "sha256": "6dddf2654023b264bc763651e70dca05497058329153c3bd8af1f0de635de0ff"
+      "bytes": 7747,
+      "sha256": "5f49a56cecb763eac3a44904d5e016c76fb7cdf988bbe7b2c717f9809851ab63"
     },
     "assets/audiobook/reader.css": {
       "bytes": 2720,
@@ -3602,8 +3634,8 @@
       "sha256": "ad478bedc0f49fe6c9539ef0709b111f395b0e3b7f1f5a059228240b8ff0d251"
     },
     "assets/audiobook/player.js": {
-      "bytes": 5839,
-      "sha256": "b8703c0ed2f642b9e0b9eff45d553d691779662fb889c86f6291ed25c69caad9"
+      "bytes": 6155,
+      "sha256": "b9e5fe6f5c71256d619007ce3f28883f518dd3a4ee8606cf7d94747b3b45ad5b"
     },
     "audio/part-1/chapter-01/FAUST_P1_C01_S01_0000_c01-s001_NARRATOR.mp3": {
       "bytes": 147330,
@@ -11722,8 +11754,8 @@
       "sha256": "3c497dbd05cf568118bf13c0b8f52bffde34c99d3b05f14f5b85cf7725d24b2a"
     },
     "part-ii/act-03-04.html": {
-      "bytes": 43749,
-      "sha256": "3006ee03d16a3a9cdab5aa6ea37752a9a3c65126c269b881fe5baf478ff41c3a"
+      "bytes": 44562,
+      "sha256": "567294e907c6a0bdae353536f95f1838dc9f5aac87da4bbbffb25706d45e2e94"
     },
     "part-ii/images/phorkyas-threat-rescue-13.webp": {
       "bytes": 61208,
@@ -11869,9 +11901,137 @@
       "bytes": 45372,
       "sha256": "1a1722f060a589d789a2614193f4075f3b4be4ccd78bcecebfcc3028538b4d0f"
     },
+    "part-ii/images/mist-castle-welcome-01.webp": {
+      "bytes": 25942,
+      "sha256": "e895ada5278780225dd2bcc81b28f7a8ed8ee33cf2553355ff9b978b4d9bb602"
+    },
+    "part-ii/images/mist-castle-welcome-02.webp": {
+      "bytes": 24150,
+      "sha256": "10f6336108bbeed0cc6b11b08d4352aa13e5c16ff864527f22b0bb616b4c80ad"
+    },
+    "part-ii/images/mist-castle-welcome-03.webp": {
+      "bytes": 27686,
+      "sha256": "8a8e89cc965fd3a4330e7f78cd209c3f02ea9110735ed0f7207b9da5df37d108"
+    },
+    "part-ii/images/mist-castle-welcome-04.webp": {
+      "bytes": 16262,
+      "sha256": "7f1a425a06261ff15d82933e3a4801d780a05516b6421e8990379d2346351e67"
+    },
+    "part-ii/images/mist-castle-welcome-05.webp": {
+      "bytes": 37916,
+      "sha256": "b70ddfc935d6be3acee90c749aac43532141d47fe00acbe6cf69eb5b1a9b54a7"
+    },
     "part-ii/act-03-05.html": {
-      "bytes": 32960,
-      "sha256": "000c14a322040c375828cd4c2a5442ea10bfa0297c0c2c72b5d08345ee3440b2"
+      "bytes": 37604,
+      "sha256": "a5c90559a7e1ce7e56cb8c0d5975629b1640a4b48823f045a9c20bb1c3e4c1d7"
+    },
+    "part-ii/images/mist-castle-welcome-06.webp": {
+      "bytes": 37478,
+      "sha256": "46e1a0acb806bfa04da04e548974f04698b36cb9e2ba5d8b6dc9c8b2d92ae797"
+    },
+    "part-ii/images/mist-castle-welcome-07.webp": {
+      "bytes": 34100,
+      "sha256": "e79312a1a24e87e1fd3618647da3a18a6f4fa898d4ed98cd62c6c49268419f6c"
+    },
+    "part-ii/images/mist-castle-welcome-08.webp": {
+      "bytes": 37934,
+      "sha256": "bd2a984d37d95dcb7da17276eadae14548abb11b941063ce5532268ffefeccf7"
+    },
+    "part-ii/images/mist-castle-welcome-09.webp": {
+      "bytes": 44310,
+      "sha256": "d6284e15a4e197532867c8bea9abdec0ac58c49283cfe6b2995f3231187373da"
+    },
+    "part-ii/images/mist-castle-welcome-10.webp": {
+      "bytes": 37814,
+      "sha256": "6edcee5cf547925bf603facf0a94ff9284a9d5eeb23e4402095e990282b12b7e"
+    },
+    "part-ii/images/mist-castle-welcome-11.webp": {
+      "bytes": 41670,
+      "sha256": "ba7c6cc69dd5bf0d25cf0a5cd5ff2cd4a3b089c62fc59dd1776505ea7ac5adf7"
+    },
+    "part-ii/images/mist-castle-welcome-12.webp": {
+      "bytes": 38950,
+      "sha256": "46d4a4a476b343edf9b4412086038b1039709a661c8a1eda5a990aad4c314128"
+    },
+    "part-ii/images/mist-castle-welcome-13.webp": {
+      "bytes": 41560,
+      "sha256": "128cbf5928e6bc4a34c5b6684f20fc9075d39ba5d58d6d8487c0e49900dbebc9"
+    },
+    "part-ii/images/mist-castle-welcome-14.webp": {
+      "bytes": 41178,
+      "sha256": "b1e47c6f673de48d47bbcff54df008a207bbc83496ec7c609820be15025e1ef7"
+    },
+    "part-ii/images/mist-castle-welcome-15.webp": {
+      "bytes": 35730,
+      "sha256": "49476ed47afa5bd1b5a2704effbf07d6f77e5d0c2fd15dcb7b4240c33e5bb374"
+    },
+    "part-ii/images/mist-castle-welcome-16.webp": {
+      "bytes": 39446,
+      "sha256": "740fd0f787b590f65f1632cda9c0003d474a26fcd5837eb9d85cc8e6e0ec2b49"
+    },
+    "part-ii/images/faust-lynkeus-hearing-01.webp": {
+      "bytes": 43282,
+      "sha256": "a12cc5bd3136136e2966cad6449dfefff0ce61239ad8ceff2d55a04c7c0bbf91"
+    },
+    "part-ii/images/faust-lynkeus-hearing-02.webp": {
+      "bytes": 48152,
+      "sha256": "e8bfdbd2c49a2954c4422dbc649479f6cef4d9db0de66601904bd355b3b446c1"
+    },
+    "part-ii/images/faust-lynkeus-hearing-03.webp": {
+      "bytes": 40200,
+      "sha256": "b72fd3816764196e86f0604f89fdf06168063f57fc94921bef1cc66e326985f5"
+    },
+    "part-ii/images/faust-lynkeus-hearing-04.webp": {
+      "bytes": 37428,
+      "sha256": "43a705afd2b13a3d82b267a8915daa17e2e094011fd7bce4887a8185c7e2c84f"
+    },
+    "part-ii/images/faust-lynkeus-hearing-05.webp": {
+      "bytes": 39978,
+      "sha256": "ba443c774e9999a811dc724f1395abb0cb4e62cca0e46f3b753d391de96e6dd8"
+    },
+    "part-ii/images/faust-lynkeus-hearing-06.webp": {
+      "bytes": 39972,
+      "sha256": "33a544308aa92b16b6cdfbd35be0f98bd87f629f27b3096d2066b55773399d59"
+    },
+    "part-ii/images/faust-lynkeus-hearing-07.webp": {
+      "bytes": 38914,
+      "sha256": "2ade4b3e39bf420c8387ad985cd5f0e878c4d3f2d890929fe4599da7ecc27a85"
+    },
+    "part-ii/images/faust-lynkeus-hearing-08.webp": {
+      "bytes": 44172,
+      "sha256": "2a1a4159c186c44a6f96f8f6f6a7d85c67edf0a7f8b98577cd43fae8a591c395"
+    },
+    "part-ii/images/faust-lynkeus-hearing-09.webp": {
+      "bytes": 37928,
+      "sha256": "cd5c5c401c0ee79eb85eb91145415f2e4f02118957bfb1e2d9370386c5a1caf0"
+    },
+    "part-ii/images/faust-lynkeus-hearing-10.webp": {
+      "bytes": 41682,
+      "sha256": "5bf32d646bc0a1355be50e582ee4c2eec6d409fa1d97e488bb03c034470366da"
+    },
+    "part-ii/images/faust-lynkeus-hearing-11.webp": {
+      "bytes": 46074,
+      "sha256": "df138dd9869d3854437dd2a594dfd427b9e010160494cdc5a8b501b1e053ebd1"
+    },
+    "part-ii/images/faust-lynkeus-hearing-12.webp": {
+      "bytes": 41950,
+      "sha256": "2acb5688a657c8f48b3ee0111f663d7977ba2b84cef8cf829e72119efe671ea2"
+    },
+    "part-ii/images/faust-lynkeus-hearing-13.webp": {
+      "bytes": 41640,
+      "sha256": "194b11092db85168a5616cbdf9cbccc03043a3b8845a1f0ac3400664b381374f"
+    },
+    "part-ii/images/faust-lynkeus-hearing-14.webp": {
+      "bytes": 35780,
+      "sha256": "5aa750dda03d4e1d17ac7db8528ba863c86077b5cd6e4f056806e76bef4ed5e7"
+    },
+    "part-ii/images/faust-lynkeus-hearing-15.webp": {
+      "bytes": 41528,
+      "sha256": "ee862d6b2b604fe41b869b602068c9bdf28a1eec2ff4ae8515dbc53e41c278fa"
+    },
+    "part-ii/images/faust-lynkeus-hearing-16.webp": {
+      "bytes": 42394,
+      "sha256": "5a5e0fc1057096391f9317a98e52b444094899e140a26e3e6c02a01b29d3bce8"
     },
     "part-ii/act-03-06.html": {
       "bytes": 32124,

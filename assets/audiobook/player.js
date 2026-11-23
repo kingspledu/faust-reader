@@ -19,7 +19,9 @@
   play.onclick=()=>{if(waitingNext!==null){clearTimeout(timer);const next=waitingNext;select(next,false);return;}if(audio.paused)start();else audio.pause();};rate.onchange=()=>{audio.playbackRate=Number(rate.value);remember();};seek.oninput=()=>{clearTimeout(timer);waitingNext=null;ending=false;audio.currentTime=Number(seek.value);remember();};
   audio.onloadedmetadata=()=>{seek.min=timeline[position].start;seek.max=timeline[position].end;const target=Math.max(timeline[position].start,Math.min(pendingTime||timeline[position].start,Math.max(0,timeline[position].end-.05)));pendingTime=0;audio.currentTime=target;restoring=false;};
   audio.ontimeupdate=()=>{seek.value=audio.currentTime;remember();const r=rows[position],next=rows[position+1];if(!ending&&!audio.paused&&next&&next.paragraph_id===r.paragraph_id&&r.trim_end&&audio.currentTime>=r.trim_end){ending=true;select(position+1,true);}};
-  audio.onplay=()=>{play.textContent='일시정지';};audio.onpause=()=>{play.textContent='재생';};
+  const hideSources=on=>{document.documentElement.classList.toggle('faust-audio-reading',on);document.querySelectorAll('.source-fold').forEach(n=>{n.inert=on;});};
+  audio.onplay=()=>{play.textContent='일시정지';hideSources(true);};audio.onpause=()=>{play.textContent='재생';hideSources(false);};
+  audio.addEventListener('ended',()=>hideSources(false));audio.addEventListener('error',()=>hideSources(false));
   audio.onended=()=>{if(ending)return;ending=true;if(position+1<rows.length){waitingNext=position+1;play.textContent='일시정지';timer=setTimeout(()=>select(position+1,true),timeline[position].gap*1000);}else{select(0);status.textContent=manifest.chapter+'장 듣기 완료';}};
   for(const row of rows){const node=document.getElementById(row.sentence_id);node.tabIndex=0;node.addEventListener('click',e=>{if(!e.target.closest('button,a'))select(rows.indexOf(row),true);});node.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.target.closest('button,a')){e.preventDefault();select(rows.indexOf(row),true);}});}
   audio.onerror=()=>{status.textContent='음성을 불러오지 못했습니다. 다시 재생하거나 다음 문장으로 이동해 주세요.';};window.addEventListener('pagehide',()=>{remember();clearTimeout(timer);audio.pause();});

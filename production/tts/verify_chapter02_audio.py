@@ -9,6 +9,9 @@ try:
   page.locator('[data-play]').click();page.wait_for_function("document.querySelector('audio').currentTime>1.5");page.locator('[data-play]').click()
   page.locator('#faust-settings > summary').click();page.locator('#faust-rate').select_option('1.2');page.reload();page.wait_for_function("document.querySelector('audio')?.currentTime>1.4")
   assert page.locator('audio').evaluate('(a)=>a.playbackRate')==1.2
+  page.locator('[data-play]').click();page.wait_for_function("document.documentElement.classList.contains('faust-audio-reading')")
+  assert page.locator('.source-fold').first.evaluate('(n)=>getComputedStyle(n).display')=='none'
+  page.locator('[data-play]').click();assert page.locator('.source-fold').first.evaluate('(n)=>getComputedStyle(n).display')!='none'
   page.locator('[data-next]').click();assert '2/170' in page.locator('#faust-audio [role=status]').inner_text()
   page.locator('#reader-layout-toggle').click();assert page.locator('audio').count()==1
   page.goto(origin+'/chapter-01.html');page.wait_for_function("document.querySelector('#faust-audio [role=status]')?.textContent.includes('/60')")
