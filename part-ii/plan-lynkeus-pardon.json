@@ -1,0 +1,104 @@
+{
+  "batch_id": "lynkeus-pardon",
+  "grid": [
+    4,
+    4
+  ],
+  "source_image": "source_images/lynkeus-pardon-grid-001.png",
+  "references": [
+    "character-faust",
+    "character-iii-helena",
+    "character-iii-lynkeus",
+    "group-iii-castle-attendants",
+    "place-iii-faust-courtyard"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-faust.png",
+    "art-bible/character-iii-helena.png",
+    "art-bible/character-iii-lynkeus.png",
+    "art-bible/group-iii-castle-attendants.png",
+    "art-bible/place-iii-faust-courtyard.png"
+  ],
+  "scenes": [
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6312",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6312"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6316",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6316"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6320",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6320"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6324",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6324"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6330",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6330"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6334",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6334"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6338",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6338"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6344",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6344"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6348",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6348"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6352",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6352"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6356",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6356"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6361",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6361"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6365",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6365"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6369",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6369"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6373",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6373"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6377",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6377"
+    }
+  ]
+}

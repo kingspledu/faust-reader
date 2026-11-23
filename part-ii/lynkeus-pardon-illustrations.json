@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/lynkeus-pardon-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-faust",
+    "character-iii-helena",
+    "character-iii-lynkeus",
+    "group-iii-castle-attendants",
+    "place-iii-faust-courtyard"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-faust.png",
+    "art-bible/character-iii-helena.png",
+    "art-bible/character-iii-lynkeus.png",
+    "art-bible/group-iii-castle-attendants.png",
+    "art-bible/place-iii-faust-courtyard.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6312",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6312",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/lynkeus-pardon-01.webp",
+      "sha256": "85372bbf36eb3a4a6c01268518d3184a1e7a7d6b418722a0822bb91fbd2aec8e"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6316",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6316",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/lynkeus-pardon-02.webp",
+      "sha256": "8a0cb3c906735b4a9748b58de0b2c8a61f034102fe182e8bda3994f5662aae15"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6320",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6320",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/lynkeus-pardon-03.webp",
+      "sha256": "67d7a2a20a906ae7abc91358953de4a9f6f4e08490f5c2c45a94071eb9974464"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6324",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6324",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/lynkeus-pardon-04.webp",
+      "sha256": "c756b516dab77c98d751e023d7f33ffb70ab3e2fdb28f17ca58cfc6d3df974a7"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6330",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6330",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/lynkeus-pardon-05.webp",
+      "sha256": "8ac37cf7f1592313ad2377d7fab01f9f1645ddf1bb5b169b82b97c61ccf44d2a"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6334",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6334",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/lynkeus-pardon-06.webp",
+      "sha256": "837dcf69fe9255a518fb823027f959aa11a4b27017f73ea9854eeb916f599146"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6338",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6338",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/lynkeus-pardon-07.webp",
+      "sha256": "28bf6a71d4d2ea8cb596d9b63a911321ea3aa79ecd8e9c8298aa50ef3e4126e1"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6344",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6344",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/lynkeus-pardon-08.webp",
+      "sha256": "e265018e39d00b3610f3c6b64c1ffb41c834d5cd52428b4b76896e9559a39a8b"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6348",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6348",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/lynkeus-pardon-09.webp",
+      "sha256": "477f23469ebe0db217f0dac50e298b7d2373ced59bf9a5df5b824cd769f329cc"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6352",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6352",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/lynkeus-pardon-10.webp",
+      "sha256": "859c0c56efa5e639d44f99dd3eee9629305db3beb91e6f6e8a5b2b83250468b5"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6356",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6356",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/lynkeus-pardon-11.webp",
+      "sha256": "09ace052c0b3f0c48af3d69c572e7885cf03a299359571e822a0a10449a1bccf"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6361",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6361",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/lynkeus-pardon-12.webp",
+      "sha256": "fb3c9a897bcdb66cbd7f765853e7a85d8857b77fd87b839c6c2b26284f07f947"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6365",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6365",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/lynkeus-pardon-13.webp",
+      "sha256": "2f98a0863717506f8a7dd62ef8229fca04a4d08ea0702f4937c55e8765446db6"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6369",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6369",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/lynkeus-pardon-14.webp",
+      "sha256": "06815bf74b861dd8408f53f026f401105f35affa2f4c5dbee83bced1ace4386c"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6373",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6373",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/lynkeus-pardon-15.webp",
+      "sha256": "17e052068964f751d152f159abc67fce1f3bbc8b991147f4ed79cf1ed9077d55"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6377",
+      "description": "성 안뜰에서 이어지는 인물의 대화와 반응 · source-6377",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/lynkeus-pardon-16.webp",
+      "sha256": "7493cae3dda176355b6db813a5d587128d1e2e8d9eb234499d962ff3bad667d9"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
