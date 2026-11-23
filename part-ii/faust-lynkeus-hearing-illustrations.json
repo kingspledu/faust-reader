@@ -1,0 +1,288 @@
+{
+  "source_image": "source_images/faust-lynkeus-hearing-grid-001.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-iii-helena",
+    "group-iii-helena-chorus",
+    "character-iii-panthalis",
+    "place-iii-faust-courtyard",
+    "group-iii-castle-attendants",
+    "character-iii-lynkeus",
+    "character-faust"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-faust.png",
+    "art-bible/character-iii-helena.png",
+    "art-bible/character-iii-lynkeus.png",
+    "art-bible/group-iii-castle-attendants.png",
+    "part-ii/source_images/mist-castle-welcome-grid-001.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6240",
+      "description": "시종들이 천개와 좌석을 설치한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        383,
+        255
+      ],
+      "image": "images/faust-lynkeus-hearing-01.webp",
+      "sha256": "a12cc5bd3136136e2966cad6449dfefff0ce61239ad8ceff2d55a04c7c0bbf91"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6244",
+      "description": "헬레네가 초대받은 자리에 앉고 시녀들이 다가온다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        385,
+        1,
+        767,
+        255
+      ],
+      "image": "images/faust-lynkeus-hearing-02.webp",
+      "sha256": "e8bfdbd2c49a2954c4422dbc649479f6cef4d9db0de66601904bd355b3b446c1"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6248",
+      "description": "시녀들이 계단 곁에 줄지어 선다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        769,
+        1,
+        1151,
+        255
+      ],
+      "image": "images/faust-lynkeus-hearing-03.webp",
+      "sha256": "b72fd3816764196e86f0604f89fdf06168063f57fc94921bef1cc66e326985f5"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6252",
+      "description": "판탈리스가 다가오는 파우스트를 보고 말한다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        1153,
+        1,
+        1535,
+        255
+      ],
+      "image": "images/faust-lynkeus-hearing-04.webp",
+      "sha256": "43a705afd2b13a3d82b267a8915daa17e2e094011fd7bce4887a8185c7e2c84f"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6258",
+      "description": "판탈리스가 파우스트를 평가하며 헬레네에게 권한다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        257,
+        383,
+        511
+      ],
+      "image": "images/faust-lynkeus-hearing-05.webp",
+      "sha256": "ba443c774e9999a811dc724f1395abb0cb4e62cca0e46f3b753d391de96e6dd8"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6262",
+      "description": "파우스트가 헬레네에게 다가와 인사한다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        385,
+        257,
+        767,
+        511
+      ],
+      "image": "images/faust-lynkeus-hearing-06.webp",
+      "sha256": "33a544308aa92b16b6cdfbd35be0f98bd87f629f27b3096d2066b55773399d59"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6268",
+      "description": "파우스트가 쇠사슬 찬 륀케우스를 헬레네 앞에 데려온다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        769,
+        257,
+        1151,
+        511
+      ],
+      "image": "images/faust-lynkeus-hearing-07.webp",
+      "sha256": "2ade4b3e39bf420c8387ad985cd5f0e878c4d3f2d890929fe4599da7ecc27a85"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6272",
+      "description": "파우스트가 파수꾼 륀케우스의 임무를 설명한다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        1153,
+        257,
+        1535,
+        511
+      ],
+      "image": "images/faust-lynkeus-hearing-08.webp",
+      "sha256": "2a1a4159c186c44a6f96f8f6f6a7d85c67edf0a7f8b98577cd43fae8a591c395"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6276",
+      "description": "파우스트가 탑에서 살피는 일을 말한다. 실제 군대를 추가하지 않는다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        513,
+        383,
+        767
+      ],
+      "image": "images/faust-lynkeus-hearing-09.webp",
+      "sha256": "cd5c5c401c0ee79eb85eb91145415f2e4f02118957bfb1e2d9370386c5a1caf0"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6280",
+      "description": "파우스트가 도착을 알리지 않은 잘못을 말한다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        385,
+        513,
+        767,
+        767
+      ],
+      "image": "images/faust-lynkeus-hearing-10.webp",
+      "sha256": "5bf32d646bc0a1355be50e582ee4c2eec6d409fa1d97e488bb03c034470366da"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6284",
+      "description": "헬레네가 륀케우스를 보고 판단에 관해 답한다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        769,
+        513,
+        1151,
+        767
+      ],
+      "image": "images/faust-lynkeus-hearing-11.webp",
+      "sha256": "df138dd9869d3854437dd2a594dfd427b9e010160494cdc5a8b501b1e053ebd1"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6290",
+      "description": "헬레네가 먼저 해명을 듣겠다고 말한다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        1153,
+        513,
+        1535,
+        767
+      ],
+      "image": "images/faust-lynkeus-hearing-12.webp",
+      "sha256": "2acb5688a657c8f48b3ee0111f663d7977ba2b84cef8cf829e72119efe671ea2"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6294",
+      "description": "륀케우스가 무릎을 꿇고 헬레네에게 말한다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        769,
+        383,
+        1023
+      ],
+      "image": "images/faust-lynkeus-hearing-13.webp",
+      "sha256": "194b11092db85168a5616cbdf9cbccc03043a3b8845a1f0ac3400664b381374f"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6300",
+      "description": "륀케우스가 헬레네를 태양에 비유한다. 실제 두 태양을 그리지 않는다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        385,
+        769,
+        767,
+        1023
+      ],
+      "image": "images/faust-lynkeus-hearing-14.webp",
+      "sha256": "5aa750dda03d4e1d17ac7db8528ba863c86077b5cd6e4f056806e76bef4ed5e7"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6304",
+      "description": "륀케우스가 눈길을 빼앗긴 순간을 설명한다. 현재의 해명 장면이다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        769,
+        769,
+        1151,
+        1023
+      ],
+      "image": "images/faust-lynkeus-hearing-15.webp",
+      "sha256": "ee862d6b2b604fe41b869b602068c9bdf28a1eec2ff4ae8515dbc53e41c278fa"
+    },
+    {
+      "section": "act-03-05",
+      "scene_id": "source-6308",
+      "description": "륀케우스가 꿈에서 깬 듯한 혼란을 말한다. 현재 인물들의 반응을 보여 준다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        1153,
+        769,
+        1535,
+        1023
+      ],
+      "image": "images/faust-lynkeus-hearing-16.webp",
+      "sha256": "5a5e0fc1057096391f9317a98e52b444094899e140a26e3e6c02a01b29d3bce8"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
