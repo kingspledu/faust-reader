@@ -1,0 +1,286 @@
+{
+  "source_image": "source_images/lynkeus-treasure-offer-grid-001.png",
+  "source_size": [
+    1261,
+    1247
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "references": [
+    "character-faust",
+    "character-iii-helena",
+    "character-iii-lynkeus",
+    "group-iii-castle-attendants",
+    "place-iii-faust-courtyard"
+  ],
+  "generation_reference_images": [
+    "art-bible/character-faust.png",
+    "art-bible/character-iii-helena.png",
+    "art-bible/character-iii-lynkeus.png",
+    "art-bible/group-iii-castle-attendants.png",
+    "art-bible/place-iii-faust-courtyard.png"
+  ],
+  "generation_reference_note": "",
+  "records": [
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6381",
+      "description": "륀케우스가 희귀한 보물을 찾던 일을 말한다.",
+      "panel": 1,
+      "row": 1,
+      "column": 1,
+      "crop": [
+        1,
+        1,
+        314,
+        311
+      ],
+      "image": "images/lynkeus-treasure-offer-01.webp",
+      "sha256": "cfb6263ed12d97c2aa843a8e5943783332268c64e3d3c4b48718a3bdc6010612"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6385",
+      "description": "륀케우스가 보물 탐색을 설명한다. 현재 대화만 그린다.",
+      "panel": 2,
+      "row": 1,
+      "column": 2,
+      "crop": [
+        316,
+        1,
+        629,
+        311
+      ],
+      "image": "images/lynkeus-treasure-offer-02.webp",
+      "sha256": "fba2174c95ea735684ef73468376aa62f11b118d58aa9ccd51a0a608214ce2c0"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6389",
+      "description": "륀케우스가 에메랄드를 제안한다.",
+      "panel": 3,
+      "row": 1,
+      "column": 3,
+      "crop": [
+        631,
+        1,
+        945,
+        311
+      ],
+      "image": "images/lynkeus-treasure-offer-03.webp",
+      "sha256": "9db31112f51d396b2675847033db5441d452acb973640ddda2bb2f419247cdf4"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6393",
+      "description": "륀케우스가 진주와 루비를 말한다.",
+      "panel": 4,
+      "row": 1,
+      "column": 4,
+      "crop": [
+        947,
+        1,
+        1260,
+        311
+      ],
+      "image": "images/lynkeus-treasure-offer-04.webp",
+      "sha256": "579fe2b62927ededd6a9ffb26a223bddb4ba27e6860ccb5fffe4f7c506924d41"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6397",
+      "description": "보물 상자를 헬레네의 자리 앞에 가져온다.",
+      "panel": 5,
+      "row": 2,
+      "column": 1,
+      "crop": [
+        1,
+        313,
+        314,
+        623
+      ],
+      "image": "images/lynkeus-treasure-offer-05.webp",
+      "sha256": "7c37c0f71bc30d8fd9727c1b63d4a0fd76630f9b6034464d1a00bd69832b301e"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6401",
+      "description": "시종들이 보물 상자를 운반한다.",
+      "panel": 6,
+      "row": 2,
+      "column": 2,
+      "crop": [
+        316,
+        313,
+        629,
+        623
+      ],
+      "image": "images/lynkeus-treasure-offer-06.webp",
+      "sha256": "c7ff2bc1391b4a8597d6d3bdd70db405a7a52e2417926013c0b3c0de6d746aa9"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6405",
+      "description": "륀케우스가 헬레네 앞에서 존경을 표한다.",
+      "panel": 7,
+      "row": 2,
+      "column": 3,
+      "crop": [
+        631,
+        313,
+        945,
+        623
+      ],
+      "image": "images/lynkeus-treasure-offer-07.webp",
+      "sha256": "6685ef1f7dbb54e1984dd1c94bc7aa673ba8f57c8f7ba16a0e881def243c747b"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6409",
+      "description": "륀케우스가 소유했던 보물을 내놓겠다고 말한다.",
+      "panel": 8,
+      "row": 2,
+      "column": 4,
+      "crop": [
+        947,
+        313,
+        1260,
+        623
+      ],
+      "image": "images/lynkeus-treasure-offer-08.webp",
+      "sha256": "f4de86312b8e6c1750cdf65ae1003071a2ffc73af9426ed912805eeecd221fbf"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6413",
+      "description": "륀케우스가 헬레네의 눈길을 청한다.",
+      "panel": 9,
+      "row": 3,
+      "column": 1,
+      "crop": [
+        1,
+        625,
+        314,
+        934
+      ],
+      "image": "images/lynkeus-treasure-offer-09.webp",
+      "sha256": "560e41698114ffe8d4431ba490389183b1dea5f402f80b8117d1b4429462062f"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6417",
+      "description": "파우스트가 보물을 옮기라고 명한다.",
+      "panel": 10,
+      "row": 3,
+      "column": 2,
+      "crop": [
+        316,
+        625,
+        629,
+        934
+      ],
+      "image": "images/lynkeus-treasure-offer-10.webp",
+      "sha256": "313c880eda50661c5b7d4aaf8b4f1dadc9eb235d14ffc16483e34a3cdf9e5b7c"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6423",
+      "description": "파우스트가 보물을 정리하라고 말한다.",
+      "panel": 11,
+      "row": 3,
+      "column": 3,
+      "crop": [
+        631,
+        625,
+        945,
+        934
+      ],
+      "image": "images/lynkeus-treasure-offer-11.webp",
+      "sha256": "4e087125df4e4e6ab72efe2a4c246bd873c32777ce81a45526fd0b32a881d7e9"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6427",
+      "description": "시종들이 이동 경로에 카펫을 펼친다.",
+      "panel": 12,
+      "row": 3,
+      "column": 4,
+      "crop": [
+        947,
+        625,
+        1260,
+        934
+      ],
+      "image": "images/lynkeus-treasure-offer-12.webp",
+      "sha256": "97c9d5dc4c39087cec9fd3f6ef93ef4f603dfa9ac3050f47240ee497cf365325"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6431",
+      "description": "륀케우스가 파우스트의 명령에 답한다.",
+      "panel": 13,
+      "row": 4,
+      "column": 1,
+      "crop": [
+        1,
+        936,
+        314,
+        1246
+      ],
+      "image": "images/lynkeus-treasure-offer-13.webp",
+      "sha256": "92b812983cca6ddfe5a456d6f1fde06a869a5f77deb86e05bb20f28609531f2b"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6437",
+      "description": "륀케우스가 아름다움의 힘을 비유한다. 실제 군대를 추가하지 않는다.",
+      "panel": 14,
+      "row": 4,
+      "column": 2,
+      "crop": [
+        316,
+        936,
+        629,
+        1246
+      ],
+      "image": "images/lynkeus-treasure-offer-14.webp",
+      "sha256": "896a58e66c6bc206df548ec7a35013269b1de683436e60f61f59bee0841aaba2"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6441",
+      "description": "헬레네가 파우스트에게 곁으로 오라고 청한다.",
+      "panel": 15,
+      "row": 4,
+      "column": 3,
+      "crop": [
+        631,
+        936,
+        945,
+        1246
+      ],
+      "image": "images/lynkeus-treasure-offer-15.webp",
+      "sha256": "591a276d091b0338feee00230593f9245b819a6a43f18d13730ff535e9cb0db9"
+    },
+    {
+      "section": "act-03-06",
+      "scene_id": "source-6447",
+      "description": "파우스트가 무릎을 꿇고 헬레네에게 손을 청한다.",
+      "panel": 16,
+      "row": 4,
+      "column": 4,
+      "crop": [
+        947,
+        936,
+        1260,
+        1246
+      ],
+      "image": "images/lynkeus-treasure-offer-16.webp",
+      "sha256": "38c3f3802e528745c6f8dfd6dcdcde2113026d24da55760c56e024751a833c54"
+    }
+  ],
+  "source_translation_preserved": true,
+  "correction": ""
+}
